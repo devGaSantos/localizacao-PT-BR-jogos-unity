@@ -1,0 +1,4985 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = -2766267126516050984
+ 1 string m_Name = "UI_en"
+ 0 LocaleIdentifier m_LocaleId
+  1 string m_Code = "en"
+ 0 PPtr<$SharedTableData> m_SharedData
+  0 int m_FileID = 2
+  0 SInt64 m_PathID = 537502759906279717
+ 0 MetadataCollection m_Metadata
+  0 IMetadata m_Items
+   0 Array Array (1 items)
+    0 int size = 1
+    [0]
+     0 managedRefArrayItem data
+      0 SInt64 rid = 0
+ 0 TableEntryData m_TableData
+  0 Array Array (595 items)
+   0 int size = 595
+   [0]
+    0 TableEntryData data
+     0 SInt64 m_Id = 7880712146944
+     1 string m_Localized = "Pegar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [1]
+    0 TableEntryData data
+     0 SInt64 m_Id = 8121742020608
+     1 string m_Localized = "Comer"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [2]
+    0 TableEntryData data
+     0 SInt64 m_Id = 8153463541760
+     1 string m_Localized = "Ver Informações"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [3]
+    0 TableEntryData data
+     0 SInt64 m_Id = 8195742126080
+     1 string m_Localized = "Mudar Posição do Slot"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [4]
+    0 TableEntryData data
+     0 SInt64 m_Id = 8243750129664
+     1 string m_Localized = "Cancelar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [5]
+    0 TableEntryData data
+     0 SInt64 m_Id = 334058102738944
+     1 string m_Localized = "Sim"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [6]
+    0 TableEntryData data
+     0 SInt64 m_Id = 334103350890496
+     1 string m_Localized = "Não"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [7]
+    0 TableEntryData data
+     0 SInt64 m_Id = 334124242718720
+     1 string m_Localized = "Prosseguir com o processamento?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [8]
+    0 TableEntryData data
+     0 SInt64 m_Id = 334536354058240
+     1 string m_Localized = "Você não tem ingredientes suficientes."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [9]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1799163042615296
+     1 string m_Localized = "Largar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [10]
+    0 TableEntryData data
+     0 SInt64 m_Id = 2927010805207040
+     1 string m_Localized = "-"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [11]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4757617863884800
+     1 string m_Localized = "Peso"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [12]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4757619906510848
+     1 string m_Localized = "Tamanho"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [13]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4760520653602816
+     1 string m_Localized = "Dia"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [14]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4760757891825664
+     1 string m_Localized = "Noite"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [15]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4760773607882752
+     1 string m_Localized = "Sempre"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [16]
+    0 TableEntryData data
+     0 SInt64 m_Id = 17772715507994624
+     1 string m_Localized = "Mediano"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [17]
+    0 TableEntryData data
+     0 SInt64 m_Id = 17772786475618304
+     1 string m_Localized = "Especial"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [18]
+    0 TableEntryData data
+     0 SInt64 m_Id = 19942091490283520
+     1 string m_Localized = "Novo Jogo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [19]
+    0 TableEntryData data
+     0 SInt64 m_Id = 19942152727121920
+     1 string m_Localized = "Sair"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [20]
+    0 TableEntryData data
+     0 SInt64 m_Id = 22175685600301056
+     1 string m_Localized = "Configurações"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [21]
+    0 TableEntryData data
+     0 SInt64 m_Id = 23511265122668544
+     1 string m_Localized = "Configurações"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [22]
+    0 TableEntryData data
+     0 SInt64 m_Id = 27572542315974656
+     1 string m_Localized = "Ok"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [23]
+    0 TableEntryData data
+     0 SInt64 m_Id = 28699300389998592
+     1 string m_Localized = "Não há missões em andamento"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [24]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35189575816794112
+     1 string m_Localized = "Modo de Janela"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [25]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35189605579575296
+     1 string m_Localized = "Tela Cheia com Borda"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [26]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35189558704033792
+     1 string m_Localized = "<color=#85eb46>Mostrará a arte corretamente.</color>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [27]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35189527745875968
+     1 string m_Localized = "Escala de Resolução"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [28]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35189331204984832
+     1 string m_Localized = "Resolução de Tela"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [29]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35189509639065600
+     1 string m_Localized = "Alterar Resolução de Tela."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [30]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35195457963249664
+     1 string m_Localized = "Janela"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [31]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35195477810696192
+     1 string m_Localized = "Modo Tela Cheia"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [32]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35195668978683904
+     1 string m_Localized = "<color=red>Essa opção pode deixar a\narte borrada</color>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [33]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35196755169202176
+     1 string m_Localized = "Salvar e Sair"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [34]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35227070586703872
+     1 string m_Localized = "Receita "{0}""
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [35]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35916793359278080
+     1 string m_Localized = "Mover"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [36]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35917312811245568
+     1 string m_Localized = "Correr"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [37]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35917398861586432
+     1 string m_Localized = "Andar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [38]
+    0 TableEntryData data
+     0 SInt64 m_Id = 37700588629872640
+     1 string m_Localized = "Continuar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [39]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55787354971721728
+     1 string m_Localized = "Missões Principais"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [40]
+    0 TableEntryData data
+     0 SInt64 m_Id = 57641919940984832
+     1 string m_Localized = "Nenhum"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [41]
+    0 TableEntryData data
+     0 SInt64 m_Id = 61274720658280448
+     1 string m_Localized = "Usar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [42]
+    0 TableEntryData data
+     0 SInt64 m_Id = 88459381810352128
+     1 string m_Localized = "Salvo."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [43]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3268003920367616
+     1 string m_Localized = "Fácil"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [44]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3268044663836672
+     1 string m_Localized = "Médio"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [45]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3268058647646208
+     1 string m_Localized = "Difícil"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [46]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3268077526208512
+     1 string m_Localized = "Estágio 1"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [47]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3268103581224960
+     1 string m_Localized = "Estágio 2"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [48]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3268130068254720
+     1 string m_Localized = "Estágio 3"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [49]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3268142546309120
+     1 string m_Localized = "Estágio 4"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [50]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3268156697890816
+     1 string m_Localized = "Estágio 5"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [51]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3268175589036032
+     1 string m_Localized = "Não Mexer"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [52]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3268217758568448
+     1 string m_Localized = "Sentido Horário"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [53]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3268285265891328
+     1 string m_Localized = "Sentid Anti-horário"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [54]
+    0 TableEntryData data
+     0 SInt64 m_Id = 5123555747188736
+     1 string m_Localized = "Ferramentas de coleta"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [55]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10527555401306112
+     1 string m_Localized = "Selecionar Ingrediente"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [56]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10527710963847168
+     1 string m_Localized = "Remover Ingrediente"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [57]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10527749438197760
+     1 string m_Localized = "Controle da Força do Fogo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [58]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10527784779403264
+     1 string m_Localized = "Controle Direção da Concha"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [59]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10527859018584064
+     1 string m_Localized = "Sair"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [60]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10527881143537664
+     1 string m_Localized = "Processo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [61]
+    0 TableEntryData data
+     0 SInt64 m_Id = 12054504451887104
+     1 string m_Localized = "Você não pode usar este item"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [62]
+    0 TableEntryData data
+     0 SInt64 m_Id = 12055119357825024
+     1 string m_Localized = "Você não pode adicionar mais"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [63]
+    0 TableEntryData data
+     0 SInt64 m_Id = 12055429946036224
+     1 string m_Localized = "Não há itens selecionados"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [64]
+    0 TableEntryData data
+     0 SInt64 m_Id = 22503870375415808
+     1 string m_Localized = "Seu inventário está cheio."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [65]
+    0 TableEntryData data
+     0 SInt64 m_Id = 22573180842168320
+     1 string m_Localized = "Você não tem resistência suficiente."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [66]
+    0 TableEntryData data
+     0 SInt64 m_Id = 25778089276231680
+     1 string m_Localized = "Continuar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [67]
+    0 TableEntryData data
+     0 SInt64 m_Id = 25778311687589888
+     1 string m_Localized = "Ver Controles"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [68]
+    0 TableEntryData data
+     0 SInt64 m_Id = 25778350946275328
+     1 string m_Localized = "Configurações Gráficas"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [69]
+    0 TableEntryData data
+     0 SInt64 m_Id = 25778397851176960
+     1 string m_Localized = "Voltar ao Menu Principal"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [70]
+    0 TableEntryData data
+     0 SInt64 m_Id = 33029162869215232
+     1 string m_Localized = "Você irá acordar hoje às {0}:{1}.\nDormir?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [71]
+    0 TableEntryData data
+     0 SInt64 m_Id = 33029209904140288
+     1 string m_Localized = "Você irá acordar amanhãs às {0}:{1}.\nDormir?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [72]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35917486291853312
+     1 string m_Localized = "Confirmar interação"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [73]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35917603057082368
+     1 string m_Localized = "Usar Slot Rápido"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [74]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35917727300755456
+     1 string m_Localized = "Abrir Inventário"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [75]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35917893021900800
+     1 string m_Localized = "Editar Slot Rápido"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [76]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35917978757668864
+     1 string m_Localized = "Mudar Ferramenta"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [77]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35918025079562240
+     1 string m_Localized = "Abrir Enciclopédia"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [78]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35918130151071744
+     1 string m_Localized = "Configurações"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [79]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35918203173904384
+     1 string m_Localized = "Abrir Memorando"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [80]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35918499358875648
+     1 string m_Localized = "Guia Controles"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [81]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35921711793086464
+     1 string m_Localized = "Voar de Vassoura"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [82]
+    0 TableEntryData data
+     0 SInt64 m_Id = 35922241567236096
+     1 string m_Localized = "Pular diálogo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [83]
+    0 TableEntryData data
+     0 SInt64 m_Id = 37758659191394304
+     1 string m_Localized = "Tirar um cochilo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [84]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55787450165645312
+     1 string m_Localized = "Missões de Aldeões"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [85]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55787469887262720
+     1 string m_Localized = "Missões concluídas"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [86]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85860013050712064
+     1 string m_Localized = "Você não tem itens suficientes para processar."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [87]
+    0 TableEntryData data
+     0 SInt64 m_Id = 86662927923040256
+     1 string m_Localized = "Missões secundárias"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [88]
+    0 TableEntryData data
+     0 SInt64 m_Id = 86983242632941568
+     1 string m_Localized = "Missões"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [89]
+    0 TableEntryData data
+     0 SInt64 m_Id = 86983721014284288
+     1 string m_Localized = "Palavra-chave"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [90]
+    0 TableEntryData data
+     0 SInt64 m_Id = 88759567147663360
+     1 string m_Localized = "Atividade de treinamento"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [91]
+    0 TableEntryData data
+     0 SInt64 m_Id = 114216110502510592
+     1 string m_Localized = "Mover Tudo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [92]
+    0 TableEntryData data
+     0 SInt64 m_Id = 114599772417708032
+     1 string m_Localized = "Seu armazenamento está cheio."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [93]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118183553021681664
+     1 string m_Localized = "Descrição da missão"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [94]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118183973613903872
+     1 string m_Localized = "Cliente"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [95]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118184138466828288
+     1 string m_Localized = "Recompensa"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [96]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118184239834767360
+     1 string m_Localized = "Palavras-chave privadas"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [97]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118186492767412224
+     1 string m_Localized = "Palavras-chave ativas"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [98]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118187148152578048
+     1 string m_Localized = "Missões relacionadas"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [99]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118187553230069760
+     1 string m_Localized = "Pessoas relacionadas"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [100]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118187734189121536
+     1 string m_Localized = "Nenhuma palavra-chave"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [101]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118481407321743360
+     1 string m_Localized = "Palavra-chave obtida"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [102]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118498173510918144
+     1 string m_Localized = "Registrar na Enciclopédia"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [103]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118502407140712448
+     1 string m_Localized = "Segure para Craftar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [104]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118553869452337152
+     1 string m_Localized = "Obrigado por jogar!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [105]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118568168065359872
+     1 string m_Localized = "Nenhum"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [106]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118582823054909440
+     1 string m_Localized = "Comprar Tudo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [107]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118582952193335296
+     1 string m_Localized = "Vender Tudo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [108]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118583177486180352
+     1 string m_Localized = "Não Comprar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [109]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118583283744677888
+     1 string m_Localized = "Não Vender"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [110]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118587478354862080
+     1 string m_Localized = "Segure para Processar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [111]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118636779949686784
+     1 string m_Localized = "Informações sobre ecologia"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [112]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118828875808940032
+     1 string m_Localized = "Processar Tudo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [113]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118185782628077568
+     1 string m_Localized = "Controle conectado."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [114]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118185826974453760
+     1 string m_Localized = "Controle desconectado."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [115]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118832148162977792
+     1 string m_Localized = "Completo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [116]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118861961540050944
+     1 string m_Localized = "Craftar Tudo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [117]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118866536909152256
+     1 string m_Localized = "Nome"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [118]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118866596443103232
+     1 string m_Localized = "Estoque"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [119]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118866623999680512
+     1 string m_Localized = "Preço"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [120]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118882629555277824
+     1 string m_Localized = "Pressione qualquer tecla"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [121]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118954514578100224
+     1 string m_Localized = "Logout detectado. Retornando à tela principal."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [122]
+    0 TableEntryData data
+     0 SInt64 m_Id = 121125650543890432
+     1 string m_Localized = "● Some platform features may not work properly.\n● Some game features may fail to work, or may conflict each other.\n● This title currently does not support Achievements.\n● This title does not support multiplayer modes."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [123]
+    0 TableEntryData data
+     0 SInt64 m_Id = 121125559904980992
+     1 string m_Localized = "This is a demo version."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [124]
+    0 TableEntryData data
+     0 SInt64 m_Id = 121125673570619392
+     1 string m_Localized = "The game will start automatically in just a moment."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [125]
+    0 TableEntryData data
+     0 SInt64 m_Id = 124323738985865216
+     1 string m_Localized = "Gráficos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [126]
+    0 TableEntryData data
+     0 SInt64 m_Id = 124323798490456064
+     1 string m_Localized = "Sons"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [127]
+    0 TableEntryData data
+     0 SInt64 m_Id = 124325953897144320
+     1 string m_Localized = "Brilho"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [128]
+    0 TableEntryData data
+     0 SInt64 m_Id = 124326523240357888
+     1 string m_Localized = "Volume Principal"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [129]
+    0 TableEntryData data
+     0 SInt64 m_Id = 124326609420722176
+     1 string m_Localized = "Volume da Música"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [130]
+    0 TableEntryData data
+     0 SInt64 m_Id = 124326721291198464
+     1 string m_Localized = "Volume Efeitos Sonoros"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [131]
+    0 TableEntryData data
+     0 SInt64 m_Id = 124331394400165888
+     1 string m_Localized = "Pixeis Perfeitos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [132]
+    0 TableEntryData data
+     0 SInt64 m_Id = 124331620422819840
+     1 string m_Localized = "Esticar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [133]
+    0 TableEntryData data
+     0 SInt64 m_Id = 125071820950249472
+     1 string m_Localized = "Segure para Entregar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [134]
+    0 TableEntryData data
+     0 SInt64 m_Id = 125081066626523136
+     1 string m_Localized = "Você não tem itens suficientes para entregar."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [135]
+    0 TableEntryData data
+     0 SInt64 m_Id = 125086780895961088
+     1 string m_Localized = "Entrega concluída"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [136]
+    0 TableEntryData data
+     0 SInt64 m_Id = 125087151513051136
+     1 string m_Localized = "Cliente:"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [137]
+    0 TableEntryData data
+     0 SInt64 m_Id = 126190251835092992
+     1 string m_Localized = "Gestão de vassouras"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [138]
+    0 TableEntryData data
+     0 SInt64 m_Id = 126190371427282944
+     1 string m_Localized = "Vassoura Básica"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [139]
+    0 TableEntryData data
+     0 SInt64 m_Id = 126190466386325504
+     1 string m_Localized = "Durabilidade"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [140]
+    0 TableEntryData data
+     0 SInt64 m_Id = 126228349419745280
+     1 string m_Localized = "Nenhum item colocado."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [141]
+    0 TableEntryData data
+     0 SInt64 m_Id = 131973079078707200
+     1 string m_Localized = "H"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [142]
+    0 TableEntryData data
+     0 SInt64 m_Id = 131973147559108608
+     1 string m_Localized = "M"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [143]
+    0 TableEntryData data
+     0 SInt64 m_Id = 134169001629646848
+     1 string m_Localized = "Principal"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [144]
+    0 TableEntryData data
+     0 SInt64 m_Id = 134169002585948160
+     1 string m_Localized = "Aldeão"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [145]
+    0 TableEntryData data
+     0 SInt64 m_Id = 134169003454169088
+     1 string m_Localized = "Secundário"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [146]
+    0 TableEntryData data
+     0 SInt64 m_Id = 131961350394146816
+     1 string m_Localized = "Você não tem o giz certo."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [147]
+    0 TableEntryData data
+     0 SInt64 m_Id = 132335420765020160
+     1 string m_Localized = "Ou"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [148]
+    0 TableEntryData data
+     0 SInt64 m_Id = 133756307980591104
+     1 string m_Localized = "* Pode ser entregue separadamente."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [149]
+    0 TableEntryData data
+     0 SInt64 m_Id = 134500172956889088
+     1 string m_Localized = "Ação indisponível."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [150]
+    0 TableEntryData data
+     0 SInt64 m_Id = 136765625031786496
+     1 string m_Localized = "Segure para reparar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [151]
+    0 TableEntryData data
+     0 SInt64 m_Id = 137360520083619840
+     1 string m_Localized = "한국어"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [152]
+    0 TableEntryData data
+     0 SInt64 m_Id = 137360672961806336
+     1 string m_Localized = "Português"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [153]
+    0 TableEntryData data
+     0 SInt64 m_Id = 137360729048039424
+     1 string m_Localized = "简体中文"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [154]
+    0 TableEntryData data
+     0 SInt64 m_Id = 137361756287614976
+     1 string m_Localized = "Linguagem"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [155]
+    0 TableEntryData data
+     0 SInt64 m_Id = 137384470222159872
+     1 string m_Localized = "\n<color=#800000>As configurações de idioma entrarão em vigor após reiniciar o jogo.</color>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [156]
+    0 TableEntryData data
+     0 SInt64 m_Id = 137423246906572800
+     1 string m_Localized = "Idioma/Outros."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [157]
+    0 TableEntryData data
+     0 SInt64 m_Id = 139653176518680576
+     1 string m_Localized = "Os itens que você obteve foram enviados via <color=#800000>correio</color>."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [158]
+    0 TableEntryData data
+     0 SInt64 m_Id = 139911336093458432
+     1 string m_Localized = "Tem certeza de que deseja retornar ao menu principal??\n<color=#800000>O progresso não salvo será perdido.</color>\n<size=6>(Itens deixados no chão não podem ser guardados.)</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [159]
+    0 TableEntryData data
+     0 SInt64 m_Id = 142469441450360832
+     1 string m_Localized = "Não há mais arquivos salvos para carregar."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [160]
+    0 TableEntryData data
+     0 SInt64 m_Id = 142473498940358656
+     1 string m_Localized = "\nTem certeza de que deseja carregar o arquivo salvo?\n\n<color=#800000>Os dados não salvos serão excluídos.</color>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [161]
+    0 TableEntryData data
+     0 SInt64 m_Id = 144282276312596480
+     1 string m_Localized = "Tem certeza de que deseja excluir o arquivo salvo?\n\n<color=#800000>Arquivos excluídos não podem ser restaurados.</color>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [162]
+    0 TableEntryData data
+     0 SInt64 m_Id = 144920186728693760
+     1 string m_Localized = "Carregar Jogo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [163]
+    0 TableEntryData data
+     0 SInt64 m_Id = 145032027924545536
+     1 string m_Localized = "O último arquivo salvo restante não pode ser excluído."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [164]
+    0 TableEntryData data
+     0 SInt64 m_Id = 146881587680591872
+     1 string m_Localized = "Dia {day} do mês {month}, Ano {year}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [165]
+    0 TableEntryData data
+     0 SInt64 m_Id = 146911137001062400
+     1 string m_Localized = "1°"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [166]
+    0 TableEntryData data
+     0 SInt64 m_Id = 146911271151681536
+     1 string m_Localized = "2°"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [167]
+    0 TableEntryData data
+     0 SInt64 m_Id = 146911273601155072
+     1 string m_Localized = "3°"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [168]
+    0 TableEntryData data
+     0 SInt64 m_Id = 146911280312041472
+     1 string m_Localized = "4°"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [169]
+    0 TableEntryData data
+     0 SInt64 m_Id = 147149008750944256
+     1 string m_Localized = "Último\nSave"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [170]
+    0 TableEntryData data
+     0 SInt64 m_Id = 147163426968739840
+     1 string m_Localized = "Mais"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [171]
+    0 TableEntryData data
+     0 SInt64 m_Id = 164552828608995328
+     1 string m_Localized = "Salvando..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [172]
+    0 TableEntryData data
+     0 SInt64 m_Id = 164553022826242048
+     1 string m_Localized = "Se você encerrar o jogo enquanto ele estiver sendo salvo, os dados poderão ser perdidos e poderão ocorrer erros ao carregar o jogo.."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [173]
+    0 TableEntryData data
+     0 SInt64 m_Id = 182557840435499008
+     1 string m_Localized = "Segure para Cancelar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [174]
+    0 TableEntryData data
+     0 SInt64 m_Id = 182558812335427584
+     1 string m_Localized = "Segure para Incubar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [175]
+    0 TableEntryData data
+     0 SInt64 m_Id = 183395427004342272
+     1 string m_Localized = "Tempo necessário"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [176]
+    0 TableEntryData data
+     0 SInt64 m_Id = 183395482335600640
+     1 string m_Localized = "Quantidade de saída"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [177]
+    0 TableEntryData data
+     0 SInt64 m_Id = 183395520117891072
+     1 string m_Localized = "Tentativas permitidas"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [178]
+    0 TableEntryData data
+     0 SInt64 m_Id = 183397029622734848
+     1 string m_Localized = "Tempo restante"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [179]
+    0 TableEntryData data
+     0 SInt64 m_Id = 183397622089146368
+     1 string m_Localized = "Tentativas permitidas"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [180]
+    0 TableEntryData data
+     0 SInt64 m_Id = 183428483043975168
+     1 string m_Localized = "{hour}h {minute}m"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [181]
+    0 TableEntryData data
+     0 SInt64 m_Id = 190296987139465216
+     1 string m_Localized = ""
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [182]
+    0 TableEntryData data
+     0 SInt64 m_Id = 157272006365827072
+     1 string m_Localized = "Colocar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [183]
+    0 TableEntryData data
+     0 SInt64 m_Id = 157273559902474240
+     1 string m_Localized = "Remover"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [184]
+    0 TableEntryData data
+     0 SInt64 m_Id = 157275448316547072
+     1 string m_Localized = "Não há espaço na janela de exibição."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [185]
+    0 TableEntryData data
+     0 SInt64 m_Id = 175786351097561088
+     1 string m_Localized = "Renovar desafios"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [186]
+    0 TableEntryData data
+     0 SInt64 m_Id = 175786484358987776
+     1 string m_Localized = "Renovar a classificação da Enciclopédia"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [187]
+    0 TableEntryData data
+     0 SInt64 m_Id = 191006445698195456
+     1 string m_Localized = "Adicionar desenho à Enciclopédia"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [188]
+    0 TableEntryData data
+     0 SInt64 m_Id = 192077424822231040
+     1 string m_Localized = "Ranque número. {0}!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [189]
+    0 TableEntryData data
+     0 SInt64 m_Id = 192106400322052096
+     1 string m_Localized = "Você não tem resistência suficiente."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [190]
+    0 TableEntryData data
+     0 SInt64 m_Id = 192821990506520576
+     1 string m_Localized = "{hour}h {minute}m"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [191]
+    0 TableEntryData data
+     0 SInt64 m_Id = 192822319994265600
+     1 string m_Localized = "{amount} pcs"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [192]
+    0 TableEntryData data
+     0 SInt64 m_Id = 192822466136399872
+     1 string m_Localized = "{count} vezes"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [193]
+    0 TableEntryData data
+     0 SInt64 m_Id = 192822807988953088
+     1 string m_Localized = "{remain}/{total} vezes"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [194]
+    0 TableEntryData data
+     0 SInt64 m_Id = 192826573110444032
+     1 string m_Localized = "日本語"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [195]
+    0 TableEntryData data
+     0 SInt64 m_Id = 192826346508976128
+     1 string m_Localized = "繁體中文"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [196]
+    0 TableEntryData data
+     0 SInt64 m_Id = 193581458850750464
+     1 string m_Localized = "Tostador"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [197]
+    0 TableEntryData data
+     0 SInt64 m_Id = 193581647330189312
+     1 string m_Localized = "Extrator"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [198]
+    0 TableEntryData data
+     0 SInt64 m_Id = 194566057672220672
+     1 string m_Localized = "Itens necessário"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [199]
+    0 TableEntryData data
+     0 SInt64 m_Id = 194566360937177088
+     1 string m_Localized = "Tentação"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [200]
+    0 TableEntryData data
+     0 SInt64 m_Id = 194566580181835776
+     1 string m_Localized = "Informação"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [201]
+    0 TableEntryData data
+     0 SInt64 m_Id = 194566816413425664
+     1 string m_Localized = "Tópico de Pesquisa"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [202]
+    0 TableEntryData data
+     0 SInt64 m_Id = 197213782888849408
+     1 string m_Localized = "Selecione o capítulo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [203]
+    0 TableEntryData data
+     0 SInt64 m_Id = 197216026325590016
+     1 string m_Localized = "Capítulo 1. \nInício do Aprendizado"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [204]
+    0 TableEntryData data
+     0 SInt64 m_Id = 197216077349298176
+     1 string m_Localized = "A vida de aprendiz de Ellie começa em uma vila onde o trem para acidentalmente!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [205]
+    0 TableEntryData data
+     0 SInt64 m_Id = 197216081623293952
+     1 string m_Localized = "Capítulo 2. \nA primeira vila"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [206]
+    0 TableEntryData data
+     0 SInt64 m_Id = 197216084378951680
+     1 string m_Localized = "As vinhas espinhosas da vila foram removidas. Agora vamos nos preparar para encontrar o primeiro aldeão!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [207]
+    0 TableEntryData data
+     0 SInt64 m_Id = 197216087658897408
+     1 string m_Localized = "Capítulo 3. \nFonte restaurada"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [208]
+    0 TableEntryData data
+     0 SInt64 m_Id = 197216169951141888
+     1 string m_Localized = "As casas e a fonte ao redor da praça foram restauradas. Antes de partir para o próximo local, experimente uma variedade de atividades."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [209]
+    0 TableEntryData data
+     0 SInt64 m_Id = 197510110885879808
+     1 string m_Localized = "Você pode selecionar qualquer capítulo para continuar o jogo.\nPara aqueles que estão jogando o jogo pela primeira vez, recomendamos fortemente que você comece um\n<color=#800000>"New Game"</color> to enjoy the game more properly in case you miss anything important."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [210]
+    0 TableEntryData data
+     0 SInt64 m_Id = 197099775485976576
+     1 string m_Localized = "● Beta version allows you to play the latest game content before it gets updated to the release version.\n● Your game progress has the risk of loss in beta version."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [211]
+    0 TableEntryData data
+     0 SInt64 m_Id = 198312677842771968
+     1 string m_Localized = "Não existe nenhum arquivo salvo."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [212]
+    0 TableEntryData data
+     0 SInt64 m_Id = 256209881900949504
+     1 string m_Localized = "Você deseja aceitar esta missão??"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [213]
+    0 TableEntryData data
+     0 SInt64 m_Id = 264506148628373504
+     1 string m_Localized = "Posição"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [214]
+    0 TableEntryData data
+     0 SInt64 m_Id = 264508635116642304
+     1 string m_Localized = "{0} foi adicionado ao Catálogo."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [215]
+    0 TableEntryData data
+     0 SInt64 m_Id = 264508757623873536
+     1 string m_Localized = "{0} foi movido para o inventário."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [216]
+    0 TableEntryData data
+     0 SInt64 m_Id = 264508991246606336
+     1 string m_Localized = "Não é possível colocar o objeto aqui."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [217]
+    0 TableEntryData data
+     0 SInt64 m_Id = 264511144778440704
+     1 string m_Localized = "Tudo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [218]
+    0 TableEntryData data
+     0 SInt64 m_Id = 264511855100600320
+     1 string m_Localized = "Não lido"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [219]
+    0 TableEntryData data
+     0 SInt64 m_Id = 264512182071762944
+     1 string m_Localized = "Correio com anexos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [220]
+    0 TableEntryData data
+     0 SInt64 m_Id = 264513458079703040
+     1 string m_Localized = "Itens recebidos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [221]
+    0 TableEntryData data
+     0 SInt64 m_Id = 264582474274086912
+     1 string m_Localized = "Tigela de comida para gatos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [222]
+    0 TableEntryData data
+     0 SInt64 m_Id = 272218316102606848
+     1 string m_Localized = "Nenhum móvel para colocar no momento."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [223]
+    0 TableEntryData data
+     0 SInt64 m_Id = 272218466942361600
+     1 string m_Localized = "Móveis insuficientes. Não é possível acessar o inventário.."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [224]
+    0 TableEntryData data
+     0 SInt64 m_Id = 274289896431091712
+     1 string m_Localized = "Capítulo 4\nExperimentando Novos Conteúdos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [225]
+    0 TableEntryData data
+     0 SInt64 m_Id = 274289897135734784
+     1 string m_Localized = "Um capítulo projetado para destacar o novo conteúdo da versão beta para os usuários.\n\n*Pise nas rachaduras da Casa da Bruxa para completar a missão "Witch's House Restoration" quest. Completing the quest enables you to use the placement function."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [226]
+    0 TableEntryData data
+     0 SInt64 m_Id = 276554733838573568
+     1 string m_Localized = "Ler"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [227]
+    0 TableEntryData data
+     0 SInt64 m_Id = 276564363595653120
+     1 string m_Localized = "Nenhum correio recebido"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [228]
+    0 TableEntryData data
+     0 SInt64 m_Id = 294260532799389696
+     1 string m_Localized = "Você pode desenhar depois de {0}h {1}m."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [229]
+    0 TableEntryData data
+     0 SInt64 m_Id = 291436278028066816
+     1 string m_Localized = "Esta ferramenta não pode ser selecionada agora."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [230]
+    0 TableEntryData data
+     0 SInt64 m_Id = 293959412734140416
+     1 string m_Localized = "Você só pode selecionar slots com ferramentas neles."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [231]
+    0 TableEntryData data
+     0 SInt64 m_Id = 308844892778463232
+     1 string m_Localized = "{theme} entrega de poção aceita +1"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [232]
+    0 TableEntryData data
+     0 SInt64 m_Id = 308844818300207104
+     1 string m_Localized = "{theme} poção Entregue +1"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [233]
+    0 TableEntryData data
+     0 SInt64 m_Id = 309912772348264448
+     1 string m_Localized = "Entregar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [234]
+    0 TableEntryData data
+     0 SInt64 m_Id = 309912848906895360
+     1 string m_Localized = "Tutorial"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [235]
+    0 TableEntryData data
+     0 SInt64 m_Id = 309606810999635968
+     1 string m_Localized = "{0} vezes restantes"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [236]
+    0 TableEntryData data
+     0 SInt64 m_Id = 311368120066162688
+     1 string m_Localized = "A energia está cheia."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [237]
+    0 TableEntryData data
+     0 SInt64 m_Id = 313793710396325888
+     1 string m_Localized = "Você desenhou isso. Não pode desenhar novamente.."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [238]
+    0 TableEntryData data
+     0 SInt64 m_Id = 337703087393644544
+     1 string m_Localized = "Sem poção."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [239]
+    0 TableEntryData data
+     0 SInt64 m_Id = 347631798559244288
+     1 string m_Localized = "Usar '{0}'"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [240]
+    0 TableEntryData data
+     0 SInt64 m_Id = 349675990951567360
+     1 string m_Localized = "Você não tem ingredientes suficientes."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [241]
+    0 TableEntryData data
+     0 SInt64 m_Id = 349678132529635328
+     1 string m_Localized = "Ingredientes"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [242]
+    0 TableEntryData data
+     0 SInt64 m_Id = 349679094556172288
+     1 string m_Localized = "Auto Craft"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [243]
+    0 TableEntryData data
+     0 SInt64 m_Id = 349679097555099648
+     1 string m_Localized = "Craft Manual"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [244]
+    0 TableEntryData data
+     0 SInt64 m_Id = 349679358826684416
+     1 string m_Localized = "Começar a Craftar?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [245]
+    0 TableEntryData data
+     0 SInt64 m_Id = 349679663870025728
+     1 string m_Localized = "Nenhuma receita utilizável."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [246]
+    0 TableEntryData data
+     0 SInt64 m_Id = 349680114833203200
+     1 string m_Localized = "Pontuação de Craft"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [247]
+    0 TableEntryData data
+     0 SInt64 m_Id = 349680481125965824
+     1 string m_Localized = "Já criado"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [248]
+    0 TableEntryData data
+     0 SInt64 m_Id = 349681502317355008
+     1 string m_Localized = "Receita"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [249]
+    0 TableEntryData data
+     0 SInt64 m_Id = 349682204615811072
+     1 string m_Localized = "Método de processamento"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [250]
+    0 TableEntryData data
+     0 SInt64 m_Id = 349758943085895680
+     1 string m_Localized = "Dificuldade"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [251]
+    0 TableEntryData data
+     0 SInt64 m_Id = 329899603764092928
+     1 string m_Localized = "Este móvel não pode ser colocado aqui."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [252]
+    0 TableEntryData data
+     0 SInt64 m_Id = 329834150505127936
+     1 string m_Localized = "Catálogo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [253]
+    0 TableEntryData data
+     0 SInt64 m_Id = 329841255345725440
+     1 string m_Localized = "Isso não pode ser adicionado ao catálogo porque contém itens."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [254]
+    0 TableEntryData data
+     0 SInt64 m_Id = 327236257512734720
+     1 string m_Localized = "Você não pode jogar uma poção aqui."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [255]
+    0 TableEntryData data
+     0 SInt64 m_Id = 337702754940526592
+     1 string m_Localized = "Você não pode usá-lo na região atual."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [256]
+    0 TableEntryData data
+     0 SInt64 m_Id = 337704126205304832
+     1 string m_Localized = "Você não obteve a receita desta poção."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [257]
+    0 TableEntryData data
+     0 SInt64 m_Id = 350826663357358080
+     1 string m_Localized = "{0}vezes"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [258]
+    0 TableEntryData data
+     0 SInt64 m_Id = 354862807302340608
+     1 string m_Localized = "Nenhum item comprável disponível"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [259]
+    0 TableEntryData data
+     0 SInt64 m_Id = 372965431358955520
+     1 string m_Localized = "Auto"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [260]
+    0 TableEntryData data
+     0 SInt64 m_Id = 372965437784629248
+     1 string m_Localized = "Manual"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [261]
+    0 TableEntryData data
+     0 SInt64 m_Id = 372967386349215744
+     1 string m_Localized = "Você pode perder ingredientes se a criação falhar."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [262]
+    0 TableEntryData data
+     0 SInt64 m_Id = 362135064305639424
+     1 string m_Localized = "Redução da durabilidade durante a fabricação automática"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [263]
+    0 TableEntryData data
+     0 SInt64 m_Id = 362135636358373376
+     1 string m_Localized = "Receita comum"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [264]
+    0 TableEntryData data
+     0 SInt64 m_Id = 362135681187094528
+     1 string m_Localized = "Receita habilidosa"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [265]
+    0 TableEntryData data
+     0 SInt64 m_Id = 362135938167906304
+     1 string m_Localized = "Durabilidade do pote"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [266]
+    0 TableEntryData data
+     0 SInt64 m_Id = 362136039745560576
+     1 string m_Localized = "Taxa de falha"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [267]
+    0 TableEntryData data
+     0 SInt64 m_Id = 362136261884289024
+     1 string m_Localized = "Taxa de falha do auto craft"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [268]
+    0 TableEntryData data
+     0 SInt64 m_Id = 362136513089544192
+     1 string m_Localized = "Reparar Pote"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [269]
+    0 TableEntryData data
+     0 SInt64 m_Id = 358108555308220416
+     1 string m_Localized = "Tinta na página "{0}" page isn't dry yet."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [270]
+    0 TableEntryData data
+     0 SInt64 m_Id = 363076891816927232
+     1 string m_Localized = "Ingredientes usados"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [271]
+    0 TableEntryData data
+     0 SInt64 m_Id = 363077020317818880
+     1 string m_Localized = "Ingredientes Devolvidos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [272]
+    0 TableEntryData data
+     0 SInt64 m_Id = 363077409104633856
+     1 string m_Localized = "Falha na criação"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [273]
+    0 TableEntryData data
+     0 SInt64 m_Id = 373261330287476736
+     1 string m_Localized = "{0} falha(s) na criação"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [274]
+    0 TableEntryData data
+     0 SInt64 m_Id = 389904167772160000
+     1 string m_Localized = "Não utilizável agora."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [275]
+    0 TableEntryData data
+     0 SInt64 m_Id = 392516647367278592
+     1 string m_Localized = "A durabilidade da vassoura está completa."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [276]
+    0 TableEntryData data
+     0 SInt64 m_Id = 392518597924159488
+     1 string m_Localized = "Vassoura não equipada."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [277]
+    0 TableEntryData data
+     0 SInt64 m_Id = 392799278263083008
+     1 string m_Localized = "Desbugar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [278]
+    0 TableEntryData data
+     0 SInt64 m_Id = 392799390070644736
+     1 string m_Localized = ""Unstuck" is a teleportation that sends Ellie to a specified place when she's stuck in walls."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [279]
+    0 TableEntryData data
+     0 SInt64 m_Id = 392799999901474816
+     1 string m_Localized = "Tentativas"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [280]
+    0 TableEntryData data
+     0 SInt64 m_Id = 392800235432615936
+     1 string m_Localized = "{0}veze(s)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [281]
+    0 TableEntryData data
+     0 SInt64 m_Id = 392800537892265984
+     1 string m_Localized = "Cooldown"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [282]
+    0 TableEntryData data
+     0 SInt64 m_Id = 392800669417250816
+     1 string m_Localized = "{0}seg"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [283]
+    0 TableEntryData data
+     0 SInt64 m_Id = 392800711012163584
+     1 string m_Localized = "Usar isso?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [284]
+    0 TableEntryData data
+     0 SInt64 m_Id = 392800936619581440
+     1 string m_Localized = "Não há lugar para onde desbugar a Ellie. Teleportar para a Casa da Bruxa. Confirmar?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [285]
+    0 TableEntryData data
+     0 SInt64 m_Id = 392801046267076608
+     1 string m_Localized = "Atividade em andamento. Não é possível resgatar."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [286]
+    0 TableEntryData data
+     0 SInt64 m_Id = 392801124260159488
+     1 string m_Localized = "Não pode ser usado agora. Tente novamente quando o tempo de espera terminar.."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [287]
+    0 TableEntryData data
+     0 SInt64 m_Id = 392801251691503616
+     1 string m_Localized = "Não há mais tentativas de resgate por hoje. Em vez disso, você vai dormir. Confirmar?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [288]
+    0 TableEntryData data
+     0 SInt64 m_Id = 393202020810924032
+     1 string m_Localized = "Gerenciar o Pote da Bruxa"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [289]
+    0 TableEntryData data
+     0 SInt64 m_Id = 373260970827235328
+     1 string m_Localized = "{0} craft bem-sucedido"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [290]
+    0 TableEntryData data
+     0 SInt64 m_Id = 378043079602597888
+     1 string m_Localized = "Colocar no item"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [291]
+    0 TableEntryData data
+     0 SInt64 m_Id = 388141920115138560
+     1 string m_Localized = "Habitat"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [292]
+    0 TableEntryData data
+     0 SInt64 m_Id = 370016170950434816
+     1 string m_Localized = "Descartar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [293]
+    0 TableEntryData data
+     0 SInt64 m_Id = 375504793099476992
+     1 string m_Localized = "Ação Extra"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [294]
+    0 TableEntryData data
+     0 SInt64 m_Id = 375505660544458752
+     1 string m_Localized = "Durabilidade"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [295]
+    0 TableEntryData data
+     0 SInt64 m_Id = 375505199535923200
+     1 string m_Localized = "Rápido"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [296]
+    0 TableEntryData data
+     0 SInt64 m_Id = 375504616162762752
+     1 string m_Localized = "Grande capacidade"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [297]
+    0 TableEntryData data
+     0 SInt64 m_Id = 375505550586585088
+     1 string m_Localized = "Segurança"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [298]
+    0 TableEntryData data
+     0 SInt64 m_Id = 375506470443589632
+     1 string m_Localized = "Capacidade"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [299]
+    0 TableEntryData data
+     0 SInt64 m_Id = 375506472763039744
+     1 string m_Localized = "Itens da loja"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [300]
+    0 TableEntryData data
+     0 SInt64 m_Id = 378054823699935232
+     1 string m_Localized = "Mover Mapa"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [301]
+    0 TableEntryData data
+     0 SInt64 m_Id = 377695392540041216
+     1 string m_Localized = "Não é possível colocar mais."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [302]
+    0 TableEntryData data
+     0 SInt64 m_Id = 344670913719746560
+     1 string m_Localized = "Ingredientes insuficientes."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [303]
+    0 TableEntryData data
+     0 SInt64 m_Id = 375437529373384704
+     1 string m_Localized = "Não posso andar na vassoura agora."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [304]
+    0 TableEntryData data
+     0 SInt64 m_Id = 368211784955764736
+     1 string m_Localized = "Nenhum mapa para esta área."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [305]
+    0 TableEntryData data
+     0 SInt64 m_Id = 368212100065435648
+     1 string m_Localized = "Não recebi o mapa para esta área."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [306]
+    0 TableEntryData data
+     0 SInt64 m_Id = 368211388330196992
+     1 string m_Localized = "Não é possível descartar itens agora."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [307]
+    0 TableEntryData data
+     0 SInt64 m_Id = 368211457217445888
+     1 string m_Localized = "Não é possível descartar este item."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [308]
+    0 TableEntryData data
+     0 SInt64 m_Id = 344676055206641664
+     1 string m_Localized = "Colocado {0}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [309]
+    0 TableEntryData data
+     0 SInt64 m_Id = 396489988053049344
+     1 string m_Localized = "A aventura de Ellie continua."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [310]
+    0 TableEntryData data
+     0 SInt64 m_Id = 416045571257049088
+     1 string m_Localized = "Coletar peixes comuns"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [311]
+    0 TableEntryData data
+     0 SInt64 m_Id = 416045573903654912
+     1 string m_Localized = "Coletar peixes especiais"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [312]
+    0 TableEntryData data
+     0 SInt64 m_Id = 412831461103017984
+     1 string m_Localized = "Relatar bug"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [313]
+    0 TableEntryData data
+     0 SInt64 m_Id = 415267093381292032
+     1 string m_Localized = "Existem seções onde o tempo é <color=#a03c3a>parado intencionalmente para apresentação</color>.\n\nPor favor, use este relatório de bug somente se você acredita que <color=#a03c3a>a parada do tempo impede a jogabilidade normal</color>.\r"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [314]
+    0 TableEntryData data
+     0 SInt64 m_Id = 412831524327956480
+     1 string m_Localized = "Por favor, tire uma captura de tela da situação e envie-a para o Discord.\r\nVocê pode ver o canal oficial do Discord na página do Steam.\r"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [315]
+    0 TableEntryData data
+     0 SInt64 m_Id = 415267095163871232
+     1 string m_Localized = "Se você não consegue jogar devido ao tempo estático, informe o bug em [Menu - Relatar bug de tempo estático]."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [316]
+    0 TableEntryData data
+     0 SInt64 m_Id = 416067950813290496
+     1 string m_Localized = "VSync"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [317]
+    0 TableEntryData data
+     0 SInt64 m_Id = 416068215478067200
+     1 string m_Localized = "Limite de FPS"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [318]
+    0 TableEntryData data
+     0 SInt64 m_Id = 416708899545456640
+     1 string m_Localized = "Novo Recorde!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [319]
+    0 TableEntryData data
+     0 SInt64 m_Id = 412735563492663296
+     1 string m_Localized = "Min"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [320]
+    0 TableEntryData data
+     0 SInt64 m_Id = 412736147461414912
+     1 string m_Localized = "Max"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [321]
+    0 TableEntryData data
+     0 SInt64 m_Id = 412736302222843904
+     1 string m_Localized = "Coletado"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [322]
+    0 TableEntryData data
+     0 SInt64 m_Id = 412736557546905600
+     1 string m_Localized = "Aparência"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [323]
+    0 TableEntryData data
+     0 SInt64 m_Id = 412814975823159296
+     1 string m_Localized = "Enciclopédia de Peixes"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [324]
+    0 TableEntryData data
+     0 SInt64 m_Id = 412815282196094976
+     1 string m_Localized = "Tamanho da Sombra"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [325]
+    0 TableEntryData data
+     0 SInt64 m_Id = 412815340257845248
+     1 string m_Localized = "Grande"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [326]
+    0 TableEntryData data
+     0 SInt64 m_Id = 412815367118168064
+     1 string m_Localized = "Médio"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [327]
+    0 TableEntryData data
+     0 SInt64 m_Id = 412815382972637184
+     1 string m_Localized = "Pequeno"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [328]
+    0 TableEntryData data
+     0 SInt64 m_Id = 438565786618765312
+     1 string m_Localized = "Jornal"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [329]
+    0 TableEntryData data
+     0 SInt64 m_Id = 438565772181970944
+     1 string m_Localized = "Menu"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [330]
+    0 TableEntryData data
+     0 SInt64 m_Id = 433540947700948992
+     1 string m_Localized = "Temperamento"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [331]
+    0 TableEntryData data
+     0 SInt64 m_Id = 433541005473292288
+     1 string m_Localized = "Ativo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [332]
+    0 TableEntryData data
+     0 SInt64 m_Id = 433541528242954240
+     1 string m_Localized = "Preguiçoso"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [333]
+    0 TableEntryData data
+     0 SInt64 m_Id = 433601744078708736
+     1 string m_Localized = "Notas de gato"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [334]
+    0 TableEntryData data
+     0 SInt64 m_Id = 438209499603214336
+     1 string m_Localized = "Preferências"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [335]
+    0 TableEntryData data
+     0 SInt64 m_Id = 438209661016809472
+     1 string m_Localized = "Favoritos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [336]
+    0 TableEntryData data
+     0 SInt64 m_Id = 444729000805081088
+     1 string m_Localized = "Nível 3 de afinidade atingido 3!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [337]
+    0 TableEntryData data
+     0 SInt64 m_Id = 444729943831420928
+     1 string m_Localized = "Nível {0} de afinidade atingido!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [338]
+    0 TableEntryData data
+     0 SInt64 m_Id = 444730000433553408
+     1 string m_Localized = "Nível {0} de Amizade atingido!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [339]
+    0 TableEntryData data
+     0 SInt64 m_Id = 447251769738276864
+     1 string m_Localized = "Algumas informações de dados salvos não puderam ser encontradas. \nA recuperação dessas informações pode levar algum tempo."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [340]
+    0 TableEntryData data
+     0 SInt64 m_Id = 447251864986726400
+     1 string m_Localized = "Gerando informações de dados salvos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [341]
+    0 TableEntryData data
+     0 SInt64 m_Id = 451257644777877504
+     1 string m_Localized = "Prólogo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [342]
+    0 TableEntryData data
+     0 SInt64 m_Id = 451257648384978944
+     1 string m_Localized = "Ato 1"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [343]
+    0 TableEntryData data
+     0 SInt64 m_Id = 451257649433554944
+     1 string m_Localized = "Ato 2"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [344]
+    0 TableEntryData data
+     0 SInt64 m_Id = 451257745118212096
+     1 string m_Localized = "Ato 3"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [345]
+    0 TableEntryData data
+     0 SInt64 m_Id = 451257745843826688
+     1 string m_Localized = "Ato 4"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [346]
+    0 TableEntryData data
+     0 SInt64 m_Id = 451257774419619840
+     1 string m_Localized = "Ato 5"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [347]
+    0 TableEntryData data
+     0 SInt64 m_Id = 451258300326621184
+     1 string m_Localized = "Conteúdo desbloqueado"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [348]
+    0 TableEntryData data
+     0 SInt64 m_Id = 464194383849005056
+     1 string m_Localized = "Em Progresso"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [349]
+    0 TableEntryData data
+     0 SInt64 m_Id = 464194766990286848
+     1 string m_Localized = "Concluído"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [350]
+    0 TableEntryData data
+     0 SInt64 m_Id = 464195302942646272
+     1 string m_Localized = "Conteúdo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [351]
+    0 TableEntryData data
+     0 SInt64 m_Id = 464195358626226176
+     1 string m_Localized = "Progresso da história"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [352]
+    0 TableEntryData data
+     0 SInt64 m_Id = 464195787393146880
+     1 string m_Localized = "Recompensas da Missão"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [353]
+    0 TableEntryData data
+     0 SInt64 m_Id = 464195855307317248
+     1 string m_Localized = "Objetivos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [354]
+    0 TableEntryData data
+     0 SInt64 m_Id = 464315519798681600
+     1 string m_Localized = "Eficiência de reparo <color=#{0}>{1}%</color>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [355]
+    0 TableEntryData data
+     0 SInt64 m_Id = 464335909434499072
+     1 string m_Localized = "Cor"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [356]
+    0 TableEntryData data
+     0 SInt64 m_Id = 464336277006524416
+     1 string m_Localized = "Tingir"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [357]
+    0 TableEntryData data
+     0 SInt64 m_Id = 464336384510730240
+     1 string m_Localized = "Alterar tipo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [358]
+    0 TableEntryData data
+     0 SInt64 m_Id = 464621565100498944
+     1 string m_Localized = "Missão Rastreada"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [359]
+    0 TableEntryData data
+     0 SInt64 m_Id = 464621880004648960
+     1 string m_Localized = "Classificar por hora, mais recente primeiro"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [360]
+    0 TableEntryData data
+     0 SInt64 m_Id = 464621959029530624
+     1 string m_Localized = "Classificar por tempo, mais antigo primeiro"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [361]
+    0 TableEntryData data
+     0 SInt64 m_Id = 464623754543964160
+     1 string m_Localized = "Classificar por tipo de missão"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [362]
+    0 TableEntryData data
+     0 SInt64 m_Id = 464623809732616192
+     1 string m_Localized = "Não é possível rastrear devido ao espaço insuficiente no quadro de memorandos."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [363]
+    0 TableEntryData data
+     0 SInt64 m_Id = 464623917681418240
+     1 string m_Localized = "Não é mais possível rastrear devido ao espaço insuficiente no quadro de memorandos."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [364]
+    0 TableEntryData data
+     0 SInt64 m_Id = 465007141293203456
+     1 string m_Localized = "Nenhuma missão rastreada."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [365]
+    0 TableEntryData data
+     0 SInt64 m_Id = 465007438921015296
+     1 string m_Localized = "Parando o rastreamento de missões."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [366]
+    0 TableEntryData data
+     0 SInt64 m_Id = 465008103458152448
+     1 string m_Localized = "Acompanhando a missão."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [367]
+    0 TableEntryData data
+     0 SInt64 m_Id = 465008688941047808
+     1 string m_Localized = "O rastreamento foi interrompido."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [368]
+    0 TableEntryData data
+     0 SInt64 m_Id = 470126751956934656
+     1 string m_Localized = "Classificação reversa por tipo de missão"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [369]
+    0 TableEntryData data
+     0 SInt64 m_Id = 471567078521643008
+     1 string m_Localized = "Esta missão não pode ser impedida de ser rastreada."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [370]
+    0 TableEntryData data
+     0 SInt64 m_Id = 471567081533153280
+     1 string m_Localized = "Não há informações correspondentes a esta missão."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [371]
+    0 TableEntryData data
+     0 SInt64 m_Id = 473981881705897984
+     1 string m_Localized = "Não há missões concluídas"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [372]
+    0 TableEntryData data
+     0 SInt64 m_Id = 474338245523349504
+     1 string m_Localized = "Tipo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [373]
+    0 TableEntryData data
+     0 SInt64 m_Id = 474340111980240896
+     1 string m_Localized = "É a mesma cor que atualmente."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [374]
+    0 TableEntryData data
+     0 SInt64 m_Id = 474340192481517568
+     1 string m_Localized = "É o mesmo tipo que atualmente."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [375]
+    0 TableEntryData data
+     0 SInt64 m_Id = 479082123241529344
+     1 string m_Localized = "Segure para Modificar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [376]
+    0 TableEntryData data
+     0 SInt64 m_Id = 479411439653429248
+     1 string m_Localized = "Preenchimento automático"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [377]
+    0 TableEntryData data
+     0 SInt64 m_Id = 479411543693139968
+     1 string m_Localized = "Esvaziar tudo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [378]
+    0 TableEntryData data
+     0 SInt64 m_Id = 489261522528051200
+     1 string m_Localized = "Nota"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [379]
+    0 TableEntryData data
+     0 SInt64 m_Id = 489261606233776128
+     1 string m_Localized = "Amizade"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [380]
+    0 TableEntryData data
+     0 SInt64 m_Id = 492898810331996160
+     1 string m_Localized = "Sem notas."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [381]
+    0 TableEntryData data
+     0 SInt64 m_Id = 492900396198338560
+     1 string m_Localized = "Nenhuma"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [382]
+    0 TableEntryData data
+     0 SInt64 m_Id = 492900435796762624
+     1 string m_Localized = "Conhecido"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [383]
+    0 TableEntryData data
+     0 SInt64 m_Id = 492900437805834240
+     1 string m_Localized = "Fechar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [384]
+    0 TableEntryData data
+     0 SInt64 m_Id = 492900439139622912
+     1 string m_Localized = "Íntimo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [385]
+    0 TableEntryData data
+     0 SInt64 m_Id = 492900459830124544
+     1 string m_Localized = "Especial"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [386]
+    0 TableEntryData data
+     0 SInt64 m_Id = 504044933171978240
+     1 string m_Localized = "Atualizando dados salvos antigos para corresponder à versão mais recente.\nO tempo de carregamento pode ser um pouco maior do que o normal, portanto, seja paciente."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [387]
+    0 TableEntryData data
+     0 SInt64 m_Id = 504151734429188096
+     1 string m_Localized = "Um presente para dar."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [388]
+    0 TableEntryData data
+     0 SInt64 m_Id = 504164090420953088
+     1 string m_Localized = "Novo Aldeão"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [389]
+    0 TableEntryData data
+     0 SInt64 m_Id = 504164193990901760
+     1 string m_Localized = "Dica adicionada"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [390]
+    0 TableEntryData data
+     0 SInt64 m_Id = 504164201624535040
+     1 string m_Localized = "Desbloqueio de presente"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [391]
+    0 TableEntryData data
+     0 SInt64 m_Id = 504164213037236224
+     1 string m_Localized = "Novo Memorando"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [392]
+    0 TableEntryData data
+     0 SInt64 m_Id = 507003934348222464
+     1 string m_Localized = "Equipar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [393]
+    0 TableEntryData data
+     0 SInt64 m_Id = 507003936134995968
+     1 string m_Localized = "Remover"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [394]
+    0 TableEntryData data
+     0 SInt64 m_Id = 507003937724637184
+     1 string m_Localized = "Itens classificados."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [395]
+    0 TableEntryData data
+     0 SInt64 m_Id = 507376197774090240
+     1 string m_Localized = "Arquivo salvo incompatível.\n(Arquivos salvos de 4.0.7.0 ou anteriores não podem ser carregados nesta versão.)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [396]
+    0 TableEntryData data
+     0 SInt64 m_Id = 492547114680500224
+     1 string m_Localized = "Segure para Craftar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [397]
+    0 TableEntryData data
+     0 SInt64 m_Id = 511737574676307968
+     1 string m_Localized = "Troca de itens"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [398]
+    0 TableEntryData data
+     0 SInt64 m_Id = 512469676866740224
+     1 string m_Localized = "Não há espaço suficiente para equipar."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [399]
+    0 TableEntryData data
+     0 SInt64 m_Id = 499481574309175296
+     1 string m_Localized = "Esta receita de craft já está registrada."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [400]
+    0 TableEntryData data
+     0 SInt64 m_Id = 499481560606384128
+     1 string m_Localized = "{0} foi registrado."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [401]
+    0 TableEntryData data
+     0 SInt64 m_Id = 536101445549498368
+     1 string m_Localized = "Cesta do Ritoringo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [402]
+    0 TableEntryData data
+     0 SInt64 m_Id = 539554700466630656
+     1 string m_Localized = "O sino desta área foi tocado {0} veze(s)."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [403]
+    0 TableEntryData data
+     0 SInt64 m_Id = 542827242472333312
+     1 string m_Localized = "<sprite name=greenforest>{Common.Theme_GreenForest}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [404]
+    0 TableEntryData data
+     0 SInt64 m_Id = 542827245609672704
+     1 string m_Localized = "<sprite name=rainbowforest>{Common.Theme_RainbowForest}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [405]
+    0 TableEntryData data
+     0 SInt64 m_Id = 542827247425806336
+     1 string m_Localized = "<sprite name=starseacave>{Common.Theme_StarSeaCave}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [406]
+    0 TableEntryData data
+     0 SInt64 m_Id = 535943569963032576
+     1 string m_Localized = "Item adquirido"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [407]
+    0 TableEntryData data
+     0 SInt64 m_Id = 552598314912440320
+     1 string m_Localized = ""
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [408]
+    0 TableEntryData data
+     0 SInt64 m_Id = 553374504363352064
+     1 string m_Localized = "{theme} Incubadora de Formas de Vida Desbloqueada"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [409]
+    0 TableEntryData data
+     0 SInt64 m_Id = 555508859918950400
+     1 string m_Localized = "Confirmar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [410]
+    0 TableEntryData data
+     0 SInt64 m_Id = 563203119858589696
+     1 string m_Localized = "Tempo Reduzido da Forma de Vida reduzida para {theme}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [411]
+    0 TableEntryData data
+     0 SInt64 m_Id = 563203002271277056
+     1 string m_Localized = "Custo reduzido de ingredientes utilizando a incubadora {theme}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [412]
+    0 TableEntryData data
+     0 SInt64 m_Id = 566517336615231488
+     1 string m_Localized = "Sucesso na Pescaria"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [413]
+    0 TableEntryData data
+     0 SInt64 m_Id = 568183519607828480
+     1 string m_Localized = "Controles"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [414]
+    0 TableEntryData data
+     0 SInt64 m_Id = 568183874630496256
+     1 string m_Localized = "Modo de teclas de seta"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [415]
+    0 TableEntryData data
+     0 SInt64 m_Id = 568183990066130944
+     1 string m_Localized = "Modo WASD"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [416]
+    0 TableEntryData data
+     0 SInt64 m_Id = 568185297262915584
+     1 string m_Localized = "Modo de controle do teclado"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [417]
+    0 TableEntryData data
+     0 SInt64 m_Id = 568720883494756352
+     1 string m_Localized = "Lista de desejos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [418]
+    0 TableEntryData data
+     0 SInt64 m_Id = 570062029716762624
+     1 string m_Localized = "Concordar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [419]
+    0 TableEntryData data
+     0 SInt64 m_Id = 570515392549429248
+     1 string m_Localized = "Bonus!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [420]
+    0 TableEntryData data
+     0 SInt64 m_Id = 520052353272692736
+     1 string m_Localized = "Incapaz de craftar."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [421]
+    0 TableEntryData data
+     0 SInt64 m_Id = 517860451022585856
+     1 string m_Localized = "Adoção de gatos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [422]
+    0 TableEntryData data
+     0 SInt64 m_Id = 538257676756627456
+     1 string m_Localized = "Uma barreira foi levantada em algum lugar."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [423]
+    0 TableEntryData data
+     0 SInt64 m_Id = 535570768838049792
+     1 string m_Localized = "Inscrição"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [424]
+    0 TableEntryData data
+     0 SInt64 m_Id = 535570990892892160
+     1 string m_Localized = "Materiais necessários"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [425]
+    0 TableEntryData data
+     0 SInt64 m_Id = 535571086070038528
+     1 string m_Localized = "Receitas favoritas"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [426]
+    0 TableEntryData data
+     0 SInt64 m_Id = 535571236486168576
+     1 string m_Localized = "Quantidade de ingredientes"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [427]
+    0 TableEntryData data
+     0 SInt64 m_Id = 535571353997983744
+     1 string m_Localized = "Classificar por hora de registro (crescente)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [428]
+    0 TableEntryData data
+     0 SInt64 m_Id = 535571444141965312
+     1 string m_Localized = "Classificar por hora de registro (decrescente)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [429]
+    0 TableEntryData data
+     0 SInt64 m_Id = 535571911446151168
+     1 string m_Localized = "Sortear por tipo (crescente)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [430]
+    0 TableEntryData data
+     0 SInt64 m_Id = 535571975358955520
+     1 string m_Localized = "Sortear por tipo (decrescente)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [431]
+    0 TableEntryData data
+     0 SInt64 m_Id = 535589441128677376
+     1 string m_Localized = "Sortear por tema (crescente)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [432]
+    0 TableEntryData data
+     0 SInt64 m_Id = 535589670347390976
+     1 string m_Localized = "Sortear por tema (decrescente)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [433]
+    0 TableEntryData data
+     0 SInt64 m_Id = 535589740144803840
+     1 string m_Localized = "Sortear por nome (crescente)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [434]
+    0 TableEntryData data
+     0 SInt64 m_Id = 535589829470896128
+     1 string m_Localized = "Sortear por nome (decrescente)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [435]
+    0 TableEntryData data
+     0 SInt64 m_Id = 535637879245553664
+     1 string m_Localized = "Você adiconou [{0} recipe] nos favoritos."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [436]
+    0 TableEntryData data
+     0 SInt64 m_Id = 535638289163272192
+     1 string m_Localized = "Você removeu [{0} recipe] nos favoritos."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [437]
+    0 TableEntryData data
+     0 SInt64 m_Id = 538180530599673856
+     1 string m_Localized = "Não há favoritos ainda."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [438]
+    0 TableEntryData data
+     0 SInt64 m_Id = 542567319756152832
+     1 string m_Localized = "Contagem de Craft"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [439]
+    0 TableEntryData data
+     0 SInt64 m_Id = 548001383168393216
+     1 string m_Localized = "Missões entregues"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [440]
+    0 TableEntryData data
+     0 SInt64 m_Id = 552244457151184896
+     1 string m_Localized = "Lista de favoritos cheia. Não é possível registrar mais."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [441]
+    0 TableEntryData data
+     0 SInt64 m_Id = 557420979772076032
+     1 string m_Localized = "Você não pode usar este item aqui."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [442]
+    0 TableEntryData data
+     0 SInt64 m_Id = 553374427250499584
+     1 string m_Localized = "Arquivo de tutoriais"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [443]
+    0 TableEntryData data
+     0 SInt64 m_Id = 553374475417886720
+     1 string m_Localized = "Este tutorial ainda não foi concluído.\nVocê pode ver novamente mais tarde após concluído."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [444]
+    0 TableEntryData data
+     0 SInt64 m_Id = 562911457206673408
+     1 string m_Localized = "Item coletado"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [445]
+    0 TableEntryData data
+     0 SInt64 m_Id = 562936932834549760
+     1 string m_Localized = "Atualizar lista de desejos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [446]
+    0 TableEntryData data
+     0 SInt64 m_Id = 562936976404979712
+     1 string m_Localized = "Este item está registrado na sua lista de desejos.\nDeseja atualizar sua lista de desejos com este resultado??"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [447]
+    0 TableEntryData data
+     0 SInt64 m_Id = 563228300318392320
+     1 string m_Localized = "Materiais necessários"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [448]
+    0 TableEntryData data
+     0 SInt64 m_Id = 563202668631171072
+     1 string m_Localized = "Taxa de queda de poção bônus em pontuação alta"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [449]
+    0 TableEntryData data
+     0 SInt64 m_Id = 563202846771650560
+     1 string m_Localized = "Chance de pontuação alta durante a preparação automática"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [450]
+    0 TableEntryData data
+     0 SInt64 m_Id = 563202847308521472
+     1 string m_Localized = "Taxa de queda de doces bônus em pontuação alta"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [451]
+    0 TableEntryData data
+     0 SInt64 m_Id = 563202847841198080
+     1 string m_Localized = "Melhor recompensa da incubadora"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [452]
+    0 TableEntryData data
+     0 SInt64 m_Id = 563203001168175104
+     1 string m_Localized = "Chance de item coletado extraordinário"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [453]
+    0 TableEntryData data
+     0 SInt64 m_Id = 563203001767960576
+     1 string m_Localized = "Melhor compra de ferramentas para bruxas disponível"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [454]
+    0 TableEntryData data
+     0 SInt64 m_Id = 563203119233638400
+     1 string m_Localized = "Aumento do preço de entrega e venda de doces"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [455]
+    0 TableEntryData data
+     0 SInt64 m_Id = 553380574236291072
+     1 string m_Localized = "Falta de compreensão do tema."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [456]
+    0 TableEntryData data
+     0 SInt64 m_Id = 570062131323777024
+     1 string m_Localized = "Recusar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [457]
+    0 TableEntryData data
+     0 SInt64 m_Id = 570087495756460032
+     1 string m_Localized = "Sobre a <color=#61cf0c>tradução:</color>\n\nVersão da tradução: ver. <color=#61cf0c>6.1.6.8</color>\n\nEsta tradução foi realizada por @azteka(add me on discord), utilizando como base traduções recentes da Little Witch Brasil.\nTodo o mérito e carinho pelo trabalho original devem ser direcionados a eles, já que esta versão consiste principalmente em revisão e reaproveitamento de partes existentes.\nAs traduções desenvolvidas a partir da versão 5.2 em diante foram feitas inteiramente por mim e não possuem vínculo com a Little Witch Brasil.\n\nLembrando que a tradução ainda não está 100% completa, mas cobre uma boa parte do jogo para não comprometer a sua gameplay.\nDúvidas sobre a tradução? Entre no servidor do <color=#177cd4>Discord</color> da Little Witch Brasil ou me chame no discord, porém recomendo muitíssimo acompanhar o discord da LW brasil, onde você encontrará mais informações sobre o projeto e sobre o jogo.\nA Little Witch Brasil e azteka não possuem relação com a Sunny Side Up, empresa responsável pelo desenvolvimento do jogo.\n\n"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [458]
+    0 TableEntryData data
+     0 SInt64 m_Id = 570077103953063936
+     1 string m_Localized = "Aceitar a coleta de dados anônima para melhorar a experiência."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [459]
+    0 TableEntryData data
+     0 SInt64 m_Id = 570087285646995456
+     1 string m_Localized = "Tradução e consentimento de coleta de dados"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [460]
+    0 TableEntryData data
+     0 SInt64 m_Id = 570430622740557824
+     1 string m_Localized = "Consentimento da Coleta de Dados"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [461]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576274742794592256
+     1 string m_Localized = "Essa ação não pode ser desfeita."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [462]
+    0 TableEntryData data
+     0 SInt64 m_Id = 575983429226405888
+     1 string m_Localized = "Controles Comuns"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [463]
+    0 TableEntryData data
+     0 SInt64 m_Id = 575985092855144448
+     1 string m_Localized = "Mover Cima"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [464]
+    0 TableEntryData data
+     0 SInt64 m_Id = 575985649799995392
+     1 string m_Localized = "Mover Baixo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [465]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576387155757846528
+     1 string m_Localized = "Mover Esquerda"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [466]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576387155787206656
+     1 string m_Localized = "Mover Direita"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [467]
+    0 TableEntryData data
+     0 SInt64 m_Id = 575986021012676608
+     1 string m_Localized = "Confirmar / Selecionar / Interagir"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [468]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576387155787206657
+     1 string m_Localized = "Cancelar / Fechar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [469]
+    0 TableEntryData data
+     0 SInt64 m_Id = 575986384868548608
+     1 string m_Localized = "Cancelar / Menu UI"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [470]
+    0 TableEntryData data
+     0 SInt64 m_Id = 575992653369122816
+     1 string m_Localized = "Básico"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [471]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576178081514725376
+     1 string m_Localized = "Abrir Seletor de Poções"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [472]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576253788282494976
+     1 string m_Localized = "Abrir Seletor de Ferramentas"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [473]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576254141673578496
+     1 string m_Localized = "Abrir Integração com UI"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [474]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576254408246763520
+     1 string m_Localized = "Abrir Lista de Desejos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [475]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576254635494154240
+     1 string m_Localized = "Abrir Jornal"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [476]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576254734337122304
+     1 string m_Localized = "Abrir Minimap"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [477]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576254854659121152
+     1 string m_Localized = "Abrir Notas"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [478]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576260510040530944
+     1 string m_Localized = "Segurar Item"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [479]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576262357497225216
+     1 string m_Localized = "Mirar / Jogar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [480]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576262512178962432
+     1 string m_Localized = "Modo Decoração"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [481]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576262759965859840
+     1 string m_Localized = "Girar Móvel"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [482]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576263055534268416
+     1 string m_Localized = "Mover Cursor Rápidamente"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [483]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576263304306827264
+     1 string m_Localized = "Abrir Catálogo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [484]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576263306747912192
+     1 string m_Localized = "Colocar novamente no Catálogo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [485]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576273221617000448
+     1 string m_Localized = "Botão Duplicado"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [486]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576273654301401088
+     1 string m_Localized = "Esse botão já está em uso em outra ação.\nSe você trocar, o botão anterior será removido. Aplicar mudança?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [487]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576275066922016768
+     1 string m_Localized = "Esse botão está associado nos Controles Comuns e não pode ser usado aqui."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [488]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576275298447597568
+     1 string m_Localized = "Resetar por padrão?\n(Se você resetar, mudanças feitas anteriormente voltarão ao valores padrões.)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [489]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576275364122009600
+     1 string m_Localized = "Resetar Controles"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [490]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576275605562925056
+     1 string m_Localized = "As configurações atuais são as mesmas que as configurações padrão."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [491]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576288129091969024
+     1 string m_Localized = "UI Comum"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [492]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576288281391341568
+     1 string m_Localized = "Sortear / Alternar Visualização"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [493]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576288391080779776
+     1 string m_Localized = "Registrar / Remover"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [494]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576294242503958528
+     1 string m_Localized = "Mudança de controles detectado.\nAplicar mudanças?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [495]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576294299743625216
+     1 string m_Localized = "Confirmar Mudança"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [496]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576294319918227456
+     1 string m_Localized = "Você não pode sair, pois algumas ações não tem botão associado."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [497]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576294390135070720
+     1 string m_Localized = "Não é possível salvar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [498]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576296710063333376
+     1 string m_Localized = "Diálogo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [499]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576296863902015488
+     1 string m_Localized = "Diálogo Avançado (Primário)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [500]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576297087303229440
+     1 string m_Localized = "Diálogo Avançado (Secundário)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [501]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576297231755059200
+     1 string m_Localized = "Pular Diálogo Lido"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [502]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576305082611343360
+     1 string m_Localized = "Sortear"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [503]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576305254892380160
+     1 string m_Localized = "Sair do Inventário"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [504]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576305322584252416
+     1 string m_Localized = "Abrir Equipamento"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [505]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576306499896025088
+     1 string m_Localized = "Alternar Inventário"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [506]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576306699406483456
+     1 string m_Localized = "Alternar Informações de Itens"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [507]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576307323128848384
+     1 string m_Localized = "Ferramenta de Trabalho"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [508]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576307475143008256
+     1 string m_Localized = "Pote Reparatório"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [509]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576307950647058432
+     1 string m_Localized = "Add/Remover da Lista de Desejos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [510]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576309046295732224
+     1 string m_Localized = "Sair da Enciclopédia"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [511]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576309370293133312
+     1 string m_Localized = "Alternar Visibilidade de Materiais"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [512]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576309649184989184
+     1 string m_Localized = "Abrir Página de Temas"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [513]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576310928997163008
+     1 string m_Localized = "Notas"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [514]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576311153912520704
+     1 string m_Localized = "Sair das Notas"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [515]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576311518590476288
+     1 string m_Localized = "Mudar Categoria"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [516]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576314183114366976
+     1 string m_Localized = "Catálogo Decorativo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [517]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576315402738278400
+     1 string m_Localized = "Mudar Categoria - Esquerda"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [518]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576315432152932352
+     1 string m_Localized = "Mudar Categoria - Direita"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [519]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576316269222764544
+     1 string m_Localized = "Mudar Categoria Principal - Esquerda"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [520]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576316271353470976
+     1 string m_Localized = "Mudar Categoria Principal - Direita"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [521]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576316986058678272
+     1 string m_Localized = "Mudar Subcategoria - Esquerda"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [522]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576316988088721408
+     1 string m_Localized = "Mudar Subcategoria - Direita"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [523]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576317769986678784
+     1 string m_Localized = "Mover para Inventário"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [524]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576318087872978944
+     1 string m_Localized = "Abrir filtro"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [525]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576318555323965440
+     1 string m_Localized = "Reparar / Modificar / Entregar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [526]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576319010884100096
+     1 string m_Localized = "Preenchimento automático"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [527]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576319534752669696
+     1 string m_Localized = "Fabricação de cerveja"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [528]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576319635885727744
+     1 string m_Localized = "Controle do Fogo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [529]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576320242872819712
+     1 string m_Localized = "Sair da Lista de Desejos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [530]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576320616484642816
+     1 string m_Localized = "Não Registrado"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [531]
+    0 TableEntryData data
+     0 SInt64 m_Id = 578350561150967808
+     1 string m_Localized = "O botão associado {0}, é o mesmo associado em {1}. Não pode ser alterado."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [532]
+    0 TableEntryData data
+     0 SInt64 m_Id = 578350563218759680
+     1 string m_Localized = "O botão associado é o mesmo {0}. {1} e {2} são outras ações e não podem ser alterado."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [533]
+    0 TableEntryData data
+     0 SInt64 m_Id = 578391424413540352
+     1 string m_Localized = "Por favor, pressione o botão."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [534]
+    0 TableEntryData data
+     0 SInt64 m_Id = 578401842871738368
+     1 string m_Localized = "Direção da Concha - Horário"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [535]
+    0 TableEntryData data
+     0 SInt64 m_Id = 578401844935335936
+     1 string m_Localized = "Direção da Concha - Anti-horário"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [536]
+    0 TableEntryData data
+     0 SInt64 m_Id = 578405153259724800
+     1 string m_Localized = "Sair do Jornal"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [537]
+    0 TableEntryData data
+     0 SInt64 m_Id = 578408681336283136
+     1 string m_Localized = "Sair UI Integrada"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [538]
+    0 TableEntryData data
+     0 SInt64 m_Id = 578407129515106304
+     1 string m_Localized = "Sair do Minimap"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [539]
+    0 TableEntryData data
+     0 SInt64 m_Id = 578415273687457792
+     1 string m_Localized = "Resetar controles para padrão."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [540]
+    0 TableEntryData data
+     0 SInt64 m_Id = 578435803828264960
+     1 string m_Localized = "Esse botão não pode ser associado."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [541]
+    0 TableEntryData data
+     0 SInt64 m_Id = 578690491110727680
+     1 string m_Localized = "Você pode mudar {0}.."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [542]
+    0 TableEntryData data
+     0 SInt64 m_Id = 578692796329566208
+     1 string m_Localized = "Créditos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [543]
+    0 TableEntryData data
+     0 SInt64 m_Id = 579204266423296000
+     1 string m_Localized = "Ferramenta Rápida - Slot 8"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [544]
+    0 TableEntryData data
+     0 SInt64 m_Id = 579204227495960576
+     1 string m_Localized = "Ferramenta Rápida - Slot 7"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [545]
+    0 TableEntryData data
+     0 SInt64 m_Id = 579204218604036096
+     1 string m_Localized = "Ferramenta Rápida - Slot 6"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [546]
+    0 TableEntryData data
+     0 SInt64 m_Id = 579204209938604032
+     1 string m_Localized = "Ferramenta Rápida - Slot 5"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [547]
+    0 TableEntryData data
+     0 SInt64 m_Id = 579204195245957120
+     1 string m_Localized = "Ferramenta Rápida - Slot 4"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [548]
+    0 TableEntryData data
+     0 SInt64 m_Id = 579204188216303616
+     1 string m_Localized = "Ferramenta Rápida - Slot 3"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [549]
+    0 TableEntryData data
+     0 SInt64 m_Id = 579204134973808640
+     1 string m_Localized = "Ferramenta Rápida - Slot 2"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [550]
+    0 TableEntryData data
+     0 SInt64 m_Id = 579204076903669760
+     1 string m_Localized = "Ferramenta Rápida - Slot 1"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [551]
+    0 TableEntryData data
+     0 SInt64 m_Id = 579246043394023424
+     1 string m_Localized = "Por favor, carregue o salvamento mais recente onde o tempo não para e continue à jogar."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [552]
+    0 TableEntryData data
+     0 SInt64 m_Id = 579584073661227008
+     1 string m_Localized = "Pausar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [553]
+    0 TableEntryData data
+     0 SInt64 m_Id = 580916155587043328
+     1 string m_Localized = "Os controles do teclado podem ser personalizados em <color=#a03c3a>Menu (ESC) → Controles</color> sob <color=#a03c3a>mapeamento individual</color>."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [554]
+    0 TableEntryData data
+     0 SInt64 m_Id = 581389234079485952
+     1 string m_Localized = "Ação Especial"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [555]
+    0 TableEntryData data
+     0 SInt64 m_Id = 581724540270587904
+     1 string m_Localized = "Parece que ocorreu um problema travado devido a um bug.\nUm teletransporte será tentado em 5 segundos.\nSe você não quiser isso, selecione Cancelar."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [556]
+    0 TableEntryData data
+     0 SInt64 m_Id = 581758784939827200
+     1 string m_Localized = "Vazio."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [557]
+    0 TableEntryData data
+     0 SInt64 m_Id = 582849180759564288
+     1 string m_Localized = "Carregamento de salvamento inválido detectado"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [558]
+    0 TableEntryData data
+     0 SInt64 m_Id = 582849425019052032
+     1 string m_Localized = "Se você carregar um save antes do que o carregado atualmente, pode haver situações em que <color=#a03c3a>as informações da missão foram carregadas incorretamente</color>.\nSe você continuar neste estado, poderão ocorrer problemas, então, por favor <color=#a03c3a>tente carregar o mesmo arquivo salvo mais uma vez</color>.\nSe você ainda vir o mesmo aviso, esse salvamento é <color=#a03c3a>já em um estado anormal, e você precisará carregar um save ainda mais antigo</color>.\n\nPor favor, continue carregando os saves anteriores até que este aviso não apareça mais.\nSe este aviso aparecer em circunstâncias normais, reporte via Discord.\nPedimos desculpas pelo inconveniente."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [559]
+    0 TableEntryData data
+     0 SInt64 m_Id = 582850133529272320
+     1 string m_Localized = "Aviso"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [560]
+    0 TableEntryData data
+     0 SInt64 m_Id = 583903695369740288
+     1 string m_Localized = "A lista de desejos está cheia, por isso não pôde ser adicionada automaticamente."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [561]
+    0 TableEntryData data
+     0 SInt64 m_Id = 583465936431685632
+     1 string m_Localized = "O arquivo salvo que você carregou pode apresentar um bug\nonde a <color=#a03c3a>misão <Explorando a Caverna Estrelada></color> não progride adequadamente.\n\nSe você continuar jogando com este jogo salvo, o problema pode persistir.\nPedimos gentilmente que você <color=#a03c3a>reverter para um salvamento anterior</color>.\n\nPor favor, retorne para um save onde o progresso da missão <color=#a03c3a><Explorando a Caverna Estrelada></color> esteja em \n<color=#a03c3a>[Entrando na Caverna Estrelada pelo túnel da Vila.]</color>.\nIsso é logo após completar a <color=#a03c3a>missão <O Caminho Que Trilhamos Juntos></color>,\nonde você conserta a ponte abaixo da vila.\n\nPedimos desculpas pelo inconveniente."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [562]
+    0 TableEntryData data
+     0 SInt64 m_Id = 583484406095486976
+     1 string m_Localized = "Não mostrar novamente"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [563]
+    0 TableEntryData data
+     0 SInt64 m_Id = 584184518270590976
+     1 string m_Localized = "Alguns doces na lista de entrega não têm receitas, por isso não podem ser adicionados aos Favoritos."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [564]
+    0 TableEntryData data
+     0 SInt64 m_Id = 581670946068045824
+     1 string m_Localized = "Selecione o seu <color=#a03c3a>modo de controle</color> preferido."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [565]
+    0 TableEntryData data
+     0 SInt64 m_Id = 581674232603025408
+     1 string m_Localized = "Depois de selecionar um modo de controle, você também pode personalizá-lo individualmente em <color=#a03c3a>Menu (ESC) - Controles</color>."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [566]
+    0 TableEntryData data
+     0 SInt64 m_Id = 581691010473336832
+     1 string m_Localized = "Alterar modo de controle do teclado"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [567]
+    0 TableEntryData data
+     0 SInt64 m_Id = 581691119747538944
+     1 string m_Localized = "Há <color=#a03c3a>controles personalizados individualmente</color> no modo de controle atual.\nSe você alterar o modo de controle, o <color=#a03c3a>controles personalizados será redefinidos</color>.\nVocê quer mudar o modo de controle?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [568]
+    0 TableEntryData data
+     0 SInt64 m_Id = 583476671186542592
+     1 string m_Localized = "Erro no Controles"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [569]
+    0 TableEntryData data
+     0 SInt64 m_Id = 583476798655635456
+     1 string m_Localized = "Um <color=#a03c3a>conflito na configuração de controles</color> foi detectado.\nAjuste suas configurações antes de continuar."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [570]
+    0 TableEntryData data
+     0 SInt64 m_Id = 583816318240497664
+     1 string m_Localized = "Desmontar Vassoura"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [571]
+    0 TableEntryData data
+     0 SInt64 m_Id = 584254024200298496
+     1 string m_Localized = "Transferir itens idênticos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [572]
+    0 TableEntryData data
+     0 SInt64 m_Id = 584254847043051520
+     1 string m_Localized = "Armazenamento vazio"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [573]
+    0 TableEntryData data
+     0 SInt64 m_Id = 584264983916650496
+     1 string m_Localized = "Nenhum item idêntico disponível para transferência."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [574]
+    0 TableEntryData data
+     0 SInt64 m_Id = 584265046785073152
+     1 string m_Localized = "Todos os itens idênticos foram transferidos."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [575]
+    0 TableEntryData data
+     0 SInt64 m_Id = 584266338014142464
+     1 string m_Localized = "O armazenamento foi esvaziado."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [576]
+    0 TableEntryData data
+     0 SInt64 m_Id = 631606967744143360
+     1 string m_Localized = "Espere para doar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [577]
+    0 TableEntryData data
+     0 SInt64 m_Id = 615837481139224576
+     1 string m_Localized = "Avaliar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [578]
+    0 TableEntryData data
+     0 SInt64 m_Id = 624423019721072640
+     1 string m_Localized = "Doar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [579]
+    0 TableEntryData data
+     0 SInt64 m_Id = 624423541547016192
+     1 string m_Localized = "Progresso"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [580]
+    0 TableEntryData data
+     0 SInt64 m_Id = 624423989414797312
+     1 string m_Localized = "Formas de vida"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [581]
+    0 TableEntryData data
+     0 SInt64 m_Id = 624424087741865984
+     1 string m_Localized = "Itens coletados comuns"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [582]
+    0 TableEntryData data
+     0 SInt64 m_Id = 624424125771620352
+     1 string m_Localized = "Frutas"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [583]
+    0 TableEntryData data
+     0 SInt64 m_Id = 624424147837853696
+     1 string m_Localized = "Poções"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [584]
+    0 TableEntryData data
+     0 SInt64 m_Id = 624424177634189312
+     1 string m_Localized = "Doces"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [585]
+    0 TableEntryData data
+     0 SInt64 m_Id = 624424194986024960
+     1 string m_Localized = "Peixe"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [586]
+    0 TableEntryData data
+     0 SInt64 m_Id = 624424215580057600
+     1 string m_Localized = "Constelações"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [587]
+    0 TableEntryData data
+     0 SInt64 m_Id = 624425125546893312
+     1 string m_Localized = "Salões temáticos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [588]
+    0 TableEntryData data
+     0 SInt64 m_Id = 624425159990517760
+     1 string m_Localized = "Salão das Constelações"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [589]
+    0 TableEntryData data
+     0 SInt64 m_Id = 624425311732047872
+     1 string m_Localized = "Aquário"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [590]
+    0 TableEntryData data
+     0 SInt64 m_Id = 624426481418575872
+     1 string m_Localized = "Sala de Artesanato"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [591]
+    0 TableEntryData data
+     0 SInt64 m_Id = 626623448079380480
+     1 string m_Localized = "Zodíacos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [592]
+    0 TableEntryData data
+     0 SInt64 m_Id = 626623449828405248
+     1 string m_Localized = "Minérios estelares"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [593]
+    0 TableEntryData data
+     0 SInt64 m_Id = 628793593595502592
+     1 string m_Localized = "Resultado da avaliação"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [594]
+    0 TableEntryData data
+     0 SInt64 m_Id = 628821090445893632
+     1 string m_Localized = "Espere para avaliar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+ 0 ManagedReferencesRegistry references
+  0 int version = 2
+  0 vector RefIds
+   1 Array Array
+    0 int size = 1
+    0 ReferencedObject data
+     0 SInt64 rid = 0
+     0 ReferencedManagedType type
+      1 string class = "SmartFormatTag"
+      1 string ns = "UnityEngine.Localization.Metadata"
+      1 string asm = "Unity.Localization"
+     0 ReferencedObjectData data
+      0 vector m_Entries
+       1 Array Array (0 items)
+        0 int size = 0
+      0 Entry m_SharedEntries
+       0 Array Array (31 items)
+        0 int size = 31
+        [0]
+         0 Entry data
+          0 SInt64 id = 33029162869215232
+        [1]
+         0 Entry data
+          0 SInt64 id = 33029209904140288
+        [2]
+         0 Entry data
+          0 SInt64 id = 35227070586703872
+        [3]
+         0 Entry data
+          0 SInt64 id = 146881587680591872
+        [4]
+         0 Entry data
+          0 SInt64 id = 192822807988953088
+        [5]
+         0 Entry data
+          0 SInt64 id = 192822466136399872
+        [6]
+         0 Entry data
+          0 SInt64 id = 192822319994265600
+        [7]
+         0 Entry data
+          0 SInt64 id = 192821990506520576
+        [8]
+         0 Entry data
+          0 SInt64 id = 183428483043975168
+        [9]
+         0 Entry data
+          0 SInt64 id = 192077424822231040
+        [10]
+         0 Entry data
+          0 SInt64 id = 347631798559244288
+        [11]
+         0 Entry data
+          0 SInt64 id = 350826663357358080
+        [12]
+         0 Entry data
+          0 SInt64 id = 308844818300207104
+        [13]
+         0 Entry data
+          0 SInt64 id = 308844891998322688
+        [14]
+         0 Entry data
+          0 SInt64 id = 308844892778463232
+        [15]
+         0 Entry data
+          0 SInt64 id = 392800235432615936
+        [16]
+         0 Entry data
+          0 SInt64 id = 392800669417250816
+        [17]
+         0 Entry data
+          0 SInt64 id = 464315519798681600
+        [18]
+         0 Entry data
+          0 SInt64 id = 444729943831420928
+        [19]
+         0 Entry data
+          0 SInt64 id = 444730000433553408
+        [20]
+         0 Entry data
+          0 SInt64 id = 539554700466630656
+        [21]
+         0 Entry data
+          0 SInt64 id = 542827242472333312
+        [22]
+         0 Entry data
+          0 SInt64 id = 542827245609672704
+        [23]
+         0 Entry data
+          0 SInt64 id = 542827247425806336
+        [24]
+         0 Entry data
+          0 SInt64 id = 552598314912440320
+        [25]
+         0 Entry data
+          0 SInt64 id = 553374504363352064
+        [26]
+         0 Entry data
+          0 SInt64 id = 563203119858589696
+        [27]
+         0 Entry data
+          0 SInt64 id = 563203002271277056
+        [28]
+         0 Entry data
+          0 SInt64 id = 192106400322052096
+        [29]
+         0 Entry data
+          0 SInt64 id = 22573180842168320
+        [30]
+         0 Entry data
+          0 SInt64 id = 311368120066162688

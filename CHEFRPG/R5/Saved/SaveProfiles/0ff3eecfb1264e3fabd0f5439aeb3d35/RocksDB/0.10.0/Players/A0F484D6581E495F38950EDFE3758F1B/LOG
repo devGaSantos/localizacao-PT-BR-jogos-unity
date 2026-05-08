@@ -1,0 +1,1038 @@
+2026/04/25-13:54:19.707250 3dbc RocksDB version: 10.4.2
+2026/04/25-13:54:19.707282 3dbc Git sha d0cf10cb759e55136089e8030296db09fd16cfdb
+2026/04/25-13:54:19.707292 3dbc Compile date 2026-02-21 08:10:24
+2026/04/25-13:54:19.707298 3dbc DB SUMMARY
+2026/04/25-13:54:19.707303 3dbc Host name (Env):  DESKTOP-S352KBJ
+2026/04/25-13:54:19.707308 3dbc DB Session ID:  1ZHD2L1FE0GSCCBKZ929
+2026/04/25-13:54:19.707314 3dbc CURRENT file:  CURRENT
+2026/04/25-13:54:19.707319 3dbc IDENTITY file:  IDENTITY
+2026/04/25-13:54:19.707324 3dbc MANIFEST file:  MANIFEST-003712 size: 1536 Bytes
+2026/04/25-13:54:19.707329 3dbc SST files in C:/Users/AZTEKA/AppData/Local/R5/Saved/SaveProfiles/0ff3eecfb1264e3fabd0f5439aeb3d35/RocksDB/0.10.0/Players/A0F484D6581E495F38950EDFE3758F1B dir, Total Num: 7, files: 000017.sst 000021.sst 003392.sst 003468.sst 003488.sst 003508.sst 003516.sst 
+2026/04/25-13:54:19.707394 3dbc Write Ahead Log file in C:/Users/AZTEKA/AppData/Local/R5/Saved/SaveProfiles/0ff3eecfb1264e3fabd0f5439aeb3d35/RocksDB/0.10.0/Players/A0F484D6581E495F38950EDFE3758F1B: 003711.log size: 0 ; 
+2026/04/25-13:54:19.707400 3dbc                         Options.error_if_exists: 0
+2026/04/25-13:54:19.707403 3dbc                       Options.create_if_missing: 1
+2026/04/25-13:54:19.707405 3dbc                         Options.paranoid_checks: 1
+2026/04/25-13:54:19.707407 3dbc             Options.flush_verify_memtable_count: 1
+2026/04/25-13:54:19.707409 3dbc          Options.compaction_verify_record_count: 1
+2026/04/25-13:54:19.707411 3dbc                               Options.track_and_verify_wals_in_manifest: 0
+2026/04/25-13:54:19.707413 3dbc                               Options.track_and_verify_wals: 0
+2026/04/25-13:54:19.707415 3dbc        Options.verify_sst_unique_id_in_manifest: 1
+2026/04/25-13:54:19.707417 3dbc                                     Options.env: 0000026C96426800
+2026/04/25-13:54:19.707420 3dbc                                      Options.fs: WinFS
+2026/04/25-13:54:19.707422 3dbc                                Options.info_log: 0000026ECB521390
+2026/04/25-13:54:19.707424 3dbc                Options.max_file_opening_threads: 16
+2026/04/25-13:54:19.707426 3dbc                              Options.statistics: 0000000000000000
+2026/04/25-13:54:19.707428 3dbc                               Options.use_fsync: 0
+2026/04/25-13:54:19.707431 3dbc                       Options.max_log_file_size: 1024
+2026/04/25-13:54:19.707433 3dbc                  Options.max_manifest_file_size: 1073741824
+2026/04/25-13:54:19.707435 3dbc                   Options.log_file_time_to_roll: 0
+2026/04/25-13:54:19.707437 3dbc                       Options.keep_log_file_num: 3
+2026/04/25-13:54:19.707439 3dbc                    Options.recycle_log_file_num: 0
+2026/04/25-13:54:19.707441 3dbc                         Options.allow_fallocate: 1
+2026/04/25-13:54:19.707443 3dbc                        Options.allow_mmap_reads: 0
+2026/04/25-13:54:19.707445 3dbc                       Options.allow_mmap_writes: 0
+2026/04/25-13:54:19.707447 3dbc                        Options.use_direct_reads: 0
+2026/04/25-13:54:19.707449 3dbc                        Options.use_direct_io_for_flush_and_compaction: 0
+2026/04/25-13:54:19.707451 3dbc          Options.create_missing_column_families: 1
+2026/04/25-13:54:19.707453 3dbc                              Options.db_log_dir: 
+2026/04/25-13:54:19.707456 3dbc                                 Options.wal_dir: 
+2026/04/25-13:54:19.707457 3dbc                Options.table_cache_numshardbits: 6
+2026/04/25-13:54:19.707459 3dbc                         Options.WAL_ttl_seconds: 0
+2026/04/25-13:54:19.707461 3dbc                       Options.WAL_size_limit_MB: 0
+2026/04/25-13:54:19.707463 3dbc                        Options.max_write_batch_group_size_bytes: 1048576
+2026/04/25-13:54:19.707465 3dbc             Options.manifest_preallocation_size: 4194304
+2026/04/25-13:54:19.707467 3dbc                     Options.is_fd_close_on_exec: 1
+2026/04/25-13:54:19.707469 3dbc                   Options.advise_random_on_open: 1
+2026/04/25-13:54:19.707471 3dbc                    Options.db_write_buffer_size: 0
+2026/04/25-13:54:19.707489 3dbc                    Options.write_buffer_manager: 0000026ADD8FEB00
+2026/04/25-13:54:19.707492 3dbc                      Options.use_adaptive_mutex: 0
+2026/04/25-13:54:19.707494 3dbc                            Options.rate_limiter: 0000000000000000
+2026/04/25-13:54:19.707496 3dbc     Options.sst_file_manager.rate_bytes_per_sec: 0
+2026/04/25-13:54:19.707498 3dbc                       Options.wal_recovery_mode: 2
+2026/04/25-13:54:19.707500 3dbc                  Options.enable_thread_tracking: 0
+2026/04/25-13:54:19.707502 3dbc                  Options.enable_pipelined_write: 0
+2026/04/25-13:54:19.707504 3dbc                  Options.unordered_write: 0
+2026/04/25-13:54:19.707506 3dbc         Options.allow_concurrent_memtable_write: 1
+2026/04/25-13:54:19.707508 3dbc      Options.enable_write_thread_adaptive_yield: 1
+2026/04/25-13:54:19.707510 3dbc             Options.write_thread_max_yield_usec: 100
+2026/04/25-13:54:19.707512 3dbc            Options.write_thread_slow_yield_usec: 3
+2026/04/25-13:54:19.707514 3dbc                               Options.row_cache: None
+2026/04/25-13:54:19.707516 3dbc                              Options.wal_filter: None
+2026/04/25-13:54:19.707518 3dbc             Options.avoid_flush_during_recovery: 0
+2026/04/25-13:54:19.707520 3dbc             Options.allow_ingest_behind: 0
+2026/04/25-13:54:19.707522 3dbc             Options.two_write_queues: 0
+2026/04/25-13:54:19.707524 3dbc             Options.manual_wal_flush: 0
+2026/04/25-13:54:19.707526 3dbc             Options.wal_compression: 0
+2026/04/25-13:54:19.707528 3dbc             Options.background_close_inactive_wals: 0
+2026/04/25-13:54:19.707530 3dbc             Options.atomic_flush: 0
+2026/04/25-13:54:19.707532 3dbc             Options.avoid_unnecessary_blocking_io: 0
+2026/04/25-13:54:19.707534 3dbc             Options.prefix_seek_opt_in_only: 0
+2026/04/25-13:54:19.707537 3dbc                 Options.persist_stats_to_disk: 0
+2026/04/25-13:54:19.707539 3dbc                 Options.write_dbid_to_manifest: 1
+2026/04/25-13:54:19.707541 3dbc                 Options.write_identity_file: 1
+2026/04/25-13:54:19.707543 3dbc                 Options.log_readahead_size: 0
+2026/04/25-13:54:19.707545 3dbc                 Options.file_checksum_gen_factory: Unknown
+2026/04/25-13:54:19.707547 3dbc                 Options.best_efforts_recovery: 0
+2026/04/25-13:54:19.707549 3dbc                Options.max_bgerror_resume_count: 2147483647
+2026/04/25-13:54:19.707551 3dbc            Options.bgerror_resume_retry_interval: 1000000
+2026/04/25-13:54:19.707553 3dbc             Options.allow_data_in_errors: 0
+2026/04/25-13:54:19.707555 3dbc             Options.db_host_id: __hostname__
+2026/04/25-13:54:19.707557 3dbc             Options.enforce_single_del_contracts: true
+2026/04/25-13:54:19.707558 3dbc             Options.metadata_write_temperature: kUnknown
+2026/04/25-13:54:19.707560 3dbc             Options.wal_write_temperature: kUnknown
+2026/04/25-13:54:19.707563 3dbc             Options.max_background_jobs: 2
+2026/04/25-13:54:19.707565 3dbc             Options.max_background_compactions: -1
+2026/04/25-13:54:19.707567 3dbc             Options.max_subcompactions: 1
+2026/04/25-13:54:19.707569 3dbc             Options.avoid_flush_during_shutdown: 0
+2026/04/25-13:54:19.707571 3dbc           Options.writable_file_max_buffer_size: 1048576
+2026/04/25-13:54:19.707573 3dbc             Options.delayed_write_rate : 16777216
+2026/04/25-13:54:19.707575 3dbc             Options.max_total_wal_size: 1048576
+2026/04/25-13:54:19.707577 3dbc             Options.delete_obsolete_files_period_micros: 21600000000
+2026/04/25-13:54:19.707579 3dbc                   Options.stats_dump_period_sec: 600
+2026/04/25-13:54:19.707581 3dbc                 Options.stats_persist_period_sec: 600
+2026/04/25-13:54:19.707583 3dbc                 Options.stats_history_buffer_size: 1048576
+2026/04/25-13:54:19.707585 3dbc                          Options.max_open_files: -1
+2026/04/25-13:54:19.707587 3dbc                          Options.bytes_per_sync: 0
+2026/04/25-13:54:19.707596 3dbc                      Options.wal_bytes_per_sync: 0
+2026/04/25-13:54:19.707599 3dbc                   Options.strict_bytes_per_sync: 0
+2026/04/25-13:54:19.707601 3dbc       Options.compaction_readahead_size: 2097152
+2026/04/25-13:54:19.707603 3dbc                  Options.max_background_flushes: -1
+2026/04/25-13:54:19.707605 3dbc Options.daily_offpeak_time_utc: 
+2026/04/25-13:54:19.707607 3dbc Compression algorithms supported:
+2026/04/25-13:54:19.707609 3dbc 	kZSTD supported: 0
+2026/04/25-13:54:19.707611 3dbc 	kCustomCompressionA3 supported: 0
+2026/04/25-13:54:19.707613 3dbc 	kSnappyCompression supported: 0
+2026/04/25-13:54:19.707615 3dbc 	kCustomCompressionA5 supported: 0
+2026/04/25-13:54:19.707617 3dbc 	kBZip2Compression supported: 0
+2026/04/25-13:54:19.707619 3dbc 	kZlibCompression supported: 0
+2026/04/25-13:54:19.707621 3dbc 	kLZ4Compression supported: 0
+2026/04/25-13:54:19.707623 3dbc 	kXpressCompression supported: 0
+2026/04/25-13:54:19.707625 3dbc 	kCustomCompressionA7 supported: 0
+2026/04/25-13:54:19.707627 3dbc 	kLZ4HCCompression supported: 0
+2026/04/25-13:54:19.707629 3dbc 	kCustomCompressionB2 supported: 0
+2026/04/25-13:54:19.707631 3dbc 	kCustomCompression9C supported: 0
+2026/04/25-13:54:19.707633 3dbc 	kCustomCompression80 supported: 0
+2026/04/25-13:54:19.707635 3dbc 	kCustomCompressionB3 supported: 0
+2026/04/25-13:54:19.707637 3dbc 	kCustomCompression9B supported: 0
+2026/04/25-13:54:19.707639 3dbc 	kCustomCompression81 supported: 0
+2026/04/25-13:54:19.707641 3dbc 	kCustomCompressionB0 supported: 0
+2026/04/25-13:54:19.707643 3dbc 	kCustomCompression9A supported: 0
+2026/04/25-13:54:19.707645 3dbc 	kCustomCompression82 supported: 0
+2026/04/25-13:54:19.707647 3dbc 	kCustomCompressionB1 supported: 0
+2026/04/25-13:54:19.707649 3dbc 	kCustomCompression83 supported: 0
+2026/04/25-13:54:19.707651 3dbc 	kCustomCompressionB6 supported: 0
+2026/04/25-13:54:19.707653 3dbc 	kCustomCompression84 supported: 0
+2026/04/25-13:54:19.707655 3dbc 	kCustomCompressionB7 supported: 0
+2026/04/25-13:54:19.707657 3dbc 	kCustomCompression9F supported: 0
+2026/04/25-13:54:19.707659 3dbc 	kCustomCompression85 supported: 0
+2026/04/25-13:54:19.707661 3dbc 	kCustomCompressionB4 supported: 0
+2026/04/25-13:54:19.707663 3dbc 	kCustomCompression9E supported: 0
+2026/04/25-13:54:19.707665 3dbc 	kCustomCompression86 supported: 0
+2026/04/25-13:54:19.707667 3dbc 	kCustomCompressionB5 supported: 0
+2026/04/25-13:54:19.707669 3dbc 	kCustomCompression9D supported: 0
+2026/04/25-13:54:19.707671 3dbc 	kCustomCompression87 supported: 0
+2026/04/25-13:54:19.707673 3dbc 	kCustomCompression88 supported: 0
+2026/04/25-13:54:19.707675 3dbc 	kCustomCompression89 supported: 0
+2026/04/25-13:54:19.707677 3dbc 	kCustomCompression92 supported: 0
+2026/04/25-13:54:19.707679 3dbc 	kCustomCompression8A supported: 0
+2026/04/25-13:54:19.707681 3dbc 	kCustomCompression91 supported: 0
+2026/04/25-13:54:19.707683 3dbc 	kCustomCompression8B supported: 0
+2026/04/25-13:54:19.707685 3dbc 	kCustomCompression90 supported: 0
+2026/04/25-13:54:19.707687 3dbc 	kCustomCompression8C supported: 0
+2026/04/25-13:54:19.707689 3dbc 	kCustomCompression97 supported: 0
+2026/04/25-13:54:19.707691 3dbc 	kCustomCompression8D supported: 0
+2026/04/25-13:54:19.707693 3dbc 	kCustomCompression96 supported: 0
+2026/04/25-13:54:19.707695 3dbc 	kCustomCompression8E supported: 0
+2026/04/25-13:54:19.707697 3dbc 	kCustomCompression95 supported: 0
+2026/04/25-13:54:19.707699 3dbc 	kCustomCompression8F supported: 0
+2026/04/25-13:54:19.707701 3dbc 	kCustomCompression93 supported: 0
+2026/04/25-13:54:19.707703 3dbc 	kCustomCompression94 supported: 0
+2026/04/25-13:54:19.707705 3dbc 	kCustomCompression98 supported: 0
+2026/04/25-13:54:19.707707 3dbc 	kCustomCompression99 supported: 0
+2026/04/25-13:54:19.707709 3dbc 	kCustomCompressionA0 supported: 0
+2026/04/25-13:54:19.707710 3dbc 	kCustomCompressionA1 supported: 0
+2026/04/25-13:54:19.707712 3dbc 	kCustomCompressionA2 supported: 0
+2026/04/25-13:54:19.707714 3dbc 	kCustomCompressionA4 supported: 0
+2026/04/25-13:54:19.707716 3dbc 	kCustomCompressionA6 supported: 0
+2026/04/25-13:54:19.707719 3dbc 	kCustomCompressionA8 supported: 0
+2026/04/25-13:54:19.707722 3dbc 	kCustomCompressionA9 supported: 0
+2026/04/25-13:54:19.707724 3dbc 	kCustomCompressionAA supported: 0
+2026/04/25-13:54:19.707726 3dbc 	kCustomCompressionAB supported: 0
+2026/04/25-13:54:19.707728 3dbc 	kCustomCompressionAC supported: 0
+2026/04/25-13:54:19.707730 3dbc 	kCustomCompressionAD supported: 0
+2026/04/25-13:54:19.707732 3dbc 	kCustomCompressionAE supported: 0
+2026/04/25-13:54:19.707734 3dbc 	kCustomCompressionAF supported: 0
+2026/04/25-13:54:19.707736 3dbc 	kCustomCompressionB8 supported: 0
+2026/04/25-13:54:19.707738 3dbc 	kCustomCompressionB9 supported: 0
+2026/04/25-13:54:19.707740 3dbc 	kCustomCompressionBA supported: 0
+2026/04/25-13:54:19.707742 3dbc 	kCustomCompressionBB supported: 0
+2026/04/25-13:54:19.707744 3dbc 	kCustomCompressionBC supported: 0
+2026/04/25-13:54:19.707746 3dbc 	kCustomCompressionBD supported: 0
+2026/04/25-13:54:19.707748 3dbc 	kCustomCompressionBE supported: 0
+2026/04/25-13:54:19.707750 3dbc 	kCustomCompressionBF supported: 0
+2026/04/25-13:54:19.707752 3dbc 	kCustomCompressionC0 supported: 0
+2026/04/25-13:54:19.707754 3dbc 	kCustomCompressionC1 supported: 0
+2026/04/25-13:54:19.707756 3dbc 	kCustomCompressionC2 supported: 0
+2026/04/25-13:54:19.707758 3dbc 	kCustomCompressionC3 supported: 0
+2026/04/25-13:54:19.707760 3dbc 	kCustomCompressionC4 supported: 0
+2026/04/25-13:54:19.707762 3dbc 	kCustomCompressionC5 supported: 0
+2026/04/25-13:54:19.707764 3dbc 	kCustomCompressionC6 supported: 0
+2026/04/25-13:54:19.707766 3dbc 	kCustomCompressionC7 supported: 0
+2026/04/25-13:54:19.707768 3dbc 	kCustomCompressionC8 supported: 0
+2026/04/25-13:54:19.707770 3dbc 	kCustomCompressionC9 supported: 0
+2026/04/25-13:54:19.707771 3dbc 	kCustomCompressionCA supported: 0
+2026/04/25-13:54:19.707773 3dbc 	kCustomCompressionCB supported: 0
+2026/04/25-13:54:19.707775 3dbc 	kCustomCompressionCC supported: 0
+2026/04/25-13:54:19.707777 3dbc 	kCustomCompressionCD supported: 0
+2026/04/25-13:54:19.707779 3dbc 	kCustomCompressionCE supported: 0
+2026/04/25-13:54:19.707781 3dbc 	kCustomCompressionCF supported: 0
+2026/04/25-13:54:19.707783 3dbc 	kCustomCompressionD0 supported: 0
+2026/04/25-13:54:19.707785 3dbc 	kCustomCompressionD1 supported: 0
+2026/04/25-13:54:19.707787 3dbc 	kCustomCompressionD2 supported: 0
+2026/04/25-13:54:19.707789 3dbc 	kCustomCompressionD3 supported: 0
+2026/04/25-13:54:19.707791 3dbc 	kCustomCompressionD4 supported: 0
+2026/04/25-13:54:19.707793 3dbc 	kCustomCompressionD5 supported: 0
+2026/04/25-13:54:19.707795 3dbc 	kCustomCompressionD6 supported: 0
+2026/04/25-13:54:19.707797 3dbc 	kCustomCompressionD7 supported: 0
+2026/04/25-13:54:19.707799 3dbc 	kCustomCompressionD8 supported: 0
+2026/04/25-13:54:19.707801 3dbc 	kCustomCompressionD9 supported: 0
+2026/04/25-13:54:19.707803 3dbc 	kCustomCompressionDA supported: 0
+2026/04/25-13:54:19.707805 3dbc 	kCustomCompressionDB supported: 0
+2026/04/25-13:54:19.707807 3dbc 	kCustomCompressionDC supported: 0
+2026/04/25-13:54:19.707809 3dbc 	kCustomCompressionDD supported: 0
+2026/04/25-13:54:19.707811 3dbc 	kCustomCompressionDE supported: 0
+2026/04/25-13:54:19.707813 3dbc 	kCustomCompressionDF supported: 0
+2026/04/25-13:54:19.707815 3dbc 	kCustomCompressionE0 supported: 0
+2026/04/25-13:54:19.707817 3dbc 	kCustomCompressionE1 supported: 0
+2026/04/25-13:54:19.707819 3dbc 	kCustomCompressionE2 supported: 0
+2026/04/25-13:54:19.707821 3dbc 	kCustomCompressionE3 supported: 0
+2026/04/25-13:54:19.707823 3dbc 	kCustomCompressionE4 supported: 0
+2026/04/25-13:54:19.707825 3dbc 	kCustomCompressionE5 supported: 0
+2026/04/25-13:54:19.707827 3dbc 	kCustomCompressionE6 supported: 0
+2026/04/25-13:54:19.707829 3dbc 	kCustomCompressionE7 supported: 0
+2026/04/25-13:54:19.707831 3dbc 	kCustomCompressionE8 supported: 0
+2026/04/25-13:54:19.707833 3dbc 	kCustomCompressionE9 supported: 0
+2026/04/25-13:54:19.707835 3dbc 	kCustomCompressionEA supported: 0
+2026/04/25-13:54:19.707837 3dbc 	kCustomCompressionEB supported: 0
+2026/04/25-13:54:19.707839 3dbc 	kCustomCompressionEC supported: 0
+2026/04/25-13:54:19.707850 3dbc 	kCustomCompressionED supported: 0
+2026/04/25-13:54:19.707853 3dbc 	kCustomCompressionEE supported: 0
+2026/04/25-13:54:19.707855 3dbc 	kCustomCompressionEF supported: 0
+2026/04/25-13:54:19.707857 3dbc 	kCustomCompressionF0 supported: 0
+2026/04/25-13:54:19.707859 3dbc 	kCustomCompressionF1 supported: 0
+2026/04/25-13:54:19.707861 3dbc 	kCustomCompressionF2 supported: 0
+2026/04/25-13:54:19.707863 3dbc 	kCustomCompressionF3 supported: 0
+2026/04/25-13:54:19.707865 3dbc 	kCustomCompressionF4 supported: 0
+2026/04/25-13:54:19.707867 3dbc 	kCustomCompressionF5 supported: 0
+2026/04/25-13:54:19.707869 3dbc 	kCustomCompressionF6 supported: 0
+2026/04/25-13:54:19.707871 3dbc 	kCustomCompressionF7 supported: 0
+2026/04/25-13:54:19.707873 3dbc 	kCustomCompressionF8 supported: 0
+2026/04/25-13:54:19.707875 3dbc 	kCustomCompressionF9 supported: 0
+2026/04/25-13:54:19.707877 3dbc 	kCustomCompressionFA supported: 0
+2026/04/25-13:54:19.707879 3dbc 	kCustomCompressionFB supported: 0
+2026/04/25-13:54:19.707881 3dbc 	kCustomCompressionFC supported: 0
+2026/04/25-13:54:19.707883 3dbc 	kCustomCompressionFD supported: 0
+2026/04/25-13:54:19.707885 3dbc 	kCustomCompressionFE supported: 0
+2026/04/25-13:54:19.707887 3dbc Fast CRC32 supported: Supported on x86
+2026/04/25-13:54:19.707889 3dbc DMutex implementation: std::mutex
+2026/04/25-13:54:19.707890 3dbc Jemalloc supported: 0
+2026/04/25-13:54:19.707893 3dbc               Options.comparator: leveldb.BytewiseComparator
+2026/04/25-13:54:19.707895 3dbc           Options.merge_operator: None
+2026/04/25-13:54:19.707897 3dbc        Options.compaction_filter: None
+2026/04/25-13:54:19.707898 3dbc        Options.compaction_filter_factory: None
+2026/04/25-13:54:19.707900 3dbc  Options.sst_partitioner_factory: None
+2026/04/25-13:54:19.707902 3dbc         Options.memtable_factory: SkipListFactory
+2026/04/25-13:54:19.707904 3dbc            Options.table_factory: BlockBasedTable
+2026/04/25-13:54:19.707908 3dbc            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0000026AF9A3DCC0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  checksum: 4
+  no_block_cache: 0
+  block_cache: 0000026C8C2DD810
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 33554432
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.500
+    low_pri_pool_ratio: 0.000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 6
+  e
+2026/04/25-13:54:19.707910 3dbc        Options.write_buffer_size: 67108864
+2026/04/25-13:54:19.707912 3dbc  Options.max_write_buffer_number: 2
+2026/04/25-13:54:19.707914 3dbc          Options.compression: NoCompression
+2026/04/25-13:54:19.707916 3dbc                  Options.bottommost_compression: Disabled
+2026/04/25-13:54:19.707918 3dbc       Options.prefix_extractor: nullptr
+2026/04/25-13:54:19.707920 3dbc   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2026/04/25-13:54:19.707922 3dbc             Options.num_levels: 7
+2026/04/25-13:54:19.707924 3dbc        Options.min_write_buffer_number_to_merge: 1
+2026/04/25-13:54:19.707926 3dbc     Options.max_write_buffer_size_to_maintain: 134217728
+2026/04/25-13:54:19.707928 3dbc            Options.bottommost_compression_opts.window_bits: -14
+2026/04/25-13:54:19.707930 3dbc                  Options.bottommost_compression_opts.level: 32767
+2026/04/25-13:54:19.707932 3dbc               Options.bottommost_compression_opts.strategy: 0
+2026/04/25-13:54:19.707934 3dbc         Options.bottommost_compression_opts.max_dict_bytes: 0
+2026/04/25-13:54:19.707937 3dbc         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2026/04/25-13:54:19.707940 3dbc         Options.bottommost_compression_opts.parallel_threads: 1
+2026/04/25-13:54:19.707942 3dbc                  Options.bottommost_compression_opts.enabled: false
+2026/04/25-13:54:19.707944 3dbc         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2026/04/25-13:54:19.707946 3dbc         Options.bottommost_compression_opts.use_zstd_dict_trainer: true
+2026/04/25-13:54:19.707948 3dbc            Options.compression_opts.window_bits: -14
+2026/04/25-13:54:19.707950 3dbc                  Options.compression_opts.level: 32767
+2026/04/25-13:54:19.707952 3dbc               Options.compression_opts.strategy: 0
+2026/04/25-13:54:19.707954 3dbc         Options.compression_opts.max_dict_bytes: 0
+2026/04/25-13:54:19.707956 3dbc         Options.compression_opts.zstd_max_train_bytes: 0
+2026/04/25-13:54:19.707958 3dbc         Options.compression_opts.use_zstd_dict_trainer: true
+2026/04/25-13:54:19.707960 3dbc         Options.compression_opts.parallel_threads: 1
+2026/04/25-13:54:19.707962 3dbc                  Options.compression_opts.enabled: false
+2026/04/25-13:54:19.707964 3dbc         Options.compression_opts.max_dict_buffer_bytes: 0
+2026/04/25-13:54:19.707966 3dbc      Options.level0_file_num_compaction_trigger: 4
+2026/04/25-13:54:19.707968 3dbc          Options.level0_slowdown_writes_trigger: 20
+2026/04/25-13:54:19.707970 3dbc              Options.level0_stop_writes_trigger: 36
+2026/04/25-13:54:19.707972 3dbc                   Options.target_file_size_base: 67108864
+2026/04/25-13:54:19.707974 3dbc             Options.target_file_size_multiplier: 1
+2026/04/25-13:54:19.707976 3dbc                Options.max_bytes_for_level_base: 268435456
+2026/04/25-13:54:19.707978 3dbc Options.level_compaction_dynamic_level_bytes: 1
+2026/04/25-13:54:19.707980 3dbc          Options.max_bytes_for_level_multiplier: 10.000000
+2026/04/25-13:54:19.707982 3dbc Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2026/04/25-13:54:19.707984 3dbc Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2026/04/25-13:54:19.707986 3dbc Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2026/04/25-13:54:19.707988 3dbc Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2026/04/25-13:54:19.707990 3dbc Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2026/04/25-13:54:19.707991 3dbc Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2026/04/25-13:54:19.707993 3dbc Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2026/04/25-13:54:19.707995 3dbc       Options.max_sequential_skip_in_iterations: 8
+2026/04/25-13:54:19.707997 3dbc          Options.memtable_op_scan_flush_trigger: 0
+2026/04/25-13:54:19.707999 3dbc      Options.memtable_avg_op_scan_flush_trigger: 0
+2026/04/25-13:54:19.708001 3dbc                    Options.max_compaction_bytes: 1677721600
+2026/04/25-13:54:19.708003 3dbc                        Options.arena_block_size: 1048576
+2026/04/25-13:54:19.708005 3dbc   Options.soft_pending_compaction_bytes_limit: 68719476736
+2026/04/25-13:54:19.708007 3dbc   Options.hard_pending_compaction_bytes_limit: 274877906944
+2026/04/25-13:54:19.708009 3dbc                Options.disable_auto_compactions: 0
+2026/04/25-13:54:19.708011 3dbc                        Options.compaction_style: kCompactionStyleLevel
+2026/04/25-13:54:19.708013 3dbc                          Options.compaction_pri: kMinOverlappingRatio
+2026/04/25-13:54:19.708015 3dbc Options.compaction_options_universal.size_ratio: 1
+2026/04/25-13:54:19.708017 3dbc Options.compaction_options_universal.min_merge_width: 2
+2026/04/25-13:54:19.708019 3dbc Options.compaction_options_universal.max_merge_width: 4294967295
+2026/04/25-13:54:19.708021 3dbc Options.compaction_options_universal.max_size_amplification_percent: 200
+2026/04/25-13:54:19.708023 3dbc Options.compaction_options_universal.compression_size_percent: -1
+2026/04/25-13:54:19.708025 3dbc Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2026/04/25-13:54:19.708028 3dbc Options.compaction_options_universal.max_read_amp: -1
+2026/04/25-13:54:19.708030 3dbc Options.compaction_options_universal.reduce_file_locking: 0
+2026/04/25-13:54:19.708033 3dbc Options.compaction_options_fifo.max_table_files_size: 1073741824
+2026/04/25-13:54:19.708035 3dbc Options.compaction_options_fifo.allow_compaction: 0
+2026/04/25-13:54:19.708037 3dbc                   Options.table_properties_collectors: 
+2026/04/25-13:54:19.708039 3dbc                   Options.inplace_update_support: 0
+2026/04/25-13:54:19.708041 3dbc                 Options.inplace_update_num_locks: 10000
+2026/04/25-13:54:19.708043 3dbc               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2026/04/25-13:54:19.708045 3dbc               Options.memtable_whole_key_filtering: 0
+2026/04/25-13:54:19.708047 3dbc   Options.memtable_huge_page_size: 0
+2026/04/25-13:54:19.708049 3dbc                           Options.bloom_locality: 0
+2026/04/25-13:54:19.708051 3dbc                    Options.max_successive_merges: 0
+2026/04/25-13:54:19.708053 3dbc             Options.strict_max_successive_merges: 0
+2026/04/25-13:54:19.708055 3dbc                Options.optimize_filters_for_hits: 0
+2026/04/25-13:54:19.708057 3dbc                Options.paranoid_file_checks: 0
+2026/04/25-13:54:19.708059 3dbc                Options.force_consistency_checks: 1
+2026/04/25-13:54:19.708061 3dbc                Options.report_bg_io_stats: 0
+2026/04/25-13:54:19.708063 3dbc                Options.disallow_memtable_writes: 0
+2026/04/25-13:54:19.708064 3dbc                               Options.ttl: 2592000
+2026/04/25-13:54:19.708066 3dbc          Options.periodic_compaction_seconds: 0
+2026/04/25-13:54:19.708068 3dbc                        Options.default_temperature: kUnknown
+2026/04/25-13:54:19.708070 3dbc  Options.preclude_last_level_data_seconds: 0
+2026/04/25-13:54:19.708072 3dbc    Options.preserve_internal_time_seconds: 0
+2026/04/25-13:54:19.708074 3dbc                       Options.enable_blob_files: false
+2026/04/25-13:54:19.708076 3dbc                           Options.min_blob_size: 0
+2026/04/25-13:54:19.708078 3dbc                          Options.blob_file_size: 268435456
+2026/04/25-13:54:19.708080 3dbc                   Options.blob_compression_type: NoCompression
+2026/04/25-13:54:19.708082 3dbc          Options.enable_blob_garbage_collection: false
+2026/04/25-13:54:19.708084 3dbc      Options.blob_garbage_collection_age_cutoff: 0.250000
+2026/04/25-13:54:19.708086 3dbc Options.blob_garbage_collection_force_threshold: 1.000000
+2026/04/25-13:54:19.708088 3dbc          Options.blob_compaction_readahead_size: 0
+2026/04/25-13:54:19.708090 3dbc                Options.blob_file_starting_level: 0
+2026/04/25-13:54:19.708092 3dbc         Options.experimental_mempurge_threshold: 0.000000
+2026/04/25-13:54:19.708094 3dbc            Options.memtable_max_range_deletions: 0
+2026/04/25-13:54:19.708096 3dbc               Options.comparator: leveldb.BytewiseComparator
+2026/04/25-13:54:19.708098 3dbc           Options.merge_operator: None
+2026/04/25-13:54:19.708100 3dbc        Options.compaction_filter: None
+2026/04/25-13:54:19.708102 3dbc        Options.compaction_filter_factory: None
+2026/04/25-13:54:19.708104 3dbc  Options.sst_partitioner_factory: None
+2026/04/25-13:54:19.708106 3dbc         Options.memtable_factory: SkipListFactory
+2026/04/25-13:54:19.708108 3dbc            Options.table_factory: BlockBasedTable
+2026/04/25-13:54:19.708111 3dbc            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0000026CC4F3B600)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  checksum: 4
+  no_block_cache: 0
+  block_cache: 0000026C8C2DCA10
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 33554432
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.500
+    low_pri_pool_ratio: 0.000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 6
+  e
+2026/04/25-13:54:19.708114 3dbc        Options.write_buffer_size: 67108864
+2026/04/25-13:54:19.708116 3dbc  Options.max_write_buffer_number: 2
+2026/04/25-13:54:19.708119 3dbc          Options.compression: NoCompression
+2026/04/25-13:54:19.708121 3dbc                  Options.bottommost_compression: Disabled
+2026/04/25-13:54:19.708122 3dbc       Options.prefix_extractor: nullptr
+2026/04/25-13:54:19.708124 3dbc   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2026/04/25-13:54:19.708127 3dbc             Options.num_levels: 7
+2026/04/25-13:54:19.708128 3dbc        Options.min_write_buffer_number_to_merge: 1
+2026/04/25-13:54:19.708130 3dbc     Options.max_write_buffer_size_to_maintain: 134217728
+2026/04/25-13:54:19.708132 3dbc            Options.bottommost_compression_opts.window_bits: -14
+2026/04/25-13:54:19.708134 3dbc                  Options.bottommost_compression_opts.level: 32767
+2026/04/25-13:54:19.708137 3dbc               Options.bottommost_compression_opts.strategy: 0
+2026/04/25-13:54:19.708138 3dbc         Options.bottommost_compression_opts.max_dict_bytes: 0
+2026/04/25-13:54:19.708140 3dbc         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2026/04/25-13:54:19.708142 3dbc         Options.bottommost_compression_opts.parallel_threads: 1
+2026/04/25-13:54:19.708144 3dbc                  Options.bottommost_compression_opts.enabled: false
+2026/04/25-13:54:19.708147 3dbc         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2026/04/25-13:54:19.708149 3dbc         Options.bottommost_compression_opts.use_zstd_dict_trainer: true
+2026/04/25-13:54:19.708151 3dbc            Options.compression_opts.window_bits: -14
+2026/04/25-13:54:19.708153 3dbc                  Options.compression_opts.level: 32767
+2026/04/25-13:54:19.708155 3dbc               Options.compression_opts.strategy: 0
+2026/04/25-13:54:19.708157 3dbc         Options.compression_opts.max_dict_bytes: 0
+2026/04/25-13:54:19.708159 3dbc         Options.compression_opts.zstd_max_train_bytes: 0
+2026/04/25-13:54:19.708161 3dbc         Options.compression_opts.use_zstd_dict_trainer: true
+2026/04/25-13:54:19.708164 3dbc         Options.compression_opts.parallel_threads: 1
+2026/04/25-13:54:19.708167 3dbc                  Options.compression_opts.enabled: false
+2026/04/25-13:54:19.708170 3dbc         Options.compression_opts.max_dict_buffer_bytes: 0
+2026/04/25-13:54:19.708172 3dbc      Options.level0_file_num_compaction_trigger: 4
+2026/04/25-13:54:19.708175 3dbc          Options.level0_slowdown_writes_trigger: 20
+2026/04/25-13:54:19.708177 3dbc              Options.level0_stop_writes_trigger: 36
+2026/04/25-13:54:19.708180 3dbc                   Options.target_file_size_base: 67108864
+2026/04/25-13:54:19.708182 3dbc             Options.target_file_size_multiplier: 1
+2026/04/25-13:54:19.708185 3dbc                Options.max_bytes_for_level_base: 268435456
+2026/04/25-13:54:19.708187 3dbc Options.level_compaction_dynamic_level_bytes: 1
+2026/04/25-13:54:19.708190 3dbc          Options.max_bytes_for_level_multiplier: 10.000000
+2026/04/25-13:54:19.708193 3dbc Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2026/04/25-13:54:19.708196 3dbc Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2026/04/25-13:54:19.708199 3dbc Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2026/04/25-13:54:19.708202 3dbc Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2026/04/25-13:54:19.708205 3dbc Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2026/04/25-13:54:19.708208 3dbc Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2026/04/25-13:54:19.708210 3dbc Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2026/04/25-13:54:19.708213 3dbc       Options.max_sequential_skip_in_iterations: 8
+2026/04/25-13:54:19.708228 3dbc          Options.memtable_op_scan_flush_trigger: 0
+2026/04/25-13:54:19.708231 3dbc      Options.memtable_avg_op_scan_flush_trigger: 0
+2026/04/25-13:54:19.708233 3dbc                    Options.max_compaction_bytes: 1677721600
+2026/04/25-13:54:19.708235 3dbc                        Options.arena_block_size: 1048576
+2026/04/25-13:54:19.708237 3dbc   Options.soft_pending_compaction_bytes_limit: 68719476736
+2026/04/25-13:54:19.708239 3dbc   Options.hard_pending_compaction_bytes_limit: 274877906944
+2026/04/25-13:54:19.708241 3dbc                Options.disable_auto_compactions: 0
+2026/04/25-13:54:19.708243 3dbc                        Options.compaction_style: kCompactionStyleLevel
+2026/04/25-13:54:19.708245 3dbc                          Options.compaction_pri: kMinOverlappingRatio
+2026/04/25-13:54:19.708247 3dbc Options.compaction_options_universal.size_ratio: 1
+2026/04/25-13:54:19.708249 3dbc Options.compaction_options_universal.min_merge_width: 2
+2026/04/25-13:54:19.708251 3dbc Options.compaction_options_universal.max_merge_width: 4294967295
+2026/04/25-13:54:19.708253 3dbc Options.compaction_options_universal.max_size_amplification_percent: 200
+2026/04/25-13:54:19.708255 3dbc Options.compaction_options_universal.compression_size_percent: -1
+2026/04/25-13:54:19.708258 3dbc Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2026/04/25-13:54:19.708261 3dbc Options.compaction_options_universal.max_read_amp: -1
+2026/04/25-13:54:19.708265 3dbc Options.compaction_options_universal.reduce_file_locking: 0
+2026/04/25-13:54:19.708267 3dbc Options.compaction_options_fifo.max_table_files_size: 1073741824
+2026/04/25-13:54:19.708269 3dbc Options.compaction_options_fifo.allow_compaction: 0
+2026/04/25-13:54:19.708272 3dbc                   Options.table_properties_collectors: 
+2026/04/25-13:54:19.708274 3dbc                   Options.inplace_update_support: 0
+2026/04/25-13:54:19.708277 3dbc                 Options.inplace_update_num_locks: 10000
+2026/04/25-13:54:19.708279 3dbc               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2026/04/25-13:54:19.708282 3dbc               Options.memtable_whole_key_filtering: 0
+2026/04/25-13:54:19.708285 3dbc   Options.memtable_huge_page_size: 0
+2026/04/25-13:54:19.708287 3dbc                           Options.bloom_locality: 0
+2026/04/25-13:54:19.708290 3dbc                    Options.max_successive_merges: 0
+2026/04/25-13:54:19.708293 3dbc             Options.strict_max_successive_merges: 0
+2026/04/25-13:54:19.708295 3dbc                Options.optimize_filters_for_hits: 0
+2026/04/25-13:54:19.708298 3dbc                Options.paranoid_file_checks: 0
+2026/04/25-13:54:19.708301 3dbc                Options.force_consistency_checks: 1
+2026/04/25-13:54:19.708303 3dbc                Options.report_bg_io_stats: 0
+2026/04/25-13:54:19.708307 3dbc                Options.disallow_memtable_writes: 0
+2026/04/25-13:54:19.708310 3dbc                               Options.ttl: 2592000
+2026/04/25-13:54:19.708313 3dbc          Options.periodic_compaction_seconds: 0
+2026/04/25-13:54:19.708316 3dbc                        Options.default_temperature: kUnknown
+2026/04/25-13:54:19.708318 3dbc  Options.preclude_last_level_data_seconds: 0
+2026/04/25-13:54:19.708321 3dbc    Options.preserve_internal_time_seconds: 0
+2026/04/25-13:54:19.708323 3dbc                       Options.enable_blob_files: false
+2026/04/25-13:54:19.708326 3dbc                           Options.min_blob_size: 0
+2026/04/25-13:54:19.708328 3dbc                          Options.blob_file_size: 268435456
+2026/04/25-13:54:19.708331 3dbc                   Options.blob_compression_type: NoCompression
+2026/04/25-13:54:19.708333 3dbc          Options.enable_blob_garbage_collection: false
+2026/04/25-13:54:19.708336 3dbc      Options.blob_garbage_collection_age_cutoff: 0.250000
+2026/04/25-13:54:19.708338 3dbc Options.blob_garbage_collection_force_threshold: 1.000000
+2026/04/25-13:54:19.708341 3dbc          Options.blob_compaction_readahead_size: 0
+2026/04/25-13:54:19.708344 3dbc                Options.blob_file_starting_level: 0
+2026/04/25-13:54:19.708348 3dbc         Options.experimental_mempurge_threshold: 0.000000
+2026/04/25-13:54:19.708351 3dbc            Options.memtable_max_range_deletions: 0
+2026/04/25-13:54:19.708354 3dbc               Options.comparator: leveldb.BytewiseComparator
+2026/04/25-13:54:19.708357 3dbc           Options.merge_operator: None
+2026/04/25-13:54:19.708360 3dbc        Options.compaction_filter: None
+2026/04/25-13:54:19.708363 3dbc        Options.compaction_filter_factory: None
+2026/04/25-13:54:19.708366 3dbc  Options.sst_partitioner_factory: None
+2026/04/25-13:54:19.708369 3dbc         Options.memtable_factory: SkipListFactory
+2026/04/25-13:54:19.708372 3dbc            Options.table_factory: BlockBasedTable
+2026/04/25-13:54:19.708383 3dbc            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0000026CC4F3BD20)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  checksum: 4
+  no_block_cache: 0
+  block_cache: 0000026ADD8F9910
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 33554432
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.500
+    low_pri_pool_ratio: 0.000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 6
+  e
+2026/04/25-13:54:19.708386 3dbc        Options.write_buffer_size: 67108864
+2026/04/25-13:54:19.708389 3dbc  Options.max_write_buffer_number: 2
+2026/04/25-13:54:19.708392 3dbc          Options.compression: NoCompression
+2026/04/25-13:54:19.708394 3dbc                  Options.bottommost_compression: Disabled
+2026/04/25-13:54:19.708398 3dbc       Options.prefix_extractor: nullptr
+2026/04/25-13:54:19.708401 3dbc   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2026/04/25-13:54:19.708403 3dbc             Options.num_levels: 7
+2026/04/25-13:54:19.708407 3dbc        Options.min_write_buffer_number_to_merge: 1
+2026/04/25-13:54:19.708410 3dbc     Options.max_write_buffer_size_to_maintain: 134217728
+2026/04/25-13:54:19.708413 3dbc            Options.bottommost_compression_opts.window_bits: -14
+2026/04/25-13:54:19.708416 3dbc                  Options.bottommost_compression_opts.level: 32767
+2026/04/25-13:54:19.708418 3dbc               Options.bottommost_compression_opts.strategy: 0
+2026/04/25-13:54:19.708421 3dbc         Options.bottommost_compression_opts.max_dict_bytes: 0
+2026/04/25-13:54:19.708424 3dbc         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2026/04/25-13:54:19.708427 3dbc         Options.bottommost_compression_opts.parallel_threads: 1
+2026/04/25-13:54:19.708429 3dbc                  Options.bottommost_compression_opts.enabled: false
+2026/04/25-13:54:19.708432 3dbc         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2026/04/25-13:54:19.708434 3dbc         Options.bottommost_compression_opts.use_zstd_dict_trainer: true
+2026/04/25-13:54:19.708437 3dbc            Options.compression_opts.window_bits: -14
+2026/04/25-13:54:19.708440 3dbc                  Options.compression_opts.level: 32767
+2026/04/25-13:54:19.708443 3dbc               Options.compression_opts.strategy: 0
+2026/04/25-13:54:19.708445 3dbc         Options.compression_opts.max_dict_bytes: 0
+2026/04/25-13:54:19.708448 3dbc         Options.compression_opts.zstd_max_train_bytes: 0
+2026/04/25-13:54:19.708451 3dbc         Options.compression_opts.use_zstd_dict_trainer: true
+2026/04/25-13:54:19.708453 3dbc         Options.compression_opts.parallel_threads: 1
+2026/04/25-13:54:19.708456 3dbc                  Options.compression_opts.enabled: false
+2026/04/25-13:54:19.708461 3dbc         Options.compression_opts.max_dict_buffer_bytes: 0
+2026/04/25-13:54:19.708465 3dbc      Options.level0_file_num_compaction_trigger: 4
+2026/04/25-13:54:19.708468 3dbc          Options.level0_slowdown_writes_trigger: 20
+2026/04/25-13:54:19.708470 3dbc              Options.level0_stop_writes_trigger: 36
+2026/04/25-13:54:19.708473 3dbc                   Options.target_file_size_base: 67108864
+2026/04/25-13:54:19.708476 3dbc             Options.target_file_size_multiplier: 1
+2026/04/25-13:54:19.708479 3dbc                Options.max_bytes_for_level_base: 268435456
+2026/04/25-13:54:19.708481 3dbc Options.level_compaction_dynamic_level_bytes: 1
+2026/04/25-13:54:19.708484 3dbc          Options.max_bytes_for_level_multiplier: 10.000000
+2026/04/25-13:54:19.708487 3dbc Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2026/04/25-13:54:19.708490 3dbc Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2026/04/25-13:54:19.708492 3dbc Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2026/04/25-13:54:19.708495 3dbc Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2026/04/25-13:54:19.708498 3dbc Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2026/04/25-13:54:19.708501 3dbc Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2026/04/25-13:54:19.708503 3dbc Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2026/04/25-13:54:19.708506 3dbc       Options.max_sequential_skip_in_iterations: 8
+2026/04/25-13:54:19.708509 3dbc          Options.memtable_op_scan_flush_trigger: 0
+2026/04/25-13:54:19.708512 3dbc      Options.memtable_avg_op_scan_flush_trigger: 0
+2026/04/25-13:54:19.708515 3dbc                    Options.max_compaction_bytes: 1677721600
+2026/04/25-13:54:19.708517 3dbc                        Options.arena_block_size: 1048576
+2026/04/25-13:54:19.708519 3dbc   Options.soft_pending_compaction_bytes_limit: 68719476736
+2026/04/25-13:54:19.708521 3dbc   Options.hard_pending_compaction_bytes_limit: 274877906944
+2026/04/25-13:54:19.708523 3dbc                Options.disable_auto_compactions: 0
+2026/04/25-13:54:19.708525 3dbc                        Options.compaction_style: kCompactionStyleLevel
+2026/04/25-13:54:19.708527 3dbc                          Options.compaction_pri: kMinOverlappingRatio
+2026/04/25-13:54:19.708529 3dbc Options.compaction_options_universal.size_ratio: 1
+2026/04/25-13:54:19.708531 3dbc Options.compaction_options_universal.min_merge_width: 2
+2026/04/25-13:54:19.708533 3dbc Options.compaction_options_universal.max_merge_width: 4294967295
+2026/04/25-13:54:19.708535 3dbc Options.compaction_options_universal.max_size_amplification_percent: 200
+2026/04/25-13:54:19.708537 3dbc Options.compaction_options_universal.compression_size_percent: -1
+2026/04/25-13:54:19.708539 3dbc Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2026/04/25-13:54:19.708541 3dbc Options.compaction_options_universal.max_read_amp: -1
+2026/04/25-13:54:19.708543 3dbc Options.compaction_options_universal.reduce_file_locking: 0
+2026/04/25-13:54:19.708545 3dbc Options.compaction_options_fifo.max_table_files_size: 1073741824
+2026/04/25-13:54:19.708547 3dbc Options.compaction_options_fifo.allow_compaction: 0
+2026/04/25-13:54:19.708549 3dbc                   Options.table_properties_collectors: 
+2026/04/25-13:54:19.708551 3dbc                   Options.inplace_update_support: 0
+2026/04/25-13:54:19.708553 3dbc                 Options.inplace_update_num_locks: 10000
+2026/04/25-13:54:19.708555 3dbc               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2026/04/25-13:54:19.708557 3dbc               Options.memtable_whole_key_filtering: 0
+2026/04/25-13:54:19.708559 3dbc   Options.memtable_huge_page_size: 0
+2026/04/25-13:54:19.708561 3dbc                           Options.bloom_locality: 0
+2026/04/25-13:54:19.708563 3dbc                    Options.max_successive_merges: 0
+2026/04/25-13:54:19.708565 3dbc             Options.strict_max_successive_merges: 0
+2026/04/25-13:54:19.708567 3dbc                Options.optimize_filters_for_hits: 0
+2026/04/25-13:54:19.708569 3dbc                Options.paranoid_file_checks: 0
+2026/04/25-13:54:19.708572 3dbc                Options.force_consistency_checks: 1
+2026/04/25-13:54:19.708574 3dbc                Options.report_bg_io_stats: 0
+2026/04/25-13:54:19.708576 3dbc                Options.disallow_memtable_writes: 0
+2026/04/25-13:54:19.708578 3dbc                               Options.ttl: 2592000
+2026/04/25-13:54:19.708580 3dbc          Options.periodic_compaction_seconds: 0
+2026/04/25-13:54:19.708582 3dbc                        Options.default_temperature: kUnknown
+2026/04/25-13:54:19.708584 3dbc  Options.preclude_last_level_data_seconds: 0
+2026/04/25-13:54:19.708586 3dbc    Options.preserve_internal_time_seconds: 0
+2026/04/25-13:54:19.708588 3dbc                       Options.enable_blob_files: false
+2026/04/25-13:54:19.708590 3dbc                           Options.min_blob_size: 0
+2026/04/25-13:54:19.708592 3dbc                          Options.blob_file_size: 268435456
+2026/04/25-13:54:19.708594 3dbc                   Options.blob_compression_type: NoCompression
+2026/04/25-13:54:19.708596 3dbc          Options.enable_blob_garbage_collection: false
+2026/04/25-13:54:19.708598 3dbc      Options.blob_garbage_collection_age_cutoff: 0.250000
+2026/04/25-13:54:19.708600 3dbc Options.blob_garbage_collection_force_threshold: 1.000000
+2026/04/25-13:54:19.708602 3dbc          Options.blob_compaction_readahead_size: 0
+2026/04/25-13:54:19.708604 3dbc                Options.blob_file_starting_level: 0
+2026/04/25-13:54:19.708606 3dbc         Options.experimental_mempurge_threshold: 0.000000
+2026/04/25-13:54:19.708608 3dbc            Options.memtable_max_range_deletions: 0
+2026/04/25-13:54:19.708610 3dbc               Options.comparator: leveldb.BytewiseComparator
+2026/04/25-13:54:19.708612 3dbc           Options.merge_operator: None
+2026/04/25-13:54:19.708614 3dbc        Options.compaction_filter: None
+2026/04/25-13:54:19.708616 3dbc        Options.compaction_filter_factory: None
+2026/04/25-13:54:19.708618 3dbc  Options.sst_partitioner_factory: None
+2026/04/25-13:54:19.708620 3dbc         Options.memtable_factory: SkipListFactory
+2026/04/25-13:54:19.708622 3dbc            Options.table_factory: BlockBasedTable
+2026/04/25-13:54:19.708624 3dbc            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0000026CC4F3C520)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  checksum: 4
+  no_block_cache: 0
+  block_cache: 0000026ADD8F6710
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 33554432
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.500
+    low_pri_pool_ratio: 0.000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 6
+  e
+2026/04/25-13:54:19.708627 3dbc        Options.write_buffer_size: 67108864
+2026/04/25-13:54:19.708629 3dbc  Options.max_write_buffer_number: 2
+2026/04/25-13:54:19.708631 3dbc          Options.compression: NoCompression
+2026/04/25-13:54:19.708633 3dbc                  Options.bottommost_compression: Disabled
+2026/04/25-13:54:19.708635 3dbc       Options.prefix_extractor: nullptr
+2026/04/25-13:54:19.708637 3dbc   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2026/04/25-13:54:19.708639 3dbc             Options.num_levels: 7
+2026/04/25-13:54:19.708641 3dbc        Options.min_write_buffer_number_to_merge: 1
+2026/04/25-13:54:19.708643 3dbc     Options.max_write_buffer_size_to_maintain: 134217728
+2026/04/25-13:54:19.708645 3dbc            Options.bottommost_compression_opts.window_bits: -14
+2026/04/25-13:54:19.708647 3dbc                  Options.bottommost_compression_opts.level: 32767
+2026/04/25-13:54:19.708650 3dbc               Options.bottommost_compression_opts.strategy: 0
+2026/04/25-13:54:19.708652 3dbc         Options.bottommost_compression_opts.max_dict_bytes: 0
+2026/04/25-13:54:19.708654 3dbc         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2026/04/25-13:54:19.708656 3dbc         Options.bottommost_compression_opts.parallel_threads: 1
+2026/04/25-13:54:19.708658 3dbc                  Options.bottommost_compression_opts.enabled: false
+2026/04/25-13:54:19.708660 3dbc         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2026/04/25-13:54:19.708662 3dbc         Options.bottommost_compression_opts.use_zstd_dict_trainer: true
+2026/04/25-13:54:19.708664 3dbc            Options.compression_opts.window_bits: -14
+2026/04/25-13:54:19.708666 3dbc                  Options.compression_opts.level: 32767
+2026/04/25-13:54:19.708668 3dbc               Options.compression_opts.strategy: 0
+2026/04/25-13:54:19.708670 3dbc         Options.compression_opts.max_dict_bytes: 0
+2026/04/25-13:54:19.708672 3dbc         Options.compression_opts.zstd_max_train_bytes: 0
+2026/04/25-13:54:19.708674 3dbc         Options.compression_opts.use_zstd_dict_trainer: true
+2026/04/25-13:54:19.708676 3dbc         Options.compression_opts.parallel_threads: 1
+2026/04/25-13:54:19.708678 3dbc                  Options.compression_opts.enabled: false
+2026/04/25-13:54:19.708680 3dbc         Options.compression_opts.max_dict_buffer_bytes: 0
+2026/04/25-13:54:19.708682 3dbc      Options.level0_file_num_compaction_trigger: 4
+2026/04/25-13:54:19.708684 3dbc          Options.level0_slowdown_writes_trigger: 20
+2026/04/25-13:54:19.708686 3dbc              Options.level0_stop_writes_trigger: 36
+2026/04/25-13:54:19.708688 3dbc                   Options.target_file_size_base: 67108864
+2026/04/25-13:54:19.708690 3dbc             Options.target_file_size_multiplier: 1
+2026/04/25-13:54:19.708692 3dbc                Options.max_bytes_for_level_base: 268435456
+2026/04/25-13:54:19.708694 3dbc Options.level_compaction_dynamic_level_bytes: 1
+2026/04/25-13:54:19.708696 3dbc          Options.max_bytes_for_level_multiplier: 10.000000
+2026/04/25-13:54:19.708698 3dbc Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2026/04/25-13:54:19.708700 3dbc Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2026/04/25-13:54:19.708702 3dbc Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2026/04/25-13:54:19.708704 3dbc Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2026/04/25-13:54:19.708706 3dbc Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2026/04/25-13:54:19.708707 3dbc Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2026/04/25-13:54:19.708709 3dbc Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2026/04/25-13:54:19.708711 3dbc       Options.max_sequential_skip_in_iterations: 8
+2026/04/25-13:54:19.708713 3dbc          Options.memtable_op_scan_flush_trigger: 0
+2026/04/25-13:54:19.708715 3dbc      Options.memtable_avg_op_scan_flush_trigger: 0
+2026/04/25-13:54:19.708717 3dbc                    Options.max_compaction_bytes: 1677721600
+2026/04/25-13:54:19.708719 3dbc                        Options.arena_block_size: 1048576
+2026/04/25-13:54:19.708721 3dbc   Options.soft_pending_compaction_bytes_limit: 68719476736
+2026/04/25-13:54:19.708723 3dbc   Options.hard_pending_compaction_bytes_limit: 274877906944
+2026/04/25-13:54:19.708725 3dbc                Options.disable_auto_compactions: 0
+2026/04/25-13:54:19.708727 3dbc                        Options.compaction_style: kCompactionStyleLevel
+2026/04/25-13:54:19.708729 3dbc                          Options.compaction_pri: kMinOverlappingRatio
+2026/04/25-13:54:19.708731 3dbc Options.compaction_options_universal.size_ratio: 1
+2026/04/25-13:54:19.708733 3dbc Options.compaction_options_universal.min_merge_width: 2
+2026/04/25-13:54:19.708735 3dbc Options.compaction_options_universal.max_merge_width: 4294967295
+2026/04/25-13:54:19.708738 3dbc Options.compaction_options_universal.max_size_amplification_percent: 200
+2026/04/25-13:54:19.708740 3dbc Options.compaction_options_universal.compression_size_percent: -1
+2026/04/25-13:54:19.708742 3dbc Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2026/04/25-13:54:19.708745 3dbc Options.compaction_options_universal.max_read_amp: -1
+2026/04/25-13:54:19.708747 3dbc Options.compaction_options_universal.reduce_file_locking: 0
+2026/04/25-13:54:19.708749 3dbc Options.compaction_options_fifo.max_table_files_size: 1073741824
+2026/04/25-13:54:19.708751 3dbc Options.compaction_options_fifo.allow_compaction: 0
+2026/04/25-13:54:19.708753 3dbc                   Options.table_properties_collectors: 
+2026/04/25-13:54:19.708755 3dbc                   Options.inplace_update_support: 0
+2026/04/25-13:54:19.708757 3dbc                 Options.inplace_update_num_locks: 10000
+2026/04/25-13:54:19.708759 3dbc               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2026/04/25-13:54:19.708761 3dbc               Options.memtable_whole_key_filtering: 0
+2026/04/25-13:54:19.708763 3dbc   Options.memtable_huge_page_size: 0
+2026/04/25-13:54:19.708765 3dbc                           Options.bloom_locality: 0
+2026/04/25-13:54:19.708766 3dbc                    Options.max_successive_merges: 0
+2026/04/25-13:54:19.708768 3dbc             Options.strict_max_successive_merges: 0
+2026/04/25-13:54:19.708770 3dbc                Options.optimize_filters_for_hits: 0
+2026/04/25-13:54:19.708772 3dbc                Options.paranoid_file_checks: 0
+2026/04/25-13:54:19.708774 3dbc                Options.force_consistency_checks: 1
+2026/04/25-13:54:19.708776 3dbc                Options.report_bg_io_stats: 0
+2026/04/25-13:54:19.708778 3dbc                Options.disallow_memtable_writes: 0
+2026/04/25-13:54:19.708780 3dbc                               Options.ttl: 2592000
+2026/04/25-13:54:19.708782 3dbc          Options.periodic_compaction_seconds: 0
+2026/04/25-13:54:19.708784 3dbc                        Options.default_temperature: kUnknown
+2026/04/25-13:54:19.708786 3dbc  Options.preclude_last_level_data_seconds: 0
+2026/04/25-13:54:19.708788 3dbc    Options.preserve_internal_time_seconds: 0
+2026/04/25-13:54:19.708790 3dbc                       Options.enable_blob_files: false
+2026/04/25-13:54:19.708792 3dbc                           Options.min_blob_size: 0
+2026/04/25-13:54:19.708794 3dbc                          Options.blob_file_size: 268435456
+2026/04/25-13:54:19.708796 3dbc                   Options.blob_compression_type: NoCompression
+2026/04/25-13:54:19.708798 3dbc          Options.enable_blob_garbage_collection: false
+2026/04/25-13:54:19.708800 3dbc      Options.blob_garbage_collection_age_cutoff: 0.250000
+2026/04/25-13:54:19.708802 3dbc Options.blob_garbage_collection_force_threshold: 1.000000
+2026/04/25-13:54:19.708804 3dbc          Options.blob_compaction_readahead_size: 0
+2026/04/25-13:54:19.708806 3dbc                Options.blob_file_starting_level: 0
+2026/04/25-13:54:19.708808 3dbc         Options.experimental_mempurge_threshold: 0.000000
+2026/04/25-13:54:19.708810 3dbc            Options.memtable_max_range_deletions: 0
+2026/04/25-13:54:19.708812 3dbc               Options.comparator: leveldb.BytewiseComparator
+2026/04/25-13:54:19.708814 3dbc           Options.merge_operator: None
+2026/04/25-13:54:19.708816 3dbc        Options.compaction_filter: None
+2026/04/25-13:54:19.708818 3dbc        Options.compaction_filter_factory: None
+2026/04/25-13:54:19.708820 3dbc  Options.sst_partitioner_factory: None
+2026/04/25-13:54:19.708822 3dbc         Options.memtable_factory: SkipListFactory
+2026/04/25-13:54:19.708824 3dbc            Options.table_factory: BlockBasedTable
+2026/04/25-13:54:19.708826 3dbc            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0000026CC4F3BF00)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  checksum: 4
+  no_block_cache: 0
+  block_cache: 0000026ADD8F1910
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 33554432
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.500
+    low_pri_pool_ratio: 0.000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 6
+  e
+2026/04/25-13:54:19.708829 3dbc        Options.write_buffer_size: 67108864
+2026/04/25-13:54:19.708831 3dbc  Options.max_write_buffer_number: 2
+2026/04/25-13:54:19.708833 3dbc          Options.compression: NoCompression
+2026/04/25-13:54:19.708835 3dbc                  Options.bottommost_compression: Disabled
+2026/04/25-13:54:19.708837 3dbc       Options.prefix_extractor: nullptr
+2026/04/25-13:54:19.708839 3dbc   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2026/04/25-13:54:19.708841 3dbc             Options.num_levels: 7
+2026/04/25-13:54:19.708843 3dbc        Options.min_write_buffer_number_to_merge: 1
+2026/04/25-13:54:19.708845 3dbc     Options.max_write_buffer_size_to_maintain: 134217728
+2026/04/25-13:54:19.708847 3dbc            Options.bottommost_compression_opts.window_bits: -14
+2026/04/25-13:54:19.708849 3dbc                  Options.bottommost_compression_opts.level: 32767
+2026/04/25-13:54:19.708851 3dbc               Options.bottommost_compression_opts.strategy: 0
+2026/04/25-13:54:19.708853 3dbc         Options.bottommost_compression_opts.max_dict_bytes: 0
+2026/04/25-13:54:19.708855 3dbc         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2026/04/25-13:54:19.708857 3dbc         Options.bottommost_compression_opts.parallel_threads: 1
+2026/04/25-13:54:19.708859 3dbc                  Options.bottommost_compression_opts.enabled: false
+2026/04/25-13:54:19.708861 3dbc         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2026/04/25-13:54:19.708863 3dbc         Options.bottommost_compression_opts.use_zstd_dict_trainer: true
+2026/04/25-13:54:19.708865 3dbc            Options.compression_opts.window_bits: -14
+2026/04/25-13:54:19.708867 3dbc                  Options.compression_opts.level: 32767
+2026/04/25-13:54:19.708869 3dbc               Options.compression_opts.strategy: 0
+2026/04/25-13:54:19.708871 3dbc         Options.compression_opts.max_dict_bytes: 0
+2026/04/25-13:54:19.708873 3dbc         Options.compression_opts.zstd_max_train_bytes: 0
+2026/04/25-13:54:19.708875 3dbc         Options.compression_opts.use_zstd_dict_trainer: true
+2026/04/25-13:54:19.708877 3dbc         Options.compression_opts.parallel_threads: 1
+2026/04/25-13:54:19.708879 3dbc                  Options.compression_opts.enabled: false
+2026/04/25-13:54:19.708881 3dbc         Options.compression_opts.max_dict_buffer_bytes: 0
+2026/04/25-13:54:19.708883 3dbc      Options.level0_file_num_compaction_trigger: 4
+2026/04/25-13:54:19.708885 3dbc          Options.level0_slowdown_writes_trigger: 20
+2026/04/25-13:54:19.708887 3dbc              Options.level0_stop_writes_trigger: 36
+2026/04/25-13:54:19.708889 3dbc                   Options.target_file_size_base: 67108864
+2026/04/25-13:54:19.708891 3dbc             Options.target_file_size_multiplier: 1
+2026/04/25-13:54:19.708893 3dbc                Options.max_bytes_for_level_base: 268435456
+2026/04/25-13:54:19.708895 3dbc Options.level_compaction_dynamic_level_bytes: 1
+2026/04/25-13:54:19.708897 3dbc          Options.max_bytes_for_level_multiplier: 10.000000
+2026/04/25-13:54:19.708899 3dbc Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2026/04/25-13:54:19.708901 3dbc Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2026/04/25-13:54:19.708903 3dbc Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2026/04/25-13:54:19.708905 3dbc Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2026/04/25-13:54:19.708907 3dbc Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2026/04/25-13:54:19.708909 3dbc Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2026/04/25-13:54:19.708912 3dbc Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2026/04/25-13:54:19.708914 3dbc       Options.max_sequential_skip_in_iterations: 8
+2026/04/25-13:54:19.708916 3dbc          Options.memtable_op_scan_flush_trigger: 0
+2026/04/25-13:54:19.708918 3dbc      Options.memtable_avg_op_scan_flush_trigger: 0
+2026/04/25-13:54:19.708920 3dbc                    Options.max_compaction_bytes: 1677721600
+2026/04/25-13:54:19.708922 3dbc                        Options.arena_block_size: 1048576
+2026/04/25-13:54:19.708924 3dbc   Options.soft_pending_compaction_bytes_limit: 68719476736
+2026/04/25-13:54:19.708926 3dbc   Options.hard_pending_compaction_bytes_limit: 274877906944
+2026/04/25-13:54:19.708928 3dbc                Options.disable_auto_compactions: 0
+2026/04/25-13:54:19.708930 3dbc                        Options.compaction_style: kCompactionStyleLevel
+2026/04/25-13:54:19.708932 3dbc                          Options.compaction_pri: kMinOverlappingRatio
+2026/04/25-13:54:19.708934 3dbc Options.compaction_options_universal.size_ratio: 1
+2026/04/25-13:54:19.708936 3dbc Options.compaction_options_universal.min_merge_width: 2
+2026/04/25-13:54:19.708938 3dbc Options.compaction_options_universal.max_merge_width: 4294967295
+2026/04/25-13:54:19.708940 3dbc Options.compaction_options_universal.max_size_amplification_percent: 200
+2026/04/25-13:54:19.708942 3dbc Options.compaction_options_universal.compression_size_percent: -1
+2026/04/25-13:54:19.708944 3dbc Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2026/04/25-13:54:19.708946 3dbc Options.compaction_options_universal.max_read_amp: -1
+2026/04/25-13:54:19.708948 3dbc Options.compaction_options_universal.reduce_file_locking: 0
+2026/04/25-13:54:19.708950 3dbc Options.compaction_options_fifo.max_table_files_size: 1073741824
+2026/04/25-13:54:19.708952 3dbc Options.compaction_options_fifo.allow_compaction: 0
+2026/04/25-13:54:19.708954 3dbc                   Options.table_properties_collectors: 
+2026/04/25-13:54:19.708956 3dbc                   Options.inplace_update_support: 0
+2026/04/25-13:54:19.708958 3dbc                 Options.inplace_update_num_locks: 10000
+2026/04/25-13:54:19.708960 3dbc               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2026/04/25-13:54:19.708962 3dbc               Options.memtable_whole_key_filtering: 0
+2026/04/25-13:54:19.708964 3dbc   Options.memtable_huge_page_size: 0
+2026/04/25-13:54:19.708966 3dbc                           Options.bloom_locality: 0
+2026/04/25-13:54:19.708968 3dbc                    Options.max_successive_merges: 0
+2026/04/25-13:54:19.708970 3dbc             Options.strict_max_successive_merges: 0
+2026/04/25-13:54:19.708972 3dbc                Options.optimize_filters_for_hits: 0
+2026/04/25-13:54:19.708974 3dbc                Options.paranoid_file_checks: 0
+2026/04/25-13:54:19.708976 3dbc                Options.force_consistency_checks: 1
+2026/04/25-13:54:19.708978 3dbc                Options.report_bg_io_stats: 0
+2026/04/25-13:54:19.708980 3dbc                Options.disallow_memtable_writes: 0
+2026/04/25-13:54:19.708982 3dbc                               Options.ttl: 2592000
+2026/04/25-13:54:19.708983 3dbc          Options.periodic_compaction_seconds: 0
+2026/04/25-13:54:19.708986 3dbc                        Options.default_temperature: kUnknown
+2026/04/25-13:54:19.708988 3dbc  Options.preclude_last_level_data_seconds: 0
+2026/04/25-13:54:19.708990 3dbc    Options.preserve_internal_time_seconds: 0
+2026/04/25-13:54:19.708991 3dbc                       Options.enable_blob_files: false
+2026/04/25-13:54:19.708993 3dbc                           Options.min_blob_size: 0
+2026/04/25-13:54:19.708995 3dbc                          Options.blob_file_size: 268435456
+2026/04/25-13:54:19.708997 3dbc                   Options.blob_compression_type: NoCompression
+2026/04/25-13:54:19.708999 3dbc          Options.enable_blob_garbage_collection: false
+2026/04/25-13:54:19.709001 3dbc      Options.blob_garbage_collection_age_cutoff: 0.250000
+2026/04/25-13:54:19.709023 3dbc Options.blob_garbage_collection_force_threshold: 1.000000
+2026/04/25-13:54:19.709025 3dbc          Options.blob_compaction_readahead_size: 0
+2026/04/25-13:54:19.709027 3dbc                Options.blob_file_starting_level: 0
+2026/04/25-13:54:19.709029 3dbc         Options.experimental_mempurge_threshold: 0.000000
+2026/04/25-13:54:19.709031 3dbc            Options.memtable_max_range_deletions: 0
+2026/04/25-13:54:19.709033 3dbc               Options.comparator: leveldb.BytewiseComparator
+2026/04/25-13:54:19.709036 3dbc           Options.merge_operator: None
+2026/04/25-13:54:19.709037 3dbc        Options.compaction_filter: None
+2026/04/25-13:54:19.709039 3dbc        Options.compaction_filter_factory: None
+2026/04/25-13:54:19.709041 3dbc  Options.sst_partitioner_factory: None
+2026/04/25-13:54:19.709043 3dbc         Options.memtable_factory: SkipListFactory
+2026/04/25-13:54:19.709045 3dbc            Options.table_factory: BlockBasedTable
+2026/04/25-13:54:19.709048 3dbc            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0000026CC4F3C140)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  checksum: 4
+  no_block_cache: 0
+  block_cache: 0000026ADD8FA310
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 33554432
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.500
+    low_pri_pool_ratio: 0.000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 6
+  e
+2026/04/25-13:54:19.709050 3dbc        Options.write_buffer_size: 67108864
+2026/04/25-13:54:19.709052 3dbc  Options.max_write_buffer_number: 2
+2026/04/25-13:54:19.709054 3dbc          Options.compression: NoCompression
+2026/04/25-13:54:19.709056 3dbc                  Options.bottommost_compression: Disabled
+2026/04/25-13:54:19.709058 3dbc       Options.prefix_extractor: nullptr
+2026/04/25-13:54:19.709060 3dbc   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2026/04/25-13:54:19.709062 3dbc             Options.num_levels: 7
+2026/04/25-13:54:19.709064 3dbc        Options.min_write_buffer_number_to_merge: 1
+2026/04/25-13:54:19.709066 3dbc     Options.max_write_buffer_size_to_maintain: 134217728
+2026/04/25-13:54:19.709068 3dbc            Options.bottommost_compression_opts.window_bits: -14
+2026/04/25-13:54:19.709070 3dbc                  Options.bottommost_compression_opts.level: 32767
+2026/04/25-13:54:19.709072 3dbc               Options.bottommost_compression_opts.strategy: 0
+2026/04/25-13:54:19.709074 3dbc         Options.bottommost_compression_opts.max_dict_bytes: 0
+2026/04/25-13:54:19.709076 3dbc         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2026/04/25-13:54:19.709078 3dbc         Options.bottommost_compression_opts.parallel_threads: 1
+2026/04/25-13:54:19.709080 3dbc                  Options.bottommost_compression_opts.enabled: false
+2026/04/25-13:54:19.709082 3dbc         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2026/04/25-13:54:19.709084 3dbc         Options.bottommost_compression_opts.use_zstd_dict_trainer: true
+2026/04/25-13:54:19.709086 3dbc            Options.compression_opts.window_bits: -14
+2026/04/25-13:54:19.709088 3dbc                  Options.compression_opts.level: 32767
+2026/04/25-13:54:19.709090 3dbc               Options.compression_opts.strategy: 0
+2026/04/25-13:54:19.709092 3dbc         Options.compression_opts.max_dict_bytes: 0
+2026/04/25-13:54:19.709094 3dbc         Options.compression_opts.zstd_max_train_bytes: 0
+2026/04/25-13:54:19.709096 3dbc         Options.compression_opts.use_zstd_dict_trainer: true
+2026/04/25-13:54:19.709099 3dbc         Options.compression_opts.parallel_threads: 1
+2026/04/25-13:54:19.709102 3dbc                  Options.compression_opts.enabled: false
+2026/04/25-13:54:19.709104 3dbc         Options.compression_opts.max_dict_buffer_bytes: 0
+2026/04/25-13:54:19.709106 3dbc      Options.level0_file_num_compaction_trigger: 4
+2026/04/25-13:54:19.709108 3dbc          Options.level0_slowdown_writes_trigger: 20
+2026/04/25-13:54:19.709110 3dbc              Options.level0_stop_writes_trigger: 36
+2026/04/25-13:54:19.709112 3dbc                   Options.target_file_size_base: 67108864
+2026/04/25-13:54:19.709116 3dbc             Options.target_file_size_multiplier: 1
+2026/04/25-13:54:19.709118 3dbc                Options.max_bytes_for_level_base: 268435456
+2026/04/25-13:54:19.709120 3dbc Options.level_compaction_dynamic_level_bytes: 1
+2026/04/25-13:54:19.709122 3dbc          Options.max_bytes_for_level_multiplier: 10.000000
+2026/04/25-13:54:19.709124 3dbc Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2026/04/25-13:54:19.709126 3dbc Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2026/04/25-13:54:19.709128 3dbc Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2026/04/25-13:54:19.709130 3dbc Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2026/04/25-13:54:19.709132 3dbc Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2026/04/25-13:54:19.709134 3dbc Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2026/04/25-13:54:19.709136 3dbc Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2026/04/25-13:54:19.709138 3dbc       Options.max_sequential_skip_in_iterations: 8
+2026/04/25-13:54:19.709140 3dbc          Options.memtable_op_scan_flush_trigger: 0
+2026/04/25-13:54:19.709142 3dbc      Options.memtable_avg_op_scan_flush_trigger: 0
+2026/04/25-13:54:19.709144 3dbc                    Options.max_compaction_bytes: 1677721600
+2026/04/25-13:54:19.709146 3dbc                        Options.arena_block_size: 1048576
+2026/04/25-13:54:19.709148 3dbc   Options.soft_pending_compaction_bytes_limit: 68719476736
+2026/04/25-13:54:19.709150 3dbc   Options.hard_pending_compaction_bytes_limit: 274877906944
+2026/04/25-13:54:19.709152 3dbc                Options.disable_auto_compactions: 0
+2026/04/25-13:54:19.709154 3dbc                        Options.compaction_style: kCompactionStyleLevel
+2026/04/25-13:54:19.709156 3dbc                          Options.compaction_pri: kMinOverlappingRatio
+2026/04/25-13:54:19.709158 3dbc Options.compaction_options_universal.size_ratio: 1
+2026/04/25-13:54:19.709160 3dbc Options.compaction_options_universal.min_merge_width: 2
+2026/04/25-13:54:19.709162 3dbc Options.compaction_options_universal.max_merge_width: 4294967295
+2026/04/25-13:54:19.709164 3dbc Options.compaction_options_universal.max_size_amplification_percent: 200
+2026/04/25-13:54:19.709166 3dbc Options.compaction_options_universal.compression_size_percent: -1
+2026/04/25-13:54:19.709168 3dbc Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2026/04/25-13:54:19.709170 3dbc Options.compaction_options_universal.max_read_amp: -1
+2026/04/25-13:54:19.709172 3dbc Options.compaction_options_universal.reduce_file_locking: 0
+2026/04/25-13:54:19.709174 3dbc Options.compaction_options_fifo.max_table_files_size: 1073741824
+2026/04/25-13:54:19.709176 3dbc Options.compaction_options_fifo.allow_compaction: 0
+2026/04/25-13:54:19.709178 3dbc                   Options.table_properties_collectors: 
+2026/04/25-13:54:19.709180 3dbc                   Options.inplace_update_support: 0
+2026/04/25-13:54:19.709182 3dbc                 Options.inplace_update_num_locks: 10000
+2026/04/25-13:54:19.709184 3dbc               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2026/04/25-13:54:19.709186 3dbc               Options.memtable_whole_key_filtering: 0
+2026/04/25-13:54:19.709188 3dbc   Options.memtable_huge_page_size: 0
+2026/04/25-13:54:19.709190 3dbc                           Options.bloom_locality: 0
+2026/04/25-13:54:19.709193 3dbc                    Options.max_successive_merges: 0
+2026/04/25-13:54:19.709195 3dbc             Options.strict_max_successive_merges: 0
+2026/04/25-13:54:19.709198 3dbc                Options.optimize_filters_for_hits: 0
+2026/04/25-13:54:19.709200 3dbc                Options.paranoid_file_checks: 0
+2026/04/25-13:54:19.709202 3dbc                Options.force_consistency_checks: 1
+2026/04/25-13:54:19.709204 3dbc                Options.report_bg_io_stats: 0
+2026/04/25-13:54:19.709206 3dbc                Options.disallow_memtable_writes: 0
+2026/04/25-13:54:19.709208 3dbc                               Options.ttl: 2592000
+2026/04/25-13:54:19.709210 3dbc          Options.periodic_compaction_seconds: 0
+2026/04/25-13:54:19.709212 3dbc                        Options.default_temperature: kUnknown
+2026/04/25-13:54:19.709214 3dbc  Options.preclude_last_level_data_seconds: 0
+2026/04/25-13:54:19.709216 3dbc    Options.preserve_internal_time_seconds: 0
+2026/04/25-13:54:19.709218 3dbc                       Options.enable_blob_files: false
+2026/04/25-13:54:19.709220 3dbc                           Options.min_blob_size: 0
+2026/04/25-13:54:19.709222 3dbc                          Options.blob_file_size: 268435456
+2026/04/25-13:54:19.709223 3dbc                   Options.blob_compression_type: NoCompression
+2026/04/25-13:54:19.709225 3dbc          Options.enable_blob_garbage_collection: false
+2026/04/25-13:54:19.709227 3dbc      Options.blob_garbage_collection_age_cutoff: 0.250000
+2026/04/25-13:54:19.709229 3dbc Options.blob_garbage_collection_force_threshold: 1.000000
+2026/04/25-13:54:19.709231 3dbc          Options.blob_compaction_readahead_size: 0
+2026/04/25-13:54:19.709233 3dbc                Options.blob_file_starting_level: 0
+2026/04/25-13:54:19.709235 3dbc         Options.experimental_mempurge_threshold: 0.000000
+2026/04/25-13:54:19.709237 3dbc            Options.memtable_max_range_deletions: 0
+2026/04/25-13:54:19.709239 3dbc DB pointer 0000026C87710000
+2026/04/25-13:54:19.709241 3dbc [db\db_impl\db_impl.cc:681] Shutdown complete

@@ -1,0 +1,1960 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = -2766267126516050984
+ 1 string m_Name = "MerchantDialogue_en"
+ 0 LocaleIdentifier m_LocaleId
+  1 string m_Code = "en"
+ 0 PPtr<$SharedTableData> m_SharedData
+  0 int m_FileID = 2
+  0 SInt64 m_PathID = 1420339342452360623
+ 0 MetadataCollection m_Metadata
+  0 IMetadata m_Items
+   0 Array Array (1 items)
+    0 int size = 1
+    [0]
+     0 managedRefArrayItem data
+      0 SInt64 rid = 0
+ 0 TableEntryData m_TableData
+  0 Array Array (215 items)
+   0 int size = 215
+   [0]
+    0 TableEntryData data
+     0 SInt64 m_Id = 100189405184
+     1 string m_Localized = "You don’t have enough Luna Coins! You can also sell candies and potions in the Witches' Catalogue, so feel free to drop by anytime!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [1]
+    0 TableEntryData data
+     0 SInt64 m_Id = 103330938880
+     1 string m_Localized = "It looks like you don't have enough space in your bag."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [2]
+    0 TableEntryData data
+     0 SInt64 m_Id = 106661216256
+     1 string m_Localized = "We’re currently out of stock for that item."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [3]
+    0 TableEntryData data
+     0 SInt64 m_Id = 108833865728
+     1 string m_Localized = "Please let me know once you’ve decided."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [4]
+    0 TableEntryData data
+     0 SInt64 m_Id = 111186870272
+     1 string m_Localized = "We only accept specific goods."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [5]
+    0 TableEntryData data
+     0 SInt64 m_Id = 113728618496
+     1 string m_Localized = "How many do you need?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [6]
+    0 TableEntryData data
+     0 SInt64 m_Id = 117180530688
+     1 string m_Localized = "You are ordering {0} for the price of {1}. Do you wish to proceed?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [7]
+    0 TableEntryData data
+     0 SInt64 m_Id = 119294459904
+     1 string m_Localized = "This item is {0}. Do you wish to proceed?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [8]
+    0 TableEntryData data
+     0 SInt64 m_Id = 122763149312
+     1 string m_Localized = "Thank you. Have a nice day!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [9]
+    0 TableEntryData data
+     0 SInt64 m_Id = 127624347648
+     1 string m_Localized = "How many do you wish to sell?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [10]
+    0 TableEntryData data
+     0 SInt64 m_Id = 132191944704
+     1 string m_Localized = "You are selling {0} for the price of {1}. Do you wish to proceed?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [11]
+    0 TableEntryData data
+     0 SInt64 m_Id = 134960185344
+     1 string m_Localized = "This item can be sold for {0}. Do you wish to proceed?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [12]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3793458626560
+     1 string m_Localized = "Thank you. Have a nice day!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [13]
+    0 TableEntryData data
+     0 SInt64 m_Id = 42167535992832
+     1 string m_Localized = "Can't do much if you're broke."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [14]
+    0 TableEntryData data
+     0 SInt64 m_Id = 42167569547264
+     1 string m_Localized = "Check your bag."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [15]
+    0 TableEntryData data
+     0 SInt64 m_Id = 42167569547265
+     1 string m_Localized = "I’m all out of that at the moment."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [16]
+    0 TableEntryData data
+     0 SInt64 m_Id = 42167569547266
+     1 string m_Localized = "Had your fill already?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [17]
+    0 TableEntryData data
+     0 SInt64 m_Id = 42167569547267
+     1 string m_Localized = "I don’t need that."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [18]
+    0 TableEntryData data
+     0 SInt64 m_Id = 42167569547268
+     1 string m_Localized = "How many do you need?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [19]
+    0 TableEntryData data
+     0 SInt64 m_Id = 42167569547269
+     1 string m_Localized = "{0} will cost you {1}. Is that okay?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [20]
+    0 TableEntryData data
+     0 SInt64 m_Id = 42167569547270
+     1 string m_Localized = "It’ll cost you {0}. Want it?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [21]
+    0 TableEntryData data
+     0 SInt64 m_Id = 42167569547271
+     1 string m_Localized = "Enjoy."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [22]
+    0 TableEntryData data
+     0 SInt64 m_Id = 42167569547272
+     1 string m_Localized = "How many are you selling?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [23]
+    0 TableEntryData data
+     0 SInt64 m_Id = 42167569547273
+     1 string m_Localized = "I can probably give you {1} for {0}."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [24]
+    0 TableEntryData data
+     0 SInt64 m_Id = 42167569547274
+     1 string m_Localized = "I can give you {0}."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [25]
+    0 TableEntryData data
+     0 SInt64 m_Id = 42167569547275
+     1 string m_Localized = "Thanks."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [26]
+    0 TableEntryData data
+     0 SInt64 m_Id = 50054807224320
+     1 string m_Localized = "Check your wallet. I don't do discounts."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [27]
+    0 TableEntryData data
+     0 SInt64 m_Id = 50054836584448
+     1 string m_Localized = "Ellie, your bag seems to be full."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [28]
+    0 TableEntryData data
+     0 SInt64 m_Id = 50054836584449
+     1 string m_Localized = "We're out of stock at the moment."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [29]
+    0 TableEntryData data
+     0 SInt64 m_Id = 50054836584450
+     1 string m_Localized = "It's your call."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [30]
+    0 TableEntryData data
+     0 SInt64 m_Id = 50054836584451
+     1 string m_Localized = "I don't have a use for that."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [31]
+    0 TableEntryData data
+     0 SInt64 m_Id = 50054836584452
+     1 string m_Localized = "How many are you buying?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [32]
+    0 TableEntryData data
+     0 SInt64 m_Id = 50054836584453
+     1 string m_Localized = "Hmm, {0} will be... {1}. How does that sound?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [33]
+    0 TableEntryData data
+     0 SInt64 m_Id = 50054836584454
+     1 string m_Localized = "1 will be {0}."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [34]
+    0 TableEntryData data
+     0 SInt64 m_Id = 50054836584455
+     1 string m_Localized = "Worry not, everything is in top quality."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [35]
+    0 TableEntryData data
+     0 SInt64 m_Id = 50054836584456
+     1 string m_Localized = "How many do you wish to sell?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [36]
+    0 TableEntryData data
+     0 SInt64 m_Id = 50054836584457
+     1 string m_Localized = "{0} will be... {1}. How does that sound?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [37]
+    0 TableEntryData data
+     0 SInt64 m_Id = 50054836584458
+     1 string m_Localized = "1 will be {0}."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [38]
+    0 TableEntryData data
+     0 SInt64 m_Id = 50054836584459
+     1 string m_Localized = "Good things deserve good prices."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [39]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949542551552
+     1 string m_Localized = "Looks like you're out of money."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [40]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300288
+     1 string m_Localized = "Your bag's packed to the brim."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [41]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300289
+     1 string m_Localized = "Sorry, we're not selling that now."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [42]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300290
+     1 string m_Localized = "Not to your liking?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [43]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300291
+     1 string m_Localized = "I don't have a use for that."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [44]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300292
+     1 string m_Localized = "How many you want?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [45]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300293
+     1 string m_Localized = "So you want {0} for {1}?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [46]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300294
+     1 string m_Localized = "It's {0}."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [47]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300295
+     1 string m_Localized = "Make good use of it."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [48]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300296
+     1 string m_Localized = "How many are you selling?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [49]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300297
+     1 string m_Localized = "For {0} I'll give you {1}. How does that sound?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [50]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300298
+     1 string m_Localized = "I'll offer you {0} for that. "
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [51]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300299
+     1 string m_Localized = "Thanks. I'll make good use of it."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [52]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300300
+     1 string m_Localized = "I am afraid you don't have enough money."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [53]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300301
+     1 string m_Localized = "I am afraid you don't have enough space in your bag."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [54]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300302
+     1 string m_Localized = "This item is currently out of stock."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [55]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300303
+     1 string m_Localized = "Feel free to keep browsing."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [56]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300304
+     1 string m_Localized = "I won't buy that."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [57]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300305
+     1 string m_Localized = "How many would you like?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [58]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300306
+     1 string m_Localized = "{0} will be {1}. Is that correct?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [59]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300307
+     1 string m_Localized = "Is that {0}?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [60]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300308
+     1 string m_Localized = "Thank you."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [61]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300309
+     1 string m_Localized = "How many do you wish to sell?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [62]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300310
+     1 string m_Localized = "{0} will be {1}. Is that correct?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [63]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300311
+     1 string m_Localized = "Is that {0}?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [64]
+    0 TableEntryData data
+     0 SInt64 m_Id = 85048949580300312
+     1 string m_Localized = "Thank you."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [65]
+    0 TableEntryData data
+     0 SInt64 m_Id = 137682636813434880
+     1 string m_Localized = "I don't have much money left today. Please come again tomorrow."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [66]
+    0 TableEntryData data
+     0 SInt64 m_Id = 137682757034770432
+     1 string m_Localized = "The balance I have today won't stretch that far. If you're still interested in selling, come again tomorrow."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [67]
+    0 TableEntryData data
+     0 SInt64 m_Id = 259424730430373888
+     1 string m_Localized = "(Insufficient balance)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [68]
+    0 TableEntryData data
+     0 SInt64 m_Id = 259424730447151104
+     1 string m_Localized = "(Insufficient space in the backpack)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [69]
+    0 TableEntryData data
+     0 SInt64 m_Id = 259424730447151105
+     1 string m_Localized = "(Insufficient stock)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [70]
+    0 TableEntryData data
+     0 SInt64 m_Id = 259424730447151106
+     1 string m_Localized = "(The page waves gently to the wind)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [71]
+    0 TableEntryData data
+     0 SInt64 m_Id = 259424730447151107
+     1 string m_Localized = "(Nonstandard item)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [72]
+    0 TableEntryData data
+     0 SInt64 m_Id = 259424730447151108
+     1 string m_Localized = "(Number not entered)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [73]
+    0 TableEntryData data
+     0 SInt64 m_Id = 259424730447151109
+     1 string m_Localized = "(The number is {0} and the price is {1})"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [74]
+    0 TableEntryData data
+     0 SInt64 m_Id = 259424730447151110
+     1 string m_Localized = "(The price is {0})"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [75]
+    0 TableEntryData data
+     0 SInt64 m_Id = 259424730447151111
+     1 string m_Localized = "(The page sprawls out, as if feeling glad)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [76]
+    0 TableEntryData data
+     0 SInt64 m_Id = 259424730447151112
+     1 string m_Localized = "(Number not entered)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [77]
+    0 TableEntryData data
+     0 SInt64 m_Id = 259424730447151113
+     1 string m_Localized = "(The number is {0} and the price is {1})"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [78]
+    0 TableEntryData data
+     0 SInt64 m_Id = 259424730447151114
+     1 string m_Localized = "(The price is {0})"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [79]
+    0 TableEntryData data
+     0 SInt64 m_Id = 259424730447151115
+     1 string m_Localized = "(The page sprawls out, as if feeling glad)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [80]
+    0 TableEntryData data
+     0 SInt64 m_Id = 259427853848870912
+     1 string m_Localized = "(Purchase limit exceeded)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [81]
+    0 TableEntryData data
+     0 SInt64 m_Id = 306865138877661184
+     1 string m_Localized = "Do you have any candies for sale?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [82]
+    0 TableEntryData data
+     0 SInt64 m_Id = 306865560711397376
+     1 string m_Localized = "(The quill lightly bounces as if eagerly awaiting)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [83]
+    0 TableEntryData data
+     0 SInt64 m_Id = 306865557725052928
+     1 string m_Localized = "(The Witch Association certificate flashes, and the product catalog appears)"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [84]
+    0 TableEntryData data
+     0 SInt64 m_Id = 306865758204395520
+     1 string m_Localized = "Welcome."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [85]
+    0 TableEntryData data
+     0 SInt64 m_Id = 306878015613239296
+     1 string m_Localized = "Welcome."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [86]
+    0 TableEntryData data
+     0 SInt64 m_Id = 306878019786571776
+     1 string m_Localized = "Is there anything I can get for you?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [87]
+    0 TableEntryData data
+     0 SInt64 m_Id = 306879445472444416
+     1 string m_Localized = "Are you hungry?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [88]
+    0 TableEntryData data
+     0 SInt64 m_Id = 306864998418808832
+     1 string m_Localized = "Only accepts items approved by the Witch Association."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [89]
+    0 TableEntryData data
+     0 SInt64 m_Id = 306865759156502528
+     1 string m_Localized = "Did you bring some nice stuff?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [90]
+    0 TableEntryData data
+     0 SInt64 m_Id = 328332123914928128
+     1 string m_Localized = "Let me see what you've brought."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [91]
+    0 TableEntryData data
+     0 SInt64 m_Id = 328331947427004416
+     1 string m_Localized = "I don't really care about that kind of stuff."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [92]
+    0 TableEntryData data
+     0 SInt64 m_Id = 328332019766165504
+     1 string m_Localized = "How many are you selling?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [93]
+    0 TableEntryData data
+     0 SInt64 m_Id = 328332075244224512
+     1 string m_Localized = "{0} will be {1}. Deal?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [94]
+    0 TableEntryData data
+     0 SInt64 m_Id = 328332087839719424
+     1 string m_Localized = "It's {0}, right?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [95]
+    0 TableEntryData data
+     0 SInt64 m_Id = 328331935754256384
+     1 string m_Localized = "As you please."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [96]
+    0 TableEntryData data
+     0 SInt64 m_Id = 328332100812701696
+     1 string m_Localized = "Alright."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [97]
+    0 TableEntryData data
+     0 SInt64 m_Id = 386203520040992768
+     1 string m_Localized = "{0} will cost {1}. Deal?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [98]
+    0 TableEntryData data
+     0 SInt64 m_Id = 386203532057673728
+     1 string m_Localized = "{0}. Deal?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [99]
+    0 TableEntryData data
+     0 SInt64 m_Id = 386203564064407552
+     1 string m_Localized = "{0} will cost {1}. Deal?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [100]
+    0 TableEntryData data
+     0 SInt64 m_Id = 386203573723889664
+     1 string m_Localized = "{0}. Deal?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [101]
+    0 TableEntryData data
+     0 SInt64 m_Id = 386203453246701568
+     1 string m_Localized = "You don't have enough Gold Coins for this."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [102]
+    0 TableEntryData data
+     0 SInt64 m_Id = 386203463648575488
+     1 string m_Localized = "Is your bag full?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [103]
+    0 TableEntryData data
+     0 SInt64 m_Id = 386203473354194944
+     1 string m_Localized = "Sorry, it's sold out."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [104]
+    0 TableEntryData data
+     0 SInt64 m_Id = 386203484846587904
+     1 string m_Localized = "That's better than making rash decisions."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [105]
+    0 TableEntryData data
+     0 SInt64 m_Id = 386203495638532096
+     1 string m_Localized = "I don't plan to buy that."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [106]
+    0 TableEntryData data
+     0 SInt64 m_Id = 386203507898482688
+     1 string m_Localized = "How many do you want?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [107]
+    0 TableEntryData data
+     0 SInt64 m_Id = 386203542186917888
+     1 string m_Localized = "I'm glad to see this fine item in good hands."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [108]
+    0 TableEntryData data
+     0 SInt64 m_Id = 386203552299384832
+     1 string m_Localized = "How many are you buying?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [109]
+    0 TableEntryData data
+     0 SInt64 m_Id = 386203584536805376
+     1 string m_Localized = "Nice deal."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [110]
+    0 TableEntryData data
+     0 SInt64 m_Id = 386203599346892800
+     1 string m_Localized = "Do you need anything?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [111]
+    0 TableEntryData data
+     0 SInt64 m_Id = 380885439276003328
+     1 string m_Localized = "You're short on gold coins."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [112]
+    0 TableEntryData data
+     0 SInt64 m_Id = 380885439301169152
+     1 string m_Localized = "It might be a good idea to check your bag."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [113]
+    0 TableEntryData data
+     0 SInt64 m_Id = 380885439301169153
+     1 string m_Localized = "Sorry. That's all gone."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [114]
+    0 TableEntryData data
+     0 SInt64 m_Id = 380885439301169154
+     1 string m_Localized = "You should think it over carefully."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [115]
+    0 TableEntryData data
+     0 SInt64 m_Id = 380885439301169155
+     1 string m_Localized = "Hmm... I don't need that."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [116]
+    0 TableEntryData data
+     0 SInt64 m_Id = 380885439301169156
+     1 string m_Localized = "How many do you need?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [117]
+    0 TableEntryData data
+     0 SInt64 m_Id = 380885439301169157
+     1 string m_Localized = "If you buy {0}, it'll be {1}. Is that okay?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [118]
+    0 TableEntryData data
+     0 SInt64 m_Id = 380885439301169158
+     1 string m_Localized = "That'll be {0}."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [119]
+    0 TableEntryData data
+     0 SInt64 m_Id = 380885439301169159
+     1 string m_Localized = "Thanks, as always."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [120]
+    0 TableEntryData data
+     0 SInt64 m_Id = 380885439301169160
+     1 string m_Localized = "How many are you selling?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [121]
+    0 TableEntryData data
+     0 SInt64 m_Id = 380885439301169161
+     1 string m_Localized = "If you sell {0}, it'll be {1}. Is that okay?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [122]
+    0 TableEntryData data
+     0 SInt64 m_Id = 380885439301169162
+     1 string m_Localized = "That'll be {0}."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [123]
+    0 TableEntryData data
+     0 SInt64 m_Id = 380885439301169163
+     1 string m_Localized = "Thanks, as always."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [124]
+    0 TableEntryData data
+     0 SInt64 m_Id = 380885439301169164
+     1 string m_Localized = "I'm broke today because you've sold me too much. Could you come back tomorrow?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [125]
+    0 TableEntryData data
+     0 SInt64 m_Id = 380885439301169165
+     1 string m_Localized = "Do you have anything to sell?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [126]
+    0 TableEntryData data
+     0 SInt64 m_Id = 380886558114983936
+     1 string m_Localized = "Welcome. Take your time and look around."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [127]
+    0 TableEntryData data
+     0 SInt64 m_Id = 420981063780433920
+     1 string m_Localized = "If you need {item/Reform_BroomStick}, trade {ItemCategory.NormalCollect} or {ItemCategory.NormalCollect_Unique} with me for it."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [128]
+    0 TableEntryData data
+     0 SInt64 m_Id = 420981147515518976
+     1 string m_Localized = "If you need {item/Reform_Coloritem}, trade {ItemCategory.NormalCollect} or {ItemCategory.NormalCollect_Unique} with me for it."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [129]
+    0 TableEntryData data
+     0 SInt64 m_Id = 420981452500140032
+     1 string m_Localized = "Ellie, choose the {ItemCategory.NormalCollect} you want and you'll find the type and quantity of items needed to exchange for it."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [130]
+    0 TableEntryData data
+     0 SInt64 m_Id = 328331857144610816
+     1 string m_Localized = "You don't have enough money on you."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [131]
+    0 TableEntryData data
+     0 SInt64 m_Id = 328331891923779584
+     1 string m_Localized = "You don't seem to have room in your bag."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [132]
+    0 TableEntryData data
+     0 SInt64 m_Id = 328331913142763520
+     1 string m_Localized = "It's sold out."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [133]
+    0 TableEntryData data
+     0 SInt64 m_Id = 328331958877454336
+     1 string m_Localized = "How many do you want?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [134]
+    0 TableEntryData data
+     0 SInt64 m_Id = 328331971133210624
+     1 string m_Localized = "If you want {0}, just pay me {1}."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [135]
+    0 TableEntryData data
+     0 SInt64 m_Id = 328331997255335936
+     1 string m_Localized = "It's {0}, right?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [136]
+    0 TableEntryData data
+     0 SInt64 m_Id = 328332005522309120
+     1 string m_Localized = "It will prove useful."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [137]
+    0 TableEntryData data
+     0 SInt64 m_Id = 408783277179678720
+     1 string m_Localized = "You don't have any Ritoring's Gift on you!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [138]
+    0 TableEntryData data
+     0 SInt64 m_Id = 408783277204844544
+     1 string m_Localized = "You don't have enough space in your bag."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [139]
+    0 TableEntryData data
+     0 SInt64 m_Id = 408783277204844545
+     1 string m_Localized = "I don't have more of that."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [140]
+    0 TableEntryData data
+     0 SInt64 m_Id = 408783277204844546
+     1 string m_Localized = "Take your time to decide."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [141]
+    0 TableEntryData data
+     0 SInt64 m_Id = 408783277204844547
+     1 string m_Localized = "I don't want that."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [142]
+    0 TableEntryData data
+     0 SInt64 m_Id = 408783277204844548
+     1 string m_Localized = "How many of it?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [143]
+    0 TableEntryData data
+     0 SInt64 m_Id = 408783277204844549
+     1 string m_Localized = "You want {0}? Give me {1} then."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [144]
+    0 TableEntryData data
+     0 SInt64 m_Id = 408783277204844550
+     1 string m_Localized = "Give me {0}."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [145]
+    0 TableEntryData data
+     0 SInt64 m_Id = 408783277204844551
+     1 string m_Localized = "Go ahead with the gathering!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [146]
+    0 TableEntryData data
+     0 SInt64 m_Id = 408783277204844558
+     1 string m_Localized = "Let me see."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [147]
+    0 TableEntryData data
+     0 SInt64 m_Id = 421438853814562816
+     1 string m_Localized = "What do you need?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [148]
+    0 TableEntryData data
+     0 SInt64 m_Id = 426426307374100480
+     1 string m_Localized = "What would you like to exchange them for?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [149]
+    0 TableEntryData data
+     0 SInt64 m_Id = 431867490412036096
+     1 string m_Localized = "Oops, you don't have enough money for that."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [150]
+    0 TableEntryData data
+     0 SInt64 m_Id = 431867494170132480
+     1 string m_Localized = "Ahaha, your bag is too full."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [151]
+    0 TableEntryData data
+     0 SInt64 m_Id = 431867496997093376
+     1 string m_Localized = "That was everything I had."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [152]
+    0 TableEntryData data
+     0 SInt64 m_Id = 431867498788061184
+     1 string m_Localized = "We're not in a hurry."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [153]
+    0 TableEntryData data
+     0 SInt64 m_Id = 431867499874385920
+     1 string m_Localized = "It's hard for me to process this..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [154]
+    0 TableEntryData data
+     0 SInt64 m_Id = 431867500696469504
+     1 string m_Localized = "How many do you need?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [155]
+    0 TableEntryData data
+     0 SInt64 m_Id = 431867520522944512
+     1 string m_Localized = "{0} would cost you {1}."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [156]
+    0 TableEntryData data
+     0 SInt64 m_Id = 431867522653650944
+     1 string m_Localized = "Is {0} alright?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [157]
+    0 TableEntryData data
+     0 SInt64 m_Id = 431867524222320640
+     1 string m_Localized = "Great! Thank you."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [158]
+    0 TableEntryData data
+     0 SInt64 m_Id = 431867525468028928
+     1 string m_Localized = "How many will you sell?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [159]
+    0 TableEntryData data
+     0 SInt64 m_Id = 431867526600491008
+     1 string m_Localized = "{0} would be {1}."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [160]
+    0 TableEntryData data
+     0 SInt64 m_Id = 431867527607123968
+     1 string m_Localized = "Would {0} be alright?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [161]
+    0 TableEntryData data
+     0 SInt64 m_Id = 431867528903163904
+     1 string m_Localized = "Great! Thank you."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [162]
+    0 TableEntryData data
+     0 SInt64 m_Id = 431869133232832512
+     1 string m_Localized = "Sorry, but that was all you can buy today."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [163]
+    0 TableEntryData data
+     0 SInt64 m_Id = 431870001629921280
+     1 string m_Localized = "What do you want to sell?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [164]
+    0 TableEntryData data
+     0 SInt64 m_Id = 431870002301009920
+     1 string m_Localized = "Have a look at what I've got."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [165]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880026438828032
+     1 string m_Localized = "Ellie, it seems like you’re short on money..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [166]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880036907810816
+     1 string m_Localized = "Ellie, I don’t have anywhere to put it."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [167]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880053798273024
+     1 string m_Localized = "I’m out of them right now."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [168]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880065605238784
+     1 string m_Localized = "Tell me when you want some tea. Hehe."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [169]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880077336707072
+     1 string m_Localized = "Yeah... If I bring that home, Grandma probably won’t like it."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [170]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880088728436736
+     1 string m_Localized = "How many should I give you?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [171]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880100787060736
+     1 string m_Localized = "If it’s {0}... then it’s {1}, right? Isn’t that correct?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [172]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880111172157440
+     1 string m_Localized = "It’s {0}, right?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [173]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880129664843776
+     1 string m_Localized = "Ellie, I did the math right, didn’t I?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [174]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880140674891776
+     1 string m_Localized = "Grandma told me to make sure to ask how many there are."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [175]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880150908993536
+     1 string m_Localized = "If it’s {0}... then it’s {1}, right? Isn’t that correct?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [176]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880164615979008
+     1 string m_Localized = "It’s {0}, right?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [177]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880175835742208
+     1 string m_Localized = "Ellie, I did the math right, didn’t I?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [178]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880186455719936
+     1 string m_Localized = "Mm... Grandma said I shouldn’t buy too many."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [179]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880199139295232
+     1 string m_Localized = "Grandma said it’s okay to buy if it’s something we need."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [180]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880213089550336
+     1 string m_Localized = "I brewed the tea really well, didn’t I?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [181]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880226012200960
+     1 string m_Localized = "It seems you don’t have enough money, dear customer."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [182]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880242764251136
+     1 string m_Localized = "It seems you don’t have space to carry your purchase, dear customer."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [183]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880253543612416
+     1 string m_Localized = "I’m sorry, but the ones I made are all gone."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [184]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880264968896512
+     1 string m_Localized = "Delicious food is always ready."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [185]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880275169443840
+     1 string m_Localized = "That looks like something too difficult for a bakery to handle."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [186]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880287601360896
+     1 string m_Localized = "How many do you need, dear customer?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [187]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880300834390016
+     1 string m_Localized = "If it’s {0}, then it will be {1}, dear customer."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [188]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880316126822400
+     1 string m_Localized = "It’s {0}, dear customer."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [189]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880325660475392
+     1 string m_Localized = "Have a delicious day~"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [190]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880336381116416
+     1 string m_Localized = "How much would you like to sell~?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [191]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880347294695424
+     1 string m_Localized = "If it’s {0}, then it will be {1}, dear customer."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [192]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880356660576256
+     1 string m_Localized = "It’s {0}, dear customer."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [193]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880367100198912
+     1 string m_Localized = "Have a nice day~"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [194]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880377149751296
+     1 string m_Localized = "I’m sorry, but it seems I can’t buy any more today."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [195]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880386066841600
+     1 string m_Localized = "What would you like to sell~?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [196]
+    0 TableEntryData data
+     0 SInt64 m_Id = 434880395910873088
+     1 string m_Localized = "These donuts are even more delicious than they look~"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [197]
+    0 TableEntryData data
+     0 SInt64 m_Id = 467155353055559680
+     1 string m_Localized = "Try exchanging items with the Gold Coin Pouch."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [198]
+    0 TableEntryData data
+     0 SInt64 m_Id = 467155355848966144
+     1 string m_Localized = "Try exchanging items with the Luna Coin Pouch."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [199]
+    0 TableEntryData data
+     0 SInt64 m_Id = 542871272673501193
+     1 string m_Localized = "That would be {1}. Deal?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [200]
+    0 TableEntryData data
+     0 SInt64 m_Id = 542871272673501209
+     1 string m_Localized = "That would be {1}."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [201]
+    0 TableEntryData data
+     0 SInt64 m_Id = 542871272673501186
+     1 string m_Localized = "Think about it!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [202]
+    0 TableEntryData data
+     0 SInt64 m_Id = 542871272673501187
+     1 string m_Localized = "I don't want to buy that!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [203]
+    0 TableEntryData data
+     0 SInt64 m_Id = 542871272673501192
+     1 string m_Localized = "How many are you selling?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [204]
+    0 TableEntryData data
+     0 SInt64 m_Id = 542871272673501194
+     1 string m_Localized = "That would be {0}."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [205]
+    0 TableEntryData data
+     0 SInt64 m_Id = 542871272673501195
+     1 string m_Localized = "Deal!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [206]
+    0 TableEntryData data
+     0 SInt64 m_Id = 542871272673501198
+     1 string m_Localized = "Are you here to sell star crystals?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [207]
+    0 TableEntryData data
+     0 SInt64 m_Id = 542871272673501202
+     1 string m_Localized = "Take your time to consider."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [208]
+    0 TableEntryData data
+     0 SInt64 m_Id = 542871272673501203
+     1 string m_Localized = "I buy nothing but star crystals."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [209]
+    0 TableEntryData data
+     0 SInt64 m_Id = 542871272673501208
+     1 string m_Localized = "How many are you selling?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [210]
+    0 TableEntryData data
+     0 SInt64 m_Id = 542871272673501210
+     1 string m_Localized = "That would be {0}."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [211]
+    0 TableEntryData data
+     0 SInt64 m_Id = 542871272673501211
+     1 string m_Localized = "Okay, deal."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [212]
+    0 TableEntryData data
+     0 SInt64 m_Id = 542871272673501214
+     1 string m_Localized = "Let me know if you have any unneeded star crystal."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [213]
+    0 TableEntryData data
+     0 SInt64 m_Id = 542884346482647040
+     1 string m_Localized = "What would you like to exchange for?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [214]
+    0 TableEntryData data
+     0 SInt64 m_Id = 542884369203191808
+     1 string m_Localized = "Please choose the item you want first."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+ 0 ManagedReferencesRegistry references
+  0 int version = 2
+  0 vector RefIds
+   1 Array Array
+    0 int size = 1
+    0 ReferencedObject data
+     0 SInt64 rid = 0
+     0 ReferencedManagedType type
+      1 string class = "SmartFormatTag"
+      1 string ns = "UnityEngine.Localization.Metadata"
+      1 string asm = "Unity.Localization"
+     0 ReferencedObjectData data
+      0 vector m_Entries
+       1 Array Array (0 items)
+        0 int size = 0
+      0 Entry m_SharedEntries
+       0 Array Array (33 items)
+        0 int size = 33
+        [0]
+         0 Entry data
+          0 SInt64 id = 117180530688
+        [1]
+         0 Entry data
+          0 SInt64 id = 119294459904
+        [2]
+         0 Entry data
+          0 SInt64 id = 132191944704
+        [3]
+         0 Entry data
+          0 SInt64 id = 134960185344
+        [4]
+         0 Entry data
+          0 SInt64 id = 42167569547269
+        [5]
+         0 Entry data
+          0 SInt64 id = 42167569547270
+        [6]
+         0 Entry data
+          0 SInt64 id = 42167569547273
+        [7]
+         0 Entry data
+          0 SInt64 id = 50054836584453
+        [8]
+         0 Entry data
+          0 SInt64 id = 50054836584454
+        [9]
+         0 Entry data
+          0 SInt64 id = 50054836584457
+        [10]
+         0 Entry data
+          0 SInt64 id = 50054836584458
+        [11]
+         0 Entry data
+          0 SInt64 id = 85048949580300298
+        [12]
+         0 Entry data
+          0 SInt64 id = 85048949580300306
+        [13]
+         0 Entry data
+          0 SInt64 id = 85048949580300307
+        [14]
+         0 Entry data
+          0 SInt64 id = 85048949580300310
+        [15]
+         0 Entry data
+          0 SInt64 id = 85048949580300311
+        [16]
+         0 Entry data
+          0 SInt64 id = 42167569547274
+        [17]
+         0 Entry data
+          0 SInt64 id = 85048949580300293
+        [18]
+         0 Entry data
+          0 SInt64 id = 85048949580300294
+        [19]
+         0 Entry data
+          0 SInt64 id = 85048949580300297
+        [20]
+         0 Entry data
+          0 SInt64 id = 259424730447151109
+        [21]
+         0 Entry data
+          0 SInt64 id = 259424730447151110
+        [22]
+         0 Entry data
+          0 SInt64 id = 259424730447151113
+        [23]
+         0 Entry data
+          0 SInt64 id = 259424730447151114
+        [24]
+         0 Entry data
+          0 SInt64 id = 386203520040992768
+        [25]
+         0 Entry data
+          0 SInt64 id = 386203532057673728
+        [26]
+         0 Entry data
+          0 SInt64 id = 386203564064407552
+        [27]
+         0 Entry data
+          0 SInt64 id = 386203573723889664
+        [28]
+         0 Entry data
+          0 SInt64 id = 420981063780433920
+        [29]
+         0 Entry data
+          0 SInt64 id = 420981147515518976
+        [30]
+         0 Entry data
+          0 SInt64 id = 420981452500140032
+        [31]
+         0 Entry data
+          0 SInt64 id = 542871272673501193
+        [32]
+         0 Entry data
+          0 SInt64 id = 542871272673501209

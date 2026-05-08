@@ -1,0 +1,578 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = -2766267126516050984
+ 1 string m_Name = "PeopleNote_en"
+ 0 LocaleIdentifier m_LocaleId
+  1 string m_Code = "en"
+ 0 PPtr<$SharedTableData> m_SharedData
+  0 int m_FileID = 2
+  0 SInt64 m_PathID = -1767184735477430168
+ 0 MetadataCollection m_Metadata
+  0 IMetadata m_Items
+   0 Array Array (0 items)
+    0 int size = 0
+ 0 TableEntryData m_TableData
+  0 Array Array (69 items)
+   0 int size = 69
+   [0]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1276172337152
+     1 string m_Localized = "Dono de uma loja de artigos diversos. Ele é bastante atencioso em certos aspectos."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [1]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10453510815744
+     1 string m_Localized = "Um cozinheiro que dirige um restaurante. Ele geralmente está irritado e indiferente."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [2]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10493650305024
+     1 string m_Localized = "Um bibliotecário quieto e controlado. Falador lento."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [3]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10509697712128
+     1 string m_Localized = "Um dono de padaria preocupado e um pouco exigente."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [4]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10535236829184
+     1 string m_Localized = "O garoto da padaria. Sempre vibrante."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [5]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10547882655744
+     1 string m_Localized = "O chefe da aldeia. Uma senhora idosa calorosa que sempre se preocupa com o bem-estar de todos."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [6]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10574780727296
+     1 string m_Localized = "Um explorador aventureiro. Um executor alegre e direto."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [7]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10618607009792
+     1 string m_Localized = "Dona de uma floricultura serena, gentil e educada com todos."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [8]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10646574628864
+     1 string m_Localized = "Um maquinista excessivamente dramático que veio para a aldeia depois de se aposentar."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [9]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10668611502080
+     1 string m_Localized = "Um garoto fofo e prudente. Criado pela avó, ele tem hobbies bastante maduros."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [10]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10691080388608
+     1 string m_Localized = "Um amigo brincalhão da cidade, que está sempre contando piadas."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [11]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10703877210112
+     1 string m_Localized = "Um pintor tranquilo que faz sua própria pintura."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [12]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10795715690496
+     1 string m_Localized = "O ferreiro e carpinteiro da aldeia. Ela sempre usa um sorriso confiante."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [13]
+    0 TableEntryData data
+     0 SInt64 m_Id = 11821092995072
+     1 string m_Localized = "Um cozinheiro que dirige um restaurante. Ele sofre de amnésia grave e geralmente é indiferente."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [14]
+    0 TableEntryData data
+     0 SInt64 m_Id = 11823009792000
+     1 string m_Localized = "Um cozinheiro que dirige um restaurante. Ele sofre de amnésia grave e geralmente é indiferente."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [15]
+    0 TableEntryData data
+     0 SInt64 m_Id = 11824490381312
+     1 string m_Localized = "Um cozinheiro que dirige um restaurante. Ele sofre de amnésia severa e geralmente é indiferente, mas parece que às vezes pode ser atencioso."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [16]
+    0 TableEntryData data
+     0 SInt64 m_Id = 11859395379200
+     1 string m_Localized = "Uma cozinheira que vive há mais de mil anos. Ele sofre de amnésia severa e geralmente parece indiferente, mas tem um coração bondoso."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [17]
+    0 TableEntryData data
+     0 SInt64 m_Id = 12064303906816
+     1 string m_Localized = "Dona de uma floricultura serena, gentil e educada com todos."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [18]
+    0 TableEntryData data
+     0 SInt64 m_Id = 12079290155008
+     1 string m_Localized = "Dona de uma floricultura serena, gentil e educada com todos."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [19]
+    0 TableEntryData data
+     0 SInt64 m_Id = 12450104377344
+     1 string m_Localized = "Arin Hebling"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [20]
+    0 TableEntryData data
+     0 SInt64 m_Id = 12585400041472
+     1 string m_Localized = "Uma bibliotecária tranquila e com muita curiosidade. Ela é calma e fala devagar."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [21]
+    0 TableEntryData data
+     0 SInt64 m_Id = 12603808841728
+     1 string m_Localized = "Uma bibliotecária tranquila e com muita curiosidade. Ela é calma e fala devagar."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [22]
+    0 TableEntryData data
+     0 SInt64 m_Id = 41809452236800
+     1 string m_Localized = "Ao fazer tarefas para Alvin, descobri algo surpreendente: eu não era a única bruxa nesta aldeia. Estou curioso, mas também confuso. Eu estava suspeitando, e ele me convidando para sua oficina e admitindo sua identidade como bruxa só tornou tudo ainda mais suspeito. E... por que ele voltou se não vai ser um mestre bruxo?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [23]
+    0 TableEntryData data
+     0 SInt64 m_Id = 41880503746560
+     1 string m_Localized = "Embora eu tenha jurado que encontraria o melhor material de marcador para Arin, acabei perdendo para Rex... Arin me confortou, dizendo que ela tinha que escolher Rex, independentemente do material que eu conseguisse para ela. Felizmente, o incidente terminou bem, já que Rex não tentou levar Virgil.\nA propósito, pensar que um explorador e um bibliotecário trabalham juntos. Quantos marcadores este par único fez?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [24]
+    0 TableEntryData data
+     0 SInt64 m_Id = 41921670840320
+     1 string m_Localized = "No final, consegui satisfazer Kyla, a entusiasta do espumante. Não sei qual é o gosto do vinho, mas imaginei que conseguir alguns aperitivos ajudaria, e estava certo. Afinal, Kyla desempenhou um papel importante na restauração da aldeia e eu queria realizar o seu desejo a todo custo. Estou feliz que isso a deixou tão feliz."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [25]
+    0 TableEntryData data
+     0 SInt64 m_Id = 41945569984512
+     1 string m_Localized = "Lembrarei com carinho da lenda do alecrim dourado que Roy me contou. Como ele disse, o alecrim dourado floresce no local mais próximo da lua."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [26]
+    0 TableEntryData data
+     0 SInt64 m_Id = 41964364660736
+     1 string m_Localized = "Vinch disse que a maior parte de sua tinta era feita em casa. Eu coletei materiais para ele. A primeira vez que vi a tinta empilhada em sua casa e quintal, não pude deixar de perguntar de que era feita. Só consegui entender o processo de elaboração porque Vinch o comparou à preparação de poções. Oh! Vou perguntar a ele o que ele vai pintar na próxima vez que o vir."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [27]
+    0 TableEntryData data
+     0 SInt64 m_Id = 42711609278464
+     1 string m_Localized = "A sinceridade de Roy comoveu até o Deus Gato Preto! Isso é algo de que posso me gabar por anos. O deus percebeu como, ano após ano, Roy planta flores e escreve cartas para seu professor com as próprias mãos.\nMas, sério, como aquele professor poderia não responder, nem uma vez? Se fosse eu, ficaria chateado demais para continuar escrevendo com tanta fidelidade. A paciência de Roy é gentil demais para este mundo."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [28]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43120604250112
+     1 string m_Localized = "Achei que Roy ficaria feliz, assim como quando viu esperança com seu mentor, se visse o campo de rosas azuis. Mas ele não estava. Parece que traí a sinceridade de outra pessoa."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [29]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43383595499520
+     1 string m_Localized = "Quebrei o selo do livro encantado com Arin! É um livro vivo chamado The Silent Guardian e parece ter uma personalidade ainda mais difícil do que Virgílio. O que aquela bruxa Parks estava pensando quando fez um livro tão estranho? Se eu estivesse sozinho, provavelmente já teria desistido há muito tempo. E… quanto ao conteúdo, terei que esperar até que Arin traduza a antiga linguagem das bruxas."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [30]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43384967036928
+     1 string m_Localized = "Descobri muitas coisas ao mesmo tempo e minha cabeça está uma bagunça. Não acredito que Arin seja um meio-sangue de bruxo e humano, e que Parks Hebling seja o pai dela!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [31]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43485412229120
+     1 string m_Localized = "Depois de perder a luz noturna, Arden estava sofrendo de insônia, então ajudei-o a recuperar a luz. Arden sempre parece desapegado. Eu não sabia que ele poderia ter distúrbios do sono. Bem, ele viveu centenas de anos, então é normal que ele tenha coisas em mente, mas agora que a luz noturna voltou, ele deve conseguir dormir bem."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [32]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43487085756416
+     1 string m_Localized = "Pimenta amaldiçoada? Seriamente? Arden deve estar pensando demais devido à privação de sono, mas considerando sua personalidade, não ficarei surpreso mesmo se ele realmente estiver amaldiçoado. De qualquer forma, examinarei primeiro as memórias mais relevantes."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [33]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43488482459648
+     1 string m_Localized = "Todas as memórias que encontrei eram do parceiro do Arden. Foi ela quem trouxe Arden, um dragão, montanha abaixo até a vila para abrir um restaurante. O amor, entre tudo, é realmente a causa?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [34]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43545562742784
+     1 string m_Localized = "Para se lembrar de sua parceira, Arden chegou a se xingar, para continuar sonhando até se lembrar das palavras dela... Que diabos são essas palavras que ele queria lembrar? O que o Guerreiro pediu para ele lembrar?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [35]
+    0 TableEntryData data
+     0 SInt64 m_Id = 44063626395648
+     1 string m_Localized = "Arden decidiu viver com as memórias de Angélica. Ele provavelmente viverá uma vida feliz como ela desejava. Cem anos depois, ele poderá esquecer seu passado, descartar tudo e ser novamente atormentado por pesadelos.\n\nMas Arden se lembrará novamente. É isso mesmo, Angélica?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [36]
+    0 TableEntryData data
+     0 SInt64 m_Id = 113331634208768
+     1 string m_Localized = "Uma bruxa administrando uma loja de artigos diversos. Um observador cuidadoso que nunca interfere."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [37]
+    0 TableEntryData data
+     0 SInt64 m_Id = 113375674400768
+     1 string m_Localized = "Um pintor tranquilo que faz sua própria pintura. Ele não fala muito, mas sabe o que quer."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [38]
+    0 TableEntryData data
+     0 SInt64 m_Id = 113435262877696
+     1 string m_Localized = "Um explorador aventureiro. Um realizador alegre que está sempre cheio de força."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [39]
+    0 TableEntryData data
+     0 SInt64 m_Id = 113594067615744
+     1 string m_Localized = "Dono de uma floricultura. Ele é educado com todos e de alguma forma se sente retraído."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [40]
+    0 TableEntryData data
+     0 SInt64 m_Id = 113595007139840
+     1 string m_Localized = "Uma bibliotecária tranquila e com muita curiosidade. Ela geralmente é controlada, mas às vezes pode ser emocionada."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [41]
+    0 TableEntryData data
+     0 SInt64 m_Id = 114399445286912
+     1 string m_Localized = "Um vigoroso ferreiro e carpinteiro. Ela sempre usa um sorriso confiante."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [42]
+    0 TableEntryData data
+     0 SInt64 m_Id = 13519539599233024
+     1 string m_Localized = "Porém... de onde vem essa tristeza repentina? A decoração que Roy fez depois me deu sentimentos contraditórios."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [43]
+    0 TableEntryData data
+     0 SInt64 m_Id = 61200327019954176
+     1 string m_Localized = "Um encrenqueiro apareceu do nada e trouxe o caos para a pacífica vila! Ele deu comida açucarada para Arden e me lançou no ar com um sofá inflável! Resumindo, ele passa cada segundo tramando truques... Espere, as piores pegadinhas ainda estão por vir?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [44]
+    0 TableEntryData data
+     0 SInt64 m_Id = 61200444208807936
+     1 string m_Localized = "Eu errei. Já faz um bom tempo que não fiz nada de malvado, então me empolguei e abusei de algumas caixas de presente de salgadinhos da Festa da Bruxa... Não esperava que isso se transformasse em um acidente... Enite e Theo não estão mais se conversando, e isso me preocupa. Espero que Theo consiga deixar de lado seu orgulho e pedir desculpas logo."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [45]
+    0 TableEntryData data
+     0 SInt64 m_Id = 61200474651066368
+     1 string m_Localized = "Eu estava preocupado que Theo pudesse estar estressado com as reclamações de seus pais e seu relacionamento com Enite, mas felizmente seu humor melhorou depois de conhecer Honey Bear. Espero que dure. A propósito, Theo defenderia outra pessoa mesmo que isso significasse colocar-se em perigo. Esta descoberta de alguma forma me deixou orgulhoso. Esperançosamente, ele se dará bem com seus pais e com Enite também..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [46]
+    0 TableEntryData data
+     0 SInt64 m_Id = 61200484977442816
+     1 string m_Localized = "Talvez Theo só tenha brincado porque ansiava por atenção? Mas ele deveria ter percebido que não precisa de pegadinhas para conseguir companhia! A doença de Honey Bear acabou sendo o gatilho: Theo se tornou um menino responsável que pediria desculpas e compensaria seus erros."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [47]
+    0 TableEntryData data
+     0 SInt64 m_Id = 61201237389443072
+     1 string m_Localized = "Um encrenqueiro arrogante entre os aldeões, apaixonado por pegadinhas."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [48]
+    0 TableEntryData data
+     0 SInt64 m_Id = 61201395837665280
+     1 string m_Localized = "O orgulhoso líder do grupo de aventuras, que adora brincadeiras e aventuras."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [49]
+    0 TableEntryData data
+     0 SInt64 m_Id = 61201406365368320
+     1 string m_Localized = "Líder do grupo de aventura. Ele ainda é travesso, mas aprendeu a assumir responsabilidades."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [50]
+    0 TableEntryData data
+     0 SInt64 m_Id = 61213951239225344
+     1 string m_Localized = "Ele parece ser um garoto travesso que brinca muito."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [51]
+    0 TableEntryData data
+     0 SInt64 m_Id = 64199486058823680
+     1 string m_Localized = "No início, pensei que se tratava apenas de traduzir um livro. Mas então conhecemos o pai de Arin dentro do livro e até descobrimos que o avô dela o criou para expiar seus crimes de guerra. Porém, o mais importante do que tudo é que Arin conheceu seu pai, confirmou seus verdadeiros sentimentos e foi capaz de resolver as dúvidas que carregou durante toda a vida."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [52]
+    0 TableEntryData data
+     0 SInt64 m_Id = 64199488768344064
+     1 string m_Localized = "Por mais ocupada que esteja, Clala nunca negligencia sua irmã mais nova. Ela até arrumou tempo para costurar bonecas para ela brincar, e essas são bonecas lindas! Nem toda irmã mais velha consegue isso. Embora Dana não goste tanto de bonecas quanto Clala acredita, contanto que Clala se delicie com isso..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [53]
+    0 TableEntryData data
+     0 SInt64 m_Id = 64199490718695424
+     1 string m_Localized = "Bjorn está muito animado desde que voltou. Ele mal pode esperar para contribuir com a aldeia e está procurando coisas para fazer. No início, sua paixão avassaladora me preocupou um pouco, mas fiquei pensando demais, porque ele fez alguns móveis para gatos em apenas um dia. Meu apoio a Bjorn acabou sendo frutífero! Bravo!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [54]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3279224262393856
+     1 string m_Localized = "Foi mais difícil de encontrar do que eu pensava!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [55]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3281267886686208
+     1 string m_Localized = "Está super desgastado, mas o fato de eu continuar usando... deve ser por causa das lembranças, né?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [56]
+    0 TableEntryData data
+     0 SInt64 m_Id = 65677017624444928
+     1 string m_Localized = "Roy continuará construindo e conectando laços à medida que avança. Mesmo que a chamada flor milagrosa, a rosa azul, não fosse real, os laços que ele prendeu – assim como aquela rosa azul feita de papel colorido – nunca desaparecerão. Espero que todos nós possamos nos tornar tão preciosos para Roy quanto uma família. Então, Roy, conto com você daqui em diante também."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [57]
+    0 TableEntryData data
+     0 SInt64 m_Id = 86947531999248384
+     1 string m_Localized = "Não, Virgil me disse para não me preocupar muito… Quero confortar Roy, mas talvez agora dar a ele seu próprio tempo seja a coisa certa a fazer. Vou esperar até então."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [58]
+    0 TableEntryData data
+     0 SInt64 m_Id = 86955077111742464
+     1 string m_Localized = "Agora passei a ver Theo como um irmão mais novo e estou aliviado ao ver o progresso que o pirralho está fazendo. Ele percorreu um longo caminho, haha."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [59]
+    0 TableEntryData data
+     0 SInt64 m_Id = 86983261596078080
+     1 string m_Localized = "E além disso, o fato de seu avô ter cometido atos terríveis na guerra… Por enquanto, eu deveria cuidar de Arin e deixá-la ter tempo para se recuperar."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [60]
+    0 TableEntryData data
+     0 SInt64 m_Id = 87049147765936128
+     1 string m_Localized = "Agora, Arin... Arin poderá sentir o amor da família onde quer que vá, não é?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [61]
+    0 TableEntryData data
+     0 SInt64 m_Id = 104426494526849024
+     1 string m_Localized = "Uma garota que dirige uma padaria. Ela pode ser exigente, mas parece sempre buscar o melhor no trabalho."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [62]
+    0 TableEntryData data
+     0 SInt64 m_Id = 149634152623865856
+     1 string m_Localized = "Clala foi convidada a desenvolver um novo produto, então fizemos alguns donuts da Munchy Bakery juntos. Embora tenha sido minha primeira tentativa, meus donuts foram um sucesso incrível. Papai ficaria muito surpreso se os visse. No entanto, Clala parece ter atingido um gargalo e estou preocupado."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [63]
+    0 TableEntryData data
+     0 SInt64 m_Id = 149634216016576512
+     1 string m_Localized = "Uma garota que dirige uma padaria. Ela pode ser exigente, mas parece sempre buscar o melhor no trabalho."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [64]
+    0 TableEntryData data
+     0 SInt64 m_Id = 149634257615683584
+     1 string m_Localized = "Espiei o caderno de ideias escondido de Clala sem permissão. Eu não queria machucá-la, mas isso a irritou. Esse caderno estava cheio de ideias maravilhosas da Clala! Esses desenhos não pareciam obra da Clala, mas eram muito fofos! Ela não precisava escondê-los. É uma pena mantê-los em segredo."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [65]
+    0 TableEntryData data
+     0 SInt64 m_Id = 149634672570761216
+     1 string m_Localized = "Gerente da Padaria Munchy. Apesar de tímida, ela trabalha muito e nunca desiste."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [66]
+    0 TableEntryData data
+     0 SInt64 m_Id = 149635289133449216
+     1 string m_Localized = "Gerente da Padaria Munchy. Apesar de tímida, ela trabalha muito e nunca desiste."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [67]
+    0 TableEntryData data
+     0 SInt64 m_Id = 149634718066376704
+     1 string m_Localized = "Clala me ensinou como é difícil manter um hobby. Graças à ajuda de todos, ela finalmente demonstrou seus novos donuts com confiança."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [68]
+    0 TableEntryData data
+     0 SInt64 m_Id = 152283962912899072
+     1 string m_Localized = "É uma pena que os donuts só tenham ficado em quarto lugar quando estavam tão bons. Mas, mais cedo ou mais tarde, o Clala's Special Donut seria a primeira coisa que viria à mente de todos ao mencionar a Munchy Bakery! Estou ansioso por esse dia!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+ 0 ManagedReferencesRegistry references
+  0 int version = 2
+  0 vector RefIds
+   1 Array Array
+    0 int size = 0

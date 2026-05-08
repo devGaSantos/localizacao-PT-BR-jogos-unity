@@ -1,0 +1,394 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = -2766267126516050984
+ 1 string m_Name = "Post_en"
+ 0 LocaleIdentifier m_LocaleId
+  1 string m_Code = "en"
+ 0 PPtr<$SharedTableData> m_SharedData
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 2888797350377874891
+ 0 MetadataCollection m_Metadata
+  0 IMetadata m_Items
+   0 Array Array (0 items)
+    0 int size = 0
+ 0 TableEntryData m_TableData
+  0 Array Array (46 items)
+   0 int size = 46
+   [0]
+    0 TableEntryData data
+     0 SInt64 m_Id = 57613086720
+     1 string m_Localized = "Encontre a Bolsa do Arden"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [1]
+    0 TableEntryData data
+     0 SInt64 m_Id = 64617574400
+     1 string m_Localized = "Perdi a bolsa que preciso para cozinhar. Se você encontrá-la, por favor, devolva-a para mim."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [2]
+    0 TableEntryData data
+     0 SInt64 m_Id = 774818099200
+     1 string m_Localized = "A Dor de Garganta do Dragão"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [3]
+    0 TableEntryData data
+     0 SInt64 m_Id = 778089656320
+     1 string m_Localized = "Cuspir chamas o tempo todo machuca a minha garganta.\nVou recompensar quem me ajudar.\nPor favor, venha antes que o meu restaurante abra pela manhã."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [4]
+    0 TableEntryData data
+     0 SInt64 m_Id = 858460909568
+     1 string m_Localized = "Reparos de postes de luz"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [5]
+    0 TableEntryData data
+     0 SInt64 m_Id = 862244171776
+     1 string m_Localized = "Uma das caixas foi carbonizada pelo fogo. Todos os moradores devem ter cuidado ao andar por ali."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [6]
+    0 TableEntryData data
+     0 SInt64 m_Id = 256912214061056
+     1 string m_Localized = "Ajude Kyla a construir sua casa"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [7]
+    0 TableEntryData data
+     0 SInt64 m_Id = 256915645001728
+     1 string m_Localized = "Eu matéria por ajuda para consertar a minha casa.\nSe ao menos alguém me desse uma mão, hahaha!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [8]
+    0 TableEntryData data
+     0 SInt64 m_Id = 2804554215321600
+     1 string m_Localized = "Lenda da Maçã Dourada"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [9]
+    0 TableEntryData data
+     0 SInt64 m_Id = 2804591066476544
+     1 string m_Localized = "Encontre alguém que conheça a lenda da maçã dourada!\nQuem quiser procurar a maçã dourada comigo, levante a mão!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [10]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3598855421685760
+     1 string m_Localized = "O Donut do Mestre"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [11]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3598857518837760
+     1 string m_Localized = "Informamos a todos os clientes da floricultura:\nUm pequeno acidente na floricultura causou um cheiro de queimado.\nPedimos desculpas por quaisquer inconveniente causado."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [12]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3529673254498304
+     1 string m_Localized = "Poção da Coragem"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [13]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3529676437975040
+     1 string m_Localized = "Estou procurando alguém corajoso o suficiente para preparar a Poção da Coragem comigo e bebê-la!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [14]
+    0 TableEntryData data
+     0 SInt64 m_Id = 116629343979732992
+     1 string m_Localized = "Você pode coçar minhas costas?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [15]
+    0 TableEntryData data
+     0 SInt64 m_Id = 115626693239349248
+     1 string m_Localized = "Procurando livros originalmente pertencentes à biblioteca. Entre em contato comigo se encontrar algum."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [16]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118825520796041216
+     1 string m_Localized = "Um pedido especial de Highlion"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [17]
+    0 TableEntryData data
+     0 SInt64 m_Id = 118825619123109888
+     1 string m_Localized = "Recebi um pedido especial da Highlion e preciso de ajuda urgentemente."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [18]
+    0 TableEntryData data
+     0 SInt64 m_Id = 149962266593325056
+     1 string m_Localized = "Melhor lanche para beber"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [19]
+    0 TableEntryData data
+     0 SInt64 m_Id = 149962268774363136
+     1 string m_Localized = "Todos já foram ao templo recém-restaurado? Alguém quer ir comigo?\nem troca, contarei algumas histórias interessantes."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [20]
+    0 TableEntryData data
+     0 SInt64 m_Id = 150645434916925440
+     1 string m_Localized = "Cartas da Fortuna"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [21]
+    0 TableEntryData data
+     0 SInt64 m_Id = 150645500457119744
+     1 string m_Localized = "A biblioteca recebeu várias cartas de destinatários desconhecidos.\nFicaremos muitos gratos se alguém vir à biblioteca para nos ajudar."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [22]
+    0 TableEntryData data
+     0 SInt64 m_Id = 152137923729420288
+     1 string m_Localized = "Rosa sem espinhos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [23]
+    0 TableEntryData data
+     0 SInt64 m_Id = 152137925964984320
+     1 string m_Localized = "Alguém sabe nadar e tem boa visão?\nUma amiga minha está se afogando. Por favor, salve-a para mim. Eu te pagarei bem."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [24]
+    0 TableEntryData data
+     0 SInt64 m_Id = 127882780436365312
+     1 string m_Localized = "Examine Maldições em Livros"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [25]
+    0 TableEntryData data
+     0 SInt64 m_Id = 127882810673102848
+     1 string m_Localized = "Contratar alguém familiarizado com maldições ou magia para examinar alguns livros."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [26]
+    0 TableEntryData data
+     0 SInt64 m_Id = 209014681880002560
+     1 string m_Localized = "Coloque uma almofada para gatos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [27]
+    0 TableEntryData data
+     0 SInt64 m_Id = 209014686837669888
+     1 string m_Localized = "Coloque um brinquedo pendurado para gatos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [28]
+    0 TableEntryData data
+     0 SInt64 m_Id = 209014759298465792
+     1 string m_Localized = "Coloque uma roda de exercícios para gatos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [29]
+    0 TableEntryData data
+     0 SInt64 m_Id = 209016398864482304
+     1 string m_Localized = "Quero fazer uma almofada para gatos. Alguém pode me ajudar?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [30]
+    0 TableEntryData data
+     0 SInt64 m_Id = 209016399485239296
+     1 string m_Localized = "Quero fazer um brinquedo pendurado para gatos. Alguém pode me ajudar?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [31]
+    0 TableEntryData data
+     0 SInt64 m_Id = 209016401603362816
+     1 string m_Localized = "Quero fazer uma roda de exercícios para gatos. Alguém pode me ajudar?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [32]
+    0 TableEntryData data
+     0 SInt64 m_Id = 190950884128190464
+     1 string m_Localized = "Construa uma pequena ponte"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [33]
+    0 TableEntryData data
+     0 SInt64 m_Id = 190950886825127936
+     1 string m_Localized = "Estou pensando em construir uma pequena ponte na parte norte da vila. Se alguém tiver algum tempo livre, agradeceria muito a ajuda."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [34]
+    0 TableEntryData data
+     0 SInt64 m_Id = 307936839886680064
+     1 string m_Localized = "Tarefa de coleta de itens"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [35]
+    0 TableEntryData data
+     0 SInt64 m_Id = 307936839899262976
+     1 string m_Localized = "Tem algo que eu preciso. Eles são bem comuns.\n"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [36]
+    0 TableEntryData data
+     0 SInt64 m_Id = 302527394354069504
+     1 string m_Localized = "A missão de Alvin"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [37]
+    0 TableEntryData data
+     0 SInt64 m_Id = 302527395104849920
+     1 string m_Localized = "Preciso de ajuda para reunir certos itens."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [38]
+    0 TableEntryData data
+     0 SInt64 m_Id = 302527396417667072
+     1 string m_Localized = "Missão da Enite"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [39]
+    0 TableEntryData data
+     0 SInt64 m_Id = 302527402465853440
+     1 string m_Localized = "Preciso da ajuda de alguém que entenda de pesca."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [40]
+    0 TableEntryData data
+     0 SInt64 m_Id = 302527405632552960
+     1 string m_Localized = "A missão de Clala"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [41]
+    0 TableEntryData data
+     0 SInt64 m_Id = 302527409763942400
+     1 string m_Localized = "Preciso que alguém me ajude a conseguir certos itens."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [42]
+    0 TableEntryData data
+     0 SInt64 m_Id = 302527412364410880
+     1 string m_Localized = "Missão de Vinch"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [43]
+    0 TableEntryData data
+     0 SInt64 m_Id = 302527782511738880
+     1 string m_Localized = "Preciso muito de algumas coisas. Por favor, me ajude."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [44]
+    0 TableEntryData data
+     0 SInt64 m_Id = 294203001207029760
+     1 string m_Localized = "A missão de Kyla"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [45]
+    0 TableEntryData data
+     0 SInt64 m_Id = 294203001811009536
+     1 string m_Localized = "Dê-me algumas coisas simples."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+ 0 ManagedReferencesRegistry references
+  0 int version = 2
+  0 vector RefIds
+   1 Array Array
+    0 int size = 0

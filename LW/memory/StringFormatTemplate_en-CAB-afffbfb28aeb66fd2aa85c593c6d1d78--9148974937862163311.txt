@@ -1,0 +1,308 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = -2766267126516050984
+ 1 string m_Name = "StringFormatTemplate_en"
+ 0 LocaleIdentifier m_LocaleId
+  1 string m_Code = "en"
+ 0 PPtr<$SharedTableData> m_SharedData
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 3108508777779573966
+ 0 MetadataCollection m_Metadata
+  0 IMetadata m_Items
+   0 Array Array (1 items)
+    0 int size = 1
+    [0]
+     0 managedRefArrayItem data
+      0 SInt64 rid = 8993872219424423939
+ 0 TableEntryData m_TableData
+  0 Array Array (19 items)
+   0 int size = 19
+   [0]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9259593728
+     1 string m_Localized = "{theme} {category}{reform}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [1]
+    0 TableEntryData data
+     0 SInt64 m_Id = 47306125312
+     1 string m_Localized = "{theme} {propID_1:fromTable(InteriorPropBasicName)}{reform}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [2]
+    0 TableEntryData data
+     0 SInt64 m_Id = 13915428368384
+     1 string m_Localized = "{theme} {propID_2:fromTable(InteriorPropBasicName)}{reform}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [3]
+    0 TableEntryData data
+     0 SInt64 m_Id = 332922819850240
+     1 string m_Localized = "{theme} {propID_2:fromTable(InteriorPropBasicName)} {category}{reform}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [4]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1029959257305088
+     1 string m_Localized = "{theme} {category} {propID_2:fromTable(InteriorPropBasicName)}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [5]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1382720809349120
+     1 string m_Localized = "{fishName:fromTable(Item, , _Name)} {category}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [6]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1386704643174400
+     1 string m_Localized = "{propID_2:fromTable(InteriorPropBasicName)}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [7]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1386974731186176
+     1 string m_Localized = "{propID_1:fromTable(Encyclopedia, , _Name)} {category}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [8]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1388453026213888
+     1 string m_Localized = "{propID_1:fromTable(Item, , _Name)} {category}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [9]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1410564126027776
+     1 string m_Localized = "{propID_1:fromTable(Item, , _Name)} {category}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [10]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1415441426296832
+     1 string m_Localized = "{propID_1:fromTable(Encyclopedia, , _Name)} {category}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [11]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1420181904175104
+     1 string m_Localized = "{propID_2:fromTable(InteriorPropBasicName)} {category} {propID_3:fromTable(InteriorPropBasicName)}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [12]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1433174629036032
+     1 string m_Localized = "{propID_2:fromTable(InteriorPropBasicName)} {category} {propID_3:fromTable(InteriorPropBasicName)}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [13]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1487011586912256
+     1 string m_Localized = "{type} {theme}{reform}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [14]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1810255154130944
+     1 string m_Localized = "{theme} {propID_2:fromTable(InteriorPropBasicName)}{reform}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [15]
+    0 TableEntryData data
+     0 SInt64 m_Id = 21783829119655936
+     1 string m_Localized = "[{outputItem}] Receita de Craft"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [16]
+    0 TableEntryData data
+     0 SInt64 m_Id = 34347434648416256
+     1 string m_Localized = "{Common.Ritoring}'s Cesta de Móveis [{aliasedPoolName}]"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [17]
+    0 TableEntryData data
+     0 SInt64 m_Id = 34347681516761088
+     1 string m_Localized = "Você pode usá-lo para verificar o conteúdo da cesta.\n\nEssa cesta concede uma receita de móveis aleatório [{aliasedPoolName}]."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [18]
+    0 TableEntryData data
+     0 SInt64 m_Id = 102449923126452224
+     1 string m_Localized = "{propID_2:fromTable(InteriorPropBasicName)}{reform}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+ 0 ManagedReferencesRegistry references
+  0 int version = 2
+  0 vector RefIds
+   1 Array Array
+    0 int size = 1
+    0 ReferencedObject data
+     0 SInt64 rid = 8993872219424423939
+     0 ReferencedManagedType type
+      1 string class = "SmartFormatTag"
+      1 string ns = "UnityEngine.Localization.Metadata"
+      1 string asm = "Unity.Localization"
+     0 ReferencedObjectData data
+      0 vector m_Entries
+       1 Array Array (0 items)
+        0 int size = 0
+      0 Entry m_SharedEntries
+       0 Array Array (19 items)
+        0 int size = 19
+        [0]
+         0 Entry data
+          0 SInt64 id = 9259593728
+        [1]
+         0 Entry data
+          0 SInt64 id = 47306125312
+        [2]
+         0 Entry data
+          0 SInt64 id = 13915428368384
+        [3]
+         0 Entry data
+          0 SInt64 id = 332922819850240
+        [4]
+         0 Entry data
+          0 SInt64 id = 1029959257305088
+        [5]
+         0 Entry data
+          0 SInt64 id = 1382720809349120
+        [6]
+         0 Entry data
+          0 SInt64 id = 1386704643174400
+        [7]
+         0 Entry data
+          0 SInt64 id = 1386974731186176
+        [8]
+         0 Entry data
+          0 SInt64 id = 1388453026213888
+        [9]
+         0 Entry data
+          0 SInt64 id = 1410564126027776
+        [10]
+         0 Entry data
+          0 SInt64 id = 1415441426296832
+        [11]
+         0 Entry data
+          0 SInt64 id = 1420181904175104
+        [12]
+         0 Entry data
+          0 SInt64 id = 1433174629036032
+        [13]
+         0 Entry data
+          0 SInt64 id = 1487011586912256
+        [14]
+         0 Entry data
+          0 SInt64 id = 1810255154130944
+        [15]
+         0 Entry data
+          0 SInt64 id = 21783829119655936
+        [16]
+         0 Entry data
+          0 SInt64 id = 34347434648416256
+        [17]
+         0 Entry data
+          0 SInt64 id = 34347681516761088
+        [18]
+         0 Entry data
+          0 SInt64 id = 102449923126452224

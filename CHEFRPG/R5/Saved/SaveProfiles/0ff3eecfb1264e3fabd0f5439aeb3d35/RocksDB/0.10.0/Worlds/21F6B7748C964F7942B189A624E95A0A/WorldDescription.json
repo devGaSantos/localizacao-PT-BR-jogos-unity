@@ -1,0 +1,35 @@
+{
+	"Version": 1,
+	"WorldDescription":
+	{
+		"islandId": "21F6B7748C964F7942B189A624E95A0A",
+		"WorldName": "Nosso mundo",
+		"CreationTime": 6.3912240118326003e+17,
+		"WorldPresetType": "Custom",
+		"WorldSettings":
+		{
+			"BoolParameters":
+			{
+				"{\"TagName\": \"WDS.Parameter.Coop.SharedQuests\"}": true,
+				"{\"TagName\": \"WDS.Parameter.EasyExplore\"}": false
+			},
+			"FloatParameters":
+			{
+				"{\"TagName\": \"WDS.Parameter.MobHealthMultiplier\"}": 0.5,
+				"{\"TagName\": \"WDS.Parameter.MobDamageMultiplier\"}": 0.5,
+				"{\"TagName\": \"WDS.Parameter.ShipsHealthMultiplier\"}": 0.59999999999999998,
+				"{\"TagName\": \"WDS.Parameter.ShipsDamageMultiplier\"}": 0.5,
+				"{\"TagName\": \"WDS.Parameter.BoardingDifficultyMultiplier\"}": 0.25,
+				"{\"TagName\": \"WDS.Parameter.Coop.StatsCorrectionModifier\"}": 0.5,
+				"{\"TagName\": \"WDS.Parameter.Coop.ShipStatsCorrectionModifier\"}": 0
+			},
+			"TagParameters":
+			{
+				"{\"TagName\": \"WDS.Parameter.CombatDifficulty\"}":
+				{
+					"TagName": "WDS.Parameter.CombatDifficulty.Easy"
+				}
+			}
+		}
+	}
+}

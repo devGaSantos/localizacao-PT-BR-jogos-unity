@@ -1,0 +1,730 @@
+2026/04/19-21:17:38.208721 5bac RocksDB version: 10.4.2
+2026/04/19-21:17:38.208797 5bac Git sha 4c2fb586769908ae0b45861d0a315cbb814b319c
+2026/04/19-21:17:38.208819 5bac Compile date 2026-04-17 18:55:41
+2026/04/19-21:17:38.208829 5bac DB SUMMARY
+2026/04/19-21:17:38.208837 5bac Host name (Env):  DESKTOP-S352KBJ
+2026/04/19-21:17:38.208846 5bac DB Session ID:  MQNOOWLP68EE22G6ZNQB
+2026/04/19-21:17:38.208854 5bac CURRENT file:  CURRENT
+2026/04/19-21:17:38.208862 5bac IDENTITY file:  IDENTITY
+2026/04/19-21:17:38.208871 5bac MANIFEST file:  MANIFEST-000021 size: 477 Bytes
+2026/04/19-21:17:38.208880 5bac SST files in C:/Users/AZTEKA/AppData/Local/R5/Saved/SaveProfiles/76561199202663240/RocksDB/0.10.0/Accounts/A979BAEC48CED78B51B79AAF722FCE6D dir, Total Num: 1, files: 000013.sst 
+2026/04/19-21:17:38.209040 5bac Write Ahead Log file in C:/Users/AZTEKA/AppData/Local/R5/Saved/SaveProfiles/76561199202663240/RocksDB/0.10.0/Accounts/A979BAEC48CED78B51B79AAF722FCE6D: 000020.log size: 0 ; 
+2026/04/19-21:17:38.209048 5bac                         Options.error_if_exists: 0
+2026/04/19-21:17:38.209051 5bac                       Options.create_if_missing: 1
+2026/04/19-21:17:38.209054 5bac                         Options.paranoid_checks: 1
+2026/04/19-21:17:38.209057 5bac             Options.flush_verify_memtable_count: 1
+2026/04/19-21:17:38.209060 5bac          Options.compaction_verify_record_count: 1
+2026/04/19-21:17:38.209064 5bac                               Options.track_and_verify_wals_in_manifest: 0
+2026/04/19-21:17:38.209067 5bac                               Options.track_and_verify_wals: 0
+2026/04/19-21:17:38.209070 5bac        Options.verify_sst_unique_id_in_manifest: 1
+2026/04/19-21:17:38.209073 5bac                                     Options.env: 00000225C9317700
+2026/04/19-21:17:38.209076 5bac                                      Options.fs: WinFS
+2026/04/19-21:17:38.209080 5bac                                Options.info_log: 00000225FBAC52F0
+2026/04/19-21:17:38.209083 5bac                Options.max_file_opening_threads: 16
+2026/04/19-21:17:38.209086 5bac                              Options.statistics: 0000000000000000
+2026/04/19-21:17:38.209090 5bac                               Options.use_fsync: 0
+2026/04/19-21:17:38.209093 5bac                       Options.max_log_file_size: 1024
+2026/04/19-21:17:38.209097 5bac                  Options.max_manifest_file_size: 1073741824
+2026/04/19-21:17:38.209101 5bac                   Options.log_file_time_to_roll: 0
+2026/04/19-21:17:38.209105 5bac                       Options.keep_log_file_num: 3
+2026/04/19-21:17:38.209108 5bac                    Options.recycle_log_file_num: 0
+2026/04/19-21:17:38.209111 5bac                         Options.allow_fallocate: 1
+2026/04/19-21:17:38.209115 5bac                        Options.allow_mmap_reads: 0
+2026/04/19-21:17:38.209118 5bac                       Options.allow_mmap_writes: 0
+2026/04/19-21:17:38.209122 5bac                        Options.use_direct_reads: 0
+2026/04/19-21:17:38.209126 5bac                        Options.use_direct_io_for_flush_and_compaction: 0
+2026/04/19-21:17:38.209129 5bac          Options.create_missing_column_families: 1
+2026/04/19-21:17:38.209132 5bac                              Options.db_log_dir: 
+2026/04/19-21:17:38.209135 5bac                                 Options.wal_dir: 
+2026/04/19-21:17:38.209139 5bac                Options.table_cache_numshardbits: 6
+2026/04/19-21:17:38.209142 5bac                         Options.WAL_ttl_seconds: 0
+2026/04/19-21:17:38.209146 5bac                       Options.WAL_size_limit_MB: 0
+2026/04/19-21:17:38.209149 5bac                        Options.max_write_batch_group_size_bytes: 1048576
+2026/04/19-21:17:38.209152 5bac             Options.manifest_preallocation_size: 4194304
+2026/04/19-21:17:38.209155 5bac                     Options.is_fd_close_on_exec: 1
+2026/04/19-21:17:38.209159 5bac                   Options.advise_random_on_open: 1
+2026/04/19-21:17:38.209162 5bac                    Options.db_write_buffer_size: 0
+2026/04/19-21:17:38.209165 5bac                    Options.write_buffer_manager: 0000022593394800
+2026/04/19-21:17:38.209199 5bac                      Options.use_adaptive_mutex: 0
+2026/04/19-21:17:38.209203 5bac                            Options.rate_limiter: 0000000000000000
+2026/04/19-21:17:38.209207 5bac     Options.sst_file_manager.rate_bytes_per_sec: 0
+2026/04/19-21:17:38.209210 5bac                       Options.wal_recovery_mode: 2
+2026/04/19-21:17:38.209213 5bac                  Options.enable_thread_tracking: 0
+2026/04/19-21:17:38.209216 5bac                  Options.enable_pipelined_write: 0
+2026/04/19-21:17:38.209219 5bac                  Options.unordered_write: 0
+2026/04/19-21:17:38.209222 5bac         Options.allow_concurrent_memtable_write: 1
+2026/04/19-21:17:38.209226 5bac      Options.enable_write_thread_adaptive_yield: 1
+2026/04/19-21:17:38.209229 5bac             Options.write_thread_max_yield_usec: 100
+2026/04/19-21:17:38.209232 5bac            Options.write_thread_slow_yield_usec: 3
+2026/04/19-21:17:38.209235 5bac                               Options.row_cache: None
+2026/04/19-21:17:38.209238 5bac                              Options.wal_filter: None
+2026/04/19-21:17:38.209241 5bac             Options.avoid_flush_during_recovery: 0
+2026/04/19-21:17:38.209245 5bac             Options.allow_ingest_behind: 0
+2026/04/19-21:17:38.209247 5bac             Options.two_write_queues: 0
+2026/04/19-21:17:38.209250 5bac             Options.manual_wal_flush: 0
+2026/04/19-21:17:38.209253 5bac             Options.wal_compression: 0
+2026/04/19-21:17:38.209256 5bac             Options.background_close_inactive_wals: 0
+2026/04/19-21:17:38.209259 5bac             Options.atomic_flush: 0
+2026/04/19-21:17:38.209261 5bac             Options.avoid_unnecessary_blocking_io: 0
+2026/04/19-21:17:38.209265 5bac             Options.prefix_seek_opt_in_only: 0
+2026/04/19-21:17:38.209268 5bac                 Options.persist_stats_to_disk: 0
+2026/04/19-21:17:38.209271 5bac                 Options.write_dbid_to_manifest: 1
+2026/04/19-21:17:38.209274 5bac                 Options.write_identity_file: 1
+2026/04/19-21:17:38.209277 5bac                 Options.log_readahead_size: 0
+2026/04/19-21:17:38.209280 5bac                 Options.file_checksum_gen_factory: Unknown
+2026/04/19-21:17:38.209284 5bac                 Options.best_efforts_recovery: 0
+2026/04/19-21:17:38.209287 5bac                Options.max_bgerror_resume_count: 2147483647
+2026/04/19-21:17:38.209291 5bac            Options.bgerror_resume_retry_interval: 1000000
+2026/04/19-21:17:38.209295 5bac             Options.allow_data_in_errors: 0
+2026/04/19-21:17:38.209298 5bac             Options.db_host_id: __hostname__
+2026/04/19-21:17:38.209301 5bac             Options.enforce_single_del_contracts: true
+2026/04/19-21:17:38.209305 5bac             Options.metadata_write_temperature: kUnknown
+2026/04/19-21:17:38.209308 5bac             Options.wal_write_temperature: kUnknown
+2026/04/19-21:17:38.209311 5bac             Options.max_background_jobs: 2
+2026/04/19-21:17:38.209314 5bac             Options.max_background_compactions: -1
+2026/04/19-21:17:38.209318 5bac             Options.max_subcompactions: 1
+2026/04/19-21:17:38.209321 5bac             Options.avoid_flush_during_shutdown: 0
+2026/04/19-21:17:38.209324 5bac           Options.writable_file_max_buffer_size: 1048576
+2026/04/19-21:17:38.209328 5bac             Options.delayed_write_rate : 16777216
+2026/04/19-21:17:38.209332 5bac             Options.max_total_wal_size: 1048576
+2026/04/19-21:17:38.209336 5bac             Options.delete_obsolete_files_period_micros: 21600000000
+2026/04/19-21:17:38.209339 5bac                   Options.stats_dump_period_sec: 600
+2026/04/19-21:17:38.209343 5bac                 Options.stats_persist_period_sec: 600
+2026/04/19-21:17:38.209346 5bac                 Options.stats_history_buffer_size: 1048576
+2026/04/19-21:17:38.209349 5bac                          Options.max_open_files: -1
+2026/04/19-21:17:38.209352 5bac                          Options.bytes_per_sync: 0
+2026/04/19-21:17:38.209356 5bac                      Options.wal_bytes_per_sync: 0
+2026/04/19-21:17:38.209359 5bac                   Options.strict_bytes_per_sync: 0
+2026/04/19-21:17:38.209385 5bac       Options.compaction_readahead_size: 2097152
+2026/04/19-21:17:38.209389 5bac                  Options.max_background_flushes: -1
+2026/04/19-21:17:38.209392 5bac Options.daily_offpeak_time_utc: 
+2026/04/19-21:17:38.209396 5bac Compression algorithms supported:
+2026/04/19-21:17:38.209399 5bac 	kZSTD supported: 0
+2026/04/19-21:17:38.209402 5bac 	kCustomCompressionA3 supported: 0
+2026/04/19-21:17:38.209405 5bac 	kSnappyCompression supported: 0
+2026/04/19-21:17:38.209408 5bac 	kCustomCompressionA5 supported: 0
+2026/04/19-21:17:38.209411 5bac 	kBZip2Compression supported: 0
+2026/04/19-21:17:38.209414 5bac 	kZlibCompression supported: 0
+2026/04/19-21:17:38.209417 5bac 	kLZ4Compression supported: 0
+2026/04/19-21:17:38.209420 5bac 	kXpressCompression supported: 0
+2026/04/19-21:17:38.209424 5bac 	kCustomCompressionA7 supported: 0
+2026/04/19-21:17:38.209427 5bac 	kLZ4HCCompression supported: 0
+2026/04/19-21:17:38.209430 5bac 	kCustomCompressionB2 supported: 0
+2026/04/19-21:17:38.209433 5bac 	kCustomCompression9C supported: 0
+2026/04/19-21:17:38.209436 5bac 	kCustomCompression80 supported: 0
+2026/04/19-21:17:38.209439 5bac 	kCustomCompressionB3 supported: 0
+2026/04/19-21:17:38.209442 5bac 	kCustomCompression9B supported: 0
+2026/04/19-21:17:38.209445 5bac 	kCustomCompression81 supported: 0
+2026/04/19-21:17:38.209448 5bac 	kCustomCompressionB0 supported: 0
+2026/04/19-21:17:38.209451 5bac 	kCustomCompression9A supported: 0
+2026/04/19-21:17:38.209454 5bac 	kCustomCompression82 supported: 0
+2026/04/19-21:17:38.209457 5bac 	kCustomCompressionB1 supported: 0
+2026/04/19-21:17:38.209461 5bac 	kCustomCompression83 supported: 0
+2026/04/19-21:17:38.209464 5bac 	kCustomCompressionB6 supported: 0
+2026/04/19-21:17:38.209467 5bac 	kCustomCompression84 supported: 0
+2026/04/19-21:17:38.209470 5bac 	kCustomCompressionB7 supported: 0
+2026/04/19-21:17:38.209474 5bac 	kCustomCompression9F supported: 0
+2026/04/19-21:17:38.209477 5bac 	kCustomCompression85 supported: 0
+2026/04/19-21:17:38.209480 5bac 	kCustomCompressionB4 supported: 0
+2026/04/19-21:17:38.209483 5bac 	kCustomCompression9E supported: 0
+2026/04/19-21:17:38.209486 5bac 	kCustomCompression86 supported: 0
+2026/04/19-21:17:38.209489 5bac 	kCustomCompressionB5 supported: 0
+2026/04/19-21:17:38.209492 5bac 	kCustomCompression9D supported: 0
+2026/04/19-21:17:38.209495 5bac 	kCustomCompression87 supported: 0
+2026/04/19-21:17:38.209498 5bac 	kCustomCompression88 supported: 0
+2026/04/19-21:17:38.209501 5bac 	kCustomCompression89 supported: 0
+2026/04/19-21:17:38.209504 5bac 	kCustomCompression92 supported: 0
+2026/04/19-21:17:38.209507 5bac 	kCustomCompression8A supported: 0
+2026/04/19-21:17:38.209510 5bac 	kCustomCompression91 supported: 0
+2026/04/19-21:17:38.209513 5bac 	kCustomCompression8B supported: 0
+2026/04/19-21:17:38.209516 5bac 	kCustomCompression90 supported: 0
+2026/04/19-21:17:38.209519 5bac 	kCustomCompression8C supported: 0
+2026/04/19-21:17:38.209522 5bac 	kCustomCompression97 supported: 0
+2026/04/19-21:17:38.209525 5bac 	kCustomCompression8D supported: 0
+2026/04/19-21:17:38.209528 5bac 	kCustomCompression96 supported: 0
+2026/04/19-21:17:38.209530 5bac 	kCustomCompression8E supported: 0
+2026/04/19-21:17:38.209533 5bac 	kCustomCompression95 supported: 0
+2026/04/19-21:17:38.209536 5bac 	kCustomCompression8F supported: 0
+2026/04/19-21:17:38.209539 5bac 	kCustomCompression93 supported: 0
+2026/04/19-21:17:38.209542 5bac 	kCustomCompression94 supported: 0
+2026/04/19-21:17:38.209545 5bac 	kCustomCompression98 supported: 0
+2026/04/19-21:17:38.209548 5bac 	kCustomCompression99 supported: 0
+2026/04/19-21:17:38.209551 5bac 	kCustomCompressionA0 supported: 0
+2026/04/19-21:17:38.209554 5bac 	kCustomCompressionA1 supported: 0
+2026/04/19-21:17:38.209557 5bac 	kCustomCompressionA2 supported: 0
+2026/04/19-21:17:38.209560 5bac 	kCustomCompressionA4 supported: 0
+2026/04/19-21:17:38.209563 5bac 	kCustomCompressionA6 supported: 0
+2026/04/19-21:17:38.209566 5bac 	kCustomCompressionA8 supported: 0
+2026/04/19-21:17:38.209569 5bac 	kCustomCompressionA9 supported: 0
+2026/04/19-21:17:38.209574 5bac 	kCustomCompressionAA supported: 0
+2026/04/19-21:17:38.209577 5bac 	kCustomCompressionAB supported: 0
+2026/04/19-21:17:38.209581 5bac 	kCustomCompressionAC supported: 0
+2026/04/19-21:17:38.209584 5bac 	kCustomCompressionAD supported: 0
+2026/04/19-21:17:38.209587 5bac 	kCustomCompressionAE supported: 0
+2026/04/19-21:17:38.209590 5bac 	kCustomCompressionAF supported: 0
+2026/04/19-21:17:38.209592 5bac 	kCustomCompressionB8 supported: 0
+2026/04/19-21:17:38.209595 5bac 	kCustomCompressionB9 supported: 0
+2026/04/19-21:17:38.209598 5bac 	kCustomCompressionBA supported: 0
+2026/04/19-21:17:38.209601 5bac 	kCustomCompressionBB supported: 0
+2026/04/19-21:17:38.209605 5bac 	kCustomCompressionBC supported: 0
+2026/04/19-21:17:38.209608 5bac 	kCustomCompressionBD supported: 0
+2026/04/19-21:17:38.209612 5bac 	kCustomCompressionBE supported: 0
+2026/04/19-21:17:38.209615 5bac 	kCustomCompressionBF supported: 0
+2026/04/19-21:17:38.209618 5bac 	kCustomCompressionC0 supported: 0
+2026/04/19-21:17:38.209622 5bac 	kCustomCompressionC1 supported: 0
+2026/04/19-21:17:38.209626 5bac 	kCustomCompressionC2 supported: 0
+2026/04/19-21:17:38.209628 5bac 	kCustomCompressionC3 supported: 0
+2026/04/19-21:17:38.209631 5bac 	kCustomCompressionC4 supported: 0
+2026/04/19-21:17:38.209634 5bac 	kCustomCompressionC5 supported: 0
+2026/04/19-21:17:38.209637 5bac 	kCustomCompressionC6 supported: 0
+2026/04/19-21:17:38.209641 5bac 	kCustomCompressionC7 supported: 0
+2026/04/19-21:17:38.209644 5bac 	kCustomCompressionC8 supported: 0
+2026/04/19-21:17:38.209647 5bac 	kCustomCompressionC9 supported: 0
+2026/04/19-21:17:38.209652 5bac 	kCustomCompressionCA supported: 0
+2026/04/19-21:17:38.209655 5bac 	kCustomCompressionCB supported: 0
+2026/04/19-21:17:38.209658 5bac 	kCustomCompressionCC supported: 0
+2026/04/19-21:17:38.209661 5bac 	kCustomCompressionCD supported: 0
+2026/04/19-21:17:38.209664 5bac 	kCustomCompressionCE supported: 0
+2026/04/19-21:17:38.209667 5bac 	kCustomCompressionCF supported: 0
+2026/04/19-21:17:38.209670 5bac 	kCustomCompressionD0 supported: 0
+2026/04/19-21:17:38.209673 5bac 	kCustomCompressionD1 supported: 0
+2026/04/19-21:17:38.209676 5bac 	kCustomCompressionD2 supported: 0
+2026/04/19-21:17:38.209680 5bac 	kCustomCompressionD3 supported: 0
+2026/04/19-21:17:38.209683 5bac 	kCustomCompressionD4 supported: 0
+2026/04/19-21:17:38.209685 5bac 	kCustomCompressionD5 supported: 0
+2026/04/19-21:17:38.209689 5bac 	kCustomCompressionD6 supported: 0
+2026/04/19-21:17:38.209692 5bac 	kCustomCompressionD7 supported: 0
+2026/04/19-21:17:38.209695 5bac 	kCustomCompressionD8 supported: 0
+2026/04/19-21:17:38.209698 5bac 	kCustomCompressionD9 supported: 0
+2026/04/19-21:17:38.209701 5bac 	kCustomCompressionDA supported: 0
+2026/04/19-21:17:38.209704 5bac 	kCustomCompressionDB supported: 0
+2026/04/19-21:17:38.209707 5bac 	kCustomCompressionDC supported: 0
+2026/04/19-21:17:38.209710 5bac 	kCustomCompressionDD supported: 0
+2026/04/19-21:17:38.209713 5bac 	kCustomCompressionDE supported: 0
+2026/04/19-21:17:38.209715 5bac 	kCustomCompressionDF supported: 0
+2026/04/19-21:17:38.209718 5bac 	kCustomCompressionE0 supported: 0
+2026/04/19-21:17:38.209721 5bac 	kCustomCompressionE1 supported: 0
+2026/04/19-21:17:38.209724 5bac 	kCustomCompressionE2 supported: 0
+2026/04/19-21:17:38.209727 5bac 	kCustomCompressionE3 supported: 0
+2026/04/19-21:17:38.209730 5bac 	kCustomCompressionE4 supported: 0
+2026/04/19-21:17:38.209733 5bac 	kCustomCompressionE5 supported: 0
+2026/04/19-21:17:38.209736 5bac 	kCustomCompressionE6 supported: 0
+2026/04/19-21:17:38.209739 5bac 	kCustomCompressionE7 supported: 0
+2026/04/19-21:17:38.209742 5bac 	kCustomCompressionE8 supported: 0
+2026/04/19-21:17:38.209745 5bac 	kCustomCompressionE9 supported: 0
+2026/04/19-21:17:38.209748 5bac 	kCustomCompressionEA supported: 0
+2026/04/19-21:17:38.209751 5bac 	kCustomCompressionEB supported: 0
+2026/04/19-21:17:38.209754 5bac 	kCustomCompressionEC supported: 0
+2026/04/19-21:17:38.209757 5bac 	kCustomCompressionED supported: 0
+2026/04/19-21:17:38.209759 5bac 	kCustomCompressionEE supported: 0
+2026/04/19-21:17:38.209789 5bac 	kCustomCompressionEF supported: 0
+2026/04/19-21:17:38.209794 5bac 	kCustomCompressionF0 supported: 0
+2026/04/19-21:17:38.209797 5bac 	kCustomCompressionF1 supported: 0
+2026/04/19-21:17:38.209799 5bac 	kCustomCompressionF2 supported: 0
+2026/04/19-21:17:38.209802 5bac 	kCustomCompressionF3 supported: 0
+2026/04/19-21:17:38.209806 5bac 	kCustomCompressionF4 supported: 0
+2026/04/19-21:17:38.209809 5bac 	kCustomCompressionF5 supported: 0
+2026/04/19-21:17:38.209812 5bac 	kCustomCompressionF6 supported: 0
+2026/04/19-21:17:38.209815 5bac 	kCustomCompressionF7 supported: 0
+2026/04/19-21:17:38.209818 5bac 	kCustomCompressionF8 supported: 0
+2026/04/19-21:17:38.209821 5bac 	kCustomCompressionF9 supported: 0
+2026/04/19-21:17:38.209824 5bac 	kCustomCompressionFA supported: 0
+2026/04/19-21:17:38.209827 5bac 	kCustomCompressionFB supported: 0
+2026/04/19-21:17:38.209830 5bac 	kCustomCompressionFC supported: 0
+2026/04/19-21:17:38.209833 5bac 	kCustomCompressionFD supported: 0
+2026/04/19-21:17:38.209836 5bac 	kCustomCompressionFE supported: 0
+2026/04/19-21:17:38.209839 5bac Fast CRC32 supported: Supported on x86
+2026/04/19-21:17:38.209842 5bac DMutex implementation: std::mutex
+2026/04/19-21:17:38.209845 5bac Jemalloc supported: 0
+2026/04/19-21:17:38.209848 5bac               Options.comparator: leveldb.BytewiseComparator
+2026/04/19-21:17:38.209851 5bac           Options.merge_operator: None
+2026/04/19-21:17:38.209854 5bac        Options.compaction_filter: None
+2026/04/19-21:17:38.209856 5bac        Options.compaction_filter_factory: None
+2026/04/19-21:17:38.209859 5bac  Options.sst_partitioner_factory: None
+2026/04/19-21:17:38.209862 5bac         Options.memtable_factory: SkipListFactory
+2026/04/19-21:17:38.209865 5bac            Options.table_factory: BlockBasedTable
+2026/04/19-21:17:38.209870 5bac            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (00000224FDD89CC0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  checksum: 4
+  no_block_cache: 0
+  block_cache: 0000022593394510
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 33554432
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.500
+    low_pri_pool_ratio: 0.000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 6
+  e
+2026/04/19-21:17:38.209874 5bac        Options.write_buffer_size: 67108864
+2026/04/19-21:17:38.209877 5bac  Options.max_write_buffer_number: 2
+2026/04/19-21:17:38.209880 5bac          Options.compression: NoCompression
+2026/04/19-21:17:38.209884 5bac                  Options.bottommost_compression: Disabled
+2026/04/19-21:17:38.209886 5bac       Options.prefix_extractor: nullptr
+2026/04/19-21:17:38.209890 5bac   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2026/04/19-21:17:38.209893 5bac             Options.num_levels: 7
+2026/04/19-21:17:38.209896 5bac        Options.min_write_buffer_number_to_merge: 1
+2026/04/19-21:17:38.209900 5bac     Options.max_write_buffer_size_to_maintain: 134217728
+2026/04/19-21:17:38.209904 5bac            Options.bottommost_compression_opts.window_bits: -14
+2026/04/19-21:17:38.209907 5bac                  Options.bottommost_compression_opts.level: 32767
+2026/04/19-21:17:38.209910 5bac               Options.bottommost_compression_opts.strategy: 0
+2026/04/19-21:17:38.209914 5bac         Options.bottommost_compression_opts.max_dict_bytes: 0
+2026/04/19-21:17:38.209917 5bac         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2026/04/19-21:17:38.209936 5bac         Options.bottommost_compression_opts.parallel_threads: 1
+2026/04/19-21:17:38.209941 5bac                  Options.bottommost_compression_opts.enabled: false
+2026/04/19-21:17:38.209944 5bac         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2026/04/19-21:17:38.209947 5bac         Options.bottommost_compression_opts.use_zstd_dict_trainer: true
+2026/04/19-21:17:38.209951 5bac            Options.compression_opts.window_bits: -14
+2026/04/19-21:17:38.209954 5bac                  Options.compression_opts.level: 32767
+2026/04/19-21:17:38.209957 5bac               Options.compression_opts.strategy: 0
+2026/04/19-21:17:38.209960 5bac         Options.compression_opts.max_dict_bytes: 0
+2026/04/19-21:17:38.209963 5bac         Options.compression_opts.zstd_max_train_bytes: 0
+2026/04/19-21:17:38.209966 5bac         Options.compression_opts.use_zstd_dict_trainer: true
+2026/04/19-21:17:38.209969 5bac         Options.compression_opts.parallel_threads: 1
+2026/04/19-21:17:38.209972 5bac                  Options.compression_opts.enabled: false
+2026/04/19-21:17:38.209975 5bac         Options.compression_opts.max_dict_buffer_bytes: 0
+2026/04/19-21:17:38.209979 5bac      Options.level0_file_num_compaction_trigger: 4
+2026/04/19-21:17:38.209982 5bac          Options.level0_slowdown_writes_trigger: 20
+2026/04/19-21:17:38.209985 5bac              Options.level0_stop_writes_trigger: 36
+2026/04/19-21:17:38.209989 5bac                   Options.target_file_size_base: 67108864
+2026/04/19-21:17:38.209992 5bac             Options.target_file_size_multiplier: 1
+2026/04/19-21:17:38.209995 5bac                Options.max_bytes_for_level_base: 268435456
+2026/04/19-21:17:38.209998 5bac Options.level_compaction_dynamic_level_bytes: 1
+2026/04/19-21:17:38.210001 5bac          Options.max_bytes_for_level_multiplier: 10.000000
+2026/04/19-21:17:38.210005 5bac Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2026/04/19-21:17:38.210008 5bac Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2026/04/19-21:17:38.210011 5bac Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2026/04/19-21:17:38.210014 5bac Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2026/04/19-21:17:38.210017 5bac Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2026/04/19-21:17:38.210021 5bac Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2026/04/19-21:17:38.210024 5bac Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2026/04/19-21:17:38.210027 5bac       Options.max_sequential_skip_in_iterations: 8
+2026/04/19-21:17:38.210030 5bac          Options.memtable_op_scan_flush_trigger: 0
+2026/04/19-21:17:38.210033 5bac      Options.memtable_avg_op_scan_flush_trigger: 0
+2026/04/19-21:17:38.210036 5bac                    Options.max_compaction_bytes: 1677721600
+2026/04/19-21:17:38.210039 5bac                        Options.arena_block_size: 1048576
+2026/04/19-21:17:38.210043 5bac   Options.soft_pending_compaction_bytes_limit: 68719476736
+2026/04/19-21:17:38.210046 5bac   Options.hard_pending_compaction_bytes_limit: 274877906944
+2026/04/19-21:17:38.210049 5bac                Options.disable_auto_compactions: 0
+2026/04/19-21:17:38.210053 5bac                        Options.compaction_style: kCompactionStyleLevel
+2026/04/19-21:17:38.210056 5bac                          Options.compaction_pri: kMinOverlappingRatio
+2026/04/19-21:17:38.210059 5bac Options.compaction_options_universal.size_ratio: 1
+2026/04/19-21:17:38.210063 5bac Options.compaction_options_universal.min_merge_width: 2
+2026/04/19-21:17:38.210066 5bac Options.compaction_options_universal.max_merge_width: 4294967295
+2026/04/19-21:17:38.210069 5bac Options.compaction_options_universal.max_size_amplification_percent: 200
+2026/04/19-21:17:38.210072 5bac Options.compaction_options_universal.compression_size_percent: -1
+2026/04/19-21:17:38.210075 5bac Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2026/04/19-21:17:38.210079 5bac Options.compaction_options_universal.max_read_amp: -1
+2026/04/19-21:17:38.210082 5bac Options.compaction_options_universal.reduce_file_locking: 0
+2026/04/19-21:17:38.210102 5bac Options.compaction_options_fifo.max_table_files_size: 1073741824
+2026/04/19-21:17:38.210106 5bac Options.compaction_options_fifo.allow_compaction: 0
+2026/04/19-21:17:38.210109 5bac                   Options.table_properties_collectors: 
+2026/04/19-21:17:38.210113 5bac                   Options.inplace_update_support: 0
+2026/04/19-21:17:38.210116 5bac                 Options.inplace_update_num_locks: 10000
+2026/04/19-21:17:38.210119 5bac               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2026/04/19-21:17:38.210122 5bac               Options.memtable_whole_key_filtering: 0
+2026/04/19-21:17:38.210125 5bac   Options.memtable_huge_page_size: 0
+2026/04/19-21:17:38.210129 5bac                           Options.bloom_locality: 0
+2026/04/19-21:17:38.210132 5bac                    Options.max_successive_merges: 0
+2026/04/19-21:17:38.210135 5bac             Options.strict_max_successive_merges: 0
+2026/04/19-21:17:38.210138 5bac                Options.optimize_filters_for_hits: 0
+2026/04/19-21:17:38.210141 5bac                Options.paranoid_file_checks: 0
+2026/04/19-21:17:38.210145 5bac                Options.force_consistency_checks: 1
+2026/04/19-21:17:38.210148 5bac                Options.report_bg_io_stats: 0
+2026/04/19-21:17:38.210151 5bac                Options.disallow_memtable_writes: 0
+2026/04/19-21:17:38.210154 5bac                               Options.ttl: 2592000
+2026/04/19-21:17:38.210157 5bac          Options.periodic_compaction_seconds: 0
+2026/04/19-21:17:38.210160 5bac                        Options.default_temperature: kUnknown
+2026/04/19-21:17:38.210164 5bac  Options.preclude_last_level_data_seconds: 0
+2026/04/19-21:17:38.210167 5bac    Options.preserve_internal_time_seconds: 0
+2026/04/19-21:17:38.210170 5bac                       Options.enable_blob_files: false
+2026/04/19-21:17:38.210173 5bac                           Options.min_blob_size: 0
+2026/04/19-21:17:38.210176 5bac                          Options.blob_file_size: 268435456
+2026/04/19-21:17:38.210180 5bac                   Options.blob_compression_type: NoCompression
+2026/04/19-21:17:38.210182 5bac          Options.enable_blob_garbage_collection: false
+2026/04/19-21:17:38.210185 5bac      Options.blob_garbage_collection_age_cutoff: 0.250000
+2026/04/19-21:17:38.210188 5bac Options.blob_garbage_collection_force_threshold: 1.000000
+2026/04/19-21:17:38.210191 5bac          Options.blob_compaction_readahead_size: 0
+2026/04/19-21:17:38.210194 5bac                Options.blob_file_starting_level: 0
+2026/04/19-21:17:38.210197 5bac         Options.experimental_mempurge_threshold: 0.000000
+2026/04/19-21:17:38.210200 5bac            Options.memtable_max_range_deletions: 0
+2026/04/19-21:17:38.210204 5bac               Options.comparator: leveldb.BytewiseComparator
+2026/04/19-21:17:38.210208 5bac           Options.merge_operator: None
+2026/04/19-21:17:38.210211 5bac        Options.compaction_filter: None
+2026/04/19-21:17:38.210213 5bac        Options.compaction_filter_factory: None
+2026/04/19-21:17:38.210217 5bac  Options.sst_partitioner_factory: None
+2026/04/19-21:17:38.210220 5bac         Options.memtable_factory: SkipListFactory
+2026/04/19-21:17:38.210223 5bac            Options.table_factory: BlockBasedTable
+2026/04/19-21:17:38.210227 5bac            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (00000224FDD898C0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  checksum: 4
+  no_block_cache: 0
+  block_cache: 0000022593394610
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 33554432
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.500
+    low_pri_pool_ratio: 0.000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 6
+  e
+2026/04/19-21:17:38.210352 5bac        Options.write_buffer_size: 67108864
+2026/04/19-21:17:38.210373 5bac  Options.max_write_buffer_number: 2
+2026/04/19-21:17:38.210378 5bac          Options.compression: NoCompression
+2026/04/19-21:17:38.210382 5bac                  Options.bottommost_compression: Disabled
+2026/04/19-21:17:38.210387 5bac       Options.prefix_extractor: nullptr
+2026/04/19-21:17:38.210394 5bac   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2026/04/19-21:17:38.210401 5bac             Options.num_levels: 7
+2026/04/19-21:17:38.210408 5bac        Options.min_write_buffer_number_to_merge: 1
+2026/04/19-21:17:38.210414 5bac     Options.max_write_buffer_size_to_maintain: 134217728
+2026/04/19-21:17:38.210422 5bac            Options.bottommost_compression_opts.window_bits: -14
+2026/04/19-21:17:38.210428 5bac                  Options.bottommost_compression_opts.level: 32767
+2026/04/19-21:17:38.210434 5bac               Options.bottommost_compression_opts.strategy: 0
+2026/04/19-21:17:38.210439 5bac         Options.bottommost_compression_opts.max_dict_bytes: 0
+2026/04/19-21:17:38.210444 5bac         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2026/04/19-21:17:38.210447 5bac         Options.bottommost_compression_opts.parallel_threads: 1
+2026/04/19-21:17:38.210451 5bac                  Options.bottommost_compression_opts.enabled: false
+2026/04/19-21:17:38.210455 5bac         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2026/04/19-21:17:38.210458 5bac         Options.bottommost_compression_opts.use_zstd_dict_trainer: true
+2026/04/19-21:17:38.210462 5bac            Options.compression_opts.window_bits: -14
+2026/04/19-21:17:38.210465 5bac                  Options.compression_opts.level: 32767
+2026/04/19-21:17:38.210468 5bac               Options.compression_opts.strategy: 0
+2026/04/19-21:17:38.210472 5bac         Options.compression_opts.max_dict_bytes: 0
+2026/04/19-21:17:38.210475 5bac         Options.compression_opts.zstd_max_train_bytes: 0
+2026/04/19-21:17:38.210479 5bac         Options.compression_opts.use_zstd_dict_trainer: true
+2026/04/19-21:17:38.210482 5bac         Options.compression_opts.parallel_threads: 1
+2026/04/19-21:17:38.210486 5bac                  Options.compression_opts.enabled: false
+2026/04/19-21:17:38.210489 5bac         Options.compression_opts.max_dict_buffer_bytes: 0
+2026/04/19-21:17:38.210493 5bac      Options.level0_file_num_compaction_trigger: 4
+2026/04/19-21:17:38.210496 5bac          Options.level0_slowdown_writes_trigger: 20
+2026/04/19-21:17:38.210500 5bac              Options.level0_stop_writes_trigger: 36
+2026/04/19-21:17:38.210506 5bac                   Options.target_file_size_base: 67108864
+2026/04/19-21:17:38.210510 5bac             Options.target_file_size_multiplier: 1
+2026/04/19-21:17:38.210517 5bac                Options.max_bytes_for_level_base: 268435456
+2026/04/19-21:17:38.210520 5bac Options.level_compaction_dynamic_level_bytes: 1
+2026/04/19-21:17:38.210524 5bac          Options.max_bytes_for_level_multiplier: 10.000000
+2026/04/19-21:17:38.210529 5bac Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2026/04/19-21:17:38.210534 5bac Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2026/04/19-21:17:38.210539 5bac Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2026/04/19-21:17:38.210544 5bac Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2026/04/19-21:17:38.210548 5bac Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2026/04/19-21:17:38.210551 5bac Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2026/04/19-21:17:38.210555 5bac Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2026/04/19-21:17:38.210558 5bac       Options.max_sequential_skip_in_iterations: 8
+2026/04/19-21:17:38.210562 5bac          Options.memtable_op_scan_flush_trigger: 0
+2026/04/19-21:17:38.210566 5bac      Options.memtable_avg_op_scan_flush_trigger: 0
+2026/04/19-21:17:38.210573 5bac                    Options.max_compaction_bytes: 1677721600
+2026/04/19-21:17:38.210578 5bac                        Options.arena_block_size: 1048576
+2026/04/19-21:17:38.210581 5bac   Options.soft_pending_compaction_bytes_limit: 68719476736
+2026/04/19-21:17:38.210585 5bac   Options.hard_pending_compaction_bytes_limit: 274877906944
+2026/04/19-21:17:38.210589 5bac                Options.disable_auto_compactions: 0
+2026/04/19-21:17:38.210593 5bac                        Options.compaction_style: kCompactionStyleLevel
+2026/04/19-21:17:38.210596 5bac                          Options.compaction_pri: kMinOverlappingRatio
+2026/04/19-21:17:38.210600 5bac Options.compaction_options_universal.size_ratio: 1
+2026/04/19-21:17:38.210603 5bac Options.compaction_options_universal.min_merge_width: 2
+2026/04/19-21:17:38.210606 5bac Options.compaction_options_universal.max_merge_width: 4294967295
+2026/04/19-21:17:38.210612 5bac Options.compaction_options_universal.max_size_amplification_percent: 200
+2026/04/19-21:17:38.210616 5bac Options.compaction_options_universal.compression_size_percent: -1
+2026/04/19-21:17:38.210620 5bac Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2026/04/19-21:17:38.210624 5bac Options.compaction_options_universal.max_read_amp: -1
+2026/04/19-21:17:38.210628 5bac Options.compaction_options_universal.reduce_file_locking: 0
+2026/04/19-21:17:38.210631 5bac Options.compaction_options_fifo.max_table_files_size: 1073741824
+2026/04/19-21:17:38.210635 5bac Options.compaction_options_fifo.allow_compaction: 0
+2026/04/19-21:17:38.210638 5bac                   Options.table_properties_collectors: 
+2026/04/19-21:17:38.210641 5bac                   Options.inplace_update_support: 0
+2026/04/19-21:17:38.210645 5bac                 Options.inplace_update_num_locks: 10000
+2026/04/19-21:17:38.210648 5bac               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2026/04/19-21:17:38.210652 5bac               Options.memtable_whole_key_filtering: 0
+2026/04/19-21:17:38.210655 5bac   Options.memtable_huge_page_size: 0
+2026/04/19-21:17:38.210659 5bac                           Options.bloom_locality: 0
+2026/04/19-21:17:38.210662 5bac                    Options.max_successive_merges: 0
+2026/04/19-21:17:38.210666 5bac             Options.strict_max_successive_merges: 0
+2026/04/19-21:17:38.210669 5bac                Options.optimize_filters_for_hits: 0
+2026/04/19-21:17:38.210673 5bac                Options.paranoid_file_checks: 0
+2026/04/19-21:17:38.210676 5bac                Options.force_consistency_checks: 1
+2026/04/19-21:17:38.210679 5bac                Options.report_bg_io_stats: 0
+2026/04/19-21:17:38.210682 5bac                Options.disallow_memtable_writes: 0
+2026/04/19-21:17:38.210685 5bac                               Options.ttl: 2592000
+2026/04/19-21:17:38.210689 5bac          Options.periodic_compaction_seconds: 0
+2026/04/19-21:17:38.210693 5bac                        Options.default_temperature: kUnknown
+2026/04/19-21:17:38.210698 5bac  Options.preclude_last_level_data_seconds: 0
+2026/04/19-21:17:38.210702 5bac    Options.preserve_internal_time_seconds: 0
+2026/04/19-21:17:38.210706 5bac                       Options.enable_blob_files: false
+2026/04/19-21:17:38.210709 5bac                           Options.min_blob_size: 0
+2026/04/19-21:17:38.210712 5bac                          Options.blob_file_size: 268435456
+2026/04/19-21:17:38.210716 5bac                   Options.blob_compression_type: NoCompression
+2026/04/19-21:17:38.210719 5bac          Options.enable_blob_garbage_collection: false
+2026/04/19-21:17:38.210722 5bac      Options.blob_garbage_collection_age_cutoff: 0.250000
+2026/04/19-21:17:38.210726 5bac Options.blob_garbage_collection_force_threshold: 1.000000
+2026/04/19-21:17:38.210729 5bac          Options.blob_compaction_readahead_size: 0
+2026/04/19-21:17:38.210732 5bac                Options.blob_file_starting_level: 0
+2026/04/19-21:17:38.210736 5bac         Options.experimental_mempurge_threshold: 0.000000
+2026/04/19-21:17:38.210743 5bac            Options.memtable_max_range_deletions: 0
+2026/04/19-21:17:38.210748 5bac               Options.comparator: leveldb.BytewiseComparator
+2026/04/19-21:17:38.210752 5bac           Options.merge_operator: None
+2026/04/19-21:17:38.210756 5bac        Options.compaction_filter: None
+2026/04/19-21:17:38.210760 5bac        Options.compaction_filter_factory: None
+2026/04/19-21:17:38.210764 5bac  Options.sst_partitioner_factory: None
+2026/04/19-21:17:38.210768 5bac         Options.memtable_factory: SkipListFactory
+2026/04/19-21:17:38.210771 5bac            Options.table_factory: BlockBasedTable
+2026/04/19-21:17:38.210778 5bac            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (00000224FDD8A4E0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  checksum: 4
+  no_block_cache: 0
+  block_cache: 0000022593394710
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 33554432
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.500
+    low_pri_pool_ratio: 0.000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 6
+  e
+2026/04/19-21:17:38.210782 5bac        Options.write_buffer_size: 67108864
+2026/04/19-21:17:38.210788 5bac  Options.max_write_buffer_number: 2
+2026/04/19-21:17:38.210791 5bac          Options.compression: NoCompression
+2026/04/19-21:17:38.210795 5bac                  Options.bottommost_compression: Disabled
+2026/04/19-21:17:38.210799 5bac       Options.prefix_extractor: nullptr
+2026/04/19-21:17:38.210803 5bac   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2026/04/19-21:17:38.210807 5bac             Options.num_levels: 7
+2026/04/19-21:17:38.210812 5bac        Options.min_write_buffer_number_to_merge: 1
+2026/04/19-21:17:38.210815 5bac     Options.max_write_buffer_size_to_maintain: 134217728
+2026/04/19-21:17:38.210818 5bac            Options.bottommost_compression_opts.window_bits: -14
+2026/04/19-21:17:38.210822 5bac                  Options.bottommost_compression_opts.level: 32767
+2026/04/19-21:17:38.210825 5bac               Options.bottommost_compression_opts.strategy: 0
+2026/04/19-21:17:38.210830 5bac         Options.bottommost_compression_opts.max_dict_bytes: 0
+2026/04/19-21:17:38.210835 5bac         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2026/04/19-21:17:38.210839 5bac         Options.bottommost_compression_opts.parallel_threads: 1
+2026/04/19-21:17:38.210843 5bac                  Options.bottommost_compression_opts.enabled: false
+2026/04/19-21:17:38.210847 5bac         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2026/04/19-21:17:38.210850 5bac         Options.bottommost_compression_opts.use_zstd_dict_trainer: true
+2026/04/19-21:17:38.211011 5bac            Options.compression_opts.window_bits: -14
+2026/04/19-21:17:38.211018 5bac                  Options.compression_opts.level: 32767
+2026/04/19-21:17:38.211022 5bac               Options.compression_opts.strategy: 0
+2026/04/19-21:17:38.211025 5bac         Options.compression_opts.max_dict_bytes: 0
+2026/04/19-21:17:38.211029 5bac         Options.compression_opts.zstd_max_train_bytes: 0
+2026/04/19-21:17:38.211033 5bac         Options.compression_opts.use_zstd_dict_trainer: true
+2026/04/19-21:17:38.211038 5bac         Options.compression_opts.parallel_threads: 1
+2026/04/19-21:17:38.211042 5bac                  Options.compression_opts.enabled: false
+2026/04/19-21:17:38.211046 5bac         Options.compression_opts.max_dict_buffer_bytes: 0
+2026/04/19-21:17:38.211049 5bac      Options.level0_file_num_compaction_trigger: 4
+2026/04/19-21:17:38.211055 5bac          Options.level0_slowdown_writes_trigger: 20
+2026/04/19-21:17:38.211059 5bac              Options.level0_stop_writes_trigger: 36
+2026/04/19-21:17:38.211063 5bac                   Options.target_file_size_base: 67108864
+2026/04/19-21:17:38.211067 5bac             Options.target_file_size_multiplier: 1
+2026/04/19-21:17:38.211070 5bac                Options.max_bytes_for_level_base: 268435456
+2026/04/19-21:17:38.211073 5bac Options.level_compaction_dynamic_level_bytes: 1
+2026/04/19-21:17:38.211077 5bac          Options.max_bytes_for_level_multiplier: 10.000000
+2026/04/19-21:17:38.211080 5bac Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2026/04/19-21:17:38.211084 5bac Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2026/04/19-21:17:38.211088 5bac Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2026/04/19-21:17:38.211092 5bac Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2026/04/19-21:17:38.211095 5bac Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2026/04/19-21:17:38.211099 5bac Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2026/04/19-21:17:38.211103 5bac Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2026/04/19-21:17:38.211107 5bac       Options.max_sequential_skip_in_iterations: 8
+2026/04/19-21:17:38.211111 5bac          Options.memtable_op_scan_flush_trigger: 0
+2026/04/19-21:17:38.211114 5bac      Options.memtable_avg_op_scan_flush_trigger: 0
+2026/04/19-21:17:38.211117 5bac                    Options.max_compaction_bytes: 1677721600
+2026/04/19-21:17:38.211121 5bac                        Options.arena_block_size: 1048576
+2026/04/19-21:17:38.211124 5bac   Options.soft_pending_compaction_bytes_limit: 68719476736
+2026/04/19-21:17:38.211128 5bac   Options.hard_pending_compaction_bytes_limit: 274877906944
+2026/04/19-21:17:38.211132 5bac                Options.disable_auto_compactions: 0
+2026/04/19-21:17:38.211136 5bac                        Options.compaction_style: kCompactionStyleLevel
+2026/04/19-21:17:38.211140 5bac                          Options.compaction_pri: kMinOverlappingRatio
+2026/04/19-21:17:38.211144 5bac Options.compaction_options_universal.size_ratio: 1
+2026/04/19-21:17:38.211148 5bac Options.compaction_options_universal.min_merge_width: 2
+2026/04/19-21:17:38.211152 5bac Options.compaction_options_universal.max_merge_width: 4294967295
+2026/04/19-21:17:38.211155 5bac Options.compaction_options_universal.max_size_amplification_percent: 200
+2026/04/19-21:17:38.211160 5bac Options.compaction_options_universal.compression_size_percent: -1
+2026/04/19-21:17:38.211163 5bac Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2026/04/19-21:17:38.211167 5bac Options.compaction_options_universal.max_read_amp: -1
+2026/04/19-21:17:38.211170 5bac Options.compaction_options_universal.reduce_file_locking: 0
+2026/04/19-21:17:38.211173 5bac Options.compaction_options_fifo.max_table_files_size: 1073741824
+2026/04/19-21:17:38.211177 5bac Options.compaction_options_fifo.allow_compaction: 0
+2026/04/19-21:17:38.211180 5bac                   Options.table_properties_collectors: 
+2026/04/19-21:17:38.211184 5bac                   Options.inplace_update_support: 0
+2026/04/19-21:17:38.211187 5bac                 Options.inplace_update_num_locks: 10000
+2026/04/19-21:17:38.211190 5bac               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2026/04/19-21:17:38.211194 5bac               Options.memtable_whole_key_filtering: 0
+2026/04/19-21:17:38.211198 5bac   Options.memtable_huge_page_size: 0
+2026/04/19-21:17:38.211201 5bac                           Options.bloom_locality: 0
+2026/04/19-21:17:38.211206 5bac                    Options.max_successive_merges: 0
+2026/04/19-21:17:38.211210 5bac             Options.strict_max_successive_merges: 0
+2026/04/19-21:17:38.211215 5bac                Options.optimize_filters_for_hits: 0
+2026/04/19-21:17:38.211218 5bac                Options.paranoid_file_checks: 0
+2026/04/19-21:17:38.211222 5bac                Options.force_consistency_checks: 1
+2026/04/19-21:17:38.211228 5bac                Options.report_bg_io_stats: 0
+2026/04/19-21:17:38.211232 5bac                Options.disallow_memtable_writes: 0
+2026/04/19-21:17:38.211235 5bac                               Options.ttl: 2592000
+2026/04/19-21:17:38.211239 5bac          Options.periodic_compaction_seconds: 0
+2026/04/19-21:17:38.211242 5bac                        Options.default_temperature: kUnknown
+2026/04/19-21:17:38.211246 5bac  Options.preclude_last_level_data_seconds: 0
+2026/04/19-21:17:38.211249 5bac    Options.preserve_internal_time_seconds: 0
+2026/04/19-21:17:38.211252 5bac                       Options.enable_blob_files: false
+2026/04/19-21:17:38.211256 5bac                           Options.min_blob_size: 0
+2026/04/19-21:17:38.211260 5bac                          Options.blob_file_size: 268435456
+2026/04/19-21:17:38.211264 5bac                   Options.blob_compression_type: NoCompression
+2026/04/19-21:17:38.211267 5bac          Options.enable_blob_garbage_collection: false
+2026/04/19-21:17:38.211271 5bac      Options.blob_garbage_collection_age_cutoff: 0.250000
+2026/04/19-21:17:38.211274 5bac Options.blob_garbage_collection_force_threshold: 1.000000
+2026/04/19-21:17:38.211278 5bac          Options.blob_compaction_readahead_size: 0
+2026/04/19-21:17:38.211283 5bac                Options.blob_file_starting_level: 0
+2026/04/19-21:17:38.211286 5bac         Options.experimental_mempurge_threshold: 0.000000
+2026/04/19-21:17:38.211290 5bac            Options.memtable_max_range_deletions: 0
+2026/04/19-21:17:38.211294 5bac DB pointer 0000022593740000
+2026/04/19-21:17:38.211305 5bac [db\db_impl\db_impl.cc:1118] 
+** DB Stats **
+Uptime(secs): 4.1 total, 4.1 interval
+Cumulative writes: 0 writes, 0 keys, 0 commit groups, 0.0 writes per commit group, ingest: 0.00 GB, 0.00 MB/s
+Cumulative WAL: 0 writes, 0 syncs, 0.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+Interval writes: 0 writes, 0 keys, 0 commit groups, 0.0 writes per commit group, ingest: 0.00 MB, 0.00 MB/s
+Interval WAL: 0 writes, 0 syncs, 0.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Interval stall: 00:00:0.000 H:M:S, 0.0 percent
+Write Stall (count): write-buffer-manager-limit-stops: 0
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) WPreComp(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0      0.00 KB   0.0      0.0     0.0      0.0       0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+ Int      0/0      0.00 KB   0.0      0.0     0.0      0.0       0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) WPreComp(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Blob file count: 0, total size: 0.0 GB, garbage size: 0.0 GB, space amp: 0.0
+
+Uptime(secs): 4.1 total, 4.1 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Estimated pending compaction bytes: 0
+Write Stall (count): cf-l0-file-count-limit-delays-with-ongoing-compaction: 0, cf-l0-file-count-limit-stops-with-ongoing-compaction: 0, l0-file-count-limit-delays: 0, l0-file-count-limit-stops: 0, memtable-limit-delays: 0, memtable-limit-stops: 0, pending-compaction-bytes-delays: 0, pending-compaction-bytes-stops: 0, total-delays: 0, total-stops: 0
+Block cache LRUCache@0000022593394510#18040 capacity: 32.00 MB seed: 108410146 usage: 0.08 KB table_size: 1024 occupancy: 1 collections: 1 last_copies: 0 last_secs: 5.6e-05 secs_since: 0
+Block cache entry stats(count,size,portion): Misc(1,0.00 KB,0%)
+
+** File Read Latency Histogram By Level [default] **
+
+** Compaction Stats [R5LargeObjects] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) WPreComp(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0      0.00 KB   0.0      0.0     0.0      0.0       0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+ Int      0/0      0.00 KB   0.0      0.0     0.0      0.0       0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+
+** Compaction Stats [R5LargeObjects] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) WPreComp(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Blob file count: 0, total size: 0.0 GB, garbage size: 0.0 GB, space amp: 0.0
+
+Uptime(secs): 4.1 total, 4.1 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Estimated pending compaction bytes: 0
+Write Stall (count): cf-l0-file-count-limit-delays-with-ongoing-compaction: 0, cf-l0-file-count-limit-stops-with-ongoing-compaction: 0, l0-file-count-limit-delays: 0, l0-file-count-limit-stops: 0, memtable-limit-delays: 0, memtable-limit-stops: 0, pending-compaction-bytes-delays: 0, pending-compaction-bytes-stops: 0, total-delays: 0, total-stops: 0
+Block cache LRUCache@0000022593394610#18040 capacity: 32.00 MB seed: 108410146 usage: 0.08 KB table_size: 1024 occupancy: 1 collections: 1 last_copies: 0 last_secs: 3.4e-05 secs_since: 0
+Block cache entry stats(count,size,portion): Misc(1,0.00 KB,0%)
+
+** File Read Latency Histogram By Level [R5LargeObjects] **
+
+** Compaction Stats [R5BLAccount] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) WPreComp(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      1/0     16.49 KB   0.2      0.0     0.0      0.0       0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+ Sum      1/0     16.49 KB   0.0      0.0     0.0      0.0       0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+ Int      0/0      0.00 KB   0.0      0.0     0.0      0.0       0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+
+** Compaction Stats [R5BLAccount] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) WPreComp(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Blob file count: 0, total size: 0.0 GB, garbage size: 0.0 GB, space amp: 0.0
+
+Uptime(secs): 4.1 total, 4.1 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Estimated pending compaction bytes: 0
+Write Stall (count): cf-l0-file-count-limit-delays-with-ongoing-compaction: 0, cf-l0-file-count-limit-stops-with-ongoing-compaction: 0, l0-file-count-limit-delays: 0, l0-file-count-limit-stops: 0, memtable-limit-delays: 0, memtable-limit-stops: 0, pending-compaction-bytes-delays: 0, pending-compaction-bytes-stops: 0, total-delays: 0, total-stops: 0
+Block cache LRUCache@0000022593394710#18040 capacity: 32.00 MB seed: 108410146 usage: 15.61 KB table_size: 1024 occupancy: 2 collections: 1 last_copies: 0 last_secs: 4.3e-05 secs_since: 0
+Block cache entry stats(count,size,portion): DataBlock(1,15.44 KB,0.0471264%) Misc(1,0.00 KB,0%)
+
+** File Read Latency Histogram By Level [R5BLAccount] **

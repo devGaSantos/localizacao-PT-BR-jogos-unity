@@ -1,0 +1,338 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = -2766267126516050984
+ 1 string m_Name = "EffectFoodCommon_en"
+ 0 LocaleIdentifier m_LocaleId
+  1 string m_Code = "en"
+ 0 PPtr<$SharedTableData> m_SharedData
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 8600254124900467147
+ 0 MetadataCollection m_Metadata
+  0 IMetadata m_Items
+   0 Array Array (0 items)
+    0 int size = 0
+ 0 TableEntryData m_TableData
+  0 Array Array (39 items)
+   0 int size = 39
+   [0]
+    0 TableEntryData data
+     0 SInt64 m_Id = 13234338562048
+     1 string m_Localized = "Um chá feito com grãos de café torrados pela Enit. Seu aroma profundo e agradável preenche todo o ambiente.\n\n<color=#800000>Cancela a penalidade de descanso obrigatório.</color>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [1]
+    0 TableEntryData data
+     0 SInt64 m_Id = 19272240701669376
+     1 string m_Localized = "Pão de Carne"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [2]
+    0 TableEntryData data
+     0 SInt64 m_Id = 19272242798821376
+     1 string m_Localized = "Pão quentinho feito pelo Arden. O pão crocante contém carne suculenta e vegetais em seu interior."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [3]
+    0 TableEntryData data
+     0 SInt64 m_Id = 19272247152508928
+     1 string m_Localized = "Ensopado de carne feito por Arden. Não está claro o que exatamente contém, mas o sabor é muito bom.."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [4]
+    0 TableEntryData data
+     0 SInt64 m_Id = 19272246556917760
+     1 string m_Localized = "Ensopado de Carne"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [5]
+    0 TableEntryData data
+     0 SInt64 m_Id = 735300059136
+     1 string m_Localized = "Normal"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [6]
+    0 TableEntryData data
+     0 SInt64 m_Id = 738701639680
+     1 string m_Localized = "Delicioso"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [7]
+    0 TableEntryData data
+     0 SInt64 m_Id = 740396138496
+     1 string m_Localized = "Perfeito"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [8]
+    0 TableEntryData data
+     0 SInt64 m_Id = 865130545152
+     1 string m_Localized = "O donut artesanal da Clala. Sua doçura suave faz você se sentir bem durante todo o processo.\n\n<color=#800000>Comer a comida concede resistência adicional por tempo limitado</color>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [9]
+    0 TableEntryData data
+     0 SInt64 m_Id = 928632307712
+     1 string m_Localized = "O donut artesanal da Clala. O chocolate rico enche a sua boca com doçura, fazendo você sentir como se sua energia retornasse rapidamente.\n\n<color=#800000>Comer a comida aumenta a velocidade de recuperação da resistência por um tempo limitado</color>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [10]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1042377637888
+     1 string m_Localized = "O donut artesanal da Clala. Repleto de nozes e castanhas moídas, uma mordida enche a sua boca com um rico aroma de nozes.\n\n<color=#800000>Comer o alimento reduz o consumo de resistência por um tempo limitado</color>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [11]
+    0 TableEntryData data
+     0 SInt64 m_Id = 13107477643264
+     1 string m_Localized = "Um chá feito com folhas secas dadas por Rubrum. Refrescante para um gole leve, com um toque limpo que parece ter sido preparado com cuidado.\n\n<color=#800000>Beber o chá aumenta a taxa de aparecimento de materiais comuns e especiais por um tempo limitado.</color>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [12]
+    0 TableEntryData data
+     0 SInt64 m_Id = 13137743740928
+     1 string m_Localized = "Um chá feito com folhas secas dadas por Rubrum. Seu aroma quente e aconchegante acalma a mente, trazendo conforto e uma sensação de concentração elevada.\n\n<color=#800000>Beber o chá aumenta a taxa de aparecimento de materiais de coleta comuns e especiais por um número limitado de vezes.</color>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [13]
+    0 TableEntryData data
+     0 SInt64 m_Id = 45456450796105728
+     1 string m_Localized = "O donut artesanal da Clala. O aroma forte de nozes e amendoim lhe rendeu fama entre as crianças.\n\n<color=#800000>Aumenta temporariamente os Dons de Ritoringo que você recebe.</color>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [14]
+    0 TableEntryData data
+     0 SInt64 m_Id = 45456450808688640
+     1 string m_Localized = "O donut artesanal da Clala. Contém um pedaço de papel com palavras auspiciosas.\n\n<color=#800000>Ajuda você a detectar Ritoringos ao passar por um.</color>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [15]
+    0 TableEntryData data
+     0 SInt64 m_Id = 13260246777856
+     1 string m_Localized = "Bife do Arden. O suco escorre desta fatia de carne perfeitamente cozida quando você morde. O ponto do cozimento depende do humor do Arden.\n\n<color=#800000>Restaura uma quantidade aleatória de Estamina.</color>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [16]
+    0 TableEntryData data
+     0 SInt64 m_Id = 13334922166272
+     1 string m_Localized = "Pãozinho de carne artesanal do Arden, feito com uma folha de massa resistente enrolada em um recheio de carne, macio e al dente.\n\n<color=#800000>Aumenta temporariamente a recuperação da estamina de todos os alimentos</color>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [17]
+    0 TableEntryData data
+     0 SInt64 m_Id = 13363049168896
+     1 string m_Localized = "Espetinho de carne do Ardedn. O aroma da gordura traz força aos seus músculos.\n\n<color=#800000>Restaura parcialmente a capacidade o cooldown de estamina.</color>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [18]
+    0 TableEntryData data
+     0 SInt64 m_Id = 13407118721024
+     1 string m_Localized = "Ensopado de costela apimentado do Arden. Cortes de carne levemente apimentados em uma sopa rica, este prato mantém você com energia o dia todo.\n\n<color=#800000>Reduz temporariamente o consumo de gordura por estamina.</color>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [19]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9467064654766080
+     1 string m_Localized = "Restaura a capacidade de estamina"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [20]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9470237004013568
+     1 string m_Localized = "Recupera a estamina aleatoriamente"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [21]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9471894949470208
+     1 string m_Localized = "Aumenta a recuperação da estamina"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [22]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9472782233509888
+     1 string m_Localized = "Reduz o consumo de estamina"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [23]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9472783902842880
+     1 string m_Localized = "Concede energia extra"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [24]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9472785349877760
+     1 string m_Localized = "Acelera a recuperação de energia"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [25]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9472787895820288
+     1 string m_Localized = "Reduz o consumo de energia"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [26]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9472789061836800
+     1 string m_Localized = "Aumenta a chance de itens comuns raros coletados"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [27]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9472790412402688
+     1 string m_Localized = "Aumenta a chance de itens comuns raros coletados"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [28]
+    0 TableEntryData data
+     0 SInt64 m_Id = 45456450812882944
+     1 string m_Localized = "Aumenta os dons obtidos por Ritoringos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [29]
+    0 TableEntryData data
+     0 SInt64 m_Id = 45456450812882945
+     1 string m_Localized = "Detecta Ritoringo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [30]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9472796104073216
+     1 string m_Localized = "Cancela a penalidade de repouso obrigatório"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [31]
+    0 TableEntryData data
+     0 SInt64 m_Id = 19272309140127744
+     1 string m_Localized = "Donut de cenoura"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [32]
+    0 TableEntryData data
+     0 SInt64 m_Id = 19272309500837888
+     1 string m_Localized = "Uma especialidade da Clala. A grande quantidade de pasta de cenoura confere-lhe um sabor doce e refrescante.."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [33]
+    0 TableEntryData data
+     0 SInt64 m_Id = 19272396599754752
+     1 string m_Localized = "Tortinha"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [34]
+    0 TableEntryData data
+     0 SInt64 m_Id = 19272397203734528
+     1 string m_Localized = "Uma torta delicada e pequena feita pela Enite, com ingredientes de qualidade para o dia dia, como frutas."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [35]
+    0 TableEntryData data
+     0 SInt64 m_Id = 13165342261248
+     1 string m_Localized = "Um chá feito com folhas secas dadas por Rubrum. Sua fragrância sutil e sabor refrescante parecem infundir uma vitalidade especial no corpo.\n\n<color=#800000>Beber o chá aumenta a quantidade de Dádivas de Ritoringos por tempo limitado.</color>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [36]
+    0 TableEntryData data
+     0 SInt64 m_Id = 13210359726080
+     1 string m_Localized = "Um chá feito com frutas dadas por Rubrum. Beber proporciona uma experiência única, já que pequenos pedaços de frutas podem ser mastigados.\n\n<color=#800000>Após beber o chá, ao passar por um Ritoringo, seus traços se tornam mais visíveis do que o normal.</color>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [37]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9472794749313024
+     1 string m_Localized = "Detecta Ritoringos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [38]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9472793587490816
+     1 string m_Localized = "Aumenta presente obtido pelos Ritoringos"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+ 0 ManagedReferencesRegistry references
+  0 int version = 2
+  0 vector RefIds
+   1 Array Array
+    0 int size = 0

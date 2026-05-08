@@ -1,0 +1,35 @@
+{
+	"Version": 1,
+	"WorldDescription":
+	{
+		"islandId": "4449BEC13DA74157CE9CDB0F6885C1C0",
+		"WorldName": "Arquipélago amaldiçoado",
+		"CreationTime": 6.3911990946679002e+17,
+		"WorldPresetType": "Custom",
+		"WorldSettings":
+		{
+			"BoolParameters":
+			{
+				"{\"TagName\": \"WDS.Parameter.Coop.SharedQuests\"}": true,
+				"{\"TagName\": \"WDS.Parameter.EasyExplore\"}": false
+			},
+			"FloatParameters":
+			{
+				"{\"TagName\": \"WDS.Parameter.MobHealthMultiplier\"}": 0.70000000000000007,
+				"{\"TagName\": \"WDS.Parameter.MobDamageMultiplier\"}": 0.59999999999999998,
+				"{\"TagName\": \"WDS.Parameter.ShipsHealthMultiplier\"}": 0.70000000000000007,
+				"{\"TagName\": \"WDS.Parameter.ShipsDamageMultiplier\"}": 0.59999999999999998,
+				"{\"TagName\": \"WDS.Parameter.BoardingDifficultyMultiplier\"}": 0.70000000000000007,
+				"{\"TagName\": \"WDS.Parameter.Coop.StatsCorrectionModifier\"}": 1,
+				"{\"TagName\": \"WDS.Parameter.Coop.ShipStatsCorrectionModifier\"}": 0
+			},
+			"TagParameters":
+			{
+				"{\"TagName\": \"WDS.Parameter.CombatDifficulty\"}":
+				{
+					"TagName": "WDS.Parameter.CombatDifficulty.Easy"
+				}
+			}
+		}
+	}
+}
