@@ -1,0 +1,11 @@
+RELATÓRIO - REVISÃO DE MEMÓRIA FALTANTE
+================================================================================
+tempo_total: 01h 41m 10s
+entrada: memory\memoria_faltantes.json
+saida: memory\memoria_faltantes_corrigidos.json
+checkpoint: memory\memoria_faltantes_checkpoint.json
+falhas: memory\falhas_faltantes_ollama.json
+total_para_revisar: 6135
+traducoes_validas_salvas: 5526
+falhas_para_revisao: 609
+total_no_resultado_final: 6380
