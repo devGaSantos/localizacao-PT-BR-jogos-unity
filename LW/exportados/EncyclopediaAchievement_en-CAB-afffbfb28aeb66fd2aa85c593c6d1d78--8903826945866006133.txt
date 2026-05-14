@@ -384,7 +384,7 @@
    [43]
     0 TableEntryData data
      0 SInt64 m_Id = 123979994364596224
-     1 string m_Localized = "Collecte on the first attempt"
+     1 string m_Localized = "Collect on the first attempt"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

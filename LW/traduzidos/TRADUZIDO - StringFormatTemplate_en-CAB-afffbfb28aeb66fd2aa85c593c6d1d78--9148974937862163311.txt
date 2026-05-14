@@ -20,12 +20,12 @@
      0 managedRefArrayItem data
       0 SInt64 rid = 8993872219424423939
  0 TableEntryData m_TableData
-  0 Array Array (20 items)
-   0 int size = 20
+  0 Array Array (24 items)
+   0 int size = 24
    [0]
     0 TableEntryData data
      0 SInt64 m_Id = 9259593728
-     1 string m_Localized = "{tema} {categoria}{reforma}"
+     1 string m_Localized = "{theme} {category}{reform}"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -36,7 +36,7 @@
    [1]
     0 TableEntryData data
      0 SInt64 m_Id = 47306125312
-     1 string m_Localized = "{tema} {propID_1:fromTable(InteriorPropBasicName)}{reforma}"
+     1 string m_Localized = "{theme} {propID_1:fromTable(InteriorPropBasicName)}{reform}"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -47,7 +47,7 @@
    [2]
     0 TableEntryData data
      0 SInt64 m_Id = 13915428368384
-     1 string m_Localized = "{tema} {propID_2:fromTable(InteriorPropBasicName)}{reforma}"
+     1 string m_Localized = "{theme} {propID_2:fromTable(InteriorPropBasicName)}{reform}"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -58,7 +58,7 @@
    [3]
     0 TableEntryData data
      0 SInt64 m_Id = 332922819850240
-     1 string m_Localized = "{tema} {propID_2:fromTable(InteriorPropBasicName)} {categoria}{reforma}"
+     1 string m_Localized = "{theme} {propID_2:fromTable(InteriorPropBasicName)} {category}{reform}"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -69,7 +69,7 @@
    [4]
     0 TableEntryData data
      0 SInt64 m_Id = 1029959257305088
-     1 string m_Localized = "{tema} {categoria} {propID_2:fromTable(InteriorPropBasicName)}"
+     1 string m_Localized = "{theme} {category} {propID_2:fromTable(InteriorPropBasicName)}"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -80,7 +80,7 @@
    [5]
     0 TableEntryData data
      0 SInt64 m_Id = 1382720809349120
-     1 string m_Localized = "{fishName:fromTable(Item, , _Name)} {categoria}"
+     1 string m_Localized = "{fishName:fromTable(Item, , _Name)} {category}"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -102,7 +102,7 @@
    [7]
     0 TableEntryData data
      0 SInt64 m_Id = 1386974731186176
-     1 string m_Localized = "{propID_1:fromTable(Enciclopédia, , _Nome)} {categoria}"
+     1 string m_Localized = "{propID_1:fromTable(Encyclopedia, , _Name)} {category}"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -113,7 +113,7 @@
    [8]
     0 TableEntryData data
      0 SInt64 m_Id = 1388453026213888
-     1 string m_Localized = "{propID_1:fromTable(Item, , _Nome)} {categoria}"
+     1 string m_Localized = "{propID_1:fromTable(Item, , _Name)} {category}"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -124,7 +124,7 @@
    [9]
     0 TableEntryData data
      0 SInt64 m_Id = 1410564126027776
-     1 string m_Localized = "{propID_1:fromTable(Item, , _Nome)} {categoria}"
+     1 string m_Localized = "{propID_1:fromTable(Item, , _Name)} {category}"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -135,7 +135,7 @@
    [10]
     0 TableEntryData data
      0 SInt64 m_Id = 1415441426296832
-     1 string m_Localized = "{propID_1:fromTable(Enciclopédia, , _Nome)} {categoria}"
+     1 string m_Localized = "{propID_1:fromTable(Encyclopedia, , _Name)} {category}"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -146,7 +146,7 @@
    [11]
     0 TableEntryData data
      0 SInt64 m_Id = 1420181904175104
-     1 string m_Localized = "{propID_2:fromTable(InteriorPropBasicName)} {categoria} {propID_3:fromTable(InteriorPropBasicName)}"
+     1 string m_Localized = "{propID_2:fromTable(InteriorPropBasicName)} {category} {propID_3:fromTable(InteriorPropBasicName)}"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -157,7 +157,7 @@
    [12]
     0 TableEntryData data
      0 SInt64 m_Id = 1433174629036032
-     1 string m_Localized = "{propID_2:fromTable(InteriorPropBasicName)} {categoria} {propID_3:fromTable(InteriorPropBasicName)}"
+     1 string m_Localized = "{propID_2:fromTable(InteriorPropBasicName)} {category} {propID_3:fromTable(InteriorPropBasicName)}"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -168,7 +168,7 @@
    [13]
     0 TableEntryData data
      0 SInt64 m_Id = 1487011586912256
-     1 string m_Localized = "{tipo} {tema}{reforma}"
+     1 string m_Localized = "{type} {theme}{reform}"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -179,7 +179,7 @@
    [14]
     0 TableEntryData data
      0 SInt64 m_Id = 1810255154130944
-     1 string m_Localized = "{tema} {propID_2:fromTable(InteriorPropBasicName)}{reforma}"
+     1 string m_Localized = "{theme} {propID_2:fromTable(InteriorPropBasicName)}{reform}"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -190,7 +190,7 @@
    [15]
     0 TableEntryData data
      0 SInt64 m_Id = 21783829119655936
-     1 string m_Localized = "[{outputItem}] Receita de elaboração"
+     1 string m_Localized = "[{outputItem}] Receita de Craft"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -201,7 +201,7 @@
    [16]
     0 TableEntryData data
      0 SInt64 m_Id = 34347434648416256
-     1 string m_Localized = "Cesta de móveis de {Common.Ritoring} [{aliasedPoolName}]"
+     1 string m_Localized = "{Common.Ritoring}'s Cesta de Móveis [{aliasedPoolName}]"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -212,7 +212,7 @@
    [17]
     0 TableEntryData data
      0 SInt64 m_Id = 34347681516761088
-     1 string m_Localized = "Você pode usá-lo para verificar o conteúdo da cesta.\n\nEssa cesta concede uma receita de mobília [{aliasedPoolName}] aleatória."
+     1 string m_Localized = "Você pode usá-lo para verificar o conteúdo da cesta.\n\nEssa cesta concede uma receita de móveis aleatório [{aliasedPoolName}]."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -223,7 +223,7 @@
    [18]
     0 TableEntryData data
      0 SInt64 m_Id = 102449923126452224
-     1 string m_Localized = "{propID_2:fromTable(InteriorPropBasicName)}{reforma}"
+     1 string m_Localized = "{propID_2:fromTable(InteriorPropBasicName)}{reform}"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -234,7 +234,51 @@
    [19]
     0 TableEntryData data
      0 SInt64 m_Id = 119220930512150528
-     1 string m_Localized = "{tema} {propID_2:fromTable(InteriorPropBasicName)}{reforma}"
+     1 string m_Localized = "{theme} {propID_2:fromTable(InteriorPropBasicName)}{reform}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [20]
+    0 TableEntryData data
+     0 SInt64 m_Id = 181812444496650240
+     1 string m_Localized = "{theme} {propID_2:fromTable(InteriorPropBasicName)}{reform}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [21]
+    0 TableEntryData data
+     0 SInt64 m_Id = 181812575929360384
+     1 string m_Localized = "{theme} {propID_3:fromTable(InteriorPropBasicName)} {category}{reform}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [22]
+    0 TableEntryData data
+     0 SInt64 m_Id = 181812840975818752
+     1 string m_Localized = "{theme} {propID_3:fromTable(InteriorPropBasicName)}{reform}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [23]
+    0 TableEntryData data
+     0 SInt64 m_Id = 184312766351794176
+     1 string m_Localized = "{theme} {propID_2:fromTable(InteriorPropBasicName)} {propID_3:fromTable(InteriorPropBasicName)} {category}{reform}"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -258,8 +302,8 @@
        1 Array Array (0 items)
         0 int size = 0
       0 Entry m_SharedEntries
-       0 Array Array (20 items)
-        0 int size = 20
+       0 Array Array (24 items)
+        0 int size = 24
         [0]
          0 Entry data
           0 SInt64 id = 9259593728
@@ -320,3 +364,15 @@
         [19]
          0 Entry data
           0 SInt64 id = 119220930512150528
+        [20]
+         0 Entry data
+          0 SInt64 id = 181812444496650240
+        [21]
+         0 Entry data
+          0 SInt64 id = 181812575929360384
+        [22]
+         0 Entry data
+          0 SInt64 id = 181812840975818752
+        [23]
+         0 Entry data
+          0 SInt64 id = 184312766351794176

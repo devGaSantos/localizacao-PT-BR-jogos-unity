@@ -20,8 +20,8 @@
      0 managedRefArrayItem data
       0 SInt64 rid = 0
  0 TableEntryData m_TableData
-  0 Array Array (1508 items)
-   0 int size = 1508
+  0 Array Array (1524 items)
+   0 int size = 1524
    [0]
     0 TableEntryData data
      0 SInt64 m_Id = 6072815386625
@@ -12965,8 +12965,175 @@
         0 int size = 0
    [1507]
     0 TableEntryData data
+     0 SInt64 m_Id = 88379294596300800
+     1 string m_Localized = "Show Diane around the {Map.Museum_ThemeGreenForest}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [1508]
+    0 TableEntryData data
+     0 SInt64 m_Id = 88379304025096192
+     1 string m_Localized = "Show Diane around the {Map.Museum_Brewing}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [1509]
+    0 TableEntryData data
+     0 SInt64 m_Id = 88379368990670848
+     1 string m_Localized = "Show Diane around the {Map.Museum_ThemeRainbowForest}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [1510]
+    0 TableEntryData data
+     0 SInt64 m_Id = 88379390520033280
+     1 string m_Localized = "Show Diane around the {Map.Museum_Aquarium}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [1511]
+    0 TableEntryData data
+     0 SInt64 m_Id = 88379542488055808
+     1 string m_Localized = "Talk to Diane"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [1512]
+    0 TableEntryData data
+     0 SInt64 m_Id = 88379558678069248
+     1 string m_Localized = "Follow Rahel out of the {Map.Museum_Hub}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [1513]
+    0 TableEntryData data
+     0 SInt64 m_Id = 88379629356285952
+     1 string m_Localized = "Show Diane around the exhibits"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [1514]
+    0 TableEntryData data
+     0 SInt64 m_Id = 88379658020159488
+     1 string m_Localized = "Show Diane around the {Map.Museum_ThemeGreenForest}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [1515]
+    0 TableEntryData data
+     0 SInt64 m_Id = 88383382083960832
+     1 string m_Localized = "Show Diane around the {Map.Museum_Brewing}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [1516]
+    0 TableEntryData data
+     0 SInt64 m_Id = 88383384659263488
+     1 string m_Localized = "Show Diane around the {Map.Museum_ThemeRainbowForest}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [1517]
+    0 TableEntryData data
+     0 SInt64 m_Id = 88383387008073728
+     1 string m_Localized = "Show Diane around the {Map.Museum_Aquarium}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [1518]
+    0 TableEntryData data
+     0 SInt64 m_Id = 88384026014482432
+     1 string m_Localized = "Let's have a chat with Diane."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [1519]
+    0 TableEntryData data
+     0 SInt64 m_Id = 88384570657439744
+     1 string m_Localized = "Follow Rahel to the {Map.Museum_Hub}. She looks like she has something to say."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 0
+   [1520]
+    0 TableEntryData data
      0 SInt64 m_Id = 43461137230561280
      1 string m_Localized = "Talk to Clala."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [1521]
+    0 TableEntryData data
+     0 SInt64 m_Id = 88379031676354560
+     1 string m_Localized = "Wait for Laurel and Baobab"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [1522]
+    0 TableEntryData data
+     0 SInt64 m_Id = 95983467139530752
+     1 string m_Localized = "Show Diane around the exhibits"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [1523]
+    0 TableEntryData data
+     0 SInt64 m_Id = 95983470117486592
+     1 string m_Localized = "Let's show Diane the rest of the exhibits.."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -12987,8 +13154,8 @@
        1 Array Array (0 items)
         0 int size = 0
       0 Entry m_SharedEntries
-       0 Array Array (258 items)
-        0 int size = 258
+       0 Array Array (271 items)
+        0 int size = 271
         [0]
          0 Entry data
           0 SInt64 id = 130168390148026368
@@ -13763,3 +13930,42 @@
         [257]
          0 Entry data
           0 SInt64 id = 40916422677331968
+        [258]
+         0 Entry data
+          0 SInt64 id = 88379294596300800
+        [259]
+         0 Entry data
+          0 SInt64 id = 88379304025096192
+        [260]
+         0 Entry data
+          0 SInt64 id = 88379368990670848
+        [261]
+         0 Entry data
+          0 SInt64 id = 88379390520033280
+        [262]
+         0 Entry data
+          0 SInt64 id = 88379542488055808
+        [263]
+         0 Entry data
+          0 SInt64 id = 88379558678069248
+        [264]
+         0 Entry data
+          0 SInt64 id = 88379629356285952
+        [265]
+         0 Entry data
+          0 SInt64 id = 88379658020159488
+        [266]
+         0 Entry data
+          0 SInt64 id = 88383382083960832
+        [267]
+         0 Entry data
+          0 SInt64 id = 88383384659263488
+        [268]
+         0 Entry data
+          0 SInt64 id = 88383387008073728
+        [269]
+         0 Entry data
+          0 SInt64 id = 88384026014482432
+        [270]
+         0 Entry data
+          0 SInt64 id = 88384570657439744

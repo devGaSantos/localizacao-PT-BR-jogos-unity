@@ -20,8 +20,8 @@
      0 managedRefArrayItem data
       0 SInt64 rid = 0
  0 TableEntryData m_TableData
-  0 Array Array (276 items)
-   0 int size = 276
+  0 Array Array (279 items)
+   0 int size = 279
    [0]
     0 TableEntryData data
      0 SInt64 m_Id = 91465074147328
@@ -33,7 +33,7 @@
    [1]
     0 TableEntryData data
      0 SInt64 m_Id = 91519402967040
-     1 string m_Localized = "Aqui está um pequeno presente para você.\nNão se esqueça de embelezar o lugar!"
+     1 string m_Localized = "Aqui está um pequeno presente para você.\nNão se esqueça de decorar o lugar!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -49,7 +49,7 @@
    [3]
     0 TableEntryData data
      0 SInt64 m_Id = 48639016140140544
-     1 string m_Localized = "Item-chave emitido"
+     1 string m_Localized = "Item Chave Emitido"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -57,7 +57,7 @@
    [4]
     0 TableEntryData data
      0 SInt64 m_Id = 48639108242862080
-     1 string m_Localized = "Não há espaço na sua bolsa. O item principal será enviado por correio."
+     1 string m_Localized = "Sem espaço na sua bolsa. O item chave será enviado por correio."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -65,7 +65,7 @@
    [5]
     0 TableEntryData data
      0 SInt64 m_Id = 48639114609815552
-     1 string m_Localized = "Remetente desconhecido"
+     1 string m_Localized = "Remetente Desconhecido"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -73,7 +73,7 @@
    [6]
     0 TableEntryData data
      0 SInt64 m_Id = 68873779652132864
-     1 string m_Localized = "{theme} {category} Enciclopédia {conquista} Recompensa de conclusão"
+     1 string m_Localized = "{theme} {category} Enciclopédia {achievement} Recompensa de Conclusão"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -84,7 +84,7 @@
    [7]
     0 TableEntryData data
      0 SInt64 m_Id = 68873836443009024
-     1 string m_Localized = "Membro honorário da Escola para Bruxas"
+     1 string m_Localized = "Membro Honorário da Escola para Bruxas"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -92,7 +92,7 @@
    [8]
     0 TableEntryData data
      0 SInt64 m_Id = 47918614765961216
-     1 string m_Localized = "Estoque em armazenamento"
+     1 string m_Localized = "Estoque no Armazém"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -100,7 +100,7 @@
    [9]
     0 TableEntryData data
      0 SInt64 m_Id = 47918616062001152
-     1 string m_Localized = "Olá, Ellie!\n\nQuando eu estava ampliando e arrumando minha casa, coloquei as coisas juntas no armazenamento.\n\nMas acho muito complicado colocar todos os tipos de coisas em uma única caixa.\n\nComo agora tenho vários armazenamentos, acho melhor arrumá-los."
+     1 string m_Localized = "Olá, Ellie!\n\nQuando estava expandindo e arrumando minha casa, coloquei as coisas que estavam originalmente no armazém juntas.\n\nMas acho muito bagunçado enfiar todos os tipos de coisas em uma única caixa.\n\nComo agora tenho vários armazéns, acho melhor arrumá-los."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -108,7 +108,7 @@
    [10]
     0 TableEntryData data
      0 SInt64 m_Id = 47918618104627200
-     1 string m_Localized = "Kyla se dedicou a arrumar"
+     1 string m_Localized = "Kyla dedicada a arrumar"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -116,7 +116,7 @@
    [11]
     0 TableEntryData data
      0 SInt64 m_Id = 24001999318089728
-     1 string m_Localized = "Sua mãe mais carinhosa"
+     1 string m_Localized = "Sua mãe mais cuidadosa"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -124,7 +124,7 @@
    [12]
     0 TableEntryData data
      0 SInt64 m_Id = 24001996231081984
-     1 string m_Localized = "Kent me contou o que aconteceu. Fico aliviado em saber que você começou uma nova vida sem problemas.\n\nMamãe e papai sempre estarão ao seu lado. Sinta-se à vontade para seguir o que quiser.\n\nQuando seu aprendizado terminar, nós três viajaremos juntos.\n\nEscreverei para você com frequência.\n\nPS: Você pode achar Kent um pouco estranho, mas ele é totalmente confiável."
+     1 string m_Localized = "Kent me contou sobre o que aconteceu. Estou aliviada em saber que você começou uma nova vida sem problemas.\n\nMamãe e papai sempre vão te apoiar. Sinta-se à vontade para perseguir o que quiser.\n\nQuando seu aprendizado terminar, nós três faremos uma viagem juntos.\n\nEscreverei para você com frequência.\n\nPS: Você pode achar Kent um pouco estranho, mas ele é totalmente confiável."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -148,7 +148,7 @@
    [15]
     0 TableEntryData data
      0 SInt64 m_Id = 24006387440877568
-     1 string m_Localized = "Movidos por seu sublime senso de dever como bruxo, decidimos mudar seu local de aprendizado de Highlion para Wisteria.\n\nAlém disso, oferecemos um presente em louvor à sua atitude inspiradora.\n\nPor favor, mantenha essa atitude e torne-se uma bruxa notável."
+     1 string m_Localized = "Comovidos com seu sublime senso de dever como bruxa, decidimos mudar seu local de aprendizado de Highlion para Wisteria.\n\nAlém disso, oferecemos um presente em louvor à sua atitude inspiradora.\n\nPor favor, mantenha essa atitude e torne-se uma bruxa excepcional."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -164,7 +164,7 @@
    [17]
     0 TableEntryData data
      0 SInt64 m_Id = 68873815014309888
-     1 string m_Localized = "Vimos por este meio expressar nosso reconhecimento pelas suas conquistas de {achievement_adjective} no estudo de {category} de {theme} com seu notável espírito de investigação."
+     1 string m_Localized = "Expressamos aqui nosso reconhecimento por suas conquistas {achievement_adjective} no estudo de {category} de {theme} com seu notável espírito de investigação."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -175,7 +175,7 @@
    [18]
     0 TableEntryData data
      0 SInt64 m_Id = 127236818394480640
-     1 string m_Localized = "Distribuição de itens devido ao patch"
+     1 string m_Localized = "Distribuição de Itens Devido à Atualização"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -207,7 +207,7 @@
    [22]
     0 TableEntryData data
      0 SInt64 m_Id = 133825965679476736
-     1 string m_Localized = "Dizem que você está removendo vinhas espinhosas da aldeia? Enite me pediu para avisar antes de voltar para a floresta.\nPS Se precisar de mim, é só vir até a Cachoeira da Floresta Verde. Geralmente estou lá pescando."
+     1 string m_Localized = "Dizem que você está removendo vinhas espinhosas da vila? Enite me pediu para avisá-lo antes de eu voltar para a floresta.\nPS Se precisar de mim, é só vir à Cachoeira da Floresta Verde. Normalmente estou lá pescando."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -215,7 +215,7 @@
    [23]
     0 TableEntryData data
      0 SInt64 m_Id = 133825968271556608
-     1 string m_Localized = "Para uma bruxa chamada Ellie"
+     1 string m_Localized = "Para uma Bruxa Chamada Ellie"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -231,7 +231,7 @@
    [25]
     0 TableEntryData data
      0 SInt64 m_Id = 164920225988116480
-     1 string m_Localized = "Ellie, assim como você deixou uma tigela para os gatos da última vez, também deixei uma tigela extra.\n\n\nDepois de atravessar a ponte perto da fonte, há um pequeno banco. Coloquei-o ao lado do banco, então fique à vontade para usá-lo."
+     1 string m_Localized = "Ellie, assim como você deixou uma tigela para os gatos da última vez, eu também deixei uma tigela extra.\n\n\nDepois de atravessar a ponte perto da fonte, há um banco pequeno. Coloquei ao lado do banco, então sinta-se à vontade para usar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -255,7 +255,7 @@
    [28]
     0 TableEntryData data
      0 SInt64 m_Id = 159429285655642112
-     1 string m_Localized = "Você está pescando algum peixe ultimamente?\n\nTenho um favor a pedir. Por favor, pesque para mim na aldeia. Há mais peixes cegos lá. Quero 3 deles.\n\nE tome cuidado com os gatos quando pescar. Eles vão roubar sua captura em um instante."
+     1 string m_Localized = "Você está pegando algum peixe ultimamente?\n\nTenho um favor a pedir. Por favor, pesque para mim na vila. Há mais Peixes Cegos lá. Quero 3 deles.\n\nE, cuidado com os gatos quando estiver pescando. Eles vão roubar sua captura em um instante."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -279,7 +279,7 @@
    [31]
     0 TableEntryData data
      0 SInt64 m_Id = 185577523630604288
-     1 string m_Localized = "Ellie, descobri algo realmente interessante!\n\nAcho que é um brinquedo para brincar com gatos.\n\nFica perto da escada ao lado da minha casa. Você deveria vir conferir!"
+     1 string m_Localized = "Ellie, descobri algo muito interessante!\n\nAcho que é um brinquedo para brincar com gatos.\n\nEstá perto das escadas ao lado da minha casa. Você deveria vir conferir!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -287,7 +287,7 @@
    [32]
     0 TableEntryData data
      0 SInt64 m_Id = 185577537601830912
-     1 string m_Localized = "Rubro"
+     1 string m_Localized = "Rubrum"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -303,7 +303,7 @@
    [34]
     0 TableEntryData data
      0 SInt64 m_Id = 188786347044798464
-     1 string m_Localized = "Ellie, terminei de fazer a Almofada do Gato.\n\nDeixei-a perto da fonte da vila. Você poderia verificar se os gatos estão usando?\n\nClaro, só quando tiver tempo. Haha."
+     1 string m_Localized = "Ellie, terminei de fazer a Almofada de Gato.\n\nDeixei perto da fonte da vila. Você poderia verificar se os gatos estão usando?\n\nClaro, apenas quando você tiver tempo. Haha."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -327,7 +327,7 @@
    [37]
     0 TableEntryData data
      0 SInt64 m_Id = 189524536969691136
-     1 string m_Localized = "Ellie, o brinquedo do gato pendurado está pronto.\n\n\nEu o coloquei no cruzamento próximo à ponte. Se você for até lá, verá os gatos brincando com ele.\n\n\nDê uma olhada quando tiver tempo."
+     1 string m_Localized = "Ellie, o Brinquedo Pendurado para Gatos está pronto.\n\n\nColoquei na encruzilhada descendo o caminho da ponte. Se você for até lá, deverá ver os gatos brincando com ele.\n\n\nVá dar uma olhada quando tiver tempo."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -351,7 +351,7 @@
    [40]
     0 TableEntryData data
      0 SInt64 m_Id = 189524717131825152
-     1 string m_Localized = "Ellie, completei a Roda de Exercícios para Gatos.\n\nEla está instalada no cruzamento do caminho que leva à biblioteca. Você pode verificar se os gatos estão usando?\n\nSó quando você estiver livre. Haha.\n"
+     1 string m_Localized = "Ellie, concluí a Roda de Exercícios para Gatos.\n\nEstá montada na encruzilhada do caminho que leva à biblioteca. Você pode verificar se os gatos estão usando?\n\nApenas quando você estiver livre. Haha."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -367,7 +367,7 @@
    [42]
     0 TableEntryData data
      0 SInt64 m_Id = 197257645571997696
-     1 string m_Localized = "Para a Sra."
+     1 string m_Localized = "Para Srta. Ellie"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -375,7 +375,7 @@
    [43]
     0 TableEntryData data
      0 SInt64 m_Id = 197257785468813312
-     1 string m_Localized = "Ellie, estou escrevendo porque tenho um assunto urgente para discutir.\n\n\nEssa conversa será entre bruxas. Por favor, venha até mim quando estiver preparado.\n\n\nPS: Traga a vassoura que você está usando no momento."
+     1 string m_Localized = "Ellie, estou escrevendo porque tenho um assunto urgente para discutir.\n\n\nEsta conversa será entre bruxas. Por favor, venha até mim quando estiver preparada.\n\n\nPS: Traga a vassoura que está usando atualmente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -391,7 +391,7 @@
    [45]
     0 TableEntryData data
      0 SInt64 m_Id = 193506677013381120
-     1 string m_Localized = "Um pedido de ajuda de Ellie"
+     1 string m_Localized = "Um Pedido de Ajuda da Ellie"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -399,7 +399,7 @@
    [46]
     0 TableEntryData data
      0 SInt64 m_Id = 193506681580978176
-     1 string m_Localized = "Olá, Ellie. Tenho um favor a lhe pedir.\n\n\nOuvi dizer que você está interessado em decoração de casas recentemente e tenho um problema relacionado. Você poderia me ajudar com isso?\n\n\nPor favor, passe por aqui se estiver interessado."
+     1 string m_Localized = "Olá, Ellie. Tenho um favor para pedir a você.\n\n\nOuvi dizer que você está em decoração de casa recentemente, e eu tenho um problema relacionado. Você poderia me ajudar com isso?\n\n\nPor favor, apareça se estiver interessada."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -407,7 +407,7 @@
    [47]
     0 TableEntryData data
      0 SInt64 m_Id = 193506683321614336
-     1 string m_Localized = "Áurea"
+     1 string m_Localized = "Aurea"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -415,7 +415,7 @@
    [48]
     0 TableEntryData data
      0 SInt64 m_Id = 170424610846797824
-     1 string m_Localized = "Olá, Ellie.\n\nPeço desculpas pela carta repentina, mas preciso de sua ajuda em relação à ponte da vila.\n\nSe você não se importa, verifique o quadro de avisos da vila.\n\nEspero que você tenha um dia maravilhoso hoje!"
+     1 string m_Localized = "Olá, Ellie.\n\nPeço desculpas pela carta repentina, mas preciso da sua ajuda em relação à ponte da vila.\n\nSe não se importar, por favor, verifique o quadro de avisos da vila.\n\nEspero que você tenha um dia maravilhoso hoje!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -447,7 +447,7 @@
    [52]
     0 TableEntryData data
      0 SInt64 m_Id = 180552054128541696
-     1 string m_Localized = "Eu não esperava receber uma carta sua.\n\n\nVocê mencionou que estava trabalhando em algo divertido.\n\n\nFelizmente, tenho algumas informações que podem ser úteis.\n\n\nEncontre-as na próxima página. Vocês dois podem assistir juntos.\n\n\nEspero que seu trabalho corra bem.\n\n\nP.S. Por favor, atualize-me sobre qualquer progresso."
+     1 string m_Localized = "Não esperava receber uma carta sua.\n\n\nVocê mencionou que estava trabalhando em algo divertido.\n\n\nFelizmente, tenho algumas informações que podem ser úteis.\n\n\nPor favor, encontre-as na próxima página. Vocês dois podem ver juntos.\n\n\nEspero que seu trabalho corra bem.\n\n\nP.S. Por favor, me atualize sobre qualquer progresso."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -479,7 +479,7 @@
    [56]
     0 TableEntryData data
      0 SInt64 m_Id = 228307788014321664
-     1 string m_Localized = "Estamos enviando informações sobre o conteúdo recém-adicionado [Amizade] por carta.\n\nPara aqueles que não experimentaram o conteúdo pela rota normal, um pop-up de tutorial separado será fornecido.\n\nO pop-up será ativado assim que você fechar esta carta."
+     1 string m_Localized = "Estamos enviando informações sobre o conteúdo recém-adicionado [Amizade] via carta.\n\nPara aqueles que não experimentaram o conteúdo pela rota normal, um popup tutorial separado será fornecido.\n\nO popup será ativado assim que você fechar esta carta."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -503,7 +503,7 @@
    [59]
     0 TableEntryData data
      0 SInt64 m_Id = 233778169890242560
-     1 string m_Localized = "Fiz algumas <color=#800000>iscas</color> que podem ajudar na pesca.\nPodem ser muito úteis quando você quiser pescar peixes específicos.\nSe estiver curioso para saber o que são, venha dar uma olhada algum dia."
+     1 string m_Localized = "Fiz algumas <color=#800000>iscas</color> que podem ajudar na pesca.\nPode ser muito útil quando você quiser pegar peixes específicos.\nSe estiver curiosa sobre o que são, venha dar uma olhada algum dia."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -514,7 +514,7 @@
    [60]
     0 TableEntryData data
      0 SInt64 m_Id = 218298546486280192
-     1 string m_Localized = "Bruxa! Contemplar!"
+     1 string m_Localized = "Bruxa! Contemple!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -522,7 +522,7 @@
    [61]
     0 TableEntryData data
      0 SInt64 m_Id = 218298571861819392
-     1 string m_Localized = "Muitas formas de vida curiosas podem ser encontradas ao redor da Floresta Verde.\n\n\nQue sorte você ter guardado todas elas para você antes de eu chegar!\n\n\nAinda assim, você não pode ter descoberto tudo o que há para ser descoberto!\n\n\nHeh, eu as encontrei em Glicínias! Ritorings, criaturas das quais você talvez nunca tenha ouvido falar!\n\n\nVocê deve estar ansioso para saber mais. Venha até mim então e prepare-se para uma grande surpresa!"
+     1 string m_Localized = "Muitas formas de vida curiosas podem ser encontradas ao redor da Floresta Verde.\n\n\nQue sorte você teve de mantê-las todas para si antes que eu chegasse!\n\n\nAinda assim, você não pode ter descoberto tudo o que há para ser descoberto!\n\n\nHeh, eu as encontrei em Wisteria! Ritorings, criaturas que você pode nunca ter ouvido falar!\n\n\nVocê deve estar ansiosa para saber mais. Venha até mim então, e prepare-se para uma grande surpresa!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -546,7 +546,7 @@
    [64]
     0 TableEntryData data
      0 SInt64 m_Id = 222651481739526144
-     1 string m_Localized = "Olá, Ellie.\n\n\nOuvi dizer que você restaurou a Casa da Bruxa.\n\n\nVocê poderia vir me visitar quando tiver tempo?\n\n\nHá algo que quero lhe dar pessoalmente."
+     1 string m_Localized = "Olá, Ellie.\n\n\nOuvi dizer que você restaurou a Casa da Bruxa.\n\n\nVocê poderia me visitar quando tiver tempo?\n\n\nHá algo que quero te dar pessoalmente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -562,7 +562,7 @@
    [66]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713970192384
-     1 string m_Localized = "Como vai tudo?"
+     1 string m_Localized = "Como vão as coisas?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -570,7 +570,7 @@
    [67]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358208
-     1 string m_Localized = "Você está sempre cheia de energia, Ellie.\n\nAté eu me sinto mais animado quando vejo você.\n\nNo entanto, você também deve descansar de vez em quando.\n\nVenha fazer uma pausa se estiver cansado.\n\nVou recebê-la com tortas."
+     1 string m_Localized = "Você está sempre cheia de energia, Ellie.\n\nAté eu me sinto mais animada quando a vejo.\n\nNo entanto, você também deve descansar de vez em quando.\n\nVenha para uma pausa se estiver cansada.\n\nVou recebê-la com tortas."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -578,7 +578,7 @@
    [68]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358209
-     1 string m_Localized = "Enite o confeiteiro"
+     1 string m_Localized = "Enite, a confeiteira"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -586,7 +586,7 @@
    [69]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358210
-     1 string m_Localized = "Já faz um tempo."
+     1 string m_Localized = "Faz um tempo."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -594,7 +594,7 @@
    [70]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358211
-     1 string m_Localized = "Você tem se alimentado corretamente?\n\nRubrum muitas vezes se esquece de comer quando está perdido nos jogos.\n\nSiga um horário fixo de alimentação mesmo quando estiver ocupado.\n\nSe houver algum prato que você queira, é só me avisar."
+     1 string m_Localized = "Você tem comido direito?\n\nRubrum frequentemente esquece de comer quando está absorto em jogos.\n\nSiga um horário fixo de alimentação mesmo quando estiver ocupada.\n\nSe houver algum prato que você deseje, é só me avisar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -610,7 +610,7 @@
    [72]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358213
-     1 string m_Localized = "Você está comendo corretamente?"
+     1 string m_Localized = "Você está comendo direito?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -618,7 +618,7 @@
    [73]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358214
-     1 string m_Localized = "Outro dia, Rubrum falou sobre você com grande entusiasmo.\n\nEle estava tão radiante que isso também melhorou meu humor.\n\nPor favor, apareça de vez em quando para nos contar pessoalmente sobre suas últimas aventuras."
+     1 string m_Localized = "Outro dia, Rubrum falou sobre você com grande empolgação.\n\nEle estava tão radiante que animou meu humor também.\n\nPor favor, apareça de vez em quando para nos contar sobre suas últimas aventuras pessoalmente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -626,7 +626,7 @@
    [74]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358215
-     1 string m_Localized = "Enite, que sempre te acolhe"
+     1 string m_Localized = "Enite, que sempre te recebe"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -634,7 +634,7 @@
    [75]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358216
-     1 string m_Localized = "Espero que você esteja bem em termos de saúde."
+     1 string m_Localized = "Espero que você esteja bem de saúde."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -642,7 +642,7 @@
    [76]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358217
-     1 string m_Localized = "A temperatura caiu repentinamente ontem à noite.\n\nEstá quente o suficiente em sua casa?\n\nAconchegue-se à noite para não pegar um resfriado.\n\nBoa saúde é sempre o melhor tesouro de alguém."
+     1 string m_Localized = "A temperatura caiu repentinamente ontem à noite.\n\nEstá quente o suficiente na sua casa?\n\nAconchegue-se à noite, para não pegar um resfriado.\n\nBoa saúde é sempre o melhor tesouro de alguém."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -650,7 +650,7 @@
    [77]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358218
-     1 string m_Localized = "Enite, que te deseja bem"
+     1 string m_Localized = "Enite, que deseja o seu bem"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -666,7 +666,7 @@
    [79]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358220
-     1 string m_Localized = "Hoje brinquei na floresta novamente!\n\nHavia tanta coisa para ver.\n\nVenha comigo na próxima vez!\n\nSerá muito divertido!\n\nVocê pode ficar com tudo que eu encontrar."
+     1 string m_Localized = "Brincuei na floresta de novo hoje!\n\nHavia tanto para ver.\n\nVenha comigo da próxima vez!\n\nVai ser super divertido!\n\nVocê pode ficar com tudo que eu encontrar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -690,7 +690,7 @@
    [82]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358223
-     1 string m_Localized = "Às vezes tenho pesadelos à noite,\n\nmas sinto menos medo quando penso em você.\n\nObrigado por me proteger em meus sonhos, Ellie!\n\nAqui está um presente para você!"
+     1 string m_Localized = "Às vezes tenho pesadelos à noite,\n\nmas me sinto menos assustado quando penso em você.\n\nObrigado por me proteger nos meus sonhos, Ellie!\n\nAqui está um presente para você!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -706,7 +706,7 @@
    [84]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358225
-     1 string m_Localized = "Este é o Rubrum."
+     1 string m_Localized = "Aqui é o Rubrum."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -714,7 +714,7 @@
    [85]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358226
-     1 string m_Localized = "Há coisas que não dão certo.\n\nEu tento muito, mas continuo falhando.\n\nQuase desisti, mas decidi terminar o que comecei.\n\nEllie, no final terei sucesso!"
+     1 string m_Localized = "Há coisas que não dão certo.\n\nEu me esforço, mas continuo falhando.\n\nQuase desisti, mas então decidi terminar o que comecei.\n\nEllie, vou conseguir no final!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -722,7 +722,7 @@
    [86]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358227
-     1 string m_Localized = "Rubrum triste com o colapso do castelo de areia"
+     1 string m_Localized = "Rubrum entristecido pelo castelo de areia desmoronado"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -730,7 +730,7 @@
    [87]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358228
-     1 string m_Localized = "Este é o Rubrum."
+     1 string m_Localized = "Aqui é o Rubrum."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -738,7 +738,7 @@
    [88]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358229
-     1 string m_Localized = "Tenho caçado muito tesouros na floresta.\n\nA floresta está cheia de tesouros!\n\nHá lindas pedras, frutas doces e flores boas para fazer chá!\n\nEles são todos tesouros para mim!\n\nE Ellie também!\n\nObrigado!"
+     1 string m_Localized = "Tenho caçado tesouros na floresta muito.\n\nA floresta está cheia de tesouros!\n\nHá pedras bonitas, frutas doces e flores boas para fazer chá!\n\nTodos são tesouros para mim!\n\nE você também, Ellie!\n\nObrigado!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -746,7 +746,7 @@
    [89]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358230
-     1 string m_Localized = "Rubrum, o entusiasta do tesouro"
+     1 string m_Localized = "Rubrum, o entusiasta de tesouros"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -754,7 +754,7 @@
    [90]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358231
-     1 string m_Localized = "É Ardem."
+     1 string m_Localized = "É o Arden."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -762,7 +762,7 @@
    [91]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358232
-     1 string m_Localized = "A sopa de hoje está boa.\n\nVenha se quiser."
+     1 string m_Localized = "A sopa de hoje está boa.\n\nVenha se quiser um pouco."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -786,7 +786,7 @@
    [94]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358235
-     1 string m_Localized = "Pegue isso.\n\nEu tenho muitos deles."
+     1 string m_Localized = "Pegue isso.\n\nTenho muitos deles."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -810,7 +810,7 @@
    [97]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358238
-     1 string m_Localized = "Acordei de um sonho\n\ne não consegui dormir depois disso.\n\nMas não importa. Posso dormir mais amanhã."
+     1 string m_Localized = "Acordei de um sonho,\n\ne não consegui voltar a dormir depois disso.\n\nMas não importa. Posso dormir mais amanhã."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -834,7 +834,7 @@
    [100]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358241
-     1 string m_Localized = "Kyla continua falando sobre você.\n\nApareça quando tiver tempo.\n\nKyla ficará feliz em vê-lo."
+     1 string m_Localized = "Kyla não para de falar sobre você.\n\nApareça quando tiver tempo.\n\nKyla ficará feliz em vê-la."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -850,7 +850,7 @@
    [102]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358243
-     1 string m_Localized = "Olá, Sra. Bruxa,"
+     1 string m_Localized = "Olá, Srta. Bruxa,"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -858,7 +858,7 @@
    [103]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358244
-     1 string m_Localized = "Às vezes, sinto explosões de inspiração ao golpear o ferro.\n\nÉ uma mistura de ideias boas e ruins.\n\nQuando isso acontece, mantenho as boas e esqueço as ruins enquanto meu martelo cai.\n\nA vida é assim, certo? Você mantém o que é bom e descarta o que é ruim."
+     1 string m_Localized = "Às vezes tenho explosões de inspiração quando estou forjando ferro.\n\nÉ uma mistura de ideias boas e ruins.\n\nQuando acontece, guardo as boas e esqueço as ruins conforme meu martelo cai.\n\nÉ assim que a vida é, certo? Você guarda o bom e descarta o ruim."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -882,7 +882,7 @@
    [106]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358247
-     1 string m_Localized = "Quando acho meu martelo muito pesado,\n\ndeixo de trabalhar e passo um dia inteiro recreando. Dessa forma, poderei voltar com energia total no segundo dia.\n\nTente, Ellie.\n\nVocê só pode trabalhar duro depois de ter jogado duro."
+     1 string m_Localized = "Quando acho meu martelo muito pesado,\n\ndeixo meu trabalho e passo o dia todo em recreação. Dessa forma, posso voltar com total energia no segundo dia.\n\nExperimente, Ellie.\n\nVocê só pode trabalhar duro depois de ter se divertido muito."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -906,7 +906,7 @@
    [109]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358250
-     1 string m_Localized = "Ellie, o que você faz quando se depara com um problema no trabalho?\n\nVou me concentrar no que posso fazer no momento.\n\nAtaque uma vez e ataque novamente.\n\nConcluirei um ótimo item antes que eu perceba.\n\nPegue isso e farei outra obra-prima para você mais tarde."
+     1 string m_Localized = "Ellie, o que você faz quando encontra um problema no trabalho?\n\nVou me concentrar no que posso fazer no momento.\n\nBata uma vez, e bata novamente.\n\nVou completar um grande item antes de perceber.\n\nPegue isso, e farei outra obra-prima para você depois."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -930,7 +930,7 @@
    [112]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358253
-     1 string m_Localized = "Na verdade, não consigo lembrar o que é isso.\n\nSinto que há algo importante\n\ne deveria escrever para você sobre isso, mas...\n\nDe qualquer forma, receber uma carta sempre melhora o humor, certo?\n\nAh, isso pode ser exatamente o importante.\n\nOu talvez não. Não importa.\n\nDe qualquer forma, aceite este presente!"
+     1 string m_Localized = "Na verdade, não consigo me lembrar do que era.\n\nSinto que há algo importante\ne deveria escrever para você sobre isso, mas...\n\nEnfim, receber uma carta sempre anima o humor, certo?\n\nAh, isso pode ser exatamente a coisa importante.\n\nOu talvez não. Não importa.\n\nDe qualquer forma, pegue este presente!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -946,7 +946,7 @@
    [114]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358255
-     1 string m_Localized = "Olá, meu nome é Roy."
+     1 string m_Localized = "Olá, sou o Roy."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -954,7 +954,7 @@
    [115]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358256
-     1 string m_Localized = "Ellie, como vai tudo?\n\nAs flores da vila parecem estar florescendo hoje e me lembram você.\n\nVenha visitar minha loja se tiver tempo.\n\nSe não tiver, pelo menos aceite isso.\n\nTenha um lindo dia."
+     1 string m_Localized = "Ellie, como vão as coisas?\n\nAs flores na vila parecem estar prosperando hoje, e elas me lembram de você.\n\nVenha visitar minha loja se tiver tempo.\n\nSe não tiver, pelo menos aceite isso.\n\nTenha um dia adorável."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -962,7 +962,7 @@
    [116]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358257
-     1 string m_Localized = "Floricultura de Roy of Wisteria"
+     1 string m_Localized = "Roy da floricultura de Wisteria"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -970,7 +970,7 @@
    [117]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358258
-     1 string m_Localized = "Olá, meu nome é Roy."
+     1 string m_Localized = "Olá, sou o Roy."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -978,7 +978,7 @@
    [118]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358259
-     1 string m_Localized = "Uma flor preciosa murchou outro dia.\n\nFiquei chateado, embora eu soubesse que as flores murchariam mais cedo ou mais tarde.\n\nQuero contar a alguém sobre minha tristeza, e você parece ser a melhor pessoa a quem recorrer.\n\nEstou me sentindo mais calmo enquanto escrevo esta carta.\n\nEllie, você também pode me escrever se precisar de algum apoio emocional.\n\nObrigado por ler a carta inteira."
+     1 string m_Localized = "Uma flor preciosa murchou outro dia.\n\nMe chateou mesmo sabendo que as flores murchariam mais cedo ou mais tarde.\n\nQuero contar a alguém sobre minha tristeza, e você parece ser a melhor pessoa.\n\nEstou me sentindo mais calmo enquanto escrevo esta carta.\n\nEllie, você também pode me escrever se precisar de apoio emocional.\n\nObrigado por ler a carta inteira."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -986,7 +986,7 @@
    [119]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358260
-     1 string m_Localized = "Floricultura de Roy of Wisteria"
+     1 string m_Localized = "Roy da floricultura de Wisteria"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -994,7 +994,7 @@
    [120]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358261
-     1 string m_Localized = "Olá, meu nome é Roy."
+     1 string m_Localized = "Olá, sou o Roy."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1002,7 +1002,7 @@
    [121]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358262
-     1 string m_Localized = "Sempre que a noite caía, eu costumava me perguntar se fui legal com as pessoas naquele dia.\n\nEsse era um hábito meio embaraçoso.\n\nRecentemente, abandonei minha autorreflexão e coloquei vasos de plantas nas janelas. (As flores gostam do sol. É muito fácil ser gentil com as flores.)\n\nAmanhã serei uma pessoa melhor.\n\nEllie, você quer colocar uma flor perto da janela também?"
+     1 string m_Localized = "Sempre que a noite caía, eu costumava me perguntar\n\nse fui gentil com as pessoas naquele dia.\n\nEra meio que um hábito embaraçoso.\n\nRecentemente, parei com minha autorreflexão e mudei vasos de plantas para as janelas. (Flores gostam de sol. É muito fácil ser gentil com flores.)\n\nAmanhã, serei um eu melhor.\n\nEllie, você também quer colocar uma flor na janela?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1010,7 +1010,7 @@
    [122]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358263
-     1 string m_Localized = "Floricultura de Roy of Wisteria"
+     1 string m_Localized = "Roy da floricultura de Wisteria"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1018,7 +1018,7 @@
    [123]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358264
-     1 string m_Localized = "Olá, meu nome é Roy."
+     1 string m_Localized = "Olá, sou o Roy."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1026,7 +1026,7 @@
    [124]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358265
-     1 string m_Localized = "Ontem eu queria ver o processo de floração, então fiquei olhando para um botão maduro por horas,\n\nmas nada aconteceu.\n\nFiquei olhando para ele\n\naté cochilar. Só acordei quando o sol nasceu.\n\nQuando olhei para cima, o botão floresceu no sol da manhã.\n\nEntão, as flores também podem ser tímidas?"
+     1 string m_Localized = "Ontem, queria ver o processo de florescimento, então fiquei olhando para um botão maduro por horas,\n\nmas nada aconteceu.\n\nContinuei olhando para ele\n\naté adormecer. Só acordei quando o sol já havia nascido.\n\nQuando olhei para cima, o botão havia florescido ao sol da manhã.\n\nEntão, flores também podem ser tímidas?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1034,7 +1034,7 @@
    [125]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358266
-     1 string m_Localized = "Floricultura de Roy of Wisteria"
+     1 string m_Localized = "Roy da floricultura de Wisteria"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1050,7 +1050,7 @@
    [127]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358268
-     1 string m_Localized = "Como está seu dia?\n\nO meu está maravilhoso.\n\nA temperatura está amena e as refeições deliciosas.\n\nEstou pintando bem, porque a tinta está viva.\n\nO céu noturno está mais deslumbrante do que nunca e a brisa noturna está fresca.\n\nAqui está algo que eu queria lhe dizer:\n\nEllie, vamos ser sempre amigos."
+     1 string m_Localized = "Como está seu dia?\n\nO meu é maravilhoso.\n\nA temperatura está amena e as refeições estão deliciosas.\n\nEstou pintando suavemente, porque a tinta está vívida.\n\nO céu da noite está deslumbrante como sempre, e a brisa noturna é fresca.\n\nAqui está algo que esperava te dizer:\n\nEllie, vamos ser sempre amigas."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1058,7 +1058,7 @@
    [128]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358269
-     1 string m_Localized = "Estou feliz por ter conhecido você."
+     1 string m_Localized = "Estou feliz por ter te conhecido."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1074,7 +1074,7 @@
    [130]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358271
-     1 string m_Localized = "Aqui está uma ideia que me ocorreu quando eu estava pintando.\n\nAs pinturas são, na verdade, imitações incompletas da realidade, pois contêm apenas elementos visuais.\n\nPor exemplo, as flores em uma pintura não têm aromas, não é?\n\nNo entanto, assim que pensei nisso, senti uma fragrância!\n\nFlores feitas de tinta são mais reais do que você imagina.\n"
+     1 string m_Localized = "Aqui está uma ideia que me ocorreu quando estava pintando.\n\nPinturas são na verdade imitações incompletas da realidade, já que contêm apenas elementos visuais.\n\nPor exemplo, flores em uma pintura não têm aromas, têm?\n\nNo entanto, assim que pensei nisso, senti fragrância!\n\nFlores feitas de tinta são mais reais do que se espera."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1090,7 +1090,7 @@
    [132]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358273
-     1 string m_Localized = "Mundo do amor"
+     1 string m_Localized = "Mundo de amor"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1098,7 +1098,7 @@
    [133]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358274
-     1 string m_Localized = "Quando eu era jovem, achava que o mundo estava cheio de amor.\n\nÀ medida que cresci, senti que o amor estava se esgotando.\n\nAgora, não consigo encontrar o amor em lugar nenhum.\n\nNo entanto... embora o mundo não esteja cheio do amor que meu eu mais jovem imaginava,\n\nem ainda contém algo caloroso. O mundo está cheio de calor."
+     1 string m_Localized = "Quando era jovem, pensava que o mundo estava cheio de amor.\n\nConforme cresci, senti como se o amor estivesse drenando.\n\nAgora, não consigo encontrar amor em lugar nenhum.\n\nNo entanto... embora o mundo não esteja cheio do amor que meu eu mais jovem imaginava,\n\nainda contém algo quente. O mundo está cheio de calor."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1122,7 +1122,7 @@
    [136]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358277
-     1 string m_Localized = "Quando desenho, às vezes fico na zona,\n\ne desenho sem parar.\n\nTambém há dias em que não consigo acertar,\n\nmas desenho sem parar de qualquer maneira.\n\nNo entanto, quando olho para as pinturas depois,\n\nnenhuma das situações produz uma pintura satisfatória."
+     1 string m_Localized = "Quando desenho, às vezes me encontro no fluxo,\n\ne desenho sem parar.\n\nHá também dias em que não consigo acertar,\n\nmas desenho sem parar mesmo assim.\n\nNo entanto, quando olho para as pinturas depois,\n\nnenhuma das situações produz uma pintura satisfatória."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1130,7 +1130,7 @@
    [137]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358278
-     1 string m_Localized = "Vinch em crise"
+     1 string m_Localized = "Vinch em uma fase ruim"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1138,7 +1138,7 @@
    [138]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358279
-     1 string m_Localized = "É Arin."
+     1 string m_Localized = "É a Arin."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1146,7 +1146,7 @@
    [139]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358280
-     1 string m_Localized = "Estou escrevendo para compartilhar algumas frases legais de livros que estava selecionando.\n\n"Have you seen the maiden in the stream?\n\nHer feet separate the crystal clear water as she runs.\n\nHer smile is bright as her hands\n\nstretch out innocently at me.\n\nHave you seen the maiden in the stream? Please give this to her for me,\n\nfor I was once saved by her.""
+     1 string m_Localized = "Estou escrevendo para compartilhar algumas frases legais de livros que estava organizando.\n\n\"Você já viu a donzela no riacho?\n\nSeus pés separam a água cristalina enquanto ela corre.\n\nSeu sorriso é brilhante enquanto suas mãos\n\nse estendem innocentemente para mim.\n\nVocê já viu a donzela no riacho? Por favor, dê isso a ela por mim,\n\npois fui uma vez salvo por ela.\""
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1154,7 +1154,7 @@
    [140]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358281
-     1 string m_Localized = "De Arin à donzela no riacho"
+     1 string m_Localized = "De Arin para a donzela no riacho"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1170,7 +1170,7 @@
    [142]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358283
-     1 string m_Localized = "Os livros devem ser guardados com cuidado.\n\nEles precisam de temperatura e umidade adequadas. Eles devem ser arejados com frequência, mas não podem ser expostos à luz solar intensa.\n\nDito isso, acho que os livros são para ser lidos.\n\nSer lido por muitas pessoas dá mais valor a um livro do que ser mantido em ótimas condições.\n\nPortanto, o melhor lugar para guardar livros deve ser um local de fácil acesso, certo?"
+     1 string m_Localized = "Livros devem ser mantidos com cuidado.\n\nEles precisam da temperatura e umidade certas. Devem ser arejados frequentemente, mas não podem ser expostos à luz solar intensa.\n\nDito isso, acho que livros são para serem lidos.\n\nSer lido por inúmeras pessoas dá a um livro mais valor do que ser mantido em ótimas condições.\n\nPortanto, o melhor lugar para guardar livros deve ser onde eles são facilmente acessíveis, certo?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1178,7 +1178,7 @@
    [143]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358284
-     1 string m_Localized = "Qual livro devo ler hoje?"
+     1 string m_Localized = "Qual livro vou ler hoje?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1186,7 +1186,7 @@
    [144]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358285
-     1 string m_Localized = "Olá, é Arin escrevendo."
+     1 string m_Localized = "Olá, é a Arin escrevendo."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1194,7 +1194,7 @@
    [145]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358286
-     1 string m_Localized = "Hoje, eu estava conversando com Rex quando de repente você veio à minha mente, Ellie.\n\nVocê se parece com Rex em muitos aspectos.\n\nAmbos são realizadores. Geralmente sou lento para agir, então continuo dizendo a mim mesmo que devo aprender com você.\n\nAcho que nunca conseguirei alcançar vocês dois,\n\nmas está tudo bem.\n\nGosto que seja assim."
+     1 string m_Localized = "Hoje, estava conversando com Rex quando você veio à minha mente, Ellie.\n\nVocê se parece com Rex em muitos aspectos.\n\nAmbos são pessoas de ação. Normalmente sou lenta para agir, então continuo me dizendo que deveria aprender com você.\n\nNão acho que poderei alcançar vocês dois,\n\nmas tudo bem.\n\nGosto assim."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1202,7 +1202,7 @@
    [146]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358287
-     1 string m_Localized = "Por favor, sempre dê o exemplo para mim."
+     1 string m_Localized = "Por favor, sempre sirva de exemplo para mim."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1210,7 +1210,7 @@
    [147]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358288
-     1 string m_Localized = "É Arin."
+     1 string m_Localized = "É a Arin."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1218,7 +1218,7 @@
    [148]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358289
-     1 string m_Localized = "Ao organizar os livros, encontrei algumas frases que quero compartilhar com você, Ellie.\n\n"Oh, my love. Take one step forward.\n\nOh, my love. Take one step backward.\n\nJust stop there.\n\nNo, stop at that street.\n\nLet the evening clouds flow by between us.\n\nPlease stop just at that street.""
+     1 string m_Localized = "Ao organizar os livros, encontrei algumas frases que quero compartilhar com você, Ellie.\n\n\"Oh, meu amor. Dê um passo à frente.\n\nOh, meu amor. Dê um passo para trás.\n\nApenas pare ali.\n\nNão, pare naquela rua.\n\nDeixe as nuvens da tarde fluírem entre nós.\n\nPor favor, pare exatamente naquela rua.\""
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1234,7 +1234,7 @@
    [150]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358291
-     1 string m_Localized = "Olá! Eu sou Rex!"
+     1 string m_Localized = "Oi! Sou o Rex!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1242,7 +1242,7 @@
    [151]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358292
-     1 string m_Localized = "Você parecia estar preocupado com alguma coisa outro dia!\n\nPreocupe-se o quanto quiser!\n\nAté se cansar de se preocupar!\n\nDepois disso, coma, faça exercícios e durma o quanto quiser.\n\nSe suas preocupações não desaparecerem quando você acordar... repita o processo!"
+     1 string m_Localized = "Você parecia estar preocupada com algo outro dia!\n\nPreocupe-se o quanto quiser!\n\nAté se cansar de se preocupar!\n\nDepois disso, coma, exercite-se e durma à vontade.\n\nSe suas preocupações não desaparecerem quando você acordar... repita o processo!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1250,7 +1250,7 @@
    [152]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358293
-     1 string m_Localized = "Rex, o atualmente despreocupado"
+     1 string m_Localized = "Rex, atualmente despreocupado"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1266,7 +1266,7 @@
    [154]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358295
-     1 string m_Localized = "Ellie, seja encantadora!\n\nVocê foi atingida pela sorte."
+     1 string m_Localized = "Ellie, fique feliz!\n\nVocê foi atingida pela sorte."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1282,7 +1282,7 @@
    [156]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358297
-     1 string m_Localized = "Vá em frente e abra-o!"
+     1 string m_Localized = "Vá em frente e abra!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1290,7 +1290,7 @@
    [157]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358298
-     1 string m_Localized = "Trouxe coisas de casa hoje e estou enviando algumas para você.\n\nSempre que viajo, mamãe e papai sempre enchem minha bagagem com suprimentos,\n\nentão trouxe alguns suprimentos para você também.\n\nEspere, isso me torna seu pai?!"
+     1 string m_Localized = "Trouxe coisas de casa hoje, e estou enviando algumas para você.\n\nSempre que viajo, mamãe e papai sempre enchem minha bagagem com suprimentos,\n\nentão também trouxe alguns suprimentos para você.\n\nEspere, isso me torna seu pai?!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1298,7 +1298,7 @@
    [158]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358299
-     1 string m_Localized = "Eu sou seu pai!"
+     1 string m_Localized = "Sou seu pai!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1306,7 +1306,7 @@
    [159]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358300
-     1 string m_Localized = "Ellie, ajuda!"
+     1 string m_Localized = "Ellie, socorro!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1314,7 +1314,7 @@
    [160]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358301
-     1 string m_Localized = "Arin gritou comigo hoje por ter falado muito alto.\n\nMas eu não falo alto... Ela estava brava por causa de outra coisa?\n\nPorque eu baguncei os livros que ela havia organizado?\n\nPorque derrubei a vela enquanto dormia e queimei todos os seus roteiros de tradução?\n\nOu porque eu estava muito envolvido na minha aventura e perdi o jantar que ela preparou para mim?\n\nNão entendi... Ellie, você tem pistas?"
+     1 string m_Localized = "Arin gritou comigo hoje por estar muito barulhento.\n\nMas não sou barulhento... Ela estava brava por outra coisa?\n\nPorque baguncei os livros que ela organizou?\n\nPorque derrubei a vela enquanto dormia e queimei todos os seus roteiros de tradução?\n\nOu porque estava muito envolvido na minha aventura e perdi o jantar que ela cozinhou para mim?\n\nNão entendo... Ellie, você tem alguma pista?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1330,7 +1330,7 @@
    [162]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358303
-     1 string m_Localized = "É Alvin escrevendo."
+     1 string m_Localized = "É o Alvin escrevendo."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1338,7 +1338,7 @@
    [163]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358304
-     1 string m_Localized = "Cada um é protagonista de sua própria vida.\n\nEsta afirmação parece um clichê?\n\nEstou falando sobre os esforços.\n\nUm protagonista tem que trabalhar duro, dentro e fora do palco.\n\nO público, no entanto, só vê os holofotes em que está.\n\nAté agora, você está indo bem como protagonista. Continue com o bom trabalho."
+     1 string m_Localized = "Todo mundo é o protagonista de sua própria vida.\n\nEsta afirmação soa como um clichê?\n\nEstou falando sobre os esforços.\n\nUm protagonista tem que trabalhar duro, tanto no palco quanto fora dele.\n\nO público, no entanto, só vê o holofote em que estão.\n\nAté agora, você está indo bem como protagonista. Continue o bom trabalho."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1346,7 +1346,7 @@
    [164]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358305
-     1 string m_Localized = "Se você está esperando um elogio, pode ficar desapontado."
+     1 string m_Localized = "Se você está esperando um elogio, pode ficar desapontada."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1362,7 +1362,7 @@
    [166]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358307
-     1 string m_Localized = "Eu odeio quando as pessoas dizem"Have a nice day" to me.\n\nHow do you define a "nice" day? A day that gets 70 out of 100? Does getting only 65 make it "not nice"?\n\nThat said, I have to reply "You too." since that's the custom.\n\nHowever, such a conversation seems to make the rest of my day actually nicer, by up to 5 points.\n\nHow many points does your day get, Ellie?"
+     1 string m_Localized = "Odeio quando as pessoas me dizem \"Tenha um bom dia\".\n\nComo você define um dia \"bom\"? Um dia que recebe 70 de 100? Conseguir apenas 65 o torna \"não bom\"?\n\nDito isso, tenho que responder \"Você também\" já que esse é o costume.\n\nNo entanto, tal conversa parece tornar o resto do meu dia realmente melhor, em até 5 pontos.\n\nQuantos pontos seu dia recebe, Ellie?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1386,7 +1386,7 @@
    [169]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358310
-     1 string m_Localized = "Ontem à noite, sonhei com você saindo da vila.\n\nParecia que uma peça de que gostei havia acabado.\n\nOu melhor, como se eu tivesse voltado de uma viagem?\n\nAinda posso sentir o sabor da doçura agradável na ponta da língua, mas a sensação de falta também é intensa.\n\nMas não é tão ruim... mas gostaria que houvesse uma chamada ao palco.\n\nQuero aplaudir."
+     1 string m_Localized = "Ontem à noite, sonhei com você deixando a vila.\n\nParecia uma peça que eu gostava ter acabado.\n\nOu melhor, como se tivesse voltado de uma viagem?\n\nAinda posso saborear a doçura agradável na ponta da língua, mas a sensação de falta também é intensa.\n\nNão é tão ruim assim... mas gostaria que houvesse uma chamada de cortina.\n\nQuero aplaudir."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1394,7 +1394,7 @@
    [170]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358311
-     1 string m_Localized = "Conclua a chamada ao palco."
+     1 string m_Localized = "Complete a chamada de cortina."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1402,7 +1402,7 @@
    [171]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358312
-     1 string m_Localized = "Meu eterno sol."
+     1 string m_Localized = "Meu sol eterno."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1410,7 +1410,7 @@
    [172]
     0 TableEntryData data
      0 SInt64 m_Id = 222586713995358313
-     1 string m_Localized = "Essa é a minha frase favorita das peças em que participei.\n\n"My eternal sun."\n\nHowever, the sun fell at the climax.\n\nThat was the best part of the play.\n\nThe line, which appeared early in the play, foreshadowed the sun's fated doom.\n\nIt was so passionate, yet so ironic. "
+     1 string m_Localized = "Essa é minha frase favorita das peças em que participei.\n\n\"Meu sol eterno.\"\n\nNo entanto, o sol caiu no clímax.\n\nEssa foi a melhor parte da peça.\n\nA frase, que apareceu no início da peça, prenunciou o destino do sol.\n\nEra tão apaixonante, mas tão irônico."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1434,7 +1434,7 @@
    [175]
     0 TableEntryData data
      0 SInt64 m_Id = 153017396498657280
-     1 string m_Localized = "Mãe, como você está?\n\nMeu filho nasceu. Minha doce filhinha.\n\nDesejo que ela herde seu brilho e seu talento. Então espero dar-lhe o nome de você: Lisa. Imploro sua bênção.\n\nAguardarei sua resposta. Por favor, cuide-se."
+     1 string m_Localized = "Mãe, como você tem passado?\n\nMeu filho nasceu. Minha doce filhinha.\n\nDesejo que ela herde seu brilho, seu talento. Então espero nomeá-la com seu nome: Lisa. Imploro sua bênção.\n\nAguardarei sua resposta. Por favor, cuide-se."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1458,7 +1458,7 @@
    [178]
     0 TableEntryData data
      0 SInt64 m_Id = 241016861562273792
-     1 string m_Localized = "Ellie, como você está?\n\n\nHá algo que quero lhe contar.\n\n\nComo você sabe, um dos gatos da aldeia gosta particularmente de você.\n\n\nVenha até mim se quiser aumentar ainda mais seu vínculo com os gatos."
+     1 string m_Localized = "Ellie, como você está?\n\n\nHá algo que quero te contar.\n\n\nComo você sabe, um dos gatos da vila é particularmente afeiçoado a você.\n\n\nVenha até mim se quiser melhorar ainda mais seu vínculo com os gatos."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1474,7 +1474,7 @@
    [180]
     0 TableEntryData data
      0 SInt64 m_Id = 251239128934154240
-     1 string m_Localized = "Um folheto do restaurante Arden's"
+     1 string m_Localized = "Um Panfleto do Restaurante do Arden"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1482,7 +1482,7 @@
    [181]
     0 TableEntryData data
      0 SInt64 m_Id = 251239130527989760
-     1 string m_Localized = "Pratos confeccionados com ingredientes de qualidade e generosamente temperados com pimenta!\n\n\nPasse pelo Arden's Restaurant e mime-se com uma deliciosa refeição após <color=#800000>um longo dia de trabalho</color>!\n\n\nEncontre o estabelecimento ao sul da fonte de Wisteria."
+     1 string m_Localized = "Pratos cozidos com ingredientes de qualidade e generosamente temperados com pimenta!\n\n\nPasse no Restaurante do Arden e mimar-se com uma refeição deliciosa depois <color=#800000>de um longo dia de trabalho</color>!\n\n\nEncontre o estabelecimento logo ao sul da fonte de Wisteria."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1498,7 +1498,7 @@
    [183]
     0 TableEntryData data
      0 SInt64 m_Id = 242918420395098112
-     1 string m_Localized = "Distinta aprendiz de bruxa Ellie,"
+     1 string m_Localized = "Distinta bruxa aprendiz Ellie,"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1506,7 +1506,7 @@
    [184]
     0 TableEntryData data
      0 SInt64 m_Id = 242918421078769664
-     1 string m_Localized = "Sua ajuda confiável salvou a sociedade das bruxas de mais uma crise.\n\n\nSua recuperação do The Silent Guardian dará início a um novo capítulo para a Escola para Bruxas e também para os registros históricos.\n\n\nAguardamos ansiosamente seu futuro crescimento e jornada com sincera antecipação e melhores votos, e entraremos em contato com você novamente quando confirmarmos sua prontidão. Atenciosamente.\n\n\nPS: Por favor, não responda a esta carta. Qualquer tentativa de localizar o remetente é fortemente desaconselhada."
+     1 string m_Localized = "Sua assistência confiável salvou a sociedade das bruxas de mais uma crise.\n\n\nSua recuperação do Guardião Silencioso inaugurará um capítulo totalmente novo para a Escola para Bruxas e registros históricos.\n\n\nAguardamos seu crescimento e jornada futuros com sincera expectativa e melhores desejos, e entraremos em contato novamente quando confirmarmos sua prontidão. Atenciosamente.\n\n\nPS: Por favor, não responda a esta carta. Qualquer tentativa de localizar o remetente é fortemente desencorajada."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1530,7 +1530,7 @@
    [187]
     0 TableEntryData data
      0 SInt64 m_Id = 282722150057279488
-     1 string m_Localized = "Olá, Ellie. Estou escrevendo para lhe contar algo que pode tornar sua vida na Casa da Bruxa um pouco mais fácil.\n\n\nA esta altura, suas aventuras devem ter preenchido seus pacotes com coisas que você realmente não precisa. De agora em diante, você pode colocá-los no <color=#800000>Baú de Troca de Bolsa de Moedas de Ouro</color> ao lado da minha loja.\n\n\nDeposite 10 itens ou materiais extras coletados e você receberá uma bolsa de moedas em troca. Espero que isso seja útil para você."
+     1 string m_Localized = "Olá, Ellie. Estou escrevendo para te contar algo que pode tornar sua vida na Casa da Bruxa um pouco mais fácil.\n\n\nAté agora, suas aventuras devem ter enchido suas mochilas com coisas que você realmente não precisa. A partir de agora, você pode colocá-las no <color=#800000>Baú de Troca de Bolsas de Moedas de Ouro</color> ao lado da minha loja.\n\n\nDeposite 10 itens coletados sobressalentes ou materiais, e você receberá uma bolsa de moedas em troca. Espero que isso seja útil para você."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1538,7 +1538,7 @@
    [188]
     0 TableEntryData data
      0 SInt64 m_Id = 282722150640287744
-     1 string m_Localized = "—Áurea"
+     1 string m_Localized = "—Aurea"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1546,7 +1546,7 @@
    [189]
     0 TableEntryData data
      0 SInt64 m_Id = 282722204000223232
-     1 string m_Localized = "Para o dono da Casa da Bruxa,"
+     1 string m_Localized = "Para o proprietário da Casa da Bruxa,"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1554,7 +1554,7 @@
    [190]
     0 TableEntryData data
      0 SInt64 m_Id = 282722204520316928
-     1 string m_Localized = "Com a retomada plena de suas atividades, queremos oferecer nosso apoio. A partir de amanhã, um <color=#800000>Baú de Troca de Bolsa de Moedas Luna</color> será instalado em seu jardim.\n\n\nColoque dentro dele todos os itens ou materiais coletados excedentes. Para cada 10 itens depositados, você receberá 1 Bolsa de Moedas Luna.\n\n\nEsperamos que isso seja útil para você. O Catálogo das Bruxas continuará a ajudá-lo de todo o coração."
+     1 string m_Localized = "Com suas atividades retomando totalmente, desejamos oferecer nosso apoio. A partir de amanhã, um <color=#800000>Baú de Troca de Bolsas de Moedas Luna</color> será instalado em seu jardim.\n\n\nColoque quaisquer itens coletados ou materiais excedentes dentro. Para cada 10 itens depositados, você receberá 1 Bolsa de Moedas Luna.\n\n\nEsperamos que isso seja útil para você. O Catálogo das Bruxas continuará a ajudá-la de todo o coração."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1562,7 +1562,7 @@
    [191]
     0 TableEntryData data
      0 SInt64 m_Id = 282722205145268224
-     1 string m_Localized = "—Departamento de Catálogo de Bruxas"
+     1 string m_Localized = "—Departamento do Catálogo das Bruxas"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1570,7 +1570,7 @@
    [192]
     0 TableEntryData data
      0 SInt64 m_Id = 294318497428439040
-     1 string m_Localized = "Ellie, deixei outra tigela para gatos na parte inferior da vila. \r\n\r\nPasse pelas glicínias murchas e você a encontrará. Por favor, cuide bem dos gatos."
+     1 string m_Localized = "Ellie, deixei outra tigela de gato na parte inferior da vila. \r\n\r\nDesça além da glicínia murcha e você a encontrará. Por favor, cuide bem dos gatos."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1578,7 +1578,7 @@
    [193]
     0 TableEntryData data
      0 SInt64 m_Id = 299388972598657024
-     1 string m_Localized = "Na hora certa, não consigo lidar"
+     1 string m_Localized = "Sobre Tempo Que Não Consigo Lidar"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1586,7 +1586,7 @@
    [194]
     0 TableEntryData data
      0 SInt64 m_Id = 299390576542449664
-     1 string m_Localized = "Quando sigo minha rotina, às vezes o trabalho termina rápido demais.\n\nPreparar ingredientes, assar e até limpar. Quando tudo termina muito bem, fico com um tempo vazio.\n\nNesses momentos, simplesmente não sei o que fazer. Começo a me perguntar, esqueci alguma coisa? Cometi algum erro em algum lugar?\n\nTer tempo ocioso é muito difícil para mim. O que você faz quando isso acontece?"
+     1 string m_Localized = "Quando sigo minha rotina, às vezes o trabalho termina muito rapidamente.\n\nPreparar ingredientes, assar, até mesmo limpar - quando tudo termina muito bem, fico com um vazio de tempo.\n\nNaqueles momentos, simplesmente não sei o que fazer. Começo a me perguntar, esqueci alguma coisa? Cometi um erro em algum lugar?\n\nTer tempo ocioso é realmente difícil para mim. O que você faz quando isso acontece?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1594,7 +1594,7 @@
    [195]
     0 TableEntryData data
      0 SInt64 m_Id = 299390581428813824
-     1 string m_Localized = "Se você tiver bons conselhos, por favor, compartilhe comigo."
+     1 string m_Localized = "Se você tiver bons conselhos, por favor compartilhe comigo."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1602,7 +1602,7 @@
    [196]
     0 TableEntryData data
      0 SInt64 m_Id = 299390669718913024
-     1 string m_Localized = "Que tal um donut?"
+     1 string m_Localized = "Que tal uma rosquinha?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1610,7 +1610,7 @@
    [197]
     0 TableEntryData data
      0 SInt64 m_Id = 299390673393123328
-     1 string m_Localized = "Você não está vivendo uma vida ocupada? Deliciosos donuts estão sempre preparados para você.\n\nDeixe seus dias doces ainda mais especiais!\n\nQue tal saboreá-los em nossa Chuity Bakery?\n\nEntão, o que você acha? Este é um anúncio que fiz. Desde que decidi fazer isso, queria fazer direito. Você deveria passar por aqui e provar."
+     1 string m_Localized = "Você não está vivendo uma vida ocupada? Deliciosas rosquinhas estão sempre preparadas para você.\n\nTorne seus dias doces ainda mais especiais!\n\nQue tal experimentá-las na nossa Padaria Chuity?\n\nEntão, o que você acha? Este é um anúncio que fiz. Como decidi fazê-lo, quis fazer direito. Você deveria vir e experimentar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1634,7 +1634,7 @@
    [200]
     0 TableEntryData data
      0 SInt64 m_Id = 299390730985111552
-     1 string m_Localized = "Queria escrever uma carta para você, já que você sempre me ajuda muito.\n\nNão é nada demais. Você provavelmente diria: “Você poderia me contar pessoalmente!” mas... isso é constrangedor, não é?\n\nEntão, vou compartilhar meus sentimentos com você por meio desta carta.\n\nObrigado, sempre.\n\nIsso é tudo que eu realmente queria dizer. Hehe."
+     1 string m_Localized = "Queria escrever uma carta para você, já que você sempre me ajuda tanto.\n\nNão é nada grande. Você provavelmente diria: \"Você poderia apenas me dizer pessoalmente!\" mas... isso é embaraçoso, não é?\n\nEntão, compartilharei meus sentimentos com você através desta carta.\n\nObrigada, sempre.\n\nIsso é tudo que eu realmente queria dizer. Hehe."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1642,7 +1642,7 @@
    [201]
     0 TableEntryData data
      0 SInt64 m_Id = 299390733984038912
-     1 string m_Localized = "Não venha e diga isso diretamente para mim. Vou ficar muito envergonhado."
+     1 string m_Localized = "Não venha me dizer diretamente. Ficarei muito envergonhada."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1650,7 +1650,7 @@
    [202]
     0 TableEntryData data
      0 SInt64 m_Id = 299393060614799360
-     1 string m_Localized = "Ellie, oi, oi!"
+     1 string m_Localized = "Ellie, oi oi!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1658,7 +1658,7 @@
    [203]
     0 TableEntryData data
      0 SInt64 m_Id = 299393063613726720
-     1 string m_Localized = "Hehe, no momento em que acordei, queria escrever uma carta para você.\n\nMas agora que estou escrevendo, não sei o que dizer. Só quero conversar com você todos os dias!\n\nVocê vem me ver hoje, certo? Eu espero todos os dias, me perguntando quando você vai aparecer!"
+     1 string m_Localized = "Hehe, no momento em que acordei, quis escrever uma carta para você.\n\nMas agora que estou escrevendo, não sei realmente o que dizer. Só quero conversar com você todos os dias!\n\nVocê vem me ver hoje, certo? Espero todos os dias, imaginando quando você vai aparecer!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1674,7 +1674,7 @@
    [205]
     0 TableEntryData data
      0 SInt64 m_Id = 299393226528882688
-     1 string m_Localized = "Irmã, me escute!"
+     1 string m_Localized = "Mana, me escute!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1682,7 +1682,7 @@
    [206]
     0 TableEntryData data
      0 SInt64 m_Id = 299393228441485312
-     1 string m_Localized = "Clala me repreendeu de novo hoje, sabe? A irritação dela é a pior, a pior!\n\nParece que ela nunca está satisfeita com nada que eu faço.\n\nTenho certeza de que o irritante rei demônio a possuiu ou algo assim.\n\nSe ao menos você, Ellie, fosse minha irmã... (suspiro)"
+     1 string m_Localized = "Clala me repreendeu de novo hoje, sabe? Suas reclamações são as piores, as absolutamente piores!\n\nParece que ela nunca está satisfeita com nada que eu faço.\n\nTenho certeza que o rei demônio das reclamações a possuiu ou algo assim.\n\nSe apenas você, Ellie, fosse minha irmã... (suspiro)"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1690,7 +1690,7 @@
    [207]
     0 TableEntryData data
      0 SInt64 m_Id = 299393230542831616
-     1 string m_Localized = "De Dana, muito emburrada"
+     1 string m_Localized = "De Dana, amuando muito"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1698,7 +1698,7 @@
    [208]
     0 TableEntryData data
      0 SInt64 m_Id = 299393232568680448
-     1 string m_Localized = "Eu tenho um problema."
+     1 string m_Localized = "Tenho um problema."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1706,7 +1706,7 @@
    [209]
     0 TableEntryData data
      0 SInt64 m_Id = 299393234313510912
-     1 string m_Localized = "Tenho muitas coisas que quero fazer, e esse é o meu problema!\n\nQuando faço isso, quero fazer aquilo também, e quando faço aquilo, quero fazer outra coisa de novo!\n\nSabe aquela sensação de quando você simplesmente não consegue escolher o que fazer?\n\nAinda hoje, fiquei pensando com qual boneca brincar!\n\nEllie, o que você faz quando tem esse tipo de problema?"
+     1 string m_Localized = "Tenho muuuitas coisas que quero fazer, e esse é meu problema!\n\nQuando faço isso, quero fazer aquilo também, e quando faço aquilo, quero fazer outra coisa de novo!\n\nSabe aquele sentimento quando você simplesmente não consegue escolher o que fazer?\n\nAté hoje, fiquei presa me perguntando com qual boneca brincar!\n\nEllie, o que você faz quando tem esse tipo de problema?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1722,7 +1722,7 @@
    [211]
     0 TableEntryData data
      0 SInt64 m_Id = 299397975709941760
-     1 string m_Localized = "Às vezes fico com ciúmes ~"
+     1 string m_Localized = "Às vezes fico com um pouco de inveja~"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1730,7 +1730,7 @@
    [212]
     0 TableEntryData data
      0 SInt64 m_Id = 299397977467355136
-     1 string m_Localized = "Esse seu chapéu... quero dizer, um chapéu falante? Quão hilário é isso?\n\nE se também houver um livro falante ou até mesmo uma planta falante?\n\nOoh~ só de imaginar isso me dá vontade de rir!\n\nEu realmente adoraria ver isso um dia."
+     1 string m_Localized = "Aquele seu chapéu... quer dizer, um chapéu falante? Que hilário é isso?\n\nE se houver também um livro falante ou até mesmo uma planta falante?\n\nOoh~ só de imaginar me faz rir!\n\nEu realmente adoraria ver isso um dia."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1738,7 +1738,7 @@
    [213]
     0 TableEntryData data
      0 SInt64 m_Id = 299397978880835584
-     1 string m_Localized = "Você não pode agitá-lo com sua magia?"
+     1 string m_Localized = "Você não pode fazer isso com sua mágica?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1746,7 +1746,7 @@
    [214]
     0 TableEntryData data
      0 SInt64 m_Id = 299397985927266304
-     1 string m_Localized = "Há algo que quero lhe contar."
+     1 string m_Localized = "Há algo que quero te contar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1754,7 +1754,7 @@
    [215]
     0 TableEntryData data
      0 SInt64 m_Id = 299397987667902464
-     1 string m_Localized = "Sempre pensei que sou grato a você. Ellie, você é uma bruxa maravilhosa e todo mundo gosta de você.\r\n\r\nEu queria ser como você.\r\n\r\nAlgum dia eu poderia ser como você... haha, de jeito nenhum.\r\n\r\nSe eu continuasse sendo uma criança como você, estaria em apuros. Ao contrário de você, ficarei cada vez mais alto. Hehe."
+     1 string m_Localized = "Sempre pensei que sou grata a você. Ellie, você é uma bruxa maravilhosa, e todos gostam de você.\r\n\r\nEu queria ser como você.\r\n\r\nAlgum dia eu poderia ser como você... haha, de jeito nenhum.\r\n\r\nSe eu ficasse uma criança como você, estaria encrencada. Diferente de você, vou crescer mais e mais. Hehe."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1762,7 +1762,7 @@
    [216]
     0 TableEntryData data
      0 SInt64 m_Id = 299397989295292416
-     1 string m_Localized = "Você realmente não acreditou nisso, não é?"
+     1 string m_Localized = "Você não acreditou nisso de verdade, acreditou?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1770,7 +1770,7 @@
    [217]
     0 TableEntryData data
      0 SInt64 m_Id = 299397991832846336
-     1 string m_Localized = "Tenho sobras."
+     1 string m_Localized = "Sobraram coisas."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1778,7 +1778,7 @@
    [218]
     0 TableEntryData data
      0 SInt64 m_Id = 299397993346990080
-     1 string m_Localized = "Minha mãe e meu pai me mandaram um presente de novo.\n\nEu sempre digo a eles que não preciso de coisas assim, mas eles mandam sempre.\n\nComo moro sozinho, não preciso tanto. Nossa.\n\nSe eu simplesmente deixar isso parado, seria um desperdício, então compartilharei os extras. Você pode até agradecer se quiser. Hehe."
+     1 string m_Localized = "Minha mãe e meu pai me enviaram um presente de novo.\n\nContinuei dizendo a eles que não preciso de coisas assim, mas eles enviam todas as vezes.\n\nComo estou morando sozinho, não preciso de tanto. Nossa.\n\nSe eu apenas deixar parado, seria um desperdício, então compartilharei os extras. Você pode até agradecer se quiser. Hehe."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1786,7 +1786,7 @@
    [219]
     0 TableEntryData data
      0 SInt64 m_Id = 299397995049877504
-     1 string m_Localized = "Do Theo, limpando as coisas dele"
+     1 string m_Localized = "De Theo, arrumando suas coisas"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1802,7 +1802,7 @@
    [221]
     0 TableEntryData data
      0 SInt64 m_Id = 299401383510638592
-     1 string m_Localized = "Outro dia, eles estavam vendendo um marcador de livros de edição limitada com um gato fofo.\n\nEra tão adorável que não pude deixar de comprá-lo assim que o vi. Hahaha!\n\nAfinal, coisas fofas e adoráveis ​​são a verdade suprema!\n\nNão posso dizer o quanto estou feliz que o artista tenha decidido vendê-lo.\n\nEu me pergunto se eles vão lançar outra coisa. Eu realmente espero que sim!"
+     1 string m_Localized = "Outro dia, estavam vendendo um marcador de página de edição limitada com um gato fofo.\n\nEra tão adorável que não pude evitar comprá-lo no momento em que o vi. Hahaha!\n\nAfinal, coisas fofas e adoráveis são a verdade suprema!\n\nNão posso te dizer como estou feliz que o artista decidiu vendê-lo.\n\nMe pergunto se vão lançar algo mais. Realmente espero que sim!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1810,7 +1810,7 @@
    [222]
     0 TableEntryData data
      0 SInt64 m_Id = 299401384781512704
-     1 string m_Localized = "De Bjorn, me sentindo feliz"
+     1 string m_Localized = "De Bjorn, se sentindo feliz"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1826,7 +1826,7 @@
    [224]
     0 TableEntryData data
      0 SInt64 m_Id = 299401637840650240
-     1 string m_Localized = "Enquanto eu estava pescando, de repente me lembrei dos momentos em que todos se reuniam para pescar juntos.\n\nNaquela época, todos pegaram uma vara de madeira e a transformaram em uma vara de pescar para brincar.\n\nE, claro, discutimos sobre quem pegou o peixe maior. Hahaha! Pensando nisso agora, foi realmente divertido!\n\n… Viver nesta vila traz tantas lembranças nostálgicas."
+     1 string m_Localized = "Enquanto pescava, lembrei-me repentinamente dos tempos em que todos se reuniam para pescar juntos.\n\nNaquela época, todos pegavam um pedaço de pau e o transformavam em uma vara de pescar para brincar.\n\nE é claro, discutíamos sobre quem pegou o maior peixe. Hahaha! Pensando nisso agora, foi realmente divertido!\n\n... Viver nesta vila traz de volta tantas memórias nostálgicas."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1834,7 +1834,7 @@
    [225]
     0 TableEntryData data
      0 SInt64 m_Id = 299401639178633216
-     1 string m_Localized = "Não é nada de especial. Não se preocupe com isso."
+     1 string m_Localized = "Não é nada especial. Não se preocupe com isso."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1850,7 +1850,7 @@
    [227]
     0 TableEntryData data
      0 SInt64 m_Id = 299401642420830208
-     1 string m_Localized = "Estou tentando escrever uma redação, sabe? Mas hmm, é muito difícil. Quero escrever algo grandioso, como as palavras das grandes pessoas sobre as quais li.\n\nMas nada em particular me vem à mente.\n\n“Enquanto você viver, as chances surgirão”?\n\n“As oportunidades são iguais para todos”?\n\nSão apenas frases que aprendi aqui e ali. Se você tiver uma resposta melhor, não vai me dizer?"
+     1 string m_Localized = "Tenho tentado escrever uma redação, sabe? Mas hmm, é realmente difícil. Quero escrever algo grandioso, como as palavras das grandes pessoas que li.\n\nMas nada em particular vem à mente.\n\n\"Enquanto você viver, as chances virão\"?\n\n\"A oportunidade é igual para todos\"?\n\nSão todos apenas ditados que peguei aqui e ali. Se você tem uma resposta melhor, não me conta?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1866,7 +1866,7 @@
    [229]
     0 TableEntryData data
      0 SInt64 m_Id = 301913944250679296
-     1 string m_Localized = "Entrega adicional da missão Brewing"
+     1 string m_Localized = "Entrega Adicional de Missão de Preparação"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1874,7 +1874,7 @@
    [230]
     0 TableEntryData data
      0 SInt64 m_Id = 301913944854659072
-     1 string m_Localized = "Estamos lhe enviando esta carta com informações sobre a missão adicional do tutorial de fabricação de cerveja.\n\nPara aqueles que não conseguiram experimentar o conteúdo pela rota normal, estamos fornecendo a missão do tutorial separadamente.\n\nDepois de fechar esta carta, a missão será ativada."
+     1 string m_Localized = "Estamos enviando esta carta com informações sobre a Missão Tutorial de Preparação adicional.\n\nPara aqueles que não puderam experimentar o conteúdo pela rota normal, estamos fornecendo a missão tutorial separadamente.\n\nAssim que você fechar esta carta, a missão será ativada."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1890,7 +1890,7 @@
    [232]
     0 TableEntryData data
      0 SInt64 m_Id = 303876444817711104
-     1 string m_Localized = "Aviso sobre correção de bug para recompensa de conclusão de enciclopédia"
+     1 string m_Localized = "Aviso sobre Correção de Bug para Recompensa de Conclusão da Enciclopédia"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1898,7 +1898,7 @@
    [233]
     0 TableEntryData data
      0 SInt64 m_Id = 303876445899841536
-     1 string m_Localized = "Se as estatísticas de Ellie (fadiga, resistência) forem redefinidas repentinamente após carregar seu jogo salvo,\nvocê poderá receber uma carta com a recompensa no próximo dia do jogo.\n\nSe você não for afetado pelo bug, nenhum e-mail chegará.\n\nPedimos desculpas pela inconveniência."
+     1 string m_Localized = "Se as estatísticas de Ellie (Fadiga, Vigor) forem repentinamente redefinidas após carregar seu save,\nvocê pode receber uma Carta com a Recompensa no próximo dia do jogo.\n\nSe você não for afetado pelo bug, nenhum Correio chegará.\n\nPedimos desculpas pelo inconveniente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1922,7 +1922,7 @@
    [236]
     0 TableEntryData data
      0 SInt64 m_Id = 314925413091278848
-     1 string m_Localized = "Gostaríamos de informá-lo sobre a missão do prólogo de Vince, [Uma casa com um cipreste].\n\nNo momento, a missão não pode ser reiniciada, o que impediu que alguns jogadores experimentassem seu conteúdo por completo. Portanto, estamos entregando um resumo da história principal e as recompensas correspondentes através do correio do jogo.\n\nVince planeja usar o “Cipreste” que recebeu de Ellie como pigmento para sua pintura e presentear uma de suas obras de arte emolduradas como forma de agradecimento.\n\nPedimos sinceras desculpas pela inconveniência causada pela incapacidade de prosseguir com a missão adequadamente."
+     1 string m_Localized = "Gostaríamos de informá-lo sobre a missão do prólogo de Vince, [A House with A Cypress Tree].\n\nAtualmente, a missão não pode ser reiniciada, o que tem impedido alguns jogadores de vivenciar plenamente seu conteúdo. Portanto, estamos entregando um resumo da história principal e as recompensas correspondentes através do correio do jogo.\n\nVince planeja usar o “Cipreste” que recebeu de Ellie como pigmento para sua pintura e presenteia uma de suas obras de arte emolduradas como forma de gratidão.\n\nPedimos sinceras desculpas pelo inconveniente causado pela incapacidade de prosseguir com a missão de maneira adequada."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1962,7 +1962,7 @@
    [241]
     0 TableEntryData data
      0 SInt64 m_Id = 332312439482515456
-     1 string m_Localized = "Mas preciso fazer mais, já que Rubrum não se cansa deles.\n\nEles dão a ele uma energia infinita para usar.\n\nVocê deveria tentar alguns também."
+     1 string m_Localized = "Mas tenho que ganhar mais, já que Rubrum não se cansa deles.\n\nEles lhe dão energia infinita para correr.\n\nVocê deveria tentar alguns também."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1986,7 +1986,7 @@
    [244]
     0 TableEntryData data
      0 SInt64 m_Id = 332321989568790528
-     1 string m_Localized = "É bom para carregar.\n\n\nE você trabalha melhor quando está alimentado.\n\n\nO mais importante é que tem um gosto bom. Experimente e você verá."
+     1 string m_Localized = "É bom para carregar.\n\n\nE você trabalha melhor quando está alimentado.\n\n\nMais importante ainda, tem um gosto bom. Experimente e você verá."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2010,7 +2010,7 @@
    [247]
     0 TableEntryData data
      0 SInt64 m_Id = 332322055746519040
-     1 string m_Localized = "Quando eu estava cozinhando, ouvi você conversando lá fora.\n\nPensei que você fosse entrar, mas você, sempre tão ocupado quanto uma abelha, simplesmente passou.\n\nEntão, estou entregando direto na sua porta. Experimente. O ensopado de hoje contém ervas. Deve combater a fadiga melhor do que o normal."
+     1 string m_Localized = "Quando eu estava cozinhando, ouvi você conversando lá fora.\n\nAchei que você fosse entrar, mas você, sempre ocupado como uma abelha, simplesmente passou.\n\nEntão, estou entregando direto na sua porta. Experimente. O ensopado de hoje contém ervas. Deve combater a fadiga melhor do que o normal."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2034,7 +2034,7 @@
    [250]
     0 TableEntryData data
      0 SInt64 m_Id = 332347900913549312
-     1 string m_Localized = "Isso soou muito como um slogan de marketing?\n\nDe qualquer forma, você me ajudou a abrir uma padaria na vila e quero retribuir.\n\nAcredita-se que alimentos açucarados melhoram o humor, por isso estou lhe enviando o donut mais doce do nosso cardápio. Por favor, aproveite."
+     1 string m_Localized = "Isso soou muito como um slogan de marketing?\n\nDe qualquer forma, você me ajudou a abrir uma padaria na aldeia e quero retribuir.\n\nAcredita-se que alimentos açucarados melhoram o humor, por isso estou enviando a você o donut mais doce do nosso cardápio. Por favor, aproveite."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2058,7 +2058,7 @@
    [253]
     0 TableEntryData data
      0 SInt64 m_Id = 332347966105616384
-     1 string m_Localized = "Aparentemente, muita coisa tem acontecido na vila, desde antes do meu retorno, é claro.\n\nTodos estão trabalhando duro, mas Ellie, você parece ser a trabalhadora número um. O que quero dizer é... cuide bem de si mesmo.\n\nDelicie-se com uma comida deliciosa depois de um longo dia de trabalho. Eu trouxe uma coisinha para você. Por favor, aproveite."
+     1 string m_Localized = "Aparentemente, muita coisa tem acontecido na aldeia – desde antes do meu retorno, é claro.\n\nTodo mundo está trabalhando duro, mas Ellie, você parece ser a trabalhadora número 1. O que quero dizer é... cuide bem de si mesmo.\n\nMime-se com uma comida deliciosa após um longo dia de trabalho. Eu trouxe uma coisinha para você. Por favor, aproveite."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2082,7 +2082,7 @@
    [256]
     0 TableEntryData data
      0 SInt64 m_Id = 332348025027198976
-     1 string m_Localized = "Ellie, ouvi dizer que você estava indo originalmente para Highlion.\n\n\nComo é uma cidade grande, Highlion oferece ingredientes mais variados, bons para fazer uma grande variedade de donuts. Quero dizer, os ingredientes disponíveis aqui no Wisteria também são bons... mas eu quero variedades de vez em quando.\n\n\nÉ por isso que incluí um ingrediente não local desta vez. Por favor, deixe-me saber o que você acha disso."
+     1 string m_Localized = "Ellie, ouvi dizer que você estava indo originalmente para Highlion.\n\n\nPor ser uma cidade grande, Highlion oferece ingredientes mais variados, bons para fazer uma grande variedade de donuts. Quer dizer, os ingredientes disponíveis aqui no Wisteria também são bons... mas eu quero variedades de vez em quando.\n\n\nÉ por isso que incluí um ingrediente não local desta vez. Por favor, deixe-me saber o que você acha disso."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2106,7 +2106,7 @@
    [259]
     0 TableEntryData data
      0 SInt64 m_Id = 332348632890900480
-     1 string m_Localized = "Encontrei um galho grosso na floresta.\n\n\nEle não quebrou mesmo depois de brincar com ele por um dia inteiro.\n\n\nEllie, vamos caçar tesouros depois que você tomar chá~"
+     1 string m_Localized = "Encontrei um galho grosso na floresta.\n\n\nNão quebrou mesmo depois de brincar com ele por um dia inteiro.\n\n\nEllie, vamos caçar tesouros depois que você tomar chá ~"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2130,7 +2130,7 @@
    [262]
     0 TableEntryData data
      0 SInt64 m_Id = 332348677946114048
-     1 string m_Localized = "Ontem joguei com um Ritoring. Ele se escondeu em uma árvore. Cheguei perto e toquei nele.\n\nEncontrei outro embaixo de uma pedra, mas ele não brincava comigo.\n\nNão importa o quanto eu o chamasse, ele não saía. Isso me deixou triste.\n\nSeria ótimo se você pudesse se juntar a nós, Ellie. Venha brincar comigo quando você tomar o chá ~"
+     1 string m_Localized = "Ontem joguei com um Ritoring. Ele se escondeu em uma árvore. Cheguei perto e toquei.\n\nEncontrei outro embaixo de uma pedra, mas não brincou comigo.\n\nNão importa como eu gritasse, não sairia. Isso me deixou triste.\n\nSeria ótimo se você pudesse se juntar a nós, Ellie. Venha brincar comigo quando você tomar o chá ~"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2154,7 +2154,7 @@
    [265]
     0 TableEntryData data
      0 SInt64 m_Id = 332348753187733504
-     1 string m_Localized = "Ellie, você recebeu presentes da Ritorings, certo?\n\n\nEssas frutas embrulhadas em folhas nunca têm o mesmo gosto. É tão divertido.\n\n\nTome uma xícara de chá e experimente as frutas.\n\n\nQuero dizer, venha e compartilharei as frutas com você! E vamos brincar juntos também!"
+     1 string m_Localized = "Ellie, você recebeu presentes da Ritorings, certo?\n\n\nAquelas frutas embrulhadas em folhas nunca têm o mesmo sabor. É tão divertido.\n\n\nTome uma xícara de chá e experimente as frutas.\n\n\nQuer dizer, venha que vou dividir as frutas com você! E vamos brincar juntos também!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2178,7 +2178,7 @@
    [268]
     0 TableEntryData data
      0 SInt64 m_Id = 332348795126579200
-     1 string m_Localized = "Ellie, você gosta de dormir? Eu costumava... mas não mais.\n\n\nAgora temos pontes e uma fonte na aldeia. Há tanta coisa para explorar...\n\n\nMas a vovó continua me dizendo para ir para a cama cedo, ou não terei forças no dia seguinte.\n\n\nTambém não posso tomar chá, porque me mantém acordado. Ellie, por favor, beba em meu lugar."
+     1 string m_Localized = "Ellie, você gosta de dormir? Eu costumava... mas não mais.\n\n\nAgora temos pontes e uma fonte na aldeia. Há tanto para explorar...\n\n\nMas a vovó continua me dizendo para ir para a cama cedo, ou não terei forças no dia seguinte.\n\n\nTambém não posso beber chá porque me mantém acordado. Ellie, por favor, beba em meu lugar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2202,7 +2202,7 @@
    [271]
     0 TableEntryData data
      0 SInt64 m_Id = 332084475415265280
-     1 string m_Localized = "Olá, Ellie.	\r\n\r\nDurante minha recente conversa com os aldeões sobre a restauração da Casa da Bruxa, conversamos sobre as tradições de compartilhamento de receitas.\r\n\r\nAqui estão as receitas que eu e outros aldeões reunimos para você, e achei melhor entregá-las a você de uma só vez.\r\n\r\nEspero que você tenha um ótimo dia."
+     1 string m_Localized = "Olá, Ellie.\t\r\n\r\nDurante a minha recente conversa com os aldeões sobre a restauração da Casa da Bruxa, falamos sobre as tradições de partilha de receitas.\r\n\r\nAqui estão as receitas que eu e outros aldeões reunimos para você, e achei melhor entregá-las a você de uma só vez.\r\n\r\nEspero que você tenha um lindo dia."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2226,7 +2226,7 @@
    [274]
     0 TableEntryData data
      0 SInt64 m_Id = 332090475069341696
-     1 string m_Localized = "Olá, Ellie, lembra da nossa conversa sobre Ritorings? É por isso que estou escrevendo.\n\nOntem eu estava escrevendo uma carta para meu pai, e Arin me importunou sobre como eu havia superfaturado os presentes de Ritoring.\n\nNão é como se eu fosse um comerciante. Por que eu saberia quanto cobrar? Enviei-lhe várias caixas de itens. Verifique você mesmo o conteúdo.\n\nDito isso, eu realmente entendi errado...?"
+     1 string m_Localized = "Olá, Ellie, lembra da nossa conversa sobre Ritorings? É por isso que estou escrevendo.\n\nOntem eu estava escrevendo uma carta para meu pai, e Arin me importunou sobre como eu havia superfaturado os presentes de Ritoring.\n\nNão é como se eu fosse um comerciante. Por que eu saberia quanto cobrar? Enviei-lhe várias caixas de itens. Verifique você mesmo o conteúdo.\n\nDito isto, eu realmente entendi errado...?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2235,6 +2235,30 @@
     0 TableEntryData data
      0 SInt64 m_Id = 332090475727847424
      1 string m_Localized = "Super amigável! Rex"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [276]
+    0 TableEntryData data
+     0 SInt64 m_Id = 373316466158174208
+     1 string m_Localized = "Distinta bruxa aprendiz Ellie,"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [277]
+    0 TableEntryData data
+     0 SInt64 m_Id = 373316468901249024
+     1 string m_Localized = "Equipe de Administração do Museu Central de Registros"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [278]
+    0 TableEntryData data
+     0 SInt64 m_Id = 373316467680706560
+     1 string m_Localized = "Os cristais estelares que você doou foram reunidos em número suficiente,\n\numa nova constelação foi concluída no Museu de Registros das Glicínias.\n\nCom base nos registros desta constelação, compilamos as receitas de confecção de móveis relacionadas e as incluímos aqui.\n\nEsperamos suas contribuições contínuas para nossa coleção de discos."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

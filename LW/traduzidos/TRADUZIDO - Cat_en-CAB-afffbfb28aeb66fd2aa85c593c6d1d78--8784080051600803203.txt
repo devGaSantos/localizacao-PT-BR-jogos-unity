@@ -62,7 +62,7 @@
    [5]
     0 TableEntryData data
      0 SInt64 m_Id = 30133743067136
-     1 string m_Localized = "Este gato extrovertido e ativo brinca muito. Embora popular, raramente permite que outras pessoas se aproximem dele, deixando seus admiradores observarem à distância. Os humanos ficam mais atraídos por gatos indiferentes, não é?\n"
+     1 string m_Localized = "Este gato extrovertido e ativo brinca bastante. Embora popular, raramente permite que outros se aproximem, deixando seus admiradores observando-o de longe. Humanos se sentem mais atraídos por gatos reservados, não é mesmo?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -70,7 +70,7 @@
    [6]
     0 TableEntryData data
      0 SInt64 m_Id = 30165875630080
-     1 string m_Localized = "Um gato distante que gosta de se esconder nos cantos. Sua pelagem preta permite que ele se funda nas sombras sem esforço. Dificilmente demonstra interesse por alguma coisa, seja comida ou outras criaturas. Certa vez, uma borboleta ficou sentada em seu nariz por 6 horas por não se mover."
+     1 string m_Localized = "Um gato distante que gosta de se esconder nos cantos. Seu pelo preto como sombra permite que ele se misture sem esforço algum. Quase não demonstra interesse por nada, seja comida ou outras criaturas. Certa vez, uma borboleta pousou em seu nariz por 6 horas por não se mover."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -78,7 +78,7 @@
    [7]
     0 TableEntryData data
      0 SInt64 m_Id = 49291998339072
-     1 string m_Localized = "manga"
+     1 string m_Localized = "Manga"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -86,7 +86,7 @@
    [8]
     0 TableEntryData data
      0 SInt64 m_Id = 49294556864512
-     1 string m_Localized = "Este lindo gato com carapaça de tartaruga é um grande comedor. Parece estar com a boca cheia de comida a qualquer momento. Porém, ele sempre termina qualquer alimento que os humanos lhe oferecem, o que certamente lhe conquista ainda mais carinho."
+     1 string m_Localized = "Este gato fofinho, de casco de tartaruga, é um grande comilão. Parece estar com a boca cheia a qualquer momento. Mesmo assim, sempre termina qualquer alimento que os humanos lhe oferecem, o que certamente lhe rende ainda mais carinho.."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -102,7 +102,7 @@
    [10]
     0 TableEntryData data
      0 SInt64 m_Id = 77781892145152
-     1 string m_Localized = "O primeiro gato a aparecer na área. Parece ser sociável, mas depois de conhecê-lo, você descobrirá que ele simplesmente não se preocupa em fugir quando é abordado por pessoas. Mesmo assim, deve ser bastante tranquilo, pois se dá bem com outros gatos."
+     1 string m_Localized = "O primeiro gato a aparecer na área. Parece ser sociável, mas, depois de conhecê-lo melhor, você perceberá que ele simplesmente não se importa em fugir quando alguém se aproxima. Mesmo assim, deve ser bem tranquilo, já que se dá bem com outros gatos."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -110,7 +110,7 @@
    [11]
     0 TableEntryData data
      0 SInt64 m_Id = 80094048362496
-     1 string m_Localized = "Um gato encantador com pelagem branca como a neve. Curioso e ousado, parece gostar de humanos. Seu charme provavelmente pode conquistar humanos e gatos."
+     1 string m_Localized = "Um gato encantador com um pelo branco como a neve. Curioso e ousado, parece gostar dos humanos. Seu charme provavelmente pode conquistar humanos e gatos."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -118,7 +118,7 @@
    [12]
     0 TableEntryData data
      0 SInt64 m_Id = 608543775203328
-     1 string m_Localized = "Prata"
+     1 string m_Localized = "Pratinha"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -126,7 +126,7 @@
    [13]
     0 TableEntryData data
      0 SInt64 m_Id = 608582085976064
-     1 string m_Localized = "Sobre prata"
+     1 string m_Localized = "Sobre Pratinha"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -134,7 +134,7 @@
    [14]
     0 TableEntryData data
      0 SInt64 m_Id = 4699472685506560
-     1 string m_Localized = "Doce"
+     1 string m_Localized = "Docinho"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -142,7 +142,7 @@
    [15]
     0 TableEntryData data
      0 SInt64 m_Id = 4699547549638656
-     1 string m_Localized = "Provavelmente o gato mais animado e enérgico da região, e o único gato visto em todas as partes da aldeia. Pode estar andando o tempo todo, mesmo quando ninguém mais está presente."
+     1 string m_Localized = "Provavelmente o gato mais animado e enérgico da região, e o único avistado em todas as partes da vila. Pode estar andando por aí o tempo todo, mesmo quando não há mais ninguém por perto."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -150,7 +150,7 @@
    [16]
     0 TableEntryData data
      0 SInt64 m_Id = 4699798310297600
-     1 string m_Localized = "Ele está sempre correndo silenciosamente em busca de um lugar para se deitar, mas na verdade gosta de estar perto de pessoas que conhece e mia enquanto corre em direção a elas de forma adorável.\n"
+     1 string m_Localized = "Ele está sempre correndo silenciosamente em busca de um lugar para se deitar, mas na verdade gosta de estar perto de pessoas que conhece e mia enquanto corre em sua direção adoravelmente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -158,7 +158,7 @@
    [17]
     0 TableEntryData data
      0 SInt64 m_Id = 4700206336385024
-     1 string m_Localized = "Sua pelagem é macia devido à sua paixão pelo banho de sol. Como um gato tímido e vigilante, ele não baixa a guarda facilmente, mas quando o faz, ele grudará em você todos os dias e soltará miados suaves de satisfação se você acariciar sua barriga suavemente."
+     1 string m_Localized = "Seu pelo é macio devido à sua paixão por banhos de sol. Como um gato tímido e vigilante, ele não baixa guarda facilmente, mas, uma vez que o faz, grudará em você todos os dias e soltará miados suaves de satisfação se você acariciar sua barriga suavemente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -166,7 +166,7 @@
    [18]
     0 TableEntryData data
      0 SInt64 m_Id = 5059675553562624
-     1 string m_Localized = "Matiz"
+     1 string m_Localized = "HUE"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -174,7 +174,7 @@
    [19]
     0 TableEntryData data
      0 SInt64 m_Id = 5059702145449984
-     1 string m_Localized = "Este gato bem cuidado tem pelo macio e macio. Ele se comporta mais como um cachorrinho quando está perto de alguém conhecido, permitindo que ele o acaricie ou acaricie como desejarem. Parece cansado e dizem que boceja muito, mas eu nunca vi isso."
+     1 string m_Localized = "Este gato bem cuidado tem pelo macio e suave. Ele se comporta mais como um filhote quando está perto de alguém familiar, permitindo que o acaricie ou o acaricie conforme desejar. Parece cansado e dizem que boceja muito, mas eu nunca o vi pessoalmente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -182,7 +182,7 @@
    [20]
     0 TableEntryData data
      0 SInt64 m_Id = 5060275561332736
-     1 string m_Localized = "Lua"
+     1 string m_Localized = "Luna"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -190,7 +190,7 @@
    [21]
     0 TableEntryData data
      0 SInt64 m_Id = 5060333769883648
-     1 string m_Localized = "Tem uma silhueta suave, uma pelagem brilhante que reflete o luar e olhos grandes tão lindos quanto a lua. Olhar para esses olhos pode iluminar seu humor à noite. No entanto, não parece ter muitos amigos gatos."
+     1 string m_Localized = "Tem uma silhueta suave, um pelo brilhante e reflete a luz da lua além dos seus olhos grandes, tão lindo quanto a lua. Olhar fixamente para aqueles olhos pode melhorar o seu humor à noite. No entanto, parece não ter muitos amigos felinos."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -206,7 +206,7 @@
    [23]
     0 TableEntryData data
      0 SInt64 m_Id = 132268397773529088
-     1 string m_Localized = "ChocoChip"
+     1 string m_Localized = "Gota de Chocolate"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -222,7 +222,7 @@
    [25]
     0 TableEntryData data
      0 SInt64 m_Id = 132268190704934912
-     1 string m_Localized = "Enevoado"
+     1 string m_Localized = "Misty"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -230,7 +230,7 @@
    [26]
     0 TableEntryData data
      0 SInt64 m_Id = 132268345797713920
-     1 string m_Localized = "Quentinho"
+     1 string m_Localized = "Tostadinho"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -238,7 +238,7 @@
    [27]
     0 TableEntryData data
      0 SInt64 m_Id = 132268258489081856
-     1 string m_Localized = "Adora lugares aconchegantes e aconchegantes, buscando sempre conforto. Mostra pouco interesse em coisas que não lhe dizem respeito e é cauteloso com estranhos, mas dá uma piscadela tímida e um ronronar satisfeito quando acariciado. Quando chamado, só se levanta depois de muita hesitação."
+     1 string m_Localized = "Adora lugares quentes e aconchegantes, sempre em busca de conforto. Demonstra pouco interesse por coisas que não lhe dizem respeito e é cautelosa com estranhos, mas pisca timidamente e ronrona satisfeita quando acariciada. Quando chamada, só se levanta após muita hesitação."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -246,7 +246,7 @@
    [28]
     0 TableEntryData data
      0 SInt64 m_Id = 132268324113162240
-     1 string m_Localized = "Com uma personalidade calma, o gato sempre parece relaxado, mas raramente se aproxima de quem encontra pela primeira vez. No entanto, uma vez aberto o seu coração, senta-se calmamente ao seu lado, atraindo o seu olhar com os seus padrões encantadores e criando uma atmosfera reconfortante."
+     1 string m_Localized = "Com uma personalidade calma, ela sempre parece relaxada, mas raramente se aproxima de quem conhece. No entanto, assim que abre o coração, senta-se silenciosamente ao seu lado, atraindo o olhar com seus padrões encantadores e criando uma atmosfera reconfortante."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -254,7 +254,7 @@
    [29]
     0 TableEntryData data
      0 SInt64 m_Id = 132268375992508416
-     1 string m_Localized = "Em dias de sol, esse patrão de beco só precisa rolar em algum lugar do quintal. Com seu pelo bronze beijado pelo sol, perfeito para brincar na terra, ele está sempre pronto para fazer travessuras. Apesar da energia ilimitada, de alguma forma mantém a sua figura rechonchuda e fofinha – um verdadeiro “gato mantenedor” que nunca perde o seu encanto."
+     1 string m_Localized = "Em dias ensolarados, este pequeno dono de rua só precisa rolar em algum lugar no quintal. Com sua pelagem bronzeada beijada pelo sol, perfeita para brincar na terra, ele está sempre aprontando. Apesar da energia inesgotável, ele de alguma forma mantém sua figura roliça e fofinha — um verdadeiro \"gato de manutenção\" que nunca perde o charme."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -262,7 +262,7 @@
    [30]
     0 TableEntryData data
      0 SInt64 m_Id = 132268430711398400
-     1 string m_Localized = "Embora não goste de se movimentar, este gato caloroso nunca perde a chance de ficar perto das pessoas. Adora ficar muito tempo ao ar livre, olhando para algo distante. Quando acariciado, ele fecha lentamente os olhos e ronrona suavemente."
+     1 string m_Localized = "Embora não goste de se movimentar, este gato afetuoso nunca perde a oportunidade de ficar perto das pessoas. Adora ficar deitado ao ar livre por longos períodos, observando algo distante. Quando acariciado, fecha os olhos lentamente e ronrona suavemente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -270,7 +270,7 @@
    [31]
     0 TableEntryData data
      0 SInt64 m_Id = 132268637763215360
-     1 string m_Localized = "Um amigo como um dia de primavera, com pelo macio e rosa claro. A maneira como ele salta levemente sob a luz do sol traz à mente pétalas de flores de cerejeira tremulando ao vento. Quando atraído por alguém, ele cutuca a cabeça de maneira divertida, como se estivesse pedindo para brincar com ele."
+     1 string m_Localized = "Um amigo como um dia de primavera, com pelos macios e rosa-claros. O jeito como ele salta levemente sob a luz do sol lembra pétalas de cerejeira balançando ao vento. Quando atraído por alguém, ele cutuca a cabeça de brincadeira, como se pedisse para brincar com ele."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

@@ -13,7 +13,7 @@ from datetime import datetime
 # =========================
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
-OLLAMA_MODEL = "lwitw-ptbr"  # ou "tradutor-game-ptbr"
+OLLAMA_MODEL = "tradutor4B"  # ou "tradutor-game-ptbr"
 
 MEMORY_FOLDER = "memory"
 
@@ -35,14 +35,14 @@ REPORT_FILE = os.path.join(MEMORY_FOLDER, "relatorio_faltantes_ollama.txt")
 # Começa com 50 no 7B.
 # Se estiver estável e rápido, teste 75.
 # Se falhar muito, reduza para 30.
-BATCH_SIZE = 50
+BATCH_SIZE = 10
 
 TEMPERATURE = 0.03
 NUM_CTX = 8192
 REQUEST_TIMEOUT = 900
 KEEP_ALIVE = "60m"
 
-SAVE_EVERY = 50
+SAVE_EVERY = 3000
 PRETTY_FINAL_JSON = True
 PRETTY_CHECKPOINT_JSON = False
 
@@ -342,6 +342,28 @@ REGRAS:
 - Não invente contexto.
 - Não explique nada.
 - Responda somente JSON válido.
+
+CONTEXTO
+
+O jogo contém muitos diálogos casuais e emocionais.
+
+Quando uma palavra possuir múltiplos significados:
+- escolha o significado mais natural para conversa humana;
+- NÃO escolha automaticamente o significado de dicionário mais literal.
+
+Exemplo CRÍTICO:
+"I guess there's no fine."
+NÃO significa:
+"Acho que não há multa."
+
+Neste contexto, "fine" significa:
+- problema;
+- tudo bem;
+- aceitável.
+
+Traduções corretas:
+- "Acho que não tem problema."
+- "Então acho que tudo bem."
 """.strip()
 
 

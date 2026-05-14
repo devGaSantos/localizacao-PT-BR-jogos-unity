@@ -38,7 +38,7 @@
    [2]
     0 TableEntryData data
      0 SInt64 m_Id = 805801361409
-     1 string m_Localized = "Caverna iluminada pelas estrelas"
+     1 string m_Localized = "Carverna Estrelada"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -46,7 +46,7 @@
    [3]
     0 TableEntryData data
      0 SInt64 m_Id = 805801361410
-     1 string m_Localized = "Castelo Velho"
+     1 string m_Localized = "Castelo Antigo"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -62,7 +62,7 @@
    [5]
     0 TableEntryData data
      0 SInt64 m_Id = 805801361412
-     1 string m_Localized = "Rede de insetos"
+     1 string m_Localized = "Rede de Insetos"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -78,7 +78,7 @@
    [7]
     0 TableEntryData data
      0 SInt64 m_Id = 805801361414
-     1 string m_Localized = "Vara de pesca"
+     1 string m_Localized = "Vara de Pescar"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -102,7 +102,7 @@
    [10]
     0 TableEntryData data
      0 SInt64 m_Id = 805801361417
-     1 string m_Localized = "Torrador"
+     1 string m_Localized = "Tostador"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -118,7 +118,7 @@
    [12]
     0 TableEntryData data
      0 SInt64 m_Id = 30416549802213376
-     1 string m_Localized = "Em torno da água"
+     1 string m_Localized = "Sobre a Água"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -134,7 +134,7 @@
    [14]
     0 TableEntryData data
      0 SInt64 m_Id = 84114893096284160
-     1 string m_Localized = "Floresta Profunda"
+     1 string m_Localized = "Floresta Densa"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -142,7 +142,7 @@
    [15]
     0 TableEntryData data
      0 SInt64 m_Id = 84114927799955456
-     1 string m_Localized = "Penhasco"
+     1 string m_Localized = "Montanha"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -166,7 +166,7 @@
    [18]
     0 TableEntryData data
      0 SInt64 m_Id = 122104153311043584
-     1 string m_Localized = "Moeda de ouro"
+     1 string m_Localized = "Moeda de Ouro"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -182,7 +182,7 @@
    [20]
     0 TableEntryData data
      0 SInt64 m_Id = 165928460575899648
-     1 string m_Localized = "Mesa Bandeja"
+     1 string m_Localized = "Mesa com bandeja"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -206,7 +206,7 @@
    [23]
     0 TableEntryData data
      0 SInt64 m_Id = 177858622603198464
-     1 string m_Localized = "Classificação dos tópicos de pesquisa da enciclopédia"
+     1 string m_Localized = "Classificação de tópicos de pesquisa da enciclopédia"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -246,7 +246,7 @@
    [28]
     0 TableEntryData data
      0 SInt64 m_Id = 294956056113643520
-     1 string m_Localized = "Quinta-feira"
+     1 string m_Localized = "Terça-feira"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -278,7 +278,7 @@
    [32]
     0 TableEntryData data
      0 SInt64 m_Id = 296450429905137664
-     1 string m_Localized = "Receita Limitada"
+     1 string m_Localized = "Receita limitada"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -286,7 +286,7 @@
    [33]
     0 TableEntryData data
      0 SInt64 m_Id = 311568162890760192
-     1 string m_Localized = "Todos"
+     1 string m_Localized = "Tudo"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -302,7 +302,7 @@
    [35]
     0 TableEntryData data
      0 SInt64 m_Id = 349803472303267840
-     1 string m_Localized = "Estação das Bruxas"
+     1 string m_Localized = "Estação de Bruxa"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -310,7 +310,7 @@
    [36]
     0 TableEntryData data
      0 SInt64 m_Id = 387669837473771520
-     1 string m_Localized = "Estação das Bruxas"
+     1 string m_Localized = "Estação de Bruxa"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -318,7 +318,7 @@
    [37]
     0 TableEntryData data
      0 SInt64 m_Id = 358104046768291840
-     1 string m_Localized = "Misturador"
+     1 string m_Localized = "Mixer"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -342,7 +342,7 @@
    [40]
     0 TableEntryData data
      0 SInt64 m_Id = 390416742872055808
-     1 string m_Localized = "Novato"
+     1 string m_Localized = "Iniciante"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -350,7 +350,7 @@
    [41]
     0 TableEntryData data
      0 SInt64 m_Id = 390416744998567936
-     1 string m_Localized = "Padrão"
+     1 string m_Localized = "Intermediário"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -398,7 +398,7 @@
    [47]
     0 TableEntryData data
      0 SInt64 m_Id = 441306532702658560
-     1 string m_Localized = "Quadro de memorandos"
+     1 string m_Localized = "Quadro de Lembretes"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -406,7 +406,7 @@
    [48]
     0 TableEntryData data
      0 SInt64 m_Id = 441307004389892096
-     1 string m_Localized = "Seletor de ferramentas"
+     1 string m_Localized = "Ferramentas"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -422,7 +422,7 @@
    [50]
     0 TableEntryData data
      0 SInt64 m_Id = 441307972233928704
-     1 string m_Localized = "Seletor de Poções"
+     1 string m_Localized = "Poções"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -438,7 +438,7 @@
    [52]
     0 TableEntryData data
      0 SInt64 m_Id = 460160147194150912
-     1 string m_Localized = "Móveis para gatos"
+     1 string m_Localized = "Móvel para Gatos"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -446,7 +446,7 @@
    [53]
     0 TableEntryData data
      0 SInt64 m_Id = 460160306678366208
-     1 string m_Localized = "Brinquedo de gato"
+     1 string m_Localized = "Brinquedo para Gatos"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -454,7 +454,7 @@
    [54]
     0 TableEntryData data
      0 SInt64 m_Id = 469574322551070720
-     1 string m_Localized = "Mobília"
+     1 string m_Localized = "Móveis"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -486,7 +486,7 @@
    [58]
     0 TableEntryData data
      0 SInt64 m_Id = 501911216458596352
-     1 string m_Localized = "Item raro coletado"
+     1 string m_Localized = "Item coletado raro"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -502,7 +502,7 @@
    [60]
     0 TableEntryData data
      0 SInt64 m_Id = 490604666490224640
-     1 string m_Localized = "Ritorando"
+     1 string m_Localized = "Ritoring"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -510,7 +510,7 @@
    [61]
     0 TableEntryData data
      0 SInt64 m_Id = 506964193435262976
-     1 string m_Localized = "Móveis artesanais"
+     1 string m_Localized = "Móveis Craftado"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -526,7 +526,7 @@
    [63]
     0 TableEntryData data
      0 SInt64 m_Id = 505817431211278336
-     1 string m_Localized = "Arte"
+     1 string m_Localized = "Criar"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -534,7 +534,7 @@
    [64]
     0 TableEntryData data
      0 SInt64 m_Id = 561040224557719552
-     1 string m_Localized = "Sino que assusta pássaros"
+     1 string m_Localized = "Sino espantador de pássaros"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -550,7 +550,7 @@
    [66]
     0 TableEntryData data
      0 SInt64 m_Id = 573646660468285440
-     1 string m_Localized = "UI integrada"
+     1 string m_Localized = "UI Integrado"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

@@ -1,6 +1,8 @@
 import os
 import re
 
+#ESSE CARA TINHA QUE GERAR O JSON COM TUDO
+
 translated_folder = "traduzidos"
 memory_folder = "memory"
 output_folder = "revisados"

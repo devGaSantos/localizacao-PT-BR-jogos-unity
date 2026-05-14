@@ -17,8 +17,8 @@
    0 Array Array (0 items)
     0 int size = 0
  0 TableEntryData m_TableData
-  0 Array Array (134 items)
-   0 int size = 134
+  0 Array Array (183 items)
+   0 int size = 183
    [0]
     0 TableEntryData data
      0 SInt64 m_Id = 24469635072
@@ -934,7 +934,7 @@
    [114]
     0 TableEntryData data
      0 SInt64 m_Id = 320809750194536448
-     1 string m_Localized = "Paper Decoration 1"
+     1 string m_Localized = "Paper Decoration A"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -942,7 +942,7 @@
    [115]
     0 TableEntryData data
      0 SInt64 m_Id = 320809753696780288
-     1 string m_Localized = "Paper Decoration 2"
+     1 string m_Localized = "Paper Decoration B"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1070,7 +1070,7 @@
    [131]
     0 TableEntryData data
      0 SInt64 m_Id = 327976936776376320
-     1 string m_Localized = "Potion Decoration 1"
+     1 string m_Localized = "Potion Decoration A"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1078,7 +1078,7 @@
    [132]
     0 TableEntryData data
      0 SInt64 m_Id = 327976948625285120
-     1 string m_Localized = "Potion Decoration 2"
+     1 string m_Localized = "Potion Decoration B"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1087,6 +1087,398 @@
     0 TableEntryData data
      0 SInt64 m_Id = 328046138098950144
      1 string m_Localized = "Glass Flower"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [134]
+    0 TableEntryData data
+     0 SInt64 m_Id = 373660948647624704
+     1 string m_Localized = "Globe"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [135]
+    0 TableEntryData data
+     0 SInt64 m_Id = 373661021213278208
+     1 string m_Localized = "Jar"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [136]
+    0 TableEntryData data
+     0 SInt64 m_Id = 373661072065019904
+     1 string m_Localized = "Moon"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [137]
+    0 TableEntryData data
+     0 SInt64 m_Id = 373661175001628672
+     1 string m_Localized = "Blue star decoration"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [138]
+    0 TableEntryData data
+     0 SInt64 m_Id = 373665937872896000
+     1 string m_Localized = "Medium wall light"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [139]
+    0 TableEntryData data
+     0 SInt64 m_Id = 373661552782589952
+     1 string m_Localized = "Cloud"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [140]
+    0 TableEntryData data
+     0 SInt64 m_Id = 373665890175270912
+     1 string m_Localized = "Garland"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [141]
+    0 TableEntryData data
+     0 SInt64 m_Id = 373665983527895040
+     1 string m_Localized = "Small wall light"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [142]
+    0 TableEntryData data
+     0 SInt64 m_Id = 373939654960070656
+     1 string m_Localized = "Floor Lamp"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [143]
+    0 TableEntryData data
+     0 SInt64 m_Id = 373685046660546560
+     1 string m_Localized = "Cushion"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [144]
+    0 TableEntryData data
+     0 SInt64 m_Id = 373661998691631104
+     1 string m_Localized = "Green star decoration"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [145]
+    0 TableEntryData data
+     0 SInt64 m_Id = 373940788596555776
+     1 string m_Localized = "Street Lamp"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [146]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382647720243081216
+     1 string m_Localized = "Aquarius"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [147]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382647993275494400
+     1 string m_Localized = "Cancer"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [148]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382648984775405568
+     1 string m_Localized = "Capricorn"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [149]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382649095295315968
+     1 string m_Localized = "Libra"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [150]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382649411705221120
+     1 string m_Localized = "Leo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [151]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382649506815258624
+     1 string m_Localized = "Pisces"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [152]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382649509151485952
+     1 string m_Localized = "Sagittarius"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [153]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382650788527452160
+     1 string m_Localized = "Scorpio"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [154]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382650927946117120
+     1 string m_Localized = "Gemini"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [155]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382651384651296768
+     1 string m_Localized = "Witchflower&Squishychub"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [156]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382651967458226176
+     1 string m_Localized = "Aries"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [157]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382652172815544320
+     1 string m_Localized = "Taurus"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [158]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382652292978159616
+     1 string m_Localized = "Virgo"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [159]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382652295238889472
+     1 string m_Localized = "Blue Bubble Lizard"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [160]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382652945104351232
+     1 string m_Localized = "Gaga Bird"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [161]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382653303050448896
+     1 string m_Localized = "Furball Rat"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [162]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382654391845629952
+     1 string m_Localized = "Honey Bear"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [163]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382654508673773568
+     1 string m_Localized = "Cotton Doggy"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [164]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382654947599298560
+     1 string m_Localized = "Starwhale"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [165]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382655495689973760
+     1 string m_Localized = "Jelly Shell"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [166]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382655573594976256
+     1 string m_Localized = "Buoyancy Herb"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [167]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382655658177310720
+     1 string m_Localized = "Fog Fox"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [168]
+    0 TableEntryData data
+     0 SInt64 m_Id = 385947320987136000
+     1 string m_Localized = "Star Shard"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [169]
+    0 TableEntryData data
+     0 SInt64 m_Id = 385950173751390208
+     1 string m_Localized = "Star Core"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [170]
+    0 TableEntryData data
+     0 SInt64 m_Id = 385950365020041216
+     1 string m_Localized = "Nebula Crystal\r"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [171]
+    0 TableEntryData data
+     0 SInt64 m_Id = 385950496813461504
+     1 string m_Localized = "Wings of Light"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [172]
+    0 TableEntryData data
+     0 SInt64 m_Id = 385950604607074304
+     1 string m_Localized = "Orbit Pearl"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [173]
+    0 TableEntryData data
+     0 SInt64 m_Id = 385950790163083264
+     1 string m_Localized = "Inhaler Stone"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [174]
+    0 TableEntryData data
+     0 SInt64 m_Id = 385950902847254528
+     1 string m_Localized = "Celestial Eye"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [175]
+    0 TableEntryData data
+     0 SInt64 m_Id = 385951004286496768
+     1 string m_Localized = "Ice Star Crystal"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [176]
+    0 TableEntryData data
+     0 SInt64 m_Id = 388189220060250112
+     1 string m_Localized = "Corner"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [177]
+    0 TableEntryData data
+     0 SInt64 m_Id = 388189227740020736
+     1 string m_Localized = "Celestial Cauldron"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [178]
+    0 TableEntryData data
+     0 SInt64 m_Id = 388189777470668800
+     1 string m_Localized = "Celestial Globe"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [179]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382642915743346688
+     1 string m_Localized = "Tiny Constellation A"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [180]
+    0 TableEntryData data
+     0 SInt64 m_Id = 385963529912692736
+     1 string m_Localized = "Tiny Constellation B"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [181]
+    0 TableEntryData data
+     0 SInt64 m_Id = 385963531191955456
+     1 string m_Localized = "Tiny Constellation C"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [182]
+    0 TableEntryData data
+     0 SInt64 m_Id = 385963532920008704
+     1 string m_Localized = "Tiny Constellation D"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

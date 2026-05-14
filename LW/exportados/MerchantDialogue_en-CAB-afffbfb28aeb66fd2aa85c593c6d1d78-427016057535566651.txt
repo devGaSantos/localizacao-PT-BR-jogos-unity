@@ -20,8 +20,8 @@
      0 managedRefArrayItem data
       0 SInt64 rid = 0
  0 TableEntryData m_TableData
-  0 Array Array (215 items)
-   0 int size = 215
+  0 Array Array (224 items)
+   0 int size = 224
    [0]
     0 TableEntryData data
      0 SInt64 m_Id = 100189405184
@@ -1837,6 +1837,78 @@
     0 TableEntryData data
      0 SInt64 m_Id = 542884369203191808
      1 string m_Localized = "Please choose the item you want first."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [215]
+    0 TableEntryData data
+     0 SInt64 m_Id = 573948309684191232
+     1 string m_Localized = "No problem. Take all the time you need."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [216]
+    0 TableEntryData data
+     0 SInt64 m_Id = 573948311194140672
+     1 string m_Localized = "After all, I make it a rule never to buy things I don't need. Hehe."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [217]
+    0 TableEntryData data
+     0 SInt64 m_Id = 573948452949032960
+     1 string m_Localized = "How many are you looking to sell?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [218]
+    0 TableEntryData data
+     0 SInt64 m_Id = 573948454152798208
+     1 string m_Localized = "That will be {1} in total."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [219]
+    0 TableEntryData data
+     0 SInt64 m_Id = 573948528144515072
+     1 string m_Localized = "Do come again~"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [220]
+    0 TableEntryData data
+     0 SInt64 m_Id = 573948530719817728
+     1 string m_Localized = "Are you here to sell some Star Crystals?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [221]
+    0 TableEntryData data
+     0 SInt64 m_Id = 573948676866146304
+     1 string m_Localized = "That'll be {0}."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [222]
+    0 TableEntryData data
+     0 SInt64 m_Id = 573952761493291008
+     1 string m_Localized = "Is there anything you're looking for?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [223]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576862481040375808
+     1 string m_Localized = "Please insert Constellation Ores or Meteorites. We are currently exchanging items."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

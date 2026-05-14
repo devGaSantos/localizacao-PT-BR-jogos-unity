@@ -41,7 +41,7 @@
    [2]
     0 TableEntryData data
      0 SInt64 m_Id = 528142282752
-     1 string m_Localized = "Colete {0}."
+     1 string m_Localized = "Coletar {0}x."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -52,7 +52,7 @@
    [3]
     0 TableEntryData data
      0 SInt64 m_Id = 733998723072
-     1 string m_Localized = "Colete {0}."
+     1 string m_Localized = "Coletar {0}x."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -63,7 +63,7 @@
    [4]
     0 TableEntryData data
      0 SInt64 m_Id = 922843066368
-     1 string m_Localized = "Colete usando a poção apropriada."
+     1 string m_Localized = "Coletar usando a poção apropriada."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -71,7 +71,7 @@
    [5]
     0 TableEntryData data
      0 SInt64 m_Id = 1041923551232
-     1 string m_Localized = "Colete sem usar a poção apropriada."
+     1 string m_Localized = "Coletar sem usar a poção apropriada."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -79,7 +79,7 @@
    [6]
     0 TableEntryData data
      0 SInt64 m_Id = 1309222350848
-     1 string m_Localized = "Coletar de {0}."
+     1 string m_Localized = "Colectar de {0}."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -90,7 +90,7 @@
    [7]
     0 TableEntryData data
      0 SInt64 m_Id = 1785087111168
-     1 string m_Localized = "Colete em {0}."
+     1 string m_Localized = "Coletar em {0}."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -112,7 +112,7 @@
    [9]
     0 TableEntryData data
      0 SInt64 m_Id = 2114868457472
-     1 string m_Localized = "Ao sentar"
+     1 string m_Localized = "Quando sentado"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -128,7 +128,7 @@
    [11]
     0 TableEntryData data
      0 SInt64 m_Id = 2514329776128
-     1 string m_Localized = "Colete em 2 tentativas"
+     1 string m_Localized = "Coletar em 2 tentativas"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -152,7 +152,7 @@
    [14]
     0 TableEntryData data
      0 SInt64 m_Id = 3399596355584
-     1 string m_Localized = "Abra o botão com ferramentas"
+     1 string m_Localized = "Abra o broto usando ferramentas"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -168,7 +168,7 @@
    [16]
     0 TableEntryData data
      0 SInt64 m_Id = 8362275876864
-     1 string m_Localized = "Aumente a descoberta"
+     1 string m_Localized = "Aumentar a descoberta"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -176,7 +176,7 @@
    [17]
     0 TableEntryData data
      0 SInt64 m_Id = 8439774031872
-     1 string m_Localized = "Aumente a taxa de drops extras ao coletar"
+     1 string m_Localized = "Aumente a taxa de gotas extras ao coletar"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -184,7 +184,7 @@
    [18]
     0 TableEntryData data
      0 SInt64 m_Id = 8875750961152
-     1 string m_Localized = "Gratuito para usar a Incubadora"
+     1 string m_Localized = "Livre para usar a Incubadora"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -224,7 +224,7 @@
    [23]
     0 TableEntryData data
      0 SInt64 m_Id = 7558645172383744
-     1 string m_Localized = "Pelo menos 2 Squishychubs antes de escaparem para suas tocas"
+     1 string m_Localized = "Pelo menos 2 Fofuxos antes de escaparem para suas tocas"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -232,7 +232,7 @@
    [24]
     0 TableEntryData data
      0 SInt64 m_Id = 7560379978461184
-     1 string m_Localized = "Squishychubs atraídos para longe de suas tocas"
+     1 string m_Localized = "Fofuxos atraído para longe de suas tocas"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -240,7 +240,7 @@
    [25]
     0 TableEntryData data
      0 SInt64 m_Id = 7649596477779968
-     1 string m_Localized = "Sem ser notado pelo Pompom"
+     1 string m_Localized = "Sem ser notado por um Pompom"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -264,7 +264,7 @@
    [28]
     0 TableEntryData data
      0 SInt64 m_Id = 10126375960424448
-     1 string m_Localized = "“Boa recompensa”"
+     1 string m_Localized = "“Recompensa Bonita”"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -272,7 +272,7 @@
    [29]
     0 TableEntryData data
      0 SInt64 m_Id = 10136772528549888
-     1 string m_Localized = "Antes de escapar"
+     1 string m_Localized = "Antes de Escapar"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -280,7 +280,7 @@
    [30]
     0 TableEntryData data
      0 SInt64 m_Id = 10142761361321984
-     1 string m_Localized = "Abrindo o botão com batidas corporais"
+     1 string m_Localized = "Abrindo o broto com pancadas no corpo"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -304,7 +304,7 @@
    [33]
     0 TableEntryData data
      0 SInt64 m_Id = 13392674664722432
-     1 string m_Localized = "Um inseto perseguido por um pompom"
+     1 string m_Localized = "Um percevejo perseguindo um pompom"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -328,7 +328,7 @@
    [36]
     0 TableEntryData data
      0 SInt64 m_Id = 13401018649522176
-     1 string m_Localized = "Erva de bordo nas nuvens"
+     1 string m_Localized = "Folha de Boldo nas Nuvens"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -344,7 +344,7 @@
    [38]
     0 TableEntryData data
      0 SInt64 m_Id = 119947728325947392
-     1 string m_Localized = "Em 20 segundos"
+     1 string m_Localized = "Em 20 seg"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -384,7 +384,7 @@
    [43]
     0 TableEntryData data
      0 SInt64 m_Id = 123979994364596224
-     1 string m_Localized = "Colete na primeira tentativa"
+     1 string m_Localized = "Coletado na primeira tentativa"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -400,7 +400,7 @@
    [45]
     0 TableEntryData data
      0 SInt64 m_Id = 128714014736494592
-     1 string m_Localized = "Em 20 anos, depois de você se esconder"
+     1 string m_Localized = "Em 15s depois de você se esconder"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -408,7 +408,7 @@
    [46]
     0 TableEntryData data
      0 SInt64 m_Id = 128715363058429952
-     1 string m_Localized = "Encontre na sua primeira tentativa"
+     1 string m_Localized = "Descubra na sua primeira tentativa"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -416,7 +416,7 @@
    [47]
     0 TableEntryData data
      0 SInt64 m_Id = 177216545681219584
-     1 string m_Localized = "Pontuação total de elaboração"
+     1 string m_Localized = "Pontuação total de craft"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -424,7 +424,7 @@
    [48]
     0 TableEntryData data
      0 SInt64 m_Id = 177217550800035840
-     1 string m_Localized = "Pontuação de artesanato chega a 70"
+     1 string m_Localized = "Pontuação de craft atingido: 80"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -432,7 +432,7 @@
    [49]
     0 TableEntryData data
      0 SInt64 m_Id = 177217748750213120
-     1 string m_Localized = "Pontuação de artesanato chega a 50"
+     1 string m_Localized = "Pontuação de craft atingido: 50"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -440,7 +440,7 @@
    [50]
     0 TableEntryData data
      0 SInt64 m_Id = 177217903608111104
-     1 string m_Localized = "Desbloquear artesanato automático"
+     1 string m_Localized = "Desbloquear AutoCraft"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -456,7 +456,7 @@
    [52]
     0 TableEntryData data
      0 SInt64 m_Id = 192457787106373632
-     1 string m_Localized = "Mariposa do néctar em fuga rápida"
+     1 string m_Localized = "Mariposa do Néctar Rápida"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -480,7 +480,7 @@
    [55]
     0 TableEntryData data
      0 SInt64 m_Id = 192458178246193152
-     1 string m_Localized = "Cloud Gecko rastejando no chão"
+     1 string m_Localized = "Gecko-das-nuvens rastejando no chão"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -488,7 +488,7 @@
    [56]
     0 TableEntryData data
      0 SInt64 m_Id = 192458249750687744
-     1 string m_Localized = "Dissipado uma ou mais vezes"
+     1 string m_Localized = "Dissipou-se uma ou mais vezes"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -496,7 +496,7 @@
    [57]
     0 TableEntryData data
      0 SInt64 m_Id = 192458063599087616
-     1 string m_Localized = "Cloud Gecko subindo em uma parede"
+     1 string m_Localized = "Gecko-das-nuvens subindo em uma parede"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -568,7 +568,7 @@
    [66]
     0 TableEntryData data
      0 SInt64 m_Id = 129393838868090880
-     1 string m_Localized = "Descubra um rato bola de pêlo dormindo entre flores"
+     1 string m_Localized = "Descubra um rato peludo dormindo entre flores"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -584,7 +584,7 @@
    [68]
     0 TableEntryData data
      0 SInt64 m_Id = 192459068617240576
-     1 string m_Localized = "2 seguidas em 1m e 30s"
+     1 string m_Localized = "2 em seguida dentro de 1m e 30s"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -592,7 +592,7 @@
    [69]
     0 TableEntryData data
      0 SInt64 m_Id = 192466627979124736
-     1 string m_Localized = "Um Honey Piglet que seguiu Ellie até aqui"
+     1 string m_Localized = "Um leitãozinho que seguiu Ellie até aqui"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -616,7 +616,7 @@
    [72]
     0 TableEntryData data
      0 SInt64 m_Id = 192459598030680064
-     1 string m_Localized = "Quando a flor está desabrochando e as pétalas não caíram"
+     1 string m_Localized = "Quando a flor está florescendo e as pétalas não caíram"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -624,7 +624,7 @@
    [73]
     0 TableEntryData data
      0 SInt64 m_Id = 172798522947600384
-     1 string m_Localized = "Alcançar"Great""
+     1 string m_Localized = "Alcançado \"Ótimo\""
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -632,7 +632,7 @@
    [74]
     0 TableEntryData data
      0 SInt64 m_Id = 172798520481349632
-     1 string m_Localized = "Alcançar"Perfect""
+     1 string m_Localized = "Alcançado \"Perfeito\""
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -640,7 +640,7 @@
    [75]
     0 TableEntryData data
      0 SInt64 m_Id = 172798719811452928
-     1 string m_Localized = "Desbloquear artesanato automático"
+     1 string m_Localized = "Desbloquear AutoCraft"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -648,7 +648,7 @@
    [76]
     0 TableEntryData data
      0 SInt64 m_Id = 172798725264048128
-     1 string m_Localized = "Bônus disponível na fabricação de cerveja com pontuação alta"
+     1 string m_Localized = "Bônus disponível na Fabricação de Cerveja"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -664,7 +664,7 @@
    [78]
     0 TableEntryData data
      0 SInt64 m_Id = 172798732046237696
-     1 string m_Localized = ""Handsome Reward""
+     1 string m_Localized = "\"Recompensa Bonita\""
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -672,7 +672,7 @@
    [79]
     0 TableEntryData data
      0 SInt64 m_Id = 172798515968278528
-     1 string m_Localized = "Pontuação total"
+     1 string m_Localized = "Pontuação Total"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -704,7 +704,7 @@
    [83]
     0 TableEntryData data
      0 SInt64 m_Id = 149306600811376640
-     1 string m_Localized = "Use a picareta na pétala para interagir"
+     1 string m_Localized = "Usar picareta na pétala para Interagir"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -712,7 +712,7 @@
    [84]
     0 TableEntryData data
      0 SInt64 m_Id = 192459170626908160
-     1 string m_Localized = "1m na sua primeira pedalada"
+     1 string m_Localized = "1m na sua primeira viagem"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -728,7 +728,7 @@
    [86]
     0 TableEntryData data
      0 SInt64 m_Id = 192459401095524352
-     1 string m_Localized = "10s ou menos depois de se esconder em arbustos"
+     1 string m_Localized = "10s ou menos depois de se esconder nos arbustos"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -736,7 +736,7 @@
    [87]
     0 TableEntryData data
      0 SInt64 m_Id = 187788745524649984
-     1 string m_Localized = "O cogumelo não é colhido mais do que duas vezes"
+     1 string m_Localized = "O cogumelo é tomado no máximo duas vezes"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -744,7 +744,7 @@
    [88]
     0 TableEntryData data
      0 SInt64 m_Id = 219963532594503680
-     1 string m_Localized = "Colete quando estiver brilhando"
+     1 string m_Localized = "Colecione quando estiver brilhando"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -792,7 +792,7 @@
    [94]
     0 TableEntryData data
      0 SInt64 m_Id = 213129201615642624
-     1 string m_Localized = "Use poção na forma de vida certa"
+     1 string m_Localized = "Use a poção na forma de vida correta"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -832,7 +832,7 @@
    [99]
     0 TableEntryData data
      0 SInt64 m_Id = 208366613114368000
-     1 string m_Localized = "Derrubou sementes batendo e coletando"
+     1 string m_Localized = "Derrubou as sementes batendo e as coletou"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -856,7 +856,7 @@
    [102]
     0 TableEntryData data
      0 SInt64 m_Id = 309839845092208640
-     1 string m_Localized = "antes que ele fuja 4 vezes"
+     1 string m_Localized = "4 ou mais vezes antes de fugir"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -886,7 +886,7 @@
    [105]
     0 TableEntryData data
      0 SInt64 m_Id = 334912541158662144
-     1 string m_Localized = "Colete sem usar {0}"
+     1 string m_Localized = "Coletou sem usar {0}"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -897,7 +897,7 @@
    [106]
     0 TableEntryData data
      0 SInt64 m_Id = 334105298389180416
-     1 string m_Localized = "Colete sem andar na nuvem de bolhas nem uma vez"
+     1 string m_Localized = "Colecione sem andar na nuvem de bolhas nem uma vez"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -940,7 +940,7 @@
    [111]
     0 TableEntryData data
      0 SInt64 m_Id = 332286053777649664
-     1 string m_Localized = "todo o grupo com 5 ou menos golpes de picareta"
+     1 string m_Localized = "todo o grupo com 5 ou menos acertos de picareta"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -956,7 +956,7 @@
    [113]
     0 TableEntryData data
      0 SInt64 m_Id = 289837501165985792
-     1 string m_Localized = "Colete sem fazê-lo fugir nem uma vez"
+     1 string m_Localized = "O alvo não foge quando você o coleta"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -964,7 +964,7 @@
    [114]
     0 TableEntryData data
      0 SInt64 m_Id = 304794914451599360
-     1 string m_Localized = "Collet 3 de uma só vez"
+     1 string m_Localized = "Pinça 3 de uma vez"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -972,7 +972,7 @@
    [115]
     0 TableEntryData data
      0 SInt64 m_Id = 304794911079378944
-     1 string m_Localized = "Não se engane ao usar a espátula"
+     1 string m_Localized = "Não se engane ao usar a desempenadeira"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -980,7 +980,7 @@
    [116]
     0 TableEntryData data
      0 SInt64 m_Id = 391361590985994240
-     1 string m_Localized = "Colete todo o grupo em 3 usos de picareta"
+     1 string m_Localized = "Reúna todo o grupo em 3 usos de picareta"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1004,7 +1004,7 @@
    [119]
     0 TableEntryData data
      0 SInt64 m_Id = 400881438568984576
-     1 string m_Localized = "Lance o ninho em alta velocidade"
+     1 string m_Localized = "Lançar o ninho em alta velocidade"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1012,7 +1012,7 @@
    [120]
     0 TableEntryData data
      0 SInt64 m_Id = 334912537815801856
-     1 string m_Localized = "Colete sem bater a cabeça pela segunda vez"
+     1 string m_Localized = "Colete sem bater a cabeça uma segunda vez"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1020,7 +1020,7 @@
    [121]
     0 TableEntryData data
      0 SInt64 m_Id = 286010597551644672
-     1 string m_Localized = "Imobilize 2 ou mais de cada vez"
+     1 string m_Localized = "Imobilize 2 ou mais de uma vez"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1028,7 +1028,7 @@
    [122]
     0 TableEntryData data
      0 SInt64 m_Id = 304858423861714944
-     1 string m_Localized = "quando é transparente"
+     1 string m_Localized = "Colete quando estiver transparente"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1036,7 +1036,7 @@
    [123]
     0 TableEntryData data
      0 SInt64 m_Id = 304858421760368640
-     1 string m_Localized = "quando brilha"
+     1 string m_Localized = "Colecione quando brilhar"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1052,7 +1052,7 @@
    [125]
     0 TableEntryData data
      0 SInt64 m_Id = 332339146636636160
-     1 string m_Localized = "Derrubar 2 em 10s"
+     1 string m_Localized = "Derrube 2 em 10s"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1060,7 +1060,7 @@
    [126]
     0 TableEntryData data
      0 SInt64 m_Id = 279056806724743168
-     1 string m_Localized = "Colete as duas sementes"
+     1 string m_Localized = "Colete ambas as sementes"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1108,7 +1108,7 @@
    [132]
     0 TableEntryData data
      0 SInt64 m_Id = 400897223928557568
-     1 string m_Localized = "Colete depois de andar na nuvem de bolhas {0} vezes"
+     1 string m_Localized = "Colecione depois de andar na nuvem de bolhas {0} vezes"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1116,7 +1116,7 @@
    [133]
     0 TableEntryData data
      0 SInt64 m_Id = 390982536571105280
-     1 string m_Localized = "Aumenta a chance de rendimento de bônus ao criar"
+     1 string m_Localized = "Aumenta a chance de bônus de produção ao criar"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1124,7 +1124,7 @@
    [134]
     0 TableEntryData data
      0 SInt64 m_Id = 291765943183060992
-     1 string m_Localized = "Dentro de 15 segundos depois de se tornar transparente"
+     1 string m_Localized = "Dentro de 15 segundos após se tornar transparente"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1132,7 +1132,7 @@
    [135]
     0 TableEntryData data
      0 SInt64 m_Id = 291765945380876288
-     1 string m_Localized = "Depois de acordar com uma ferramenta"
+     1 string m_Localized = "Depois de acordá-lo com uma ferramenta"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1140,7 +1140,7 @@
    [136]
     0 TableEntryData data
      0 SInt64 m_Id = 379870915272761344
-     1 string m_Localized = "Adicionado à lista incubável"
+     1 string m_Localized = "Adicionado à lista incubadora"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1148,7 +1148,7 @@
    [137]
     0 TableEntryData data
      0 SInt64 m_Id = 390770854991355904
-     1 string m_Localized = "Chance de bônus na fabricação de cerveja com pontuação alta"
+     1 string m_Localized = "Chance de Pontuação Alta na Fabricação de Cerveja"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

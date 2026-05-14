@@ -12,6 +12,7 @@ memory_folder = "memory"
 
 manual_memory_file = os.path.join(memory_folder, "memoria_manual.json")
 auto_memory_file = os.path.join(memory_folder, "memoria.json")
+traduzidas_por_translator_file = os.path.join(memory_folder, "traduzidas_por_translator.json")
 
 os.makedirs(output_folder, exist_ok=True)
 os.makedirs(memory_folder, exist_ok=True)
@@ -25,10 +26,15 @@ def carregar_json(path):
 
 memoria_manual = carregar_json(manual_memory_file)
 memoria = carregar_json(auto_memory_file)
+traduzidas_por_translator = carregar_json(traduzidas_por_translator_file)
+
+def salvar_json(path, dados):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(dados, f, indent=2, ensure_ascii=False)
 
 def salvar_memoria():
-    with open(auto_memory_file, "w", encoding="utf-8") as f:
-        json.dump(memoria, f, indent=2, ensure_ascii=False)
+    salvar_json(auto_memory_file, memoria)
+    salvar_json(traduzidas_por_translator_file, traduzidas_por_translator)
 
 def proteger_tokens(texto):
     if not texto:
@@ -77,7 +83,11 @@ def traduzir(texto):
             return texto
 
         traduzido = restaurar_tokens(traduzido, tokens)
+
         memoria[texto] = traduzido
+
+        # 🔥 registra somente o que realmente passou pelo Google Translator
+        traduzidas_por_translator[texto] = traduzido
 
         time.sleep(0.05)
         return traduzido
@@ -104,8 +114,7 @@ def progresso(atual, total, prefixo=""):
 title_pattern = re.compile(r'\s*\d+\s+string\s+title\s*=\s*"([^"]*)"')
 
 # IMPORTANTE:
-# Esse regex usa (.*) para capturar frases com aspas internas, tipo:
-# There was something off about that "legendary" [em1]carrot soup recipe[/em1].
+# Esse regex usa (.*) para capturar frases com aspas internas.
 value_pattern = re.compile(r'(\s*\d+\s+string\s+value\s*=\s*")(.*)(".*)$')
 
 type_string_pattern = re.compile(r'\s*\d+\s+string\s+typeString\s*=\s*"([^"]*)"')
@@ -202,4 +211,6 @@ for arquivo in arquivos:
 
 salvar_memoria()
 
-print("\n🔥 Tradução concluída e memory/memoria.json atualizado!")
+print("\n🔥 Tradução concluída!")
+print(f"✅ Memória atualizada: {auto_memory_file}")
+print(f"✅ Frases que passaram pelo translator: {traduzidas_por_translator_file}")

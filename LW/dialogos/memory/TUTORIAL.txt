@@ -1,0 +1,4 @@
+usando a revisao eu gero o memoria_extraida que nada mais é que o arquivo de traducoes da versao do little witch brasil
+
+dps eu vou usar  o generate reviwed json para atualizar o arquivo de memoria atual com os arquivos da littlw witch,
+ ele vai gerar o memorias faltantes, arquivo que é responsavel por conter as chaves que nao foram traduzidas na versão do little witch

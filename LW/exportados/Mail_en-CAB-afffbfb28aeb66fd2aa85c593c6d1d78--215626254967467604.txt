@@ -20,8 +20,8 @@
      0 managedRefArrayItem data
       0 SInt64 rid = 0
  0 TableEntryData m_TableData
-  0 Array Array (276 items)
-   0 int size = 276
+  0 Array Array (279 items)
+   0 int size = 279
    [0]
     0 TableEntryData data
      0 SInt64 m_Id = 91465074147328
@@ -2235,6 +2235,30 @@
     0 TableEntryData data
      0 SInt64 m_Id = 332090475727847424
      1 string m_Localized = "Super friendly! Rex"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [276]
+    0 TableEntryData data
+     0 SInt64 m_Id = 373316466158174208
+     1 string m_Localized = "Distinguished apprentice witch Ellie,"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [277]
+    0 TableEntryData data
+     0 SInt64 m_Id = 373316468901249024
+     1 string m_Localized = "Central Records Museum Administration Team"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [278]
+    0 TableEntryData data
+     0 SInt64 m_Id = 373316467680706560
+     1 string m_Localized = "The stellar crystals you have donated have gathered in sufficient number,\n\na new constellation has been completed in the Wisteria's Records Museum.\n\nBased on the records of this constellation, we have compiled the related furniture crafting recipes and enclosed them herewith.\n\nWe look forward to your continued contributions to our record collection."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

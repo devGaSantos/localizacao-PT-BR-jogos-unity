@@ -4901,7 +4901,7 @@
    [566]
     0 TableEntryData data
      0 SInt64 m_Id = 350451407378927616
-     1 string m_Localized = "Furball Rat Furball Jelly"
+     1 string m_Localized = "Furball Rat Fur Jelly"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -4917,7 +4917,7 @@
    [568]
     0 TableEntryData data
      0 SInt64 m_Id = 350451004155318272
-     1 string m_Localized = "Furball Rat Furball Powder"
+     1 string m_Localized = "Furball Rat Furl Powder"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -4933,7 +4933,7 @@
    [570]
     0 TableEntryData data
      0 SInt64 m_Id = 350449333341736960
-     1 string m_Localized = "Furball Rat Furball Juice"
+     1 string m_Localized = "Furball Rat Fur Juice"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

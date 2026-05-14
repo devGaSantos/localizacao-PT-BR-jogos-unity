@@ -30,7 +30,7 @@
    [1]
     0 TableEntryData data
      0 SInt64 m_Id = 122117578752
-     1 string m_Localized = "Robusto"
+     1 string m_Localized = "Resistente"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -54,7 +54,7 @@
    [4]
     0 TableEntryData data
      0 SInt64 m_Id = 9473679662931968
-     1 string m_Localized = "Com um design leve, pode atingir altas velocidades. Porém, devido à sua baixa durabilidade, não durará muito tempo."
+     1 string m_Localized = "Com um design leve, pode atingir altas velocidades. No entanto, devido à sua baixa durabilidade, não durará muito tempo.."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -62,7 +62,7 @@
    [5]
     0 TableEntryData data
      0 SInt64 m_Id = 9473823984738304
-     1 string m_Localized = "Possui desempenho versátil ao qual qualquer pessoa pode se adaptar facilmente."
+     1 string m_Localized = "Possui um desempenho versátil, onde qualquer pessoa pode se adaptar facilmente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -70,7 +70,7 @@
    [6]
     0 TableEntryData data
      0 SInt64 m_Id = 9473850308190208
-     1 string m_Localized = "É resistente e pode ser usado por muito tempo e os reparos são fáceis. No entanto, a velocidade do movimento é lenta."
+     1 string m_Localized = "É resistente e pode ser usado por muito tempo, além de ser fácil de consertar. No entanto, a velocidade de movimento é lenta.."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

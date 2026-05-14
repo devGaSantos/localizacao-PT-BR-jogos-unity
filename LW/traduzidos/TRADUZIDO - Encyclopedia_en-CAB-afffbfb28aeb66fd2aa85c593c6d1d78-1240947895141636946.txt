@@ -25,7 +25,7 @@
    [0]
     0 TableEntryData data
      0 SInt64 m_Id = 7145575743493
-     1 string m_Localized = "Squishy Chub"
+     1 string m_Localized = "Fofuxo"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -41,7 +41,7 @@
    [2]
     0 TableEntryData data
      0 SInt64 m_Id = 7145575743495
-     1 string m_Localized = "4,5"
+     1 string m_Localized = "4.5"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -49,7 +49,7 @@
    [3]
     0 TableEntryData data
      0 SInt64 m_Id = 7145575743496
-     1 string m_Localized = "Vivem em tocas subterrâneas em grupos de dois a quatro. Como criaturas curiosas, eles se aproximam primeiro das pessoas, caso alguém se aproxime deles."
+     1 string m_Localized = "Vivem em tocas subterrâneas em grupos de dois a quatro. Como criaturas curiosas, elas se aproximam das pessoas primeiro, se alguém chegar perto delas."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -84,7 +84,7 @@
    [7]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450742804493
-     1 string m_Localized = "É muito mais pesado do que você imagina, tornando mais fácil coletá-lo debaixo d'água do que retirá-lo da água."
+     1 string m_Localized = "É muito mais pesado do que você pensaria, tornando mais fácil coletá-lo debaixo d'água do que puxá-lo para fora da água."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -108,7 +108,7 @@
    [10]
     0 TableEntryData data
      0 SInt64 m_Id = 7145575743503
-     1 string m_Localized = "8,5"
+     1 string m_Localized = "8.5"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -116,7 +116,7 @@
    [11]
     0 TableEntryData data
      0 SInt64 m_Id = 7145575743508
-     1 string m_Localized = "Seu temperamento é tão colorido quanto suas penas. Eles parecem odiar tudo. Sempre bicando ou gritando, eles são difíceis de abordar."
+     1 string m_Localized = "Seu temperamento é tão colorido quanto suas penas. Elas parecem odiar tudo. Sempre bicando ou gritando, são difíceis de se aproximar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -124,7 +124,7 @@
    [12]
     0 TableEntryData data
      0 SInt64 m_Id = 27003055046656
-     1 string m_Localized = "Flor de Bruxa"
+     1 string m_Localized = "Flor da Bruxa"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -140,7 +140,7 @@
    [14]
     0 TableEntryData data
      0 SInt64 m_Id = 27003076018177
-     1 string m_Localized = "0,1"
+     1 string m_Localized = "0.1"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -148,7 +148,7 @@
    [15]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450738610179
-     1 string m_Localized = "Se você ver um arbusto em movimento, tente sacudi-lo bem. Eles não são difíceis de coletar depois de avistados."
+     1 string m_Localized = "Se você vir um arbusto se movendo, tente sacudi-lo bem. Eles não são difíceis de coletar uma vez avistados."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -156,7 +156,7 @@
    [16]
     0 TableEntryData data
      0 SInt64 m_Id = 27003076018179
-     1 string m_Localized = "Respingo de Cenoura"
+     1 string m_Localized = "Cenoura Espirrada"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -164,7 +164,7 @@
    [17]
     0 TableEntryData data
      0 SInt64 m_Id = 27003076018180
-     1 string m_Localized = "2,5"
+     1 string m_Localized = "2.5"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -172,7 +172,7 @@
    [18]
     0 TableEntryData data
      0 SInt64 m_Id = 27003076018181
-     1 string m_Localized = "4º"
+     1 string m_Localized = "4°"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -180,7 +180,7 @@
    [19]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450742804491
-     1 string m_Localized = "É rápido escapar para as copas das árvores caso seja alarmado, por isso tome cuidado extra ao se aproximar dele."
+     1 string m_Localized = "É rápido em escapar para as copas das árvores se for alarmado, então tome cuidado extra ao se aproximar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -188,7 +188,7 @@
    [20]
     0 TableEntryData data
      0 SInt64 m_Id = 99343822647742464
-     1 string m_Localized = "1. Coloque <color=#800000>{RawCount_1}</color>x <color=#66AF00>{Raw_1}</color> em uma {Tool_1}\n2. Coloque <color=#800000>{RawCount_2}</color>x <color=#66AF00>{Raw_2}</color> em uma {Tool_2}\n3. Atear fogo em <color=#800000>{FireSetting}</color>.\n4. Mexa <color=#800000>{LadleSetting}</color>.\n5. Despeje no recipiente especificado."
+     1 string m_Localized = "1. Coloque <color=#800000>{RawCount_1}</color>x <color=#66AF00>{Raw_1}</color> em um {Tool_1}\n2. Coloque <color=#800000>{RawCount_2}</color>x <color=#66AF00>{Raw_2}</color> em um {Tool_2}\n3. Ajuste o fogo para <color=#800000>{FireSetting}</color>.\n4. Mexa <color=#800000>{LadleSetting}</color>.\n5. Despeje no recipiente especificado."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -199,7 +199,7 @@
    [21]
     0 TableEntryData data
      0 SInt64 m_Id = 27003080212484
-     1 string m_Localized = "Flor da Lua"
+     1 string m_Localized = "Flor Lunar"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -215,7 +215,7 @@
    [23]
     0 TableEntryData data
      0 SInt64 m_Id = 27003080212486
-     1 string m_Localized = "0,01"
+     1 string m_Localized = "0.01"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -223,7 +223,7 @@
    [24]
     0 TableEntryData data
      0 SInt64 m_Id = 27003080212487
-     1 string m_Localized = "A flor de uma árvore de chá de uva amarga que absorveu bastante luz da lua, é uma flor misteriosa que floresce apenas em noites sem lua. Contendo o poder da lua, é um ingrediente precioso."
+     1 string m_Localized = "A flor de uma Árvore de Chá de Uva Amarga que absorveu bastante luz da lua, é uma flor misteriosa que floresce apenas em noites sem lua. Contendo o poder da lua, é um ingrediente precioso."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -231,7 +231,7 @@
    [25]
     0 TableEntryData data
      0 SInt64 m_Id = 27003080212488
-     1 string m_Localized = "Campainha Prateada"
+     1 string m_Localized = "Sino Estrela Prateado"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -247,7 +247,7 @@
    [27]
     0 TableEntryData data
      0 SInt64 m_Id = 27003080212490
-     1 string m_Localized = "0,3"
+     1 string m_Localized = "0.3"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -255,7 +255,7 @@
    [28]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450738610182
-     1 string m_Localized = "Se bem alimentados, eles florescerão muitas flores."
+     1 string m_Localized = "Se bem alimentadas, elas florescerão muitas flores."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -263,7 +263,7 @@
    [29]
     0 TableEntryData data
      0 SInt64 m_Id = 51735523557376
-     1 string m_Localized = "Poção para extermínio de ervas daninhas"
+     1 string m_Localized = "Poção de Extermínio de Ervas Daninhas"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -271,7 +271,7 @@
    [30]
     0 TableEntryData data
      0 SInt64 m_Id = 51735523557377
-     1 string m_Localized = "Uma poção que não remove nada além"stubborn weed" on contact."
+     1 string m_Localized = "Uma poção que remove apenas \"ervas daninhas teimosas\" ao contato."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -279,7 +279,7 @@
    [31]
     0 TableEntryData data
      0 SInt64 m_Id = 51735523557378
-     1 string m_Localized = "Uma poção comumente usada para jardinagem. Certifique-se de definir"stubborn weed" in your head when brewing, or risk removing all the tasteless veggies as well. That would be a disaster."
+     1 string m_Localized = "Uma poção comumente usada para jardinagem. Certifique-se de definir \"erva daninha teimosa\" em sua cabeça ao preparar, ou arrisque remover todos os vegetais sem graça também. Isso seria um desastre."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -287,7 +287,7 @@
    [32]
     0 TableEntryData data
      0 SInt64 m_Id = 51735527751681
-     1 string m_Localized = "Poção de Bomba"
+     1 string m_Localized = "Poção Bomba"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -295,7 +295,7 @@
    [33]
     0 TableEntryData data
      0 SInt64 m_Id = 51735527751682
-     1 string m_Localized = "Uma poção que explode quando a garrafa quebra."
+     1 string m_Localized = "Uma poção que explode quando o frasco quebra."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -303,7 +303,7 @@
    [34]
     0 TableEntryData data
      0 SInt64 m_Id = 51735527751683
-     1 string m_Localized = "Uma poção que explode quando lançada. Tem mais utilidades do que você imagina, como derrubar pratos inacessíveis, expulsar o cachorro tubarão do vizinho que morde suas roupas, afastar amigos indesejados, etc."
+     1 string m_Localized = "Uma poção que explode quando lançada. Tem mais usos do que você pensaria, como pegar pratos inalcançáveis, expulsar o cachorro tubarão do vizinho mordendo suas roupas, afastar amigos indesejados, etc."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -319,7 +319,7 @@
    [36]
     0 TableEntryData data
      0 SInt64 m_Id = 51735527751686
-     1 string m_Localized = "Uma poção que emite um clarão ofuscante quando lançada."
+     1 string m_Localized = "Uma poção que emite um flash cegante quando lançada."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -327,7 +327,7 @@
    [37]
     0 TableEntryData data
      0 SInt64 m_Id = 51735527751687
-     1 string m_Localized = "Usado para fugir de animais perigosos, plantas, monstros, humanos, bruxas, frutas, nuvens, pedras e tornados com olhos. (Verifique se o alvo tem olhos antes de usar.)"
+     1 string m_Localized = "Usada ao fugir de animais perigosos, plantas, monstros, humanos, bruxas, frutas, nuvens, rochas e tornados com olhos. (Verifique se o alvo tem olhos antes de usar.)"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -351,7 +351,7 @@
    [40]
     0 TableEntryData data
      0 SInt64 m_Id = 51735527751695
-     1 string m_Localized = "Esta poção emite suave luz da lua. Sua adorável luz prateada não só lhe dá o poder da lua, mas também é útil para criar um clima romântico quando estiver com seu par. (Antes de usar, certifique-se de que seu acompanhante não seja um lobisomem.)"
+     1 string m_Localized = "Esta poção emite uma suave luz lunar. Sua adorável luz prateada não apenas lhe dá o poder da lua, mas também é útil para criar um clima romântico quando com seu par. (Antes de usar, certifique-se de que seu par não seja um lobisomem.)"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -359,7 +359,7 @@
    [41]
     0 TableEntryData data
      0 SInt64 m_Id = 51735527751697
-     1 string m_Localized = "Doces Curativos"
+     1 string m_Localized = "Doce de Cura"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -367,7 +367,7 @@
    [42]
     0 TableEntryData data
      0 SInt64 m_Id = 51735527751698
-     1 string m_Localized = "Um doce que cura ferimentos leves"
+     1 string m_Localized = "Um doce que cura ferimentos menores"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -375,7 +375,7 @@
    [43]
     0 TableEntryData data
      0 SInt64 m_Id = 51735527751699
-     1 string m_Localized = "Um doce que cura joelhos arranhados, cortes nos dedos, perfurações, etc. Feito sob medida para o gosto das crianças, tem sabor de menta. Certifique-se de guardá-lo em uma prateleira alta em uma lata, pois é viciante."
+     1 string m_Localized = "Um doce que cura joelhos arranhados, cortes nos dedos, feridas por punção, etc. Adaptado ao gosto das crianças, tem sabor de menta. Certifique-se de armazená-lo em uma prateleira alta em uma lata, pois é viciante."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -383,7 +383,7 @@
    [44]
     0 TableEntryData data
      0 SInt64 m_Id = 51735527751701
-     1 string m_Localized = "Doces que levantam maldições"
+     1 string m_Localized = "Doce de Quebra de Maldição"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -391,7 +391,7 @@
    [45]
     0 TableEntryData data
      0 SInt64 m_Id = 51735527751702
-     1 string m_Localized = "Um doce que elimina maldições fracas"
+     1 string m_Localized = "Um doce que remove maldições fracas"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -399,7 +399,7 @@
    [46]
     0 TableEntryData data
      0 SInt64 m_Id = 51735527751703
-     1 string m_Localized = "Um doce que pode aliviar uma maldição leve, como uma maldição que faz você esquecer de escovar os dentes ou uma maldição que faz você cair com frequência. Tem um sabor doce de menta e é delicioso."
+     1 string m_Localized = "Um doce que pode aliviar uma maldição leve, como uma maldição que faz você esquecer de escovar os dentes, ou uma maldição que faz você cair com frequência. Tem um sabor doce de menta e é delicioso."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -423,7 +423,7 @@
    [49]
     0 TableEntryData data
      0 SInt64 m_Id = 5853959470252034
-     1 string m_Localized = "Etapa 3"
+     1 string m_Localized = "Estágio 3"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -455,7 +455,7 @@
    [53]
     0 TableEntryData data
      0 SInt64 m_Id = 5853959470252038
-     1 string m_Localized = "Mexa <color=#800000>sentido horário</color>"
+     1 string m_Localized = "Mexa <color=#800000>no sentido horário</color>"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -463,7 +463,7 @@
    [54]
     0 TableEntryData data
      0 SInt64 m_Id = 5853959470252039
-     1 string m_Localized = "Mexa <color=#800000>sentido anti-horário</color>"
+     1 string m_Localized = "Mexa <color=#800000>no sentido anti-horário</color>"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -479,7 +479,7 @@
    [56]
     0 TableEntryData data
      0 SInt64 m_Id = 5859030429925376
-     1 string m_Localized = "Adicione ao <color=#008DD3>Torrador</color> para secar."
+     1 string m_Localized = "Adicione ao <color=#008DD3>Torrador</color> para secá-lo."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -495,7 +495,7 @@
    [58]
     0 TableEntryData data
      0 SInt64 m_Id = 22484829232758784
-     1 string m_Localized = "Suco Twinkle-Twinkle Amarelo"
+     1 string m_Localized = "Suco Brilha-Brilha Amarelo"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -511,7 +511,7 @@
    [60]
     0 TableEntryData data
      0 SInt64 m_Id = 22484829236953089
-     1 string m_Localized = "Seu uso original era iluminar o ambiente em um ambiente de trabalho escuro, mas raramente é usado para isso, pois seu brilho não é forte o suficiente. É popular entre as jovens bruxas, pois elas o acham doce e divertido."
+     1 string m_Localized = "Seu uso original era iluminar o ambiente em um local de trabalho escuro, mas raramente é usada para isso, pois seu brilho não é forte o suficiente. É popular entre bruxas jovens, no entanto, pois acham doce e divertido."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -519,7 +519,7 @@
    [61]
     0 TableEntryData data
      0 SInt64 m_Id = 22484829236953091
-     1 string m_Localized = "Suco Twinkle-Twinkle"
+     1 string m_Localized = "Suco Brilha-Brilha"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -535,7 +535,7 @@
    [63]
     0 TableEntryData data
      0 SInt64 m_Id = 22484829236953093
-     1 string m_Localized = "Seu uso original era iluminar o ambiente em um ambiente de trabalho escuro, mas raramente é usado para isso, pois seu brilho não é forte o suficiente. É popular entre as jovens bruxas, pois elas o acham doce e divertido."
+     1 string m_Localized = "Seu uso original era iluminar o ambiente em um local de trabalho escuro, mas raramente é usada para isso, pois seu brilho não é forte o suficiente. É popular entre bruxas jovens, no entanto, pois acham doce e divertido."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -543,7 +543,7 @@
    [64]
     0 TableEntryData data
      0 SInt64 m_Id = 22484829236953095
-     1 string m_Localized = "Suco Rosa Twinkle-Twinkle"
+     1 string m_Localized = "Suco Brilha-Brilha Rosa"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -559,7 +559,7 @@
    [66]
     0 TableEntryData data
      0 SInt64 m_Id = 22484829236953097
-     1 string m_Localized = "Seu uso original era iluminar o ambiente em um ambiente de trabalho escuro, mas raramente é usado para isso, pois seu brilho não é forte o suficiente. É popular entre as jovens bruxas, pois elas o acham doce e divertido."
+     1 string m_Localized = "Seu uso original era iluminar o ambiente em um local de trabalho escuro, mas raramente é usada para isso, pois seu brilho não é forte o suficiente. É popular entre bruxas jovens, no entanto, pois acham doce e divertido."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -567,7 +567,7 @@
    [67]
     0 TableEntryData data
      0 SInt64 m_Id = 28706585840779264
-     1 string m_Localized = "Poção de Lembrança de Sonhos"
+     1 string m_Localized = "Poção de Recordação de Sonhos"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -575,7 +575,7 @@
    [68]
     0 TableEntryData data
      0 SInt64 m_Id = 28706587614969856
-     1 string m_Localized = "Uma poção que permite que você se lembre de seus sonhos ao consumi-la."
+     1 string m_Localized = "Uma poção que permite lembrar de seus sonhos ao ser consumida."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -583,7 +583,7 @@
    [69]
     0 TableEntryData data
      0 SInt64 m_Id = 28706588437053440
-     1 string m_Localized = "Esta poção permite que você se lembre dos sonhos daquela noite. Para ser mais preciso, permite que você vivencie seus sonhos em vez de lembrá-los."
+     1 string m_Localized = "Esta poção permite que você lembre dos sonhos daquela noite. Para ser mais preciso, permite que você vivencie seus sonhos em vez de apenas lembrar deles."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -599,7 +599,7 @@
    [71]
     0 TableEntryData data
      0 SInt64 m_Id = 110558442431901696
-     1 string m_Localized = "0,2"
+     1 string m_Localized = "0.2"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -615,7 +615,7 @@
    [73]
     0 TableEntryData data
      0 SInt64 m_Id = 110565741712044032
-     1 string m_Localized = "Erva de bordo"
+     1 string m_Localized = "Erva de Bordo"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -623,7 +623,7 @@
    [74]
     0 TableEntryData data
      0 SInt64 m_Id = 110565909685530624
-     1 string m_Localized = "0,3"
+     1 string m_Localized = "0.3"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -647,7 +647,7 @@
    [77]
     0 TableEntryData data
      0 SInt64 m_Id = 110568001712091136
-     1 string m_Localized = "6,5"
+     1 string m_Localized = "6.5"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -679,7 +679,7 @@
    [81]
     0 TableEntryData data
      0 SInt64 m_Id = 103087956504260608
-     1 string m_Localized = "1,5"
+     1 string m_Localized = "1.5"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -695,7 +695,7 @@
    [83]
     0 TableEntryData data
      0 SInt64 m_Id = 99344181789216768
-     1 string m_Localized = "1. {Tool_1}<color=#800000>{RawCount_1}</color><color=#66AF00>x </color><color=#66AF00>{Raw_1}</color> \n2. {Tool_2}<color=#800000>{RawCount_2}</color><color=#66AF00>x </color><color=#66AF00>{Raw_2}</color> \n3.{Tool_3}<color=#800000>{RawCount_3}</color><color=#66AF00>x </color><color=#66AF00>{Raw_3}</color>\n4. Coloque fogo em <color=#800000>{FireSetting}</color>.\n5. Mexa {LadleSetting}\n6. Despeje no recipiente especificado."
+     1 string m_Localized = "1. {Tool_1}<color=#800000>{RawCount_1}</color><color=#66AF00>x </color><color=#66AF00>{Raw_1}</color> \n2. {Tool_2}<color=#800000>{RawCount_2}</color><color=#66AF00>x </color><color=#66AF00>{Raw_2}</color> \n3.{Tool_3}<color=#800000>{RawCount_3}</color><color=#66AF00>x </color><color=#66AF00>{Raw_3}</color>\n4. Ajuste o fogo para <color=#800000>{FireSetting}</color>.\n5. Mexa {LadleSetting}\n6. Despeje no recipiente especificado."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -738,7 +738,7 @@
    [88]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450742804483
-     1 string m_Localized = "Eles são muito cautelosos, então abordá-los sem cuidado só deixará você maravilhado com a força de suas patas traseiras."
+     1 string m_Localized = "Elas são muito cautelosas, então se aproximar sem cuidado deixará você apenas com admiração pela força de suas patas traseiras."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -746,7 +746,7 @@
    [89]
     0 TableEntryData data
      0 SInt64 m_Id = 70694373116936192
-     1 string m_Localized = "Poção de Penas"
+     1 string m_Localized = "Poção de Pena"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -762,7 +762,7 @@
    [91]
     0 TableEntryData data
      0 SInt64 m_Id = 70694375163756544
-     1 string m_Localized = "Esta poção torna seu alvo temporariamente mais leve.\nNão beba esta poção na esperança de perder peso.\nEmbora uma pequena perda de peso possa ocorrer devido a vômitos e diarreia, ela não é recomendada.\n"
+     1 string m_Localized = "Esta poção temporariamente torna seu alvo mais leve.\nNão beba esta poção na esperança de perder peso.\nEmbora uma pequena perda de peso possa ocorrer devido a vômitos e diarreia, não é recomendado."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -770,7 +770,7 @@
    [92]
     0 TableEntryData data
      0 SInt64 m_Id = 70698855078887424
-     1 string m_Localized = "Poção Nutricional"
+     1 string m_Localized = "Poção Nutritiva"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -786,7 +786,7 @@
    [94]
     0 TableEntryData data
      0 SInt64 m_Id = 70698856874049536
-     1 string m_Localized = "Esta poção fornece instantaneamente uma grande quantidade de nutrição ao seu alvo.\nEmbora pareça ser um farol de esperança para jardineiros novatos, há rumores de que ela deixa esses novatos com uma decepção ainda maior, pois suas plantas murcham após o efeito terminar."
+     1 string m_Localized = "Esta poção fornece instantaneamente uma grande quantidade de nutrição ao seu alvo.\nEmbora pareça ser um farol de esperança para jardineiros novatos, há rumores de que deixa tais novatos com ainda maior decepção quando suas plantas murcham após o efeito terminar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -794,7 +794,7 @@
    [95]
     0 TableEntryData data
      0 SInt64 m_Id = 80436989074448384
-     1 string m_Localized = "Poção para Melhorar o Intelecto"
+     1 string m_Localized = "Poção de Intelecto Aprimorado"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -810,7 +810,7 @@
    [97]
     0 TableEntryData data
      0 SInt64 m_Id = 80436990479540224
-     1 string m_Localized = "Esta poção aumenta várias habilidades de seu usuário, como fala, memória, dedução, etc. No entanto, alguns suspeitam que não seja tão mágica assim. Eles acham que são as divagações de quem bebe a poção que fazem os outros acreditarem em tais efeitos."
+     1 string m_Localized = "Esta poção aumenta várias habilidades de seu usuário, como fala, memória, dedução, etc. No entanto, alguns suspeitam que não é realmente tão mágica. Eles pensam que são as divagações daqueles que bebem a poção que fazem outros acreditarem em tais efeitos."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -826,7 +826,7 @@
    [99]
     0 TableEntryData data
      0 SInt64 m_Id = 80446842786390016
-     1 string m_Localized = "Uma poção que emite luz da lua (provavelmente)"
+     1 string m_Localized = "Uma poção que emite luz lunar (provavelmente)"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -834,7 +834,7 @@
    [100]
     0 TableEntryData data
      0 SInt64 m_Id = 80446859563606016
-     1 string m_Localized = "Uma receita descoberta por acaso. É mais econômico que o Moon Oil porque não precisa de penas de fênix para produzir o luar. Embora não forneça muita luz, deve ser o suficiente para se livrar das vinhas espinhosas."
+     1 string m_Localized = "Uma receita descoberta por acaso. É mais econômica que o Óleo da Lua por não precisar de penas de fênix para fazer luz lunar. Embora não forneça muita luz, deve ser suficiente para se livrar das vinhas espinhosas."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -842,7 +842,7 @@
    [101]
     0 TableEntryData data
      0 SInt64 m_Id = 81928703312064512
-     1 string m_Localized = "Abóbora Terrier"
+     1 string m_Localized = "Terrier de Abóbora"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -850,7 +850,7 @@
    [102]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450742804481
-     1 string m_Localized = "É sensível ao som, mas não desaparecerá facilmente, a menos que se sinta especialmente ameaçado."
+     1 string m_Localized = "É sensível ao som, mas não irá embora facilmente a menos que se sinta especialmente ameaçado."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -858,7 +858,7 @@
    [103]
     0 TableEntryData data
      0 SInt64 m_Id = 103087808290140160
-     1 string m_Localized = "Inseto do mato"
+     1 string m_Localized = "Inseto do Arbusto"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -866,7 +866,7 @@
    [104]
     0 TableEntryData data
      0 SInt64 m_Id = 102498201952301056
-     1 string m_Localized = "Aranha Tilintada"
+     1 string m_Localized = "Aranha Tinir"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -874,7 +874,7 @@
    [105]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450738610181
-     1 string m_Localized = "O broto em sua cabeça murchará ou florescerá com flores. Eles deixam cair suas flores para trás, caso você os assuste."
+     1 string m_Localized = "O broto em sua cabeça murchará ou florescerá. Elas deixam cair suas flores para trás, se você as assustar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -882,7 +882,7 @@
    [106]
     0 TableEntryData data
      0 SInt64 m_Id = 103699756160364544
-     1 string m_Localized = "Sapo de um olho"
+     1 string m_Localized = "Sapo de Um Olho"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -890,7 +890,7 @@
    [107]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450742804485
-     1 string m_Localized = "Você deve abordá-los evitando seu olhar. É melhor parar e esperar, caso eles fiquem desconfiados de você."
+     1 string m_Localized = "Você deve se aproximar deles evitando seu olhar. É melhor parar e esperar, caso eles fiquem desconfiados de você."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -898,7 +898,7 @@
    [108]
     0 TableEntryData data
      0 SInt64 m_Id = 110558314975391744
-     1 string m_Localized = "Borboleta da lua azul"
+     1 string m_Localized = "Borboleta da Lua Azul"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -906,7 +906,7 @@
    [109]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450742804486
-     1 string m_Localized = "Eles abordarão coisas que brilham sem cautela, pois a curiosidade leva a melhor sobre eles."
+     1 string m_Localized = "Elas se aproximam de coisas que brilham sem cautela, pois a curiosidade fala mais alto."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -914,7 +914,7 @@
    [110]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450742804488
-     1 string m_Localized = "Ele adora brincar, então tentará brincar de esconde-esconde se você tentar coletar algo deles."
+     1 string m_Localized = "Adora brincar, então tentará brincar de esconde-esconde se você tentar coletar delas."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -922,7 +922,7 @@
    [111]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450742804489
-     1 string m_Localized = "Tente remover todas as vinhas enroladas nele se estiver curioso para saber sua verdadeira aparência."
+     1 string m_Localized = "Tente remover todas as vinhas enroladas nele se estiver curioso sobre sua verdadeira aparência."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -946,7 +946,7 @@
    [114]
     0 TableEntryData data
      0 SInt64 m_Id = 111221040075632640
-     1 string m_Localized = "É famoso pelo seu sabor terrível. No entanto, é muito eficaz."
+     1 string m_Localized = "É famoso por seu gosto terrível. No entanto, é muito eficaz."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -954,7 +954,7 @@
    [115]
     0 TableEntryData data
      0 SInt64 m_Id = 111628089305399296
-     1 string m_Localized = "Poção de Fogo de Artifício"
+     1 string m_Localized = "Poção de Buscapé"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -962,7 +962,7 @@
    [116]
     0 TableEntryData data
      0 SInt64 m_Id = 111628091033452544
-     1 string m_Localized = "Uma poção que explode em lindas cores como um foguete"
+     1 string m_Localized = "Uma poção que explode em cores bonitas como um foguete"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -970,7 +970,7 @@
    [117]
     0 TableEntryData data
      0 SInt64 m_Id = 111628092182691840
-     1 string m_Localized = "É uma poção que voa alto no céu e explode em lindas faíscas em uma altura específica."
+     1 string m_Localized = "É uma poção que voa alto no céu e explode em belas faíscas em uma altura específica."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -986,7 +986,7 @@
    [119]
     0 TableEntryData data
      0 SInt64 m_Id = 104332022851371008
-     1 string m_Localized = "Doce para tosse"
+     1 string m_Localized = "Doce para Tosse"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1002,7 +1002,7 @@
    [121]
     0 TableEntryData data
      0 SInt64 m_Id = 104332035753050112
-     1 string m_Localized = "Doce Arranhador de Costas"
+     1 string m_Localized = "Doce para Coceira nas Costas"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1010,7 +1010,7 @@
    [122]
     0 TableEntryData data
      0 SInt64 m_Id = 104332037070061568
-     1 string m_Localized = "É bom comer um quando você não consegue sentir coceira. Alivia a coceira com uma sensação refrescante."
+     1 string m_Localized = "É bom comer um quando não consegue alcançar uma coceira. Alivia coceiras com uma sensação refrescante."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1018,7 +1018,7 @@
    [123]
     0 TableEntryData data
      0 SInt64 m_Id = 104332037548212224
-     1 string m_Localized = "Doces de massagem"
+     1 string m_Localized = "Doce de Massagem"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1034,7 +1034,7 @@
    [125]
     0 TableEntryData data
      0 SInt64 m_Id = 104332036432527360
-     1 string m_Localized = "Um doce que alivia a coceira."
+     1 string m_Localized = "Um doce que alivia coceiras."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1050,7 +1050,7 @@
    [127]
     0 TableEntryData data
      0 SInt64 m_Id = 104332041365028864
-     1 string m_Localized = "Este doce alivia dores musculares resultantes de exercício ou trabalho excessivo. É melhor não comer um após o exercício, porque isso neutraliza o efeito do treino."
+     1 string m_Localized = "Este doce alivia dores musculares resultantes de exercícios excessivos ou trabalho. É melhor não comer um após o exercício, pois contraria o efeito do treino."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1066,7 +1066,7 @@
    [129]
     0 TableEntryData data
      0 SInt64 m_Id = 117739787711176704
-     1 string m_Localized = "Pequena Mandrágora"
+     1 string m_Localized = "Pequeno Mandrágora"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1074,7 +1074,7 @@
    [130]
     0 TableEntryData data
      0 SInt64 m_Id = 117103873247391744
-     1 string m_Localized = "Poção Protetor de Ouvido"
+     1 string m_Localized = "Poção de Tampão de Ouvido"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1090,7 +1090,7 @@
    [132]
     0 TableEntryData data
      0 SInt64 m_Id = 117104019708293120
-     1 string m_Localized = "Pode impedir que o bebedor perceba"noises."\nBe careful: Do define "noises" clearly before you drink it, or it may affect your ability to communicate."
+     1 string m_Localized = "Pode impedir que o bebedor perceba \"ruídos\".\nCuidado: Defina \"ruídos\" claramente antes de bebê-la, ou pode afetar sua capacidade de comunicação."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1098,7 +1098,7 @@
    [133]
     0 TableEntryData data
      0 SInt64 m_Id = 129434837669048320
-     1 string m_Localized = "Fênix\n"
+     1 string m_Localized = "Fênix"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1106,7 +1106,7 @@
    [134]
     0 TableEntryData data
      0 SInt64 m_Id = 129437774571040768
-     1 string m_Localized = "Árvore de chá de uva amarga\n"
+     1 string m_Localized = "Árvore de Chá de Uva Amarga"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1114,7 +1114,7 @@
    [135]
     0 TableEntryData data
      0 SInt64 m_Id = 164457986097606656
-     1 string m_Localized = "Apertar suas bochechas rechonchudas deixará tufos de pelos macios em suas mãos."
+     1 string m_Localized = "Apertar suas bochechas rechonchudas deixará tufos de pelo macio em suas mãos."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1122,7 +1122,7 @@
    [136]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450738610176
-     1 string m_Localized = "Deixe seu lago aproveitar a luz do sol em dias ensolarados. Seu rosto sem graça e tendência a babar os tornam bastante populares."
+     1 string m_Localized = "Deixa sua lagoa para tomar sol em dias ensolarados. Seu rosto sem expressão e tendência a babar o tornam bastante popular."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1130,7 +1130,7 @@
    [137]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450738610178
-     1 string m_Localized = "Faz casas dentro de arbustos. Eles têm asas estranhamente grandes para um corpo tão pequeno."
+     1 string m_Localized = "Faz casas dentro de arbustos. Elas têm asas desproporcionalmente grandes para um corpo tão minúsculo."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1138,7 +1138,7 @@
    [138]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450738610180
-     1 string m_Localized = "Um pássaro comum encontrado na Floresta Verde.\n"
+     1 string m_Localized = "Um pássaro comum encontrado na Floresta Verde."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1146,7 +1146,7 @@
    [139]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450742804480
-     1 string m_Localized = "Uma borboleta que emite um brilho azul suave ao absorver a luz da lua."
+     1 string m_Localized = "Uma borboleta que emite um brilho azul suave por absorver luz lunar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1154,7 +1154,7 @@
    [140]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450742804482
-     1 string m_Localized = "Eles são conhecidos por terem apenas um olho. Suas patas traseiras estão sempre prontas para escapar dos predadores."
+     1 string m_Localized = "São conhecidas por ter apenas um único olho. Suas patas traseiras estão sempre prontas para escapar de predadores."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1162,7 +1162,7 @@
    [141]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450742804484
-     1 string m_Localized = "Eles não gostam de ser tocados, por isso tendem a fugir das pessoas."
+     1 string m_Localized = "Elas não gostam de ser tocadas, então tendem a se afastar das pessoas."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1170,7 +1170,7 @@
    [142]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450742804487
-     1 string m_Localized = "Vive de plantas do tipo “abóbora”. Muitas vezes, esconde-se entre vinhas de abóbora com grande capacidade regenerativa."
+     1 string m_Localized = "Vive de plantas do tipo \"abóbora\". Muitas vezes, esconde-se entre vinhas de abóbora com alta capacidade regenerativa."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1178,7 +1178,7 @@
    [143]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450742804490
-     1 string m_Localized = "Faz um som tilintante ao se mover. Diz a lenda que uma bruxa que odeia aranhas as amaldiçoou a fazer esses sons na esperança de ser alertada sobre aranhas próximas."
+     1 string m_Localized = "Faz um som de tinir ao se mover. A lenda diz que uma bruxa que odeia aranhas as amaldiçoou para fazer esses sons na esperança de ser alertada sobre aranhas próximas."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1186,7 +1186,7 @@
    [144]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450742804492
-     1 string m_Localized = "Uma planta aquática que cresce na água. Parece uma cenoura flutuando na água, por isso é chamada"Splash Carrot.""
+     1 string m_Localized = "Uma planta aquática que cresce na água. Parece uma cenoura flutuando na água, por isso é chamada de \"Cenoura Espirrada\"."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1194,7 +1194,7 @@
    [145]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450742804494
-     1 string m_Localized = "A mandrágora da Floresta Verde não amadurece conforme o esperado devido ao seu ambiente."
+     1 string m_Localized = "O mandrake na Floresta Verde não amadurece como esperado devido ao seu ambiente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1202,7 +1202,7 @@
    [146]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450742804496
-     1 string m_Localized = "As bruxas costumam usar essa flor para fazer coisas, por isso ela também é conhecida como Flor de Bruxa."
+     1 string m_Localized = "Bruxas frequentemente usam esta flor ao fazer coisas, por isso também é conhecida como Flor da Bruxa."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1210,7 +1210,7 @@
    [147]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450742804498
-     1 string m_Localized = "Esta flor prateada em forma de sino também produz um som suave como o de um sino. Os ecos da flor evocam um sentimento melancólico vindo de dentro."
+     1 string m_Localized = "Esta flor prateada em forma de sino também produz um som suave como o de um sino. Os ecos da flor evocam um sentimento melancólico de dentro."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1218,7 +1218,7 @@
    [148]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450742804500
-     1 string m_Localized = "Uma erva vermelha que se enraíza nas falésias. Também chamada de Grama do Covarde, porque as crianças colhem a erva como uma demonstração de bravura."
+     1 string m_Localized = "Uma erva vermelha que se enraíza em penhascos. Também chamada de Grama do Covarde, porque crianças colhem a erva como demonstração de coragem."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1226,7 +1226,7 @@
    [149]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450742804495
-     1 string m_Localized = "Deve ser puxado com cuidado, para não prejudicar as raízes."
+     1 string m_Localized = "Deve ser puxada com cuidado, para não danificar suas raízes."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1234,7 +1234,7 @@
    [150]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450738610177
-     1 string m_Localized = "Eles adoram esfregar a barriga. A bolha firme que cuspem quando se sentem felizes é usada como ingrediente."
+     1 string m_Localized = "Elas adoram ter a barriga esfregada. A bolha firme que elas cospem quando se sentem felizes é usada como ingrediente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1242,7 +1242,7 @@
    [151]
     0 TableEntryData data
      0 SInt64 m_Id = 164491822789488640
-     1 string m_Localized = "Ele grita quando se sente ameaçado. Embora não seja tão mortal quanto o de um adulto, o grito ainda causa tensão no corpo se for ouvido continuamente."
+     1 string m_Localized = "Ele grita quando se sente ameaçado. Embora não seja tão mortal quanto o de um adulto, o grito ainda sobrecarrega o corpo se ouvido continuamente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1250,7 +1250,7 @@
    [152]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450742804497
-     1 string m_Localized = "Agarre seu caule e dê um leve puxão para puxá-lo do chão."
+     1 string m_Localized = "Pegue seu caule e dê uma leve puxada para arrancá-lo do chão."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1266,7 +1266,7 @@
    [154]
     0 TableEntryData data
      0 SInt64 m_Id = 164489450742804501
-     1 string m_Localized = "Ao contrário das plantas que crescem no solo, suas raízes estão bem espalhadas, então tente puxá-la enquanto balança para a esquerda e para a direita, em vez de puxá-la para cima."
+     1 string m_Localized = "Diferente de plantas que crescem no solo, suas raízes são espalhadas, então tente puxá-la balançando para a esquerda e direita em vez de puxar para cima."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1274,7 +1274,7 @@
    [155]
     0 TableEntryData data
      0 SInt64 m_Id = 157632483112906752
-     1 string m_Localized = "Doces pegajosos"
+     1 string m_Localized = "Doce Pegajoso"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1282,7 +1282,7 @@
    [156]
     0 TableEntryData data
      0 SInt64 m_Id = 157632486594179072
-     1 string m_Localized = "Um doce que gruda facilmente em qualquer coisa."
+     1 string m_Localized = "Um doce que grasa sem esforço em qualquer coisa."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1290,7 +1290,7 @@
    [157]
     0 TableEntryData data
      0 SInt64 m_Id = 157632489714741248
-     1 string m_Localized = "Um doce que possui propriedades adesivas extremamente fortes. Pode até ser usado para recolocar perfeitamente pedaços de uma estátua de pedra quebrada. Um item obrigatório para as bruxas que estudam na Escola para Bruxas.\nNormalmente, ele é derretido no fogo antes de ser usado."
+     1 string m_Localized = "Um doce com propriedades adesivas extremamente fortes. Pode até ser usado para recolocar perfeitamente pedaços de uma estátua de pedra quebrada. Um item essencial para bruxas estudando na Escola de Bruxas.\nNormalmente, é derretido no fogo antes do uso."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1298,7 +1298,7 @@
    [158]
     0 TableEntryData data
      0 SInt64 m_Id = 145243235173707776
-     1 string m_Localized = "Uma cobra que gosta de assustar as pessoas. Muitas vezes ele se esconde quando avista alguém se aproximando e aparece quando essa pessoa se aproxima. Eles podem se esconder em outros lugares além dos matagais, então tome cuidado."
+     1 string m_Localized = "Uma cobra que gosta de assustar pessoas. Muitas vezes se esconde quando vê alguém se aproximando, e aparece quando eles chegam perto. Podem se esconder em lugares além de moitas, então cuidado."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1330,7 +1330,7 @@
    [162]
     0 TableEntryData data
      0 SInt64 m_Id = 292802759801679872
-     1 string m_Localized = "Poção pegajosa para as mãos"
+     1 string m_Localized = "Poção de Mão Pegajosa"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1338,7 +1338,7 @@
    [163]
     0 TableEntryData data
      0 SInt64 m_Id = 287738672675794944
-     1 string m_Localized = "Ponta de pedra"
+     1 string m_Localized = "Ponta de Pedra"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1346,7 +1346,7 @@
    [164]
     0 TableEntryData data
      0 SInt64 m_Id = 287739970057908224
-     1 string m_Localized = "Geralmente cresce em buracos em penhascos e recua para os buracos com o impacto."
+     1 string m_Localized = "Geralmente cresce em buracos em penhascos, e se retrai para os buracos ao sofrer impacto."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1354,7 +1354,7 @@
    [165]
     0 TableEntryData data
      0 SInt64 m_Id = 287740715469615104
-     1 string m_Localized = "Sua casca em forma de pedra pode ser removida com ferramentas para expor a carne em seu interior."
+     1 string m_Localized = "Sua casca parecida com pedra pode ser removida com ferramentas para expor a carne interna."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1362,7 +1362,7 @@
    [166]
     0 TableEntryData data
      0 SInt64 m_Id = 289512053238640640
-     1 string m_Localized = "Castor de folhas"
+     1 string m_Localized = "Castor de Folha"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1370,7 +1370,7 @@
    [167]
     0 TableEntryData data
      0 SInt64 m_Id = 289512243077033984
-     1 string m_Localized = "Gosta de manter todo o corpo na água, exceto a cabeça. Alguns dizem que ele usa seu cabelo em forma de folha para a fotossíntese, mas a teoria não foi comprovada."
+     1 string m_Localized = "Gosta de manter todo o corpo na água exceto a cabeça. Alguns dizem que está usando seu cabelo parecido com folha para fotossíntese, mas a teoria não foi comprovada."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1378,7 +1378,7 @@
    [168]
     0 TableEntryData data
      0 SInt64 m_Id = 289512310567579648
-     1 string m_Localized = "Ele foge rapidamente ao sentir alguém se aproximando. Você só pode pegá-lo se ultrapassá-lo."
+     1 string m_Localized = "Foge rapidamente ao sentir alguém se aproximando. Você só pode pegá-lo se for mais rápido."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1418,7 +1418,7 @@
    [173]
     0 TableEntryData data
      0 SInt64 m_Id = 312341423267639296
-     1 string m_Localized = "Suco Estrela"
+     1 string m_Localized = "Suco Estelar"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1490,7 +1490,7 @@
    [182]
     0 TableEntryData data
      0 SInt64 m_Id = 322204010201284608
-     1 string m_Localized = "Doce para os olhos afiados"
+     1 string m_Localized = "Doce de Olhos Aguçados"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1498,7 +1498,7 @@
    [183]
     0 TableEntryData data
      0 SInt64 m_Id = 322204010641686528
-     1 string m_Localized = "Um doce que melhora a visão. Comê-lo permite que você veja coisas mais distantes e deixa suas íris um pouco esverdeadas."
+     1 string m_Localized = "Um doce que melhora a visão. Comê-lo permite ver coisas mais distantes, e deixa suas íris um pouco esverdeadas."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1506,7 +1506,7 @@
    [184]
     0 TableEntryData data
      0 SInt64 m_Id = 322204011228889088
-     1 string m_Localized = "Doces de treino"
+     1 string m_Localized = "Doce de Malhação"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1514,7 +1514,7 @@
    [185]
     0 TableEntryData data
      0 SInt64 m_Id = 322204012315213824
-     1 string m_Localized = "Um doce que aumenta temporariamente a força física, permitindo que você levante com um braço o peso que normalmente precisa de dois braços para levantar. Observe que seus músculos podem doer no segundo dia."
+     1 string m_Localized = "Um doce que aumenta temporariamente a força física, permitindo levantar com um braço peso que normalmente precisa de dois braços. Note que seus músculos podem ficar doloridos no segundo dia."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1522,7 +1522,7 @@
    [186]
     0 TableEntryData data
      0 SInt64 m_Id = 322204012847890432
-     1 string m_Localized = "Doces à prova de insetos"
+     1 string m_Localized = "Doce Antinsetos"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1530,7 +1530,7 @@
    [187]
     0 TableEntryData data
      0 SInt64 m_Id = 322204013409927168
-     1 string m_Localized = "Um doce que mantém os insetos longe. Pode ser usado para repelir pequenos insetos voadores e similares."
+     1 string m_Localized = "Um doce que mantém insetos afastados. Pode ser usado para repelir pequenos insetos voadores e similares."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1538,7 +1538,7 @@
    [188]
     0 TableEntryData data
      0 SInt64 m_Id = 322204014001324032
-     1 string m_Localized = "Doce sonolento"
+     1 string m_Localized = "Doce Sonífero"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1546,7 +1546,7 @@
    [189]
     0 TableEntryData data
      0 SInt64 m_Id = 322204014613692416
-     1 string m_Localized = "Um doce que induz ao sono. Não é particularmente forte e só pode deixar as pessoas um pouco sonolentas."
+     1 string m_Localized = "Um doce que induz o sono. Não é particularmente forte, e só pode deixar as pessoas um pouco sonolentas."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1554,7 +1554,7 @@
    [190]
     0 TableEntryData data
      0 SInt64 m_Id = 322204015179923456
-     1 string m_Localized = "Suspiro doce"
+     1 string m_Localized = "Doce do Suspiro"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1562,7 +1562,7 @@
    [191]
     0 TableEntryData data
      0 SInt64 m_Id = 322204015779708928
-     1 string m_Localized = "Coma e solte um longo suspiro. Suas preocupações irão embora e de repente você se sentirá muito mais relaxado."
+     1 string m_Localized = "Coma e solte um longo suspiro. Suas preocupações irão embora e você se sentirá muito mais relaxado de repente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1570,7 +1570,7 @@
    [192]
     0 TableEntryData data
      0 SInt64 m_Id = 322204016366911488
-     1 string m_Localized = "Doce de respiração profunda"
+     1 string m_Localized = "Doce da Respiração Profunda"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1578,7 +1578,7 @@
    [193]
     0 TableEntryData data
      0 SInt64 m_Id = 322204016928948224
-     1 string m_Localized = "Coma e respire fundo. Isso aliviará o estresse. Recomendado para ocasiões muito mais importantes do que parecem, como fazer um discurso."
+     1 string m_Localized = "Coma e respire fundo. Isso aliviará o estresse. Recomendado para ocasiões muito mais importantes do que parecem, como dar um discurso."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1586,7 +1586,7 @@
    [194]
     0 TableEntryData data
      0 SInt64 m_Id = 322204017482596352
-     1 string m_Localized = "Doces de boa sorte"
+     1 string m_Localized = "Doce da Boa Sorte"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1594,7 +1594,7 @@
    [195]
     0 TableEntryData data
      0 SInt64 m_Id = 322204021693677568
-     1 string m_Localized = "Um doce que traz um pouco de sorte, como aumentar em 10% a chance de acertar o lado de uma moeda."
+     1 string m_Localized = "Um doce que traz um pouco de boa sorte, como aumentar a chance de acertar o lado de uma moeda em 10%."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1602,7 +1602,7 @@
    [196]
     0 TableEntryData data
      0 SInt64 m_Id = 320718340299550720
-     1 string m_Localized = "Poção MSG"
+     1 string m_Localized = "Poção de Ajinomoto"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1610,7 +1610,7 @@
    [197]
     0 TableEntryData data
      0 SInt64 m_Id = 320718345022337024
-     1 string m_Localized = "Uma poção que melhora o sabor de qualquer alimento adicionado."
+     1 string m_Localized = "Uma poção que melhora o sabor de qualquer comida em que é adicionada."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1618,7 +1618,7 @@
    [198]
     0 TableEntryData data
      0 SInt64 m_Id = 320718682814803968
-     1 string m_Localized = "Esta poção especial pode salvar cozinheiros devastadores que nem mesmo as receitas conseguem salvar. Uma garrafa é suficiente para transformar qualquer prato nojento em uma delícia."
+     1 string m_Localized = "Esta poção especial pode salvar cozinheiros desastrados que nem mesmo receitas conseguem salvar. Uma garrafa é suficiente para transformar qualquer prato horrível em uma iguaria."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1626,7 +1626,7 @@
    [199]
     0 TableEntryData data
      0 SInt64 m_Id = 320727008453718016
-     1 string m_Localized = "Poção de Atenção"
+     1 string m_Localized = "Poção da Atenção"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1634,7 +1634,7 @@
    [200]
     0 TableEntryData data
      0 SInt64 m_Id = 320727011259707392
-     1 string m_Localized = "Uma poção que chama a atenção com um forte feixe de luz."
+     1 string m_Localized = "Uma poção que chama atenção com um forte feixe de luz."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1642,7 +1642,7 @@
    [201]
     0 TableEntryData data
      0 SInt64 m_Id = 320727013457522688
-     1 string m_Localized = "Beber dá a você a capacidade temporária de iluminar o que quer que seu dedo esteja apontando.\nFrequentemente usado em discursos e celebrações da sociedade das bruxas."
+     1 string m_Localized = "Bebê-la dá a você a habilidade temporária de iluminar qualquer coisa que seu dedo estiver apontando.\nFrequentemente usada em discursos e celebrações da sociedade das bruxas."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1650,7 +1650,7 @@
    [202]
     0 TableEntryData data
      0 SInt64 m_Id = 292789324531609600
-     1 string m_Localized = "Beber deixa suas mãos pegajosas. Útil quando você deseja pegar itens escorregadios e costuma ser usado para isso. No entanto, algumas bruxas tentam escalar muros altos com as próprias mãos depois de beberem isso. Isso não é recomendado. Você pode cair."
+     1 string m_Localized = "Bebê-la deixa suas mãos pegajosas. Útil quando você quer pegar itens escorregadios e frequentemente usada para isso. No entanto, algumas bruxas tentam escalar paredes altas com as mãos nuas após beber isso. Isso não é recomendado. Você pode cair."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1658,7 +1658,7 @@
    [203]
     0 TableEntryData data
      0 SInt64 m_Id = 292850786075652096
-     1 string m_Localized = "Poção Dietética"
+     1 string m_Localized = "Poção Diet"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1666,7 +1666,7 @@
    [204]
     0 TableEntryData data
      0 SInt64 m_Id = 292851115122995200
-     1 string m_Localized = "Uma poção que reduz temporariamente o peso do usuário, mas não altera sua aparência. Você ficará desapontado se esperar que isso o emagreça."
+     1 string m_Localized = "Uma poção que reduz o peso do usuário temporariamente mas não muda sua aparência. Você ficará desapontado se esperar que ela te afine."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1674,7 +1674,7 @@
    [205]
     0 TableEntryData data
      0 SInt64 m_Id = 286711044772679680
-     1 string m_Localized = "Bellody"
+     1 string m_Localized = "Corpo de Sino"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1682,7 +1682,7 @@
    [206]
     0 TableEntryData data
      0 SInt64 m_Id = 286711846341922816
-     1 string m_Localized = "Ao longo de seu longo caule estão frutas com as cores do arco-íris que brilham ritmicamente. No final estão flores que balançam ao vento."
+     1 string m_Localized = "Ao longo de seu longo caule há frutas coloridas como arco-íris que brilham ritmicamente. No final há flores que acenam para o vento."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1690,7 +1690,7 @@
    [207]
     0 TableEntryData data
      0 SInt64 m_Id = 286712222671654912
-     1 string m_Localized = "Para coletá-lo, você deve desenterrá-lo rapidamente com uma espátula, ou ele irá retrair para o subsolo para proteção."
+     1 string m_Localized = "Para coletá-la, você deve cavá-la rapidamente com uma pá, ou ela se retrairá para o subsolo para proteção."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1698,7 +1698,7 @@
    [208]
     0 TableEntryData data
      0 SInt64 m_Id = 291341974153940992
-     1 string m_Localized = "Flor de nuvem"
+     1 string m_Localized = "Florescência da Nuvem"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1706,7 +1706,7 @@
    [209]
     0 TableEntryData data
      0 SInt64 m_Id = 291343802870484992
-     1 string m_Localized = "Quando há ondulações, ele espalha esporos semelhantes a algodão doce em todas as direções, que são levados pelo vento."
+     1 string m_Localized = "Quando há ondulações, ela espalha esporos parecidos com algodão doce em todas as direções, que são carregados pelo vento."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1714,7 +1714,7 @@
    [210]
     0 TableEntryData data
      0 SInt64 m_Id = 291343853046943744
-     1 string m_Localized = "Os esporos são muito pegajosos e não se dissolvem facilmente. Para coletar a planta sem que os esporos grudem em você, é melhor abordar mergulhando."
+     1 string m_Localized = "Os esporos são muito pegajosos e não se dissolvem facilmente. Para coletar a planta sem que esporos grudem em você, é melhor se aproximar mergulhando."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1722,7 +1722,7 @@
    [211]
     0 TableEntryData data
      0 SInt64 m_Id = 295742835808514048
-     1 string m_Localized = "Assobiador de grama"
+     1 string m_Localized = "Assobiador de Grama"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1730,7 +1730,7 @@
    [212]
     0 TableEntryData data
      0 SInt64 m_Id = 295742988305018880
-     1 string m_Localized = "Um inseto que se esconde no subsolo e faz barulho. Muitos acreditam que os ruídos são uma canção de namoro, mas na verdade é apenas uma respiração."
+     1 string m_Localized = "Um inseto que se esconde no subsolo e faz barulhos. Muitos acreditam que os barulhos são uma canção de acasalamento, mas na verdade é apenas respiração."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1738,7 +1738,7 @@
    [213]
     0 TableEntryData data
      0 SInt64 m_Id = 297181545525628928
-     1 string m_Localized = "Rato bola de pêlo"
+     1 string m_Localized = "Rato Bola de Pelos"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1746,7 +1746,7 @@
    [214]
     0 TableEntryData data
      0 SInt64 m_Id = 297181997931646976
-     1 string m_Localized = "Fã de fragrâncias florais, costuma entrar em arbustos de flores e dormir sobre pétalas macias. Ele se assusta facilmente e se esconde em um pequeno buraco no momento em que avista algo assustador."
+     1 string m_Localized = "Fã de fragrância floral, muitas vezes entra em arbustos de flores e dorme em pétalas macias. É facilmente assustado e se esconderá em um pequeno buraco no momento em que avistar algo assustador."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1754,7 +1754,7 @@
    [215]
     0 TableEntryData data
      0 SInt64 m_Id = 297181998846005248
-     1 string m_Localized = "É muito leve e pode ser derrubado mesmo com o menor impacto. A melhor oportunidade para coletá-lo é quando ele está parado e parado, mas tocá-lo repetidamente pode irritá-lo."
+     1 string m_Localized = "É muito leve e pode ser derrubado até pelo menor impacto. A melhor oportunidade para coletá-lo é quando está sentado e ocioso, mas tocá-lo repetidamente pode irritá-lo."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1762,7 +1762,7 @@
    [216]
     0 TableEntryData data
      0 SInt64 m_Id = 295064148589105152
-     1 string m_Localized = "Poção da Chuva Trovejante"
+     1 string m_Localized = "Poção de Chuva com Trovões"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1770,7 +1770,7 @@
    [217]
     0 TableEntryData data
      0 SInt64 m_Id = 295064151579643904
-     1 string m_Localized = "Lance-o em um local para formar nuvens escuras e trazer chuva. Há rumores entre as bruxas de que"it rains more if the user is depressed.""
+     1 string m_Localized = "Jogue-a em um lugar para formar nuvens escuras lá e trazer chuva. O boato entre as bruxas diz que \"chove mais se o usuário estiver deprimido\"."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1778,7 +1778,7 @@
    [218]
     0 TableEntryData data
      0 SInt64 m_Id = 359611135660761088
-     1 string m_Localized = "Um doce para tratar intoxicações leves. Só pode retardar a progressão se o envenenamento for grave, então você não deve confiar muito nisso."
+     1 string m_Localized = "Um doce para tratar envenenamento leve. Só pode retardar a progressão se o envenenamento for sério, então você não deve confiar muito nele."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1794,7 +1794,7 @@
    [220]
     0 TableEntryData data
      0 SInt64 m_Id = 350474947044028416
-     1 string m_Localized = "É muito curioso e não irá longe mesmo se você não conseguir pegá-lo. Você pode até esperar onde está para que ele volte."
+     1 string m_Localized = "É muito curioso e não se afastará muito mesmo se você falhar em pegá-lo. Você pode até esperar onde está para que ele volte."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1802,7 +1802,7 @@
    [221]
     0 TableEntryData data
      0 SInt64 m_Id = 350474943185268736
-     1 string m_Localized = "O pólen brilhante por todo o corpo da Mariposa do Néctar ilumina seu rastro."
+     1 string m_Localized = "O pólen brilhante por todo o corpo de uma Mariposa do Néctar ilumina seu rastro."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1826,7 +1826,7 @@
    [224]
     0 TableEntryData data
      0 SInt64 m_Id = 350474712397885440
-     1 string m_Localized = "0,2"
+     1 string m_Localized = "0.2"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1834,7 +1834,7 @@
    [225]
     0 TableEntryData data
      0 SInt64 m_Id = 359611131621646336
-     1 string m_Localized = "Um doce que deixa seu consumidor falante. Cria um impulso para falar e transforma a pessoa mais quieta em uma tagarela. Melhor usá-lo em uma ocasião que exija muita fala."
+     1 string m_Localized = "Um doce que torna seu consumidor falante. Cria um impulso para falar e transforma a pessoa mais quieta em um tagarela. Melhor usá-lo em uma ocasião que exija muita fala."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1842,7 +1842,7 @@
    [226]
     0 TableEntryData data
      0 SInt64 m_Id = 359611131038638080
-     1 string m_Localized = "Balbuciar Doces"
+     1 string m_Localized = "Doce Tagarela"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1850,7 +1850,7 @@
    [227]
     0 TableEntryData data
      0 SInt64 m_Id = 311638668407975936
-     1 string m_Localized = "Mais vulnerável quando não está andando em bolhas. Colete-os antes que formem bolhas."
+     1 string m_Localized = "Mais vulnerável quando não está andando em bolhas. Colete-os antes que subam nas bolhas."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1858,7 +1858,7 @@
    [228]
     0 TableEntryData data
      0 SInt64 m_Id = 311636153163558912
-     1 string m_Localized = "Caranguejos que se agarram às paredes e criam bolhas. Eles voam nas bolhas quando estas estão prontas. Suas bolhas são mais firmes que as normais. Por que eles repetem tais ações permanece desconhecido."
+     1 string m_Localized = "Caranguejos que grudam em paredes e criam bolhas. Eles voam nas bolhas uma vez que estas estejam prontas. Suas bolhas são mais firmes que as comuns. Por que repetem tais ações permanece desconhecido."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1882,7 +1882,7 @@
    [231]
     0 TableEntryData data
      0 SInt64 m_Id = 311636002101506048
-     1 string m_Localized = "0,5"
+     1 string m_Localized = "0.5"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1890,7 +1890,7 @@
    [232]
     0 TableEntryData data
      0 SInt64 m_Id = 350484530932199424
-     1 string m_Localized = "Com o impacto, eles se transformam em fumaça para autoproteção, por isso é preciso recolhê-los com as mãos e não assustá-los."
+     1 string m_Localized = "Ao impacto, eles se transformam em fumaça para autoproteção, então você precisa coletar com as mãos e não assustá-los."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1898,7 +1898,7 @@
    [233]
     0 TableEntryData data
      0 SInt64 m_Id = 350484367945740288
-     1 string m_Localized = "Um curioso lagarto que tem como corpo uma nuvem de fumaça, que se dissipa com forte impacto, e converge novamente depois de um tempo."
+     1 string m_Localized = "Um lagarto curioso que tem uma nuvem de fumaça como corpo, que se dissipa sob forte impacto e converge novamente após um tempo."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1914,7 +1914,7 @@
    [235]
     0 TableEntryData data
      0 SInt64 m_Id = 350480990109151232
-     1 string m_Localized = "Lagartixa da Nuvem"
+     1 string m_Localized = "Lagarto da Nuvem"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1922,7 +1922,7 @@
    [236]
     0 TableEntryData data
      0 SInt64 m_Id = 350484252778541056
-     1 string m_Localized = "0,01"
+     1 string m_Localized = "0.01"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1930,7 +1930,7 @@
    [237]
     0 TableEntryData data
      0 SInt64 m_Id = 359611133450362880
-     1 string m_Localized = "Um doce que gera bolhas, bom para limpar. Enxágue a boca com ele ou triture até virar pó para lavar o corpo. Também faz saboneteira devido ao grande efeito de remoção de óleo."
+     1 string m_Localized = "Um doce que gera bolhas, bom para limpeza. Faça bochechos com ele ou moa em pó para lavar seu corpo. Também serve como detergente devido ao grande efeito removedor de óleo."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1938,7 +1938,7 @@
    [238]
     0 TableEntryData data
      0 SInt64 m_Id = 359611132833800192
-     1 string m_Localized = "Doces de limpeza"
+     1 string m_Localized = "Doce de Limpeza"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1946,7 +1946,7 @@
    [239]
     0 TableEntryData data
      0 SInt64 m_Id = 359611158930759680
-     1 string m_Localized = "Comê-lo faz você chorar. Chorar muitas vezes é a solução para a tristeza."
+     1 string m_Localized = "Comê-lo faz você chorar. Chorar é frequentemente a solução para a tristeza."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1954,7 +1954,7 @@
    [240]
     0 TableEntryData data
      0 SInt64 m_Id = 359611150261133312
-     1 string m_Localized = "Chorar Doces"
+     1 string m_Localized = "Doce do Choro"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1970,7 +1970,7 @@
    [242]
     0 TableEntryData data
      0 SInt64 m_Id = 359611162269425664
-     1 string m_Localized = "Doce Déjà Vu"
+     1 string m_Localized = "Doce de Déjà Vu"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2002,7 +2002,7 @@
    [246]
     0 TableEntryData data
      0 SInt64 m_Id = 359611145878085632
-     1 string m_Localized = "Um doce motivador. Ele não restaura energia nem aumenta o poder, então não se esforce demais."
+     1 string m_Localized = "Um doce motivador. Não restaura Energia nem aumenta o poder, então não se esforce demais."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2010,7 +2010,7 @@
    [247]
     0 TableEntryData data
      0 SInt64 m_Id = 359611145307660288
-     1 string m_Localized = "Moral Doce"
+     1 string m_Localized = "Doce de Moral"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2018,7 +2018,7 @@
    [248]
     0 TableEntryData data
      0 SInt64 m_Id = 343203934038085632
-     1 string m_Localized = "Ele infla"inflatable items" such as a flat balloon or ball.\nImagine the item inflated when you cast this potion, so as to control the degree of inflation."
+     1 string m_Localized = "Ele infla \"itens infláveis\" como um balão murcho ou bola.\nImagine o item inflado quando você lançar esta poção, para controlar o grau de inflação."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2026,7 +2026,7 @@
    [249]
     0 TableEntryData data
      0 SInt64 m_Id = 343203873216483328
-     1 string m_Localized = "Poção de inflação"
+     1 string m_Localized = "Poção de Inflação"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2034,7 +2034,7 @@
    [250]
     0 TableEntryData data
      0 SInt64 m_Id = 359611142526836736
-     1 string m_Localized = "Um doce que concede sabedoria, mas não tão eficaz quanto o"Enhance Intellect Potion." Note that the period of smartness is followed by a period of stupidity of the same length."
+     1 string m_Localized = "Um doce que concede sabedoria, mas não tão eficaz quanto a \"Poção de Intelecto Aprimorado\". Note que o período de inteligência é seguido por um período de estupidez de mesma duração."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2042,7 +2042,7 @@
    [251]
     0 TableEntryData data
      0 SInt64 m_Id = 359611141927051264
-     1 string m_Localized = "Doce de sabedoria da vovó"
+     1 string m_Localized = "Doce da Sabedoria da Vovó"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2050,7 +2050,7 @@
    [252]
     0 TableEntryData data
      0 SInt64 m_Id = 350010182924890112
-     1 string m_Localized = "Mel Urso"
+     1 string m_Localized = "Urso de Mel"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2058,7 +2058,7 @@
    [253]
     0 TableEntryData data
      0 SInt64 m_Id = 350856101335093248
-     1 string m_Localized = "Depois de se banquetear com esporos e crescer, ele sopra bolhas cheias de esporos. Crie grandes impactos para afastá-lo e poder comer mais esporos."
+     1 string m_Localized = "Depois de se banquetear com esporos e crescer, ele sopra bolhas recheadas com esporos. Crie grandes impactos para empurrá-lo para que possa comer mais esporos."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2066,7 +2066,7 @@
    [254]
     0 TableEntryData data
      0 SInt64 m_Id = 350856100768862208
-     1 string m_Localized = "Tem um apetite infinito e está sempre consumindo pólen ou esporos de cogumelos no ar. Alguns indivíduos apresentam corpos amarelos brilhantes devido ao consumo excessivo de esporos."
+     1 string m_Localized = "Tem um apetite infinito e está sempre consumindo pólen ou esporos de cogumelo no ar. Alguns indivíduos apresentam corpos amarelos brilhantes devido ao consumo excessivo de esporos."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2074,7 +2074,7 @@
    [255]
     0 TableEntryData data
      0 SInt64 m_Id = 350856185422499840
-     1 string m_Localized = "Quanto maior o tamanho do Honey Piglet, maiores serão as bolhas que ele sopra."
+     1 string m_Localized = "Quanto maior o tamanho de um Leitãozinho de Mel, maiores as bolhas que ele sopra."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2090,7 +2090,7 @@
    [257]
     0 TableEntryData data
      0 SInt64 m_Id = 350855822816530432
-     1 string m_Localized = "Mel Leitão"
+     1 string m_Localized = "Leitãozinho de Mel"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2106,7 +2106,7 @@
    [259]
     0 TableEntryData data
      0 SInt64 m_Id = 359611127561560064
-     1 string m_Localized = "Objetos com magia têm um leve brilho azul se você olhar para eles depois de comer este doce. Aplique-o na superfície de um objeto para ver se ele emite luz. A maioria dos objetos contém alguma magia, por isso é difícil para um iniciante diferenciá-los."
+     1 string m_Localized = "Objetos com magia têm um brilho azul fraco se você olhar para eles depois de comer este doce. Aplique-o na superfície de um objeto para ver se emite luz. A maioria dos objetos contém alguma magia, então é difícil para um iniciante diferenciá-los."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2114,7 +2114,7 @@
    [260]
     0 TableEntryData data
      0 SInt64 m_Id = 359611126852722688
-     1 string m_Localized = "Doces de Detecção Mágica"
+     1 string m_Localized = "Doce de Detecção de Magia"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2130,7 +2130,7 @@
    [262]
     0 TableEntryData data
      0 SInt64 m_Id = 350478376487333888
-     1 string m_Localized = "Uma planta que cresce perto de penhascos. Ele usa todos os seus nutrientes para produzir sementes. Se a planta murchar e mudar completamente de cor, ela não poderá mais produzir sementes."
+     1 string m_Localized = "Uma planta que cresce perto de penhascos. Usa todos os seus nutrientes para produzir sementes. Se a planta murchar e mudar de cor completamente, não pode mais produzir sementes."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2146,7 +2146,7 @@
    [264]
     0 TableEntryData data
      0 SInt64 m_Id = 350478110002229248
-     1 string m_Localized = "Desejo Flor"
+     1 string m_Localized = "Flor do Desejo"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2154,7 +2154,7 @@
    [265]
     0 TableEntryData data
      0 SInt64 m_Id = 350478227543404544
-     1 string m_Localized = "0,1"
+     1 string m_Localized = "0.1"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2162,7 +2162,7 @@
    [266]
     0 TableEntryData data
      0 SInt64 m_Id = 359611129738403840
-     1 string m_Localized = "Este doce faz você grasnar ruidosamente como um pato agarrado pelo pescoço. O efeito também funciona em animais."
+     1 string m_Localized = "Este doce faz você grasnar ruidosamente como um pato agarrado pelo pescoço. O efeito funciona em animais também."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2170,7 +2170,7 @@
    [267]
     0 TableEntryData data
      0 SInt64 m_Id = 359611129084092416
-     1 string m_Localized = "Charlatão doce"
+     1 string m_Localized = "Doce de Grasnido"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2178,7 +2178,7 @@
    [268]
     0 TableEntryData data
      0 SInt64 m_Id = 350860428393009152
-     1 string m_Localized = "Ele entra em pânico sempre que atinge uma rocha e cava imediatamente um túnel para fugir em outra direção."
+     1 string m_Localized = "Ele entra em pânico sempre que bate em uma pedra e instantaneamente cava um túnel para fugir em outra direção."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2186,7 +2186,7 @@
    [269]
     0 TableEntryData data
      0 SInt64 m_Id = 350860427382181888
-     1 string m_Localized = "Ele tende a usar uma coroa enorme e brilhante na cabeça para mostrar seu poder."
+     1 string m_Localized = "Tende a usar uma coroa enorme e brilhante na cabeça para exibir seu poder."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2202,7 +2202,7 @@
    [271]
     0 TableEntryData data
      0 SInt64 m_Id = 350860423649251328
-     1 string m_Localized = "Toupeira da Coroa"
+     1 string m_Localized = "Toupeira Coroada"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2218,7 +2218,7 @@
    [273]
     0 TableEntryData data
      0 SInt64 m_Id = 359611139909591040
-     1 string m_Localized = "Um doce que alivia o nariz escorrendo. Recomendado quando você está resfriado ou come alimentos muito picantes."
+     1 string m_Localized = "Um doce que alivia o nariz escorrendo. Recomendado quando você está resfriado ou comendo comida muito picante."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2226,7 +2226,7 @@
    [274]
     0 TableEntryData data
      0 SInt64 m_Id = 359611139322388480
-     1 string m_Localized = "Doces anti-rinorreia"
+     1 string m_Localized = "Doce Anti-coriza"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2234,7 +2234,7 @@
    [275]
     0 TableEntryData data
      0 SInt64 m_Id = 359611169697538048
-     1 string m_Localized = "Um doce que te faz sentir satisfeito. Observe que não fornece nutrição e não pode substituir refeições."
+     1 string m_Localized = "Um doce que faz você se sentir satisfeito. Note que não fornece nutrição e não pode substituir refeições."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2242,7 +2242,7 @@
    [276]
     0 TableEntryData data
      0 SInt64 m_Id = 359611167315173376
-     1 string m_Localized = "Recheio de Doces"
+     1 string m_Localized = "Doce Saciedade"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2250,7 +2250,7 @@
    [277]
     0 TableEntryData data
      0 SInt64 m_Id = 317091601765347328
-     1 string m_Localized = "Eles vão se alegrar e borrifar água se você subir em seus corpos e quebrar as pedras duras em suas caudas para eles."
+     1 string m_Localized = "Eles ficarão felizes e borrifarão água se você subir em seus corpos e quebrar as pedras duras em suas caudas para eles."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2258,7 +2258,7 @@
    [278]
     0 TableEntryData data
      0 SInt64 m_Id = 317091457628090368
-     1 string m_Localized = "Possui um corpo macio e translúcido que é difícil de detectar quando está na água. Ele respira pela cauda, ​​que fica acima da água, por isso a cauda costuma ter poeira."
+     1 string m_Localized = "Tem um corpo macio e translúcido que é difícil de detectar quando está na água. Respira através da cauda que fica acima da água, então a cauda frequentemente tem poeira."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2266,7 +2266,7 @@
    [279]
     0 TableEntryData data
      0 SInt64 m_Id = 317091913561518080
-     1 string m_Localized = "Dizem que ele ficará parado enquanto seu corpo não estiver submerso. As crianças, que não pesam muito, costumam subir nas costas para brincar."
+     1 string m_Localized = "Dizem que ele ficará parado enquanto seu corpo não estiver submerso. Crianças, que não pesam muito, geralmente sobem em suas costas para brincar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2282,7 +2282,7 @@
    [281]
     0 TableEntryData data
      0 SInt64 m_Id = 317090822014873600
-     1 string m_Localized = "Crocodilo que respira pela cauda"
+     1 string m_Localized = "Crocodilo Respira-cauda"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2306,7 +2306,7 @@
    [284]
     0 TableEntryData data
      0 SInt64 m_Id = 350470355744960512
-     1 string m_Localized = "Muitas vezes se esconde em arbustos e observa Cobras Surpresas. Cubra-o com uma rede para coletar."
+     1 string m_Localized = "Muitas vezes se esconde em arbustos e observa Cobras Surpresa. Cubra-o com uma rede para coletar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2314,7 +2314,7 @@
    [285]
     0 TableEntryData data
      0 SInt64 m_Id = 359611181609361408
-     1 string m_Localized = "Você teve um sonho agradável na noite logo após comer esse doce, mas não se lembrará do sonho quando acordar."
+     1 string m_Localized = "Você tem um bom sonho na noite logo após comer este doce, mas não se lembrará do sonho ao acordar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2322,7 +2322,7 @@
    [286]
     0 TableEntryData data
      0 SInt64 m_Id = 359611178979532800
-     1 string m_Localized = "Belo sonho doce"
+     1 string m_Localized = "Doce do Bom Sonho"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2330,7 +2330,7 @@
    [287]
     0 TableEntryData data
      0 SInt64 m_Id = 350862107939131392
-     1 string m_Localized = "Ele pode fugir para fugir, então, para coletá-lo, você deve encontrar uma maneira de confiná-lo."
+     1 string m_Localized = "Pode voar para fugir, então para coletá-lo, você deve encontrar uma maneira de confiná-lo."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2362,7 +2362,7 @@
    [291]
     0 TableEntryData data
      0 SInt64 m_Id = 359611148646326272
-     1 string m_Localized = "Um doce para tratar cáries dentárias. É melhor esperar que derreta na boca do que engoli-lo. No entanto, não funciona se a cárie dentária for muito grave."
+     1 string m_Localized = "Um doce para tratar cáries. É melhor esperar derreter na boca do que engolir. Não funciona se a cárie for muito séria."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2370,7 +2370,7 @@
    [292]
     0 TableEntryData data
      0 SInt64 m_Id = 359611147924905984
-     1 string m_Localized = "Doces para atendimento odontológico"
+     1 string m_Localized = "Doce de Cuidado Dental"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2378,7 +2378,7 @@
    [293]
     0 TableEntryData data
      0 SInt64 m_Id = 359611175577952256
-     1 string m_Localized = "Um doce que traz um pouco de infortúnio. O efeito pode ser muito fraco para ser notado. Se o consumidor tiver muita sorte, pode até não funcionar."
+     1 string m_Localized = "Um doce que traz um pouco de infortúnio. O efeito pode ser muito fraco para notar. Se o consumidor for muito sortudo, pode nem funcionar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2386,7 +2386,7 @@
    [294]
     0 TableEntryData data
      0 SInt64 m_Id = 359611172079902720
-     1 string m_Localized = "Doces do infortúnio"
+     1 string m_Localized = "Doce do Infortúnio"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2394,7 +2394,7 @@
    [295]
     0 TableEntryData data
      0 SInt64 m_Id = 350861566924247040
-     1 string m_Localized = "Cabelos bagunçados e emaranhados. Aparentemente precisa de uma boa lavagem."
+     1 string m_Localized = "Cabelo despenteado e embaraçado. Aparentemente precisa de uma boa lavagem."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2402,7 +2402,7 @@
    [296]
     0 TableEntryData data
      0 SInt64 m_Id = 350861565443657728
-     1 string m_Localized = "Gosta de cogumelos e flores e gosta de rolar pelos campos floridos. Isso provavelmente explica por que está coberto de pétalas e sementes."
+     1 string m_Localized = "Gosta de cogumelos e flores, e adora rolar em campos de flores. Isso provavelmente explica por que está coberto de pétalas e sementes."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2410,7 +2410,7 @@
    [297]
     0 TableEntryData data
      0 SInt64 m_Id = 350861573593190400
-     1 string m_Localized = "Parece que só a chuva pode lavar todas as sementes fofas que estão nele."
+     1 string m_Localized = "Parece que só uma chuva pode lavar todas as sementes fofas nele."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2426,7 +2426,7 @@
    [299]
     0 TableEntryData data
      0 SInt64 m_Id = 350861554303586304
-     1 string m_Localized = "Cachorrinho de algodão"
+     1 string m_Localized = "Cachorro de Algodão"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2464,7 +2464,7 @@
    [303]
     0 TableEntryData data
      0 SInt64 m_Id = 376134464347811840
-     1 string m_Localized = "Toque suavemente as sementes de um Moongirth que floresce ao luar e colete as sementes quando todas tiverem decolado."
+     1 string m_Localized = "Toque suavemente as sementes de uma Lua Cheia florescendo sob a luz da lua e colete as sementes quando todas tiverem se soltado."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2472,7 +2472,7 @@
    [304]
     0 TableEntryData data
      0 SInt64 m_Id = 295743046639398912
-     1 string m_Localized = "Vá até o seu esconderijo e ouça com atenção. Cave com a espátula onde o som é mais alto para ser captado."
+     1 string m_Localized = "Vá até seu esconderijo e ouça cuidadosamente. Cave com a pá onde o som for mais alto para coletar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2480,7 +2480,7 @@
    [305]
     0 TableEntryData data
      0 SInt64 m_Id = 360922395089838080
-     1 string m_Localized = "Suco oleoso pode espirrar quando o Shroom Raccoon está se alimentando. É melhor você se esconder se você se deparar com isso."
+     1 string m_Localized = "Suco oleoso pode respingar quando o Guaxinim Cogumelo está se alimentando. É melhor se esconder se você o surpreender fazendo isso."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2488,7 +2488,7 @@
    [306]
     0 TableEntryData data
      0 SInt64 m_Id = 360922385870757888
-     1 string m_Localized = "Geralmente se move escalando paredes. Quando se alimenta, fica pendurado de cabeça para baixo com a cauda de uma forma única."
+     1 string m_Localized = "Geralmente se move escalando paredes. Quando se alimenta, fica de cabeça para baixo com a cauda de uma maneira única."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2496,7 +2496,7 @@
    [307]
     0 TableEntryData data
      0 SInt64 m_Id = 376133695578025984
-     1 string m_Localized = "circunferência da lua"
+     1 string m_Localized = "Luarada"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2512,7 +2512,7 @@
    [309]
     0 TableEntryData data
      0 SInt64 m_Id = 376134110679904256
-     1 string m_Localized = "0,15"
+     1 string m_Localized = "0.15"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2520,7 +2520,7 @@
    [310]
     0 TableEntryData data
      0 SInt64 m_Id = 376134349356773376
-     1 string m_Localized = "Uma linda flor que brilha. Costumava ser plantado ao lado de estradas como marcos para alertar contra perambulações noturnas."
+     1 string m_Localized = "Uma bela flor que brilha. Costumava ser plantada nas estradas como postes de orientação para alertar contra andar à noite."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2536,7 +2536,7 @@
    [312]
     0 TableEntryData data
      0 SInt64 m_Id = 446845210295250944
-     1 string m_Localized = "0,3"
+     1 string m_Localized = "0.3"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2544,7 +2544,7 @@
    [313]
     0 TableEntryData data
      0 SInt64 m_Id = 472574558738296832
-     1 string m_Localized = "0,6"
+     1 string m_Localized = "0.6"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2579,7 +2579,7 @@
    [317]
     0 TableEntryData data
      0 SInt64 m_Id = 498333773869735936
-     1 string m_Localized = "Pendurado em uma árvore, ele cai na sua cabeça, quebrando a casca e caindo inconsciente. Use a chance enquanto ele está atordoado para atacar mais uma vez."
+     1 string m_Localized = "Pendurado em uma árvore, cai na sua cabeça, rachando sua casca e desmaiando. Use a chance enquanto está atordoado para golpear mais uma vez."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2587,7 +2587,7 @@
    [318]
     0 TableEntryData data
      0 SInt64 m_Id = 458719364805681152
-     1 string m_Localized = "Para coletar as escamas da cauda, ​​corra com cuidado por trás. Você pode escapar totalmente de sua visão mergulhando debaixo d'água."
+     1 string m_Localized = "Para coletar suas escamas da cauda, corra cuidadosamente por trás. Você pode escapar completamente de sua visão mergulhando na água."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2611,7 +2611,7 @@
    [321]
     0 TableEntryData data
      0 SInt64 m_Id = 426899067361161216
-     1 string m_Localized = "Um favorito entre as jovens bruxas nas aulas de arte.\nEle pode produzir qualquer cor, mas o resultado é completamente aleatório.\nTalvez essa imprevisibilidade seja exatamente o motivo pelo qual eles o amam tanto."
+     1 string m_Localized = "Uma favorita entre bruxas jovens na aula de arte.\nPode produzir qualquer cor, mas o resultado é completamente aleatório.\nTalvez essa imprevisibilidade seja exatamente o porquê de amarem tanto."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2619,7 +2619,7 @@
    [322]
     0 TableEntryData data
      0 SInt64 m_Id = 444660103083581440
-     1 string m_Localized = "Poção para aumento de peso"
+     1 string m_Localized = "Poção para Aumentar a Massa Muscular"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2627,7 +2627,7 @@
    [323]
     0 TableEntryData data
      0 SInt64 m_Id = 444660179575103488
-     1 string m_Localized = "Uma poção que aumenta temporariamente seu peso. Particularmente útil quando você precisa de lastro. Não pise em nada valioso quando a poção estiver em vigor."
+     1 string m_Localized = "Uma poção que aumenta temporariamente seu peso. Particularmente útil quando você precisa de lastro. Não pise em nada valioso quando a poção estiver em efeito."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2635,7 +2635,7 @@
    [324]
     0 TableEntryData data
      0 SInt64 m_Id = 446841480866934784
-     1 string m_Localized = "Flor estrela cadente"
+     1 string m_Localized = "Flor Estrela Cadente"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2643,7 +2643,7 @@
    [325]
     0 TableEntryData data
      0 SInt64 m_Id = 446841482821480448
-     1 string m_Localized = "Uma flor que contém sementes brilhantes. Seu nome vem de sua forma única de espalhar sementes."
+     1 string m_Localized = "Uma flor que contém sementes brilhantes. É nomeada por sua maneira única de espalhar sementes."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2651,7 +2651,7 @@
    [326]
     0 TableEntryData data
      0 SInt64 m_Id = 446841484612448256
-     1 string m_Localized = "A flor dispara sementes quando estimulada. Fique de olhos abertos ao coletá-los, pois só os brilhantes têm valor."
+     1 string m_Localized = "A flor dispara sementes quando estimulada. Mantenha os olhos abertos ao coletá-las, porque apenas as brilhantes são valiosas."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2667,7 +2667,7 @@
    [328]
     0 TableEntryData data
      0 SInt64 m_Id = 442503088290168832
-     1 string m_Localized = "Uma poção que solta itens firmemente fixados no lugar.\nUsada para aliviar a rigidez do corpo ou afrouxar parafusos enferrujados. Você também pode explorar outros usos criativos."
+     1 string m_Localized = "Uma poção que solta objetos firmemente fixados no lugar.\nUsada para aliviar a rigidez do corpo ou soltar parafusos enferrujados. Você também pode explorar outros usos criativos.."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2675,7 +2675,7 @@
    [329]
     0 TableEntryData data
      0 SInt64 m_Id = 453658057282805760
-     1 string m_Localized = "Até o menor ruído o assusta e faz com que ele se esconda.\nSeu ninho, construído com rochas unidas por trepadeiras, é inexpugnável."
+     1 string m_Localized = "Até os menores ruídos o assustam e o fazem se esconder.\nSeu ninho, construído com pedras unidas por vinhas, é impenetrável."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2683,7 +2683,7 @@
    [330]
     0 TableEntryData data
      0 SInt64 m_Id = 453658109581582336
-     1 string m_Localized = "Gire o ninho e ele desmaiará de tontura.\nQuanto mais você girar, mais tempo ele permanecerá inconsciente."
+     1 string m_Localized = "Gire o ninho e ele desmaiará de tontura.\nQuanto mais tempo você girar, mais tempo ele ficará inconsciente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2691,7 +2691,7 @@
    [331]
     0 TableEntryData data
      0 SInt64 m_Id = 453659128919089152
-     1 string m_Localized = "Forte Rato"
+     1 string m_Localized = "Rato Forte"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2699,7 +2699,7 @@
    [332]
     0 TableEntryData data
      0 SInt64 m_Id = 453996871976755200
-     1 string m_Localized = "Não é fã de ambientes gelados, tende a se aquecer com vapor quente."
+     1 string m_Localized = "Não é fã de um ambiente congelante, tende a se aquecer com vapor quente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2707,7 +2707,7 @@
    [333]
     0 TableEntryData data
      0 SInt64 m_Id = 453997084380504064
-     1 string m_Localized = "Quando aquecido até certo ponto, sua casca mole endurece e fica rígida. Portanto, muitas vezes ele se depara com inimigos que ameaçam seus parentes."
+     1 string m_Localized = "Quando aquecido a um certo grau, sua casca macia endurece e fica rígida. Portanto, frequentemente colide com inimigos que ameaçam seus parentes."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2723,7 +2723,7 @@
    [335]
     0 TableEntryData data
      0 SInt64 m_Id = 454002395103371264
-     1 string m_Localized = "Concha de gelatina"
+     1 string m_Localized = "Casca de Gelatina"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2731,7 +2731,7 @@
    [336]
     0 TableEntryData data
      0 SInt64 m_Id = 454082105802731520
-     1 string m_Localized = "Libélula de água"
+     1 string m_Localized = "Libélula aquática"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2739,7 +2739,7 @@
    [337]
     0 TableEntryData data
      0 SInt64 m_Id = 454082684088201216
-     1 string m_Localized = "Um vaga-lume tão radiante quanto uma estrela. Ele mantém uma dieta de esporos luminosos de plantas ribeirinhas, o que lhe confere a capacidade de brilhar."
+     1 string m_Localized = "Um vaga-lume tão radiante quanto uma estrela. Mantém uma dieta de esporos luminosos de plantas à beira d'água, o que lhe deu a capacidade de brilhar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2747,7 +2747,7 @@
    [338]
     0 TableEntryData data
      0 SInt64 m_Id = 454084411533275136
-     1 string m_Localized = "Você pode atrair libélulas de água aplicando esporos luminosos em você mesmo. Colete as libélulas antes que os esporos se dissipem."
+     1 string m_Localized = "Você pode atrair Libélulas Aquáticas aplicando esporos luminosos em si mesmo. Colete as libélulas antes que os esporos se dissipem."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2763,7 +2763,7 @@
    [340]
     0 TableEntryData data
      0 SInt64 m_Id = 458719292768509952
-     1 string m_Localized = "Um peixe que nada em círculos na superfície das águas de {Map.StarSeaCave}, coletando pó estelar. Ele absorve poeira estelar de sua barbatana caudal, que então se acumula em sua barriga e brilha."
+     1 string m_Localized = "Um peixe que nada em círculos na superfície das águas de {Map.StarSeaCave}, coletando pó de estrela. Absorve poeira estelar através de sua barbatana caudal, que então se acumula em sua barriga e brilha."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -2774,7 +2774,7 @@
    [341]
     0 TableEntryData data
      0 SInt64 m_Id = 458719404206972928
-     1 string m_Localized = "A única luz que ele pode ver é a que vem de si mesmo. Fica cego quando sua própria luz se apaga."
+     1 string m_Localized = "A única luz que pode ver é a de si mesmo. Fica cego quando sua própria luz se apaga."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2782,7 +2782,7 @@
    [342]
     0 TableEntryData data
      0 SInt64 m_Id = 458759130314039296
-     1 string m_Localized = "Poção da Barreira Negra"
+     1 string m_Localized = "Poção de Barreira Negra"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2790,7 +2790,7 @@
    [343]
     0 TableEntryData data
      0 SInt64 m_Id = 458759177562873856
-     1 string m_Localized = "Uma poção que fornece uma barreira escura ao absorver a luz. Use-o apenas quando estiver em segurança, pois tende a desativar qualquer fonte de luz. Também usado como auxílio para dormir devido à sua capacidade de trazer escuridão."
+     1 string m_Localized = "Uma poção que fornece uma barreira escura absorvendo luz. Use apenas quando em segurança, porque tende a desativar qualquer fonte de luz. Também usada como auxílio para dormir devido à sua capacidade de trazer escuridão."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2798,7 +2798,7 @@
    [344]
     0 TableEntryData data
      0 SInt64 m_Id = 459532483646173184
-     1 string m_Localized = "Raposa Neblina"
+     1 string m_Localized = "Raposa do Nevoeiro"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2806,7 +2806,7 @@
    [345]
     0 TableEntryData data
      0 SInt64 m_Id = 459532487723036672
-     1 string m_Localized = "Confiante em sua capacidade de ficar invisível a qualquer hora e em qualquer lugar, ele passa a maior parte do dia dormindo. Torna-se transparente e foge ao primeiro sinal de perigo e reaparece quando se sente seguro."
+     1 string m_Localized = "Confiante em sua capacidade de ficar invisível a qualquer hora, em qualquer lugar, passa a maior parte do dia dormindo. Fica transparente e foge ao primeiro sinal de perigo e reaparece quando se sente segura."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2814,7 +2814,7 @@
    [346]
     0 TableEntryData data
      0 SInt64 m_Id = 459532489111351296
-     1 string m_Localized = "Se você perdê-lo no meio do caminho, simplesmente procure por alguma folha tremendo no ar parado ou ondulações aparecendo do nada. Fique atento! Uma piscada descuidada e você perderá."
+     1 string m_Localized = "Se você a perder no caminho, simplesmente procure por qualquer folha tremendo no ar parado ou ondulação aparecendo do nada. Fique atento! Um piscar de olhos descuidado e você a perderá."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2830,7 +2830,7 @@
    [348]
     0 TableEntryData data
      0 SInt64 m_Id = 467485408923492352
-     1 string m_Localized = "Emite uma explosão constante de vapor onde pousa. Siga a dose recomendada ou o vapor bloqueará sua visão e fará você se perder."
+     1 string m_Localized = "Emite uma explosão constante de vapor onde cai. Apegue-se à dose recomendada ou o vapor bloqueará sua visão e fará você se perder."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2838,7 +2838,7 @@
    [349]
     0 TableEntryData data
      0 SInt64 m_Id = 467830321301168128
-     1 string m_Localized = "Poção de lançamento longo"
+     1 string m_Localized = "Poção de Mãos Leves"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2846,7 +2846,7 @@
    [350]
     0 TableEntryData data
      0 SInt64 m_Id = 467830325109596160
-     1 string m_Localized = "Uma poção que fortalece temporariamente seus braços e permite arremessos que excedem os limites humanos. Use-o somente quando permitido, pois é proibido em algumas competições."
+     1 string m_Localized = "Uma poção que fortalece temporariamente seus braços e permite arremessos que excedem os limites humanos. Use apenas quando permitido, pois é proibida em algumas competições."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2854,7 +2854,7 @@
    [351]
     0 TableEntryData data
      0 SInt64 m_Id = 494238136391819264
-     1 string m_Localized = "Erva de flutuabilidade"
+     1 string m_Localized = "Erva da Flutuabilidade"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2862,7 +2862,7 @@
    [352]
     0 TableEntryData data
      0 SInt64 m_Id = 494237686175227904
-     1 string m_Localized = "Suas folhas são tenras como seda, mas suas raízes são firmes e profundamente ancoradas no solo.\nCada planta produz apenas um fruto."
+     1 string m_Localized = "Suas folhas são tão macias quanto seda, mas suas raízes são firmes e profundamente ancoradas no solo.\nCada planta produz apenas um fruto."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2870,7 +2870,7 @@
    [353]
     0 TableEntryData data
      0 SInt64 m_Id = 494237715472441344
-     1 string m_Localized = "Para evitar o enjôo das ervas, não olhe para a frente quando estiver nela. Você também pode aliviar a tontura concentrando-se e cronometrando bem o seu swing."
+     1 string m_Localized = "Para evitar tontura da erva, não encare a frente quando estiver nela. Você também pode aliviar a tontura focando e cronometrando bem seu balanço."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2878,7 +2878,7 @@
    [354]
     0 TableEntryData data
      0 SInt64 m_Id = 494237748309647360
-     1 string m_Localized = "Ele pode facilmente carregar uma pessoa, mas virará se você tentar amontoar uma multidão nele."
+     1 string m_Localized = "Pode facilmente carregar uma pessoa, mas vai virar se você tentar amontoar uma multidão nela."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2886,7 +2886,7 @@
    [355]
     0 TableEntryData data
      0 SInt64 m_Id = 495086783835123712
-     1 string m_Localized = "Raiz do Penhasco"
+     1 string m_Localized = "Raiz de Penhasco"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2894,7 +2894,7 @@
    [356]
     0 TableEntryData data
      0 SInt64 m_Id = 495087043911331840
-     1 string m_Localized = "Uma planta que cresce sob partes salientes de penhascos. Suas raízes, rompendo as paredes do penhasco, ficam expostas e brilham levemente. O que levou a esta natureza única permanece desconhecido."
+     1 string m_Localized = "Uma planta que cresce sob partes salientes de penhascos. Suas raízes, rompendo paredes de penhascos, ficam expostas e brilham levemente. O que levou a essa natureza única permanece desconhecido."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2902,7 +2902,7 @@
    [357]
     0 TableEntryData data
      0 SInt64 m_Id = 495087276691009536
-     1 string m_Localized = "A planta explodirá do solo se você tocar em suas raízes, permitindo que seja coletada com uma espátula. No entanto, perturbar uma planta fará com que as demais se escondam. O uso inteligente de sua espátula é necessário para atrair os que estão escondidos."
+     1 string m_Localized = "A planta irromperá do solo se você tocar em suas raízes, permitindo que você a colete com uma pá. No entanto, perturbar uma planta fará com que as outras se escondam. Uso inteligente de sua pá é necessário para atrair as escondidas."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2910,7 +2910,7 @@
    [358]
     0 TableEntryData data
      0 SInt64 m_Id = 500114668362903552
-     1 string m_Localized = "Flor de lentilha-d'água"
+     1 string m_Localized = "Flor de Lentilha-d'água"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2926,7 +2926,7 @@
    [360]
     0 TableEntryData data
      0 SInt64 m_Id = 500114674373341184
-     1 string m_Localized = "Para coletar a planta, é necessário derrubá-la e expor a parte submersa. A planta vai tremer violentamente se você tocá-la enquanto ela estiver absorvendo água e brilhando."
+     1 string m_Localized = "Para coletar a planta, você precisa virá-la e expor a parte submersa. A planta balançará violentamente se você tocá-la quando estiver absorvendo água e brilhando."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2934,7 +2934,7 @@
    [361]
     0 TableEntryData data
      0 SInt64 m_Id = 505470309304229888
-     1 string m_Localized = "Orbe dos Sonhos"
+     1 string m_Localized = "Orbe do Sonho"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2942,7 +2942,7 @@
    [362]
     0 TableEntryData data
      0 SInt64 m_Id = 505470369177919488
-     1 string m_Localized = "Os orbes nas suas costas ganham peso à medida que cresce. Necessita de ajuda externa para remover os orbes quando eles ficam muito pesados ​​​​e dificultam os movimentos."
+     1 string m_Localized = "As órbitas em suas costas ganham peso à medida que cresce. Precisa de ajuda externa para remover as órbitas quando elas se tornam muito pesadas e atrapalham o movimento."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2950,7 +2950,7 @@
    [363]
     0 TableEntryData data
      0 SInt64 m_Id = 505470457157640192
-     1 string m_Localized = "Tem um corpo macio e elástico que resiste bem a puxar."
+     1 string m_Localized = "Tem um corpo macio e elástico que lida bem com puxões."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2958,7 +2958,7 @@
    [364]
     0 TableEntryData data
      0 SInt64 m_Id = 500073092517441536
-     1 string m_Localized = "Mergulhador de Solo"
+     1 string m_Localized = "Mergulhador do Solo"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2966,7 +2966,7 @@
    [365]
     0 TableEntryData data
      0 SInt64 m_Id = 500073096875323392
-     1 string m_Localized = "Uma criatura que se esconde no subsolo e assedia os transeuntes. Seu corpo gelatinoso é flexível e imune a impactos físicos."
+     1 string m_Localized = "Uma criatura que se esconde no subsolo e importuna passantes. Seu corpo gelatinoso é flexível e imune a impactos físicos."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2974,7 +2974,7 @@
    [366]
     0 TableEntryData data
      0 SInt64 m_Id = 500073447053570048
-     1 string m_Localized = "Para coletá-lo, observe com atenção e balance a picareta no momento em que ela sai do chão e expõe o minério."
+     1 string m_Localized = "Para coletá-lo, observe cuidadosamente e balance a picareta no momento em que ele irromper do solo e expuser o minério."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2982,7 +2982,7 @@
    [367]
     0 TableEntryData data
      0 SInt64 m_Id = 498333769193086976
-     1 string m_Localized = "Pregador de solo"
+     1 string m_Localized = "Martelador do Chão"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2990,7 +2990,7 @@
    [368]
     0 TableEntryData data
      0 SInt64 m_Id = 498333772473032704
-     1 string m_Localized = "Ele anda com a casca do ovo reta, raramente revelando qualquer cabelo por baixo. Muito focado na caça às frutas, muitas vezes é atingido por objetos pesados ​​que caem de cima."
+     1 string m_Localized = "Anda por aí usando sua casca de ovo reta, raramente revelando qualquer pelo por baixo. Muito focado na caça de frutas, frequentemente é atingido por objetos pesados caindo de cima."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -2998,7 +2998,7 @@
    [369]
     0 TableEntryData data
      0 SInt64 m_Id = 510607052470493184
-     1 string m_Localized = "Uma criatura brilhante que nada no céu noturno. Torna-se transparente ao se mover em alta velocidade."
+     1 string m_Localized = "Uma criatura brilhante que nada no céu noturno. Fica transparente quando se move em alta velocidade."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3006,7 +3006,7 @@
    [370]
     0 TableEntryData data
      0 SInt64 m_Id = 510607057562378240
-     1 string m_Localized = "Você pode prever seu caminho observando os momentos em que ele brilha."
+     1 string m_Localized = "Você pode prever seu caminho observando aqueles momentos em que ele cintila."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3022,7 +3022,7 @@
    [372]
     0 TableEntryData data
      0 SInt64 m_Id = 538094828673572864
-     1 string m_Localized = "Doce maldição doce"
+     1 string m_Localized = "Doce da Maldição Doce"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3030,7 +3030,7 @@
    [373]
     0 TableEntryData data
      0 SInt64 m_Id = 538094828681961472
-     1 string m_Localized = "Enquanto dura o efeito do doce, tudo o que você come tem um sabor doce. Não é recomendado consumir o doce inteiro de uma só vez."
+     1 string m_Localized = "Enquanto o efeito do doce dura, tudo o que você come tem gosto doce. Consumir o doce inteiro de uma vez não é recomendado."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3038,7 +3038,7 @@
    [374]
     0 TableEntryData data
      0 SInt64 m_Id = 538115845999566848
-     1 string m_Localized = "Doces Quentes e Confortáveis"
+     1 string m_Localized = "Doce de Conforto Quente"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3046,7 +3046,7 @@
    [375]
     0 TableEntryData data
      0 SInt64 m_Id = 538115846003761152
-     1 string m_Localized = "Um doce que envia calor por todo o seu corpo. Protege você do frio durante qualquer atividade ao ar livre no inverno."
+     1 string m_Localized = "Um doce que espalha calor pelo seu corpo. Protege você do frio durante qualquer atividade externa no inverno."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3054,7 +3054,7 @@
    [376]
     0 TableEntryData data
      0 SInt64 m_Id = 538117084388794368
-     1 string m_Localized = "Doces de imprensa pesada"
+     1 string m_Localized = "Doce de Pressão Pesada"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3062,7 +3062,7 @@
    [377]
     0 TableEntryData data
      0 SInt64 m_Id = 538117084388794369
-     1 string m_Localized = "Um doce que deixa seu corpo pesado. Tome um antes de dormir e você afundará na suavidade da sua cama."
+     1 string m_Localized = "Um doce que faz seu corpo se sentir pesado. Tome um antes de dormir e você afundará na maciez da sua cama."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3070,7 +3070,7 @@
    [378]
     0 TableEntryData data
      0 SInt64 m_Id = 538125651607035904
-     1 string m_Localized = "Não mova os doces"
+     1 string m_Localized = "Doce Não Se Mexa"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3078,7 +3078,7 @@
    [379]
     0 TableEntryData data
      0 SInt64 m_Id = 538125651607035905
-     1 string m_Localized = "Um doce que enrijece ligeiramente o corpo. Geralmente consumido por modelos, que precisam ficar imóveis para fotos."
+     1 string m_Localized = "Um doce que endurece levemente seu corpo. Normalmente consumido por modelos, que precisam ficar parados para fotos."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3086,7 +3086,7 @@
    [380]
     0 TableEntryData data
      0 SInt64 m_Id = 538126477780066304
-     1 string m_Localized = "Doces de previsão"
+     1 string m_Localized = "Doce de Previsão"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3094,7 +3094,7 @@
    [381]
     0 TableEntryData data
      0 SInt64 m_Id = 538126477780066305
-     1 string m_Localized = "Um doce que mostra fragmentos do futuro. No entanto, você não saberá quando essas visões se tornarão realidade."
+     1 string m_Localized = "Um doce que mostra fragmentos do futuro. No entanto, você não saberá quando essas visões se realizarão."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3102,7 +3102,7 @@
    [382]
     0 TableEntryData data
      0 SInt64 m_Id = 538127089376698368
-     1 string m_Localized = "Doce de cabeça legal"
+     1 string m_Localized = "Doce de Cabeça Fria"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3110,7 +3110,7 @@
    [383]
     0 TableEntryData data
      0 SInt64 m_Id = 538127089376698369
-     1 string m_Localized = "Um doce que alivia dores de cabeça. Sua mente se acalmará à medida que o frio penetrar em sua testa."
+     1 string m_Localized = "Um doce que alivia dores de cabeça. Sua mente se acalmará conforme o frio penetra em sua testa."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3118,7 +3118,7 @@
    [384]
     0 TableEntryData data
      0 SInt64 m_Id = 538127817474318336
-     1 string m_Localized = "Doce Passo Leve"
+     1 string m_Localized = "Doce de Passo Leve"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3126,7 +3126,7 @@
    [385]
     0 TableEntryData data
      0 SInt64 m_Id = 538127817474318337
-     1 string m_Localized = "Um doce que te deixa com os pés leves. Consumido regularmente por entusiastas de caminhadas."
+     1 string m_Localized = "Um doce que o torna ágil. Consumido por entusiastas de caminhada regularmente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3134,7 +3134,7 @@
    [386]
     0 TableEntryData data
      0 SInt64 m_Id = 538128184794685440
-     1 string m_Localized = "Doce para estômago calmo"
+     1 string m_Localized = "Doce de Estômago Calmo"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3142,7 +3142,7 @@
    [387]
     0 TableEntryData data
      0 SInt64 m_Id = 538128184794685441
-     1 string m_Localized = "Um doce que alivia dores de estômago. Ele fornece à sua barriga um suporte tão estável quanto a terra."
+     1 string m_Localized = "Um doce que acalma um estômago irritado. Fornece suporte para sua barriga tão estável quanto a terra."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3158,7 +3158,7 @@
    [389]
     0 TableEntryData data
      0 SInt64 m_Id = 538129106119696385
-     1 string m_Localized = "Um doce que faz você falar mais baixo, mas ser ouvido com mais clareza. Freqüentemente usado para conversas privadas e conversas suaves em silêncio."
+     1 string m_Localized = "Um doce que faz você falar mais baixo, mas ser ouvido mais claramente. Frequentemente usado para conversas privadas e conversas suaves no silêncio."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3166,7 +3166,7 @@
    [390]
     0 TableEntryData data
      0 SInt64 m_Id = 538129793419321344
-     1 string m_Localized = "Doce de voz profunda"
+     1 string m_Localized = "Doce de Voz Profunda"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3174,7 +3174,7 @@
    [391]
     0 TableEntryData data
      0 SInt64 m_Id = 538129793419321345
-     1 string m_Localized = "A receita de um doce que deixa sua voz mais profunda e intimidante. Freqüentemente usado para dramatizações e ameaças lúdicas."
+     1 string m_Localized = "A receita para um doce que torna sua voz mais profunda e intimidadora. Frequentemente usado para role-playing e ameaças brincalhonas."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3182,7 +3182,7 @@
    [392]
     0 TableEntryData data
      0 SInt64 m_Id = 538131065681747968
-     1 string m_Localized = "Doce de Orelha Afiada"
+     1 string m_Localized = "Doce de Ouvido Aguçado"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3190,7 +3190,7 @@
    [393]
     0 TableEntryData data
      0 SInt64 m_Id = 538131065681747969
-     1 string m_Localized = "Um doce que lhe dá uma audição aguçada, permitindo captar os mais leves ruídos e sussurros distantes."
+     1 string m_Localized = "Um doce que dá a você um senso de audição aguçado, permitindo capturar os menores ruídos e sussurros distantes."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3206,7 +3206,7 @@
    [395]
     0 TableEntryData data
      0 SInt64 m_Id = 538131929901309953
-     1 string m_Localized = "Um doce que aumenta sua velocidade de reação. Ocasionalmente utilizado em esportes que exigem reflexos rápidos, mas proibido em competições."
+     1 string m_Localized = "Um doce que aumenta sua velocidade de reação. Ocasionalmente usado em esportes que exigem reflexos rápidos, mas proibido em competições."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3214,7 +3214,7 @@
    [396]
     0 TableEntryData data
      0 SInt64 m_Id = 538132515409371136
-     1 string m_Localized = "Doces de aderência suave"
+     1 string m_Localized = "Doce de Pegada Suave"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3222,7 +3222,7 @@
    [397]
     0 TableEntryData data
      0 SInt64 m_Id = 538132515409371137
-     1 string m_Localized = "Um doce que enfraquece os dedos. Usado principalmente para manobras delicadas onde a força brutal deve ser evitada."
+     1 string m_Localized = "Um doce que enfraquece seus dedos. Principalmente usado para manobras delicadas onde a força bruta deve ser evitada."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3230,7 +3230,7 @@
    [398]
     0 TableEntryData data
      0 SInt64 m_Id = 538133533111099392
-     1 string m_Localized = "Tick ​​Tock Doce"
+     1 string m_Localized = "Doce Tique-Taque"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3238,7 +3238,7 @@
    [399]
     0 TableEntryData data
      0 SInt64 m_Id = 538133533111099393
-     1 string m_Localized = "Um doce que ajuda você a manter um ritmo constante. Coma antes de qualquer tarefa que exija um ritmo constante ou antes de fazer uma apresentação para acompanhar seu progresso e ritmo."
+     1 string m_Localized = "Um doce que ajuda a manter um ritmo constante. Coma antes de qualquer tarefa que exija um ritmo constante ou antes de dar uma apresentação para acompanhar seu progresso e ritmo."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3254,7 +3254,7 @@
    [401]
     0 TableEntryData data
      0 SInt64 m_Id = 539256768151314432
-     1 string m_Localized = "Uma poção usada para procurar criaturas vivas. Não funcionará se você não conhecer bem o seu alvo."
+     1 string m_Localized = "Uma poção usada para procurar criaturas vivas. Não funcionará se você não conhecer bem seu alvo."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3270,7 +3270,7 @@
    [403]
     0 TableEntryData data
      0 SInt64 m_Id = 540689441706467328
-     1 string m_Localized = "Uma poção que carrega o desejo do criador ou de outra pessoa. Apesar de não ter nenhum poder especial, pode preservar um pensamento precioso."
+     1 string m_Localized = "Uma poção que carrega o desejo do fabricante ou de outra pessoa. Apesar de não ter poder especial, pode preservar um pensamento precioso."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3278,7 +3278,7 @@
    [404]
     0 TableEntryData data
      0 SInt64 m_Id = 501900010977239040
-     1 string m_Localized = "Morcego de amendoim"
+     1 string m_Localized = "Morcego Amendoim"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3286,7 +3286,7 @@
    [405]
     0 TableEntryData data
      0 SInt64 m_Id = 501900014500454400
-     1 string m_Localized = "Indivíduos com asas subdesenvolvidas são frequentemente vistos flutuando indefesos no chão. Adultos com asas totalmente crescidas, no entanto, empoleiram-se em tetos altos e são, portanto, uma visão rara."
+     1 string m_Localized = "Indivíduos com asas subdesenvolvidas são frequentemente vistos batendo asas desamparados no chão. Adultos com asas totalmente desenvolvidas, no entanto, empoleiram-se em tetos altos e são, portanto, uma visão rara."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3294,7 +3294,7 @@
    [406]
     0 TableEntryData data
      0 SInt64 m_Id = 501900015536447488
-     1 string m_Localized = "Se você conseguir fazê-lo pairar, ele pensará que está voando e suas asas começarão a brilhar. Enquanto ele estiver pulando, agarre-o rapidamente e jogue-o repetidamente. Suas asas brilharão intensamente e completarão a muda."
+     1 string m_Localized = "Se você conseguir fazê-lo pairar, ele pensará que está voando e suas asas começarão a cintilar. Enquanto ele está pulando, agarre-o rapidamente e jogue-o repetidamente. Suas asas brilharão intensamente e completarão sua muda."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3302,7 +3302,7 @@
    [407]
     0 TableEntryData data
      0 SInt64 m_Id = 501900016668909568
-     1 string m_Localized = "Diz-se que quanto mais longe se voa, maiores se tornam as suas asas. Alguns até sussurram que viram asas do tamanho de uma casa."
+     1 string m_Localized = "Dizem que quanto mais longe se voa, maiores suas asas se tornam. Alguns até sussurram ter visto asas tão grandes quanto uma casa."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3310,7 +3310,7 @@
    [408]
     0 TableEntryData data
      0 SInt64 m_Id = 553415451215495168
-     1 string m_Localized = "Poção de Flor Azul"
+     1 string m_Localized = "Poção da Flor Azul"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3326,7 +3326,7 @@
    [410]
     0 TableEntryData data
      0 SInt64 m_Id = 548289342178164736
-     1 string m_Localized = "Poção de Reminiscência"
+     1 string m_Localized = "Poção da Reminiscência"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3334,7 +3334,7 @@
    [411]
     0 TableEntryData data
      0 SInt64 m_Id = 555244851630710784
-     1 string m_Localized = "Eles parecem se mover rápida e erraticamente, mas um olhar mais atento revela que estão voando em círculos. Alcance-os antes que voem para muito longe."
+     1 string m_Localized = "Eles parecem se mover rapidamente e erraticamente, mas um olhar mais atento revela que estão voando em círculos. Alcance-os antes que voem muito longe."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3342,7 +3342,7 @@
    [412]
     0 TableEntryData data
      0 SInt64 m_Id = 553419530201300993
-     1 string m_Localized = "Uma poção criada por uma bruxa que, ao ver o mar pela primeira vez, ficou cativada pela sua tonalidade azul. Ela se agarrou àquela cor como se fosse se afogar, a menos que tudo ao seu redor estivesse coberto por ela."
+     1 string m_Localized = "Uma poção criada por uma bruxa que, ao ver o mar pela primeira vez, ficou cativada por seu tom azul. Ela se apegou a essa cor como se fosse se afogar a menos que tudo ao seu redor fosse coberto por ela."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3350,7 +3350,7 @@
    [413]
     0 TableEntryData data
      0 SInt64 m_Id = 553415451236466688
-     1 string m_Localized = "Uma poção que faz uma flor parecer vívida, como se estivesse adornada com gotas de orvalho.\nEla não se torna realmente uma flor — é apenas uma ilusão de aparência."
+     1 string m_Localized = "Uma poção que faz uma flor parecer vívida, como se adornada com orvalho.\nNão se torna verdadeiramente uma flor—é apenas uma ilusão de aparência."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3358,7 +3358,7 @@
    [414]
     0 TableEntryData data
      0 SInt64 m_Id = 548289342190747648
-     1 string m_Localized = "Uma poção usada para transferir os sentimentos contidos em itens preciosos ou cartas para um livro. É usado no álbum de formatura da escola de bruxas."
+     1 string m_Localized = "Uma poção usada para transferir os sentimentos contidos em itens preciosos ou cartas para um livro. É usada para o álbum de formatura da escola de bruxas."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3366,7 +3366,7 @@
    [415]
     0 TableEntryData data
      0 SInt64 m_Id = 514595018599333888
-     1 string m_Localized = "Poção de Fogo de Artifício"
+     1 string m_Localized = "Poção de Buscapé"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -3374,7 +3374,7 @@
    [416]
     0 TableEntryData data
      0 SInt64 m_Id = 514595018624499712
-     1 string m_Localized = "É uma poção que voa alto no céu e explode em lindas faíscas em uma altura específica."
+     1 string m_Localized = "É uma poção que voa alto no céu e explode em belas faíscas em uma altura específica."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

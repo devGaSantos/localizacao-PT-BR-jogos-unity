@@ -17,8 +17,8 @@
    0 Array Array (0 items)
     0 int size = 0
  0 TableEntryData m_TableData
-  0 Array Array (51 items)
-   0 int size = 51
+  0 Array Array (53 items)
+   0 int size = 53
    [0]
     0 TableEntryData data
      0 SInt64 m_Id = 105209987072
@@ -38,7 +38,7 @@
    [2]
     0 TableEntryData data
      0 SInt64 m_Id = 280980684800
-     1 string m_Localized = "Madeira Negra"
+     1 string m_Localized = "Madeira Preta"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -54,7 +54,7 @@
    [4]
     0 TableEntryData data
      0 SInt64 m_Id = 431237431296
-     1 string m_Localized = "Nogueira"
+     1 string m_Localized = "Árvore Nogueira"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -70,7 +70,7 @@
    [6]
     0 TableEntryData data
      0 SInt64 m_Id = 796607447040
-     1 string m_Localized = "Pode ser colocado na Casa da Bruxa.\nSerá catalogado após uso."
+     1 string m_Localized = "Pode ser colocado na Casa da Bruxa.\nSerá catalogado após o uso."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -78,7 +78,7 @@
    [7]
     0 TableEntryData data
      0 SInt64 m_Id = 3155249135616
-     1 string m_Localized = "Carvalho"
+     1 string m_Localized = "Árvore de Carvalho"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -86,7 +86,7 @@
    [8]
     0 TableEntryData data
      0 SInt64 m_Id = 9061878466674688
-     1 string m_Localized = "Rocha Simples"
+     1 string m_Localized = "Pedra Simples"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -110,7 +110,7 @@
    [11]
     0 TableEntryData data
      0 SInt64 m_Id = 98239464010870784
-     1 string m_Localized = "Verão fresco"
+     1 string m_Localized = "Verão Fresco"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -126,7 +126,7 @@
    [13]
     0 TableEntryData data
      0 SInt64 m_Id = 99821379181191168
-     1 string m_Localized = "Bronze e latão"
+     1 string m_Localized = "Bronze e Latão"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -134,7 +134,7 @@
    [14]
     0 TableEntryData data
      0 SInt64 m_Id = 99826366774878208
-     1 string m_Localized = "Irmãos Yellowstone"
+     1 string m_Localized = "Irmãos de Yellowstone"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -150,7 +150,7 @@
    [16]
     0 TableEntryData data
      0 SInt64 m_Id = 99826691422396416
-     1 string m_Localized = "Nuvem e névoa"
+     1 string m_Localized = "Nuvem e Névoa"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -158,7 +158,7 @@
    [17]
     0 TableEntryData data
      0 SInt64 m_Id = 99827170726486016
-     1 string m_Localized = "Moinhos de vento gêmeos"
+     1 string m_Localized = "Gêmeos Moinhos de Vento"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -166,7 +166,7 @@
    [18]
     0 TableEntryData data
      0 SInt64 m_Id = 99827733350424576
-     1 string m_Localized = "Bosque Ciano"
+     1 string m_Localized = "Bosques Cianos"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -190,7 +190,7 @@
    [21]
     0 TableEntryData data
      0 SInt64 m_Id = 144677112961249280
-     1 string m_Localized = "O sonho de Fisher"
+     1 string m_Localized = "Sonho de Pescador"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -206,7 +206,7 @@
    [23]
     0 TableEntryData data
      0 SInt64 m_Id = 148281479553282048
-     1 string m_Localized = "Senhora Vermelha"
+     1 string m_Localized = "Madame Vermelha"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -214,7 +214,7 @@
    [24]
     0 TableEntryData data
      0 SInt64 m_Id = 148281549262614528
-     1 string m_Localized = "Roxo Claro PS"
+     1 string m_Localized = "PS Roxo Claro"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -222,7 +222,7 @@
    [25]
     0 TableEntryData data
      0 SInt64 m_Id = 199678697537482752
-     1 string m_Localized = "Sem tema"
+     1 string m_Localized = "Sem Tema"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -246,7 +246,7 @@
    [28]
     0 TableEntryData data
      0 SInt64 m_Id = 209830380714774528
-     1 string m_Localized = "Gigante de uma árvore"
+     1 string m_Localized = "Gigante de uma Árvore"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -262,7 +262,7 @@
    [30]
     0 TableEntryData data
      0 SInt64 m_Id = 246063407612801024
-     1 string m_Localized = "Oficina de vidro colorido"
+     1 string m_Localized = "Oficina de Vidro Colorido"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -270,7 +270,7 @@
    [31]
     0 TableEntryData data
      0 SInt64 m_Id = 246064030995427328
-     1 string m_Localized = "Criança travessa"
+     1 string m_Localized = "Criança Travessa"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -294,7 +294,7 @@
    [34]
     0 TableEntryData data
      0 SInt64 m_Id = 246064731230285824
-     1 string m_Localized = "Pausa do professor"
+     1 string m_Localized = "Intervalo do professor"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -302,7 +302,7 @@
    [35]
     0 TableEntryData data
      0 SInt64 m_Id = 246064895982546944
-     1 string m_Localized = "Feliz Ritoring"
+     1 string m_Localized = "Ritoringo Feliz"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -318,7 +318,7 @@
    [37]
     0 TableEntryData data
      0 SInt64 m_Id = 169927874173931520
-     1 string m_Localized = "Branco Aqua"
+     1 string m_Localized = "Água Cristalina"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -334,7 +334,7 @@
    [39]
     0 TableEntryData data
      0 SInt64 m_Id = 301538904779382784
-     1 string m_Localized = "Workshop Blue Thunder - Próxima geração"
+     1 string m_Localized = "Oficina Blue Thunder - Próxima Geração"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -342,7 +342,7 @@
    [40]
     0 TableEntryData data
      0 SInt64 m_Id = 318913621326540800
-     1 string m_Localized = "Glicínias"
+     1 string m_Localized = "Wisteria"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -350,7 +350,7 @@
    [41]
     0 TableEntryData data
      0 SInt64 m_Id = 318918602897207296
-     1 string m_Localized = "Artistas da Tristeza"
+     1 string m_Localized = "Artista Triste"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -358,7 +358,7 @@
    [42]
     0 TableEntryData data
      0 SInt64 m_Id = 318918755590844416
-     1 string m_Localized = "Brisa de domingo"
+     1 string m_Localized = "Briza de Verão"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -423,6 +423,22 @@
     0 TableEntryData data
      0 SInt64 m_Id = 336986774772621312
      1 string m_Localized = "Aroma em vidro"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [51]
+    0 TableEntryData data
+     0 SInt64 m_Id = 368974914005475328
+     1 string m_Localized = "Constelação"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [52]
+    0 TableEntryData data
+     0 SInt64 m_Id = 382015141561221120
+     1 string m_Localized = "Caminhada nas Estrelas"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

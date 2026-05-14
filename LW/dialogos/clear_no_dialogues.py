@@ -1,5 +1,7 @@
 import os
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from threading import Lock
 
 input_folder = "exportados"
 report_folder = "relatorios"
@@ -11,16 +13,26 @@ type_string = "CustomFieldType_Localization"
 title_pattern = re.compile(r'\s*\d+\s+string\s+title\s*=\s*"([^"]*)"')
 value_pattern = re.compile(r'\s*\d+\s+string\s+value\s*=\s*"(.*)"')
 type_pattern = re.compile(r'\s*\d+\s+string\s+typeString\s*=\s*"([^"]*)"')
+field_data_pattern = re.compile(r'\s*\d+\s+Field\s+data\s*$')
+indice_pattern = re.compile(r'\s*\[\d+\]\s*$')
+
+MAX_THREADS = 50
+
+print_lock = Lock()
+contador_lock = Lock()
+
+mantidos = 0
+apagados = 0
+erros = 0
+
 
 arquivos = [
     f for f in os.listdir(input_folder)
     if f.lower().endswith(".txt")
 ]
 
-mantidos = 0
-apagados = 0
-
 print(f"📂 Arquivos encontrados: {len(arquivos)}")
+print(f"🧵 Threads usadas: {MAX_THREADS}")
 
 
 # =========================
@@ -77,10 +89,10 @@ def analisar_bloco(bloco):
 
 
 # =========================
-# PROCESSAMENTO
+# PROCESSA UM ARQUIVO
 # =========================
 
-for arquivo in arquivos:
+def processar_arquivo(arquivo):
     caminho = os.path.join(input_folder, arquivo)
     report_path = os.path.join(report_folder, f"RELATORIO - {arquivo}")
 
@@ -96,7 +108,7 @@ for arquivo in arquivos:
 
         for linha in linhas:
 
-            if re.match(r'\s*\d+\s+Field\s+data\s*$', linha):
+            if field_data_pattern.match(linha):
                 bloco = [linha]
                 dentro = True
                 continue
@@ -104,7 +116,7 @@ for arquivo in arquivos:
             if dentro:
                 bloco.append(linha)
 
-                if re.match(r'\s*\[\d+\]\s*$', linha):
+                if indice_pattern.match(linha):
                     valido, title, texto = analisar_bloco(bloco)
 
                     if valido:
@@ -117,6 +129,7 @@ for arquivo in arquivos:
 
         if dentro:
             valido, title, texto = analisar_bloco(bloco)
+
             if valido:
                 encontrou_valido = True
                 registros.append(f"[OK] title={title} | value={texto}")
@@ -139,16 +152,46 @@ for arquivo in arquivos:
         # =========================
 
         if encontrou_valido:
-            mantidos += 1
-            print(f"✅ Mantido: {arquivo}")
+            return "mantido", arquivo, None
         else:
             os.remove(caminho)
-            apagados += 1
-            print(f"🗑️ Apagado: {arquivo}")
+            return "apagado", arquivo, None
 
     except Exception as e:
-        print(f"⚠️ Erro em {arquivo}: {e}")
+        return "erro", arquivo, str(e)
+
+
+# =========================
+# PROCESSAMENTO EM THREADS
+# =========================
+
+with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
+    futuros = [
+        executor.submit(processar_arquivo, arquivo)
+        for arquivo in arquivos
+    ]
+
+    for futuro in as_completed(futuros):
+        status, arquivo, erro = futuro.result()
+
+        with contador_lock:
+            if status == "mantido":
+                mantidos += 1
+            elif status == "apagado":
+                apagados += 1
+            else:
+                erros += 1
+
+        with print_lock:
+            if status == "mantido":
+                print(f"✅ Mantido: {arquivo}")
+            elif status == "apagado":
+                print(f"🗑️ Apagado: {arquivo}")
+            else:
+                print(f"⚠️ Erro em {arquivo}: {erro}")
+
 
 print("\n🔥 Limpeza concluída!")
 print(f"✅ Mantidos: {mantidos}")
 print(f"🗑️ Apagados: {apagados}")
+print(f"⚠️ Erros: {erros}")

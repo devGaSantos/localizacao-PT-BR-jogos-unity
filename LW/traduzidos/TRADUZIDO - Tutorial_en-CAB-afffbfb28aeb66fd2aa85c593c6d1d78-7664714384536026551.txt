@@ -25,7 +25,7 @@
    [0]
     0 TableEntryData data
      0 SInt64 m_Id = 64788652032
-     1 string m_Localized = "A vida de uma bruxa"
+     1 string m_Localized = "A Vida de uma Bruxa"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -41,7 +41,7 @@
    [2]
     0 TableEntryData data
      0 SInt64 m_Id = 108728180736
-     1 string m_Localized = "Coletando com consideração especial"
+     1 string m_Localized = "Coleta com Consideração Especial"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -49,7 +49,7 @@
    [3]
     0 TableEntryData data
      0 SInt64 m_Id = 141364060160
-     1 string m_Localized = "As criaturas geralmente vivem em <color=#800000>habitats específicos</color>.\nExplore as florestas para descobrir diversas formas de vida.\nUse a <color=#800000>Pena</color> e a <color=#800000>Enciclopédia</color> para descobrir mais sobre seus habitats."
+     1 string m_Localized = "As criaturas geralmente vivem em <color=#800000>habitats específicos</color>.\nExplore as florestas para descobrir várias formas de vida.\nUse a <color=#800000>Pena</color> e a <color=#800000>Enciclopédia</color> para descobrir sobre seus habitats."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -65,7 +65,7 @@
    [5]
     0 TableEntryData data
      0 SInt64 m_Id = 214021988352
-     1 string m_Localized = "Você pode ver informações sobre formas de vida e receitas de poções escritas com a pena na Enciclopédia."
+     1 string m_Localized = "Você pode ver informações sobre formas de vida e receitas de poções\nescritas com a pena na Enciclopédia."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -73,7 +73,7 @@
    [6]
     0 TableEntryData data
      0 SInt64 m_Id = 1550008475648
-     1 string m_Localized = "Enciclopédia Aberta"
+     1 string m_Localized = "Abrir Enciclopédia"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -81,7 +81,7 @@
    [7]
     0 TableEntryData data
      0 SInt64 m_Id = 1686621151232
-     1 string m_Localized = "Próxima categoria/página"
+     1 string m_Localized = "Próxima Categoria/Página"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -89,7 +89,7 @@
    [8]
     0 TableEntryData data
      0 SInt64 m_Id = 2075693178880
-     1 string m_Localized = "Fazendo Poções"
+     1 string m_Localized = "Criação de Poções"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -97,7 +97,7 @@
    [9]
     0 TableEntryData data
      0 SInt64 m_Id = 2078402699264
-     1 string m_Localized = "Para criar poções, você precisa seguir os\n<color=#800000>Ingredientes</color>, <color=#800000>Acendimento do Fogo</color> e a <color=#800000>Direção da Concha</color>.\nLeia com atenção as <color=#800000>receitas na Enciclopédia</color>."
+     1 string m_Localized = "Para criar poções, você precisa seguir os <color=#800000>Ingredientes</color> necessários, <color=#800000>Configuração do Fogo</color> e <color=#800000>Direção da Concha</color>.\nLeia cuidadosamente as <color=#800000>receitas na Enciclopédia</color>."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -113,7 +113,7 @@
    [11]
     0 TableEntryData data
      0 SInt64 m_Id = 2281423790080
-     1 string m_Localized = "Agora você pode salvar e carregar do armário no primeiro andar da Casa da Bruxa."
+     1 string m_Localized = "Agora você pode salvar e carregar no armário do primeiro andar da Casa da Bruxa."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -121,7 +121,7 @@
    [12]
     0 TableEntryData data
      0 SInt64 m_Id = 2451133718528
-     1 string m_Localized = "Cochilos"
+     1 string m_Localized = "Sonecas"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -129,7 +129,7 @@
    [13]
     0 TableEntryData data
      0 SInt64 m_Id = 2452958240768
-     1 string m_Localized = "Você pode tirar uma soneca.\n*Você não pode tirar uma soneca à <color=#800000>noite</color>.\n*Você só pode <color=#800000>tirar uma soneca por dia</color>."
+     1 string m_Localized = "Você pode tirar sonecas.\n*Você não pode tirar sonecas à <color=#800000>noite</color>.\n*Você só pode <color=#800000>tirar uma soneca por dia</color>."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -137,7 +137,7 @@
    [14]
     0 TableEntryData data
      0 SInt64 m_Id = 2614568968192
-     1 string m_Localized = "Passando tempo"
+     1 string m_Localized = "Passando o Tempo"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -145,7 +145,7 @@
    [15]
     0 TableEntryData data
      0 SInt64 m_Id = 2616129249280
-     1 string m_Localized = "Alguns itens coletados só podem ser obtidos em <color=#800000>horários específicos</color>.\nSe você não puder coletá-los logo, você pode primeiro tirar um <color=#800000>cochilo</color>."
+     1 string m_Localized = "Alguns itens coletados só podem ser obtidos em <color=#800000>horários específicos</color>.\nSe não conseguir coletá-los logo, você pode <color=#800000>tirar uma soneca</color> primeiro."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -161,7 +161,7 @@
    [17]
     0 TableEntryData data
      0 SInt64 m_Id = 2782353711104
-     1 string m_Localized = "Você pode visualizar suas notas para ver as <color=#800000>palavras-chave</color> que possui."
+     1 string m_Localized = "Você pode ver suas notas para ver as <color=#800000>palavras-chave</color> que tem."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -169,7 +169,7 @@
    [18]
     0 TableEntryData data
      0 SInt64 m_Id = 2831146049536
-     1 string m_Localized = "Notas abertas"
+     1 string m_Localized = "Abrir Notas"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -177,7 +177,7 @@
    [19]
     0 TableEntryData data
      0 SInt64 m_Id = 2847608692736
-     1 string m_Localized = "Mudar para palavras-chave"
+     1 string m_Localized = "Mudar para Palavras-chave"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -185,7 +185,7 @@
    [20]
     0 TableEntryData data
      0 SInt64 m_Id = 3141436465152
-     1 string m_Localized = "Quadro de memorandos"
+     1 string m_Localized = "Quadro de Lembretes"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -193,7 +193,7 @@
    [21]
     0 TableEntryData data
      0 SInt64 m_Id = 3143999184896
-     1 string m_Localized = "Você pode ir ao Quadro de Memorandos para ver suas tarefas atuais."
+     1 string m_Localized = "Você pode ir ao Quadro de Lembretes para ver suas tarefas atuais."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -201,7 +201,7 @@
    [22]
     0 TableEntryData data
      0 SInt64 m_Id = 3145827901440
-     1 string m_Localized = "Abrir quadro de memorandos"
+     1 string m_Localized = "Abrir Memorando"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -209,7 +209,7 @@
    [23]
     0 TableEntryData data
      0 SInt64 m_Id = 3147312685056
-     1 string m_Localized = "Fechar quadro de memorandos"
+     1 string m_Localized = "Fechar Quadro de Lembretes"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -225,7 +225,7 @@
    [25]
     0 TableEntryData data
      0 SInt64 m_Id = 3454469955584
-     1 string m_Localized = "<color=#800000>Pressione e segure</color> o botão Usar pena para desenhar.\nQuando o medidor estiver cheio e o desenho concluído, o assunto do desenho será <color=#800000>registrado na Enciclopédia</color>."
+     1 string m_Localized = "<color=#800000>Mantenha pressionado</color> o botão Usar Pena para desenhar.\nQuando a barra estiver cheia e o desenho estiver completo, o assunto do desenho será <color=#800000>registrado na Enciclopédia</color>."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -233,7 +233,7 @@
    [26]
     0 TableEntryData data
      0 SInt64 m_Id = 3456198008832
-     1 string m_Localized = "Alterar ferramentas"
+     1 string m_Localized = "Mudar Ferramenta"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -241,7 +241,7 @@
    [27]
     0 TableEntryData data
      0 SInt64 m_Id = 3457712152576
-     1 string m_Localized = "Usar pena"
+     1 string m_Localized = "Usar Pena"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -249,7 +249,7 @@
    [28]
     0 TableEntryData data
      0 SInt64 m_Id = 3768669462528
-     1 string m_Localized = "Corrida"
+     1 string m_Localized = "Correr"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -257,7 +257,7 @@
    [29]
     0 TableEntryData data
      0 SInt64 m_Id = 3770221355008
-     1 string m_Localized = "Pressione o botão de corrida para se mover mais rápido que o normal.\nCorrer usa resistência."
+     1 string m_Localized = "Pressione o botão de correr para se mover mais rápido que o normal.\nCorrer usa vigor."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -273,7 +273,7 @@
    [31]
     0 TableEntryData data
      0 SInt64 m_Id = 3936496148480
-     1 string m_Localized = "Coletar usa {Common.Energy}.\nVocê pode recuperar {Common.Energy} gasto <color=#800000>comendo</color> ou <color=#800000>dormindo</color>."
+     1 string m_Localized = "Coletar usa energia.\nVocê pode recuperar a energia gasta <color=#800000>comendo</color> ou <color=#800000>dormindo</color>."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -284,7 +284,7 @@
    [32]
     0 TableEntryData data
      0 SInt64 m_Id = 4093501530112
-     1 string m_Localized = "Conversas sobre palavras-chave"
+     1 string m_Localized = "Conversas com Palavras-chave"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -300,7 +300,7 @@
    [34]
     0 TableEntryData data
      0 SInt64 m_Id = 4097930715136
-     1 string m_Localized = "Alterar categoria"
+     1 string m_Localized = "Mudar Categoria"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -308,7 +308,7 @@
    [35]
     0 TableEntryData data
      0 SInt64 m_Id = 4099109314560
-     1 string m_Localized = "Use palavras-chave"
+     1 string m_Localized = "Usar Palavras-chave"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -324,7 +324,7 @@
    [37]
     0 TableEntryData data
      0 SInt64 m_Id = 4415586328576
-     1 string m_Localized = "Você pode usar o <color=#800000>Seletor de Poções</color> para <color=#800000>selecionar</color> qualquer poção e <color=#800000>usá-la</color>."
+     1 string m_Localized = "Você pode usar o <color=#800000>Seletor de Poções</color> para <color=#800000>selecionar</color> qualquer poção e <color=#800000>usar</color> ela."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -332,7 +332,7 @@
    [38]
     0 TableEntryData data
      0 SInt64 m_Id = 4416282583040
-     1 string m_Localized = "Abrir seletor de poções"
+     1 string m_Localized = "Abrir Seletor de Poções"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -340,7 +340,7 @@
    [39]
     0 TableEntryData data
      0 SInt64 m_Id = 4417037557760
-     1 string m_Localized = "Selecione Poção"
+     1 string m_Localized = "Selecionar Poção"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -348,7 +348,7 @@
    [40]
     0 TableEntryData data
      0 SInt64 m_Id = 5192803442688
-     1 string m_Localized = "Na ponta dos pés"
+     1 string m_Localized = "Andar na Ponta dos Pés"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -356,7 +356,7 @@
    [41]
     0 TableEntryData data
      0 SInt64 m_Id = 5203553443840
-     1 string m_Localized = "Certas plantas e animais são altamente sensíveis, por isso você deve se aproximar com cuidado.\nPressionando o botão"Tiptoe" button allows you to move more quietly but also more slowly."
+     1 string m_Localized = "Certas plantas e animais são altamente sensíveis, então você deve se aproximar com cuidado.\nPressionar o botão \"Andar na Ponta dos Pés\" permite que você se mova mais silenciosamente, mas também mais devagar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -372,7 +372,7 @@
    [43]
     0 TableEntryData data
      0 SInt64 m_Id = 4057433478815744
-     1 string m_Localized = "Você pode <color=#800000>vender doces</color> para os comerciantes.\nOs comerciantes compram <color=#800000>itens</color> diferentes e usam <color=#800000>moedas</color> diferentes.\nVocê pode vender usando a palavra-chave <color=#800000>Comprar</color> na caixa de diálogo."
+     1 string m_Localized = "Você pode <color=#800000>vender doces</color> para os mercadores.\nMercadores compram <color=#800000>itens diferentes</color> e usam <color=#800000>moedas diferentes</color>.\nVocê pode vender usando a palavra-chave <color=#800000>Loja</color> no diálogo."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -380,7 +380,7 @@
    [44]
     0 TableEntryData data
      0 SInt64 m_Id = 4059162958127104
-     1 string m_Localized = "Entregue Poção Especial"
+     1 string m_Localized = "Entregar Poção Especial"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -388,7 +388,7 @@
    [45]
     0 TableEntryData data
      0 SInt64 m_Id = 4059163536941056
-     1 string m_Localized = "Os comerciantes compram poções extras de acordo com <color=#800000>regras especiais</color>, além das vendas normais de poções.\nEntregue as poções solicitadas para obter <color=#800000>mais recompensas</color>."
+     1 string m_Localized = "Mercadores compram poções extras de acordo com <color=#800000>regras especiais</color>, além das vendas usuais de poções.\nEntregue as poções solicitadas para obter <color=#800000>mais recompensas</color>."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -396,7 +396,7 @@
    [46]
     0 TableEntryData data
      0 SInt64 m_Id = 4065303498874880
-     1 string m_Localized = "Atualizar ferramenta de trabalho"
+     1 string m_Localized = "Melhorar Ferramenta de Trabalho"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -404,7 +404,7 @@
    [47]
     0 TableEntryData data
      0 SInt64 m_Id = 4065303754727424
-     1 string m_Localized = "Você pode comprar <color=#800000>ferramentas de processamento</color> aprimoradas, como <color=#800000>Extratores</color> ou <color=#800000>Potes de Bruxa</color>.\nFerramentas melhores permitem que você faça ingredientes ou poções <color=#800000>mais rápido e em maiores quantidades</color>."
+     1 string m_Localized = "Você pode comprar <color=#800000>ferramentas de processamento</color> melhoradas como <color=#800000>Extratores</color> ou <color=#800000>Caldeirões da Bruxa</color>.\nFerramentas melhores permitem que você faça ingredientes ou poções <color=#800000>mais rápido e em maiores quantidades</color>."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -420,7 +420,7 @@
    [49]
     0 TableEntryData data
      0 SInt64 m_Id = 4338920300240896
-     1 string m_Localized = "Você pode passar o <color=#800000>tempo</color> rapidamente lendo um livro. Isso é útil quando você está esperando por alguma coisa.\nOs livros podem ser armazenados nas <color=#800000>estantes</color> da Casa da Bruxa."
+     1 string m_Localized = "Você pode <color=#800000>passar o tempo</color> rapidamente lendo um livro. Isso é útil quando você está esperando por algo.\nLivros podem ser armazenados nas <color=#800000>estantes de livros</color> na Casa da Bruxa."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -428,7 +428,7 @@
    [50]
     0 TableEntryData data
      0 SInt64 m_Id = 4359096294989824
-     1 string m_Localized = "Atividades de treinamento"
+     1 string m_Localized = "Atividades de Treinamento"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -436,7 +436,7 @@
    [51]
     0 TableEntryData data
      0 SInt64 m_Id = 4359096936718336
-     1 string m_Localized = "A <color=#800000>Missão de entrega de doces</color> é uma <color=#800000>Atividade de treinamento</color> que você <color=#800000>escolhe</color> realizar conforme necessário.\nSe você optar por recusar essas <color=#800000>Atividades de treinamento</color>, poderá usar as <color=#800000>palavras-chave</color> para <color=#800000>faça</color> mais tarde."
+     1 string m_Localized = "A <color=#800000>Missão de Entrega de Doces</color> é uma <color=#800000>Atividade de Treinamento</color> que você <color=#800000>escolhe</color> fazer conforme necessário.\nSe você optar por recusar tais <color=#800000>Atividades de Treinamento</color>, você pode usar as <color=#800000>palavras-chave</color> para <color=#800000>fazer</color> elas depois."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -444,7 +444,7 @@
    [52]
     0 TableEntryData data
      0 SInt64 m_Id = 4387409621180416
-     1 string m_Localized = "Verifique as informações dos ingredientes"
+     1 string m_Localized = "Verificar Informações do Ingrediente"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -452,7 +452,7 @@
    [53]
     0 TableEntryData data
      0 SInt64 m_Id = 4387410195800064
-     1 string m_Localized = "Se quiser verificar <color=#800000>quais plantas e animais</color> fornecem cada ingrediente da receita, você pode tocar no botão Informações para visualizá-lo."
+     1 string m_Localized = "Se você quiser verificar <color=#800000>quais plantas e animais</color> fornecem cada ingrediente na receita, você pode tocar no botão de informações para visualizar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -460,7 +460,7 @@
    [54]
     0 TableEntryData data
      0 SInt64 m_Id = 9022088718606336
-     1 string m_Localized = "Vassoura de Bruxa"
+     1 string m_Localized = "Vassoura da Bruxa"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -468,7 +468,7 @@
    [55]
     0 TableEntryData data
      0 SInt64 m_Id = 9022089293225984
-     1 string m_Localized = "Você pode se mover mais rápido se montar uma Vassoura de Bruxa."
+     1 string m_Localized = "Você pode se mover mais rápido se andar na Vassoura da Bruxa."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -476,7 +476,7 @@
    [56]
     0 TableEntryData data
      0 SInt64 m_Id = 9022986920419328
-     1 string m_Localized = "Andar/descer"
+     1 string m_Localized = "Montar/Desmontar"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -484,7 +484,7 @@
    [57]
     0 TableEntryData data
      0 SInt64 m_Id = 9023191237550080
-     1 string m_Localized = "Impulsionar"
+     1 string m_Localized = "Acelerar"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -492,7 +492,7 @@
    [58]
     0 TableEntryData data
      0 SInt64 m_Id = 14882006655631360
-     1 string m_Localized = "Habitat, época de aparecimento, etc."
+     1 string m_Localized = "Habitat, horário de aparecimento, etc."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -500,7 +500,7 @@
    [59]
     0 TableEntryData data
      0 SInt64 m_Id = 14882206715543552
-     1 string m_Localized = "Ferramentas usadas para coletar"
+     1 string m_Localized = "Ferramentas usadas para coleta"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -508,7 +508,7 @@
    [60]
     0 TableEntryData data
      0 SInt64 m_Id = 14882238051188736
-     1 string m_Localized = "Possíveis itens coletados"
+     1 string m_Localized = "Itens coletáveis possíveis"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -516,7 +516,7 @@
    [61]
     0 TableEntryData data
      0 SInt64 m_Id = 14882258276122624
-     1 string m_Localized = "Como tornar a coleta mais fácil"
+     1 string m_Localized = "Como facilitar a coleta"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -540,7 +540,7 @@
    [64]
     0 TableEntryData data
      0 SInt64 m_Id = 16300510613143552
-     1 string m_Localized = "Tente criar <color=#800000>{poção}</color> usando <color=#800000>{ingredient_0}</color> e <color=#800000>{ingredient_1}</color>."
+     1 string m_Localized = "Tente criar <color=#800000>{potion}</color> usando <color=#800000>{ingredient_0}</color> e <color=#800000>{ingredient_1}</color>."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -551,7 +551,7 @@
    [65]
     0 TableEntryData data
      0 SInt64 m_Id = 60824591592914944
-     1 string m_Localized = "<color=#800000>Os ingredientes necessários</color> para criar a poção selecionada são mostrados aqui."
+     1 string m_Localized = "<color=#800000>Ingredientes necessários</color> para criar a poção selecionada são mostrados aqui."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -559,7 +559,7 @@
    [66]
     0 TableEntryData data
      0 SInt64 m_Id = 16330372690280448
-     1 string m_Localized = "Os itens que você pega durante a limpeza são <color=#800000>ingredientes</color>, então você pode criar poções com eles imediatamente."
+     1 string m_Localized = "Os itens que você pega enquanto limpa são <color=#800000>ingredientes</color>, então você pode criar poções com eles imediatamente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -575,7 +575,7 @@
    [68]
     0 TableEntryData data
      0 SInt64 m_Id = 54691159645159424
-     1 string m_Localized = "Aqui você pode exibir o <color=#800000>{0}</color> que obteve.\nVocê receberá um <color=#800000>{0}</color> assim que concluir um tópico de pesquisa da Enciclopédia.\n*{0} só pode decorar a parte superior do <color=#800000>{1}</color> do {0} apropriado."
+     1 string m_Localized = "Aqui você pode exibir o <color=#800000>{0}</color> que você obteve.\nVocê receberá um <color=#800000>{0}</color> assim que completar um tópico de pesquisa da Enciclopédia.\n*{0} só pode decorar o topo do <color=#800000>{1}</color> do {0} apropriado."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -602,7 +602,7 @@
    [71]
     0 TableEntryData data
      0 SInt64 m_Id = 54773805461078016
-     1 string m_Localized = "Picareta de Bruxa"
+     1 string m_Localized = "Picareta da Bruxa"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -610,7 +610,7 @@
    [72]
     0 TableEntryData data
      0 SInt64 m_Id = 54773806098612224
-     1 string m_Localized = "Para levantar a picareta, pressione o botão Usar ferramenta.\nPara abaixar a picareta, solte o botão Usar ferramenta.\nPara atacar lentamente, mas com mais força, com a picareta, <color=#800000>mantenha pressionado</color> o botão Usar ferramenta.\n<color=#800000>Para mover-se em velocidade lenta</color>, pressione um botão de direção."
+     1 string m_Localized = "Para levantar a picareta, pressione o botão Usar Ferramenta.\nPara abaixar a picareta, solte o botão Usar Ferramenta.\nPara golpear mais devagar mas com mais força com a picareta, <color=#800000>segure</color> o botão Usar Ferramenta.\n<color=#800000>Para se mover em velocidade lenta</color>, pressione um botão de direção."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -618,7 +618,7 @@
    [73]
     0 TableEntryData data
      0 SInt64 m_Id = 54808143342927872
-     1 string m_Localized = "Espátula de Bruxa"
+     1 string m_Localized = "Colher de Pedreiro da Bruxa"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -626,7 +626,7 @@
    [74]
     0 TableEntryData data
      0 SInt64 m_Id = 54808144391503872
-     1 string m_Localized = "Para cravar a espátula no solo, pressione o botão Usar ferramenta.\nPara levantar a espátula, solte o botão Usar ferramenta.\nUm efeito maior pode ser alcançado se o botão for solto no momento certo."
+     1 string m_Localized = "Para enterrar a colher de pedreiro no chão, pressione o botão Usar Ferramenta.\nPara levantar a colher de pedreiro, solte o botão Usar Ferramenta.\nUm efeito maior pode ser alcançado se o botão for solto no momento certo."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -634,7 +634,7 @@
    [75]
     0 TableEntryData data
      0 SInt64 m_Id = 55004762025820160
-     1 string m_Localized = "Rede de insetos de uma bruxa"
+     1 string m_Localized = "Rede de Insetos da Bruxa"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -642,7 +642,7 @@
    [76]
     0 TableEntryData data
      0 SInt64 m_Id = 55004762818543616
-     1 string m_Localized = "Para se posicionar para usar a rede, pressione o botão Usar ferramenta.\nPara balançar a rede, solte o botão Usar ferramenta.\nPara conseguir um balanço maior, segure o botão Usar ferramenta antes de soltar."
+     1 string m_Localized = "Para entrar na posição de usar a rede, pressione o botão Usar Ferramenta.\nPara balançar a rede, solte o botão Usar Ferramenta.\nPara alcançar um balanço maior, segure o botão Usar Ferramenta antes de soltar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -650,7 +650,7 @@
    [77]
     0 TableEntryData data
      0 SInt64 m_Id = 60805899979128832
-     1 string m_Localized = "Você pode aumentar o nível da sua Enciclopédia e receber recompensas realizando diferentes ações."
+     1 string m_Localized = "Você pode subir de nível sua Enciclopédia e receber recompensas realizando diferentes ações."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -658,7 +658,7 @@
    [78]
     0 TableEntryData data
      0 SInt64 m_Id = 60824589399293952
-     1 string m_Localized = "À esquerda você pode ler <color=#800000>sobre poções</color>."
+     1 string m_Localized = "À esquerda, você pode ler <color=#800000>sobre poções</color>."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -674,7 +674,7 @@
    [80]
     0 TableEntryData data
      0 SInt64 m_Id = 60824592675045376
-     1 string m_Localized = "Os itens coletados são obtidos de plantas e animais.\nAo processá-los com ferramentas, eles se tornam ingredientes para fazer poções."
+     1 string m_Localized = "Itens coletados são obtidos de plantas e animais.\nProcessando-os com ferramentas, eles se tornam ingredientes para fazer poções."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -682,7 +682,7 @@
    [81]
     0 TableEntryData data
      0 SInt64 m_Id = 60824593824284672
-     1 string m_Localized = "A lista de ingredientes da poção."
+     1 string m_Localized = "A lista de ingredientes de poção."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -690,7 +690,7 @@
    [82]
     0 TableEntryData data
      0 SInt64 m_Id = 60824594906415104
-     1 string m_Localized = "O poder de fogo necessário para criar a poção."
+     1 string m_Localized = "A potência de fogo necessária para criar a poção."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -706,7 +706,7 @@
    [84]
     0 TableEntryData data
      0 SInt64 m_Id = 60824609150271488
-     1 string m_Localized = "Desafios que você pode completar enquanto prepara a poção."
+     1 string m_Localized = "Desafios que você pode completar enquanto cria a poção."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -714,7 +714,7 @@
    [85]
     0 TableEntryData data
      0 SInt64 m_Id = 69867709181001728
-     1 string m_Localized = "Armário de vassouras"
+     1 string m_Localized = "Armário de Vassouras"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -722,7 +722,7 @@
    [86]
     0 TableEntryData data
      0 SInt64 m_Id = 69867766462611456
-     1 string m_Localized = "Você pode guardar suas vassouras no <color=#800000>Armário de Vassouras</color>.\nVocê só pode armazenar <color=#800000>vassouras</color> no Armário de Vassouras."
+     1 string m_Localized = "Você pode armazenar suas vassouras no <color=#800000>Armário de Vassouras</color>.\nVocê só pode armazenar <color=#800000>vassouras</color> no Armário de Vassouras."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -754,7 +754,7 @@
    [90]
     0 TableEntryData data
      0 SInt64 m_Id = 143200263539326976
-     1 string m_Localized = "Você pode entrar e nadar nas águas demarcadas pelos marcadores."
+     1 string m_Localized = "Você pode entrar e nadar na água demarcada pelas marcas."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -762,7 +762,7 @@
    [91]
     0 TableEntryData data
      0 SInt64 m_Id = 143202922635788288
-     1 string m_Localized = "Decore a casa da bruxa"
+     1 string m_Localized = "Decorar a Casa da Bruxa"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -770,7 +770,7 @@
    [92]
     0 TableEntryData data
      0 SInt64 m_Id = 143202923365597184
-     1 string m_Localized = "Você pode decorar o interior da Casa da Bruxa como desejar.\n<color=#800000>Acione o sino de decoração na entrada</color> da Casa da Bruxa para começar a decorar."
+     1 string m_Localized = "Você pode decorar o interior da Casa da Bruxa como quiser.\n<color=#800000>Opere o sino de decoração na entrada</color> da Casa da Bruxa para começar a decorar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -778,7 +778,7 @@
    [93]
     0 TableEntryData data
      0 SInt64 m_Id = 143205368296701952
-     1 string m_Localized = "Boletim da Aldeia"
+     1 string m_Localized = "Quadro de Avisos da Vila"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -786,7 +786,7 @@
    [94]
     0 TableEntryData data
      0 SInt64 m_Id = 143205369567576064
-     1 string m_Localized = "Boletim da Aldeia <color=#800000>Novas missões secundárias serão adicionadas todas as manhãs</color> ao boletim da aldeia.\nSe você estiver com dúvidas, dê uma olhada para ver o que os moradores precisam.\nMesmo um pequeno assunto pode se tornar <color=#800000>uma grande aventura</color> na companhia de Ellie."
+     1 string m_Localized = "Quadro de Avisos da Vila <color=#800000>Novas missões secundárias serão adicionadas a cada manhã</color> no quadro de avisos da vila.\nSe estiver sem nada para fazer, dê uma olhada para ver o que os aldeões precisam.\nAté uma pequena questão pode se tornar <color=#800000>uma grande aventura</color> na companhia da Ellie."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -794,7 +794,7 @@
    [95]
     0 TableEntryData data
      0 SInt64 m_Id = 143206875616313344
-     1 string m_Localized = "Caixa de correio"
+     1 string m_Localized = "Caixa de Correio"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -810,7 +810,7 @@
    [97]
     0 TableEntryData data
      0 SInt64 m_Id = 147174121397092352
-     1 string m_Localized = "Alimente os gatos"
+     1 string m_Localized = "Alimentar os Gatos"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -818,7 +818,7 @@
    [98]
     0 TableEntryData data
      0 SInt64 m_Id = 147174147347251200
-     1 string m_Localized = "Pegue e coloque a <color=#800000>comida de gato</color> do seu inventário no chão para alimentar os gatos.\nOs gatos são sempre muito <color=#800000>protegidos</color>, então você terá que ter cuidado ao alimentá-los."
+     1 string m_Localized = "Pegue e coloque a <color=#800000>comida de gato</color> do seu inventário no chão para alimentar os gatos.\nGatos são sempre muito <color=#800000>desconfiados</color>, então você terá que ter cuidado ao alimentá-los."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -826,7 +826,7 @@
    [99]
     0 TableEntryData data
      0 SInt64 m_Id = 147174330931937280
-     1 string m_Localized = "Tigela de comida de gato"
+     1 string m_Localized = "Tigela de comida para gatos"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -834,7 +834,7 @@
    [100]
     0 TableEntryData data
      0 SInt64 m_Id = 147174429401612288
-     1 string m_Localized = "Existem <color=#800000>tigelas de comida para gatos</color> na vila que podem ser usadas para alimentar gatos.\nColoque nelas alguma comida que os gatos gostem para <color=#800000>atrair</color> gatos."
+     1 string m_Localized = "Há <color=#800000>tigelas de comida para gatos</color> na vila que podem ser usadas para alimentar os gatos.\nColoque um pouco de comida que os gatos gostem nelas para <color=#800000>atrair</color> gatos."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -842,7 +842,7 @@
    [101]
     0 TableEntryData data
      0 SInt64 m_Id = 188832748352372736
-     1 string m_Localized = "Abrir seletor de ferramentas"
+     1 string m_Localized = "Abrir Seletor de Ferramentas"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -850,7 +850,7 @@
    [102]
     0 TableEntryData data
      0 SInt64 m_Id = 188835044553457664
-     1 string m_Localized = "Selecione a ferramenta"
+     1 string m_Localized = "Selecionar Ferramenta"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -858,7 +858,7 @@
    [103]
     0 TableEntryData data
      0 SInt64 m_Id = 188835088845307904
-     1 string m_Localized = "Ferramenta de troca"
+     1 string m_Localized = "Trocar Ferramenta"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -866,7 +866,7 @@
    [104]
     0 TableEntryData data
      0 SInt64 m_Id = 189091614738677760
-     1 string m_Localized = "Há <color=#800000>um tempo de espera</color> antes que você possa usar a pena em <color=#800000>algo desse tipo</color> novamente."
+     1 string m_Localized = "Há <color=#800000>um tempo de recarga</color> antes que você possa usar a pena em <color=#800000>algo deste tipo</color> novamente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -882,7 +882,7 @@
    [106]
     0 TableEntryData data
      0 SInt64 m_Id = 225804658998837248
-     1 string m_Localized = "Algumas ferramentas de trabalho têm um <color=#800000>limite de colocação</color>, enquanto outras não.\nVocê pode <color=#800000>colocar apenas 1</color> de cada <color=#800000>ferramentas de processamento</color> e do <color=#800000>Pote de Bruxa</color>.\nPor outro lado, você pode <color=#800000>colocar um número ilimitado de</color> <color=#800000>armazenamentos</color> e <color=#800000>Incubadoras</color>."
+     1 string m_Localized = "Algumas ferramentas de trabalho têm um <color=#800000>limite de colocação</color>, enquanto outras não.\nVocê pode <color=#800000>colocar apenas 1</color> de cada <color=#800000>ferramenta de processamento</color> e o <color=#800000>Caldeirão da Bruxa</color>.\nPor outro lado, você pode <color=#800000>colocar um número ilimitado de</color> <color=#800000>armazenamentos</color> e <color=#800000>Incubadoras</color>."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -890,7 +890,7 @@
    [107]
     0 TableEntryData data
      0 SInt64 m_Id = 226861674596990976
-     1 string m_Localized = "Abrir UI de seleção de poções"
+     1 string m_Localized = "Abrir interface de seleção de poção"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -898,7 +898,7 @@
    [108]
     0 TableEntryData data
      0 SInt64 m_Id = 226861766242533376
-     1 string m_Localized = "Selecione Poção"
+     1 string m_Localized = "Selecionar Poção"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -914,7 +914,7 @@
    [110]
     0 TableEntryData data
      0 SInt64 m_Id = 226938169021497344
-     1 string m_Localized = "A Incubadora é uma ferramenta que permite obter <color=#800000>muitos materiais</color> a partir de <color=#800000>uma pequena quantidade de itens coletados</color>. \r\nVocê só pode usar a Incubadora em flora e fauna em <color=#800000>regiões com uma taxa de conclusão da Enciclopédia de 40% ou mais</color>. \r\nVocê pode colocar <color=#800000>múltiplas</color> Incubadoras na oficina."
+     1 string m_Localized = "A Incubadora é uma ferramenta que permite obter <color=#800000>muitos materiais</color> de <color=#800000>uma pequena quantidade de itens coletados</color>. \r\nVocê pode usar a Incubadora apenas em flora e fauna em <color=#800000>regiões com uma taxa de conclusão da Enciclopédia de 40% ou mais</color>. \r\nVocê pode colocar <color=#800000>múltiplas</color> Incubadoras na oficina."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -922,7 +922,7 @@
    [111]
     0 TableEntryData data
      0 SInt64 m_Id = 227295037292085248
-     1 string m_Localized = "Poções artesanais"
+     1 string m_Localized = "Criar Poções"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -930,7 +930,7 @@
    [112]
     0 TableEntryData data
      0 SInt64 m_Id = 227295076219420672
-     1 string m_Localized = "Descrição do espaço reservado para elaboração de poções Descrição do espaço reservado para elaboração de poções Descrição do espaço reservado para elaboração de poções.\nAlterar a configuração do fogo e blá-blá-blá alterar a configuração do fogo e blá-blá-blá alterar a configuração do fogo e blá-blá-blá.\nDireção da concha para a esquerda para a direita no sentido horário e blá-blá-blá."
+     1 string m_Localized = "Descrição placeholder de criação de poções descrição placeholder de criação de poções descrição placeholder de criação de poções.\nMudar configuração de fogo e blá-blá-blá mudar configuração de fogo e blá-blá-blá mudar configuração de fogo e blá-blá-blá.\nDireção da concha esquerda direita horária e blá-blá-blá."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -938,7 +938,7 @@
    [113]
     0 TableEntryData data
      0 SInt64 m_Id = 231913171806388224
-     1 string m_Localized = "Você pode usar o <color=#800000>Pote da Bruxa</color> na oficina para <color=#800000>criar a poção que você precisa</color>.\nAo criar uma poção, você precisa <color=#800000>verificar sua receita na Enciclopédia</color>, usar os <color=#800000>ingredientes</color> necessários, ajustar a <color=#800000>acendimento do fogo</color> e mexa com a <color=#800000>concha</color>."
+     1 string m_Localized = "Você pode usar o <color=#800000>Caldeirão da Bruxa</color> na oficina para <color=#800000>criar a poção que você precisa</color>.\nAo criar uma poção, você precisa <color=#800000>verificar sua receita na Enciclopédia</color>, usar os <color=#800000>ingredientes</color> necessários, ajustar a <color=#800000>configuração do fogo</color> e mexer com a <color=#800000>concha</color>."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -946,7 +946,7 @@
    [114]
     0 TableEntryData data
      0 SInt64 m_Id = 231913244019720192
-     1 string m_Localized = "Durante a fase de acender o fogo, você deve ajustar a <color=#800000>intensidade de calor</color> conforme necessário.\nVocê só precisa seguir as instruções da <color=#800000>receita</color> da fase atual e atender aos <color=#800000>requisitos de intensidade e duração de calor</color>."
+     1 string m_Localized = "Durante a fase de configuração do fogo, você deve ajustar a <color=#800000>intensidade do calor</color> conforme necessário.\nVocê só precisa seguir as instruções da <color=#800000>receita</color> da fase atual e atender aos <color=#800000>requisitos de intensidade e duração do calor</color>."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -954,7 +954,7 @@
    [115]
     0 TableEntryData data
      0 SInt64 m_Id = 231913271442079744
-     1 string m_Localized = "Durante a fase de direção da panela, você deve ajustar a <color=#800000>direção da panela</color>.\nVocê só precisa seguir as instruções da <color=#800000>receita</color> e <color=#800000>mexa na direção desejada</color> pelo tempo necessário."
+     1 string m_Localized = "Durante a fase de direção da concha, você deve ajustar a <color=#800000>direção da concha</color>.\nVocê só precisa seguir as instruções da <color=#800000>receita</color> e <color=#800000>mexer na direção necessária</color> pelo tempo necessário."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -962,7 +962,7 @@
    [116]
     0 TableEntryData data
      0 SInt64 m_Id = 231913287816642560
-     1 string m_Localized = "A barra de progressão na parte superior indica a <color=#800000>qualidade da poção</color> que você está elaborando. Se você não seguir as instruções, a barra diminuirá.\nSe a barra desaparecer, <color=#800000>a confecção falhará</color>.\nQuanto mais longa for a barra restante quando você terminar a confecção, <color=#800000>maior será sua pontuação</color>."
+     1 string m_Localized = "A barra de progresso no topo indica a <color=#800000>qualidade da poção</color> que você está criando. Se você não seguir as instruções, a barra diminuirá.\nSe a barra desaparecer, <color=#800000>a criação falha</color>.\nQuanto mais longa a barra restante quando você terminar a criação, maior sua <color=#800000>pontuação</color>."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -970,7 +970,7 @@
    [117]
     0 TableEntryData data
      0 SInt64 m_Id = 231913337145851904
-     1 string m_Localized = "Ao criar, você pode encontrar <color=#800000>situações inesperadas</color> tanto na <color=#800000>fase de acender o fogo</color> quanto na <color=#800000>fase de direção da concha</color>.\nResolva as situações inesperadas e faça poções de alta qualidade!"
+     1 string m_Localized = "Ao criar, você pode encontrar <color=#800000>situações inesperadas</color> tanto na <color=#800000>fase de configuração do fogo</color> quanto na <color=#800000>fase de direção da concha</color>.\nLide com as situações inesperadas e faça poções de alta qualidade!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -978,7 +978,7 @@
    [118]
     0 TableEntryData data
      0 SInt64 m_Id = 231913513218539520
-     1 string m_Localized = "Ao adicionar ingredientes, você deve adicionar os <color=#800000>ingredientes necessários</color>.\nVocê só precisa seguir as instruções da <color=#800000>receita</color> e adicionar os <color=#800000>ingredientes necessários</color> para a fase atual no Pote da Bruxa."
+     1 string m_Localized = "Ao adicionar ingredientes, você deve adicionar os <color=#800000>ingredientes necessários</color>.\nVocê só precisa seguir as instruções na <color=#800000>receita</color> e adicionar os <color=#800000>ingredientes necessários</color> para a fase atual no Caldeirão da Bruxa."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -986,7 +986,7 @@
    [119]
     0 TableEntryData data
      0 SInt64 m_Id = 231920515315466240
-     1 string m_Localized = "À direita está a <color=#800000>receita da poção</color> que está sendo elaborada.\n<color=#800000>Complete todas as fases da receita</color> sem falhar e <color=#800000>a elaboração será bem-sucedida</color>."
+     1 string m_Localized = "Exibido à direita está a <color=#800000>receita da poção</color> atualmente sendo criada.\n<color=#800000>Complete todas as fases da receita</color> sem falhar e <color=#800000>a criação será bem-sucedida</color>."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -994,7 +994,7 @@
    [120]
     0 TableEntryData data
      0 SInt64 m_Id = 231940729100894208
-     1 string m_Localized = "Método de preparação de poções"
+     1 string m_Localized = "Método de Preparo de Poções"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1002,7 +1002,7 @@
    [121]
     0 TableEntryData data
      0 SInt64 m_Id = 237089621926060032
-     1 string m_Localized = "Pressionando o"Tiptoe" button allows you to move more quietly but also more slowly."
+     1 string m_Localized = "Pressionar o botão \"Andar na Ponta dos Pés\" permite que você se mova mais silenciosamente, mas também mais devagar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1010,7 +1010,7 @@
    [122]
     0 TableEntryData data
      0 SInt64 m_Id = 246907285880020992
-     1 string m_Localized = "Complete a <color=#800000>pesquisa</color> da receita por um certo número de vezes para desbloquear \n<color=#800000>fabricação automática</color> da receita.\nA fabricação automática consome a <color=#800000>Durabilidade</color> do Pote da Bruxa.\nQuanto menor a Durabilidade, <color=#800000>maior a taxa de falhas</color> durante a criação automática."
+     1 string m_Localized = "Complete a <color=#800000>pesquisa</color> de receita por um certo número de vezes para desbloquear \na <color=#800000>criação automática</color> da receita.\nA criação automática consome <color=#800000>Durabilidade</color> do Caldeirão da Bruxa.\nQuanto menor a Durabilidade, <color=#800000>maior a taxa de falha</color> durante a criação automática."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1018,7 +1018,7 @@
    [123]
     0 TableEntryData data
      0 SInt64 m_Id = 246907285229903872
-     1 string m_Localized = "Auto Craft e durabilidade do pote de bruxa"
+     1 string m_Localized = "Criação Automática e Durabilidade do Caldeirão da Bruxa"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1026,7 +1026,7 @@
    [124]
     0 TableEntryData data
      0 SInt64 m_Id = 237089446566404096
-     1 string m_Localized = "Você pode aumentar a velocidade ou mergulhar enquanto nada. Ambos consomem energia."
+     1 string m_Localized = "Você pode acelerar ou mergulhar ao nadar. Ambos consomem Energia."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1050,7 +1050,7 @@
    [127]
     0 TableEntryData data
      0 SInt64 m_Id = 277608419404349440
-     1 string m_Localized = "Insira o novo tema"
+     1 string m_Localized = "Entrar em Novo Tema"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1058,7 +1058,7 @@
    [128]
     0 TableEntryData data
      0 SInt64 m_Id = 277608421698633728
-     1 string m_Localized = "Você inseriu um novo tema.\nObtenha novos itens coletados e use-os em vários eventos."
+     1 string m_Localized = "Você entrou em um novo tema.\nObtenha novos itens coletados e use-os em vários eventos."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1066,7 +1066,7 @@
    [129]
     0 TableEntryData data
      0 SInt64 m_Id = 292775558547677184
-     1 string m_Localized = "Equipe a vara de pescar e pressione o botão de uso de ferramentas para lançar a linha na água e pescar.\n(Não pode ser usado em águas rasas.)"
+     1 string m_Localized = "Equipe a Vara de Pesca e pressione o Botão Usar Ferramenta para lançar a linha na água e pescar.\n(Não utilizável em águas rasas.)"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1074,7 +1074,7 @@
    [130]
     0 TableEntryData data
      0 SInt64 m_Id = 292775724667281408
-     1 string m_Localized = "Quando estiver pescando, observe a bobber de perto e espere o peixe morder."
+     1 string m_Localized = "Quando você está pescando, observe a boia atentamente e espere os peixes morderem."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1082,7 +1082,7 @@
    [131]
     0 TableEntryData data
      0 SInt64 m_Id = 292775739645140992
-     1 string m_Localized = "Quando o peixe morder o anzol, pressione rapidamente o botão da ferramenta para superar o peixe."
+     1 string m_Localized = "Quando o peixe morder o anzol,\npressione rapidamente o botão da ferramenta para superar o peixe."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1090,7 +1090,7 @@
    [132]
     0 TableEntryData data
      0 SInt64 m_Id = 292775755663187968
-     1 string m_Localized = "Supere o peixe para levantar a vara de pescar e puxá-la."
+     1 string m_Localized = "Supere o peixe para levantar a Vara de Pesca e puxá-lo para dentro."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1098,7 +1098,7 @@
    [133]
     0 TableEntryData data
      0 SInt64 m_Id = 433453229952278528
-     1 string m_Localized = "Escolha um móvel no menu de artesanato para fabricá-lo.\nVocê só poderá começar a fabricá-lo quando tiver todos os materiais necessários em seu inventário."
+     1 string m_Localized = "Escolha um móvel no menu de criação para criá-lo.\nVocê só pode começar a criar quando tiver todos os materiais necessários no seu inventário."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1114,7 +1114,7 @@
    [135]
     0 TableEntryData data
      0 SInt64 m_Id = 292886427611201536
-     1 string m_Localized = "Colete peixes pescando.\nVariações de cores e peixes especiais também serão registrados."
+     1 string m_Localized = "Colete peixes pescando.\nVariações de cor e peixes especiais também serão registrados."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1130,7 +1130,7 @@
    [137]
     0 TableEntryData data
      0 SInt64 m_Id = 319308939443974144
-     1 string m_Localized = "Palavras-chave"
+     1 string m_Localized = "Palavra-chave"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1138,7 +1138,7 @@
    [138]
     0 TableEntryData data
      0 SInt64 m_Id = 319308941096529920
-     1 string m_Localized = "Palavras-chave é um recurso para conversar com os moradores.\nVocê pode usar palavras-chave para conversar com os moradores ou fazer perguntas sobre temas específicos."
+     1 string m_Localized = "Palavras-chave é um recurso para conversar com os aldeões.\nVocê pode usar palavras-chave para conversar com os aldeões ou fazer perguntas sobre temas específicos."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1146,7 +1146,7 @@
    [139]
     0 TableEntryData data
      0 SInt64 m_Id = 319308941809561600
-     1 string m_Localized = "Existem palavras-chave gerais e palavras-chave especiais.\nPalavras-chave gerais são palavras-chave permanentes que se aplicam a todos os aldeões.\nPalavras-chave especiais são para certas ocasiões, como missões, e são removidas após um certo número de usos."
+     1 string m_Localized = "Há palavras-chave gerais e palavras-chave especiais.\nPalavras-chave gerais são palavras-chave permanentes que se aplicam a todos os aldeões.\nPalavras-chave especiais são para certas ocasiões, como missões, e são removidas após um certo número de usos."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1154,7 +1154,7 @@
    [140]
     0 TableEntryData data
      0 SInt64 m_Id = 319308942413541376
-     1 string m_Localized = "Você pode visualizar as palavras-chave disponíveis na página Palavras-chave do Diário."
+     1 string m_Localized = "Você pode ver as palavras-chave disponíveis na página de Palavras-chave do Diário."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1170,7 +1170,7 @@
    [142]
     0 TableEntryData data
      0 SInt64 m_Id = 320736218401353728
-     1 string m_Localized = "Selecione Diário"
+     1 string m_Localized = "Selecionar Diário"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1178,7 +1178,7 @@
    [143]
     0 TableEntryData data
      0 SInt64 m_Id = 315980133541158912
-     1 string m_Localized = "Glicínias é o lar de muitos gatos.\nGatos diferentes aparecem na aldeia a cada vez."
+     1 string m_Localized = "Wisteria é o lar de muitos gatos.\nGatos diferentes aparecem na vila cada vez."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1186,7 +1186,7 @@
    [144]
     0 TableEntryData data
      0 SInt64 m_Id = 315980210275950592
-     1 string m_Localized = "Entre os gatos, alguns virão até você e outros se esconderão.\nPara encontrar os que estão escondidos, você precisa procurar com cuidado."
+     1 string m_Localized = "Entre os gatos, alguns virão até você, e alguns se esconderão.\nPara encontrar os que se escondem, você precisa procurar com cuidado."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1194,7 +1194,7 @@
    [145]
     0 TableEntryData data
      0 SInt64 m_Id = 315980376479440896
-     1 string m_Localized = "Gato está vigilante. Para chegar perto, você precisa baixar a guarda.\nTente fazer amizade com os gatos e acariciá-los."
+     1 string m_Localized = "Gatos são vigilantes. Para se aproximar, você precisa baixar a guarda deles.\nTente fazer amizade com os gatos e conseguir acariciá-los."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1202,7 +1202,7 @@
    [146]
     0 TableEntryData data
      0 SInt64 m_Id = 315980386491244544
-     1 string m_Localized = "Você pode colocar itens no chão para alimentar os gatos.\nPara gatos que ainda não estão perto de você, fique longe da comida para não assustá-los."
+     1 string m_Localized = "Você pode colocar itens no chão para alimentar os gatos.\nPara gatos ainda não próximos de você, por favor, fique longe da comida para não assustá-los."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1210,7 +1210,7 @@
    [147]
     0 TableEntryData data
      0 SInt64 m_Id = 315980395542552576
-     1 string m_Localized = "Desenhe novos gatos no caderno com a pena.\nVocê pode registrar preferências e ver o carinho dos gatos nas Notas do Gato."
+     1 string m_Localized = "Desenhe quaisquer gatos novos no caderno com a pena.\nVocê pode registrar preferências e ver a afeição dos gatos nas Notas de Gatos."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1226,7 +1226,7 @@
    [149]
     0 TableEntryData data
      0 SInt64 m_Id = 321798676402548736
-     1 string m_Localized = "Selecione Enciclopédia"
+     1 string m_Localized = "Selecionar Enciclopédia"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1234,7 +1234,7 @@
    [150]
     0 TableEntryData data
      0 SInt64 m_Id = 321798702470148096
-     1 string m_Localized = "Selecione Atlas"
+     1 string m_Localized = "Selecionar Atlas"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1242,7 +1242,7 @@
    [151]
     0 TableEntryData data
      0 SInt64 m_Id = 321798716118413312
-     1 string m_Localized = "Selecione Notas"
+     1 string m_Localized = "Selecionar Notas"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1250,7 +1250,7 @@
    [152]
     0 TableEntryData data
      0 SInt64 m_Id = 347434688912850944
-     1 string m_Localized = "Brinquedo de gato"
+     1 string m_Localized = "Brinquedo para Gatos"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1258,7 +1258,7 @@
    [153]
     0 TableEntryData data
      0 SInt64 m_Id = 347434722790244352
-     1 string m_Localized = "Para brincar com o gato, o nível de afeto do gato deve ser pelo menos Nível 1."
+     1 string m_Localized = "Para brincar com o gato, o nível de afeição do gato deve ser pelo menos Nível 1."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1266,7 +1266,7 @@
    [154]
     0 TableEntryData data
      0 SInt64 m_Id = 347434746651639808
-     1 string m_Localized = "Enquanto segura o brinquedo do gato, pressione o botão de uso da ferramenta para sacudi-lo. \nOs gatos próximos reagirão e se aproximarão do brinquedo."
+     1 string m_Localized = "Enquanto segura o brinquedo para gatos, pressione o botão usar ferramenta para balançá-lo.\nGatos próximos reagirão e se aproximarão do brinquedo."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1274,7 +1274,7 @@
    [155]
     0 TableEntryData data
      0 SInt64 m_Id = 347434753790345216
-     1 string m_Localized = "Quando o gato se aproxima do brinquedo, começa a brincar com ele. \nAgite o brinquedo quando o gato assumir uma postura de caça para deixá-lo feliz. \nAgite na hora certa para deixá-lo ainda mais feliz."
+     1 string m_Localized = "Quando o gato se aproxima do brinquedo, ele começa a brincar com ele.\nBalançe o brinquedo quando o gato assumir uma postura de caça para deixá-lo feliz.\nBalançe no momento certo para deixá-lo ainda mais feliz."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1282,7 +1282,7 @@
    [156]
     0 TableEntryData data
      0 SInt64 m_Id = 347434762640326656
-     1 string m_Localized = "Se você brincar com o gato até que ele fique satisfeito, você poderá se aproximar dele. \nMesmo se você jogar várias vezes, só poderá se aproximar uma vez por dia."
+     1 string m_Localized = "Se você brincar com o gato até ele ficar satisfeito, você pode ficar mais próximo dele.\nMesmo se você brincar várias vezes, só pode ficar mais próximo uma vez por dia."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1290,7 +1290,7 @@
    [157]
     0 TableEntryData data
      0 SInt64 m_Id = 347434840641798144
-     1 string m_Localized = "Móveis para gatos"
+     1 string m_Localized = "Móvel para Gatos"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1298,7 +1298,7 @@
    [158]
     0 TableEntryData data
      0 SInt64 m_Id = 347435063250288640
-     1 string m_Localized = "Os gatos usarão os móveis quando estiverem perto deles e de bom humor."
+     1 string m_Localized = "Gatos usarão o móvel quando estiverem perto dele e de bom humor."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1306,7 +1306,7 @@
    [159]
     0 TableEntryData data
      0 SInt64 m_Id = 347435067306180608
-     1 string m_Localized = "O gato não se interessará por outros objetos enquanto estiver usando os móveis. \nO jogador pode tocar nos móveis para interromper o gato."
+     1 string m_Localized = "O gato não se interessará por outros objetos enquanto estiver usando o móvel.\nO jogador pode tocar no móvel para interromper o gato."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1314,7 +1314,7 @@
    [160]
     0 TableEntryData data
      0 SInt64 m_Id = 354384848827854848
-     1 string m_Localized = "Ligando para Diane"
+     1 string m_Localized = "Chamando Diane"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1322,7 +1322,7 @@
    [161]
     0 TableEntryData data
      0 SInt64 m_Id = 354384871170912256
-     1 string m_Localized = "Você pode usar a <color=#800000>campainha</color> para ligar para Diane a qualquer momento.\nDiane retornará após <color=#800000>1 hora</color>."
+     1 string m_Localized = "Você pode usar o <color=#800000>sino de chamada</color> para chamar Diane a qualquer momento.\nDiane retornará após <color=#800000>1 hora</color>."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1330,7 +1330,7 @@
    [162]
     0 TableEntryData data
      0 SInt64 m_Id = 356517063315718144
-     1 string m_Localized = "Loja de vassouras"
+     1 string m_Localized = "Loja de Vassouras"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1338,7 +1338,7 @@
    [163]
     0 TableEntryData data
      0 SInt64 m_Id = 356517144181899264
-     1 string m_Localized = "As vassouras diferem em velocidade, durabilidade, etc. e têm uma sensação diferente quando você as pilota.\nVocê pode diferenciá-las observando os tipos e formatos de eixo."
+     1 string m_Localized = "Vassouras diferem em velocidade, durabilidade, etc. e têm sensações diferentes quando você as monta.\nVocê pode distingui-las olhando para os tipos e formatos do cabo."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1346,7 +1346,7 @@
    [164]
     0 TableEntryData data
      0 SInt64 m_Id = 356517147965161472
-     1 string m_Localized = "O tema de uma vassoura determina sua aparência e nome.\nColete vassouras de vários temas."
+     1 string m_Localized = "O tema de uma vassoura determina sua aparência e nome.\nColecione vassouras de vários temas."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1354,7 +1354,7 @@
    [165]
     0 TableEntryData data
      0 SInt64 m_Id = 356517155766566912
-     1 string m_Localized = "As vassouras também variam em design e preço.\nLembre-se de conferir as novas vassouras do dia."
+     1 string m_Localized = "Vassouras também variam em design e preço.\nLembre-se de verificar as novas vassouras do dia."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1370,7 +1370,7 @@
    [167]
     0 TableEntryData data
      0 SInt64 m_Id = 356271129843499008
-     1 string m_Localized = "Ao personalizar, você altera a forma de um item específico.\nVocê pode visualizar itens personalizáveis ​​(por exemplo, móveis, vassouras) no menu de personalização."
+     1 string m_Localized = "Ao personalizar, você muda a forma de um item especificado.\nVocê pode visualizar itens personalizáveis (ex: móveis, vassoura) no menu de personalização."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1378,7 +1378,7 @@
    [168]
     0 TableEntryData data
      0 SInt64 m_Id = 356271318813671424
-     1 string m_Localized = "A personalização custa certos materiais, que dependem do tipo de personalização.\nGeralmente você pode obter os materiais dos aldeões."
+     1 string m_Localized = "A personalização custa certos materiais, que dependem do tipo de personalização.\nVocê geralmente pode obter os materiais dos aldeões."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1386,7 +1386,7 @@
    [169]
     0 TableEntryData data
      0 SInt64 m_Id = 356271330427699200
-     1 string m_Localized = "Escolha o alvo de personalização na bancada.\nObserve que o alvo deve estar em sua bolsa (inventário)."
+     1 string m_Localized = "Escolha o alvo da personalização na bancada de trabalho.\nPor favor, note que o alvo deve estar na sua bolsa (inventário)."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1402,7 +1402,7 @@
    [171]
     0 TableEntryData data
      0 SInt64 m_Id = 356271345246175232
-     1 string m_Localized = "Você também pode verificar itens personalizáveis ​​através do"View Info" element."
+     1 string m_Localized = "Você também pode verificar itens personalizáveis via o elemento \"Ver Informações\"."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1418,7 +1418,7 @@
    [173]
     0 TableEntryData data
      0 SInt64 m_Id = 374704640837320704
-     1 string m_Localized = "Interaja com os aldeões para criar laços com eles.\nQuanto mais próximo for o seu relacionamento, mais vocês poderão conversar e fazer juntos."
+     1 string m_Localized = "Interaja com os aldeões para criar laços com eles.\nQuanto mais próxima sua relação, mais você pode conversar e fazer juntos."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1426,7 +1426,7 @@
    [174]
     0 TableEntryData data
      0 SInt64 m_Id = 374704692200767488
-     1 string m_Localized = "Alguns aldeões, como Enite, Rubrum e Arden, vivem aqui há muito tempo, enquanto outros, como Kyla, acabaram de se mudar para cá.\nDestrua vinhas espinhosas e restaure a aldeia para aumentar a população da aldeia."
+     1 string m_Localized = "Alguns aldeões, como Enite, Rubrum e Arden, vivem aqui há eras, enquanto outros, como Kyla, acabaram de se mudar para cá.\nDestrua vinhas espinhosas e restaure a vila para aumentar a população da vila."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1434,7 +1434,7 @@
    [175]
     0 TableEntryData data
      0 SInt64 m_Id = 374704699544993792
-     1 string m_Localized = "Você pode encontrar informações e citações dos aldeões nas Notas dos Aldeões.\nAs notas registram o nome, personalidade, gostos de cada aldeão, bem como outros detalhes pessoais."
+     1 string m_Localized = "Você pode encontrar informações e citações dos aldeões nas Notas dos Aldeões.\nAs notas registram o nome, personalidade, gostos, bem como outros detalhes pessoais de cada aldeão."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1442,7 +1442,7 @@
    [176]
     0 TableEntryData data
      0 SInt64 m_Id = 374704706880831488
-     1 string m_Localized = "Depois que você estabelecer um vínculo com um aldeão até certo ponto, ele confessará suas preocupações ou problemas para você.\nVocê pode ajudar o aldeão a resolver esses problemas e ter uma experiência compartilhada única, que será registrada nas Notas do Aldeão."
+     1 string m_Localized = "Depois que você criar um laço com um aldeão até certo ponto, eles confessarão suas preocupações ou problemas para você.\nVocê pode ajudar o aldeão a resolver tais problemas e ter uma experiência compartilhada única, que será registrada nas Notas dos Aldeões."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1450,7 +1450,7 @@
    [177]
     0 TableEntryData data
      0 SInt64 m_Id = 374704715491737600
-     1 string m_Localized = "Para construir amizade com os aldeões rapidamente, dê-lhes presentes.\nCada aldeão tem seus próprios gostos e desgostos e reage de maneira diferente aos presentes.\nSuas preferências de presentes são desbloqueadas quando eles recebem algo que gostam/não gostam."
+     1 string m_Localized = "Para construir Amizade com os aldeões rapidamente, dê presentes a eles.\nCada aldeão tem seus próprios gostos e desgostos, e reagem diferentemente aos presentes.\nSuas preferências de presentes são desbloqueadas quando recebem algo que gostam/não gostam."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1466,7 +1466,7 @@
    [179]
     0 TableEntryData data
      0 SInt64 m_Id = 387357606438273024
-     1 string m_Localized = "Ao conversar com os aldeões, você poderá descobrir seus gostos únicos.\nQuanto mais você se tornar amigo deles, mais ricos serão os tópicos da conversa. Tente se comunicar com eles todos os dias por meio de histórias diferentes."
+     1 string m_Localized = "Ao conversar com os aldeões, você pode descobrir seus gostos únicos.\nQuanto mais você se tornar amigo deles, mais ricos serão os tópicos de conversa. Tente se comunicar com eles todos os dias através de diferentes histórias."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1474,7 +1474,7 @@
    [180]
     0 TableEntryData data
      0 SInt64 m_Id = 377906859506171904
-     1 string m_Localized = "Ritorando"
+     1 string m_Localized = "Ritoring"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1482,7 +1482,7 @@
    [181]
     0 TableEntryData data
      0 SInt64 m_Id = 377906954578460672
-     1 string m_Localized = "Os misteriosos Ritorings vivem vidas retraídas na floresta. \nPouco sobre eles é conhecido no mundo exterior. Eles oferecem um presente em forma de trevo a quem os encontra, que às vezes é embrulhado de forma elaborada."
+     1 string m_Localized = "Os misteriosos Ritorings vivem vidas reclusas na floresta.\nPouco sobre eles é conhecido pelo mundo exterior. Eles oferecem um presente em forma de trevo para quem os encontra, que às vezes é elaboradamente embrulhado."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1490,7 +1490,7 @@
    [182]
     0 TableEntryData data
      0 SInt64 m_Id = 377987730527518720
-     1 string m_Localized = "Loja de Rituais"
+     1 string m_Localized = "Loja Ritoring"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1498,7 +1498,7 @@
    [183]
     0 TableEntryData data
      0 SInt64 m_Id = 377987731102138368
-     1 string m_Localized = "Você pode trocar Ritoring Coins com Rex por caixas ou receitas aleatórias que ele possui.\nSinta-se à vontade para negociar com Rex todos os dias."
+     1 string m_Localized = "Você pode trocar Moedas Ritoring com Rex por caixas aleatórias ou receitas que ele possui.\nSinta-se à vontade para negociar com Rex todos os dias."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1506,7 +1506,7 @@
    [184]
     0 TableEntryData data
      0 SInt64 m_Id = 375418371999318016
-     1 string m_Localized = "Arte"
+     1 string m_Localized = "Criar"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1514,7 +1514,7 @@
    [185]
     0 TableEntryData data
      0 SInt64 m_Id = 389508161340211200
-     1 string m_Localized = "Para criar uma peça de mobília, primeiro registre a planta desse móvel.\nUse a planta do inventário para adicioná-la ao menu de criação da bancada."
+     1 string m_Localized = "Para criar um móvel, registre a planta deste móvel primeiro.\nUse a planta do inventário para adicioná-la ao menu de criação da bancada de trabalho."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1522,7 +1522,7 @@
    [186]
     0 TableEntryData data
      0 SInt64 m_Id = 389508249366069248
-     1 string m_Localized = "Para fabricar móveis, você precisa de uma planta."
+     1 string m_Localized = "Para criar móveis, você precisa de uma planta."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1530,7 +1530,7 @@
    [187]
     0 TableEntryData data
      0 SInt64 m_Id = 389508257251360768
-     1 string m_Localized = "Os móveis podem ser fabricados na bancada.\n"
+     1 string m_Localized = "Móveis podem ser criados na bancada de trabalho."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1538,7 +1538,7 @@
    [188]
     0 TableEntryData data
      0 SInt64 m_Id = 433712549197586432
-     1 string m_Localized = "Ao nadar, você pode <color=#800000>acelerar</color> instantaneamente ou <color=#800000>mergulhar</color>,\nacelerar ou mergulhar gastará <color=#800000>resistência</color>."
+     1 string m_Localized = "Ao nadar, você pode <color=#800000>acelerar</color> instantaneamente ou <color=#800000>mergulhar</color>,\nacelerar ou mergulhar gastará <color=#800000>vigor</color>."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1546,7 +1546,7 @@
    [189]
     0 TableEntryData data
      0 SInt64 m_Id = 450576764741607424
-     1 string m_Localized = "Uma vez que um objeto tenha sido desenhado com a Pena, ele não poderá ser desenhado novamente."
+     1 string m_Localized = "Uma vez que um assunto foi desenhado com a Pena, ele não pode ser desenhado novamente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1554,7 +1554,7 @@
    [190]
     0 TableEntryData data
      0 SInt64 m_Id = 446440210045317120
-     1 string m_Localized = "Adoção de Gato‌"
+     1 string m_Localized = "Adoção de gatos"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1562,7 +1562,7 @@
    [191]
     0 TableEntryData data
      0 SInt64 m_Id = 400044207668756480
-     1 string m_Localized = "Quando o Carinho de um gato estiver cheio, você pode adotá-lo e levá-lo para a Casa da Bruxa."
+     1 string m_Localized = "Quando a Afeição de um gato estiver cheia, você pode adotá-lo e levá-lo para a Casa da Bruxa."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1570,7 +1570,7 @@
    [192]
     0 TableEntryData data
      0 SInt64 m_Id = 400044209262592000
-     1 string m_Localized = "Quando você tiver um <color=#800000>Símbolo da Amizade</color> em sua bolsa (inventário), alimente um gato com total Carinho para adotá-lo."
+     1 string m_Localized = "Quando você tiver uma <color=#800000>Prova de Amizade</color> na sua bolsa (inventário), acaricie um gato com Afeição cheia para adotá-lo."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1578,7 +1578,7 @@
    [193]
     0 TableEntryData data
      0 SInt64 m_Id = 400044261481676800
-     1 string m_Localized = "A partir do segundo dia após a adoção, seu gato viverá com você na Casa da Bruxa e uma fase superior de Afeto será desbloqueada.\nVocê poderá receber presentes de seu gato se o Afeto aumentar ainda mais."
+     1 string m_Localized = "A partir do segundo dia após a adoção, seu gato estará vivendo com você na Casa da Bruxa, e uma fase superior de Afeição será desbloqueada.\nVocê pode receber presentes do seu gato se a Afeição aumentar ainda mais."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1594,7 +1594,7 @@
    [195]
     0 TableEntryData data
      0 SInt64 m_Id = 410280012580421632
-     1 string m_Localized = "Ter comida restaura {Common.Energy}. Alguns alimentos também concedem buffs."
+     1 string m_Localized = "Comer comida restaura Fadiga. Algumas comidas concedem bônus adicionais."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -1605,7 +1605,7 @@
    [196]
     0 TableEntryData data
      0 SInt64 m_Id = 410280107635933184
-     1 string m_Localized = "Os efeitos dos alimentos não se acumulam. Ter um novo tipo de comida substitui os efeitos atuais.\nOs efeitos expiram após um certo período, quando você fica sem tentativas ou quando adormece.\nVocê pode obter efeitos da comida mesmo quando sua {Energia Comum} estiver cheia."
+     1 string m_Localized = "Efeitos de comida não acumulam. Comer um novo tipo de comida substitui os efeitos atuais.\nOs efeitos expiram após um certo período, quando você esgota as tentativas, ou quando você adormece.\nVocê pode ganhar efeitos de comida mesmo quando sua Fadiga estiver cheia."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -1616,7 +1616,7 @@
    [197]
     0 TableEntryData data
      0 SInt64 m_Id = 408380338407768064
-     1 string m_Localized = "Sistema de carinho de loja"
+     1 string m_Localized = "Sistema de Afeição da Loja"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1624,7 +1624,7 @@
    [198]
     0 TableEntryData data
      0 SInt64 m_Id = 408380357911281664
-     1 string m_Localized = "Alguns aldeões podem aumentar o estoque ou a variedade de itens que vendem quando sua Afeição aumenta.\nAumente a Afeição dos aldeões para obter mais itens compráveis."
+     1 string m_Localized = "Alguns aldeões podem aumentar o estoque ou variedade de itens que vendem quando sua Afeição aumenta.\nAumente a Afeição dos aldeões para obter mais itens compráveis."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1632,7 +1632,7 @@
    [199]
     0 TableEntryData data
      0 SInt64 m_Id = 412670279736393728
-     1 string m_Localized = "Você precisa cuidar constantemente do seu gato adotado, acariciando-o e brincando com ele.\nSe você negligenciar o seu gato por muito tempo, ele pode querer sair da Casa da Bruxa e voltar para a aldeia."
+     1 string m_Localized = "Você precisa fornecer cuidado constante ao seu gato adotado, acariciando-o e brincando com ele.\nSe você negligenciar seu gato por muito tempo, ele pode querer deixar a Casa da Bruxa e voltar para a vila."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1648,7 +1648,7 @@
    [201]
     0 TableEntryData data
      0 SInt64 m_Id = 451105270983852032
-     1 string m_Localized = "Cada um dos aldeões de Wisteria tem suas próprias vidas e histórias. \r\nQuando a amizade de um aldeão aumenta, você receberá pedidos especiais com base nas histórias dele. \r\nAceitar esses pedidos inicia uma Missão do Aldeão."
+     1 string m_Localized = "Os aldeões de Wisteria cada um tem suas próprias vidas e histórias.\r\nQuando a Amizade de um aldeão aumenta, você receberá pedidos especiais baseados em suas histórias.\r\nAceitar esses pedidos inicia uma Missão do Aldeão."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1656,7 +1656,7 @@
    [202]
     0 TableEntryData data
      0 SInt64 m_Id = 451139491374858240
-     1 string m_Localized = "Favoritos"
+     1 string m_Localized = "Lista de desejos"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1664,7 +1664,7 @@
    [203]
     0 TableEntryData data
      0 SInt64 m_Id = 451139491974643712
-     1 string m_Localized = "Você pode adicionar as <color=#800000>receitas desejadas (poções, doces, móveis)</color> aos Favoritos para acesso rápido."
+     1 string m_Localized = "Você pode adicionar suas <color=#800000>receitas desejadas (poções, doces, móveis)</color> à Lista de Desejos para acesso rápido."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1672,7 +1672,7 @@
    [204]
     0 TableEntryData data
      0 SInt64 m_Id = 453051203925606400
-     1 string m_Localized = "Você pode adicionar itens aos seus Favoritos na <color=#800000>página Receitas da Enciclopédia, na página Tema da Enciclopédia, no Pote da Bruxa e na Bancada</color>.\nVocê também pode selecionar uma receita nos seus Favoritos para ajustar a <color=#800000>quantidade desejada</color>."
+     1 string m_Localized = "Você pode adicionar itens à sua lista de desejos a partir da <color=#800000>página de Receitas da Enciclopédia, página de Temas da Enciclopédia, Caldeirão da Bruxa e Bancada de Trabalho</color>.\nVocê também pode selecionar uma receita na sua lista de desejos para ajustar a <color=#800000>quantidade alvo</color>."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1680,7 +1680,7 @@
    [205]
     0 TableEntryData data
      0 SInt64 m_Id = 453378477606600704
-     1 string m_Localized = "Os Favoritos podem ser verificados em páginas ordenadas por estágio de elaboração e organizados como desejar."
+     1 string m_Localized = "A lista de desejos pode ser verificada em páginas ordenadas por estágio de criação, e organizada como quiser."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1688,7 +1688,7 @@
    [206]
     0 TableEntryData data
      0 SInt64 m_Id = 453378486087483392
-     1 string m_Localized = "Se o processamento diminuir a quantidade necessária, os números ficarão <color=#007AFF>azul</color>; assim que todos os materiais forem coletados, eles mudam para uma <color=#800000>marca de seleção</color>."
+     1 string m_Localized = "Se o processamento reduzir a quantidade necessária, os números ficam <color=#007AFF>azuis</color>; uma vez que todos os materiais forem coletados, eles mudam para uma <color=#800000>marca de verificação</color>."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1696,7 +1696,7 @@
    [207]
     0 TableEntryData data
      0 SInt64 m_Id = 453382499117858816
-     1 string m_Localized = "Você pode verificar as condições e objetivos das Missões dos Aldeões no Diário de Aventuras. \r\nAs missões são ativadas quando a amizade e as condições individuais do aldeão são atendidas. \r\nVocê também deve completar a missão anterior para prosseguir para a próxima."
+     1 string m_Localized = "Você pode verificar as condições e objetivos das Missões dos Aldeões no Registro de Aventuras.\r\nMissões são ativadas quando a Amizade do aldeão e condições individuais são atendidas.\r\nVocê também deve completar a missão anterior para prosseguir para a próxima."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1720,7 +1720,7 @@
    [210]
     0 TableEntryData data
      0 SInt64 m_Id = 455809644108783616
-     1 string m_Localized = "Selecione a pena na parte inferior."
+     1 string m_Localized = "Selecione a Pena na parte inferior."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1728,7 +1728,7 @@
    [211]
     0 TableEntryData data
      0 SInt64 m_Id = 455937236266721280
-     1 string m_Localized = "Depois que um objeto for desenhado com a pena, ele não poderá ser desenhado novamente.\nHá <color=#800000>um tempo de espera</color> antes que você possa usar a pena em <color=#800000>algo desse tipo</color> novamente."
+     1 string m_Localized = "Uma vez que um assunto foi desenhado com a Pena, ele não pode ser desenhado novamente.\nHá <color=#800000>um tempo de recarga</color> antes que você possa usar a pena em <color=#800000>algo deste tipo</color> novamente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1744,7 +1744,7 @@
    [213]
     0 TableEntryData data
      0 SInt64 m_Id = 455937260090368000
-     1 string m_Localized = "Na Enciclopédia ilustrada, você pode obter diversas informações sobre plantas e animais.\nVerifique seus habitats, ferramentas de coleta e métodos de coleta e tente coletá-los."
+     1 string m_Localized = "Na Enciclopédia ilustrada, você pode obter várias informações sobre plantas e animais.\nVerifique seus habitats, ferramentas de coleta e métodos de coleta, então tente coletá-los."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1752,7 +1752,7 @@
    [214]
     0 TableEntryData data
      0 SInt64 m_Id = 455937269871484928
-     1 string m_Localized = "Conclua os Tópicos de Pesquisa para receber recompensas adicionais."
+     1 string m_Localized = "Complete Tópicos de Pesquisa para receber recompensas adicionais."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1768,7 +1768,7 @@
    [216]
     0 TableEntryData data
      0 SInt64 m_Id = 456176752625786880
-     1 string m_Localized = "Ao usar poções em plantas e animais, você pode coletá-los com mais facilidade."
+     1 string m_Localized = "Usando poções em plantas e animais, você pode coletá-los mais facilmente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1776,7 +1776,7 @@
    [217]
     0 TableEntryData data
      0 SInt64 m_Id = 456176836872577024
-     1 string m_Localized = "Abra o seletor de poções e escolha a poção que deseja usar.\n(As poções para beber são usadas imediatamente quando selecionadas.)"
+     1 string m_Localized = "Abra o seletor de poções e escolha a poção que deseja usar.\n(Poções para beber são usadas imediatamente quando selecionadas.)"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1784,7 +1784,7 @@
    [218]
     0 TableEntryData data
      0 SInt64 m_Id = 456176848478216192
-     1 string m_Localized = "Enquanto segura uma poção de arremesso, mantenha pressionado o botão de arremesso para mirar e, em seguida, solte o botão de arremesso para lançar a poção."
+     1 string m_Localized = "Enquanto segura uma poção de arremesso, mantenha pressionado o botão de arremesso para mirar, então solte o botão de arremesso para arremessar a poção."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1792,7 +1792,7 @@
    [219]
     0 TableEntryData data
      0 SInt64 m_Id = 456176856732606464
-     1 string m_Localized = "Pressione o botão cancelar enquanto tenta cancelar o lançamento."
+     1 string m_Localized = "Pressione o botão de cancelar enquanto mira para cancelar o arremesso."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1800,7 +1800,7 @@
    [220]
     0 TableEntryData data
      0 SInt64 m_Id = 400044205408026624
-     1 string m_Localized = "Adoção de Gato‌"
+     1 string m_Localized = "Adoção de gatos"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1808,7 +1808,7 @@
    [221]
     0 TableEntryData data
      0 SInt64 m_Id = 459541175180533760
-     1 string m_Localized = "Quando você prepara ou cria uma receita a partir dos seus Favoritos, o resultado pode ser refletido automaticamente nos Favoritos.\nSe houver uma receita que você não precisa, você pode selecioná-la para removê-la."
+     1 string m_Localized = "Quando você prepara ou cria uma receita da sua lista de desejos, o resultado pode ser automaticamente refletido na lista de desejos.\r\nSe houver uma receita que você não precisa, você pode selecioná-la para removê-la."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

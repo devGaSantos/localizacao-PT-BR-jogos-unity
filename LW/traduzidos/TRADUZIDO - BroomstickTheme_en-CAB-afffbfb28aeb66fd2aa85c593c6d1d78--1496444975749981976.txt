@@ -22,7 +22,7 @@
    [0]
     0 TableEntryData data
      0 SInt64 m_Id = 9472396277211136
-     1 string m_Localized = "Uma vassoura de bruxa muito básica, comumente vista na sociedade das bruxas."
+     1 string m_Localized = "Uma vassoura dada de graça. É velha, mas ainda útil.."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -30,7 +30,7 @@
    [1]
     0 TableEntryData data
      0 SInt64 m_Id = 9472470688358400
-     1 string m_Localized = "Uma vassoura com um barbante rosa amarrado como uma fita. A visão dele tremulando ao vento é bastante agradável."
+     1 string m_Localized = "Uma vassoura com um fio rosa amarrado como uma fita. A visão dela balançando ao vento é bastante agradável."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -38,7 +38,7 @@
    [2]
     0 TableEntryData data
      0 SInt64 m_Id = 9472476510052352
-     1 string m_Localized = "Uma vassoura com um barbante amarelo amarrado como uma fita. A visão dele tremulando ao vento é bastante agradável."
+     1 string m_Localized = "Uma vassoura com um fio amarelo amarrado como uma fita. A visão dela balançando ao vento é bastante agradável."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -46,7 +46,7 @@
    [3]
     0 TableEntryData data
      0 SInt64 m_Id = 9472482222694400
-     1 string m_Localized = "Uma vassoura dada de brinde. É antigo, mas ainda útil."
+     1 string m_Localized = "Uma vassoura dada como brinde. É velha, mas ainda útil."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -54,7 +54,7 @@
    [4]
     0 TableEntryData data
      0 SInt64 m_Id = 2240367702757376
-     1 string m_Localized = "Velho"
+     1 string m_Localized = "Velha"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -86,7 +86,7 @@
    [8]
     0 TableEntryData data
      0 SInt64 m_Id = 56271562070765568
-     1 string m_Localized = "Uma vassoura decorada com frutas vermelhas e folhas verdes, símbolos do inverno. Suas esplêndidas decorações fazem com que a vassoura se destaque."
+     1 string m_Localized = "Uma vassoura decorada com frutas vermelhas e folhas verdes, símbolos do inverno. Suas esplêndidas decorações fazem a vassoura se destacar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -94,7 +94,7 @@
    [9]
     0 TableEntryData data
      0 SInt64 m_Id = 56271556685279232
-     1 string m_Localized = "WinterBerry"
+     1 string m_Localized = "Guaraná"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -102,7 +102,7 @@
    [10]
     0 TableEntryData data
      0 SInt64 m_Id = 55859774932570112
-     1 string m_Localized = "Uma vassoura com seu barbante amarrado firmemente em forma de fita. Sua vibração ao vento proporciona uma pequena sensação de alegria."
+     1 string m_Localized = "Uma vassoura com o fio firmemente amarrado em forma de fita. Seu balanço ao vento traz uma pequena sensação de alegria."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -110,7 +110,7 @@
    [11]
     0 TableEntryData data
      0 SInt64 m_Id = 55859771090587648
-     1 string m_Localized = "Fita leve"
+     1 string m_Localized = "Fita de Luz"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -118,7 +118,7 @@
    [12]
     0 TableEntryData data
      0 SInt64 m_Id = 56271385630887936
-     1 string m_Localized = "Branco Aqua"
+     1 string m_Localized = "Água Cristalina"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -126,7 +126,7 @@
    [13]
     0 TableEntryData data
      0 SInt64 m_Id = 56271390894739456
-     1 string m_Localized = "Uma vassoura imbuída da luz das flores brancas desabrochando, abrindo asas azul-petróleo para vagar livremente pela floresta e pelo céu."
+     1 string m_Localized = "Uma vassoura imbuída da luz de flores brancas desabrochando, abrindo asas azul-petróleo para vagar livremente pela floresta e pelo céu."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -134,7 +134,7 @@
    [14]
     0 TableEntryData data
      0 SInt64 m_Id = 56271919381237760
-     1 string m_Localized = "Folhado de mel"
+     1 string m_Localized = "Sopro de Mel"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -142,7 +142,7 @@
    [15]
     0 TableEntryData data
      0 SInt64 m_Id = 56271924980633600
-     1 string m_Localized = "Uma vassoura doce como mel e macia como pêlo, oferecendo um vôo quente e aconchegante."
+     1 string m_Localized = "Uma vassoura doce como mel e macia como pele, oferecendo um voo quente e aconchegante."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -158,7 +158,7 @@
    [17]
     0 TableEntryData data
      0 SInt64 m_Id = 10230155617685504
-     1 string m_Localized = "Uma vassoura decorada com pequenos trevos de quatro folhas que dizem trazer boa sorte ao seu cavaleiro."
+     1 string m_Localized = "Uma vassoura decorada com pequenos trevos de quatro folhas, que dizem trazer boa sorte a quem voar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -166,7 +166,7 @@
    [18]
     0 TableEntryData data
      0 SInt64 m_Id = 10489516782465024
-     1 string m_Localized = "Esboço ao luar"
+     1 string m_Localized = "Esboço do Luar"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -174,7 +174,7 @@
    [19]
     0 TableEntryData data
      0 SInt64 m_Id = 10489521404588032
-     1 string m_Localized = "Uma vassoura macia que emite a luz da lua. Deixa um leve rastro de luar atrás de si, como se fosse um pincel."
+     1 string m_Localized = "Uma vassoura machia que emite luz da lua. Deixa um leve rastro de luz atrás de ti, como se fosse um pincel."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -182,7 +182,7 @@
    [20]
     0 TableEntryData data
      0 SInt64 m_Id = 12273487321182208
-     1 string m_Localized = "O fio de Ariadne"
+     1 string m_Localized = "Fio de Ariadne"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -190,7 +190,7 @@
    [21]
     0 TableEntryData data
      0 SInt64 m_Id = 12273492396290048
-     1 string m_Localized = "Uma vassoura muito reconfortante. Parece que nenhum labirinto pode prender você quando você está nesta vassoura."
+     1 string m_Localized = "Uma vassoura muito reconfortante. Parece que nenhum labirinto pode te prender quando você está nela.."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -206,7 +206,7 @@
    [23]
     0 TableEntryData data
      0 SInt64 m_Id = 12273627599679488
-     1 string m_Localized = "Uma vassoura cinza fria inspirada no carvão. Tem um ar calmo e tranquilo."
+     1 string m_Localized = "Uma vassoura cinza-fria inspirada no carvão. Tem um ar calmo e tranquilo.."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -214,7 +214,7 @@
    [24]
     0 TableEntryData data
      0 SInt64 m_Id = 52948331031613440
-     1 string m_Localized = "Viagem de bordo"
+     1 string m_Localized = "Viagem de Bordo"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -222,7 +222,7 @@
    [25]
     0 TableEntryData data
      0 SInt64 m_Id = 52948335318192128
-     1 string m_Localized = "Uma vassoura carregando a diversão das florestas de outono. Traz serenidade ao piloto, bem como a emoção da viagem."
+     1 string m_Localized = "Uma vassoura que traz a alegria das florestas outonais. Ela traz para quem voa, a serenidade e a emoção da viagem.."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -238,7 +238,7 @@
    [27]
     0 TableEntryData data
      0 SInt64 m_Id = 78633262281592832
-     1 string m_Localized = "Uma vassoura que parece segurar o céu noturno. Por onde quer que passe, a luz das estrelas se espalha como ondas ondulantes."
+     1 string m_Localized = "Uma vassoura que parece segurar o céu noturno. Por onde passa, a luz das estrelas se espalha como ondas ondulantes.."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -254,7 +254,7 @@
    [29]
     0 TableEntryData data
      0 SInt64 m_Id = 160534559573872640
-     1 string m_Localized = "Uma vassoura adornada com lindas flores e fitas. Quando sobe, o perfume das rosas flutua no ar, fazendo você se sentir como se estivesse deslizando em um sonho de conto de fadas."
+     1 string m_Localized = "Uma vassoura adornada com lindas flores e fitas. Quando ela voa, o perfume de rosas paira no ar, fazendo você se sentir como se estivesse deslizando por um sonho de conto de fadas.."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -270,7 +270,7 @@
    [31]
     0 TableEntryData data
      0 SInt64 m_Id = 160563882146111488
-     1 string m_Localized = "Uma vassoura mágica que oferece um voo romântico, como uma borboleta graciosa deslizando entre pétalas de rosa flutuantes."
+     1 string m_Localized = "Uma vassoura mágica que oferece um voo romântico, como uma borboleta graciosa deslizando entre pétalas de rosas flutuantes."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -278,7 +278,7 @@
    [32]
     0 TableEntryData data
      0 SInt64 m_Id = 160572882824708096
-     1 string m_Localized = "RosaOceano"
+     1 string m_Localized = "Oceano Rosa"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -286,7 +286,7 @@
    [33]
     0 TableEntryData data
      0 SInt64 m_Id = 160572892756819968
-     1 string m_Localized = "Uma vassoura adornada com coral e água do mar. Por onde passa, as bolhas se espalham."
+     1 string m_Localized = "Uma vassoura adornada com corais e borrifos do mar. Por onde passa, bolhas se espalham."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -366,7 +366,7 @@
    [43]
     0 TableEntryData data
      0 SInt64 m_Id = 163085817006460928
-     1 string m_Localized = "Feliz Ritoring"
+     1 string m_Localized = "Ritoringo Feliz"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

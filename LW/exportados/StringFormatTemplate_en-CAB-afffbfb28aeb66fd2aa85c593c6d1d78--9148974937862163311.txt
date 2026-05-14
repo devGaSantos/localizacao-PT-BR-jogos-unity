@@ -20,8 +20,8 @@
      0 managedRefArrayItem data
       0 SInt64 rid = 8993872219424423939
  0 TableEntryData m_TableData
-  0 Array Array (20 items)
-   0 int size = 20
+  0 Array Array (24 items)
+   0 int size = 24
    [0]
     0 TableEntryData data
      0 SInt64 m_Id = 9259593728
@@ -242,6 +242,50 @@
         [0]
          0 managedRefArrayItem data
           0 SInt64 rid = 8993872219424423939
+   [20]
+    0 TableEntryData data
+     0 SInt64 m_Id = 181812444496650240
+     1 string m_Localized = "{theme} {propID_2:fromTable(InteriorPropBasicName)}{reform}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [21]
+    0 TableEntryData data
+     0 SInt64 m_Id = 181812575929360384
+     1 string m_Localized = "{theme} {propID_3:fromTable(InteriorPropBasicName)} {category}{reform}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [22]
+    0 TableEntryData data
+     0 SInt64 m_Id = 181812840975818752
+     1 string m_Localized = "{theme} {propID_3:fromTable(InteriorPropBasicName)}{reform}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
+   [23]
+    0 TableEntryData data
+     0 SInt64 m_Id = 184312766351794176
+     1 string m_Localized = "{theme} {propID_2:fromTable(InteriorPropBasicName)} {propID_3:fromTable(InteriorPropBasicName)} {category}{reform}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 8993872219424423939
  0 ManagedReferencesRegistry references
   0 int version = 2
   0 vector RefIds
@@ -258,8 +302,8 @@
        1 Array Array (0 items)
         0 int size = 0
       0 Entry m_SharedEntries
-       0 Array Array (20 items)
-        0 int size = 20
+       0 Array Array (24 items)
+        0 int size = 24
         [0]
          0 Entry data
           0 SInt64 id = 9259593728
@@ -320,3 +364,15 @@
         [19]
          0 Entry data
           0 SInt64 id = 119220930512150528
+        [20]
+         0 Entry data
+          0 SInt64 id = 181812444496650240
+        [21]
+         0 Entry data
+          0 SInt64 id = 181812575929360384
+        [22]
+         0 Entry data
+          0 SInt64 id = 181812840975818752
+        [23]
+         0 Entry data
+          0 SInt64 id = 184312766351794176

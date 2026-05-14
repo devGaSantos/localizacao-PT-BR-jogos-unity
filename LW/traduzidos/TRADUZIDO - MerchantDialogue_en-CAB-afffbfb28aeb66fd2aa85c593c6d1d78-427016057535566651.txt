@@ -20,12 +20,12 @@
      0 managedRefArrayItem data
       0 SInt64 rid = 0
  0 TableEntryData m_TableData
-  0 Array Array (215 items)
-   0 int size = 215
+  0 Array Array (224 items)
+   0 int size = 224
    [0]
     0 TableEntryData data
      0 SInt64 m_Id = 100189405184
-     1 string m_Localized = "Você não tem Luna Coins suficientes! Você também pode vender doces e poções no Catálogo das Bruxas, então fique à vontade para passar por aqui a qualquer hora!"
+     1 string m_Localized = "Você não tem Moedas Lunares o suficientes! Você também pode vender doces e poções no Catálogo das Bruxas, então sinta-se à vontade para aparecer quando quiser.!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -41,7 +41,7 @@
    [2]
     0 TableEntryData data
      0 SInt64 m_Id = 106661216256
-     1 string m_Localized = "No momento estamos sem estoque desse item."
+     1 string m_Localized = "No momento, não temos estoque desse item."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -49,7 +49,7 @@
    [3]
     0 TableEntryData data
      0 SInt64 m_Id = 108833865728
-     1 string m_Localized = "Por favor, me avise assim que decidir."
+     1 string m_Localized = "Por favor, me avise quando você decidir."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -57,7 +57,7 @@
    [4]
     0 TableEntryData data
      0 SInt64 m_Id = 111186870272
-     1 string m_Localized = "Aceitamos apenas produtos específicos."
+     1 string m_Localized = "Nós só aceitamos produtos específicos."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -65,7 +65,7 @@
    [5]
     0 TableEntryData data
      0 SInt64 m_Id = 113728618496
-     1 string m_Localized = "Quantos você precisa?"
+     1 string m_Localized = "Quantos você precisa??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -73,7 +73,7 @@
    [6]
     0 TableEntryData data
      0 SInt64 m_Id = 117180530688
-     1 string m_Localized = "Você está solicitando {0} pelo preço de {1}. Você deseja prosseguir?"
+     1 string m_Localized = "Você está comprando {0} pelo preço de {1}. Deseja continuar?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -84,7 +84,7 @@
    [7]
     0 TableEntryData data
      0 SInt64 m_Id = 119294459904
-     1 string m_Localized = "Este item é {0}. Você deseja prosseguir?"
+     1 string m_Localized = "Esse item é {0}. Deseja continuar?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -95,7 +95,7 @@
    [8]
     0 TableEntryData data
      0 SInt64 m_Id = 122763149312
-     1 string m_Localized = "Obrigado. Tenha um bom dia!"
+     1 string m_Localized = "Agradeço! Tenha um ótimo dia!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -103,7 +103,7 @@
    [9]
     0 TableEntryData data
      0 SInt64 m_Id = 127624347648
-     1 string m_Localized = "Quantos você deseja vender?"
+     1 string m_Localized = "Quantos você deseja vender??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -111,7 +111,7 @@
    [10]
     0 TableEntryData data
      0 SInt64 m_Id = 132191944704
-     1 string m_Localized = "Você está vendendo {0} pelo preço de {1}. Você deseja prosseguir?"
+     1 string m_Localized = "Você está vendendo {0} pelo preço de {1}. Deseja continuar?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -122,7 +122,7 @@
    [11]
     0 TableEntryData data
      0 SInt64 m_Id = 134960185344
-     1 string m_Localized = "Este item pode ser vendido por {0}. Você deseja prosseguir?"
+     1 string m_Localized = "Esse item pode ser vendido por {0}. Deseja continuar?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -133,7 +133,7 @@
    [12]
     0 TableEntryData data
      0 SInt64 m_Id = 3793458626560
-     1 string m_Localized = "Obrigado. Tenha um bom dia!"
+     1 string m_Localized = "Agradeço! Tenha um ótimo dia!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -141,7 +141,7 @@
    [13]
     0 TableEntryData data
      0 SInt64 m_Id = 42167535992832
-     1 string m_Localized = "Não posso fazer muito se você estiver falido."
+     1 string m_Localized = "Não se pode fazer muita coisa se você está falido."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -157,7 +157,7 @@
    [15]
     0 TableEntryData data
      0 SInt64 m_Id = 42167569547265
-     1 string m_Localized = "Estou totalmente fora disso no momento."
+     1 string m_Localized = "Estou sem isso no momento."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -165,7 +165,7 @@
    [16]
     0 TableEntryData data
      0 SInt64 m_Id = 42167569547266
-     1 string m_Localized = "Já estava satisfeito?"
+     1 string m_Localized = "Você já está cheio disso?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -181,7 +181,7 @@
    [18]
     0 TableEntryData data
      0 SInt64 m_Id = 42167569547268
-     1 string m_Localized = "Quantos você precisa?"
+     1 string m_Localized = "Quantos você precisa??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -189,7 +189,7 @@
    [19]
     0 TableEntryData data
      0 SInt64 m_Id = 42167569547269
-     1 string m_Localized = "{0} custará {1}. Tudo bem?"
+     1 string m_Localized = "{0}, custará de você {1}. Tudo bem?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -200,7 +200,7 @@
    [20]
     0 TableEntryData data
      0 SInt64 m_Id = 42167569547270
-     1 string m_Localized = "Custará {0}. Quer?"
+     1 string m_Localized = "Eu lhe cobro {0}. Você quer?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -211,7 +211,7 @@
    [21]
     0 TableEntryData data
      0 SInt64 m_Id = 42167569547271
-     1 string m_Localized = "Aproveitar."
+     1 string m_Localized = "Divirta-se."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -219,7 +219,7 @@
    [22]
     0 TableEntryData data
      0 SInt64 m_Id = 42167569547272
-     1 string m_Localized = "Quantos você está vendendo?"
+     1 string m_Localized = "Quantos você está vendendo??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -227,7 +227,7 @@
    [23]
     0 TableEntryData data
      0 SInt64 m_Id = 42167569547273
-     1 string m_Localized = "Provavelmente posso lhe dar {1} por {0}."
+     1 string m_Localized = "Eu provavelmente daria à você {1} por {0}."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -238,7 +238,7 @@
    [24]
     0 TableEntryData data
      0 SInt64 m_Id = 42167569547274
-     1 string m_Localized = "Posso te dar {0}."
+     1 string m_Localized = "Eu lhe dou {0}."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -249,7 +249,7 @@
    [25]
     0 TableEntryData data
      0 SInt64 m_Id = 42167569547275
-     1 string m_Localized = "Obrigado."
+     1 string m_Localized = "Agradeço."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -257,7 +257,7 @@
    [26]
     0 TableEntryData data
      0 SInt64 m_Id = 50054807224320
-     1 string m_Localized = "Verifique sua carteira. Não faço descontos."
+     1 string m_Localized = "Verifique sua carteira. Eu não faço descontos.."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -281,7 +281,7 @@
    [29]
     0 TableEntryData data
      0 SInt64 m_Id = 50054836584450
-     1 string m_Localized = "A decisão é sua."
+     1 string m_Localized = "A decisão é sua..."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -289,7 +289,7 @@
    [30]
     0 TableEntryData data
      0 SInt64 m_Id = 50054836584451
-     1 string m_Localized = "Eu não tenho utilidade para isso."
+     1 string m_Localized = "Não tenho utilidade para isso."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -297,7 +297,7 @@
    [31]
     0 TableEntryData data
      0 SInt64 m_Id = 50054836584452
-     1 string m_Localized = "Quantos você está comprando?"
+     1 string m_Localized = "Quantos você está comprando??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -305,7 +305,7 @@
    [32]
     0 TableEntryData data
      0 SInt64 m_Id = 50054836584453
-     1 string m_Localized = "Hmm, {0} será... {1}. Como isso soa?"
+     1 string m_Localized = "Hmm, {0} será... {1}. Está de bom tamanho para você?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -335,7 +335,7 @@
    [35]
     0 TableEntryData data
      0 SInt64 m_Id = 50054836584456
-     1 string m_Localized = "Quantos você deseja vender?"
+     1 string m_Localized = "Quantos você deseja vender??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -343,7 +343,7 @@
    [36]
     0 TableEntryData data
      0 SInt64 m_Id = 50054836584457
-     1 string m_Localized = "{0} será... {1}. Como isso soa?"
+     1 string m_Localized = "{0} será... {1}. Está de bom tamanho para você?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -405,7 +405,7 @@
    [43]
     0 TableEntryData data
      0 SInt64 m_Id = 85048949580300291
-     1 string m_Localized = "Eu não tenho utilidade para isso."
+     1 string m_Localized = "Não tenho utilidade para isso."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -451,7 +451,7 @@
    [48]
     0 TableEntryData data
      0 SInt64 m_Id = 85048949580300296
-     1 string m_Localized = "Quantos você está vendendo?"
+     1 string m_Localized = "Quantos você está vendendo??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -459,7 +459,7 @@
    [49]
     0 TableEntryData data
      0 SInt64 m_Id = 85048949580300297
-     1 string m_Localized = "Por {0} eu te darei {1}. Como isso soa?"
+     1 string m_Localized = "Por {0} eu lhe dou {1}. Está de bom tamanho para você?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -470,7 +470,7 @@
    [50]
     0 TableEntryData data
      0 SInt64 m_Id = 85048949580300298
-     1 string m_Localized = "Ofereço {0} a você por isso."
+     1 string m_Localized = "Eu lhe ofereço {0} por isso."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -481,7 +481,7 @@
    [51]
     0 TableEntryData data
      0 SInt64 m_Id = 85048949580300299
-     1 string m_Localized = "Obrigado. Vou aproveitar bem."
+     1 string m_Localized = "Obrigado. Vou fazer bom uso disso.."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -505,7 +505,7 @@
    [54]
     0 TableEntryData data
      0 SInt64 m_Id = 85048949580300302
-     1 string m_Localized = "Este item está atualmente fora de estoque."
+     1 string m_Localized = "Este item está fora de estoque no momento."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -513,7 +513,7 @@
    [55]
     0 TableEntryData data
      0 SInt64 m_Id = 85048949580300303
-     1 string m_Localized = "Fique à vontade para continuar navegando."
+     1 string m_Localized = "Fique à vontade para continuar procurando."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -521,7 +521,7 @@
    [56]
     0 TableEntryData data
      0 SInt64 m_Id = 85048949580300304
-     1 string m_Localized = "Eu não vou acreditar nisso."
+     1 string m_Localized = "Eu não vou comprar isso."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -529,7 +529,7 @@
    [57]
     0 TableEntryData data
      0 SInt64 m_Id = 85048949580300305
-     1 string m_Localized = "Quantos você gostaria?"
+     1 string m_Localized = "Quantos você gostaria??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -537,7 +537,7 @@
    [58]
     0 TableEntryData data
      0 SInt64 m_Id = 85048949580300306
-     1 string m_Localized = "{0} será {1}. Isso está correto?"
+     1 string m_Localized = "{0} será {1}. Está correto?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -548,7 +548,7 @@
    [59]
     0 TableEntryData data
      0 SInt64 m_Id = 85048949580300307
-     1 string m_Localized = "Isso é {0}?"
+     1 string m_Localized = "Isso está {0}?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -559,7 +559,7 @@
    [60]
     0 TableEntryData data
      0 SInt64 m_Id = 85048949580300308
-     1 string m_Localized = "Obrigado."
+     1 string m_Localized = "Agradeço."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -567,7 +567,7 @@
    [61]
     0 TableEntryData data
      0 SInt64 m_Id = 85048949580300309
-     1 string m_Localized = "Quantos você deseja vender?"
+     1 string m_Localized = "Quantos você deseja vender??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -575,7 +575,7 @@
    [62]
     0 TableEntryData data
      0 SInt64 m_Id = 85048949580300310
-     1 string m_Localized = "{0} será {1}. Isso está correto?"
+     1 string m_Localized = "{0} será {1}. Está correto?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -586,7 +586,7 @@
    [63]
     0 TableEntryData data
      0 SInt64 m_Id = 85048949580300311
-     1 string m_Localized = "Isso é {0}?"
+     1 string m_Localized = "Isso está {0}?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -597,7 +597,7 @@
    [64]
     0 TableEntryData data
      0 SInt64 m_Id = 85048949580300312
-     1 string m_Localized = "Obrigado."
+     1 string m_Localized = "Agradeço."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -605,7 +605,7 @@
    [65]
     0 TableEntryData data
      0 SInt64 m_Id = 137682636813434880
-     1 string m_Localized = "Não tenho muito dinheiro sobrando hoje. Por favor, volte amanhã."
+     1 string m_Localized = "Não tenho muito dinheiro sobrando hoje. Volte amanhã, por favor.."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -613,7 +613,7 @@
    [66]
     0 TableEntryData data
      0 SInt64 m_Id = 137682757034770432
-     1 string m_Localized = "O equilíbrio que tenho hoje não vai tão longe. Se você ainda estiver interessado em vender, volte amanhã."
+     1 string m_Localized = "O saldo que tenho hoje não vai durar tanto. Se ainda estiver interessado em vender, volte amanhã.."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -661,7 +661,7 @@
    [72]
     0 TableEntryData data
      0 SInt64 m_Id = 259424730447151108
-     1 string m_Localized = "(Número não informado)"
+     1 string m_Localized = "(Número não inserido)"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -691,7 +691,7 @@
    [75]
     0 TableEntryData data
      0 SInt64 m_Id = 259424730447151111
-     1 string m_Localized = "(A página se espalha, como se estivesse feliz)"
+     1 string m_Localized = "(A página se espalha, como se estivesse se sentindo feliz)"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -699,7 +699,7 @@
    [76]
     0 TableEntryData data
      0 SInt64 m_Id = 259424730447151112
-     1 string m_Localized = "(Número não informado)"
+     1 string m_Localized = "(Número não inserido)"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -729,7 +729,7 @@
    [79]
     0 TableEntryData data
      0 SInt64 m_Id = 259424730447151115
-     1 string m_Localized = "(A página se espalha, como se estivesse feliz)"
+     1 string m_Localized = "(A página se espalha, como se estivesse se sentindo feliz)"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -745,7 +745,7 @@
    [81]
     0 TableEntryData data
      0 SInt64 m_Id = 306865138877661184
-     1 string m_Localized = "Você tem algum doce para vender?"
+     1 string m_Localized = "Você tem algum doce para vender??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -761,7 +761,7 @@
    [83]
     0 TableEntryData data
      0 SInt64 m_Id = 306865557725052928
-     1 string m_Localized = "(O certificado da Witch Association pisca e o catálogo de produtos aparece)"
+     1 string m_Localized = "(O certificado da Associação das Bruxas pisca e o catálogo de produtos aparece)"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -769,7 +769,7 @@
    [84]
     0 TableEntryData data
      0 SInt64 m_Id = 306865758204395520
-     1 string m_Localized = "Bem-vindo."
+     1 string m_Localized = "Bem vinda."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -777,7 +777,7 @@
    [85]
     0 TableEntryData data
      0 SInt64 m_Id = 306878015613239296
-     1 string m_Localized = "Bem-vindo."
+     1 string m_Localized = "Bem vinda."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -785,7 +785,7 @@
    [86]
     0 TableEntryData data
      0 SInt64 m_Id = 306878019786571776
-     1 string m_Localized = "Há alguma coisa que eu possa conseguir para você?"
+     1 string m_Localized = "Tem alguma coisa que eu possa fazer por você??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -801,7 +801,7 @@
    [88]
     0 TableEntryData data
      0 SInt64 m_Id = 306864998418808832
-     1 string m_Localized = "Aceita apenas itens aprovados pela Associação de Bruxas."
+     1 string m_Localized = "Aceite apenas itens aprovados pela Associação de Bruxas."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -809,7 +809,7 @@
    [89]
     0 TableEntryData data
      0 SInt64 m_Id = 306865759156502528
-     1 string m_Localized = "Você trouxe alguma coisa legal?"
+     1 string m_Localized = "Você trouxe algumas coisas legais??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -833,7 +833,7 @@
    [92]
     0 TableEntryData data
      0 SInt64 m_Id = 328332019766165504
-     1 string m_Localized = "Quantos você está vendendo?"
+     1 string m_Localized = "Quantos você está vendendo??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -841,7 +841,7 @@
    [93]
     0 TableEntryData data
      0 SInt64 m_Id = 328332075244224512
-     1 string m_Localized = "{0} será {1}. Negócio?"
+     1 string m_Localized = "{0} será {1}. Fechado?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -849,7 +849,7 @@
    [94]
     0 TableEntryData data
      0 SInt64 m_Id = 328332087839719424
-     1 string m_Localized = "É {0}, certo?"
+     1 string m_Localized = "Sairá por {0}, certo?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -857,7 +857,7 @@
    [95]
     0 TableEntryData data
      0 SInt64 m_Id = 328331935754256384
-     1 string m_Localized = "Como quiser."
+     1 string m_Localized = "Como você quiser."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -865,7 +865,7 @@
    [96]
     0 TableEntryData data
      0 SInt64 m_Id = 328332100812701696
-     1 string m_Localized = "Tudo bem."
+     1 string m_Localized = "Certo."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -873,7 +873,7 @@
    [97]
     0 TableEntryData data
      0 SInt64 m_Id = 386203520040992768
-     1 string m_Localized = "{0} custará {1}. Negócio?"
+     1 string m_Localized = "{0} lhe cobro {1}. Fechado?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -884,7 +884,7 @@
    [98]
     0 TableEntryData data
      0 SInt64 m_Id = 386203532057673728
-     1 string m_Localized = "{0}. Negócio?"
+     1 string m_Localized = "{0}. Fechado?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -895,7 +895,7 @@
    [99]
     0 TableEntryData data
      0 SInt64 m_Id = 386203564064407552
-     1 string m_Localized = "{0} custará {1}. Negócio?"
+     1 string m_Localized = "{0} lhe cobro {1}. Fechado?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -906,7 +906,7 @@
    [100]
     0 TableEntryData data
      0 SInt64 m_Id = 386203573723889664
-     1 string m_Localized = "{0}. Negócio?"
+     1 string m_Localized = "{0}. Fechado?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -949,7 +949,7 @@
    [105]
     0 TableEntryData data
      0 SInt64 m_Id = 386203495638532096
-     1 string m_Localized = "Eu não pretendo comprar isso."
+     1 string m_Localized = "Não pretendo comprar isso."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -965,7 +965,7 @@
    [107]
     0 TableEntryData data
      0 SInt64 m_Id = 386203542186917888
-     1 string m_Localized = "Fico feliz em ver este belo item em boas mãos."
+     1 string m_Localized = "Estou feliz em ver este belo item em boas mãos."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -973,7 +973,7 @@
    [108]
     0 TableEntryData data
      0 SInt64 m_Id = 386203552299384832
-     1 string m_Localized = "Quantos você está comprando?"
+     1 string m_Localized = "Quantos você está comprando??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -989,7 +989,7 @@
    [110]
     0 TableEntryData data
      0 SInt64 m_Id = 386203599346892800
-     1 string m_Localized = "Você precisa de alguma coisa?"
+     1 string m_Localized = "Você precisa de alguma coisa??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1005,7 +1005,7 @@
    [112]
     0 TableEntryData data
      0 SInt64 m_Id = 380885439301169152
-     1 string m_Localized = "Pode ser uma boa ideia despachar sua mala."
+     1 string m_Localized = "Pode ser uma boa ideia verificar sua bolsa."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1013,7 +1013,7 @@
    [113]
     0 TableEntryData data
      0 SInt64 m_Id = 380885439301169153
-     1 string m_Localized = "Desculpe. Tudo acabou."
+     1 string m_Localized = "Desculpe. Acabou tudo."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1021,7 +1021,7 @@
    [114]
     0 TableEntryData data
      0 SInt64 m_Id = 380885439301169154
-     1 string m_Localized = "Você deveria pensar sobre isso com cuidado."
+     1 string m_Localized = "Você deveria pensar com cuidado."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1029,7 +1029,7 @@
    [115]
     0 TableEntryData data
      0 SInt64 m_Id = 380885439301169155
-     1 string m_Localized = "Hmm... eu não preciso disso."
+     1 string m_Localized = "Hmm... Eu não preciso disso."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1037,7 +1037,7 @@
    [116]
     0 TableEntryData data
      0 SInt64 m_Id = 380885439301169156
-     1 string m_Localized = "Quantos você precisa?"
+     1 string m_Localized = "Quantos você precisa??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1045,7 +1045,7 @@
    [117]
     0 TableEntryData data
      0 SInt64 m_Id = 380885439301169157
-     1 string m_Localized = "Se você comprar {0}, custará {1}. Tudo bem?"
+     1 string m_Localized = "Se você comprar {0}, sairá por {1}. Tudo bem?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1053,7 +1053,7 @@
    [118]
     0 TableEntryData data
      0 SInt64 m_Id = 380885439301169158
-     1 string m_Localized = "Isso será {0}."
+     1 string m_Localized = "Sairá por {0}."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1061,7 +1061,7 @@
    [119]
     0 TableEntryData data
      0 SInt64 m_Id = 380885439301169159
-     1 string m_Localized = "Obrigado, como sempre."
+     1 string m_Localized = "De qualquer maneira, agradeço."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1069,7 +1069,7 @@
    [120]
     0 TableEntryData data
      0 SInt64 m_Id = 380885439301169160
-     1 string m_Localized = "Quantos você está vendendo?"
+     1 string m_Localized = "Quantos você está vendendo??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1077,7 +1077,7 @@
    [121]
     0 TableEntryData data
      0 SInt64 m_Id = 380885439301169161
-     1 string m_Localized = "Se você vender {0}, será {1}. Tudo bem?"
+     1 string m_Localized = "Se você vender {0}, lhe cobro {1}. De acordo?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1085,7 +1085,7 @@
    [122]
     0 TableEntryData data
      0 SInt64 m_Id = 380885439301169162
-     1 string m_Localized = "Isso será {0}."
+     1 string m_Localized = "Sairá por {0}."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1093,7 +1093,7 @@
    [123]
     0 TableEntryData data
      0 SInt64 m_Id = 380885439301169163
-     1 string m_Localized = "Obrigado, como sempre."
+     1 string m_Localized = "De qualquer maneira, agradeço."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1101,7 +1101,7 @@
    [124]
     0 TableEntryData data
      0 SInt64 m_Id = 380885439301169164
-     1 string m_Localized = "Estou sem dinheiro hoje porque você me vendeu demais. Você poderia voltar amanhã?"
+     1 string m_Localized = "Estou falido hoje porque você me vendeu demais. Você poderia voltar amanhã??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1109,7 +1109,7 @@
    [125]
     0 TableEntryData data
      0 SInt64 m_Id = 380885439301169165
-     1 string m_Localized = "Você tem alguma coisa para vender?"
+     1 string m_Localized = "Você tem algo para vender??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1117,7 +1117,7 @@
    [126]
     0 TableEntryData data
      0 SInt64 m_Id = 380886558114983936
-     1 string m_Localized = "Bem-vindo. Não tenha pressa e olhe ao redor."
+     1 string m_Localized = "Bem-vinda. Aproveite o seu tempo e dê uma olhada ao redor."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1125,7 +1125,7 @@
    [127]
     0 TableEntryData data
      0 SInt64 m_Id = 420981063780433920
-     1 string m_Localized = "Se você precisar de {item/Reform_BroomStick}, troque {ItemCategory.NormalCollect} ou {ItemCategory.NormalCollect_Unique} comigo por ele."
+     1 string m_Localized = "Se você precisa de {item/Reform_BroomStick}, troque {ItemCategory.NormalCollect} ou {ItemCategory.NormalCollect_Unique} comigo por isso."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -1136,7 +1136,7 @@
    [128]
     0 TableEntryData data
      0 SInt64 m_Id = 420981147515518976
-     1 string m_Localized = "Se você precisar de {item/Reform_Coloritem}, troque {ItemCategory.NormalCollect} ou {ItemCategory.NormalCollect_Unique} comigo por ele."
+     1 string m_Localized = "Se você precisa de {item/Reform_Coloritem}, troque {ItemCategory.NormalCollect} ou {ItemCategory.NormalCollect_Unique} comigo por isso."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -1147,7 +1147,7 @@
    [129]
     0 TableEntryData data
      0 SInt64 m_Id = 420981452500140032
-     1 string m_Localized = "Ellie, escolha o {ItemCategory.NormalCollect} que deseja e você encontrará o tipo e a quantidade de itens necessários para trocá-lo."
+     1 string m_Localized = "Ellie, escolhe o {ItemCategory.NormalCollect} se você quer e você encontrará o tipo e a quantidade de itens necessários para trocar por ele."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -1166,7 +1166,7 @@
    [131]
     0 TableEntryData data
      0 SInt64 m_Id = 328331891923779584
-     1 string m_Localized = "Parece que você não tem espaço na sua bolsa."
+     1 string m_Localized = "Parece que não há espaço na sua bolsa."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1190,7 +1190,7 @@
    [134]
     0 TableEntryData data
      0 SInt64 m_Id = 328331971133210624
-     1 string m_Localized = "Se você quiser {0}, basta me pagar {1}."
+     1 string m_Localized = "Se você quer {0}, me pague {1}."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1198,7 +1198,7 @@
    [135]
     0 TableEntryData data
      0 SInt64 m_Id = 328331997255335936
-     1 string m_Localized = "É {0}, certo?"
+     1 string m_Localized = "Sairá por {0}, certo?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1214,7 +1214,7 @@
    [137]
     0 TableEntryData data
      0 SInt64 m_Id = 408783277179678720
-     1 string m_Localized = "Você não tem nenhum Presente de Ritoring com você!"
+     1 string m_Localized = "Você não tem nenhum Presente de Ritoringo com você!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1230,7 +1230,7 @@
    [139]
     0 TableEntryData data
      0 SInt64 m_Id = 408783277204844545
-     1 string m_Localized = "Eu não tenho mais disso."
+     1 string m_Localized = "Não tenho mais disso."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1238,7 +1238,7 @@
    [140]
     0 TableEntryData data
      0 SInt64 m_Id = 408783277204844546
-     1 string m_Localized = "Não tenha pressa para decidir."
+     1 string m_Localized = "Leve o seu tempo para decidir."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1254,7 +1254,7 @@
    [142]
     0 TableEntryData data
      0 SInt64 m_Id = 408783277204844548
-     1 string m_Localized = "Quantos deles?"
+     1 string m_Localized = "Quantos disso?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1262,7 +1262,7 @@
    [143]
     0 TableEntryData data
      0 SInt64 m_Id = 408783277204844549
-     1 string m_Localized = "Você quer {0}? Dê-me {1} então."
+     1 string m_Localized = "Você quer {0}? Então me de {1} disso."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1270,7 +1270,7 @@
    [144]
     0 TableEntryData data
      0 SInt64 m_Id = 408783277204844550
-     1 string m_Localized = "Dê-me {0}."
+     1 string m_Localized = "Então me de {0}."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1294,7 +1294,7 @@
    [147]
     0 TableEntryData data
      0 SInt64 m_Id = 421438853814562816
-     1 string m_Localized = "O que você precisa?"
+     1 string m_Localized = "Do que você precisa?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1302,7 +1302,7 @@
    [148]
     0 TableEntryData data
      0 SInt64 m_Id = 426426307374100480
-     1 string m_Localized = "Por que você gostaria de trocá-los?"
+     1 string m_Localized = "O que você gostaria de trocar?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1310,7 +1310,7 @@
    [149]
     0 TableEntryData data
      0 SInt64 m_Id = 431867490412036096
-     1 string m_Localized = "Ops, você não tem dinheiro suficiente para isso."
+     1 string m_Localized = "Epa, você não tem dinheiro suficiente para isso."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1334,7 +1334,7 @@
    [152]
     0 TableEntryData data
      0 SInt64 m_Id = 431867498788061184
-     1 string m_Localized = "Não estamos com pressa."
+     1 string m_Localized = "Não temos pressa."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1350,7 +1350,7 @@
    [154]
     0 TableEntryData data
      0 SInt64 m_Id = 431867500696469504
-     1 string m_Localized = "Quantos você precisa?"
+     1 string m_Localized = "Quantos você precisa??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1358,7 +1358,7 @@
    [155]
     0 TableEntryData data
      0 SInt64 m_Id = 431867520522944512
-     1 string m_Localized = "{0} custaria {1}."
+     1 string m_Localized = "{0} irá custar a você {1}."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1366,7 +1366,7 @@
    [156]
     0 TableEntryData data
      0 SInt64 m_Id = 431867522653650944
-     1 string m_Localized = "{0} está bem?"
+     1 string m_Localized = "Está {0}, certo?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1374,7 +1374,7 @@
    [157]
     0 TableEntryData data
      0 SInt64 m_Id = 431867524222320640
-     1 string m_Localized = "Ótimo! Obrigado."
+     1 string m_Localized = "Ótimo! Agradeço."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1390,7 +1390,7 @@
    [159]
     0 TableEntryData data
      0 SInt64 m_Id = 431867526600491008
-     1 string m_Localized = "{0} seria {1}."
+     1 string m_Localized = "{0} sairá por {1}."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1398,7 +1398,7 @@
    [160]
     0 TableEntryData data
      0 SInt64 m_Id = 431867527607123968
-     1 string m_Localized = "{0} ficaria bem?"
+     1 string m_Localized = "Sairá {0}, tudo bem?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1406,7 +1406,7 @@
    [161]
     0 TableEntryData data
      0 SInt64 m_Id = 431867528903163904
-     1 string m_Localized = "Ótimo! Obrigado."
+     1 string m_Localized = "Ótimo! Agradeço."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1414,7 +1414,7 @@
    [162]
     0 TableEntryData data
      0 SInt64 m_Id = 431869133232832512
-     1 string m_Localized = "Desculpe, mas isso foi tudo que você pode comprar hoje."
+     1 string m_Localized = "Desculpe, mas isso é tudo que você pode comprar hoje."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1462,7 +1462,7 @@
    [168]
     0 TableEntryData data
      0 SInt64 m_Id = 434880065605238784
-     1 string m_Localized = "Diga-me quando quiser um chá. Hehe."
+     1 string m_Localized = "Me avise quando você quiser um chá. Hehe."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1478,7 +1478,7 @@
    [170]
     0 TableEntryData data
      0 SInt64 m_Id = 434880088728436736
-     1 string m_Localized = "Quantos devo te dar?"
+     1 string m_Localized = "Quantos devo te dar??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1486,7 +1486,7 @@
    [171]
     0 TableEntryData data
      0 SInt64 m_Id = 434880100787060736
-     1 string m_Localized = "Se for {0}... então é {1}, certo? Isso não está correto?"
+     1 string m_Localized = "Se é {0}... então será {1}, certo? Não está correto?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1494,7 +1494,7 @@
    [172]
     0 TableEntryData data
      0 SInt64 m_Id = 434880111172157440
-     1 string m_Localized = "É {0}, certo?"
+     1 string m_Localized = "Será {0}, certo?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1502,7 +1502,7 @@
    [173]
     0 TableEntryData data
      0 SInt64 m_Id = 434880129664843776
-     1 string m_Localized = "Ellie, fiz as contas corretamente, não foi?"
+     1 string m_Localized = "Ellie, eu fiz as contas direito, não é?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1510,7 +1510,7 @@
    [174]
     0 TableEntryData data
      0 SInt64 m_Id = 434880140674891776
-     1 string m_Localized = "Vovó me disse para perguntar quantos são."
+     1 string m_Localized = "A vovó me disse para perguntar quantas são."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1518,7 +1518,7 @@
    [175]
     0 TableEntryData data
      0 SInt64 m_Id = 434880150908993536
-     1 string m_Localized = "Se for {0}... então é {1}, certo? Isso não está correto?"
+     1 string m_Localized = "Se é {0}... então será {1}, certo? Não está correto?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1526,7 +1526,7 @@
    [176]
     0 TableEntryData data
      0 SInt64 m_Id = 434880164615979008
-     1 string m_Localized = "É {0}, certo?"
+     1 string m_Localized = "Será {0}, certo?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1534,7 +1534,7 @@
    [177]
     0 TableEntryData data
      0 SInt64 m_Id = 434880175835742208
-     1 string m_Localized = "Ellie, fiz as contas corretamente, não foi?"
+     1 string m_Localized = "Ellie, eu fiz as contas direito, não é?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1542,7 +1542,7 @@
    [178]
     0 TableEntryData data
      0 SInt64 m_Id = 434880186455719936
-     1 string m_Localized = "Mm... Vovó disse que eu não deveria comprar muitos."
+     1 string m_Localized = "Mm... A vovó disse que eu não deveria comprar muitos."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1558,7 +1558,7 @@
    [180]
     0 TableEntryData data
      0 SInt64 m_Id = 434880213089550336
-     1 string m_Localized = "Fiz o chá muito bem, não foi?"
+     1 string m_Localized = "Eu preparei o chá muito bem, não é??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1574,7 +1574,7 @@
    [182]
     0 TableEntryData data
      0 SInt64 m_Id = 434880242764251136
-     1 string m_Localized = "Parece que você não tem espaço para carregar sua compra, caro cliente."
+     1 string m_Localized = "Parece que você não tem espaço para transportar sua compra, caro cliente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1582,7 +1582,7 @@
    [183]
     0 TableEntryData data
      0 SInt64 m_Id = 434880253543612416
-     1 string m_Localized = "Sinto muito, mas os que fiz desapareceram."
+     1 string m_Localized = "Desculpe, mas os que eu fiz acabaram."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1614,7 +1614,7 @@
    [187]
     0 TableEntryData data
      0 SInt64 m_Id = 434880300834390016
-     1 string m_Localized = "Se for {0}, então será {1}, caro cliente."
+     1 string m_Localized = "Se será {0}, então sairá {1}, caro cliente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1622,7 +1622,7 @@
    [188]
     0 TableEntryData data
      0 SInt64 m_Id = 434880316126822400
-     1 string m_Localized = "É {0}, caro cliente."
+     1 string m_Localized = "Será por {0}, caro cliente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1630,7 +1630,7 @@
    [189]
     0 TableEntryData data
      0 SInt64 m_Id = 434880325660475392
-     1 string m_Localized = "Tenha um dia delicioso ~"
+     1 string m_Localized = "Tenha um dia delicioso~"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1638,7 +1638,7 @@
    [190]
     0 TableEntryData data
      0 SInt64 m_Id = 434880336381116416
-     1 string m_Localized = "Quanto você gostaria de vender ~?"
+     1 string m_Localized = "Quanto você gostaria de vender?~?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1646,7 +1646,7 @@
    [191]
     0 TableEntryData data
      0 SInt64 m_Id = 434880347294695424
-     1 string m_Localized = "Se for {0}, então será {1}, caro cliente."
+     1 string m_Localized = "Se será {0}, então sairá {1}, caro cliente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1654,7 +1654,7 @@
    [192]
     0 TableEntryData data
      0 SInt64 m_Id = 434880356660576256
-     1 string m_Localized = "É {0}, caro cliente."
+     1 string m_Localized = "Será por {0}, caro cliente."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1662,7 +1662,7 @@
    [193]
     0 TableEntryData data
      0 SInt64 m_Id = 434880367100198912
-     1 string m_Localized = "Tenha um bom dia ~"
+     1 string m_Localized = "Tenha um bom dia~"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1670,7 +1670,7 @@
    [194]
     0 TableEntryData data
      0 SInt64 m_Id = 434880377149751296
-     1 string m_Localized = "Sinto muito, mas parece que não posso comprar mais hoje."
+     1 string m_Localized = "Desculpe, mas parece que não posso comprar mais nada hoje."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1678,7 +1678,7 @@
    [195]
     0 TableEntryData data
      0 SInt64 m_Id = 434880386066841600
-     1 string m_Localized = "O que você gostaria de vender ~?"
+     1 string m_Localized = "O que você gostaria de vender~?"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1686,7 +1686,7 @@
    [196]
     0 TableEntryData data
      0 SInt64 m_Id = 434880395910873088
-     1 string m_Localized = "Esses donuts são ainda mais deliciosos do que parecem ~"
+     1 string m_Localized = "Esses donuts são ainda mais deliciosos do que parecem~"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1702,7 +1702,7 @@
    [198]
     0 TableEntryData data
      0 SInt64 m_Id = 467155355848966144
-     1 string m_Localized = "Experimente trocar itens com a Bolsa de Moedas Luna."
+     1 string m_Localized = "Experimente trocar itens com a Pounch da Moeda Lunar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1748,7 +1748,7 @@
    [203]
     0 TableEntryData data
      0 SInt64 m_Id = 542871272673501192
-     1 string m_Localized = "Quantos você está vendendo?"
+     1 string m_Localized = "Quantos você está vendendo??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1796,7 +1796,7 @@
    [209]
     0 TableEntryData data
      0 SInt64 m_Id = 542871272673501208
-     1 string m_Localized = "Quantos você está vendendo?"
+     1 string m_Localized = "Quantos você está vendendo??"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1837,6 +1837,78 @@
     0 TableEntryData data
      0 SInt64 m_Id = 542884369203191808
      1 string m_Localized = "Por favor, escolha o item que você deseja primeiro."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [215]
+    0 TableEntryData data
+     0 SInt64 m_Id = 573948309684191232
+     1 string m_Localized = "Sem problemas. Leve todo o tempo que precisar."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [216]
+    0 TableEntryData data
+     0 SInt64 m_Id = 573948311194140672
+     1 string m_Localized = "Afinal, tenho como regra nunca comprar coisas de que não preciso. Hehe."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [217]
+    0 TableEntryData data
+     0 SInt64 m_Id = 573948452949032960
+     1 string m_Localized = "Quantos você pretende vender?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [218]
+    0 TableEntryData data
+     0 SInt64 m_Id = 573948454152798208
+     1 string m_Localized = "Isso será {1} no total."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [219]
+    0 TableEntryData data
+     0 SInt64 m_Id = 573948528144515072
+     1 string m_Localized = "Venha de novo ~"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [220]
+    0 TableEntryData data
+     0 SInt64 m_Id = 573948530719817728
+     1 string m_Localized = "Você está aqui para vender alguns Cristais Estelares?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [221]
+    0 TableEntryData data
+     0 SInt64 m_Id = 573948676866146304
+     1 string m_Localized = "Sairá por {0}."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [222]
+    0 TableEntryData data
+     0 SInt64 m_Id = 573952761493291008
+     1 string m_Localized = "Existe alguma coisa que você está procurando?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [223]
+    0 TableEntryData data
+     0 SInt64 m_Id = 576862481040375808
+     1 string m_Localized = "Por favor insira Minérios de Constelação ou Meteoritos. No momento estamos trocando itens."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
