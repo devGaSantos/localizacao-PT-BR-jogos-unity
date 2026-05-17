@@ -282,7 +282,7 @@
    [31]
     0 TableEntryData data
      0 SInt64 m_Id = 30381929849978880
-     1 string m_Localized = "Para trazer de volta os antigos moradores da vila, você deve primeiro destruir as vinhas espinhosas.\n\n\nEExplore a Floresta Verde, encontre o núcleo da vinha espinhosa e destrua-o para resolver o problema.\n\n\nEmbarque em sua aventura para salvar a vila!"
+     1 string m_Localized = "Para trazer de volta os antigos moradores da vila, você deve primeiro destruir as vinhas espinhosas.\n\n\nExplore a Floresta Verde, encontre o núcleo da vinha espinhosa e destrua-o para resolver o problema.\n\n\nEmbarque em sua aventura para salvar a vila!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

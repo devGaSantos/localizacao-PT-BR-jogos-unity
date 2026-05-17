@@ -215,7 +215,7 @@
    [23]
     0 TableEntryData data
      0 SInt64 m_Id = 6072815386662
-     1 string m_Localized = "Concocte Poção de Luz Solar."
+     1 string m_Localized = "Prepare a Poção de Luz Solar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -527,7 +527,7 @@
    [62]
     0 TableEntryData data
      0 SInt64 m_Id = 9928500641806
-     1 string m_Localized = "Concocte Lágrimas da Lua."
+     1 string m_Localized = "Prepare a Lágrimas da Lua."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -623,7 +623,7 @@
    [74]
     0 TableEntryData data
      0 SInt64 m_Id = 9928500641826
-     1 string m_Localized = "Concocte a Poção de Recordação de Sonhos para lembrar do sonho estranho."
+     1 string m_Localized = "Prepare a a Poção de Recordação de Sonhos para lembrar do sonho estranho."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1771,7 +1771,7 @@
    [216]
     0 TableEntryData data
      0 SInt64 m_Id = 135174447471652864
-     1 string m_Localized = "Concocte Poção de Luz Solar."
+     1 string m_Localized = "Prepare a Poção de Luz Solar."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1779,7 +1779,7 @@
    [217]
     0 TableEntryData data
      0 SInt64 m_Id = 135174475128893440
-     1 string m_Localized = "Concocte Lágrimas da Lua."
+     1 string m_Localized = "Prepare a Lágrimas da Lua."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
