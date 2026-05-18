@@ -1214,7 +1214,7 @@
    [137]
     0 TableEntryData data
      0 SInt64 m_Id = 408783277179678720
-     1 string m_Localized = "Você não tem nenhum Presente de Ritoringo com você!"
+     1 string m_Localized = "Você não tem nenhum Presente de Ritoring com você!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

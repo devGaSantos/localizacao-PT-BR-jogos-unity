@@ -79,7 +79,7 @@
    [6]
     0 TableEntryData data
      0 SInt64 m_Id = 28945018880
-     1 string m_Localized = "Depois de completar a missão: [Mudança da Kyla House Concluída]"
+     1 string m_Localized = "Depois de completar a missão: [Kyla de Volta à Casa]"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1197,7 +1197,7 @@
    [139]
     0 TableEntryData data
      0 SInt64 m_Id = 182587200509673472
-     1 string m_Localized = "Antes de fugir, Mimic Jelly atiraria em bolhas que continham vários itens.\n\nQuebre 5 bolhas e pegue os itens."
+     1 string m_Localized = "Antes de fugir, a Geléia Mímica lança gosmas contendo vários itens.\n\nQuebre 5 gosmas e pegue os itens."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

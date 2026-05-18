@@ -366,7 +366,7 @@
    [43]
     0 TableEntryData data
      0 SInt64 m_Id = 163085817006460928
-     1 string m_Localized = "Ritoringo Feliz"
+     1 string m_Localized = "Ritoring Feliz"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

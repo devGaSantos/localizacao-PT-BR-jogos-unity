@@ -527,7 +527,7 @@
    [62]
     0 TableEntryData data
      0 SInt64 m_Id = 9928500641806
-     1 string m_Localized = "Prepare a Lágrimas da Lua."
+     1 string m_Localized = "Prepare a poção Lágrimas da Lua."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -1779,7 +1779,7 @@
    [217]
     0 TableEntryData data
      0 SInt64 m_Id = 135174475128893440
-     1 string m_Localized = "Prepare a Lágrimas da Lua."
+     1 string m_Localized = "Prepare a poção Lágrimas da Lua."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -6795,7 +6795,7 @@
    [814]
     0 TableEntryData data
      0 SInt64 m_Id = 271557195404705792
-     1 string m_Localized = "Dar 1 Presente do Ritoring não utilizado para Rex para convencê-lo."
+     1 string m_Localized = "Dar 1 Presente de Ritoring não utilizado para Rex para convencê-lo."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -12201,7 +12201,7 @@
    [1417]
     0 TableEntryData data
      0 SInt64 m_Id = 50735850394845184
-     1 string m_Localized = "Ou encontre Mimic Jelly e leve de volta {item/RubrumPie}"
+     1 string m_Localized = "Ou encontre a Geléia Mímica e leve de volta {item/RubrumPie}"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (1 items)
@@ -12212,7 +12212,7 @@
    [1418]
     0 TableEntryData data
      0 SInt64 m_Id = 47775955525664768
-     1 string m_Localized = "Quebre 5 bolhas do Mimic Jelly"
+     1 string m_Localized = "Quebre 5 bolhas da Geléia Mímica"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -12220,7 +12220,7 @@
    [1419]
     0 TableEntryData data
      0 SInt64 m_Id = 47775956586823680
-     1 string m_Localized = "Quebre 5 bolhas da Geléia Mimic"
+     1 string m_Localized = "Quebre 5 bolhas da Geléia Mímica"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -12236,7 +12236,7 @@
    [1421]
     0 TableEntryData data
      0 SInt64 m_Id = 50697644643287040
-     1 string m_Localized = "Vá conhecer Rubrum, que disse que tinha algo a dizer."
+     1 string m_Localized = "Encontre Rubrum, que disse que tinha algo a dizer."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

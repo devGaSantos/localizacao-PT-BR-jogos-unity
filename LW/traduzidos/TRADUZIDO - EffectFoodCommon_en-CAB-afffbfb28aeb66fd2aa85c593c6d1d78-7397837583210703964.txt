@@ -138,7 +138,7 @@
    [13]
     0 TableEntryData data
      0 SInt64 m_Id = 45456450796105728
-     1 string m_Localized = "O donut artesanal da Clala. O aroma forte de nozes e amendoim lhe rendeu fama entre as crianças.\n\n<color=#800000>Aumenta temporariamente os Dons de Ritoringo que você recebe.</color>"
+     1 string m_Localized = "O donut artesanal da Clala. O aroma forte de nozes e amendoim lhe rendeu fama entre as crianças.\n\n<color=#800000>Aumenta temporariamente os Presentes de Ritoring que você recebe.</color>"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -146,7 +146,7 @@
    [14]
     0 TableEntryData data
      0 SInt64 m_Id = 45456450808688640
-     1 string m_Localized = "O donut artesanal da Clala. Contém um pedaço de papel com palavras auspiciosas.\n\n<color=#800000>Ajuda você a detectar Ritoringos ao passar por um.</color>"
+     1 string m_Localized = "O donut artesanal da Clala. Contém um pedacinho de papel com uma mensagem de boa sorte.\n\n<color=#800000>Ajuda você a detectar Ritorings ao passar por perto de um.</color>"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -291,7 +291,7 @@
    [28]
     0 TableEntryData data
      0 SInt64 m_Id = 45456450812882944
-     1 string m_Localized = "Aumenta presente obtido pelos Ritoringos"
+     1 string m_Localized = "Aumenta presente obtido pelos Ritorings"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -299,7 +299,7 @@
    [29]
     0 TableEntryData data
      0 SInt64 m_Id = 45456450812882945
-     1 string m_Localized = "Detecta Ritoringos"
+     1 string m_Localized = "Detecta Ritorings"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -347,7 +347,7 @@
    [35]
     0 TableEntryData data
      0 SInt64 m_Id = 13165342261248
-     1 string m_Localized = "Um chá feito com folhas secas dadas por Rubrum. Sua fragrância sutil e sabor refrescante parecem infundir uma vitalidade especial no corpo.\n\n<color=#800000>Beber o chá aumenta a quantidade de Dádivas de Ritoringos por tempo limitado.</color>"
+     1 string m_Localized = "Um chá feito com folhas secas dadas por Rubrum. Sua fragrância sutil e sabor refrescante parecem infundir uma vitalidade especial no corpo.\n\n<color=#800000>Beber o chá aumenta a quantidade de Presentes de Ritorings por tempo limitado.</color>"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -355,7 +355,7 @@
    [36]
     0 TableEntryData data
      0 SInt64 m_Id = 13210359726080
-     1 string m_Localized = "Um chá feito com frutas dadas por Rubrum. Beber proporciona uma experiência única, já que pequenos pedaços de frutas podem ser mastigados.\n\n<color=#800000>Após beber o chá, ao passar por um Ritoringo, seus traços se tornam mais visíveis do que o normal.</color>"
+     1 string m_Localized = "Um chá feito com frutas dadas por Rubrum. Beber proporciona uma experiência única, já que pequenos pedaços de frutas podem ser mastigados.\n\n<color=#800000>Após beber o chá, ao passar por um Ritoring, seus traços se tornam mais visíveis do que o normal.</color>"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -363,7 +363,7 @@
    [37]
     0 TableEntryData data
      0 SInt64 m_Id = 9472794749313024
-     1 string m_Localized = "Detecta Ritoringos"
+     1 string m_Localized = "Detecta Ritorings"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -371,7 +371,7 @@
    [38]
     0 TableEntryData data
      0 SInt64 m_Id = 9472793587490816
-     1 string m_Localized = "Aumenta presente obtido pelos Ritoringos"
+     1 string m_Localized = "Aumenta presente obtido pelos Ritorings"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

@@ -1418,7 +1418,7 @@
    [173]
     0 TableEntryData data
      0 SInt64 m_Id = 374704640837320704
-     1 string m_Localized = "Interaja com os aldeões para criar laços com eles.\nQuanto mais próxima sua relação, mais você pode conversar e fazer juntos."
+     1 string m_Localized = "Interaja com os aldeões para fortalecer seus laços.\nQuanto mais próxima for a relação de vocês, mais poderão conversar e fazer coisas juntos."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

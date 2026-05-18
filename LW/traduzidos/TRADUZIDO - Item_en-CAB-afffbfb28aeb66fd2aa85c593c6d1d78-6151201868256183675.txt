@@ -589,7 +589,7 @@
    [69]
     0 TableEntryData data
      0 SInt64 m_Id = 27199660795953152
-     1 string m_Localized = "Presente do Ritoring"
+     1 string m_Localized = "Presente de Ritoring"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -24627,7 +24627,7 @@
    [2446]
     0 TableEntryData data
      0 SInt64 m_Id = 2561521805500416
-     1 string m_Localized = "Cesta de Móveis do Ritoring"
+     1 string m_Localized = "Cesta de Móveis de Ritoring"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -24643,7 +24643,7 @@
    [2448]
     0 TableEntryData data
      0 SInt64 m_Id = 499376371417251840
-     1 string m_Localized = "Presente do Ritoring (Fio Azul)"
+     1 string m_Localized = "Presente de Ritoring (Fio Azul)"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -24659,7 +24659,7 @@
    [2450]
     0 TableEntryData data
      0 SInt64 m_Id = 499376489533046784
-     1 string m_Localized = "Presente do Ritoring (Fio Amarelo)"
+     1 string m_Localized = "Presente de Ritoring (Fio Amarelo)"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

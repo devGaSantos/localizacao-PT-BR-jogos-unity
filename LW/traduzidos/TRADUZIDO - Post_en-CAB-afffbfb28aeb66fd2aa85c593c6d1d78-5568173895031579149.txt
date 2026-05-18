@@ -78,7 +78,7 @@
    [7]
     0 TableEntryData data
      0 SInt64 m_Id = 256915645001728
-     1 string m_Localized = "Eu matéria por ajuda para consertar a minha casa.\nSe ao menos alguém me desse uma mão, hahaha!"
+     1 string m_Localized = "Eu mataria por uma ajudinha para consertar a casa.\nSe ao menos alguém pudesse dar uma mão, hahaha!"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
