@@ -207,7 +207,7 @@
    [22]
     0 TableEntryData data
      0 SInt64 m_Id = 133825965679476736
-     1 string m_Localized = "Dizem que você está removendo vinhas espinhosas da vila? Enite me pediu para avisá-lo antes de eu voltar para a floresta.\nPS Se precisar de mim, é só vir à Cachoeira da Floresta Verde. Normalmente estou lá pescando."
+     1 string m_Localized = "Dizem que você está removendo vinhas espinhosas da vila? Enite me pediu para avisá-la antes de eu voltar para a floresta.\nPS:. Se precisar de mim, é só vir à Cachoeira da Floresta Verde. Normalmente estou lá pescando."
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)

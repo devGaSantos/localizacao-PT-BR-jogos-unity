@@ -146,7 +146,7 @@
    [14]
     0 TableEntryData data
      0 SInt64 m_Id = 45456450808688640
-     1 string m_Localized = "O donut artesanal da Clala. Contém um pedacinho de papel com uma mensagem de boa sorte.\n\n<color=#800000>Ajuda você a detectar Ritorings ao passar por perto de um.</color>"
+     1 string m_Localized = "O donut artesanal da Clala. Contém um pedaço de papel com palavras auspiciosas.\n\n<color=#800000>Ajuda você a detectar Ritorings ao passar por um.</color>"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
