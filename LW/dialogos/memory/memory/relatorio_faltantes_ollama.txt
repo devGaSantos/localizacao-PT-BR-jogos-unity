@@ -1,11 +1,3 @@
-RELATÓRIO - REVISÃO DE MEMÓRIA FALTANTE
-================================================================================
-tempo_total: 02h 02m 28s
-entrada: memory\memoria_faltantes.json
-saida: memory\memoria_faltantes_corrigidos.json
-checkpoint: memory\memoria_faltantes_checkpoint.json
-falhas: memory\falhas_faltantes_ollama.json
-total_para_revisar: 9279
-traducoes_validas_salvas: 8122
-falhas_para_revisao: 1157
-total_no_resultado_final: 9588
+version https://git-lfs.github.com/spec/v1
+oid sha256:957347e952eca29cda7e13f1fcce3c6525bfc2433ba40a03a6a578822231ae4a
+size 455
