@@ -2,23 +2,56 @@ import csv
 import time
 import os
 import re
+import json
 from deep_translator import GoogleTranslator
 
 translator = GoogleTranslator(source="en", target="pt")
 
 input_folder = "exportados"
 output_folder = "traduzidos"
+memory_file = "memoria.json"
 
 os.makedirs(output_folder, exist_ok=True)
 
 cache = {}
-memory = {}
+
+# =========================
+# CONTADORES DO RELATÓRIO
+# =========================
+
+usadas_br = 0
+usadas_memoria = 0
+traduzidas_google = 0
+linhas_ignoradas = 0
+
+# =========================
+# MEMÓRIA JSON
+# =========================
+
+def carregar_memoria():
+    if not os.path.exists(memory_file):
+        return {}
+
+    try:
+        with open(memory_file, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except:
+        print("⚠ Não foi possível carregar memoria.json. Usando memória vazia.")
+        return {}
+
+
+def salvar_memoria(memory):
+    with open(memory_file, "w", encoding="utf-8") as f:
+        json.dump(memory, f, indent=2, ensure_ascii=False)
+
+
+memory = carregar_memoria()
+
+# =========================
+# PROTEGER TOKENS
+# =========================
 
 def protect_tokens(text):
-    """
-    Protege placeholders/tags sem alterar o conteúdo original.
-    Tudo que estiver entre <>, [], {}, () é preservado exatamente como está.
-    """
     if not text:
         return text, {}
 
@@ -38,6 +71,7 @@ def protect_tokens(text):
     protected_text = re.sub(pattern, replacer, text)
     return protected_text, replacements
 
+
 def restore_tokens(text, replacements):
     if not text:
         return text
@@ -46,6 +80,10 @@ def restore_tokens(text, replacements):
         text = text.replace(token, original)
 
     return text
+
+# =========================
+# TRADUÇÃO SEGURA
+# =========================
 
 def safe_translate(text):
     if not text:
@@ -65,16 +103,25 @@ def safe_translate(text):
                 cache[protected_text] = raw
                 time.sleep(0.05)
                 return restore_tokens(raw, replacements)
-        except:
+
+        except Exception:
             time.sleep(0.2)
 
     return text
 
+# =========================
+# ARQUIVOS
+# =========================
+
 files = [f for f in os.listdir(input_folder) if f.lower().endswith(".txt")]
 
 print(f"📂 Arquivos encontrados: {len(files)}")
+print(f"🧠 Memória carregada do JSON: {len(memory)} traduções")
 
-# PASSO 1 — montar memória global
+# =========================
+# PASSO 1 — ATUALIZAR MEMÓRIA COM BR EXISTENTE
+# =========================
+
 for file in files:
     path = os.path.join(input_folder, file)
 
@@ -103,17 +150,19 @@ for file in files:
             br = row[br_index]
 
             if en and br:
-                protected_en, _ = protect_tokens(en)
-                memory[protected_en] = br
+                memory[en] = br
 
         except:
             continue
 
-print(f"🧠 Memória global carregada: {len(memory)} traduções")
+print(f"🧠 Memória após ler BR existente: {len(memory)} traduções")
 
-# PASSO 2 — processar arquivos
+# =========================
+# PASSO 2 — PROCESSAR ARQUIVOS
+# =========================
+
 for file in files:
-    print(f"⚙ Processando: {file}")
+    print(f"\n⚙ Processando: {file}")
 
     path = os.path.join(input_folder, file)
 
@@ -124,6 +173,10 @@ for file in files:
 
     en_index = None
     br_index = None
+
+    usadas_br_arquivo = 0
+    usadas_memoria_arquivo = 0
+    traduzidas_google_arquivo = 0
 
     for line in lines:
         stripped = line.strip()
@@ -143,34 +196,48 @@ for file in files:
 
             if en_index is None or br_index is None:
                 output_lines.append(line)
+                linhas_ignoradas += 1
                 continue
 
             if len(row) <= max(en_index, br_index):
                 output_lines.append(line)
+                linhas_ignoradas += 1
                 continue
 
             en = row[en_index]
             br = row[br_index]
 
-            protected_en, _ = protect_tokens(en)
-
-            # 1. usa BR existente
+            # PRIORIDADE 1 — coluna BR
             if br:
                 row[en_index] = br
+                if en:
+                    memory[en] = br
 
-            # 2. usa memória global
-            elif protected_en in memory:
-                row[en_index] = memory[protected_en]
+                usadas_br += 1
+                usadas_br_arquivo += 1
 
-            # 3. traduz automático
+            # PRIORIDADE 2 — memoria.json
+            elif en in memory:
+                row[en_index] = memory[en]
+
+                usadas_memoria += 1
+                usadas_memoria_arquivo += 1
+
+            # PRIORIDADE 3 — Google Translator
             elif en:
-                row[en_index] = safe_translate(en)
+                translated = safe_translate(en)
+                row[en_index] = translated
+                memory[en] = translated
+
+                traduzidas_google += 1
+                traduzidas_google_arquivo += 1
 
             new_line = ",".join(f'"{col}"' if col else "" for col in row)
             output_lines.append(new_line + "\n")
 
         except:
             output_lines.append(line)
+            linhas_ignoradas += 1
 
     base_name = file.split("-")[0].strip()
     output_name = f"TRADUZIDO - {base_name}.txt"
@@ -180,5 +247,20 @@ for file in files:
         f.writelines(output_lines)
 
     print(f"✅ Gerado: {output_name}")
+    print(f"   BR: {usadas_br_arquivo}")
+    print(f"   Memória: {usadas_memoria_arquivo}")
+    print(f"   Google: {traduzidas_google_arquivo}")
 
+# =========================
+# SALVAR MEMÓRIA FINAL
+# =========================
+
+salvar_memoria(memory)
+
+print("\n📊 RELATÓRIO FINAL")
+print(f"✅ Usadas da coluna BR: {usadas_br}")
+print(f"🧠 Usadas da memoria.json: {usadas_memoria}")
+print(f"🤖 Traduzidas pelo Google: {traduzidas_google}")
+print(f"⚠ Linhas ignoradas/fora do padrão: {linhas_ignoradas}")
+print(f"💾 Memória final salva: {len(memory)} traduções")
 print("🚀 TODOS arquivos traduzidos!")
