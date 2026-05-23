@@ -5412,7 +5412,7 @@
   "{theme} {category}{reform}": "{category} {theme} {reform}",
   "{theme} {propID_1:fromTable(InteriorPropBasicName)}{reform}": "{propID_1:fromTable(InteriorPropBasicName)} {theme} {reform}",
   "{theme} {propID_2:fromTable(InteriorPropBasicName)}{reform}": "{propID_2:fromTable(InteriorPropBasicName)} {theme} {reform}",
-  "{theme} {propID_2:fromTable(InteriorPropBasicName)} {category}{reform}": "quatro4 {category} {theme} {propID_2:fromTable(InteriorPropBasicName)} {reform}",
+  "{theme} {propID_2:fromTable(InteriorPropBasicName)} {category}{reform}": "{category} {theme} {propID_2:fromTable(InteriorPropBasicName)} {reform}",
   "{theme} {category} {propID_2:fromTable(InteriorPropBasicName)}": "{category} {theme}  {propID_2:fromTable(InteriorPropBasicName)}",
   "{fishName:fromTable(Item, , _Name)} {category}": "{fishName:fromTable(Item, , _Name)} {category}",
   "{propID_2:fromTable(InteriorPropBasicName)}": "{propID_2:fromTable(InteriorPropBasicName)}",
