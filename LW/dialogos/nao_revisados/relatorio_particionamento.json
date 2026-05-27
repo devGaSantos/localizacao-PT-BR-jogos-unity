@@ -1,0 +1,86 @@
+{
+  "arquivo_origem": "C:\\Users\\AZTEKA\\Videos\\Little-witch-in-the-woods-PT-BR-localization\\LW\\dialogos\\nao_revisados\\nao_revisadas.json",
+  "pasta_saida": "C:\\Users\\AZTEKA\\Videos\\Little-witch-in-the-woods-PT-BR-localization\\LW\\dialogos\\nao_revisados\\particionados",
+  "total_entradas": 10014,
+  "tamanho_lote": 1000,
+  "total_arquivos": 11,
+  "arquivos": [
+    {
+      "arquivo": "C:\\Users\\AZTEKA\\Videos\\Little-witch-in-the-woods-PT-BR-localization\\LW\\dialogos\\nao_revisados\\particionados\\nao_revisadas_parte_001.json",
+      "parte": 1,
+      "entradas": 1000,
+      "primeira_chave": "What? Why!?",
+      "ultima_chave": "The stitching is strong... It is denser and rougher to the touch than the original doll."
+    },
+    {
+      "arquivo": "C:\\Users\\AZTEKA\\Videos\\Little-witch-in-the-woods-PT-BR-localization\\LW\\dialogos\\nao_revisados\\particionados\\nao_revisadas_parte_002.json",
+      "parte": 2,
+      "entradas": 1000,
+      "primeira_chave": "I need to get rid of the [em1]weird cloud of smoke[/em1] first.",
+      "ultima_chave": "Roy is like a walking encyclopedia."
+    },
+    {
+      "arquivo": "C:\\Users\\AZTEKA\\Videos\\Little-witch-in-the-woods-PT-BR-localization\\LW\\dialogos\\nao_revisados\\particionados\\nao_revisadas_parte_003.json",
+      "parte": 3,
+      "entradas": 1000,
+      "primeira_chave": "Hm? There's a message?",
+      "ultima_chave": "Which house should we repair next? I'm done warming up, so just say the word."
+    },
+    {
+      "arquivo": "C:\\Users\\AZTEKA\\Videos\\Little-witch-in-the-woods-PT-BR-localization\\LW\\dialogos\\nao_revisados\\particionados\\nao_revisadas_parte_004.json",
+      "parte": 4,
+      "entradas": 1000,
+      "primeira_chave": "You have presented a sincere play of life on this real stage called Wisteria.",
+      "ultima_chave": "I can vaguely see the other side."
+    },
+    {
+      "arquivo": "C:\\Users\\AZTEKA\\Videos\\Little-witch-in-the-woods-PT-BR-localization\\LW\\dialogos\\nao_revisados\\particionados\\nao_revisadas_parte_005.json",
+      "parte": 5,
+      "entradas": 1000,
+      "primeira_chave": "...Can't say for sure.",
+      "ultima_chave": "Since our donut dough is richly flavored, [em1]we refrain from adding too many toppings[/em1]. As a result, some customers find the donuts plain."
+    },
+    {
+      "arquivo": "C:\\Users\\AZTEKA\\Videos\\Little-witch-in-the-woods-PT-BR-localization\\LW\\dialogos\\nao_revisados\\particionados\\nao_revisadas_parte_006.json",
+      "parte": 6,
+      "entradas": 1000,
+      "primeira_chave": "Finally, all the prickly vines are gone.",
+      "ultima_chave": "I don't have any information on that."
+    },
+    {
+      "arquivo": "C:\\Users\\AZTEKA\\Videos\\Little-witch-in-the-woods-PT-BR-localization\\LW\\dialogos\\nao_revisados\\particionados\\nao_revisadas_parte_007.json",
+      "parte": 7,
+      "entradas": 1000,
+      "primeira_chave": "The way Theo is acting reminds me so much of her back in the day.",
+      "ultima_chave": "But using paint is a nice idea."
+    },
+    {
+      "arquivo": "C:\\Users\\AZTEKA\\Videos\\Little-witch-in-the-woods-PT-BR-localization\\LW\\dialogos\\nao_revisados\\particionados\\nao_revisadas_parte_008.json",
+      "parte": 8,
+      "entradas": 1000,
+      "primeira_chave": "Not initially.",
+      "ultima_chave": "And, have you heard of [em1][lua(GetItemName(\"Gboolnori_Powder\"))][/em1]?"
+    },
+    {
+      "arquivo": "C:\\Users\\AZTEKA\\Videos\\Little-witch-in-the-woods-PT-BR-localization\\LW\\dialogos\\nao_revisados\\particionados\\nao_revisadas_parte_009.json",
+      "parte": 9,
+      "entradas": 1000,
+      "primeira_chave": "It looks dangerous to me.",
+      "ultima_chave": "Would you like the festival to begin?"
+    },
+    {
+      "arquivo": "C:\\Users\\AZTEKA\\Videos\\Little-witch-in-the-woods-PT-BR-localization\\LW\\dialogos\\nao_revisados\\particionados\\nao_revisadas_parte_010.json",
+      "parte": 10,
+      "entradas": 1000,
+      "primeira_chave": "Like before, the ingredients will be returned to you.",
+      "ultima_chave": "Sorry. Now isn't a very good time."
+    },
+    {
+      "arquivo": "C:\\Users\\AZTEKA\\Videos\\Little-witch-in-the-woods-PT-BR-localization\\LW\\dialogos\\nao_revisados\\particionados\\nao_revisadas_parte_011.json",
+      "parte": 11,
+      "entradas": 14,
+      "primeira_chave": "Ah, don't worry about it!",
+      "ultima_chave": "Once upon a time, a star fell from the sky."
+    }
+  ]
+}

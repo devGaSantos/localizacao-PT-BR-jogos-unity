@@ -29,7 +29,7 @@ REVISADOS_GPT_DIR = NAO_REVISADOS_DIR / "revisados_gpt"
 RELATORIO_PARTICIONAMENTO = NAO_REVISADOS_DIR / "relatorio_particionamento.json"
 RELATORIO_GROUP = NAO_REVISADOS_DIR / "relatorio_group_revisados.json"
 
-TAMANHO_LOTE = 300
+TAMANHO_LOTE = 1000
 
 
 # =========================
