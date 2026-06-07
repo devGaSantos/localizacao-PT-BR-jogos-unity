@@ -1,0 +1,1657 @@
+{
+  "Yes. It wasn't that urgent, but thank you for bringing them by.": {
+    "original": "Sim. Não era muito urgente, mas obrigado por trazer.",
+    "antes": "Sim. Não era muito urgente, mas obrigado por trazê-los.",
+    "depois": "Sim. Não era muito urgente, mas obrigado por trazer."
+  },
+  "So next is... the [lua(GetLocalizedString(\"Common\", \"Common_Theme_RainbowForest\"))]?": {
+    "original": "Então o próximo é... a [lua(GetLocalizedString(\"Common\", \"Common_Theme_RainbowForest\"))]?",
+    "antes": "Então o próximo é... [lua(GetLocalizedString(\"Common\", \"Common_Theme_RainbowForest\"))]?",
+    "depois": "Então o próximo é... a [lua(GetLocalizedString(\"Common\", \"Common_Theme_RainbowForest\"))]?"
+  },
+  "Nope. If that coward finds it, he'll take it to the professor bawling, like before.": {
+    "original": "Não. Se esse covarde encontrar, ele levará ao professor chorando, como antes.",
+    "antes": "Não. Se esse covarde o encontrar, ele o levará ao professor chorando, como antes.",
+    "depois": "Não. Se esse covarde encontrar, ele levará ao professor chorando, como antes."
+  },
+  "Surely I do.": {
+    "original": "Com certeza conheço.",
+    "antes": "Com certeza.",
+    "depois": "Com certeza conheço."
+  },
+  "They will last several months, won't they?": {
+    "original": "Eles durarão vários meses, não é?",
+    "antes": "Elas durarão vários meses, não é?",
+    "depois": "Eles durarão vários meses, não é?"
+  },
+  "At first, they were saying things like [em1]god's punishment[/em1], [em1]monster[/em1] or [em1]witch's curse[/em1]...": {
+    "original": "No início, diziam coisas como [em1]castigo de Deus[/em1], [em1]monstro[/em1] ou [em1]maldição de bruxa[/em1]...",
+    "antes": "No início, diziam coisas como [em1]castigo divino[/em1], [em1]monstro[/em1] ou [em1]maldição da bruxa[/em1]...",
+    "depois": "No início, diziam coisas como [em1]castigo de Deus[/em1], [em1]monstro[/em1] ou [em1]maldição de bruxa[/em1]..."
+  },
+  "But there's no need to be stealthy. Just let me know when you want to get in.\\r": {
+    "original": "Mas não há necessidade de serem discretos. Apenas me avise quando quiser entrar.\\r",
+    "antes": "Mas não há necessidade de ser discreto. Apenas me avise quando quiser entrar.\\r",
+    "depois": "Mas não há necessidade de serem discretos. Apenas me avise quando quiser entrar.\\r"
+  },
+  "After all, even my wife said she fell in love with them first.": {
+    "original": "Afinal, até minha esposa disse que se apaixonou por eles primeiro.",
+    "antes": "Afinal, até minha esposa disse que se apaixonou por elas primeiro.",
+    "depois": "Afinal, até minha esposa disse que se apaixonou por eles primeiro."
+  },
+  "You must have taken really good care of it.": {
+    "original": "Você deve ter cuidado muito bem dela.",
+    "antes": "Deve ter sido muito bem cuidado.",
+    "depois": "Você deve ter cuidado muito bem dela."
+  },
+  "Did you see all those murals on our way here? They speak of so many interesting stories!": {
+    "original": "Vocês viram todos aqueles murais no caminho? Eles contam tantas histórias interessantes!",
+    "antes": "Você viu todos aqueles murais no caminho? Eles contam tantas histórias interessantes!",
+    "depois": "Vocês viram todos aqueles murais no caminho? Eles contam tantas histórias interessantes!"
+  },
+  "Ah, the doll's arm has been torn off.": {
+    "original": "Ah, o braço do boneco foi arrancado.",
+    "antes": "Ah, o braço da boneca foi arrancado.",
+    "depois": "Ah, o braço do boneco foi arrancado."
+  },
+  "You didn't eat any poisonous mushroom when I wasn't watching, did you?": {
+    "original": "Você não comeu nenhum cogumelo venenoso quando eu não estava olhando, comeu?",
+    "antes": "Você não comeu nenhum cogumelo venenoso quando eu não estava olhando, não foi?",
+    "depois": "Você não comeu nenhum cogumelo venenoso quando eu não estava olhando, comeu?"
+  },
+  "Right, Arden! You should order more candies from Ellie and add them to your pot tomorrow!": {
+    "original": "Certo, Arden! Você deveria encomendar mais doces da Ellie e adicioná-los à sua panela amanhã!",
+    "antes": "Certo, Arden! Você deveria encomendar mais doces com a Ellie e adicioná-los à sua panela amanhã!",
+    "depois": "Certo, Arden! Você deveria encomendar mais doces da Ellie e adicioná-los à sua panela amanhã!"
+  },
+  "Could you give it to me? I need it for something...": {
+    "original": "Você poderia me dar? Preciso dela para algo...",
+    "antes": "Você poderia me dar isso? Preciso disso para algo...",
+    "depois": "Você poderia me dar ela? Preciso dela para algo..."
+  },
+  "Hmm... These alone are not enough clues.": {
+    "original": "Hmm... Só isso não é pista suficiente.",
+    "antes": "Hmm... Isso sozinho não é pista suficiente.",
+    "depois": "Sozinhas, essas não são pistas suficientes."
+  },
+  "Indeed, I borrowed it from him.": {
+    "original": "De fato, peguei emprestada dele.",
+    "antes": "De fato, peguei emprestado dele.",
+    "depois": "De fato, peguei emprestada dele."
+  },
+  "Yes, I have it. Should I put it in the Catalogue if you need one?": {
+    "original": "Sim, tenho. Devo colocá-lo no Catálogo se precisar de uma?",
+    "antes": "Sim, tenho. Devo colocá-lo no Catálogo se precisar de um?",
+    "depois": "Sim, tenho. Devo colocá-lo no Catálogo se precisar de uma?"
+  },
+  "I'll show it what I've got.": {
+    "original": "Vou mostrar a ele o que tenho para oferecer.",
+    "antes": "Vou mostrar a ele o que tenho.",
+    "depois": "Vou mostrar a ele o que tenho para oferecer."
+  },
+  "That's when I will wake up, but I have no idea what she means by [em1]\"this one thing\"[/em1].": {
+    "original": "É quando eu acordo, mas não tenho ideia do que ela quer dizer com [em1]\"esta única coisa\"[/em1].",
+    "antes": "É quando vou acordar, mas não tenho ideia do que ela quer dizer com [em1]\"essa tal 'uma coisa'\"[/em1].",
+    "depois": "É quando eu vou acordar, mas não tenho ideia do que ela quer dizer com [em1]\"essa tal coisa\"[/em1]."
+  },
+  "Likewise, the cat's thoughts will be conveyed to the user, so you'll be able to communicate with each other.": {
+    "original": "Da mesma forma, os pensamentos do gato serão transmitidos ao usuário, então você poderá se comunicar.",
+    "antes": "Da mesma forma, os pensamentos do gato serão transmitidos ao usuário, então vocês poderão se comunicar entre si.",
+    "depois": "Da mesma forma, os pensamentos do gato serão transmitidos ao usuário, então você poderá se comunicar."
+  },
+  "This here. Have you seen anything similar?": {
+    "original": "Esta aqui. Você já viu algo similar?",
+    "antes": "Isto aqui. Você já viu algo parecido?",
+    "depois": "Esta aqui. Você já viu algo similar?"
+  },
+  "What??? Why will there be a next time?": {
+    "original": "O quê??? Por que haverá uma próxima vez?",
+    "antes": "O quê??? Por que haveria uma próxima vez?",
+    "depois": "O quê??? Por que haverá uma próxima vez?"
+  },
+  "While I was painting it, Alvin asked to borrow the flag.": {
+    "original": "Enquanto pintava, o Alvin pediu para pegar a bandeira emprestada.",
+    "antes": "Enquanto eu a pintava, o Alvin pediu para pegar a bandeira emprestada.",
+    "depois": "Enquanto pintava, o Alvin pediu para pegar a bandeira emprestada."
+  },
+  "If it isn't Ellie.": {
+    "original": "Se não for Ellie.",
+    "antes": "Se não é a Ellie.",
+    "depois": "Se não for Ellie."
+  },
+  "Isn't it beautiful?\\r": {
+    "original": "Não é lindo? \\r",
+    "antes": "Não é linda?\\r",
+    "depois": "Não é lindo? \\r"
+  },
+  "I wanted to help this village. It is declining because of the prickly vines.": {
+    "original": "Eu queria ajudar esta vila. Ela está em declínio por causa das vinhas espinhosas.",
+    "antes": "Eu queria ajudar esta vila. Ela está em declínio por causa da Vinha Espinhosa.",
+    "depois": "Eu queria ajudar esta vila. Ela está em declínio por causa das vinhas espinhosas."
+  },
+  "He has swallowed it.": {
+    "original": "Ele engoliu.",
+    "antes": "Ele o engoliu.",
+    "depois": "Ele engoliu."
+  },
+  "That might be a bit much, don't you think?": {
+    "original": "Isso pode ser um pouco exagerado, não acham?",
+    "antes": "Isso pode ser um pouco exagerado, não acha?",
+    "depois": "Isso pode ser um pouco exagerado, não acham?"
+  },
+  "a [em1]Book of Memories copy[/em1], and a [em1]potion[/em1] to bind them together.": {
+    "original": "uma [em1]cópia do Livro das Memórias[/em1], e uma [em1]poção[/em1] para uni-los.",
+    "antes": "uma [em1]cópia do Livro das Memórias[/em1], e uma [em1]poção[/em1] para uni-las.",
+    "depois": "uma [em1]cópia do Livro das Memórias[/em1], e uma [em1]poção[/em1] para uni-los."
+  },
+  "Apparently Lisa didn't create the village prickly vines here.": {
+    "original": "Aparentemente Lisa não criou as vinhas espinhosas da vila aqui.",
+    "antes": "Aparentemente Lisa não criou as vinhas espinhosas da vila.",
+    "depois": "Aparentemente Lisa não criou as vinhas espinhosas da vila aqui."
+  },
+  "Hmm... So, you can collect them using a [em1]bug net[/em1].": {
+    "original": "Hmm... Então, você pode coletá-las usando uma [em1]rede de insetos[/em1].",
+    "antes": "Hmm... Então, você pode coletá-los usando uma [em1]rede de insetos[/em1].",
+    "depois": "Hmm... Então, você pode coletá-las usando uma [em1]rede de insetos[/em1]."
+  },
+  "I'd stepped on plenty, but I never had any particular feelings about them.": {
+    "original": "Pisei em muitas, mas nunca tive nenhum sentimento particular sobre elas.",
+    "antes": "Pisei em muitas, mas nunca tive nenhum sentimento particular por elas.",
+    "depois": "Pisei em muitas, mas nunca tive nenhum sentimento particular sobre elas."
+  },
+  "Enite always offers to have me over for dinner.": {
+    "original": "Enite sempre se oferece para me receber para o jantar.",
+    "antes": "Enite sempre se oferece para me convidar para o jantar.",
+    "depois": "Enite sempre se oferece para me receber para o jantar."
+  },
+  "Don't step on that tile. And not that one either.": {
+    "original": "Não pisem nesse ladrilho. E nem nesse também.",
+    "antes": "Não pise naquele ladrilho. Nem naquele também.",
+    "depois": "Não pisem nesse ladrilho. E nem nesse também."
+  },
+  "He never says my name right, though.": {
+    "original": "Ele nunca diz meu nome direito, porém.",
+    "antes": "No entanto, ele nunca diz meu nome direito.",
+    "depois": "Ele nunca diz meu nome direito, porém."
+  },
+  "There's a large amount of floating starlight at the [lua(GetLocalizedString(\"Common\", \"Common_Theme_StarSeaCave\"))]. I'm going to collect them.": {
+    "original": "Há uma grande quantidade de luz estelar flutuante na [lua(GetLocalizedString(\"Common\", \"Common_Theme_StarSeaCave\"))]. Vou coletá-las.",
+    "antes": "Há uma grande quantidade de luz estelar flutuante na [lua(GetLocalizedString(\"Common\", \"Common_Theme_StarSeaCave\"))]. Vou coletá-la.",
+    "depois": "Há uma grande quantidade de luz estelar flutuante na [lua(GetLocalizedString(\"Common\", \"Common_Theme_StarSeaCave\"))]. Vou coletá-las."
+  },
+  "I didn't expect to find this beneath the wing.": {
+    "original": "Não esperava encontrar isso debaixo da ala.",
+    "antes": "Não esperava encontrar isso debaixo da asa.",
+    "depois": "Não esperava encontrar isso debaixo da ala."
+  },
+  "What should you do if you see a puzzle, again?": {
+    "original": "O que você deve fazer se encontrar outro quebra-cabeça?",
+    "antes": "O que você deve fazer se vir um quebra-cabeça de novo?",
+    "depois": "O que você deve fazer se encontrar outro quebra-cabeça?"
+  },
+  "Oh, and if you want, you can trade with me for recipes every day.": {
+    "original": "Ah, e se quiser, você pode trocar comigo por receitas todos os dias.",
+    "antes": "Ah, e se quiser, você pode trocar receitas comigo todos os dias.",
+    "depois": "Ah, e se quiser, você pode trocar comigo por receitas todos os dias."
+  },
+  "I don't know if it has anything to do with the blue rose, though. Try asking someone else.": {
+    "original": "Não sei se tem algo a ver com a rosa azul, porém. Tente perguntar a alguém mais.",
+    "antes": "Não sei se tem algo a ver com a rosa azul. Tente perguntar a outra pessoa.",
+    "depois": "Não sei se tem algo a ver com a rosa azul, porém. Tente perguntar a alguém mais."
+  },
+  "My favorite activity there is to hang a rope from the cave ceiling and swing back and forth on it.": {
+    "original": "A minha atividade favorita lá é pendurar uma corda no teto da caverna e balançar de um lado para o outro nela.",
+    "antes": "Minha atividade favorita lá é pendurar uma corda no teto da caverna e balançar nela.",
+    "depois": "A minha atividade favorita lá é pendurar uma corda no teto da caverna e balançar de um lado para o outro nela."
+  },
+  "\"If you desire the promised flower, then bring me an [em1]ever-blooming flower[/em1] in its stead.\"\\r": {
+    "original": "\"Se deseja a flor prometida, então traga-me uma [em1]flor eternamente florescente[/em1] em seu lugar.\"\\r",
+    "antes": "\"Se deseja a flor prometida, então traga-me uma [em1]flor de florescimento eterno[/em1] em seu lugar.\"\\r",
+    "depois": "\"Se deseja a flor prometida, então traga-me uma [em1]flor eternamente florescente[/em1] em seu lugar.\"\\r"
+  },
+  "Don't you agree? I'm gonna rework the furniture at home too.": {
+    "original": "Não acha que sim? Também vou reorganizar os móveis em casa, hehe!",
+    "antes": "Você não concorda? Também vou reorganizar os móveis em casa.",
+    "depois": "Não acha que sim? Também vou reorganizar os móveis em casa, hehe!"
+  },
+  "Lisa spent most of her life making those vines.": {
+    "original": "Lisa passou a maior parte de sua vida fazendo aquelas vinhas.",
+    "antes": "Lisa passou a maior parte de sua vida criando aquelas vinhas.",
+    "depois": "Lisa passou a maior parte de sua vida fazendo aquelas vinhas."
+  },
+  "For tools like this, you'd better ask [em1]someone who actually uses one[/em1].": {
+    "original": "Para ferramentas como esta, é melhor perguntar a [em1]alguém que realmente usa uma[/em1].",
+    "antes": "Para uma ferramenta como esta, é melhor perguntar a [em1]alguém que realmente a usa[/em1].",
+    "depois": "Para ferramentas como esta, é melhor perguntar a [em1]alguém que realmente usa uma[/em1]."
+  },
+  "We'll go in the [em1]evening[/em1].": {
+    "original": "Iremos no [em1]final da tarde[/em1].",
+    "antes": "Iremos à [em1]noite[/em1].",
+    "depois": "Iremos no [em1]final da tarde[/em1]."
+  },
+  "I hope you can create value with this.": {
+    "original": "Espero que você possa criar valor com isto.",
+    "antes": "Espero que você possa tirar proveito disso.",
+    "depois": "Espero que você possa criar valor com isto."
+  },
+  "My sister said she'd keep it safe for me, so she took it along with [em1]Moonlight Johnny[/em1].": {
+    "original": "Minha irmã disse que guardaria para mim, então ela levou junto com [em1]Moonlight Johnny[/em1].",
+    "antes": "Minha irmã disse que guardaria para mim, então ela o levou junto com [em1]Moonlight Johnny[/em1].",
+    "depois": "Minha irmã disse que guardaria para mim, então ela levou junto com [em1]Moonlight Johnny[/em1]."
+  },
+  "Since the Witch's House is managed on her own.": {
+    "original": "Já que a Casa de Bruxa é administrada por conta própria.",
+    "antes": "Já que a Casa da Bruxa é administrada por conta própria.",
+    "depois": "Já que a Casa de Bruxa é administrada por conta própria."
+  },
+  "These are probably enough to carry the wish.": {
+    "original": "Provavelmente são suficientes para carregar o desejo.",
+    "antes": "Provavelmente são suficientes para realizar o desejo.",
+    "depois": "Provavelmente são suficientes para carregar o desejo."
+  },
+  "You may think it funny, but you could have caused serious injuries.": {
+    "original": "Vocês podem achar engraçado, mas poderiam ter causado ferimentos graves.",
+    "antes": "Você pode achar engraçado, mas poderia ter causado ferimentos graves.",
+    "depois": "Vocês podem achar engraçado, mas poderiam ter causado ferimentos graves."
+  },
+  "Well, I guess I can plant it beneath the ladder?": {
+    "original": "Bem, acho que posso plantá-la debaixo da escada?",
+    "antes": "Bem, acho que posso plantá-lo debaixo da escada?",
+    "depois": "Bem, acho que posso plantá-la debaixo da escada?"
+  },
+  "No, not that. I mean, contacting people I cherish frequently.": {
+    "original": "Não, não isso. Quero dizer, entrar em contato com as pessoas que você ama com mais frequência.",
+    "antes": "Não, não isso. Quero dizer, entrar em contato com as pessoas que eu estimo com mais frequência.",
+    "depois": "Não, não isso. Quero dizer, entrar em contato com as pessoas que eu amo com mais frequência."
+  },
+  "They are exactly the people I know them to be.": {
+    "original": "Eles são exatamente as pessoas que eu os conheço por serem.",
+    "antes": "Eles são exatamente as pessoas que eu conheço.",
+    "depois": "Eles são exatamente as pessoas que eu imaginava."
+  },
+  "I don't know! I only heard it from Rubrub... I mean Rubrum!": {
+    "original": "Não sei! Ouvi apenas de Rubrub... Eu quero dizer Rubrum!",
+    "antes": "Não sei! Só ouvi do Rubrub... Quer dizer, Rubrum!",
+    "depois": "Não sei! Ouvi apenas de Rubrub... Eu quero dizer Rubrum!"
+  },
+  "I don't, I just find them interesting.": {
+    "original": "Não me importo, apenas as acho interessantes.",
+    "antes": "Não faço, apenas as acho interessantes.",
+    "depois": "Não me importo, apenas as acho interessantes."
+  },
+  "And the blobs it ejected maintain their shape even if I touch them...": {
+    "original": "E as bolotas que ele expeliu mantêm sua forma mesmo que eu toque nelas...",
+    "antes": "E as bolhas que ele expeliu mantêm sua forma mesmo que eu as toque...",
+    "depois": "E as bolotas que ele expeliu mantêm sua forma mesmo que eu toque nelas..."
+  },
+  "Sigh, there isn't even an intact ladder.": {
+    "original": "Suspiro, não há nem uma escada intacta.",
+    "antes": "Ai, nem há sequer uma escada intacta.",
+    "depois": "Suspiro, não há nem uma escada intacta."
+  },
+  "Good, our goal is to work up a new recipe that we'll submit to the main branch.": {
+    "original": "Ótimo, nosso objetivo é desenvolver uma nova receita que enviaremos para a ramificação principal.",
+    "antes": "Ótimo, nosso objetivo é desenvolver uma nova receita que enviaremos para a matriz.",
+    "depois": "Ótimo, nosso objetivo é desenvolver uma nova receita que enviaremos para a ramificação principal."
+  },
+  "Oh... Kyla. How would you react if Lisa was behind the prickly vines?": {
+    "original": "Oh... Kyla. Como você reagiria se Lisa estivesse por trás das vinhas espinhosas?",
+    "antes": "Oh... Kyla. Como você reagiria se Lisa estivesse por trás da Vinha Espinhosa?",
+    "depois": "Oh... Kyla. Como você reagiria se Lisa estivesse por trás das vinhas espinhosas?"
+  },
+  "Here, this is my spare. You can use it.": {
+    "original": "Aqui, esta é minha reserva. Você pode usar.",
+    "antes": "Aqui, este é o meu de reserva. Você pode usar.",
+    "depois": "Aqui, esta é minha reserva. Você pode usar."
+  },
+  "That's probably the way to the waterway device.": {
+    "original": "Esse provavelmente é o caminho para o dispositivo de canalização.",
+    "antes": "Esse provavelmente é o caminho para o dispositivo do canal.",
+    "depois": "Esse provavelmente é o caminho para o dispositivo de canalização."
+  },
+  "Even books and newspapers give hints about life there.\\r": {
+    "original": "Até livros e jornais dão dicas sobre a vida lá.\\r",
+    "antes": "Até livros e jornais dão dicas sobre a vida de lá.\\r",
+    "depois": "Até livros e jornais dão dicas sobre a vida lá.\\r"
+  },
+  "Sorry for wrecking your nest, but maybe don't steal everything.": {
+    "original": "Desculpe por destruir seu ninho, mas talvez não roube tudo.",
+    "antes": "Desculpe por destruir seu ninho, mas talvez não devesse roubar tudo.",
+    "depois": "Desculpe por destruir seu ninho, mas talvez não devesse roubar tudo."
+  },
+  "Exactly. New graduates of the witch school are unrelated.": {
+    "original": "Exatamente. Novas graduadas da escola de bruxas não estão relacionadas.",
+    "antes": "Exatamente. Os recém-formados da escola de bruxas não têm relação.",
+    "depois": "Exatamente. Novas graduadas da escola de bruxas não estão relacionadas."
+  },
+  "Indeed. For a brief time, Parks also served as a professor at the school, known as the Witch of Books.\\r": {
+    "original": "De fato. Por um breve período, Parks também serviu como professor na escola, conhecido como a Bruxa dos Livros.\\r",
+    "antes": "De fato. Por um breve período, Parks também serviu como professora na escola, conhecida como a Bruxa dos Livros.\\r",
+    "depois": "De fato. Por um breve período, Parks também serviu como professor na escola, conhecido como a Bruxa dos Livros.\\r"
+  },
+  "Kyla has told me the numbers needed. I'll go with you and double-check.": {
+    "original": "Kyla me contou os números necessários. Vou com vocês e verificarei novamente.",
+    "antes": "Kyla me contou os números necessários. Vou com você e verificarei novamente.",
+    "depois": "Kyla me contou os números necessários. Vou com vocês e verificarei novamente."
+  },
+  "I've been wondering whether I should remind you of the master witch's surety.": {
+    "original": "Estava me perguntando se deveria lembrá-la da fiança da bruxa mestra.",
+    "antes": "Estava me perguntando se deveria te lembrar da fiança da bruxa mestra.",
+    "depois": "Estava me perguntando se deveria lembrá-la da fiança da bruxa mestra."
+  },
+  "Though this may have come rather suddenly for you... I hope we'll get along.": {
+    "original": "Embora isso possa ter sido bastante repentino para vocês... Espero que possamos nos dar bem.",
+    "antes": "Embora isso possa ter sido bastante repentino para você... Espero que possamos nos dar bem.",
+    "depois": "Embora isso possa ter sido bastante repentino para vocês... Espero que possamos nos dar bem."
+  },
+  "We'd be in a hole if you went on strike because you weren't getting enough wine.": {
+    "original": "Estaríamos em apuros se você entrasse em greve porque não estava bebendo vinho suficiente.",
+    "antes": "Estaríamos em apuros se você entrasse em greve porque não estava recebendo vinho suficiente.",
+    "depois": "Estaríamos em apuros se você entrasse em greve porque não estava bebendo vinho suficiente."
+  },
+  "I don't think there was any blue sigil around here.": {
+    "original": "Não acho que havia qualquer símbolo azul por aqui.",
+    "antes": "Não acho que havia qualquer sigilo azul por aqui.",
+    "depois": "Não acho que havia qualquer símbolo azul por aqui."
+  },
+  "I thought you had a wish to make.": {
+    "original": "Pensei que você tivesse um desejo para fazer.",
+    "antes": "Pensei que você tivesse um pedido a fazer.",
+    "depois": "Pensei que você tivesse um desejo para fazer."
+  },
+  "Well... no.": {
+    "original": "Bem... não.",
+    "antes": "Bem... no.",
+    "depois": "Bem... não."
+  },
+  "I'm going to see Dana right after I talk to Clala, so I should probably bring it with me.": {
+    "original": "Vou ver Dana logo após conversar com Clala, então devo levar junto.",
+    "antes": "Vou ver Dana logo após conversar com Clala, então devo levá-lo comigo.",
+    "depois": "Vou ver Dana logo após conversar com Clala, então devo levar junto."
+  },
+  "If I have to name one, it'd be fishing.": {
+    "original": "Se tivesse que escolher um, seria pesca.",
+    "antes": "Se tivesse que escolher um, seria a pesca.",
+    "depois": "Se tivesse que escolher um, seria pesca."
+  },
+  "But this one is bound shut, locked away. Why?": {
+    "original": "Mas este está encadernado, trancado. Por quê?",
+    "antes": "Mas este está fechado e trancado. Por quê?",
+    "depois": "Mas este está encadernado, trancado. Por quê?"
+  },
+  "Hahaha! Arden sucks at painting. I fell to the ground laughing the moment I saw his painting of me.": {
+    "original": "Hahaha! Arden é péssimo em pintura. Caí no chão rindo no momento em que vi sua pintura de mim.",
+    "antes": "Hahaha! Arden é péssimo em pintura. Caí no chão rindo no momento em que vi o quadro que ele fez de mim.",
+    "depois": "Hahaha! Arden é péssimo em pintura. Caí no chão rindo no momento em que vi sua pintura de mim."
+  },
+  "They do. In that case... I need someone who can play music.": {
+    "original": "Eles podem. Nesse caso... Preciso de alguém que possa tocar música.",
+    "antes": "Eles têm. Nesse caso... Preciso de alguém que possa tocar música.",
+    "depois": "Eles podem. Nesse caso... Preciso de alguém que possa tocar música."
+  },
+  "Wow... it really stuffed in everything.": {
+    "original": "Uau... ele realmente enfiou tudo.",
+    "antes": "Uau... realmente coube tudo.",
+    "depois": "Uau... ele realmente enfiou tudo."
+  },
+  "How were other things? The street... or the food?": {
+    "original": "Como eram outras coisas? A rua... ou a comida?",
+    "antes": "E as outras coisas? A rua... e a comida?",
+    "depois": "Como eram outras coisas? A rua... ou a comida?"
+  },
+  "I removed the prickly vines around here.": {
+    "original": "Eu removi as vinhas espinhosas por aqui.",
+    "antes": "Eu removi as Vinhas Espinhosas por aqui.",
+    "depois": "Eu removi as vinhas espinhosas por aqui."
+  },
+  "Oh, wouldn't a person living around here know something?": {
+    "original": "Ah, uma pessoa vivendo por aqui não saberia algo?",
+    "antes": "Ah, alguém que mora por aqui não saberia de nada?",
+    "depois": "Ah, uma pessoa vivendo por aqui não saberia algo?"
+  },
+  "Think about the village. The villagers are suffering because of the prickly vines.": {
+    "original": "Pense na vila. Os aldeões estão sofrendo por causa das vinhas espinhosas.",
+    "antes": "Pense na vila. Os aldeões estão sofrendo por causa da Vinha Espinhosa.",
+    "depois": "Pense na vila. Os aldeões estão sofrendo por causa das vinhas espinhosas."
+  },
+  "I'll place a [em1]Witch's Party Snack Gift Box[/em1] at the target's doorstep.": {
+    "original": "Vou colocar uma [em1]Caixa de Presente de Lanches da Festa da Bruxa[/em1] na porta do alvo.",
+    "antes": "Vou colocar uma [em1]Caixa de Lanches da Festa da Bruxa[/em1] na porta do alvo.",
+    "depois": "Vou colocar uma [em1]Caixa de Presente de Lanches da Festa da Bruxa[/em1] na porta do alvo."
+  },
+  "[em1][lua(GetLocalizedString(\"Item\", \"Cranapple_Name\"))][/em1]s?": {
+    "original": "[em1][lua(GetLocalizedString(\"Item\", \"Cranapple_Name\"))][/em1]?",
+    "antes": "[em1][lua(GetLocalizedString(\"Item\", \"Cranapple_Name\"))][/em1]s?",
+    "depois": "[em1][lua(GetLocalizedString(\"Item\", \"Cranapple_Name\"))][/em1]?"
+  },
+  "I thought you were going to try and walk off with them again.": {
+    "original": "Pensei que você iria tentar levar novamente.",
+    "antes": "Pensei que você iria tentar levá-los de novo.",
+    "depois": "Pensei que você iria tentar levar novamente."
+  },
+  "A-at first glance, maybe, but the details are all different!": {
+    "original": "A-à primeira vista, talvez, mas os detalhes são todos diferentes!",
+    "antes": "A-a primeira vista, talvez, mas os detalhes são todos diferentes!",
+    "depois": "A-à primeira vista, talvez, mas os detalhes são todos diferentes!"
+  },
+  "What about the Phoenix Feather? And it could be Phoenix \"Feathers\" that we need...": {
+    "original": "E sobre a Pena de Fênix? E poderiam ser \"Penas\" de Fênix que precisamos...",
+    "antes": "E sobre a Pena de Fênix? E podem ser \"Penas\" de Fênix que precisamos...",
+    "depois": "E sobre a Pena de Fênix? E poderiam ser \"Penas\" de Fênix que precisamos..."
+  },
+  "Precisely. You reacted the same way the first time we met in your sleep.": {
+    "original": "Precisamente. Você reagiu da mesma forma na primeira vez que nos encontramos em seu sono.",
+    "antes": "Precisamente. Você reagiu da mesma forma na primeira vez que nos encontramos no seu sonho.",
+    "depois": "Precisamente. Você reagiu da mesma forma na primeira vez que nos encontramos em seu sono."
+  },
+  "Isn't the current wing a new one rebuilt by Kyla?": {
+    "original": "A ala atual não é uma nova reconstruída pela Kyla?",
+    "antes": "A ala atual não foi reconstruída pela Kyla?",
+    "depois": "A ala atual não é uma nova reconstruída pela Kyla?"
+  },
+  "Yup. To befriend the tree, you do.": {
+    "original": "Sim. Para fazer amizade com a árvore, você tem que fazer.",
+    "antes": "Sim. Para fazer amizade com a árvore, você precisa.",
+    "depois": "Sim. Para fazer amizade com a árvore, você tem que fazer."
+  },
+  "Don't you get plenty of witch customers?": {
+    "original": "Você não tem muitos clientes bruxos?",
+    "antes": "Você não tem muitas clientes bruxas?",
+    "depois": "Você não tem muitos clientes bruxos?"
+  },
+  "I thought you would pass by just like the countless witches and humans who came and went before.": {
+    "original": "Pensei que você passaria como as inúmeras bruxas e humanas que vieram e foram antes.",
+    "antes": "Pensei que você passaria por aqui, como as inúmeras bruxas e humanos que vieram e se foram antes.",
+    "depois": "Pensei que você passaria como as inúmeras bruxas e humanas que vieram e foram antes."
+  },
+  "Speaking of dolls, didn't we find one earlier?": {
+    "original": "Falando em bonecos, não encontramos um mais cedo?",
+    "antes": "Falando em bonecas, não encontramos uma mais cedo?",
+    "depois": "Falando em bonecos, não encontramos um mais cedo?"
+  },
+  "The [em1]prickly vine marks[/em1] seem to lead in this direction...": {
+    "original": "As [em1]marcas das vinhas espinhosas[/em1] parecem levar nesta direção...",
+    "antes": "As [em1]marcas da Vinha Espinhosa[/em1] parecem levar nesta direção...",
+    "depois": "As [em1]marcas das vinhas espinhosas[/em1] parecem levar nesta direção..."
+  },
+  "Arin, when should we start the [em1]witch graduation ceremony[/em1]?": {
+    "original": "Arin, quando devemos começar a [em1]cerimônia de formatura de bruxa[/em1]?",
+    "antes": "Arin, quando devemos começar a [em1]cerimônia de graduação de bruxas[/em1]?",
+    "depois": "Arin, quando devemos começar a [em1]cerimônia de formatura de bruxa[/em1]?"
+  },
+  "So, what we need is [em1]as many colors as possible[/em1]?": {
+    "original": "Então, o que precisamos é [em1]de tantas cores quanto possível[/em1]?",
+    "antes": "Então, o que precisamos é [em1]tantas cores quanto possível[/em1]?",
+    "depois": "Então, o que precisamos é [em1]de tantas cores quanto possível[/em1]?"
+  },
+  "[em1]Lisa Whitegarden[/em1] of Wisteria! You've been invited to explore the lofty knowledge of the star.": {
+    "original": "[em1]Lisa Whitegarden[/em1] de Wisteria! Você foi convidada para explorar o conhecimento elevado das estrelas.",
+    "antes": "[em1]Lisa Whitegarden[/em1] de Wisteria! Você foi convidada para explorar o conhecimento elevado da estrela.",
+    "depois": "[em1]Lisa Whitegarden[/em1] de Wisteria! Você foi convidada para explorar o conhecimento elevado das estrelas."
+  },
+  "If [em1]Parks[/em1] is a witch, knowing the surname would help identify him precisely.": {
+    "original": "Se [em1]Parks[/em1] é uma bruxa, saber o sobrenome ajudaria a identificá-la precisamente.",
+    "antes": "Se [em1]Parks[/em1] é um bruxo, saber o sobrenome ajudaria a identificá-lo precisamente.",
+    "depois": "Se [em1]Parks[/em1] é uma bruxa, saber o sobrenome ajudaria a identificá-la precisamente."
+  },
+  "It's just... back then, Arin had such a hard time... So I don't go up high much anymore.\\r": {
+    "original": "É só... naquela época, a Arin teve tanto trabalho... Então eu não subo mais muito alto.\\r",
+    "antes": "É só... naquela época, a Arin passou por tantas dificuldades... Então eu não subo muito alto mais.\\r",
+    "depois": "É só... naquela época, a Arin passou por tantas dificuldades... Então eu não subo muito mais alto.\\r"
+  },
+  "T-thirty-one?!": {
+    "original": "T-trinta e uma?!",
+    "antes": "T-trinta e um?!",
+    "depois": "T-trinta e uma?!"
+  },
+  "Wait, you want me to [em1]host[/em1] this?!": {
+    "original": "Espere, você quer que eu [em1]hosteie[/em1] isso?!",
+    "antes": "Espere, você quer que eu [em1]seja a anfitriã[/em1] disso?!",
+    "depois": "Espere, você quer que eu [em1]apresente[/em1] isso?!"
+  },
+  "Poor?": {
+    "original": "Ruim?",
+    "antes": "Coitado?",
+    "depois": "Ruim?"
+  },
+  "For treasure?!": {
+    "original": "Para tesouro?!",
+    "antes": "Por tesouro?!",
+    "depois": "Para tesouro?!"
+  },
+  "May I have one of your old teeth the next time you grow a new set?": {
+    "original": "Poderia me dar um dos seus dentes velhos na próxima vez que crescerem novos?",
+    "antes": "Você poderia me dar um dos seus dentes velhos da próxima vez que crescer novos?",
+    "depois": "Você poderia me dar um dos seus dentes velhos da próxima vez que você tiver novos dentes?"
+  },
+  "It's safe there... and I like it. Rex finds it boring, though.\\r": {
+    "original": "É seguro lá... e eu gosto. Rex acha isso entediante, no entanto.\\r",
+    "antes": "É seguro lá... e eu gosto. Mas o Rex acha entediante.\\r",
+    "depois": "É seguro lá... e eu gosto. Rex acha isso entediante, no entanto.\\r"
+  },
+  "Is it? I don't think anyone will buy them.": {
+    "original": "É? Não acho que alguém compraria.",
+    "antes": "É? Não acho que alguém vá comprá-los.",
+    "depois": "É? Não acho que alguém vá comprar."
+  },
+  "Well, the prickly vine is a plant engineered by Lisa.": {
+    "original": "Bem, a vinha espinhosa é uma planta projetada pela Lisa.",
+    "antes": "Bem, a Vinha Espinhosa é uma planta projetada pela Lisa.",
+    "depois": "Bem, a vinha espinhosa é uma planta projetada pela Lisa."
+  },
+  "We can first split up to search. If anyone finds one, we'll pull it together.": {
+    "original": "Podemos primeiro nos separar para procurar. Se alguém encontrar uma, puxaremos juntos.",
+    "antes": "Podemos primeiro nos separar para procurar. Se alguém encontrar uma, nós a puxaremos juntos.",
+    "depois": "Podemos primeiro nos separar para procurar. Se alguém encontrar uma, puxaremos juntos."
+  },
+  "I mean, you don't have to talk about them if you don't want to.": {
+    "original": "Quero dizer, você não tem que falar sobre elas se não quiser.",
+    "antes": "Quero dizer, você não precisa falar sobre eles se não quiser.",
+    "depois": "Quero dizer, você não tem que falar sobre elas se não quiser."
+  },
+  "I may not be able to tell by reading them, but I'm willing to try if that helps you, Ellie.": {
+    "original": "Posso não ser capaz de dizer lendo elas, mas estou disposto a tentar se isso ajudá-la, Ellie.",
+    "antes": "Talvez eu não consiga dizer apenas lendo-as, mas estou disposto a tentar se isso ajudar você, Ellie.",
+    "depois": "Talvez eu não consiga dizer apenas lendo-as, mas estou disposto a tentar se isso ajudá-la, Ellie."
+  },
+  "If he wants to hand it to you in person, it may be something fresh. Flowers, perhaps?": {
+    "original": "Se ele quer entregar pessoalmente, pode ser algo fresco. Flores, talvez?",
+    "antes": "Se ele quer entregá-lo pessoalmente, pode ser algo fresco. Flores, talvez?",
+    "depois": "Se ele quer entregar pessoalmente, pode ser algo fresco. Flores, talvez?"
+  },
+  "Lives are born from nature.": {
+    "original": "A vida nasce da natureza.",
+    "antes": "Vidas nascem da natureza.",
+    "depois": "A vida nasce da natureza."
+  },
+  "I hope you enjoy it.": {
+    "original": "Espero que goste dela.",
+    "antes": "Espero que goste.",
+    "depois": "Espero que goste dela."
+  },
+  "It'll work out! Everyone loves her donuts, they just don't know it yet.": {
+    "original": "Vai dar tudo certo! Todo mundo ama seus donuts, eles só não sabem ainda.",
+    "antes": "Vai dar tudo certo! Todo mundo ama os donuts dela, eles só não sabem ainda.",
+    "depois": "Vai dar tudo certo! Todo mundo ama seus donuts, eles só não sabem ainda."
+  },
+  "Are Cloud Salmon good?": {
+    "original": "Salmão das Nuvens é bom?",
+    "antes": "Salmões das Nuvens são bons?",
+    "depois": "Salmão das Nuvens é bom?"
+  },
+  "It's the [em1][lua(GetLocalizedString(\"Item\", \"FirstGraduationCeremonyForm_Name\"))][/em1]. Want to read it together?": {
+    "original": "É o [em1][lua(GetLocalizedString(\"Item\", \"FirstGraduationCeremonyForm_Name\"))][/em1]. Quer ler juntas?",
+    "antes": "É o [em1][lua(GetLocalizedString(\"Item\", \"FirstGraduationCeremonyForm_Name\"))][/em1]. Quer ler comigo?",
+    "depois": "É o [em1][lua(GetLocalizedString(\"Item\", \"FirstGraduationCeremonyForm_Name\"))][/em1]. Quer ler comigo?"
+  },
+  "It's good.": {
+    "original": "Estão bons.",
+    "antes": "Está bom.",
+    "depois": "Estão bons."
+  },
+  "This is amazing. Before I notice, we're having another household already.": {
+    "original": "Isso é incrível. Antes de perceber, estamos tendo outro lar já.",
+    "antes": "Isso é incrível. Antes que eu percebesse, já temos outro lar.",
+    "depois": "Isso é incrível. Antes de perceber, estamos tendo outro lar já."
+  },
+  "There was a prickly vine core here. That's probably why you couldn't come here.": {
+    "original": "Havia um núcleo de vinha espinhosa aqui. É provavelmente por isso que você não pôde vir aqui.",
+    "antes": "Havia um Núcleo da Vinha Espinhosa aqui. Provavelmente é por isso que você não pôde vir.",
+    "depois": "Havia um Núcleo da Vinha Espinhosa aqui. Provavelmente é por isso que você não pôde vir aqui."
+  },
+  "Are these all orders?": {
+    "original": "São todos pedidos?",
+    "antes": "São todas ordens?",
+    "depois": "São todos pedidos?"
+  },
+  "A Neat Letter": {
+    "original": "Uma Carta Organizada",
+    "antes": "Uma carta arrumada",
+    "depois": "Uma Carta Organizada"
+  },
+  "<shake>I've been holding it in, grit and bear it, trying to make sure no one saw how much I was struggling!</shake>": {
+    "original": "<shake>Estou guardando isso, suando e suportando, tentando garantir que ninguém perceba o quanto estou lutando!</shake>",
+    "antes": "<shake>Tenho guardado isso, engolido e aguentado, tentando garantir que ninguém visse o quanto eu estava sofrendo!</shake>",
+    "depois": "<shake>Tenho guardado isso, engolido e aguentado, tentando garantir que ninguém visse o quanto eu estava lutando!</shake>"
+  },
+  "For a long time, I only focused on work and Dana.": {
+    "original": "Por muito tempo, eu só focava no trabalho e Dana.",
+    "antes": "Por muito tempo, eu só foquei no trabalho e na Dana.",
+    "depois": "Por muito tempo, eu só foquei no trabalho e na Dana."
+  },
+  "I don't have any impression of that old man.": {
+    "original": "Não tenho impressão desse velho homem.",
+    "antes": "Não tenho nenhuma impressão desse homem.",
+    "depois": "Não tenho nenhuma impressão desse velho homem."
+  },
+  "Find something in place of wings then.": {
+    "original": "Encontre algo no lugar de asas então.",
+    "antes": "Então encontre algo no lugar das asas.",
+    "depois": "Encontre algo no lugar das asas, então."
+  },
+  "We can only learn about the [lua(GetLocalizedString(\"Common\", \"Common_Theme_StarSeaCave\"))] if they'd done a thorough investigation of the [lua(GetLocalizedString(\"Common\", \"Common_Theme_StarSeaCave\"))].": {
+    "original": "Só podemos aprender sobre a [lua(GetLocalizedString(\"Common\", \"Common_Theme_StarSeaCave\"))] se elas tivessem feito uma investigação completa da [lua(GetLocalizedString(\"Common\", \"Common_Theme_StarSeaCave\"))].",
+    "antes": "Só podemos aprender sobre a [lua(GetLocalizedString(\"Common\", \"Common_Theme_StarSeaCave\"))] se eles tivessem feito uma investigação completa da [lua(GetLocalizedString(\"Common\", \"Common_Theme_StarSeaCave\"))].",
+    "depois": "Só podemos aprender sobre a [lua(GetLocalizedString(\"Common\", \"Common_Theme_StarSeaCave\"))] se elas tivessem feito uma investigação completa da [lua(GetLocalizedString(\"Common\", \"Common_Theme_StarSeaCave\"))]."
+  },
+  "Yes! My [em1]music teacher[/em1]!": {
+    "original": "Sim! Minha [em1]professora de música[/em1]!",
+    "antes": "Sim! Meu [em1]professor de música[/em1]!",
+    "depois": "Sim! Minha [em1]professora de música[/em1]!"
+  },
+  "It's a [em1]night light[/em1]. I had a witch I know make it.": {
+    "original": "É uma [em1]luz noturna[/em1]. Pedi para uma bruxa que conheço fazer.",
+    "antes": "É uma [em1]luz noturna[/em1]. Pedi a uma bruxa que conheço para fazê-la.",
+    "depois": "É uma [em1]luz noturna[/em1]. Pedi para uma bruxa que conheço fazer."
+  },
+  "I need to find a way to remove the prickly vines.": {
+    "original": "Preciso encontrar uma maneira de remover as vinhas espinhosas.",
+    "antes": "Preciso encontrar uma maneira de remover a Vinha Espinhosa.",
+    "depois": "Preciso encontrar uma maneira de remover as vinhas espinhosas."
+  },
+  "The problem is that you're applying them to things you shouldn't do.": {
+    "original": "O problema é que você está aplicando-as em coisas que não deveria fazer.",
+    "antes": "O problema é que você está aplicando-as a coisas que não deveria.",
+    "depois": "O problema é que você está aplicando-as em coisas que não deveria fazer."
+  },
+  "The person who built it probably didn't even think about that.": {
+    "original": "A pessoa que o construiu provavelmente nem pensou nisso.",
+    "antes": "A pessoa que a construiu provavelmente nem pensou nisso.",
+    "depois": "A pessoa que o construiu provavelmente nem pensou nisso."
+  },
+  "It will pay the debt, and we will be able to craft [em1][lua(GetLocalizedString(\"Item\", \"MoonTear_Name\"))][/em1]. Kill two birds with one stone.": {
+    "original": "Vai pagar a dívida, e poderemos criar [em1][lua(GetLocalizedString(\"Item\", \"MoonTear_Name\"))][/em1]. Dois coelhos com uma cajadada só.",
+    "antes": "Vai pagar a dívida, e poderemos criar [em1][lua(GetLocalizedString(\"Item\", \"MoonTear_Name\"))][/em1]. Matar dois coelhos com uma cajadada só.",
+    "depois": "Vai pagar a dívida, e poderemos criar [em1][lua(GetLocalizedString(\"Item\", \"MoonTear_Name\"))][/em1]. Dois coelhos com uma cajadada só."
+  },
+  "Morningstar Lumi": {
+    "original": "Estrelar Lumi",
+    "antes": "Lumi, Estrela da Manhã",
+    "depois": "Lumi, Estrela da Manhã"
+  },
+  "Potion, ritual, performed in front, starlight... I don't know the rest.": {
+    "original": "Poção, ritual, realizado na frente, luz das estrelas... Não sei o resto.",
+    "antes": "Poção, ritual, realizado à luz das estrelas... Não sei o resto.",
+    "depois": "Poção, ritual, realizado à luz das estrelas... Não sei o resto."
+  },
+  "You've always playfully accepted requests that you can say no to.": {
+    "original": "Você sempre aceitou brincando pedidos que pode recusar.",
+    "antes": "Você sempre aceitou de forma brincalhona pedidos que poderia recusar.",
+    "depois": "Você sempre aceitou brincando pedidos que pode recusar."
+  },
+  "I think it was made by the \"[lua(GetLocalizedString(\"InteriorPropTheme\", \"BasementBasic\"))].\"": {
+    "original": "Acho que foi feito pela '[lua(GetLocalizedString(\"InteriorPropTheme\", \"BasementBasic\"))]'.",
+    "antes": "Acho que foi feita pela '[lua(GetLocalizedString(\"InteriorPropTheme\", \"BasementBasic\"))]'.",
+    "depois": "Acho que foi feito pela '[lua(GetLocalizedString(\"InteriorPropTheme\", \"BasementBasic\"))]'."
+  },
+  "Enite told me that an apprentice witch had come to the village and wanted me back.": {
+    "original": "Enite me disse que uma bruxa aprendiz havia vindo para a aldeia e queria que eu voltasse.",
+    "antes": "Enite me disse que uma bruxa aprendiz havia vindo para a vila e queria que eu voltasse.",
+    "depois": "Enite me disse que uma bruxa aprendiz havia vindo para a aldeia e queria que eu voltasse."
+  },
+  "Do you have any tools or parts?": {
+    "original": "Você tem alguma ferramenta ou peças?",
+    "antes": "Você tem alguma ferramenta ou peça?",
+    "depois": "Você tem ferramentas ou peças?"
+  },
+  "Gems aren't popular because they taste good, are they?": {
+    "original": "Joias não são populares porque têm bom gosto, são?",
+    "antes": "Gemas não são populares porque são saborosas, né?",
+    "depois": "Joias não são populares porque são saborosas, né?"
+  },
+  "Let me know if you really can't find one.": {
+    "original": "Me avise se realmente não conseguir encontrar uma.",
+    "antes": "Me avise se realmente não conseguir encontrar nenhum.",
+    "depois": "Me avise se realmente não conseguir encontrar uma."
+  },
+  "I do not [em1]regret[/em1] making this book.": {
+    "original": "Eu não [em1]me arrependo[/em1] de fazer este livro.",
+    "antes": "Eu não [em1]me arrependo[/em1] de ter feito este livro.",
+    "depois": "Eu não [em1]me arrependo[/em1] de fazer este livro."
+  },
+  "Yeah. I remembered I hadn't finished coloring, so I borrowed it again.": {
+    "original": "Sim. Lembrei que não tinha terminado de colorir, então a peguei emprestada novamente.",
+    "antes": "Sim. Lembrei que não tinha terminado de colorir, então peguei emprestado novamente.",
+    "depois": "Sim. Lembrei que não tinha terminado de colorir, então a peguei emprestada novamente."
+  },
+  "Okay, I'll go check on Clala.": {
+    "original": "Tudo bem, vou verificar com Clala.",
+    "antes": "Tudo bem, vou verificar a Clala.",
+    "depois": "Tudo bem, vou ver a Clala."
+  },
+  "It does have the word \"salt\" on it in small print.": {
+    "original": "Ele... Ele tem a palavra 'sal' em pequenas letras.",
+    "antes": "Tem a palavra \"salt\" escrita em letras miúdas.",
+    "depois": "Tem a palavra \"sal\" escrita em letras miúdas."
+  },
+  "Are you busy today as well, Ms. Witch?": {
+    "original": "Você está ocupada hoje também, Senhorita Bruxa?",
+    "antes": "Você está ocupada hoje também, Sra. Bruxa?",
+    "depois": "Você está ocupada hoje também, Srta. Bruxa?"
+  },
+  "I myself also feed them when it strikes me.": {
+    "original": "Eu mesmo também as alimentei quando me lembrei.",
+    "antes": "Eu mesmo também os alimento quando me lembro.",
+    "depois": "Eu mesmo também as alimento quando me lembro."
+  },
+  "It would be a real surprise if it was Enite falling off though.": {
+    "original": "Seria realmente uma surpresa se fosse Enite caindo mesmo assim.",
+    "antes": "Seria realmente uma surpresa se fosse a Enite a cair.",
+    "depois": "Seria realmente uma surpresa se fosse Enite caindo mesmo assim."
+  },
+  "If it isn't Ellie. We're meeting so much these days. ": {
+    "original": "Se não for Ellie. Estamos nos encontrando muito ultimamente.",
+    "antes": "Se não é a Ellie. Temos nos encontrado muito ultimamente.",
+    "depois": "Se não for Ellie. Estamos nos encontrando muito ultimamente."
+  },
+  "The Cat Gods won't mind doing you such a little favor.": {
+    "original": "Os Deuses Gatos não se importarão em fazer um favor tão pequeno para você.",
+    "antes": "Os Deuses Gato não se importarão em fazer um favor tão pequeno para você.",
+    "depois": "Os Deuses Gatos não se importarão em fazer um favor tão pequeno para você."
+  },
+  "Sure, you've earned them with hard work, heh.": {
+    "original": "Claro, você merece com muito trabalho duro, hein.",
+    "antes": "Claro, você os mereceu com muito esforço, hein.",
+    "depois": "Claro, você merece com muito trabalho duro, hein."
+  },
+  "Right. Once Arin makes them, we'll be all set.": {
+    "original": "Certo. Assim que a Arin fizer, estaremos prontos.",
+    "antes": "Certo. Assim que a Arin as fizer, estaremos prontos.",
+    "depois": "Certo. Assim que a Arin fizer, estaremos prontos."
+  },
+  "You need [em1]an item cherished by the book owner, feelings of people close to them,[/em1]": {
+    "original": "Você precisa de [em1]um item estimado pelo dono do livro, sentimentos de pessoas próximas a ele,[/em1]",
+    "antes": "Você precisa de [em1]um item estimado pelo dono(a) do livro, sentimentos de pessoas próximas a ele(a),[/em1]",
+    "depois": "Você precisa de [em1]um item estimado pelo dono do livro, sentimentos de pessoas próximas a ele,[/em1]"
+  },
+  "Yeah, try lifting it.": {
+    "original": "Sim, tente levantá-lo.",
+    "antes": "Sim, tente levantá-la.",
+    "depois": "Sim, tente levantá-lo."
+  },
+  "My father always says that I should concentrate on one trade, though.": {
+    "original": "Meu pai sempre diz que eu devo me concentrar em apenas uma profissão, no entanto.",
+    "antes": "Meu pai sempre diz que eu devo me concentrar em apenas uma profissão.",
+    "depois": "Meu pai sempre diz que eu deveria me concentrar em apenas um ofício."
+  },
+  "Let's get it from Diane.": {
+    "original": "Vamos pegá-lo com a Diane.",
+    "antes": "Vamos pegar com a Diane.",
+    "depois": "Vamos pegá-lo com a Diane."
+  },
+  "Haha, it is, as long as you crush it and sprinkle it on your food.": {
+    "original": "Haha, é, desde que você esmague e polvilhe na sua comida.",
+    "antes": "Haha, é, desde que você o esmague e o polvilhe na sua comida.",
+    "depois": "Haha, é, desde que você esmague e polvilhe na sua comida."
+  },
+  "That's how houses built by witch craftsmen are.": {
+    "original": "É assim que são as casas construídas por artesãs bruxas.",
+    "antes": "É assim que são as casas construídas por artesãos bruxos.",
+    "depois": "É assim que são as casas construídas por artesãs bruxas."
+  },
+  "Initially, it was to keep me awake and focused,": {
+    "original": "Inicialmente, era para me manter acordado e focado,",
+    "antes": "Inicialmente, era para me manter acordada e focada,",
+    "depois": "Inicialmente, era para me manter acordado e focado,"
+  },
+  "I stacked them there when I moved here, and I forgot about it.": {
+    "original": "Empilhei lá quando mudei para cá e esqueci.",
+    "antes": "Eu as empilhei lá quando me mudei para cá e depois esqueci.",
+    "depois": "Empilhei lá quando mudei para cá e esqueci."
+  },
+  "But the tree at the summit had [em1]Bluemoon Butterflies[/em1] flying around.": {
+    "original": "Mas a árvore no pico tinha [em1]Borboletas de Luacescência[/em1] voando ao redor.",
+    "antes": "Mas a árvore no pico tinha [em1]Bluemoon Butterflies[/em1] voando ao redor.",
+    "depois": "Mas a árvore no pico tinha [em1]Borboletas de Luacescência[/em1] voando ao redor."
+  },
+  "You apparently negated ghosts right away.": {
+    "original": "Você negou imediatamente os fantasmas.",
+    "antes": "Você aparentemente anulou os fantasmas de imediato.",
+    "depois": "Você negou imediatamente os fantasmas."
+  },
+  "It felt like a long-lost joy... Playing with that much happiness.": {
+    "original": "Parecia uma alegria há muito perdida... Tocar com tanta felicidade.",
+    "antes": "Parecia uma alegria há muito perdida... Brincar com tanta alegria.",
+    "depois": "Parecia uma alegria há muito perdida... Tocar com tanta felicidade."
+  },
+  "This is what [em1]Rubrum[/em1] was talking about in his letter, right?": {
+    "original": "Isso é o que [em1]Rubrum[/em1] falava em sua carta, certo?",
+    "antes": "Isso é do que [em1]Rubrum[/em1] estava falando em sua carta, certo?",
+    "depois": "Isso é o que [em1]Rubrum[/em1] falava em sua carta, certo?"
+  },
+  "Ellie, you should have some as well!": {
+    "original": "Ellie, você também deveria experimentar!",
+    "antes": "Ellie, você também deveria pegar alguns!",
+    "depois": "Ellie, você também deveria experimentar!"
+  },
+  "You can go find [em1]Arden[/em1] and learn how to mend the doll from him.": {
+    "original": "Você pode ir encontrar [em1]Arden[/em1] e aprender como consertar o boneco dele.",
+    "antes": "Você pode ir até [em1]Arden[/em1] e aprender com ele como consertar a boneca.",
+    "depois": "Você pode ir até [em1]Arden[/em1] e aprender com ele como consertar o boneco."
+  },
+  "Where exactly is the depth of the [lua(GetLocalizedString(\"Common\", \"Common_Theme_GreenForest\"))]?": {
+    "original": "Onde exatamente é o fundo da [lua(GetLocalizedString(\"Common\", \"Common_Theme_GreenForest\"))]?",
+    "antes": "Onde exatamente fica a profundidade da [lua(GetLocalizedString(\"Common\", \"Common_Theme_GreenForest\"))]?",
+    "depois": "Onde exatamente fica o fundo da [lua(GetLocalizedString(\"Common\", \"Common_Theme_GreenForest\"))]?"
+  },
+  "Do you realize how dangerous that was!": {
+    "original": "Vocês percebem o quão perigoso isso foi!",
+    "antes": "Você percebe o quão perigoso isso foi!",
+    "depois": "Vocês percebem o quão perigoso isso foi!"
+  },
+  "Well... I am, thanks to Rex.": {
+    "original": "Bem... Estou, graças ao Rex.",
+    "antes": "Bem... Eu também sou, graças ao Rex.",
+    "depois": "Bem... Estou, graças ao Rex."
+  },
+  "It holds the life a person has lived, the ties they've established, and the feelings of people who remember them fondly.": {
+    "original": "Ele contém a vida que uma pessoa viveu, os laços que estabeleceu e os sentimentos das pessoas que se lembram dela com carinho.",
+    "antes": "Ele contém a vida que uma pessoa viveu, os laços que estabeleceu e os sentimentos das pessoas que se lembram com carinho.",
+    "depois": "Ele contém a vida que uma pessoa viveu, os laços que estabeleceu e os sentimentos das pessoas que se lembram dela com carinho."
+  },
+  "And if anyone picks on you, I'll... I'll give 'em a taste of my fists!": {
+    "original": "E se alguém te atacar, eu... Eu vou dar 'em um gostinho das minhas mãos!",
+    "antes": "E se alguém mexer com você, eu... eu vou dar a eles um gostinho dos meus punhos!",
+    "depois": "E se alguém mexer com você, eu... eu vou dar um gostinho dos meus punhos!"
+  },
+  "Have you noticed the [em1]cats[/em1] roaming around the village?": {
+    "original": "Você notou as [em1]gatas[/em1] vagando pelo vilarejo?",
+    "antes": "Você notou os [em1]gatos[/em1] vagando pelo vilarejo?",
+    "depois": "Você notou as [em1]gatas[/em1] vagando pelo vilarejo?"
+  },
+  "Didn't you have something to tell her?": {
+    "original": "Você não tinha algo para contar a ela?",
+    "antes": "Você não tinha algo para lhe contar?",
+    "depois": "Você não tinha algo para contar a ela?"
+  },
+  "The fairy, who was so annoyed, transformed into a beggar this time and went to see Pietro himself.": {
+    "original": "A fada, tão irritada, transformou-se em um mendigo desta vez e foi ver Pietro pessoalmente.",
+    "antes": "A fada, tão irritada, transformou-se em uma mendiga desta vez e foi ver Pietro pessoalmente.",
+    "depois": "A fada, tão irritada, transformou-se em um mendigo desta vez e foi ver Pietro pessoalmente."
+  },
+  "So I am. I need to prepare the ingredients, lay the baked batches out, and everything.": {
+    "original": "Estou mesmo. Preciso preparar os ingredientes, dispor os lotes assados, e tudo mais.",
+    "antes": "Sou mesmo. Preciso preparar os ingredientes, dispor os lotes assados e tudo mais.",
+    "depois": "Estou mesmo. Preciso preparar os ingredientes, dispor os lotes assados, e tudo mais."
+  },
+  "She's not with me anymore, but I really cherish those memories with her.": {
+    "original": "Ela não está mais comigo, mas realmente prezo essas memórias com ela.",
+    "antes": "Ela não está mais comigo, mas eu realmente prezo as lembranças que tive com ela.",
+    "depois": "Ela não está mais comigo, mas realmente prezo essas memórias com ela."
+  },
+  "He is always a stoic person, so I've only ever received one reply.": {
+    "original": "Ele é sempre uma pessoa estoica, então só recebi uma resposta.",
+    "antes": "Ele é sempre muito estoico, então só recebi uma resposta.",
+    "depois": "Ele é sempre uma pessoa estoica, então só recebi uma resposta."
+  },
+  "Let’s go look for the [em1]witch's house[/em1].": {
+    "original": "Vamos procurar a casa da [em1]bruxa[/em1].",
+    "antes": "Vamos procurar a [em1]casa da bruxa[/em1].",
+    "depois": "Vamos procurar a casa da [em1]bruxa[/em1]."
+  },
+  "I'd always get splinters, so I'd have to sand down the handle before using it.": {
+    "original": "Eu sempre ganhava farpas, então tinha que lixar a alça antes de usar.",
+    "antes": "Eu sempre pegava farpas, então tinha que lixar o cabo antes de usar.",
+    "depois": "Eu sempre ganhava farpas, então tinha que lixar a alça antes de usar."
+  },
+  "I suppose I'm average. May I know why you're asking?": {
+    "original": "Suponho que seja mediano. Posso saber por que está perguntando?",
+    "antes": "Suponho que sou mediano. Posso saber por que está perguntando?",
+    "depois": "Suponho que seja mediano. Posso saber por que está perguntando?"
+  },
+  "...If I don't tell you, are you going to keep bringing up [em1]that notebook[/em1]?": {
+    "original": "...Se eu não lhe contar, você vai continuar trazendo [em1]aquele caderno[/em1]?",
+    "antes": "...Se eu não te contar, você vai continuar mencionando [em1]aquele caderno[/em1]?",
+    "depois": "...Se eu não lhe contar, você vai continuar trazendo [em1]aquele caderno[/em1]?"
+  },
+  "Haha, I'm not much of a reader either.": {
+    "original": "Haha, eu também não sou muito de ler.",
+    "antes": "Haha, eu também não gosto muito de ler.",
+    "depois": "Haha, eu também não sou muito de ler."
+  },
+  "You probably should act accordingly.": {
+    "original": "Você provavelmente deve agir de acordo.",
+    "antes": "Você provavelmente deveria agir em conformidade.",
+    "depois": "Você provavelmente deve agir de acordo."
+  },
+  "So this book could be a crucial clue for you.": {
+    "original": "Então este livro poderia ser uma pista crucial para vocês.",
+    "antes": "Então este livro poderia ser uma pista crucial para você.",
+    "depois": "Então este livro poderia ser uma pista crucial para vocês."
+  },
+  "She acquired the knowledge of the star, and became the First Witch.": {
+    "original": "Aprendeu o conhecimento das estrelas e se tornou a Primeira Bruxa.",
+    "antes": "Aprendeu o conhecimento da estrela e se tornou a Primeira Bruxa.",
+    "depois": "Aprendeu o conhecimento das estrelas e se tornou a Primeira Bruxa."
+  },
+  "You went through something incredible. Well done, Ellie.": {
+    "original": "Vocês passaram por algo incrível. Muito bem, Ellie.",
+    "antes": "Você passou por algo incrível. Muito bem, Ellie.",
+    "depois": "Vocês passaram por algo incrível. Muito bem, Ellie."
+  },
+  "Actually, Theo was the one who mentioned it to me. I've been looking for it since then.": {
+    "original": "Na verdade, Theo foi quem mencionou para mim. Tenho procurado por ela desde então.",
+    "antes": "Na verdade, foi o Theo quem mencionou isso para mim. Tenho procurado desde então.",
+    "depois": "Na verdade, Theo foi quem mencionou para mim. Tenho procurado por ela desde então."
+  },
+  "Quit it, will you?": {
+    "original": "Parem com isso, querem?",
+    "antes": "Para com isso, vai?",
+    "depois": "Parem com isso, querem?"
+  },
+  "Leave it to me and go back to the village, alright?": {
+    "original": "Deixe comigo e voltem para a vila, certo?",
+    "antes": "Deixe isso comigo e volte para a vila, certo?",
+    "depois": "Deixe comigo e voltem para a vila, certo?"
+  },
+  "I've been seeing a lot of you recently.": {
+    "original": "Tenho visto vocês muito recentemente.",
+    "antes": "Tenho visto você com frequência ultimamente.",
+    "depois": "Tenho visto vocês muito recentemente."
+  },
+  "The first part looks like it, but the rest is just an ordinary letter.": {
+    "original": "A primeira parte parece, mas o resto é apenas uma carta comum.",
+    "antes": "A primeira parte parece com isso, mas o resto é apenas uma carta comum.",
+    "depois": "A primeira parte parece, mas o resto é apenas uma carta comum."
+  },
+  "Maybe it was trying to save you from the fall.": {
+    "original": "Talvez ela estivesse tentando salvá-la da queda.",
+    "antes": "Talvez estivesse tentando salvar você da queda.",
+    "depois": "Talvez ela estivesse tentando salvá-la da queda."
+  },
+  "Still smells awful, though.": {
+    "original": "Ainda cheira horrível, porém.",
+    "antes": "Ainda cheira horrível.",
+    "depois": "Ainda cheira horrível, porém."
+  },
+  "This is a very [em1]important letter[/em1]!": {
+    "original": "Esta é uma carta muito [em1]importante[/em1]!",
+    "antes": "Esta é uma [em1]carta importante[/em1]!",
+    "depois": "Esta é uma carta muito [em1]importante[/em1]!"
+  },
+  "Thank you for being willing to help, but we don't have the ingredients.": {
+    "original": "Obrigada por estar disposto a ajudar, mas não temos os ingredientes.",
+    "antes": "Agradeço por se dispor a ajudar, mas não temos os ingredientes.",
+    "depois": "Obrigada por estar disposto a ajudar, mas não temos os ingredientes."
+  },
+  "Watch your mouth. I'm not that nasty!": {
+    "original": "Cuidado com sua boca. Não sou tão desagradável!",
+    "antes": "Cuidado com a boca. Não sou tão desagradável!",
+    "depois": "Cuidado com sua boca. Não sou tão desagradável!"
+  },
+  "Are you? I'm glad to be of help.": {
+    "original": "Está? Fico feliz em poder ajudar.",
+    "antes": "É você? Fico feliz em poder ajudar.",
+    "depois": "Está? Fico feliz em poder ajudar."
+  },
+  "You probably didn't see it, though, because you destroyed the [em1]witch barrier generator[/em1] right away.": {
+    "original": "Você provavelmente não a viu, porém, porque destruiu o [em1]gerador de barreira de bruxa[/em1] imediatamente.",
+    "antes": "Você provavelmente não viu, porque destruiu o [em1]gerador de barreira de bruxa[/em1] imediatamente.",
+    "depois": "Você provavelmente não a viu, porém, porque destruiu o [em1]gerador de barreira de bruxa[/em1] imediatamente."
+  },
+  "Remember what Clala said about toppings?": {
+    "original": "Lembre-se do que Clala disse sobre os recheios?",
+    "antes": "Lembre-se do que Clala disse sobre as coberturas?",
+    "depois": "Lembre-se do que Clala disse sobre os recheios?"
+  },
+  "To discover the knowledge of the star, I'm honestly looking for the best witches only.": {
+    "original": "Para descobrir o conhecimento das estrelas, devo honestamente procurar apenas as melhores bruxas.",
+    "antes": "Para descobrir o conhecimento da estrela, estou honestamente procurando apenas as melhores bruxas.",
+    "depois": "Para descobrir o conhecimento das estrelas, devo honestamente procurar apenas as melhores bruxas."
+  },
+  "How vivid, you ask? Those who have seen it say that it was so stunning that it almost felt [em1]alive[/em1].": {
+    "original": "Quão vivo, você pergunta? Aqueles que viram disseram que era tão deslumbrante que quase parecia [em1]vivo[/em1].",
+    "antes": "Quão vívido, você pergunta? Quem o viu diz que era tão deslumbrante que quase parecia [em1]vivo[/em1].",
+    "depois": "Quão vívido, você pergunta? Aqueles que viram dizem que era tão deslumbrante que quase parecia [em1]vivo[/em1]."
+  },
+  "Hmm, this is a high-end taste. It's pretty good.": {
+    "original": "Hmm, este é um sabor sofisticado. É muito bom.",
+    "antes": "Hmm, isso é de um gosto refinado. É muito bom.",
+    "depois": "Hmm, isso demonstra um gosto refinado. É muito bom."
+  },
+  "I’m making a new one rather than fixing.": {
+    "original": "Estou fazendo uma nova em vez de consertar.",
+    "antes": "Estou fazendo uma nova em vez de consertá-la.",
+    "depois": "Estou fazendo uma nova em vez de consertar."
+  },
+  "If you're done, let's talk to [em1]Rubrum[/em1] and go.": {
+    "original": "Se você terminou, vamos falar com [em1]Rubrum[/em1] e ir.",
+    "antes": "Se você terminou, vamos falar com [em1]Rubrum[/em1] e partir.",
+    "depois": "Se você terminou, vamos falar com [em1]Rubrum[/em1] e ir."
+  },
+  "And they look different from what I see in other villages. It's a new experience!": {
+    "original": "Eles parecem diferentes do que vejo em outros vilarejos. É uma nova experiência!",
+    "antes": "Elas parecem diferentes do que vejo em outros vilarejos. É uma nova experiência!",
+    "depois": "Eles parecem diferentes do que vejo em outros vilarejos. É uma nova experiência!"
+  },
+  "Wow, it's so clear!": {
+    "original": "Uau, está tão clara!",
+    "antes": "Uau, está tão claro!",
+    "depois": "Uau, está tão clara!"
+  },
+  "It doesn't look in great shape, does it?": {
+    "original": "Ele não parece estar em boas condições, não?",
+    "antes": "Não parece estar em boas condições, não?",
+    "depois": "Ele não parece estar em boas condições, não?"
+  },
+  "This is for helping Rubrum.\\r": {
+    "original": "Isto é por ajudar o Rubrum.\\r",
+    "antes": "Isto é por ter ajudado o Rubrum.\\r",
+    "depois": "Isto é por ajudar o Rubrum.\\r"
+  },
+  "Don’t give": {
+    "original": "Não dar",
+    "antes": "Não dê",
+    "depois": "Não dar"
+  },
+  "I don't really care about the knowledge of the star, though.": {
+    "original": "Na verdade, não me importo muito com o conhecimento das estrelas.",
+    "antes": "Na verdade, não me importo muito com o conhecimento da estrela.",
+    "depois": "Na verdade, não me importo muito com o conhecimento das estrelas."
+  },
+  "And the toppings feel similar.": {
+    "original": "E os recheios parecem semelhantes.",
+    "antes": "E as coberturas parecem semelhantes.",
+    "depois": "E os recheios parecem semelhantes."
+  },
+  "The village has been badly destroyed by the prickly vines and the people are all gone.": {
+    "original": "A vila foi muito destruída pelas vinhas espinhosas e as pessoas todas se foram.",
+    "antes": "A vila foi gravemente destruída pela Vinha Espinhosa e todas as pessoas desapareceram.",
+    "depois": "A vila foi muito destruída pelas vinhas espinhosas e as pessoas todas se foram."
+  },
+  "There's no way Clala really wanted to throw it away.": {
+    "original": "Não há como Clala realmente querer jogar fora.",
+    "antes": "Não é possível que Clala realmente quisesse jogá-lo fora.",
+    "depois": "Não há como Clala realmente querer jogar fora."
+  },
+  "Take a look at that giant prickly vine.": {
+    "original": "Dê uma olhada naquela vinha espinhosa gigante.",
+    "antes": "Dê uma olhada naquela Vinha Espinhosa gigante.",
+    "depois": "Dê uma olhada naquela vinha espinhosa gigante."
+  },
+  "We need more [em1]information[/em1] on this prickly vine.": {
+    "original": "Precisamos de mais [em1]informações[/em1] sobre esta vinha espinhosa.",
+    "antes": "Precisamos de mais [em1]informações[/em1] sobre esta Vinha Espinhosa.",
+    "depois": "Precisamos de mais [em1]informações[/em1] sobre esta vinha espinhosa."
+  },
+  "Right, I think it likes them, since it gobbled them down.": {
+    "original": "Certo, acho que ele gosta, já que devorou.",
+    "antes": "Certo, acho que ela gosta, já que devorou.",
+    "depois": "Certo, acho que ele gosta, já que devorou."
+  },
+  "When you trade in all kinds of goods, you can't avoid running into them.": {
+    "original": "Quando se comercia todos os tipos de bens, não se pode evitar encontrá-las.",
+    "antes": "Quando se comercia todos os tipos de bens, não se pode evitar encontrá-los.",
+    "depois": "Quando se comercia todos os tipos de bens, não se pode evitar encontrá-las."
+  },
+  "I'm not! It was really big and soft.": {
+    "original": "Não estou! Era realmente grande e macio.",
+    "antes": "Não! Era realmente grande e macio.",
+    "depois": "Não estou! Era realmente grande e macio."
+  },
+  "It's been a while since I last saw that.": {
+    "original": "Faz tempo desde a última vez que vi essa.",
+    "antes": "Faz tempo desde a última vez que vi aquilo.",
+    "depois": "Faz tempo desde a última vez que vi essa."
+  },
+  "Some tried to [<font=\"Astronomicon SDF\">Q</font>] traces of evil [spells <font=\"Astronomicon SDF\">I</font>] and punish those involved.  ": {
+    "original": "Alguns tentaram [<font=\"Astronomicon SDF\">Q</font>]rastrear vestígios de mal[spells <font=\"Astronomicon SDF\">I</font>] e punir os envolvidos.",
+    "antes": "Alguns tentaram [<font=\"Astronomicon SDF\">Q</font>] rastrear vestígios de [spells <font=\"Astronomicon SDF\">I</font>] do mal e punir os envolvidos.",
+    "depois": "Alguns tentaram [<font=\"Astronomicon SDF\">Q</font>]rastrear vestígios de mal[spells <font=\"Astronomicon SDF\">I</font>] e punir os envolvidos."
+  },
+  "<shake>Wahaha!</shake> Competitions are cruel in nature! Face your fate, losers! Hat and Ellie!": {
+    "original": "<shake>Wahaha!</shake> Competições são cruéis por natureza! Encarem seu destino, perdedores! Chapéu e Ellie!",
+    "antes": "<shake>Wahaha!</shake> Competições são cruéis por natureza! Encarem seu destino, perdedores! Hat e Ellie!",
+    "depois": "<shake>Wahaha!</shake> Competições são cruéis por natureza! Encarem seu destino, perdedores! Chapéu e Ellie!"
+  },
+  "You are worthy. Once the book is unsealed, my colleagues who are still alive will send a letter. ": {
+    "original": "Vocês são dignas. Uma vez que o livro seja desselado, meus colegas que ainda estão vivos enviarão uma carta.",
+    "antes": "Você é digno. Uma vez que o livro seja desselado, meus colegas que ainda estão vivos enviarão uma carta.",
+    "depois": "Vocês são dignas. Uma vez que o livro seja desselado, meus colegas que ainda estão vivos enviarão uma carta."
+  },
+  "Themselves?": {
+    "original": "A si mesmos?",
+    "antes": "Eles mesmos?",
+    "depois": "A si mesmos?"
+  },
+  "The [em1]villagers[/em1] are all gone. Even if the prickly vines are removed, what's the meaning?": {
+    "original": "Os [em1]aldeões[/em1] se foram todos. Mesmo que as vinhas espinhosas sejam removidas, qual é o significado?",
+    "antes": "Os [em1]aldeões[/em1] se foram. Mesmo que as vinhas espinhosas sejam removidas, qual o sentido?",
+    "depois": "Os [em1]aldeões[/em1] se foram todos. Mesmo que as vinhas espinhosas sejam removidas, qual é o significado?"
+  },
+  "Still... it has your name on it, Ellie.": {
+    "original": "Ainda assim... tem seu nome nela, Ellie.",
+    "antes": "Ainda assim... tem seu nome, Ellie.",
+    "depois": "Ainda assim... tem seu nome nela, Ellie."
+  },
+  "I don't think I've repaired their bags. They keep their belongings in good shape.": {
+    "original": "Acho que não consertei suas bolsas. Elas mantêm seus pertences bem organizados.",
+    "antes": "Acho que não consertei as bolsas deles. Eles mantêm seus pertences em bom estado.",
+    "depois": "Acho que não consertei suas bolsas. Elas mantêm seus pertences bem organizados."
+  },
+  "The author... is a witch named [em1]Parks[/em1]. Do you know him?": {
+    "original": "O autor... é uma bruxa chamada [em1]Parks[/em1]. Você a conhece?",
+    "antes": "O autor... é um bruxo chamado [em1]Parks[/em1]. Você o conhece?",
+    "depois": "O autor... é uma bruxa chamada [em1]Parks[/em1]. Você a conhece?"
+  },
+  "I forgot everything because it's been a while since I've learned it and I haven't used it either.": {
+    "original": "Esqueci tudo porque já faz um tempo desde que aprendi e também não usei.",
+    "antes": "Esqueci tudo porque já faz um tempo desde que aprendi e também não o usei.",
+    "depois": "Esqueci tudo porque já faz um tempo desde que aprendi e também não usei."
+  },
+  "Firstly, go to the [em1]locations where prickly vine cores used to be[/em1].": {
+    "original": "Primeiro, vá para os [em1]locais onde os núcleos das vinhas espinhosas costumavam estar[/em1].",
+    "antes": "Primeiro, vá para os [em1]locais onde os Núcleos da Vinha Espinhosa costumavam estar[/em1].",
+    "depois": "Primeiro, vá para os [em1]locais onde os núcleos das vinhas espinhosas costumavam estar[/em1]."
+  },
+  "Right": {
+    "original": "Direita",
+    "antes": "Certo",
+    "depois": "Direita"
+  },
+  "When I left the village, I thought the prickly vines would never be removed...": {
+    "original": "Quando deixei a vila, pensei que as vinhas espinhosas nunca seriam removidas...",
+    "antes": "Quando deixei a vila, pensei que as Vinhas Espinhosas nunca seriam removidas...",
+    "depois": "Quando deixei a vila, pensei que as vinhas espinhosas nunca seriam removidas..."
+  },
+  "You shouldn't be that violent even if you refuse to be easy on it.": {
+    "original": "Você não deveria ser tão violenta mesmo se se recusar a ser cuidadosa.",
+    "antes": "Você não deveria ser tão violento, mesmo se se recusar a pegar leve com ele.",
+    "depois": "Você não deveria agir de forma tão violenta, mesmo se se recusar a pegar leve."
+  },
+  "Anyway! You must be more cautious. You gave everyone a scare.": {
+    "original": "De qualquer forma! Vocês devem ser mais cautelosos. Deram um susto em todos.",
+    "antes": "De qualquer forma! Você deve ser mais cauteloso. Você deu um susto em todo mundo.",
+    "depois": "De qualquer forma! Vocês devem ser mais cautelosos. Deram um susto em todos."
+  },
+  "I've always visited the lake from time to time for no specific reason. That's all.": {
+    "original": "Eu sempre visito o lago de tempos em tempos sem motivo específico. Isso é tudo.",
+    "antes": "Eu costumava visitar o lago de vez em quando sem motivo específico. Isso é tudo.",
+    "depois": "Eu sempre visito o lago de tempos em tempos sem motivo específico. Isso é tudo."
+  },
+  "It's the story of the [em1]First Witch[/em1]. I remember it well since I often heard it from my grandmother.": {
+    "original": "É a história da [em1]Primeira Bruxa[/em1]. Eu me lembro bem pois ouvia muito dela da minha avó.",
+    "antes": "É a história da [em1]Primeira Bruxa[/em1]. Eu a ouvia muito da minha avó.",
+    "depois": "É a história da [em1]Primeira Bruxa[/em1]. Lembro-me bem, pois a ouvia muitas vezes da minha avó."
+  },
+  "That was the first time I felt ashamed... and decided that I must learn to read and write.": {
+    "original": "Foi a primeira vez que me senti envergonhada... e decidi que preciso aprender a ler e escrever.",
+    "antes": "Foi a primeira vez que me senti envergonhada... e decidi que deveria aprender a ler e escrever.",
+    "depois": "Foi a primeira vez que me senti envergonhada... e decidi que precisava aprender a ler e escrever."
+  },
+  "And examine the star on my way!": {
+    "original": "E examinar a estrela no caminho!",
+    "antes": "E examine a estrela no caminho!",
+    "depois": "E examinar a estrela no caminho!"
+  },
+  "What have you got?": {
+    "original": "O que você conseguiu?",
+    "antes": "O que você tem?",
+    "depois": "O que você conseguiu?"
+  },
+  "Nice to meet you too, Arin.": {
+    "original": "Prazer em conhecê-la também, Arin.",
+    "antes": "Prazer em conhecê-lo também, Arin.",
+    "depois": "Prazer em conhecê-la também, Arin."
+  },
+  "Yes, Arden stayed even when the village was a total mess.": {
+    "original": "Sim, Arden ficou mesmo quando a vila estava uma bagunça total.",
+    "antes": "Sim, Arden ficou mesmo quando a vila estava uma bagunça.",
+    "depois": "Sim, Arden ficou mesmo quando a vila estava uma bagunça total."
+  },
+  "I hope their apprenticeships are going well.": {
+    "original": "Espero que seus aprendizados estejam indo bem.",
+    "antes": "Espero que os aprendizados deles estejam indo bem.",
+    "depois": "Espero que seus aprendizados estejam indo bem."
+  },
+  "Hmm... This is ancient witch language.": {
+    "original": "Hmm... Isto é linguagem de bruxa antiga.",
+    "antes": "Hmm... Esta é a linguagem das bruxas antigas.",
+    "depois": "Hmm... Isto é linguagem de bruxa antiga."
+  },
+  "Thank you. I’ll enjoy it.": {
+    "original": "Obrigada. Vou aproveitar.",
+    "antes": "Agradeço. Vou aproveitar.",
+    "depois": "Obrigada. Vou aproveitar."
+  },
+  "If you like a certain flower or are interested in something, he will be a good listener.": {
+    "original": "Se você gosta de uma certa flor ou está interessada em algo, ele será um bom ouvinte.",
+    "antes": "Se você gosta de determinada flor ou tem interesse por algo, ele será um bom ouvinte.",
+    "depois": "Se você gosta de uma certa flor ou está interessada em algo, ele será um bom ouvinte."
+  },
+  "The prickly vines of the village?": {
+    "original": "As vinhas espinhosas da vila?",
+    "antes": "A Vinha Espinhosa da vila?",
+    "depois": "As vinhas espinhosas da vila?"
+  },
+  "So was Lisa really responsible for these prickly vines? ": {
+    "original": "Então a Lisa era realmente responsável por essas vinhas espinhosas?",
+    "antes": "Então a Lisa era realmente responsável por essas Vinhas Espinhosas?",
+    "depois": "Então a Lisa era realmente responsável por essas vinhas espinhosas?"
+  },
+  "Does it remove the prickly vine core?!": {
+    "original": "Ela remove o núcleo da vinha espinhosa?!",
+    "antes": "Isso remove o Núcleo da Vinha Espinhosa?!",
+    "depois": "Isso remove o núcleo da vinha espinhosa?!"
+  },
+  "They tend to fly off the shelves, so I usually have them in stock.\\r": {
+    "original": "Eles tendem a voar das prateleiras, então geralmente os tenho em estoque.\\r",
+    "antes": "Elas tendem a voar das prateleiras, então geralmente as tenho em estoque.\\r",
+    "depois": "Eles tendem a voar das prateleiras, então geralmente os tenho em estoque.\\r"
+  },
+  "Arden, you will live for centuries, right? Haha, you'd probably outlive me even if I had five lives.": {
+    "original": "Arden, você viverá por séculos, certo? Haha, você provavelmente me sobreviveria mesmo se eu tivesse cinco vidas.",
+    "antes": "Arden, você viverá por séculos, certo? Haha, você provavelmente vai me sobreviver mesmo se eu tivesse cinco vidas.",
+    "depois": "Arden, você viverá por séculos, certo? Haha, você provavelmente me sobreviveria mesmo se eu tivesse cinco vidas."
+  },
+  "I mean! I really need it! I won't abuse it!": {
+    "original": "Quero dizer! Eu realmente preciso! Não vou abusar!",
+    "antes": "Quer dizer! Eu realmente preciso! Não vou abusar!",
+    "depois": "Quero dizer! Eu realmente preciso! Não vou abusar!"
+  },
+  "My teacher suggested that I start from keeping a diary. I would naturally be exposed to many words if I wrote down my thoughts.": {
+    "original": "Meu professor sugeriu que eu começasse a manter um diário. Naturalmente, escrever meus pensamentos expôs-me a muitas palavras.",
+    "antes": "Meu professor sugeriu que eu começasse a manter um diário. Naturalmente, eu seria exposto a muitas palavras se eu escrevesse meus pensamentos.",
+    "depois": "Meu professor sugeriu que eu começasse a manter um diário. Naturalmente, escrever meus pensamentos me exporia a muitas palavras."
+  },
+  "Whoever locked it should have taken the key away.": {
+    "original": "Quem quer que a trancou deve ter levado a chave embora.",
+    "antes": "Quem quer que a trancou deve ter levado a chave.",
+    "depois": "Quem quer que a trancou deve ter levado a chave embora."
+  },
+  "Any work takes time to get familiar with.": {
+    "original": "Qualquer trabalho leva tempo para se familiarizar.",
+    "antes": "Qualquer trabalho leva tempo para você se familiarizar.",
+    "depois": "Qualquer trabalho leva tempo para se familiarizar."
+  },
+  "Wait... You know Alvin is a witch too?": {
+    "original": "Espera... Você sabe que o Alvin é uma bruxa também?",
+    "antes": "Espera... Você sabe que o Alvin é um bruxo também?",
+    "depois": "Espera... Você sabe que o Alvin é uma bruxa também?"
+  },
+  "Roy! I've brought the sculpture of the [em1]ever-blooming flower[/em1].": {
+    "original": "Roy! Trouxe a escultura da [em1]flor eternamente florescente[/em1].",
+    "antes": "Roy! Trouxe a escultura da [em1]flor eternamente florida[/em1].",
+    "depois": "Roy! Trouxe a escultura da [em1]flor eternamente florescente[/em1]."
+  },
+  "Other Ritorings, tiny balls, pebbles, even themselves.": {
+    "original": "Outros Ritorings, bolinhas pequenas, pedrinhas, até mesmo a si mesmos.",
+    "antes": "Outros Ritorings, pequenas bolinhas, pedrinhas, até eles mesmos.",
+    "depois": "Outros Ritorings, bolinhas pequenas, pedrinhas, até mesmo a si mesmos."
+  },
+  "I believed the \"living flowers bloom in the heart\" refers to the pansies on my brooch.": {
+    "original": "Acreditei que \"as flores vivas florescem no coração\" se refere aos amor-perfeitos no meu broche.",
+    "antes": "Acreditei que \"as flores vivas florescem no coração\" se referia aos amor-perfeitos no meu broche.",
+    "depois": "Acreditei que \"as flores vivas florescem no coração\" se refere aos amor-perfeitos no meu broche."
+  },
+  "... Th-this is....": {
+    "original": "... I-isso é....",
+    "antes": "... E-este é....",
+    "depois": "... I-isso é...."
+  },
+  "Th-that's it? Could you elaborate a bit?": {
+    "original": "T-tudo? Você poderia explicar um pouco mais?",
+    "antes": "I-isso é tudo? Você poderia explicar um pouco mais?",
+    "depois": "T-tudo? Você poderia explicar um pouco mais?"
+  },
+  "I've got you a little something to cheer you up.": {
+    "original": "Consegui uma coisinha para você para animá-lo.",
+    "antes": "Consegui uma coisinha para animá-la.",
+    "depois": "Consegui uma coisinha para te animar."
+  },
+  "As I said before, houses built by witch craftsmen are sentient.": {
+    "original": "Como eu disse antes, casas construídas por artesãs bruxas são conscientes.",
+    "antes": "Como eu disse antes, casas construídas por artesãos bruxos são sencientes.",
+    "depois": "Como eu disse antes, casas construídas por artesãs bruxas são conscientes."
+  },
+  "And I think they'll be crumbled by even the gentlest touch.": {
+    "original": "E acho que eles serão despedaçados até pelo toque mais gentil.",
+    "antes": "E acho que elas serão despedaçadas até pelo toque mais gentil.",
+    "depois": "E acho que eles serão despedaçados até pelo toque mais gentil."
+  },
+  "The thought of taking off my [em1]shoes[/em1] when I got off the train alone was disturbing enough.": {
+    "original": "A ideia de tirar os [em1]meus sapatos[/em1] quando descer do trem já é bem pertubadora",
+    "antes": "A ideia de tirar os [em1]meus sapatos[/em1] quando saí do trem sozinho já foi suficientemente perturbadora.",
+    "depois": "A ideia de tirar os [em1]meus sapatos[/em1] quando desci do trem já era bastante perturbadora."
+  },
+  "It's nothing. That was Munchy Donut No.51.": {
+    "original": "Não é nada. Era o Donut Munchy N°51.",
+    "antes": "Não é nada. Era o Munchy Donut nº 51.",
+    "depois": "Não é nada. Era o Donut Munchy N°51."
+  },
+  "If the torch deems you unworthy, the certificate will burn to ash.": {
+    "original": "Se a tocha a considerar indigna, o diploma queimará e virará cinzas.",
+    "antes": "Se a tocha te considerar indigno, o certificado queimará e virará cinzas.",
+    "depois": "Se a tocha te considerar indigno(a), o certificado queimará e virará cinzas."
+  },
+  "Although the effect is only temporary, it will keep you making noises for a while.": {
+    "original": "Embora o efeito seja apenas temporário, manterá você fazendo barulhos por um tempo.",
+    "antes": "Embora o efeito seja apenas temporário, vai fazer você ficar fazendo barulho por um tempo.",
+    "depois": "Embora o efeito seja apenas temporário, vai fazer com que você fique fazendo barulho por um tempo."
+  },
+  "I'll place a [em1]Witch's Party Snack Gift Box[/em1] in front of a villager's door.": {
+    "original": "Vou colocar uma [em1]Caixa de Presente de Lanches da Festa da Bruxa[/em1] na frente da porta de um vilarejano.",
+    "antes": "Vou colocar uma [em1]Caixa de Lanches da Festa da Bruxa[/em1] na porta de um morador.",
+    "depois": "Vou colocar uma [em1]Caixa de Presente de Lanches da Festa da Bruxa[/em1] na frente da porta de um vilarejano."
+  },
+  "Canes remind me of a trauma. I don't want to talk about them.": {
+    "original": "Bengalas me lembram um trauma. Não quero falar sobre elas.",
+    "antes": "Bengalas me lembram de um trauma. Não quero falar sobre isso.",
+    "depois": "Bengalas me lembram um trauma. Não quero falar sobre elas."
+  },
+  "I refuse to <wave>work with</wave> a Blueriver.": {
+    "original": "Rejeito <wave>trabalhar com</wave> uma Blueriver.",
+    "antes": "Rejeito <wave>trabalhar com</wave> uma Bluerriver.",
+    "depois": "Rejeito <wave>trabalhar com</wave> uma Blueriver."
+  },
+  "I only enjoy listening to them.": {
+    "original": "Apenas aprecio ouvir as histórias delas.",
+    "antes": "Eu só gosto de ouvi-las.",
+    "depois": "Apenas aprecio ouvir as histórias delas."
+  },
+  "But if you ever do, you're always welcome at our place.": {
+    "original": "Mas se algum dia quiser, você é sempre bem-vindo em nosso lugar.",
+    "antes": "Mas se algum dia quiser, você é sempre bem-vindo em nossa casa.",
+    "depois": "Mas se algum dia quiser, você é sempre bem-vindo em nosso lugar."
+  },
+  "Ahem! We have one more [em1]Special Ballot[/em1] to cast.": {
+    "original": "Ahem! Temos mais um [em1]Voto Especial[/em1] para votar.",
+    "antes": "Ahem! Temos mais um [em1]Voto Especial[/em1] para ser votado.",
+    "depois": "Ahem! Temos mais um [em1]Voto Especial[/em1] para votar."
+  },
+  "While the memories in my heart will last much longer, like a solid bridge.": {
+    "original": "Enquanto as memórias em meu coração durarão muito mais, como uma ponte sólida.",
+    "antes": "As memórias em meu coração durarão muito mais, como uma ponte sólida.",
+    "depois": "Enquanto as memórias em meu coração durarão muito mais, como uma ponte sólida."
+  },
+  "And when it's done, that's the ending.": {
+    "original": "E quando termina, esse é o final.",
+    "antes": "E quando estiver pronto, esse é o final.",
+    "depois": "E quando termina, esse é o final."
+  },
+  "It looks like your master witch has quite a temper.": {
+    "original": "Parece que sua bruxa mestra tem um temperamento bastante forte.",
+    "antes": "Parece que sua mestra bruxa tem um temperamento bem forte.",
+    "depois": "Parece que sua bruxa mestra tem um temperamento bastante forte."
+  },
+  "What about the toppings?": {
+    "original": "E os recheios?",
+    "antes": "E as coberturas?",
+    "depois": "E os recheios?"
+  },
+  "But I don't have those.": {
+    "original": "Mas não tenho essas.",
+    "antes": "Mas eu não conheço ninguém assim.",
+    "depois": "Mas não tenho essas."
+  },
+  "Why give me?": {
+    "original": "Por que me dar?",
+    "antes": "Por que me dar isso?",
+    "depois": "Por que me dar?"
+  },
+  "Well, don't be too positive... I'm not a great cook.": {
+    "original": "Bem, não seja tão positiva... Não sou um grande cozinheiro.",
+    "antes": "Bem, não seja tão positiva... Não sou uma boa cozinheira.",
+    "depois": "Bem, não seja tão positiva... Não sou um grande cozinheiro."
+  },
+  "They'll take a seat, enjoy the treats, and write down their absolute favorite on the ballot. Simple as that!": {
+    "original": "Eles se sentarão, desfrutarão dos doces e escreverão seu favorito absoluto no voto. Fácil assim!",
+    "antes": "Eles se sentarão, aproveitarão as guloseimas e escreverão seu favorito absoluto na cédula. Simples assim!",
+    "depois": "Eles se sentarão, desfrutarão dos doces e escreverão seu favorito absoluto no voto. Fácil assim!"
+  },
+  "Ellie, you've been to the library several times... I believe you get my point?": {
+    "original": "Ellie, você esteve na biblioteca várias vezes... Acredito que entende meu ponto?",
+    "antes": "Ellie, você foi à biblioteca várias vezes... Acredito que entendeu meu ponto?",
+    "depois": "Ellie, você esteve na biblioteca várias vezes... Acredito que entende meu ponto?"
+  },
+  "But I thought pepper is pretty cheap these days? Anyway, I don't really like pepper.": {
+    "original": "Mas achei que pimenta é bem barata hoje em dia? De qualquer forma, não gosto muito de pimenta.",
+    "antes": "Mas achei que a pimenta fosse bem barata hoje em dia? De qualquer forma, não gosto muito de pimenta.",
+    "depois": "Mas achei que pimenta é bem barata hoje em dia? De qualquer forma, não gosto muito de pimenta."
+  },
+  "Oh, that was me. Since I figured neither of you would win anyway, I thought I'd share the love.": {
+    "original": "Oh, foi eu. Como pensei que vocês dois não ganhariam de qualquer forma, decidi compartilhar o amor.",
+    "antes": "Ah, fui eu. Como achei que nenhum de vocês ia ganhar de qualquer forma, decidi compartilhar.",
+    "depois": "Oh, foi eu. Como pensei que vocês dois não ganhariam de qualquer forma, decidi compartilhar o amor."
+  },
+  "Interesting stories, isn't it?": {
+    "original": "Histórias interessantes, não é?",
+    "antes": "Histórias interessantes, não são?",
+    "depois": "Histórias interessantes, não é?"
+  },
+  "Don't go away when you've cleaned the mess, understood?": {
+    "original": "Não saia quando terminar de limpar a bagunça, entendeu?",
+    "antes": "Não vá embora quando terminar de limpar a bagunça, entendeu?",
+    "depois": "Não saia quando terminar de limpar a bagunça, entendeu?"
+  },
+  "Talk about flute playing, and Rex comes up! Talk about Rex, and flute playing comes up!": {
+    "original": "Falar sobre flauta e Rex aparece! Falar sobre Rex e a flauta vem à mente!",
+    "antes": "Menciona tocar flauta e o Rex aparece! Menciona o Rex e aparece falar de tocar flauta!",
+    "depois": "Fale sobre tocar flauta e o Rex aparece! Fale sobre o Rex e o assunto de tocar flauta aparece!"
+  },
+  "Both the prickly vine and that big guy go this way. We must do the same.": {
+    "original": "Tanto a vinha espinhosa quanto aquele cara grandão foram por aqui. Devemos fazer o mesmo.",
+    "antes": "Tanto a vinha espinhosa quanto aquele cara grandão vão por aqui. Devemos fazer o mesmo.",
+    "depois": "Tanto a vinha espinhosa quanto aquele cara grandão foram por aqui. Devemos fazer o mesmo."
+  },
+  "Until recently? Then you don't have it now?": {
+    "original": "Até recentemente? Então você não a tem agora?",
+    "antes": "Até recentemente? Então você não tem agora?",
+    "depois": "Até recentemente? Então você não a tem agora?"
+  },
+  "And we know little about this Tanis.": {
+    "original": "E sabemos pouco sobre esta Tanis.",
+    "antes": "E sabemos pouco sobre essa Tanis.",
+    "depois": "E sabemos pouco sobre esta Tanis."
+  },
+  "Later, when I met Rubrum, he said he left it at the [em1]sundries store[/em1].": {
+    "original": "Mais tarde, quando encontrei o Rubrum, ele disse que a deixou na [em1]loja de variedades[/em1].",
+    "antes": "Mais tarde, quando encontrei o Rubrum, ele disse que o deixou na [em1]loja de variedades[/em1].",
+    "depois": "Mais tarde, quando encontrei o Rubrum, ele disse que a deixou na [em1]loja de variedades[/em1]."
+  },
+  "Great, if we can figure out these, we may be able to obtain more information.": {
+    "original": "Ótimo, se conseguirmos decifrar isso, podemos obter mais informações.",
+    "antes": "Ótimo, se conseguirmos decifrar esses, podemos obter mais informações.",
+    "depois": "Ótimo, se conseguirmos decifrar isso, podemos obter mais informações."
+  },
+  "Give [em1]1x [lua(GetItemName(\"BubbleLizard_Water\"))][/em1] to Alvin?": {
+    "original": "Dar [em1]1x [lua(GetItemName(\"BubbleLizard_Water\"))][/em1] para o Alvin?",
+    "antes": "Dê [em1]1x [lua(GetItemName(\"BubbleLizard_Water\"))][/em1] para o Alvin?",
+    "depois": "Dar [em1]1x [lua(GetItemName(\"BubbleLizard_Water\"))][/em1] para o Alvin?"
+  },
+  "It's still alive... but just barely.": {
+    "original": "Ela ainda está viva... mas apenas por pouco.",
+    "antes": "Ainda está vivo... mas por pouco.",
+    "depois": "Ela ainda está viva... mas apenas por pouco."
+  },
+  "I gave it to him not long ago. He asked me for it.": {
+    "original": "Dei a ele não faz muito tempo. Ele me pediu.",
+    "antes": "Dei a ele há não muito tempo. Ele me pediu.",
+    "depois": "Dei a ele não faz muito tempo. Ele me pediu."
+  },
+  "It did.": {
+    "original": "Disse.",
+    "antes": "Aconteceu.",
+    "depois": "Disse."
+  },
+  "Why? I'm really fine.": {
+    "original": "Por quê? Estou realmente bem.",
+    "antes": "Por que? Estou realmente bem.",
+    "depois": "Por quê? Estou realmente bem."
+  },
+  "We can find the core if we follow that.": {
+    "original": "Podemos encontrar o núcleo se seguirmos isso.",
+    "antes": "Se seguirmos por ali, podemos encontrar o núcleo.",
+    "depois": "Podemos encontrar o núcleo se seguirmos aquilo."
+  },
+  "But I've never set foot in one, so it's hard to picture.": {
+    "original": "Mas nunca pus os pés em uma, então é difícil imaginar.",
+    "antes": "Mas nunca pus os pés em um, então é difícil imaginar.",
+    "depois": "Mas nunca pus os pés em uma, então é difícil imaginar."
+  },
+  "I'll tell you everything as long as you do me the favor.": {
+    "original": "Conto tudo desde que você me faça o favor.",
+    "antes": "Conto tudo, desde que você me faça um favor.",
+    "depois": "Conto tudo desde que você me faça o favor."
+  },
+  "My favorite place was the [em1]Garden of Tides[/em1] I visited before enrolling in the School for Witches.": {
+    "original": "Meu lugar favorito foi o [em1]Jardim das Marés[/em1] que visitei antes de me matricular na Escola para Bruxas.",
+    "antes": "Meu lugar favorito foi o [em1]Jardim das Marés[/em1] que visitei antes de me matricular na Escola de Bruxas.",
+    "depois": "Meu lugar favorito foi o [em1]Jardim das Marés[/em1] que visitei antes de me matricular na Escola para Bruxas."
+  },
+  "That's so thoughtful of you.": {
+    "original": "Você é muito atencioso(a).",
+    "antes": "Que atencioso da sua parte.",
+    "depois": "Você é muito atencioso(a)."
+  },
+  "I used Twinkle-Twinkle Juice like I did for the streetlamps.": {
+    "original": "Usei Suco Brilha-Brilha como fiz para os lampiões.",
+    "antes": "Usei Suco Brilha-Brilha como usei nos lampiões.",
+    "depois": "Usei Suco Brilha-Brilha como fiz para os lampiões."
+  },
+  "You are a [em1]man of miracle[/em1], who connects people with flowers.": {
+    "original": "Você é um [em1]homem do milagre[/em1], que conecta pessoas com flores.",
+    "antes": "Você é um [em1]homem dos milagres[/em1], que conecta pessoas com flores.",
+    "depois": "Você é um [em1]homem do milagre[/em1], que conecta pessoas com flores."
+  },
+  "No need to rush. Now that the village is free of prickly vines, we have all the time we need.": {
+    "original": "Não há pressa. Agora que o vilarejo está livre das trepadeiras espinhosas, temos todo o tempo do mundo.",
+    "antes": "Não há pressa. Agora que o vilarejo está livre da Vinha Espinhosa, temos todo o tempo do mundo.",
+    "depois": "Não há pressa. Agora que o vilarejo está livre das trepadeiras espinhosas, temos todo o tempo do mundo."
+  },
+  "Ho ho, I wasn't sitting around when you were fighting prickly vines.": {
+    "original": "He he, eu não estava sentada lá quando vocês estavam lutando contra as trepadeiras espinhosas.",
+    "antes": "Ho ho, eu não estava sentada lá quando vocês estavam lutando contra a Vinha Espinhosa.",
+    "depois": "He he, eu não estava sentada lá quando vocês estavam lutando contra as trepadeiras espinhosas."
+  },
+  "My mother had her hands full because of him.": {
+    "original": "Minha mãe tinha as mãos cheias por causa dele.",
+    "antes": "Minha mãe ficou com as mãos cheias por causa dele.",
+    "depois": "Minha mãe tinha as mãos cheias por causa dele."
+  },
+  "There was... <shake>(panting)</shake> There was an accident... You'd better... all have a look...": {
+    "original": "Houve... <shake>(ofegante)</shake> Houve um acidente... É melhor... todos darem uma olhada...",
+    "antes": "Houve... <shake>(ofegando)</shake> Houve um acidente... É melhor... todos darem uma olhada...",
+    "depois": "Houve... <shake>(ofegante)</shake> Houve um acidente... É melhor... todos darem uma olhada..."
+  },
+  "That's still quite rough. Be easier.": {
+    "original": "Isso ainda é bastante bruto. Seja mais cuidadosa.",
+    "antes": "Ainda ficou bem áspero. Seja mais gentil.",
+    "depois": "Isso ainda é bastante bruto. Seja mais cuidadosa."
+  },
+  "Wait, why grab my ear...": {
+    "original": "Espere, por que puxar minha orelha...",
+    "antes": "Espere, por que puxou minha orelha...",
+    "depois": "Espere, por que puxar minha orelha..."
+  },
+  "Sell Star Crystals": {
+    "original": "Venda cristais estelares",
+    "antes": "Venda Cristais Estelares",
+    "depois": "Venda cristais estelares"
+  },
+  "Exchange Star Crystals": {
+    "original": "Trocar Cristais Estelares",
+    "antes": "Troque Cristais Estelares",
+    "depois": "Trocar Cristais Estelares"
+  },
+  "They're in excellent condition. I'll give them a quick polish.": {
+    "original": "Eles estão em excelentes condições. Vou dar-lhes um polimento rápido.",
+    "antes": "Elas estão em excelente estado. Vou dar-lhes um polimento rápido.",
+    "depois": "Eles estão em excelentes condições. Vou dar-lhes um polimento rápido."
+  },
+  "Just looking at it lifts my spirits.": {
+    "original": "Só de olhar isso levanta meu ânimo.",
+    "antes": "Só de olhar para ela já me anima.",
+    "depois": "Só de olhar isso levanta meu ânimo."
+  },
+  "Ah, our donor is here. What can I do for you?": {
+    "original": "Ah, nosso doador está aqui. O que posso fazer para você?",
+    "antes": "Ah, nossa doadora está aqui. O que posso fazer por você?",
+    "depois": "Ah, nosso doador está aqui. O que posso fazer para você?"
+  },
+  "Ah, \"making\"? You mean you made them yourself?": {
+    "original": "Ah, \"fazer\"? Quer dizer que você mesmo os fez?",
+    "antes": "Ah, 'criação'? Quer dizer que você os fez?",
+    "depois": "Ah, 'criação'? Quer dizer que você mesmo os fez?"
+  },
+  "Because cats don't listen.": {
+    "original": "Porque os gatos não ouvem.",
+    "antes": "Porque os gatos não obedecem.",
+    "depois": "Porque os gatos não ouvem."
+  },
+  "Yes, very. Being one of the three disciple families, after all.": {
+    "original": "Sim, muito. Afinal, sendo uma das três famílias de discípulos.",
+    "antes": "Sim, muito. Afinal, é uma das três famílias de discípulos.",
+    "depois": "Sim, muito. Afinal, sendo uma das três famílias de discípulos."
+  },
+  "You never know where they might come in handy.": {
+    "original": "Você nunca sabe onde eles podem ser úteis.",
+    "antes": "Você nunca sabe onde elas podem ser úteis.",
+    "depois": "Você nunca sabe onde eles podem ser úteis."
+  },
+  "Thank you for showing me the other halls. I've really enjoyed the tour.": {
+    "original": "Obrigado por me mostrar os outros corredores. Eu realmente gostei do passeio.",
+    "antes": "Obrigado por me mostrar os outros salões. Eu realmente gostei do passeio.",
+    "depois": "Obrigado por me mostrar os outros corredores. Eu realmente gostei do passeio."
+  },
+  "I get the [lua(GetLocalizedString(\"Item\", \"CoolHeadCandy_Name\"))], but [lua(GetLocalizedString(\"Item\", \"WhisperCandy_Name\"))]?": {
+    "original": "Eu recebo o [lua(GetLocalizedString(\"Item\", \"CoolHeadCandy_Name\"))], mas [lua(GetLocalizedString(\"Item\", \"WhisperCandy_Name\"))]?",
+    "antes": "Eu uso o [lua(GetLocalizedString(\"Item\", \"CoolHeadCandy_Name\"))], mas o [lua(GetLocalizedString(\"Item\", \"WhisperCandy_Name\"))]?",
+    "depois": "Eu entendo o [lua(GetLocalizedString(\"Item\", \"CoolHeadCandy_Name\"))], mas e o [lua(GetLocalizedString(\"Item\", \"WhisperCandy_Name\"))]?"
+  },
+  "You should try it yourself next time, Diane. I bet you'd find it fun!": {
+    "original": "Você deveria tentar da próxima vez, Diane. Aposto que você acharia divertido!",
+    "antes": "Você deveria tentar da próxima vez, Diane. Aposto que você acharia divertida!",
+    "depois": "Você deveria tentar da próxima vez, Diane. Aposto que você acharia divertido!"
+  },
+  "As the manager of the Records Department, I needed to judge what kind of witch you are.": {
+    "original": "Como gerente do Departamento de Registros, precisava julgar que tipo de bruxa você é.",
+    "antes": "Como gerente do Departamento de Registros, precisava julgar que tipo de bruxa você era.",
+    "depois": "Como gerente do Departamento de Registros, precisava julgar que tipo de bruxa você é."
+  },
+  "Aria and Aiden spent five years as apprentice witches.": {
+    "original": "Aria e Aiden passaram cinco anos como bruxas aprendizes.",
+    "antes": "Aria e Aiden passaram cinco anos como aprendizes de bruxa.",
+    "depois": "Aria e Aiden passaram cinco anos como aprendizes de bruxaria."
+  },
+  "Thank you for making it!": {
+    "original": "Obrigado por fazer isso!",
+    "antes": "Obrigado por ter vindo!",
+    "depois": "Obrigado por fazer isso!"
+  },
+  "It could have been dangerous.": {
+    "original": "Poderia ter sido perigosa.",
+    "antes": "Poderia ter sido perigoso.",
+    "depois": "Poderia ter sido perigosa."
+  },
+  "Really? What made it so scary?": {
+    "original": "Sério? O que a tornou tão assustadora?",
+    "antes": "Sério? O que tornou isso tão assustador?",
+    "depois": "Sério? O que a tornou tão assustadora?"
+  },
+  "It's Enite's pie! <wave>Smells like heaven~</wave>": {
+    "original": "É a torta da Enite! <wave>Cheira ao céu~</wave>",
+    "antes": "É a torta da Enite! <wave>Cheira a paraíso~</wave>",
+    "depois": "É a torta da Enite! <wave>Cheira ao paraíso~</wave>"
+  },
+  "I'll help you.": {
+    "original": "Eu vou ajudá-la.",
+    "antes": "Vou te ajudar.",
+    "depois": "Eu vou ajudá-la."
+  },
+  "Alright. I’ll look for it.": {
+    "original": "Tudo bem. Vou procurá-la.",
+    "antes": "Tudo bem. Vou procurar.",
+    "depois": "Tudo bem. Vou procurá-la."
+  },
+  "Let's insert it.": {
+    "original": "Vamos inseri-la.",
+    "antes": "Vamos inserir.",
+    "depois": "Vamos inseri-la."
+  },
+  "Hmm, curious, are you? It’s my secret recipe.": {
+    "original": "Hmm, curiosa, hein? É minha receita secreta.",
+    "antes": "Hmm, curioso, hein? É minha receita secreta.",
+    "depois": "Hmm, curiosa, hein? É minha receita secreta."
+  }
+}

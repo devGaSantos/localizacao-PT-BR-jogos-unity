@@ -1,0 +1,22 @@
+{
+  "arquivo_entrada": "relatorio_antes_depois_corrigidas.json",
+  "arquivo_aprovadas_replace": "alteracoes_aprovadas_para_replace.json",
+  "arquivo_reprovadas_antes_depois": "alteracoes_reprovadas_com_sugestao.json",
+  "arquivo_checkpoint": "checkpoint_auditoria_antes_depois.json",
+  "arquivo_erros": "erros_auditoria_antes_depois.json",
+  "modelo": "gpt-5-mini",
+  "batch_size": 25,
+  "limit": null,
+  "total_entrada_processada": 3065,
+  "total_auditadas_salvas": 3065,
+  "total_aprovadas_para_replace": 2734,
+  "total_reprovadas_com_sugestao": 331,
+  "decisoes": {
+    "APROVAR": 2734,
+    "REPROVAR": 331
+  },
+  "total_erros_registrados": 0,
+  "total_lotes_processados_nesta_execucao": 123,
+  "tempo_total_segundos": 6321.48,
+  "tempo_total_formatado": "01h 45m 21s"
+}

@@ -9,7 +9,7 @@ try:
     from config_api import OPENAI_API_KEY, OPENAI_MODEL
 except ImportError:
     OPENAI_API_KEY = "COLE_SUA_CHAVE_AQUI"
-    OPENAI_MODEL = "gpt-5.4-mini"
+    OPENAI_MODEL = "gpt-5-mini"
 
 
 # ============================================================
@@ -28,7 +28,7 @@ BATCH_SIZE = 50
 
 # LIMIT = 50, 500, 1000 para teste.
 # LIMIT = None para processar tudo.
-LIMIT = 1000
+LIMIT = None
 
 # Pausa entre chamadas.
 SLEEP_BETWEEN_REQUESTS = 0.5
@@ -62,7 +62,6 @@ PROTECTED_EN_TO_PT_TERMS = {
     "Prickly Vine": "Vinha Espinhosa",
     "Prickly Vine Core": "Núcleo da Vinha Espinhosa",
     "Red Forget-me-not Tea": "Chá de Miosótis Vermelho",
-    "Diana": "Diane"
 }
 
 PROTECTED_PT_TERMS = [
@@ -99,6 +98,7 @@ PROTECTED_CHARACTER_NAMES = [
     "Arin",
     "Rahel",
     "Kent",
+    "Diana",
 ]
 
 
@@ -183,13 +183,6 @@ Exemplos ruins:
 - "Vamos brincar juntas mais vezes!" -> "Vamos brincar mais vezes!"
   Ruim se remove a ideia de together/juntas sem necessidade.
 
-REGRA DE VERBOS AMBÍGUOS:
-- Não troque verbos ambíguos como "have", "get", "take", "make it", "bring", "carry", "go", "do" sem contexto claro.
-- Se a tradução atual escolhe uma interpretação possível e não está claramente errada, mantenha.
-- Só altere "have" para "levar", "comer", "pegar", "ter" etc. quando o contexto deixar claro.
-- Não troque "Thank you for making it" para "Obrigado por ter vindo" sem contexto claro de chegada/presença.
-- Não remova referentes como "ele/ela/isso" se isso deixar a frase mais vaga.
-
 REGRA CRÍTICA DE NOMES DE PERSONAGENS:
 - Nunca altere nomes próprios de personagens já presentes na tradução atual.
 - Não corrija nomes de personagens com base apenas no inglês.
@@ -197,15 +190,6 @@ REGRA CRÍTICA DE NOMES DE PERSONAGENS:
 - Se a tradução atual usa "Roy", "Ellie", "Kyla", "Aurea", "Enite", "Arden", "Rubrum", "Clala", "Vinch", "Lisa", "Kate", "Alvin", "Virgil", mantenha exatamente igual.
 - Só altere nome próprio se houver regra explícita no glossário dizendo para alterar.
 - Nomes próprios não devem ser traduzidos, adaptados, corrigidos, feminizados, masculinizados ou normalizados.
-
-REGRA CRÍTICA DE OBJETOS AMBÍGUOS, "THEM", "IT" E "DID":
-- Não transforme automaticamente "them" em "eles", "elas", "os", "as", "deles", "delas", "trazê-los", "levá-los" etc. quando o referente não estiver claro.
-- Em PT-BR, muitas vezes é mais natural e seguro omitir o objeto quando ele já está implícito pelo contexto.
-- Se a tradução atual omite o objeto de forma natural, não adicione pronome de gênero sem contexto explícito.
-- Não invente gênero para objetos, pessoas ou grupos referidos por "them".
-- Não traduza "did" literalmente como "o fez", "o fizeram" ou "eles o fizeram" se isso soar formal, duro ou sem referente claro.
-- Quando "did" retoma uma ação anterior e o contexto não está disponível, mantenha a tradução atual se ela estiver compreensível.
-- Só explicite "eles/elas/os/as" se o referente estiver claro e a frase precisar disso para preservar o sentido.
 
 LORE, NOMES E TÍTULOS:
 - Não reinterpretar gênero de nomes próprios, títulos, entidades, deuses, criaturas, locais ou itens já padronizados.
@@ -225,6 +209,17 @@ TOM EM DIÁLOGO PT-BR:
 - Não troque palavras comuns por termos formais sem necessidade.
 - Evite "jamais", "o fiz", "o fizeram", "a que", "de que" quando a frase ficar formal demais para o tom do jogo.
 - Use formas naturais de PT-BR, desde que corretas e fiéis ao inglês.
+
+REGRA DE VERBOS E REFERENTES AMBÍGUOS:
+- Não troque verbos ambíguos como "have", "get", "take", "make it", "bring", "carry", "go", "do" sem contexto claro.
+- Se a tradução atual escolhe uma interpretação possível e não está claramente errada, mantenha.
+- Só altere "have" para "levar", "comer", "pegar", "ter" etc. quando o contexto deixar claro.
+- Não troque "Thank you for making it" para "Obrigado por ter vindo" sem contexto claro de chegada/presença.
+- Não transforme automaticamente "them" em "eles", "elas", "os", "as", "trazê-los", "levá-los" etc. quando o referente não estiver claro.
+- Em PT-BR, muitas vezes é mais natural e seguro omitir o objeto quando ele já está implícito pelo contexto.
+- Se a tradução atual omite o objeto de forma natural, não adicione pronome de gênero sem contexto explícito.
+- Não traduza "did" literalmente como "o fez", "o fizeram", "morreu" ou "morreram" sem contexto explícito.
+- Quando "did" retoma uma ação anterior e o contexto não está disponível, mantenha a tradução atual se ela estiver compreensível.
 
 PRESERVAÇÃO TÉCNICA OBRIGATÓRIA:
 - Preserve tags e placeholders exatamente quando aparecerem:
@@ -278,6 +273,7 @@ GLOSSÁRIO E PADRÕES:
 - wisteria flowers, quando for a planta = flores de glicínia.
 - Não traduzir Wisteria automaticamente sem contexto; manter consistência com a tradução atual.
 - Diane = Diane. Não trocar para Diana.
+- pies, quando usado como moeda = moedas. Nunca deixar "pies" em inglês.
 
 REGRA CRÍTICA SOBRE CHAVES:
 - As chaves em inglês são identificadores técnicos.
@@ -526,17 +522,26 @@ def normalizar_chave_para_comparacao(chave: str) -> str:
     """
     Normaliza apenas para comparação interna.
     Não altera a chave original salva no resultado.
+    Serve para reparar diferenças como:
+    - NBSP real
+    - \\u00a0 literal
+    - \\\\u00a0 duplamente escapado
+    - \\r / \\n literais
     """
     if not isinstance(chave, str):
         return chave
 
-    return (
-        chave
-        .replace("\\u00a0", "\u00a0")
-        .replace("\u00a0", " ")
-        .replace("\\r", "\r")
-        .replace("\\n", "\n")
-    )
+    chave = chave.replace("\\\\u00a0", "\u00a0")
+    chave = chave.replace("\\u00a0", "\u00a0")
+    chave = chave.replace("\u00a0", " ")
+
+    chave = chave.replace("\\\\r", "\r")
+    chave = chave.replace("\\r", "\r")
+
+    chave = chave.replace("\\\\n", "\n")
+    chave = chave.replace("\\n", "\n")
+
+    return chave
 
 
 def reparar_chaves_por_normalizacao(lote: dict, resposta: dict) -> tuple[dict, list]:
@@ -660,11 +665,11 @@ IMPORTANTE:
 - Se a neutralização perder nuance, sentido ou tom, mantenha o gênero atual.
 - Cuidado para não piorar frases naturais removendo artigos de nomes próprios.
 - Evite ordem de palavras artificial, como "Que tipo de pessoa Roy era?".
+- Não reinterpretar verbos ambíguos no chute, como "have", "get", "take", "make it" e "do".
+- Se a tradução atual for uma interpretação possível e não houver contexto suficiente, mantenha.
 - Não invente gênero para "them", "it" ou "did".
 - Não transforme objeto omitido em "trazê-los", "levá-los", "eles o fizeram" etc. sem referente explícito.
 - Se a omissão do objeto já estiver natural em PT-BR, mantenha.
-- Não reinterpretar verbos ambíguos no chute, como "have", "get", "take", "make it" e "do".
-- Se a tradução atual for uma interpretação possível e não houver contexto suficiente, mantenha.
 
 JSON para revisar:
 {entrada}
