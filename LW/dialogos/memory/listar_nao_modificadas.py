@@ -3,7 +3,7 @@ import subprocess
 from pathlib import Path
 
 
-COMMIT_BASE = "9c3fa1d4322f1f547216e01ac80c3d65b176ce9c"
+COMMIT_BASE = "1d207dcfa6a2924a02580ca2e78f09a0cb878b6a"
 
 # Nome do arquivo atual, considerando que o script está na mesma pasta do memoria.json
 MEMORIA_LOCAL = "memoria.json"

@@ -12,10 +12,14 @@ memory_folder = "memory"
 
 manual_memory_file = os.path.join(memory_folder, "memoria_manual.json")
 auto_memory_file = os.path.join(memory_folder, "memoria.json")
-traduzidas_por_translator_file = os.path.join(memory_folder, "traduzidas_por_translator.json")
+traduzidas_por_translator_file = os.path.join(
+    memory_folder,
+    "traduzidas_por_translator.json"
+)
 
 os.makedirs(output_folder, exist_ok=True)
 os.makedirs(memory_folder, exist_ok=True)
+
 
 def carregar_json(path):
     try:
@@ -24,17 +28,21 @@ def carregar_json(path):
     except:
         return {}
 
+
 memoria_manual = carregar_json(manual_memory_file)
 memoria = carregar_json(auto_memory_file)
 traduzidas_por_translator = carregar_json(traduzidas_por_translator_file)
+
 
 def salvar_json(path, dados):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(dados, f, indent=2, ensure_ascii=False)
 
+
 def salvar_memoria():
     salvar_json(auto_memory_file, memoria)
     salvar_json(traduzidas_por_translator_file, traduzidas_por_translator)
+
 
 def proteger_tokens(texto):
     if not texto:
@@ -48,7 +56,9 @@ def proteger_tokens(texto):
 
     pattern = r'(\[.*?\]|\(.*?\)|\{.*?\}|<.*?>)'
     protegido = re.sub(pattern, replacer, texto)
+
     return protegido, tokens
+
 
 def restaurar_tokens(texto, tokens):
     if not texto:
@@ -58,6 +68,58 @@ def restaurar_tokens(texto, tokens):
         texto = texto.replace(f"__TOKEN_{i}__", token)
 
     return texto
+
+
+def limpar_texto_para_dump(texto):
+    if not isinstance(texto, str):
+        return texto
+
+    original = texto
+
+    if "\u00A0" in texto:
+        print("⚠ NBSP encontrado")
+
+    if "\ufeff" in texto:
+        print("⚠ BOM encontrado")
+
+    if "\n" in texto:
+        print("⚠ NEWLINE encontrado")
+
+    if "\r" in texto:
+        print("⚠ CR encontrado")
+
+    if "’" in texto or "‘" in texto:
+        print("⚠ Aspa simples curva encontrada")
+
+    if "“" in texto or "”" in texto:
+        print("⚠ Aspa dupla curva encontrada")
+
+    # normaliza caracteres problemáticos
+    texto = texto.replace("’", "'")
+    texto = texto.replace("‘", "'")
+    texto = texto.replace("“", '"')
+    texto = texto.replace("”", '"')
+    texto = texto.replace("\u00A0", " ")
+    texto = texto.replace("\ufeff", "")
+
+    # remove caracteres de controle
+    texto = "".join(
+        c for c in texto
+        if ord(c) >= 32 or c in "\t"
+    )
+
+    # remove quebras de linha reais
+    texto = texto.replace("\r", " ")
+    texto = texto.replace("\n", " ")
+
+    if texto != original:
+        print("\n🔧 CORRIGIDO")
+        print("ANTES :", repr(original))
+        print("DEPOIS:", repr(texto))
+        print("-" * 80)
+
+    return texto
+
 
 def traduzir(texto):
     if not texto or not texto.strip():
@@ -76,6 +138,7 @@ def traduzir(texto):
 
     try:
         protegido, tokens = proteger_tokens(texto)
+
         traduzido = translator.translate(protegido)
 
         if not traduzido:
@@ -84,17 +147,26 @@ def traduzir(texto):
 
         traduzido = restaurar_tokens(traduzido, tokens)
 
-        memoria[texto] = traduzido
+        traduzido_limpo = limpar_texto_para_dump(traduzido)
 
-        # 🔥 registra somente o que realmente passou pelo Google Translator
-        traduzidas_por_translator[texto] = traduzido
+        if traduzido != traduzido_limpo:
+
+            print("\n💾 CORRIGINDO NOVA TRADUÇÃO")
+            print("ORIGINAL :", repr(traduzido))
+            print("CORRIGIDA:", repr(traduzido_limpo))
+            print("-" * 80)
+
+        memoria[texto] = traduzido_limpo
+        traduzidas_por_translator[texto] = traduzido_limpo
 
         time.sleep(0.05)
+
         return traduzido
 
     except:
         memoria[texto] = texto
         return texto
+
 
 def progresso(atual, total, prefixo=""):
     if total == 0:
@@ -106,18 +178,27 @@ def progresso(atual, total, prefixo=""):
     pct = atual / total
     barra = int(30 * pct)
 
-    print(f"\r{prefixo} [{'█' * barra}{'-' * (30 - barra)}] {pct * 100:.1f}%", end="")
+    print(
+        f"\r{prefixo} [{'█' * barra}{'-' * (30 - barra)}] {pct * 100:.1f}%",
+        end=""
+    )
 
     if atual == total:
         print()
 
-title_pattern = re.compile(r'\s*\d+\s+string\s+title\s*=\s*"([^"]*)"')
 
-# IMPORTANTE:
-# Esse regex usa (.*) para capturar frases com aspas internas.
-value_pattern = re.compile(r'(\s*\d+\s+string\s+value\s*=\s*")(.*)(".*)$')
+title_pattern = re.compile(
+    r'\s*\d+\s+string\s+title\s*=\s*"([^"]*)"'
+)
 
-type_string_pattern = re.compile(r'\s*\d+\s+string\s+typeString\s*=\s*"([^"]*)"')
+value_pattern = re.compile(
+    r'(\s*\d+\s+string\s+value\s*=\s*")(.*)(".*)$'
+)
+
+type_string_pattern = re.compile(
+    r'\s*\d+\s+string\s+typeString\s*=\s*"([^"]*)"'
+)
+
 
 def processar_bloco(bloco):
     title_is_en = False
@@ -126,6 +207,7 @@ def processar_bloco(bloco):
     value_match = None
 
     for idx, linha in enumerate(bloco):
+
         title_match = title_pattern.match(linha)
         if title_match and title_match.group(1) == "en":
             title_is_en = True
@@ -139,7 +221,13 @@ def processar_bloco(bloco):
         if type_match and type_match.group(1) == "CustomFieldType_Localization":
             is_localization = True
 
-    if title_is_en and is_localization and value_index is not None and value_match:
+    if (
+        title_is_en
+        and is_localization
+        and value_index is not None
+        and value_match
+    ):
+
         inicio = value_match.group(1)
         texto_original = value_match.group(2)
         fim = value_match.group(3)
@@ -148,22 +236,68 @@ def processar_bloco(bloco):
 
         if not isinstance(texto_traduzido, str):
             texto_traduzido = texto_original
-            memoria[texto_original] = texto_original
 
-        bloco[value_index] = inicio + texto_traduzido + fim + "\n"
+        texto_traduzido = limpar_texto_para_dump(texto_traduzido)
+
+        bloco[value_index] = (
+            inicio +
+            texto_traduzido +
+            fim +
+            "\n"
+        )
 
     return bloco
 
+
+# ========= Diagnóstico da memória =========
+
+print("Verificando memória...")
+
+# ========= Diagnóstico e autocorreção da memória =========
+
+print("Verificando memória...")
+
+memoria_alterada = False
+
+for k, v in list(memoria.items()):
+
+    novo_v = limpar_texto_para_dump(v)
+
+    if novo_v != v:
+
+        print("\n💾 CORRIGINDO MEMÓRIA")
+        print("CHAVE :", repr(k))
+        print("ANTES :", repr(v))
+        print("DEPOIS:", repr(novo_v))
+        print("-" * 80)
+
+        memoria[k] = novo_v
+        memoria_alterada = True
+
+if memoria_alterada:
+    salvar_memoria()
+    print("\n✅ memoria.json autocorrigido e salvo")
+else:
+    print("✅ Nenhum problema encontrado na memória")
+
+
+# ========= Processamento =========
+
 arquivos = [
-    f for f in os.listdir(input_folder)
+    f
+    for f in os.listdir(input_folder)
     if f.lower().endswith(".txt")
 ]
 
 print(f"📂 Arquivos encontrados: {len(arquivos)}")
 
 for arquivo in arquivos:
+
     caminho_entrada = os.path.join(input_folder, arquivo)
-    caminho_saida = os.path.join(output_folder, f"TRADUZIDO - {arquivo}")
+    caminho_saida = os.path.join(
+        output_folder,
+        f"TRADUZIDO - {arquivo}"
+    )
 
     print(f"\n⚙ Processando: {arquivo}")
 
@@ -171,15 +305,18 @@ for arquivo in arquivos:
         linhas = f.readlines()
 
     total = len(linhas)
+
     novas_linhas = []
 
     bloco_atual = []
     dentro_field_data = False
 
     for i, linha in enumerate(linhas, start=1):
+
         progresso(i, total, prefixo=arquivo)
 
         if re.match(r'\s*\d+\s+Field\s+data\s*$', linha):
+
             if bloco_atual:
                 novas_linhas.extend(processar_bloco(bloco_atual))
                 bloco_atual = []
@@ -189,11 +326,15 @@ for arquivo in arquivos:
             continue
 
         if dentro_field_data:
+
             if re.match(r'\s*\[\d+\]\s*$', linha):
+
                 novas_linhas.extend(processar_bloco(bloco_atual))
                 bloco_atual = []
+
                 dentro_field_data = False
                 novas_linhas.append(linha)
+
                 continue
 
             bloco_atual.append(linha)
@@ -213,4 +354,4 @@ salvar_memoria()
 
 print("\n🔥 Tradução concluída!")
 print(f"✅ Memória atualizada: {auto_memory_file}")
-print(f"✅ Frases que passaram pelo translator: {traduzidas_por_translator_file}")
+print(f"✅ Frases do translator: {traduzidas_por_translator_file}")
