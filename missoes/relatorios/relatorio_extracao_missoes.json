@@ -1,41 +1,5 @@
 [
   {
-    "arquivo": "base-CAB-44a5a9bb871bd918ae60bbd84f51782f--4685142313566188547.txt",
-    "extraidos": 6,
-    "ocorrencias": [
-      {
-        "arquivo": "base-CAB-44a5a9bb871bd918ae60bbd84f51782f--4685142313566188547.txt",
-        "field_name": "Quest_Group_Main",
-        "ingles": "<color=#a03c3a>Main</color>"
-      },
-      {
-        "arquivo": "base-CAB-44a5a9bb871bd918ae60bbd84f51782f--4685142313566188547.txt",
-        "field_name": "Quest_Group_People",
-        "ingles": "<color=#b98bed>Villager</color>"
-      },
-      {
-        "arquivo": "base-CAB-44a5a9bb871bd918ae60bbd84f51782f--4685142313566188547.txt",
-        "field_name": "Quest_Group_Side",
-        "ingles": "<color=#f08b30>Side</color>"
-      },
-      {
-        "arquivo": "base-CAB-44a5a9bb871bd918ae60bbd84f51782f--4685142313566188547.txt",
-        "field_name": "Quest_Group_Tutorial",
-        "ingles": "<color=#67c172>Tutorial</color>"
-      },
-      {
-        "arquivo": "base-CAB-44a5a9bb871bd918ae60bbd84f51782f--4685142313566188547.txt",
-        "field_name": "Quest_Group_Delivery",
-        "ingles": "<color=#8cccd0>Deliver</color>"
-      },
-      {
-        "arquivo": "base-CAB-44a5a9bb871bd918ae60bbd84f51782f--4685142313566188547.txt",
-        "field_name": "Quest_Group_ContentUnlock",
-        "ingles": "<color=#3f7fd8>Content Unlocks</color>"
-      }
-    ]
-  },
-  {
     "arquivo": "main_Ellie-CAB-44a5a9bb871bd918ae60bbd84f51782f--8945199666470637969.txt",
     "extraidos": 44,
     "ocorrencias": [
@@ -262,6 +226,232 @@
     ]
   },
   {
+    "arquivo": "main_Ellie-resources.assets-22950.txt",
+    "extraidos": 44,
+    "ocorrencias": [
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "030_side",
+        "ingles": "A Wonderous Day"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "029_side",
+        "ingles": "Records Museum of Wisteria"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "028_side",
+        "ingles": "Break the blobs"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "000_title",
+        "ingles": "Repair of the Witch's House"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "001_title",
+        "ingles": "Candy Delivery Level Test: Beginner"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "002_title",
+        "ingles": "Get Incubator"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "000_Side",
+        "ingles": "Go to the Furniture Store"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "001_Side",
+        "ingles": "Obtain Mixer"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "003_title",
+        "ingles": "New Location, New Candies 1"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "004_title",
+        "ingles": "New Location, New Candies 2"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "005_title",
+        "ingles": "New Location, New Candies 3"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "002_Side",
+        "ingles": "Fix the sky board"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "003_Side",
+        "ingles": "Fix the basin elevator"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "004_Side",
+        "ingles": "Fix the suspending ladder"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "005_Side",
+        "ingles": "Fix the mushroom elevator"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "006_Side",
+        "ingles": "Learn to Fish"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "006_title",
+        "ingles": "Village Cats"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "007_title",
+        "ingles": "Feed the Cats with Fish"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "008_title",
+        "ingles": "Playing with the Cats"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "009_title",
+        "ingles": "Furniture Reformation"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "007_side",
+        "ingles": "Blooming Flowers"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "008_side",
+        "ingles": "Brew Additional Potions"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "009_side",
+        "ingles": "Collect the Green Forest Map"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "010_side",
+        "ingles": "Build Affection with the Cat"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "011_side",
+        "ingles": "Use the Witch Station"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "012_side",
+        "ingles": "Expand the House"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "013_side",
+        "ingles": "Brew Additional Candy"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "010_title",
+        "ingles": "New Location, New Candies 4"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "011_title",
+        "ingles": "New Location, New Candies 5"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "012_title",
+        "ingles": "New Location, New Candies 6"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "014_side",
+        "ingles": "Befriend Arden"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "015_side",
+        "ingles": "Use the Broom"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "016_side",
+        "ingles": "Study the Green Forest"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "017_side",
+        "ingles": "Study the Cloud Valley"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "018_side",
+        "ingles": "Study the Starlit Cave"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "019_side",
+        "ingles": "Use a Potion in the Green Forest 1"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "020_side",
+        "ingles": "Use a Potion in the Green Forest 2"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "021_side",
+        "ingles": "Use a Potion in the Cloud Valley 2"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "022_side",
+        "ingles": "Use a Potion in the Cloud Valley 1"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "023_side",
+        "ingles": "Use a Potion in the Starlit Cave 1"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "024_side",
+        "ingles": "Use a Potion in the Starlit Cave 2"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "025_side",
+        "ingles": "Study the Green Forest further"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "026_side",
+        "ingles": "Study the Cloud Valley further"
+      },
+      {
+        "arquivo": "main_Ellie-resources.assets-22950.txt",
+        "field_name": "027_side",
+        "ingles": "Study the Starlit Cave further"
+      }
+    ]
+  },
+  {
     "arquivo": "main_WhiteCat-CAB-44a5a9bb871bd918ae60bbd84f51782f--5311969575089420596.txt",
     "extraidos": 29,
     "ocorrencias": [
@@ -413,6 +603,183 @@
     ]
   },
   {
+    "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+    "extraidos": 29,
+    "ocorrencias": [
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "016_title",
+        "ingles": "The Path We Forge Together"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "021_title",
+        "ingles": "Star of Wisteria"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "017_title",
+        "ingles": "Exploring the Starlit Cave"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "018_title",
+        "ingles": "The Third Moon Tears Potion"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "019_title",
+        "ingles": "Lisa Whitegarden"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "000_title",
+        "ingles": "Begin Apprenticeship!"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "001a_title",
+        "ingles": "Investigate the Prickly Vines at the Carpenter’s House"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "001b_title",
+        "ingles": "Find the Prickly Vine Core"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "001c_title",
+        "ingles": "Concoct the Moon’s... Blah Blah Potion"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "001d_title",
+        "ingles": "Remove the Prickly Vine Core"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "002_title",
+        "ingles": "Send a Letter to Kyla"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "003_title",
+        "ingles": "A Flying Carpenter"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "004_title",
+        "ingles": "A Strange Dream"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "005_title",
+        "ingles": "An Unreadable Memo"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "006_title",
+        "ingles": "Restoring the Village"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "007_title",
+        "ingles": "Repairing the Fountain"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "008_title",
+        "ingles": "Restoration of the Temple"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "009_title",
+        "ingles": "The Witch Who Lived Here"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "010_title",
+        "ingles": "Repairing the Village Bridge"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "011_title",
+        "ingles": "Find the second prickly vine core"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "011a_title",
+        "ingles": "Doll Wetted by Tears"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "012_title",
+        "ingles": "Craft Moon Tears for the second time"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "013a_title",
+        "ingles": "Who Will Come Back? 1"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "013b_title",
+        "ingles": "Who Will Come Back? 2"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "013c_title",
+        "ingles": "Who Will Come Back? 3"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "015_title",
+        "ingles": "Everyone's Stage"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "020a_title",
+        "ingles": "Who Will Come Back? 4"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "020b_title",
+        "ingles": "Who Will Come Back? 5"
+      },
+      {
+        "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+        "field_name": "020c_title",
+        "ingles": "Who Will Come Back? 6"
+      }
+    ]
+  },
+  {
+    "arquivo": "npc_alvin-resources.assets-22953.txt",
+    "extraidos": 4,
+    "ocorrencias": [
+      {
+        "arquivo": "npc_alvin-resources.assets-22953.txt",
+        "field_name": "002_side",
+        "ingles": "Alvin's Errand"
+      },
+      {
+        "arquivo": "npc_alvin-resources.assets-22953.txt",
+        "field_name": "000_side",
+        "ingles": "Thornless Rose"
+      },
+      {
+        "arquivo": "npc_alvin-resources.assets-22953.txt",
+        "field_name": "000_main",
+        "ingles": "Prologue: Performer off the Stage"
+      },
+      {
+        "arquivo": "npc_alvin-resources.assets-22953.txt",
+        "field_name": "001_side",
+        "ingles": "Witch and Broom"
+      }
+    ]
+  },
+  {
     "arquivo": "npc_arden-CAB-44a5a9bb871bd918ae60bbd84f51782f--4373340801436235489.txt",
     "extraidos": 8,
     "ocorrencias": [
@@ -459,6 +826,83 @@
     ]
   },
   {
+    "arquivo": "npc_arden-resources.assets-22954.txt",
+    "extraidos": 8,
+    "ocorrencias": [
+      {
+        "arquivo": "npc_arden-resources.assets-22954.txt",
+        "field_name": "003_Side",
+        "ingles": "Gourmet in the Woods"
+      },
+      {
+        "arquivo": "npc_arden-resources.assets-22954.txt",
+        "field_name": "000_main",
+        "ingles": "Prologue: Everything Is Here for a Reason"
+      },
+      {
+        "arquivo": "npc_arden-resources.assets-22954.txt",
+        "field_name": "001_main",
+        "ingles": "Act 1, Part 1: They Who Cursed a Dragon"
+      },
+      {
+        "arquivo": "npc_arden-resources.assets-22954.txt",
+        "field_name": "002_main",
+        "ingles": "Act 1, Part 2: The Person in a Dragon's Memory"
+      },
+      {
+        "arquivo": "npc_arden-resources.assets-22954.txt",
+        "field_name": "003_main",
+        "ingles": "Act 2: A Cursed Promise"
+      },
+      {
+        "arquivo": "npc_arden-resources.assets-22954.txt",
+        "field_name": "004_main",
+        "ingles": "Act 3: A Thousand Years Without You"
+      },
+      {
+        "arquivo": "npc_arden-resources.assets-22954.txt",
+        "field_name": "000_title",
+        "ingles": "Arden’s Ingredient Bag"
+      },
+      {
+        "arquivo": "npc_arden-resources.assets-22954.txt",
+        "field_name": "001_title",
+        "ingles": "The Dragon's Sore Throat"
+      }
+    ]
+  },
+  {
+    "arquivo": "npc_arin-resources.assets-22955.txt",
+    "extraidos": 5,
+    "ocorrencias": [
+      {
+        "arquivo": "npc_arin-resources.assets-22955.txt",
+        "field_name": "Main_000",
+        "ingles": "Arin - Prologue"
+      },
+      {
+        "arquivo": "npc_arin-resources.assets-22955.txt",
+        "field_name": "Main_001",
+        "ingles": "Act 1: The Silent Guardian"
+      },
+      {
+        "arquivo": "npc_arin-resources.assets-22955.txt",
+        "field_name": "Main_002",
+        "ingles": "Act 2: The Weight of Truth"
+      },
+      {
+        "arquivo": "npc_arin-resources.assets-22955.txt",
+        "field_name": "Main_003",
+        "ingles": "Act 3: Family History"
+      },
+      {
+        "arquivo": "npc_arin-resources.assets-22955.txt",
+        "field_name": "side_000",
+        "ingles": "Lost Books"
+      }
+    ]
+  },
+  {
     "arquivo": "npc_aurea-CAB-44a5a9bb871bd918ae60bbd84f51782f-7125457782469390676.txt",
     "extraidos": 5,
     "ocorrencias": [
@@ -490,6 +934,79 @@
     ]
   },
   {
+    "arquivo": "npc_aurea-resources.assets-22956.txt",
+    "extraidos": 5,
+    "ocorrencias": [
+      {
+        "arquivo": "npc_aurea-resources.assets-22956.txt",
+        "field_name": "006_Side",
+        "ingles": "Examine Curses on Books"
+      },
+      {
+        "arquivo": "npc_aurea-resources.assets-22956.txt",
+        "field_name": "001_title",
+        "ingles": "The Curse of Naturalists"
+      },
+      {
+        "arquivo": "npc_aurea-resources.assets-22956.txt",
+        "field_name": "004_title",
+        "ingles": "Delivering Aurea’s Potions"
+      },
+      {
+        "arquivo": "npc_aurea-resources.assets-22956.txt",
+        "field_name": "005_title",
+        "ingles": "Upgrade Bag"
+      },
+      {
+        "arquivo": "npc_aurea-resources.assets-22956.txt",
+        "field_name": "PotionDelivery",
+        "ingles": "Delivering Aurea’s Candies"
+      }
+    ]
+  },
+  {
+    "arquivo": "npc_bjorn-resources.assets-22957.txt",
+    "extraidos": 1,
+    "ocorrencias": [
+      {
+        "arquivo": "npc_bjorn-resources.assets-22957.txt",
+        "field_name": "Main_000",
+        "ingles": "Prologue: Cat Caretaker"
+      }
+    ]
+  },
+  {
+    "arquivo": "npc_clala-resources.assets-22958.txt",
+    "extraidos": 5,
+    "ocorrencias": [
+      {
+        "arquivo": "npc_clala-resources.assets-22958.txt",
+        "field_name": "main_001",
+        "ingles": "Act 1: Munchy Bakery"
+      },
+      {
+        "arquivo": "npc_clala-resources.assets-22958.txt",
+        "field_name": "main_002",
+        "ingles": "Act 2: The Other Face of the Bakery"
+      },
+      {
+        "arquivo": "npc_clala-resources.assets-22958.txt",
+        "field_name": "main_003",
+        "ingles": "Act 3: Clala's Bakery"
+      },
+      {
+        "arquivo": "npc_clala-resources.assets-22958.txt",
+        "field_name": "000_side",
+        "ingles": "Clala's Errand"
+      },
+      {
+        "arquivo": "npc_clala-resources.assets-22958.txt",
+        "field_name": "main_000",
+        "ingles": "Prologue: Memories Between Sisters"
+      }
+    ]
+  },
+  {
     "arquivo": "npc_diane-CAB-44a5a9bb871bd918ae60bbd84f51782f-7158459391018431224.txt",
     "extraidos": 4,
     "ocorrencias": [
@@ -516,6 +1033,32 @@
     ]
   },
   {
+    "arquivo": "npc_diane-resources.assets-22959.txt",
+    "extraidos": 4,
+    "ocorrencias": [
+      {
+        "arquivo": "npc_diane-resources.assets-22959.txt",
+        "field_name": "Side_DeliveryPotion",
+        "ingles": "Deliver Diane’s Candies"
+      },
+      {
+        "arquivo": "npc_diane-resources.assets-22959.txt",
+        "field_name": "Side_005_title",
+        "ingles": "Upgrading Work Tools"
+      },
+      {
+        "arquivo": "npc_diane-resources.assets-22959.txt",
+        "field_name": "Side_006_title",
+        "ingles": "Repairing Your Broom"
+      },
+      {
+        "arquivo": "npc_diane-resources.assets-22959.txt",
+        "field_name": "WitchCatalogDeliveryPotion",
+        "ingles": "Witches' Catalogue Candy Delivery"
+      }
+    ]
+  },
+  {
     "arquivo": "npc_enite-CAB-44a5a9bb871bd918ae60bbd84f51782f-5470686419056303079.txt",
     "extraidos": 3,
     "ocorrencias": [
@@ -531,6 +1074,27 @@
       },
       {
         "arquivo": "npc_enite-CAB-44a5a9bb871bd918ae60bbd84f51782f-5470686419056303079.txt",
+        "field_name": "001_title",
+        "ingles": "A Delicious Pie"
+      }
+    ]
+  },
+  {
+    "arquivo": "npc_enite-resources.assets-22960.txt",
+    "extraidos": 3,
+    "ocorrencias": [
+      {
+        "arquivo": "npc_enite-resources.assets-22960.txt",
+        "field_name": "003_side",
+        "ingles": "Enite's Errand"
+      },
+      {
+        "arquivo": "npc_enite-resources.assets-22960.txt",
+        "field_name": "000_title",
+        "ingles": "Reparing the Streetlamps"
+      },
+      {
+        "arquivo": "npc_enite-resources.assets-22960.txt",
         "field_name": "001_title",
         "ingles": "A Delicious Pie"
       }
@@ -583,6 +1147,79 @@
     ]
   },
   {
+    "arquivo": "npc_kyla-resources.assets-22961.txt",
+    "extraidos": 8,
+    "ocorrencias": [
+      {
+        "arquivo": "npc_kyla-resources.assets-22961.txt",
+        "field_name": "007_Side",
+        "ingles": "Kyla's Errand"
+      },
+      {
+        "arquivo": "npc_kyla-resources.assets-22961.txt",
+        "field_name": "000_title",
+        "ingles": "Finding Kyla’s Shovel"
+      },
+      {
+        "arquivo": "npc_kyla-resources.assets-22961.txt",
+        "field_name": "000_Main",
+        "ingles": "Prologue: Selecting Materials"
+      },
+      {
+        "arquivo": "npc_kyla-resources.assets-22961.txt",
+        "field_name": "001_Side",
+        "ingles": "Potion of Courage"
+      },
+      {
+        "arquivo": "npc_kyla-resources.assets-22961.txt",
+        "field_name": "004_Side",
+        "ingles": "Place a Cat Cushion"
+      },
+      {
+        "arquivo": "npc_kyla-resources.assets-22961.txt",
+        "field_name": "003_Side",
+        "ingles": "Best Drinking Snack"
+      },
+      {
+        "arquivo": "npc_kyla-resources.assets-22961.txt",
+        "field_name": "005_Side",
+        "ingles": "Place a Dangling Cat Toy"
+      },
+      {
+        "arquivo": "npc_kyla-resources.assets-22961.txt",
+        "field_name": "006_Side",
+        "ingles": "Place a Cat Exercise Wheel"
+      }
+    ]
+  },
+  {
+    "arquivo": "npc_library-resources.assets-22962.txt",
+    "extraidos": 2,
+    "ocorrencias": [
+      {
+        "arquivo": "npc_library-resources.assets-22962.txt",
+        "field_name": "000_Side",
+        "ingles": "Letters of Fortune"
+      },
+      {
+        "arquivo": "npc_library-resources.assets-22962.txt",
+        "field_name": "000_title",
+        "ingles": "Prologue: Place the Bookmark Again"
+      }
+    ]
+  },
+  {
+    "arquivo": "npc_rex-resources.assets-22963.txt",
+    "extraidos": 1,
+    "ocorrencias": [
+      {
+        "arquivo": "npc_rex-resources.assets-22963.txt",
+        "field_name": "001_side",
+        "ingles": "Mysterious Dwellers in the Woods"
+      }
+    ]
+  },
+  {
     "arquivo": "npc_rosie-CAB-44a5a9bb871bd918ae60bbd84f51782f-2262095613986074425.txt",
     "extraidos": 1,
     "ocorrencias": [
@@ -590,6 +1227,52 @@
         "arquivo": "npc_rosie-CAB-44a5a9bb871bd918ae60bbd84f51782f-2262095613986074425.txt",
         "field_name": "001_004_bt",
         "ingles": "The Fish Freddie Wants"
+      }
+    ]
+  },
+  {
+    "arquivo": "npc_Roy-resources.assets-22952.txt",
+    "extraidos": 8,
+    "ocorrencias": [
+      {
+        "arquivo": "npc_Roy-resources.assets-22952.txt",
+        "field_name": "003_title",
+        "ingles": "Act 3: A Wisteria-Scented Letter"
+      },
+      {
+        "arquivo": "npc_Roy-resources.assets-22952.txt",
+        "field_name": "003_Side",
+        "ingles": "Craft Furniture"
+      },
+      {
+        "arquivo": "npc_Roy-resources.assets-22952.txt",
+        "field_name": "002_Side",
+        "ingles": "Build a Small Bridge"
+      },
+      {
+        "arquivo": "npc_Roy-resources.assets-22952.txt",
+        "field_name": "000_title",
+        "ingles": "Prologue: Moon-loving Rosemary"
+      },
+      {
+        "arquivo": "npc_Roy-resources.assets-22952.txt",
+        "field_name": "001_title",
+        "ingles": "Act 1: Pansy Heart"
+      },
+      {
+        "arquivo": "npc_Roy-resources.assets-22952.txt",
+        "field_name": "002_title",
+        "ingles": "Act 2: Blue Rose Ocean"
+      },
+      {
+        "arquivo": "npc_Roy-resources.assets-22952.txt",
+        "field_name": "000_side",
+        "ingles": "Master Donut"
+      },
+      {
+        "arquivo": "npc_Roy-resources.assets-22952.txt",
+        "field_name": "001_side",
+        "ingles": "Highlion Special Request"
       }
     ]
   },
@@ -621,6 +1304,89 @@
         "arquivo": "npc_rubrum-CAB-44a5a9bb871bd918ae60bbd84f51782f--7565698233299717783.txt",
         "field_name": "000_side",
         "ingles": "Legend of the Golden Apple"
+      }
+    ]
+  },
+  {
+    "arquivo": "npc_rubrum-resources.assets-22964.txt",
+    "extraidos": 5,
+    "ocorrencias": [
+      {
+        "arquivo": "npc_rubrum-resources.assets-22964.txt",
+        "field_name": "000_title",
+        "ingles": "Healing Rubrum’s Leg"
+      },
+      {
+        "arquivo": "npc_rubrum-resources.assets-22964.txt",
+        "field_name": "000_label",
+        "ingles": "Label"
+      },
+      {
+        "arquivo": "npc_rubrum-resources.assets-22964.txt",
+        "field_name": "000_000_ht",
+        "ingles": "Leg Treatment"
+      },
+      {
+        "arquivo": "npc_rubrum-resources.assets-22964.txt",
+        "field_name": "000_000_bt",
+        "ingles": "Make a potion that can heal Rubrum’s leg and give it to him."
+      },
+      {
+        "arquivo": "npc_rubrum-resources.assets-22964.txt",
+        "field_name": "000_side",
+        "ingles": "Legend of the Golden Apple"
+      }
+    ]
+  },
+  {
+    "arquivo": "npc_teo-resources.assets-22965.txt",
+    "extraidos": 4,
+    "ocorrencias": [
+      {
+        "arquivo": "npc_teo-resources.assets-22965.txt",
+        "field_name": "000_main",
+        "ingles": "Prologue: Freedom"
+      },
+      {
+        "arquivo": "npc_teo-resources.assets-22965.txt",
+        "field_name": "001_main",
+        "ingles": "Act 1: Pranks"
+      },
+      {
+        "arquivo": "npc_teo-resources.assets-22965.txt",
+        "field_name": "002_main",
+        "ingles": "Act 2: The Encounter"
+      },
+      {
+        "arquivo": "npc_teo-resources.assets-22965.txt",
+        "field_name": "003_main",
+        "ingles": "Act 3: Responsibilities"
+      }
+    ]
+  },
+  {
+    "arquivo": "npc_vinch-resources.assets-22966.txt",
+    "extraidos": 4,
+    "ocorrencias": [
+      {
+        "arquivo": "npc_vinch-resources.assets-22966.txt",
+        "field_name": "001_Side",
+        "ingles": "Vinch's Errand"
+      },
+      {
+        "arquivo": "npc_vinch-resources.assets-22966.txt",
+        "field_name": "000_title",
+        "ingles": "Prologue: A House with A Cypress Tree"
+      },
+      {
+        "arquivo": "npc_vinch-resources.assets-22966.txt",
+        "field_name": "001_title",
+        "ingles": "Act 1: A House Surrounded by Masks"
+      },
+      {
+        "arquivo": "npc_vinch-resources.assets-22966.txt",
+        "field_name": "002_title",
+        "ingles": "After Act 1 - A House Flowing Through the Nightmare"
       }
     ]
   },
@@ -720,6 +1486,107 @@
       },
       {
         "arquivo": "prologue-CAB-44a5a9bb871bd918ae60bbd84f51782f-7386423219274151545.txt",
+        "field_name": "Side_001_title",
+        "ingles": "Drawing With Your Quill"
+      }
+    ]
+  },
+  {
+    "arquivo": "prologue-resources.assets-22967.txt",
+    "extraidos": 19,
+    "ocorrencias": [
+      {
+        "arquivo": "prologue-resources.assets-22967.txt",
+        "field_name": "new000_title",
+        "ingles": "White Cat"
+      },
+      {
+        "arquivo": "prologue-resources.assets-22967.txt",
+        "field_name": "new004_title",
+        "ingles": "Sell Green Forest Candy"
+      },
+      {
+        "arquivo": "prologue-resources.assets-22967.txt",
+        "field_name": "newtrain_00_title",
+        "ingles": "Tunnel's Strange Phenomenon"
+      },
+      {
+        "arquivo": "prologue-resources.assets-22967.txt",
+        "field_name": "newtrain_01_title",
+        "ingles": "The way to the Room"
+      },
+      {
+        "arquivo": "prologue-resources.assets-22967.txt",
+        "field_name": "Sidetrain_000_title",
+        "ingles": "Exploring the Train"
+      },
+      {
+        "arquivo": "prologue-resources.assets-22967.txt",
+        "field_name": "000_title",
+        "ingles": "A Shining Tree"
+      },
+      {
+        "arquivo": "prologue-resources.assets-22967.txt",
+        "field_name": "001_title",
+        "ingles": "In Search For A Curious Creature"
+      },
+      {
+        "arquivo": "prologue-resources.assets-22967.txt",
+        "field_name": "002_title",
+        "ingles": "To Places Anew"
+      },
+      {
+        "arquivo": "prologue-resources.assets-22967.txt",
+        "field_name": "003_title",
+        "ingles": "Removing Little Honey Pumpkins"
+      },
+      {
+        "arquivo": "prologue-resources.assets-22967.txt",
+        "field_name": "004_title",
+        "ingles": "A Way to Get Rid of the Giant Prickly Vines"
+      },
+      {
+        "arquivo": "prologue-resources.assets-22967.txt",
+        "field_name": "005_title",
+        "ingles": "A Fox on the Spiderwebs"
+      },
+      {
+        "arquivo": "prologue-resources.assets-22967.txt",
+        "field_name": "006_title",
+        "ingles": "The Truth Behind the Giant Prickly Vines"
+      },
+      {
+        "arquivo": "prologue-resources.assets-22967.txt",
+        "field_name": "007_title",
+        "ingles": "Remove the Giant Prickly Vines"
+      },
+      {
+        "arquivo": "prologue-resources.assets-22967.txt",
+        "field_name": "008_title",
+        "ingles": "Begone, Prickly Vines by the Lake"
+      },
+      {
+        "arquivo": "prologue-resources.assets-22967.txt",
+        "field_name": "009_title",
+        "ingles": "Repairing the Processing Tools"
+      },
+      {
+        "arquivo": "prologue-resources.assets-22967.txt",
+        "field_name": "train_01_title",
+        "ingles": "The Truth Remains One!"
+      },
+      {
+        "arquivo": "prologue-resources.assets-22967.txt",
+        "field_name": "train_02_title",
+        "ingles": "Overly Imaginative Passenger"
+      },
+      {
+        "arquivo": "prologue-resources.assets-22967.txt",
+        "field_name": "Side_000_title",
+        "ingles": "Repairing Your Broom"
+      },
+      {
+        "arquivo": "prologue-resources.assets-22967.txt",
         "field_name": "Side_001_title",
         "ingles": "Drawing With Your Quill"
       }

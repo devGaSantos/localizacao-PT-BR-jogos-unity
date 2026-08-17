@@ -1,7 +1,8 @@
 param(
-    [ValidateSet("status", "preparar", "gerar", "validar", "atualizar")]
+    [ValidateSet("status", "preparar", "gerar", "validar", "atualizar", "automatico", "pacote", "instalar")]
     [string]$Etapa = "status",
-    [string]$Jogo = "C:\Program Files (x86)\Steam\steamapps\common\Little Witch in the Woods"
+    [string]$Jogo = "C:\Program Files (x86)\Steam\steamapps\common\Little Witch in the Woods",
+    [switch]$ConfirmarInstalacao
 )
 
 Set-StrictMode -Version Latest
@@ -15,6 +16,12 @@ $BundlesJogo = Join-Path $Jogo "LWIW_Data\StreamingAssets\aa\StandaloneWindows64
 $ResourcesJogo = Join-Path $Jogo "LWIW_Data\resources.assets"
 $EstadoPath = Join-Path $Relatorios "estado_atualizacao_bundles.json"
 $ResumoPath = Join-Path $Relatorios "resumo_pipeline_atualizacao.json"
+$AssetPipeline = Join-Path $Raiz "tools\asset-pipeline\LittleWitch.AssetPipeline.csproj"
+$AssetPipelineDll = Join-Path $Raiz "tools\asset-pipeline\bin\Release\net8.0\LittleWitch.AssetPipeline.dll"
+$AssetPipelineAssets = Join-Path $Raiz "tools\asset-pipeline\obj\project.assets.json"
+$ClassData = Join-Path $Raiz ".tools\uabea\classdata.tpk"
+$Staging = Join-Path $Raiz "atualizacao\staging"
+$PacoteMerlin = Join-Path $Raiz "atualizacao\pacote_merlin"
 
 $Artefatos = @(
     [pscustomobject]@{ Fluxo = "geral"; Nome = "localization-string-tables-english(en)_assets_all.bundle"; Caminho = (Join-Path $BundlesJogo "localization-string-tables-english(en)_assets_all.bundle") },
@@ -139,15 +146,52 @@ function Assert-Exports {
     $missionTables = ($status | Where-Object fluxo -eq "missoes_tabelas").arquivos
     $missionBase = ($status | Where-Object fluxo -eq "missoes_base_nao_importar").arquivos
     $missionJournal = ($status | Where-Object fluxo -eq "missoes_jornal").arquivos
-    if ($general -lt 1) { throw "Nenhum export geral encontrado." }
+    if ($general -ne 25) { throw "Esperadas exatamente 25 tabelas gerais; encontradas $general. Nao exporte o objeto tecnico c0f64... do bundle." }
     if ($dialogs -ne 1) { throw "Esperado exatamente 1 DialogueDB atual; encontrados $dialogs." }
     if ($missionTables -ne 10) { throw "Esperados 10 exports CAB-* importaveis de missoes; encontrados $missionTables. O asset base nao entra nessa contagem." }
     if ($missionBase -gt 1) { throw "Encontrado mais de um export base-*; mantenha no maximo um, que sera ignorado." }
     if ($missionJournal -ne 18) { throw "Esperados 18 exports *-resources.assets-* do jornal; encontrados $missionJournal." }
 }
 
+function Move-StaleTranslationOutputs(
+    [string]$Fluxo,
+    [string]$ExportDirectory,
+    [string]$OutputDirectory,
+    [string]$OutputPrefix = "",
+    [string]$ExcludeExportRegex = ""
+) {
+    if (-not (Test-Path -LiteralPath $OutputDirectory)) { return }
+
+    $exportNames = @(
+        Get-ChildItem -LiteralPath $ExportDirectory -File -Filter "*.txt" |
+            Where-Object { -not $ExcludeExportRegex -or $_.Name -notmatch $ExcludeExportRegex } |
+            ForEach-Object Name
+    )
+    $staleOutputs = @(
+        Get-ChildItem -LiteralPath $OutputDirectory -File -Filter "*.txt" |
+            Where-Object {
+                $sourceName = $_.Name
+                if ($OutputPrefix -and $sourceName.StartsWith($OutputPrefix)) {
+                    $sourceName = $sourceName.Substring($OutputPrefix.Length)
+                }
+                $sourceName -notin $exportNames
+            }
+    )
+    if ($staleOutputs.Count -eq 0) { return }
+
+    $quarantine = Join-Path $Raiz "atualizacao\nao_importar\$Fluxo"
+    New-Item -ItemType Directory -Path $quarantine -Force | Out-Null
+    foreach ($file in $staleOutputs) {
+        Move-Item -LiteralPath $file.FullName -Destination (Join-Path $quarantine $file.Name) -Force
+        Write-Warning "Saida antiga isolada (nao importar): $($file.Name)"
+    }
+}
+
 function Generate-Translations {
     Assert-Exports
+    Move-StaleTranslationOutputs "geral" (Join-Path $Raiz "exportados") (Join-Path $Raiz "traduzidos") "TRADUZIDO - "
+    Move-StaleTranslationOutputs "dialogos" (Join-Path $Raiz "dialogos\exportados") (Join-Path $Raiz "dialogos\traduzidos") "TRADUZIDO - "
+    Move-StaleTranslationOutputs "missoes" (Join-Path $Missoes "exportados") (Join-Path $Missoes "traduzidos") "" "^base-"
     $pythonFallback = Join-Path $env:USERPROFILE ".cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe"
     $python = Resolve-Executable "python" @($pythonFallback)
     $nodeFallback = Join-Path $env:USERPROFILE ".cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe"
@@ -169,7 +213,25 @@ function Count-ObjectProperties($Object) {
     return @($Object.PSObject.Properties).Count
 }
 
+function Assert-TranslationOutputs {
+    $general = @(Get-ChildItem -LiteralPath (Join-Path $Raiz "traduzidos") -File -Filter "*.txt")
+    $dialogs = @(Get-ChildItem -LiteralPath (Join-Path $Raiz "dialogos\traduzidos") -File -Filter "*.txt")
+    $missionRoot = Join-Path $Missoes "traduzidos"
+    $missionLoose = @(Get-ChildItem -LiteralPath $missionRoot -File -Filter "*.txt")
+    $missionBundle = @(Get-ChildItem -LiteralPath (Join-Path $missionRoot "defaultlocalgroup") -File -Filter "*.txt")
+    $missionResources = @(Get-ChildItem -LiteralPath (Join-Path $missionRoot "resources_assets") -File -Filter "*.txt")
+    $missionBase = @($missionBundle + $missionResources | Where-Object { $_.Name -match "^base-" })
+
+    if ($general.Count -ne 25) { throw "Saida geral invalida: esperados 25 arquivos; encontrados $($general.Count)." }
+    if ($dialogs.Count -ne 1) { throw "Saida de dialogos invalida: esperado 1 arquivo; encontrados $($dialogs.Count)." }
+    if ($missionLoose.Count -ne 0) { throw "Existem $($missionLoose.Count) missoes soltas em traduzidos; use as subpastas por destino." }
+    if ($missionBundle.Count -ne 10) { throw "Saida defaultlocalgroup invalida: esperados 10 arquivos; encontrados $($missionBundle.Count)." }
+    if ($missionResources.Count -ne 18) { throw "Saida resources.assets invalida: esperados 18 arquivos; encontrados $($missionResources.Count)." }
+    if ($missionBase.Count -ne 0) { throw "Asset base encontrado nas saidas de importacao; mova-o para nao_importar." }
+}
+
 function Validate-Translations {
+    Assert-TranslationOutputs
     $nodeFallback = Join-Path $env:USERPROFILE ".cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe"
     $node = Resolve-Executable "node" @($nodeFallback)
     Invoke-Tool $node @("auditar_encoding_memorias.js") $Raiz
@@ -218,10 +280,136 @@ function Validate-Translations {
     return $summary
 }
 
+function Resolve-DotNetSdk {
+    $local = Join-Path $Raiz ".tools\dotnet\dotnet.exe"
+    if (Test-Path -LiteralPath $local) { return $local }
+    return Resolve-Executable "dotnet" @()
+}
+
+function Initialize-AssetPipeline {
+    if (-not (Test-Path -LiteralPath $ClassData)) {
+        throw "classdata.tpk nao encontrado em $ClassData. Consulte docs\FLUXO_TRADUCAO.md para preparar a ferramenta uma unica vez."
+    }
+    $dotnet = Resolve-DotNetSdk
+    if (-not (Test-Path -LiteralPath $AssetPipelineAssets)) {
+        $nugetConfig = Join-Path $Raiz "tools\asset-pipeline\NuGet.Config"
+        Invoke-Tool $dotnet @("restore", $AssetPipeline, "--configfile", $nugetConfig) $Raiz
+    }
+    Invoke-Tool $dotnet @("build", $AssetPipeline, "--configuration", "Release", "--no-restore") $Raiz
+}
+
+function Invoke-AssetPipeline([string]$DotNet, [string]$Mode) {
+    Invoke-Tool $DotNet @($AssetPipelineDll, $Mode, $Jogo, $Raiz, $ClassData, $Staging) $Raiz
+}
+
+function Export-MerlinPackage {
+    $dataDirectory = Join-Path $PacoteMerlin "LWIW_Data"
+    $bundleDirectory = Join-Path $dataDirectory "StreamingAssets\aa\StandaloneWindows64"
+    New-Item -ItemType Directory -Path $bundleDirectory -Force | Out-Null
+
+    foreach ($artifact in $Artefatos) {
+        $source = Join-Path $Staging $artifact.Nome
+        if (-not (Test-Path -LiteralPath $source)) {
+            throw "Asset validado nao encontrado no staging: $source"
+        }
+        $destinationDirectory = if ($artifact.Nome -eq "resources.assets") { $dataDirectory } else { $bundleDirectory }
+        $destination = Join-Path $destinationDirectory $artifact.Nome
+        Copy-Item -LiteralPath $source -Destination $destination -Force
+        $sourceHash = (Get-FileHash -LiteralPath $source -Algorithm SHA256).Hash
+        $destinationHash = (Get-FileHash -LiteralPath $destination -Algorithm SHA256).Hash
+        if ($sourceHash -ne $destinationHash) {
+            throw "Falha ao validar o arquivo do pacote: $destination"
+        }
+    }
+
+    Write-Host "PACOTE MERLIN PRONTO: $PacoteMerlin"
+    Write-Host "Arraste a pasta LWIW_Data para a raiz do jogo e confirme a substituicao."
+}
+
+function Build-AutomaticStaging {
+    Initialize-AssetPipeline
+    $dotnet = Resolve-DotNetSdk
+    Write-Host "`n[1/3] Analisando assets atuais e cobertura das memorias"
+    Invoke-AssetPipeline $dotnet "scan"
+    Write-Host "`n[2/3] Reconstruindo os quatro assets no staging"
+    Invoke-AssetPipeline $dotnet "build"
+    Write-Host "`n[3/3] Reabrindo e validando os assets reconstruidos"
+    Invoke-AssetPipeline $dotnet "verify"
+    Export-MerlinPackage
+    Write-Host "`nSTAGING PRONTO: $Staging"
+    Write-Host "O jogo ainda nao foi modificado. Para instalar, use -Etapa instalar -ConfirmarInstalacao."
+}
+
+function Build-MerlinPackage {
+    Initialize-AssetPipeline
+    $dotnet = Resolve-DotNetSdk
+    Invoke-AssetPipeline $dotnet "verify"
+    Export-MerlinPackage
+}
+
+function Install-AutomaticStaging {
+    if (-not $ConfirmarInstalacao) {
+        throw "Instalacao cancelada por seguranca. Repita com -Etapa instalar -ConfirmarInstalacao."
+    }
+
+    $gameProcess = Get-Process -ErrorAction SilentlyContinue | Where-Object {
+        $_.ProcessName -like "*Little Witch*" -or $_.ProcessName -eq "LWIW"
+    }
+    if ($gameProcess) { throw "Feche Little Witch in the Woods antes de instalar a traducao." }
+
+    Initialize-AssetPipeline
+    $dotnet = Resolve-DotNetSdk
+    Invoke-AssetPipeline $dotnet "verify"
+    $expected = @($Artefatos | ForEach-Object { $_.Nome })
+    $staged = @(Get-ChildItem -LiteralPath $Staging -File | ForEach-Object Name)
+    if (@($staged | Where-Object { $_ -notin $expected }).Count -ne 0 -or $staged.Count -ne $expected.Count) {
+        throw "Staging invalido: devem existir somente os quatro assets esperados."
+    }
+
+    $timestamp = Get-Date -Format "yyyyMMdd-HHmmss"
+    $backup = Join-Path $Raiz "atualizacao\backups\$timestamp"
+    New-Item -ItemType Directory -Path $backup -Force | Out-Null
+    foreach ($artifact in $Artefatos) {
+        Copy-Item -LiteralPath $artifact.Caminho -Destination (Join-Path $backup $artifact.Nome) -Force
+    }
+
+    try {
+        foreach ($artifact in $Artefatos) {
+            Copy-Item -LiteralPath (Join-Path $Staging $artifact.Nome) -Destination $artifact.Caminho -Force
+        }
+    } catch {
+        foreach ($artifact in $Artefatos) {
+            $saved = Join-Path $backup $artifact.Nome
+            if (Test-Path -LiteralPath $saved) {
+                Copy-Item -LiteralPath $saved -Destination $artifact.Caminho -Force
+            }
+        }
+        throw "A instalacao falhou e o backup foi restaurado. Erro original: $($_.Exception.Message)"
+    }
+
+    $manifest = [pscustomobject]@{
+        installedAt = (Get-Date).ToUniversalTime().ToString("o")
+        game = $Jogo
+        backup = $backup
+        files = @($Artefatos | ForEach-Object {
+            [pscustomobject]@{
+                fluxo = $_.Fluxo
+                caminho = $_.Caminho
+                sha256 = (Get-FileHash -LiteralPath $_.Caminho -Algorithm SHA256).Hash
+            }
+        })
+    }
+    Write-JsonUtf8 (Join-Path $backup "manifesto_instalacao.json") $manifest
+    Write-Host "Traducao instalada. Backup dos originais: $backup"
+}
+
 switch ($Etapa) {
     "status" { Show-Status | Out-Null }
     "preparar" { Show-Status | Out-Null; Prepare-Bundles }
     "gerar" { Generate-Translations }
     "validar" { Validate-Translations | Out-Null }
     "atualizar" { Show-Status | Out-Null; Generate-Translations; Validate-Translations | Out-Null }
+    "automatico" { Build-AutomaticStaging }
+    "pacote" { Build-MerlinPackage }
+    "instalar" { Install-AutomaticStaging }
 }

@@ -206,11 +206,14 @@ Depois de preencher as traducoes vazias, aplique a memoria com:
 py .\script_missoes.py -translate
 ```
 
-O segundo comando gera os arquivos em `traduzidos/` e o relatorio em
-`relatorios/relatorio_translate_missoes.json`. O script nao remove arquivos antigos
-da pasta de saida, exceto por separar com seguranca qualquer `base-*` em
-`nao_importar/`. Mantenha juntos os 10 dumps `CAB-*` importaveis e os 18 dumps
-`*-resources.assets-*`; os nomes dos arquivos distinguem o destino de reinsercao.
+O segundo comando gera o relatorio em `relatorios/relatorio_translate_missoes.json`
+e separa automaticamente as saidas por destino:
+
+- `traduzidos/defaultlocalgroup/`: 10 dumps `CAB-*` para o bundle;
+- `traduzidos/resources_assets/`: 18 dumps para `resources.assets`.
+
+O script nao apaga saidas antigas. Qualquer `base-*` ou saida obsoleta de uma versao
+anterior e movida com seguranca para `nao_importar/`.
 
 Esse script cobre os dois conjuntos de `TextTable`. `Post`, `QuestUI` e `QuestNode`
 continuam no fluxo geral de `memoria_revisado.json`.
@@ -223,10 +226,104 @@ exports atuais de `resources.assets`.
 
 ## Pipeline automatizado de atualizacao
 
-O orquestrador `atualizar_traducao.ps1` coordena os textos gerais, dialogos, missoes
-e auditorias. Ele nunca altera diretamente a instalacao do jogo.
+O orquestrador `atualizar_traducao.ps1` possui dois fluxos independentes:
 
-### Passo a passo recomendado
+- o fluxo convencional por dumps (`preparar`, `gerar`, `validar` e `atualizar`),
+  mantido para diagnostico e edicao manual;
+- o fluxo automatico por `AssetsTools.NET`, que le os assets instalados, aplica as
+  memorias e reconstroi os quatro arquivos sem usar o UABEA manualmente.
+
+### Preparacao unica
+
+O fluxo automatico precisa do .NET 8 SDK e do `classdata.tpk` do UABEA. Com o arquivo
+`uabea-windows.zip` em `Downloads`, execute uma vez:
+
+```powershell
+.\preparar_pipeline_assets.ps1
+```
+
+Se o zip estiver em outro lugar:
+
+```powershell
+.\preparar_pipeline_assets.ps1 -UabeaZip "C:\caminho\uabea-windows.zip"
+```
+
+As ferramentas ficam em `LW/.tools/`, que e ignorada pelo Git. O script instala um
+.NET SDK local, sem alterar o SDK global do Windows, extrai somente `classdata.tpk` e
+nao instala nem modifica o jogo.
+
+### Geracao automatica segura
+
+Feche o jogo, deixe a Steam terminar a atualizacao e execute dentro de `LW`:
+
+```powershell
+.\atualizar_traducao.ps1 -Etapa automatico
+```
+
+Esse comando:
+
+1. le diretamente os assets atuais da instalacao;
+2. exige exatamente 25 tabelas gerais, 1 DialogueDB, 10 tabelas de missao no
+   `defaultlocalgroup` e 18 tabelas no `resources.assets`;
+3. ignora sempre o asset tecnico `base`;
+4. aplica `memoria_revisado.json`, `dialogos/memory/memoria.json` e
+   `missoes/memoria_missoes.json`;
+5. interrompe a geracao se encontrar qualquer texto sem traducao;
+6. grava os quatro resultados em `LW/atualizacao/staging/`;
+7. reabre os arquivos reconstruidos e repete toda a validacao;
+8. monta `LW/atualizacao/pacote_merlin/LWIW_Data/` com os caminhos finais do jogo.
+
+O relatorio completo fica em `relatorios/asset_pipeline_automatico.json`. Prossiga
+somente quando `Ready` for `true`. O comando `automatico` nunca altera os arquivos
+vivos da Steam.
+
+Para distribuir pelo Merlin ou instalar manualmente, use a pasta:
+
+`LW/atualizacao/pacote_merlin/LWIW_Data/`
+
+Ela pode ser arrastada diretamente para a raiz `Little Witch in the Woods`, mantendo
+os caminhos internos. Confirme a substituicao dos quatro arquivos quando o Windows
+solicitar. Para remontar somente o pacote usando um staging existente e validado:
+
+```powershell
+.\atualizar_traducao.ps1 -Etapa pacote
+```
+
+Os quatro resultados sao mantidos separados:
+
+- `localization-string-tables-english(en)_assets_all.bundle`: textos gerais;
+- `dialoguedb_assets_all.bundle`: dialogos;
+- `defaultlocalgroup_assets_all.bundle`: 10 tabelas atuais de missao;
+- `resources.assets`: 18 tabelas usadas pelo historico do jornal.
+
+### Instalacao com backup
+
+Depois de conferir o relatorio, instale explicitamente com:
+
+```powershell
+.\atualizar_traducao.ps1 -Etapa instalar -ConfirmarInstalacao
+```
+
+Essa etapa verifica novamente o staging, exige que o jogo esteja fechado, salva os
+quatro originais em `LW/atualizacao/backups/<data-hora>/` e so depois substitui os
+arquivos. Se uma copia falhar, o script tenta restaurar imediatamente todos os
+originais. Cada backup inclui `manifesto_instalacao.json` com caminhos e hashes dos
+arquivos instalados.
+
+### Fluxo convencional preservado
+
+O processo anterior continua funcionando e nao foi removido. Para gerar dumps
+traduzidos e fazer a reinsercao manual, use:
+
+```powershell
+.\atualizar_traducao.ps1 -Etapa preparar
+.\atualizar_traducao.ps1 -Etapa atualizar
+```
+
+Nesse fluxo, exporte 25 tabelas gerais, 1 `DialogueDB_en-*`, 10 tabelas CAB de
+missao e 18 tabelas de `resources.assets`. Nunca reinsira o asset `base`.
+
+### Passo a passo convencional por dumps
 
 1. Feche o jogo e deixe a Steam concluir qualquer atualizacao.
 2. Dentro de `LW`, execute `atualizar_traducao.ps1 -Etapa status` para conferir os
@@ -234,7 +331,7 @@ e auditorias. Ele nunca altera diretamente a instalacao do jogo.
 3. Execute `atualizar_traducao.ps1 -Etapa preparar`. O comando copia os quatro
    artefatos atuais do jogo para `LW/atualizacao/bundles_originais/`, sem alterar a
    instalacao.
-4. No editor de assets, exporte 26 tabelas gerais, 1 `DialogueDB_en-*`, 10 tabelas
+4. No editor de assets, exporte 25 tabelas gerais, 1 `DialogueDB_en-*`, 10 tabelas
    CAB de missao e 18 tabelas de missao de `resources.assets`.
 5. Coloque os exports gerais em `LW/exportados/`, o DialogueDB em
    `LW/dialogos/exportados/` e os 28 exports importaveis de missao em
@@ -252,10 +349,6 @@ e auditorias. Ele nunca altera diretamente a instalacao do jogo.
 10. Monte o pacote, instale em uma copia limpa e teste dialogos, diario e titulos de
     missoes antes de publicar.
 
-O pipeline automatiza copia segura, aplicacao das memorias, geracao e auditoria. A
-exportacao e a reinsercao ainda sao manuais porque a ferramenta grafica de assets nao
-esta integrada por CLI.
-
 Para verificar se a Steam mudou algum dos tres bundles ou o `resources.assets`:
 
 ```powershell
@@ -272,15 +365,23 @@ Para copiar os artefatos atuais para uma area segura antes de exportar:
 .\atualizar_traducao.ps1 -Etapa preparar
 ```
 
-As copias ficam em `atualizacao/bundles_originais/`. Enquanto nao houver uma
-ferramenta de bundles com CLI configurada, use o editor grafico para exportar:
+As copias ficam em `atualizacao/bundles_originais/`. Para continuar pelo fluxo
+convencional, use o editor grafico para exportar:
 
-- 26 tabelas gerais para `LW/exportados/`;
+- 25 tabelas gerais para `LW/exportados/`;
 - 1 `DialogueDB_en-*` para `LW/dialogos/exportados/`;
 - 10 `TextTable` `CAB-*` importaveis do `defaultlocalgroup` para
   `missoes/exportados/`;
 - nao exporte nem importe `base`; se exportar por engano, o script ira ignora-lo;
 - 18 `TextTable` `*-resources.assets-*` para `missoes/exportados/`.
+
+Nao exporte o objeto tecnico raiz cujo dump comeca por `c0f64...bundle-`. Ele nao e
+uma tabela de strings e era o falso 26o arquivo das contagens antigas.
+
+Antes de gerar, o pipeline tambem compara cada pasta `traduzidos/` com os exports
+atuais. Saidas antigas ou tecnicas que nao correspondem mais a um export sao movidas,
+sem exclusao, para `LW/atualizacao/nao_importar/<fluxo>/`. Nao reinsera arquivos
+dessa pasta no jogo.
 
 Depois dos exports, todo o restante e executado com um comando:
 
@@ -293,7 +394,8 @@ Tambem e possivel clicar em `atualizar_traducao.cmd`. O pipeline:
 1. detecta os tres bundles e o `resources.assets` e valida os exports;
 2. aplica `memoria_revisado.json` nas tabelas gerais;
 3. gera o DialogueDB atual diretamente de `dialogos/memory/memoria.json`;
-4. atualiza e aplica `missoes/memoria_missoes.json`;
+4. atualiza e aplica `missoes/memoria_missoes.json`, separando as saidas entre
+   `defaultlocalgroup/` e `resources_assets/`;
 5. audita encoding, nomes de personagens e dialogos ainda em ingles;
 6. grava `relatorios/resumo_pipeline_atualizacao.json` com `pronto` ou
    `revisao_necessaria`.
@@ -304,10 +406,6 @@ Etapas individuais tambem podem ser usadas:
 .\atualizar_traducao.ps1 -Etapa gerar
 .\atualizar_traducao.ps1 -Etapa validar
 ```
-
-A extracao e a reinsercao nos bundles ainda sao manuais. Para automatiza-las sem
-risco, sera necessario configurar a ferramenta exata usada para editar os bundles e
-confirmar que ela oferece CLI ou API de importacao/exportacao.
 
 ### Titulos de missoes ja ativas
 

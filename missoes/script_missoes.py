@@ -12,6 +12,8 @@ BASE_DIR = Path(".")
 
 PASTA_EXPORTADOS = BASE_DIR / "exportados"
 PASTA_TRADUZIDOS = BASE_DIR / "traduzidos"
+PASTA_TRADUZIDOS_DEFAULTLOCALGROUP = PASTA_TRADUZIDOS / "defaultlocalgroup"
+PASTA_TRADUZIDOS_RESOURCES = PASTA_TRADUZIDOS / "resources_assets"
 PASTA_RELATORIOS = BASE_DIR / "relatorios"
 PASTA_NAO_IMPORTAR = BASE_DIR / "nao_importar"
 
@@ -111,6 +113,54 @@ def separar_saidas_nao_importaveis():
             contador += 1
         arquivo.replace(destino)
         movidos.append({"origem": str(arquivo), "destino": str(destino)})
+
+    return movidos
+
+
+def pasta_saida_para_arquivo(caminho: Path) -> Path:
+    if "-resources.assets-" in caminho.name:
+        return PASTA_TRADUZIDOS_RESOURCES
+    return PASTA_TRADUZIDOS_DEFAULTLOCALGROUP
+
+
+def organizar_saidas_importaveis_existentes():
+    movidos = []
+    if not PASTA_TRADUZIDOS.exists():
+        return movidos
+
+    for arquivo in sorted(PASTA_TRADUZIDOS.glob("*")):
+        if not arquivo.is_file() or not arquivo_importavel(arquivo):
+            continue
+
+        pasta_destino = pasta_saida_para_arquivo(arquivo)
+        pasta_destino.mkdir(parents=True, exist_ok=True)
+        destino = pasta_destino / arquivo.name
+        arquivo.replace(destino)
+        movidos.append({"origem": str(arquivo), "destino": str(destino)})
+
+    return movidos
+
+
+def separar_saidas_obsoletas(exports_atuais):
+    nomes_atuais = {arquivo.name for arquivo in exports_atuais}
+    movidos = []
+
+    for pasta in (PASTA_TRADUZIDOS_DEFAULTLOCALGROUP, PASTA_TRADUZIDOS_RESOURCES):
+        if not pasta.exists():
+            continue
+
+        for arquivo in sorted(pasta.glob("*")):
+            if not arquivo.is_file() or arquivo.name in nomes_atuais:
+                continue
+
+            PASTA_NAO_IMPORTAR.mkdir(parents=True, exist_ok=True)
+            destino = PASTA_NAO_IMPORTAR / arquivo.name
+            contador = 1
+            while destino.exists():
+                destino = PASTA_NAO_IMPORTAR / f"{arquivo.stem}.{contador}{arquivo.suffix}"
+                contador += 1
+            arquivo.replace(destino)
+            movidos.append({"origem": str(arquivo), "destino": str(destino)})
 
     return movidos
 
@@ -455,6 +505,8 @@ def traduzir_conteudo_dump(conteudo: str, memoria: dict, arquivo_nome: str):
 def modo_translate():
     PASTA_EXPORTADOS.mkdir(parents=True, exist_ok=True)
     PASTA_TRADUZIDOS.mkdir(parents=True, exist_ok=True)
+    PASTA_TRADUZIDOS_DEFAULTLOCALGROUP.mkdir(parents=True, exist_ok=True)
+    PASTA_TRADUZIDOS_RESOURCES.mkdir(parents=True, exist_ok=True)
     PASTA_RELATORIOS.mkdir(parents=True, exist_ok=True)
 
     if not ARQUIVO_MEMORIA.exists():
@@ -475,6 +527,8 @@ def modo_translate():
 
     relatorio_geral = []
     saidas_separadas = separar_saidas_nao_importaveis()
+    saidas_organizadas = organizar_saidas_importaveis_existentes()
+    saidas_obsoletas = separar_saidas_obsoletas(arquivos)
 
     print("======================================")
     print("Aplicando traduções nas missões")
@@ -484,6 +538,10 @@ def modo_translate():
     print("Ignorados por seguranca: base-*")
     for item in saidas_separadas:
         print(f"Separado para nao importar: {item['destino']}")
+    for item in saidas_obsoletas:
+        print(f"Saida obsoleta separada: {item['destino']}")
+    if saidas_organizadas:
+        print(f"Saidas antigas organizadas: {len(saidas_organizadas)}")
     print()
 
     for arquivo in arquivos:
@@ -496,7 +554,8 @@ def modo_translate():
                 arquivo.name
             )
 
-            caminho_saida = PASTA_TRADUZIDOS / arquivo.name
+            pasta_saida = pasta_saida_para_arquivo(arquivo)
+            caminho_saida = pasta_saida / arquivo.name
             caminho_saida.write_text(novo_conteudo, encoding="utf-8")
 
             relatorio_geral.append(relatorio)
@@ -535,7 +594,8 @@ def modo_translate():
     print("Finalizado.")
     print(f"Total substituídas: {total_substituidas}")
     print(f"Total sem tradução: {total_sem_traducao}")
-    print(f"Arquivos gerados em: {PASTA_TRADUZIDOS.resolve()}")
+    print(f"DefaultLocalGroup: {PASTA_TRADUZIDOS_DEFAULTLOCALGROUP.resolve()}")
+    print(f"Resources.assets: {PASTA_TRADUZIDOS_RESOURCES.resolve()}")
     print(f"Relatório em: {(PASTA_RELATORIOS / 'relatorio_translate_missoes.json').resolve()}")
 
 

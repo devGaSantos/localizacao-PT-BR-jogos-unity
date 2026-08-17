@@ -1,1 +1,9 @@
 missoes/nao_importar/
+LW/.tools/
+LW/tools/asset-pipeline/bin/
+LW/tools/asset-pipeline/obj/
+LW/atualizacao/staging/
+LW/atualizacao/backups/
+LW/atualizacao/bundles_originais/
+LW/atualizacao/nao_importar/
+LW/atualizacao/pacote_merlin/

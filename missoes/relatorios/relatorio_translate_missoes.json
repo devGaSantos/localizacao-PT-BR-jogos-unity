@@ -5,8 +5,23 @@
     "sem_traducao": []
   },
   {
+    "arquivo": "main_Ellie-resources.assets-22950.txt",
+    "substituidas": 44,
+    "sem_traducao": []
+  },
+  {
     "arquivo": "main_WhiteCat-CAB-44a5a9bb871bd918ae60bbd84f51782f--5311969575089420596.txt",
     "substituidas": 29,
+    "sem_traducao": []
+  },
+  {
+    "arquivo": "main_WhiteCat-resources.assets-22951.txt",
+    "substituidas": 29,
+    "sem_traducao": []
+  },
+  {
+    "arquivo": "npc_alvin-resources.assets-22953.txt",
+    "substituidas": 4,
     "sem_traducao": []
   },
   {
@@ -15,7 +30,32 @@
     "sem_traducao": []
   },
   {
+    "arquivo": "npc_arden-resources.assets-22954.txt",
+    "substituidas": 8,
+    "sem_traducao": []
+  },
+  {
+    "arquivo": "npc_arin-resources.assets-22955.txt",
+    "substituidas": 5,
+    "sem_traducao": []
+  },
+  {
     "arquivo": "npc_aurea-CAB-44a5a9bb871bd918ae60bbd84f51782f-7125457782469390676.txt",
+    "substituidas": 5,
+    "sem_traducao": []
+  },
+  {
+    "arquivo": "npc_aurea-resources.assets-22956.txt",
+    "substituidas": 5,
+    "sem_traducao": []
+  },
+  {
+    "arquivo": "npc_bjorn-resources.assets-22957.txt",
+    "substituidas": 1,
+    "sem_traducao": []
+  },
+  {
+    "arquivo": "npc_clala-resources.assets-22958.txt",
     "substituidas": 5,
     "sem_traducao": []
   },
@@ -25,7 +65,17 @@
     "sem_traducao": []
   },
   {
+    "arquivo": "npc_diane-resources.assets-22959.txt",
+    "substituidas": 4,
+    "sem_traducao": []
+  },
+  {
     "arquivo": "npc_enite-CAB-44a5a9bb871bd918ae60bbd84f51782f-5470686419056303079.txt",
+    "substituidas": 3,
+    "sem_traducao": []
+  },
+  {
+    "arquivo": "npc_enite-resources.assets-22960.txt",
     "substituidas": 3,
     "sem_traducao": []
   },
@@ -35,8 +85,28 @@
     "sem_traducao": []
   },
   {
+    "arquivo": "npc_kyla-resources.assets-22961.txt",
+    "substituidas": 8,
+    "sem_traducao": []
+  },
+  {
+    "arquivo": "npc_library-resources.assets-22962.txt",
+    "substituidas": 2,
+    "sem_traducao": []
+  },
+  {
+    "arquivo": "npc_rex-resources.assets-22963.txt",
+    "substituidas": 1,
+    "sem_traducao": []
+  },
+  {
     "arquivo": "npc_rosie-CAB-44a5a9bb871bd918ae60bbd84f51782f-2262095613986074425.txt",
     "substituidas": 1,
+    "sem_traducao": []
+  },
+  {
+    "arquivo": "npc_Roy-resources.assets-22952.txt",
+    "substituidas": 8,
     "sem_traducao": []
   },
   {
@@ -45,7 +115,27 @@
     "sem_traducao": []
   },
   {
+    "arquivo": "npc_rubrum-resources.assets-22964.txt",
+    "substituidas": 5,
+    "sem_traducao": []
+  },
+  {
+    "arquivo": "npc_teo-resources.assets-22965.txt",
+    "substituidas": 4,
+    "sem_traducao": []
+  },
+  {
+    "arquivo": "npc_vinch-resources.assets-22966.txt",
+    "substituidas": 4,
+    "sem_traducao": []
+  },
+  {
     "arquivo": "prologue-CAB-44a5a9bb871bd918ae60bbd84f51782f-7386423219274151545.txt",
+    "substituidas": 19,
+    "sem_traducao": []
+  },
+  {
+    "arquivo": "prologue-resources.assets-22967.txt",
     "substituidas": 19,
     "sem_traducao": []
   }
