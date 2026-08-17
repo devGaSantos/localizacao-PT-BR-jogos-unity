@@ -92,12 +92,14 @@ function Get-ExportStatus {
     $generalFiles = @(Get-ChildItem -LiteralPath (Join-Path $Raiz "exportados") -File -Filter "*.txt")
     $dialogFiles = @(Get-ChildItem -LiteralPath (Join-Path $Raiz "dialogos\exportados") -File -Filter "DialogueDB_en-*.txt")
     $missionFiles = @(Get-ChildItem -LiteralPath (Join-Path $Missoes "exportados") -File -Filter "*.txt")
-    $missionBundleFiles = @($missionFiles | Where-Object { $_.Name -match "-CAB-" })
+    $missionBundleFiles = @($missionFiles | Where-Object { $_.Name -match "-CAB-" -and $_.Name -notmatch "^base-" })
+    $missionBaseFiles = @($missionFiles | Where-Object { $_.Name -match "^base-" })
     $missionResourceFiles = @($missionFiles | Where-Object { $_.Name -match "-resources\.assets-" })
     return @(
         [pscustomobject]@{ fluxo = "geral"; arquivos = $generalFiles.Count; pasta = (Join-Path $Raiz "exportados") },
         [pscustomobject]@{ fluxo = "dialogos"; arquivos = $dialogFiles.Count; pasta = (Join-Path $Raiz "dialogos\exportados") },
         [pscustomobject]@{ fluxo = "missoes_tabelas"; arquivos = $missionBundleFiles.Count; pasta = (Join-Path $Missoes "exportados") },
+        [pscustomobject]@{ fluxo = "missoes_base_nao_importar"; arquivos = $missionBaseFiles.Count; pasta = (Join-Path $Missoes "exportados") },
         [pscustomobject]@{ fluxo = "missoes_jornal"; arquivos = $missionResourceFiles.Count; pasta = (Join-Path $Missoes "exportados") }
     )
 }
@@ -126,7 +128,8 @@ function Prepare-Bundles {
         Copy-Item -LiteralPath $source -Destination (Join-Path $destination $bundle.Nome) -Force
     }
     Write-Host "Copias atuais preparadas em: $destination"
-    Write-Host "Exporte delas as tabelas gerais, o DialogueDB, os 11 TextTable do bundle e os 18 TextTable de resources.assets."
+    Write-Host "Exporte delas as tabelas gerais, o DialogueDB, os 10 TextTable importaveis do bundle e os 18 TextTable de resources.assets."
+    Write-Warning "Nao importe o asset base. Se ele for exportado, o script de missoes ira ignora-lo."
 }
 
 function Assert-Exports {
@@ -134,10 +137,12 @@ function Assert-Exports {
     $general = ($status | Where-Object fluxo -eq "geral").arquivos
     $dialogs = ($status | Where-Object fluxo -eq "dialogos").arquivos
     $missionTables = ($status | Where-Object fluxo -eq "missoes_tabelas").arquivos
+    $missionBase = ($status | Where-Object fluxo -eq "missoes_base_nao_importar").arquivos
     $missionJournal = ($status | Where-Object fluxo -eq "missoes_jornal").arquivos
     if ($general -lt 1) { throw "Nenhum export geral encontrado." }
     if ($dialogs -ne 1) { throw "Esperado exatamente 1 DialogueDB atual; encontrados $dialogs." }
-    if ($missionTables -ne 11) { throw "Esperados 11 exports CAB-* de missoes; encontrados $missionTables." }
+    if ($missionTables -ne 10) { throw "Esperados 10 exports CAB-* importaveis de missoes; encontrados $missionTables. O asset base nao entra nessa contagem." }
+    if ($missionBase -gt 1) { throw "Encontrado mais de um export base-*; mantenha no maximo um, que sera ignorado." }
     if ($missionJournal -ne 18) { throw "Esperados 18 exports *-resources.assets-* do jornal; encontrados $missionJournal." }
 }
 

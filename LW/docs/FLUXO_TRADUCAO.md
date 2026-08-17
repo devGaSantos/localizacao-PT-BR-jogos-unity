@@ -133,9 +133,9 @@ explícita para atualizar o arquivo em `dialogos/traduzidos`.
 ## Localização das missões na versão atual
 
 As missões usam duas cópias de `TextTable` com funções diferentes. O catálogo
-Addressables declara 11 tabelas dentro de `defaultlocalgroup_assets_all.bundle`:
+Addressables declara 11 tabelas dentro de `defaultlocalgroup_assets_all.bundle`, mas
+somente 10 devem ser traduzidas e reinseridas:
 
-- `base`;
 - `main_Ellie`;
 - `main_WhiteCat`;
 - `npc_arden`;
@@ -147,6 +147,10 @@ Addressables declara 11 tabelas dentro de `defaultlocalgroup_assets_all.bundle`:
 - `npc_rubrum`;
 - `prologue`.
 
+O asset `base` nao e importavel. Importa-lo de volta pode corromper ou quebrar o
+bundle. Ele pode ficar entre os exports por conveniencia, mas `script_missoes.py`
+sempre o ignora e move qualquer saida antiga `base-*` para `missoes/nao_importar/`.
+
 O arquivo `LWIW_Data/resources.assets` ainda contém 18 tabelas, incluindo
 `npc_Roy`, `npc_alvin`, `npc_arin`, `npc_bjorn`, `npc_clala`, `npc_library`,
 `npc_rex`, `npc_teo` e `npc_vinch`. A tela de histórico do jornal lê os títulos
@@ -156,13 +160,14 @@ continuaram em inglês após a troca isolada do `defaultlocalgroup`.
 
 Portanto, a cobertura completa das missões exige três fontes:
 
-1. `defaultlocalgroup_assets_all.bundle`, com os 11 `TextTable` Addressables;
+1. `defaultlocalgroup_assets_all.bundle`, com 10 `TextTable` importaveis e o asset
+   `base` proibido para reinsercao;
 2. `resources.assets`, com os 18 `TextTable` usados pelo histórico do jornal;
 3. `localization-string-tables-english(en)_assets_all.bundle`, com `Post`, `QuestUI`
    e `QuestNode`.
 
 As tabelas `Post`, `QuestUI` e `QuestNode` entram no fluxo geral de
-`memoria_revisado.json`. Os 11 mais os 18 dumps de missão usam
+`memoria_revisado.json`. Os 10 mais os 18 dumps importaveis de missão usam
 `memoria_missoes.json`. Sempre exporte os 18 novamente a partir do
 `resources.assets` da versão instalada; não reutilize automaticamente dumps de uma
 versão antiga.
@@ -203,20 +208,53 @@ py .\script_missoes.py -translate
 
 O segundo comando gera os arquivos em `traduzidos/` e o relatorio em
 `relatorios/relatorio_translate_missoes.json`. O script nao remove arquivos antigos
-da pasta de saida. Mantenha juntos os 11 dumps `CAB-*` e os 18 dumps
+da pasta de saida, exceto por separar com seguranca qualquer `base-*` em
+`nao_importar/`. Mantenha juntos os 10 dumps `CAB-*` importaveis e os 18 dumps
 `*-resources.assets-*`; os nomes dos arquivos distinguem o destino de reinsercao.
 
 Esse script cobre os dois conjuntos de `TextTable`. `Post`, `QuestUI` e `QuestNode`
 continuam no fluxo geral de `memoria_revisado.json`.
 
-Na validação de 15/08/2026, apenas os 11 arquivos do bundle foram processados, com
+Na validação de 15/08/2026, os 11 arquivos do bundle foram processados, incluindo
+indevidamente o `base`, com
 132 substituições, zero faltantes e zero erros. Essa validação não cobria o histórico
-do jornal; os 18 exports atuais de `resources.assets` também são obrigatórios.
+do jornal e nao deve ser repetida: processe somente os 10 importaveis mais os 18
+exports atuais de `resources.assets`.
 
 ## Pipeline automatizado de atualizacao
 
 O orquestrador `atualizar_traducao.ps1` coordena os textos gerais, dialogos, missoes
 e auditorias. Ele nunca altera diretamente a instalacao do jogo.
+
+### Passo a passo recomendado
+
+1. Feche o jogo e deixe a Steam concluir qualquer atualizacao.
+2. Dentro de `LW`, execute `atualizar_traducao.ps1 -Etapa status` para conferir os
+   hashes e quais exports ainda pertencem a versao anterior.
+3. Execute `atualizar_traducao.ps1 -Etapa preparar`. O comando copia os quatro
+   artefatos atuais do jogo para `LW/atualizacao/bundles_originais/`, sem alterar a
+   instalacao.
+4. No editor de assets, exporte 26 tabelas gerais, 1 `DialogueDB_en-*`, 10 tabelas
+   CAB de missao e 18 tabelas de missao de `resources.assets`.
+5. Coloque os exports gerais em `LW/exportados/`, o DialogueDB em
+   `LW/dialogos/exportados/` e os 28 exports importaveis de missao em
+   `missoes/exportados/`.
+6. Nao exporte nem importe o asset de missao `base`. Se ele estiver na pasta por
+   engano, o script o ignora; qualquer saida antiga e movida para
+   `missoes/nao_importar/`.
+7. Execute `atualizar_traducao.ps1 -Etapa atualizar`. O pipeline aplica as tres
+   memorias, gera as saidas e executa as auditorias.
+8. Abra `relatorios/resumo_pipeline_atualizacao.json`. Prossiga somente se o status
+   for `pronto`; se houver faltantes, atualize a memoria indicada e rode novamente.
+9. Reinsira manualmente cada saida no artefato de onde veio: gerais no bundle de
+   localizacao, dialogos no `dialoguedb`, 10 CAB no `defaultlocalgroup` e 18 tabelas
+   no `resources.assets`.
+10. Monte o pacote, instale em uma copia limpa e teste dialogos, diario e titulos de
+    missoes antes de publicar.
+
+O pipeline automatiza copia segura, aplicacao das memorias, geracao e auditoria. A
+exportacao e a reinsercao ainda sao manuais porque a ferramenta grafica de assets nao
+esta integrada por CLI.
 
 Para verificar se a Steam mudou algum dos tres bundles ou o `resources.assets`:
 
@@ -239,7 +277,9 @@ ferramenta de bundles com CLI configurada, use o editor grafico para exportar:
 
 - 26 tabelas gerais para `LW/exportados/`;
 - 1 `DialogueDB_en-*` para `LW/dialogos/exportados/`;
-- 11 `TextTable` `CAB-*` do `defaultlocalgroup` para `missoes/exportados/`;
+- 10 `TextTable` `CAB-*` importaveis do `defaultlocalgroup` para
+  `missoes/exportados/`;
+- nao exporte nem importe `base`; se exportar por engano, o script ira ignora-lo;
 - 18 `TextTable` `*-resources.assets-*` para `missoes/exportados/`.
 
 Depois dos exports, todo o restante e executado com um comando:

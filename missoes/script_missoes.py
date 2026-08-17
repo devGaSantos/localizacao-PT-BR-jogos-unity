@@ -13,8 +13,11 @@ BASE_DIR = Path(".")
 PASTA_EXPORTADOS = BASE_DIR / "exportados"
 PASTA_TRADUZIDOS = BASE_DIR / "traduzidos"
 PASTA_RELATORIOS = BASE_DIR / "relatorios"
+PASTA_NAO_IMPORTAR = BASE_DIR / "nao_importar"
 
 ARQUIVO_MEMORIA = BASE_DIR / "memoria_missoes.json"
+
+PREFIXOS_NAO_IMPORTAVEIS = ("base-",)
 
 
 # ============================================================
@@ -76,6 +79,40 @@ def salvar_json(caminho: Path, dados):
 
     with caminho.open("w", encoding="utf-8") as f:
         json.dump(dados, f, ensure_ascii=False, indent=2)
+
+
+def arquivo_importavel(caminho: Path) -> bool:
+    nome = caminho.name.casefold()
+    return not any(nome.startswith(prefixo) for prefixo in PREFIXOS_NAO_IMPORTAVEIS)
+
+
+def listar_exports_importaveis():
+    return sorted(
+        arquivo
+        for arquivo in PASTA_EXPORTADOS.glob("*")
+        if arquivo.is_file() and arquivo_importavel(arquivo)
+    )
+
+
+def separar_saidas_nao_importaveis():
+    movidos = []
+    if not PASTA_TRADUZIDOS.exists():
+        return movidos
+
+    for arquivo in sorted(PASTA_TRADUZIDOS.glob("*")):
+        if not arquivo.is_file() or arquivo_importavel(arquivo):
+            continue
+
+        PASTA_NAO_IMPORTAR.mkdir(parents=True, exist_ok=True)
+        destino = PASTA_NAO_IMPORTAR / arquivo.name
+        contador = 1
+        while destino.exists():
+            destino = PASTA_NAO_IMPORTAR / f"{arquivo.stem}.{contador}{arquivo.suffix}"
+            contador += 1
+        arquivo.replace(destino)
+        movidos.append({"origem": str(arquivo), "destino": str(destino)})
+
+    return movidos
 
 
 # ============================================================
@@ -263,12 +300,7 @@ def modo_extrair():
     if not isinstance(memoria, dict):
         raise ValueError("memoria_missoes.json precisa ser um objeto JSON: { \"english\": \"tradução\" }")
 
-    arquivos = sorted(PASTA_EXPORTADOS.glob("*"))
-
-    arquivos = [
-        arquivo for arquivo in arquivos
-        if arquivo.is_file()
-    ]
+    arquivos = listar_exports_importaveis()
 
     if not arquivos:
         print(f"Nenhum arquivo encontrado em: {PASTA_EXPORTADOS.resolve()}")
@@ -281,6 +313,7 @@ def modo_extrair():
     print("Extraindo missões em inglês")
     print("======================================")
     print(f"Pasta: {PASTA_EXPORTADOS.resolve()}")
+    print("Ignorados por seguranca: base-*")
     print()
 
     for arquivo in arquivos:
@@ -434,24 +467,23 @@ def modo_translate():
     if not isinstance(memoria, dict):
         raise ValueError("memoria_missoes.json precisa ser um objeto JSON: { \"english\": \"tradução\" }")
 
-    arquivos = sorted(PASTA_EXPORTADOS.glob("*"))
-
-    arquivos = [
-        arquivo for arquivo in arquivos
-        if arquivo.is_file()
-    ]
+    arquivos = listar_exports_importaveis()
 
     if not arquivos:
         print(f"Nenhum arquivo encontrado em: {PASTA_EXPORTADOS.resolve()}")
         return
 
     relatorio_geral = []
+    saidas_separadas = separar_saidas_nao_importaveis()
 
     print("======================================")
     print("Aplicando traduções nas missões")
     print("======================================")
     print(f"Pasta origem: {PASTA_EXPORTADOS.resolve()}")
     print(f"Pasta saída: {PASTA_TRADUZIDOS.resolve()}")
+    print("Ignorados por seguranca: base-*")
+    for item in saidas_separadas:
+        print(f"Separado para nao importar: {item['destino']}")
     print()
 
     for arquivo in arquivos:
