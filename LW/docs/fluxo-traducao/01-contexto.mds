@@ -1,0 +1,33 @@
+# Contexto do Fluxo
+
+O repositorio parece ter sido montado para localizar e revisar texto de Little Witch in the Woods a partir de dumps do Unity.
+
+## Fontes observadas
+
+- `exportados/` e `dialogos/exportados/`: dumps brutos de texto.
+- `memory/` e `dialogos/memory/`: textos traduzidos por arquivo, usados como memoria por `m_Id`.
+- `memoria_revisado.json`: memoria consolidada por texto original.
+- `memory_extraida.json`: pares extraidos por comparacao de `m_Id`.
+- `relatorios/`: relatorios de faltantes e aplicacao.
+
+## Leitura do processo
+
+O fluxo parece misturar tres niveis:
+
+- nivel 1: traducao inicial automatica;
+- nivel 2: reaproveitamento de traducoes ja aprovadas;
+- nivel 3: revisao final para alinhar texto com a versao PT-BR desejada.
+
+## Hipoteses seguras
+
+- O nome do arquivo dentro de `memory/` precisa bater com o nome do arquivo em `exportados/`.
+- A comparacao por `m_Id` e a forma mais confiavel de validar substituicoes.
+- `memoria_revisado.json` funciona como cache central para evitar retraduzir frases repetidas.
+
+## O que nao da para afirmar com certeza
+
+- Qual foi o criterio humano final para aprovar ou reprovar frases.
+- Se existe um glossario externo fora do repositorio.
+- Se a pasta `dialogos/` segue exatamente a mesma regra de estilo da raiz.
+
+Use este contexto como base, mas trate qualquer regra fora dos arquivos observados como inferencia, nao como fato.

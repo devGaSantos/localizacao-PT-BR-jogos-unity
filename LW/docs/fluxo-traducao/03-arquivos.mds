@@ -1,0 +1,44 @@
+# Arquivos e Pastas
+
+## Raiz
+
+- `exportados/`: dumps brutos de origem.
+- `memory/`: correspondencia por arquivo, usada para reaproveitar traducoes.
+- `traduzidos/`: saida inicial traduzida.
+- `revisados/`: saida revisada por `m_Id`.
+- `relatorios/`: relatorios gerados pelos scripts.
+- `memoria_revisado.json`: cache principal de textos em ingles para PT-BR.
+- `memory_extraida.json`: pares extraidos por ID.
+- `revisados/memoria_revisada.json`: base de traducao consolidada.
+
+## Dialogos
+
+- `dialogos/exportados/`: dumps de dialogo.
+- `dialogos/memory/`: memoria especifica de dialogos.
+- `dialogos/traduzidos/`: saida de dialogos traduzidos.
+- `dialogos/nao_revisados/`: material pendente de revisao.
+- `dialogos/memory/openia/`: checkpoints, auditorias e alteracoes aprovadas ou reprovadas.
+
+## Scripts principais
+
+- `gera_memoria_extraida_traducao.py`: cria `memory_extraida.json`.
+- `translation_with_memory.py`: monta `memoria_revisado.json` e `relatorio_faltantes_translator.json`.
+- `gera_traduzidos_via_json.py`: aplica `memoria_revisado.json` aos dumps.
+- `review_localization.py`: substitui por `m_Id` a partir de `memory/`.
+- `review_localization.py` tambem registra faltantes por arquivo.
+
+## Artefatos de apoio
+
+- `dialogos/memory/openia/gpt-5-alteracoes.json`
+- `dialogos/memory/openia/checkpoint_corrigidas_openai.json`
+- `dialogos/memory/openia/alteracoes_aprovadas_para_replace.json`
+- `dialogos/memory/openia/alteracoes_reprovadas_com_sugestao.json`
+
+## Regra pratica
+
+Se um arquivo for:
+
+- entrada bruta, fica em `exportados/`;
+- traducao inicial, fica em `traduzidos/`;
+- revisao final, fica em `revisados/`;
+- memoria consolidada, fica em JSON na raiz ou em `dialogos/memory/`.

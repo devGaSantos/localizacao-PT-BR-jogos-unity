@@ -1,0 +1,39 @@
+# Fluxo de Traducao - Little Witch in the Woods
+
+Este conjunto de docs resume o fluxo que apareceu no repositório e organiza o uso futuro para gastar menos tokens.
+
+## O que foi entendido
+
+- O fluxo principal trabalha com dumps de Unity em `exportados/`.
+- Os textos traduzidos e revisados ficam em `traduzidos/`, `revisados/`, `memory/` e nos JSONs de memoria.
+- A chave mais importante para reaproveitar texto e o `m_Id` do dump Unity.
+- Existem dois usos claros de memoria:
+  - memoria por texto original, usada para traduzir mais rapido;
+  - memoria por `m_Id`, usada para revisar ou substituir com mais fidelidade.
+
+## Entrada recomendada
+
+Antes de abrir qualquer arquivo grande, leia nesta ordem:
+
+1. `docs/fluxo-traducao/01-contexto.mds`
+2. `docs/fluxo-traducao/02-pipeline.mds`
+3. `docs/fluxo-traducao/03-arquivos.mds`
+4. `docs/fluxo-traducao/04-boas-praticas.mds`
+5. `docs/fluxo-traducao/05-dialogos.mds`
+
+## Resumo do fluxo
+
+1. Extrair pares `m_Id` + `m_Localized` dos arquivos Unity.
+2. Reaproveitar traducoes existentes pela pasta `memory/`.
+3. Completar faltantes com translator automatizado.
+4. Consolidar tudo em `memoria_revisado.json`.
+5. Gerar `TRADUZIDO - ...txt` com base na memoria final.
+6. Revisar ou substituir textos usando `m_Id` quando necessario.
+
+## O que falta no repositorio
+
+- Nao encontrei um documento mestre original explicando o fluxo completo.
+- Nao encontrei regras formais de estilo de traducao.
+- Nao encontrei um glossario central padronizado.
+
+Por isso, estes arquivos sao uma base operacional, nao uma copia literal do fluxo humano original.

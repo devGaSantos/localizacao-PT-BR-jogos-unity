@@ -49,57 +49,57 @@
   },
   "EncyclopediaAchievement_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78--8903826945866006133.txt": {
     "arquivo": "EncyclopediaAchievement_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78--8903826945866006133.txt",
-    "linhas": 1200,
-    "entradas_m_Localized": 138,
-    "substituidas": 138,
+    "linhas": 1214,
+    "entradas_m_Localized": 139,
+    "substituidas": 139,
     "nao_encontradas": 0,
     "frases_nao_encontradas": {}
   },
   "Encyclopedia_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78-1240947895141636946.txt": {
     "arquivo": "Encyclopedia_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78-1240947895141636946.txt",
-    "linhas": 3475,
-    "entradas_m_Localized": 419,
-    "substituidas": 419,
+    "linhas": 3507,
+    "entradas_m_Localized": 423,
+    "substituidas": 423,
     "nao_encontradas": 0,
     "frases_nao_encontradas": {}
   },
   "InteractableObject_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78-545512026625732517.txt": {
     "arquivo": "InteractableObject_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78-545512026625732517.txt",
-    "linhas": 954,
-    "entradas_m_Localized": 116,
-    "substituidas": 115,
+    "linhas": 962,
+    "entradas_m_Localized": 117,
+    "substituidas": 116,
     "nao_encontradas": 1,
     "frases_nao_encontradas": {}
   },
   "InteriorPropBasicName_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78-8318995261550963750.txt": {
     "arquivo": "InteriorPropBasicName_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78-8318995261550963750.txt",
-    "linhas": 1490,
-    "entradas_m_Localized": 183,
-    "substituidas": 183,
+    "linhas": 1746,
+    "entradas_m_Localized": 215,
+    "substituidas": 215,
     "nao_encontradas": 0,
     "frases_nao_encontradas": {}
   },
   "InteriorPropTheme_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78-6948284078231641123.txt": {
     "arquivo": "InteriorPropTheme_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78-6948284078231641123.txt",
-    "linhas": 450,
-    "entradas_m_Localized": 53,
-    "substituidas": 53,
+    "linhas": 466,
+    "entradas_m_Localized": 55,
+    "substituidas": 55,
     "nao_encontradas": 0,
     "frases_nao_encontradas": {}
   },
   "Item_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78-6151201868256183675.txt": {
     "arquivo": "Item_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78-6151201868256183675.txt",
-    "linhas": 48503,
-    "entradas_m_Localized": 3840,
-    "substituidas": 3820,
+    "linhas": 48841,
+    "entradas_m_Localized": 3880,
+    "substituidas": 3860,
     "nao_encontradas": 20,
     "frases_nao_encontradas": {}
   },
   "KeyGuide_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78--6782089234713542787.txt": {
     "arquivo": "KeyGuide_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78--6782089234713542787.txt",
-    "linhas": 922,
-    "entradas_m_Localized": 112,
-    "substituidas": 112,
+    "linhas": 938,
+    "entradas_m_Localized": 114,
+    "substituidas": 114,
     "nao_encontradas": 0,
     "frases_nao_encontradas": {}
   },
@@ -161,42 +161,50 @@
   },
   "QuestNode_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78-6658696655450586033.txt": {
     "arquivo": "QuestNode_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78-6658696655450586033.txt",
-    "linhas": 13971,
-    "entradas_m_Localized": 1524,
-    "substituidas": 1467,
+    "linhas": 14407,
+    "entradas_m_Localized": 1574,
+    "substituidas": 1517,
     "nao_encontradas": 57,
     "frases_nao_encontradas": {}
   },
   "QuestUI_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78--7671095073176385578.txt": {
     "arquivo": "QuestUI_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78--7671095073176385578.txt",
-    "linhas": 1346,
-    "entradas_m_Localized": 148,
-    "substituidas": 148,
+    "linhas": 1446,
+    "entradas_m_Localized": 159,
+    "substituidas": 159,
     "nao_encontradas": 0,
     "frases_nao_encontradas": {}
   },
   "StringFormatTemplate_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78--9148974937862163311.txt": {
     "arquivo": "StringFormatTemplate_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78--9148974937862163311.txt",
-    "linhas": 378,
-    "entradas_m_Localized": 24,
-    "substituidas": 24,
+    "linhas": 448,
+    "entradas_m_Localized": 29,
+    "substituidas": 29,
     "nao_encontradas": 0,
     "frases_nao_encontradas": {}
   },
   "Tutorial_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78-7664714384536026551.txt": {
     "arquivo": "Tutorial_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78-7664714384536026551.txt",
-    "linhas": 1848,
-    "entradas_m_Localized": 222,
-    "substituidas": 222,
+    "linhas": 2142,
+    "entradas_m_Localized": 252,
+    "substituidas": 252,
     "nao_encontradas": 0,
     "frases_nao_encontradas": {}
   },
   "UI_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78--5894002100830300990.txt": {
     "arquivo": "UI_en-CAB-afffbfb28aeb66fd2aa85c593c6d1d78--5894002100830300990.txt",
-    "linhas": 4985,
-    "entradas_m_Localized": 595,
-    "substituidas": 593,
-    "nao_encontradas": 2,
+    "linhas": 5485,
+    "entradas_m_Localized": 647,
+    "substituidas": 640,
+    "nao_encontradas": 7,
+    "frases_nao_encontradas": {}
+  },
+  "c0f64f06509c3a0dc115bc554f3fb33b.bundle-CAB-afffbfb28aeb66fd2aa85c593c6d1d78-1.txt": {
+    "arquivo": "c0f64f06509c3a0dc115bc554f3fb33b.bundle-CAB-afffbfb28aeb66fd2aa85c593c6d1d78-1.txt",
+    "linhas": 554,
+    "entradas_m_Localized": 0,
+    "substituidas": 0,
+    "nao_encontradas": 0,
     "frases_nao_encontradas": {}
   }
 }

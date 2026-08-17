@@ -21,12 +21,12 @@ ARQUIVO_MEMORIA = BASE_DIR / "memoria_missoes.json"
 # REGEX
 # ============================================================
 
-RE_LANGUAGE_KEYS_START = re.compile(r'\s*\d+\s+string\s+m_languageKeys\b')
+RE_LANGUAGE_KEYS_START = re.compile(r'\s*\d+\s+(?:string|vector)\s+m_languageKeys\b')
 RE_LANGUAGE_VALUES_START = re.compile(r'\s*\d+\s+vector\s+m_languageValues\b')
 
 RE_FIELD_NAME = re.compile(r'\s*\d+\s+string\s+m_fieldName\s*=\s*"(.*)"')
 RE_M_KEYS_START = re.compile(r'\s*\d+\s+vector\s+m_keys\b')
-RE_M_VALUES_START = re.compile(r'\s*\d+\s+string\s+m_values\b')
+RE_M_VALUES_START = re.compile(r'\s*\d+\s+(?:string|vector)\s+m_values\b')
 
 RE_STRING_DATA_LINE = re.compile(r'^(\s*\d+\s+string\s+data\s*=\s*)"(.*)"(\s*)$')
 RE_INT_DATA_LINE = re.compile(r'\s*\d+\s+int\s+data\s*=\s*(-?\d+)')

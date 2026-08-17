@@ -1,0 +1,39 @@
+# Fluxo de Dialogos
+
+Esta pasta parece ser uma trilha paralela para traducao e auditoria de dialogos.
+
+## Estrutura observada
+
+- `dialogos/exportados/`: entrada bruta.
+- `dialogos/traduzidos/`: dialogos traduzidos.
+- `dialogos/nao_revisados/`: blocos pendentes.
+- `dialogos/memory/`: memoria por dialogo.
+- `dialogos/memory/openia/`: checkpoints e auditorias.
+
+## Leitura do fluxo
+
+O fluxo de dialogos parece seguir esta sequencia:
+
+1. exportar dialogos.
+2. particionar o que ainda nao foi revisado.
+3. revisar com apoio de memoria e checkpoints.
+4. registrar alteracoes aprovadas ou reprovadas.
+5. consolidar o resultado em memoria para uso futuro.
+
+## Sinais de maturidade do processo
+
+- Existe checkpoint.
+- Existe auditoria antes/depois.
+- Existe separacao entre alteracoes aprovadas e reprovadas.
+- Existe relatorio de frases nao modificadas desde commit.
+
+## Arquivos que merecem prioridade
+
+- `dialogos/memory/openia/relatorio_resumo_auditoria.json`
+- `dialogos/memory/openia/alteracoes_aprovadas_para_replace.json`
+- `dialogos/memory/openia/alteracoes_reprovadas_com_sugestao.json`
+- `dialogos/memory/openia/frases_nao_modificadas_desde_commit.json`
+
+## Inferencia importante
+
+Como nao veio um guia humano final, este fluxo de dialogos deve ser tratado como uma extensao operacional do projeto, nao como especificacao canonica fechada.

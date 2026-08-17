@@ -1,0 +1,64 @@
+# Boas Praticas para Reduzir Tokens
+
+## Mantenha um arquivo de entrada unico
+
+Use este `README.mds` como porta de entrada e nao replique o fluxo completo em varios lugares.
+
+## Separe contexto de dados
+
+- Contexto curto: explique o processo.
+- Dados grandes: deixe em JSON ou TXT.
+- Regras: coloque em um arquivo especifico e pequeno.
+
+## Trabalhe por nivel de decisao
+
+1. Primeiro descubra o que o fluxo faz.
+2. Depois descubra onde os dados vivem.
+3. Por ultimo detalhe excecoes e auditoria.
+
+## Reuso de memoria
+
+Prefira sempre nesta ordem:
+
+- memoria do mesmo arquivo;
+- memoria consolidada por frase;
+- translator apenas para faltantes.
+
+## Nomes de arquivo
+
+Evite nomes vagos.
+
+Bom:
+
+- `01-contexto.mds`
+- `02-pipeline.mds`
+- `03-arquivos.mds`
+
+Ruim:
+
+- `texto1.mds`
+- `final_final_ok.mds`
+
+## Atualizacao incremental
+
+Quando o fluxo mudar:
+
+1. atualize o arquivo de contexto;
+2. atualize o arquivo de pipeline;
+3. atualize a lista de arquivos;
+4. mantenha os relatorios como fonte de verdade operacional.
+
+## Padrao de prompts curtos
+
+Quando for reutilizar este material em nova conversa, basta pedir:
+
+- "Leia `docs/fluxo-traducao/README.mds` e siga o pipeline."
+- "Use `memory/` antes de traduzir qualquer texto novo."
+- "Aplique revisao por `m_Id` antes de considerar pronto."
+
+## O que evitar
+
+- repetir o mesmo resumo longo em todo atendimento;
+- colar dumps inteiros sem necessidade;
+- misturar regras de revisao com dados brutos;
+- assumir que os dialogos usam exatamente a mesma memoria da raiz.

@@ -1,0 +1,67 @@
+# Pipeline
+
+## 1. Extracao
+
+Os scripts leem dumps Unity e procuram blocos com:
+
+- `m_Id`
+- `m_Localized`
+
+Saidas tipicas:
+
+- `memory_extraida.json`
+- `memoria_revisado.json`
+
+## 2. Memoria por arquivo
+
+Quando existe um arquivo igual em `memory/`, o texto em PT e reaproveitado diretamente pelo mesmo `m_Id`.
+
+Isso evita retraduzir o que ja foi validado.
+
+## 3. Memoria por texto
+
+Se a frase em ingles ja existe em `memoria_revisado.json`, o fluxo reaproveita o valor salvo.
+
+Isso reduz custo e evita variacoes desnecessarias.
+
+## 4. Translator
+
+Se nao houver memoria, o texto passa pelo tradutor automatizado.
+
+Arquivos envolvidos:
+
+- `translation_with_memory.py`
+- `gera_traduzidos_via_json.py`
+
+## 5. Revisao por `m_Id`
+
+Depois da traducao inicial, `review_localization.py` aplica a memoria do mesmo arquivo usando `m_Id`.
+
+Isso e util para:
+
+- corrigir frases similares;
+- padronizar nomes;
+- manter coerencia de contexto.
+
+## 6. Auditoria
+
+Os relatorios guardam:
+
+- quantas frases vieram da memoria;
+- quantas vieram do translator;
+- quantas faltaram;
+- quais frases ainda precisariam atencao.
+
+Arquivos tipicos:
+
+- `relatorios/relatorio_faltantes_translator.json`
+- `relatorios/relatorio_aplicacao_memoria_revisado.json`
+- `dialogos/memory/openia/relatorio_resumo_auditoria.json`
+
+## Ordem recomendada de uso
+
+1. Extrair memoria.
+2. Atualizar memoria consolidada.
+3. Gerar arquivos traduzidos.
+4. Rodar revisao por `m_Id`.
+5. Ler relatorios e corrigir faltantes.
