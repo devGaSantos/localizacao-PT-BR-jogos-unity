@@ -43,6 +43,17 @@ Essa dependencia nao e necessaria para `status` ou `analisar`.
 
 ## Atualizacao do jogo
 
+No Prompt de Comando (CMD), use o lancador `.cmd`:
+
+```batch
+atualizar_traducao.cmd analisar
+atualizar_traducao.cmd automatico
+```
+
+Sem argumento, `atualizar_traducao.cmd` executa `automatico`. Arquivos `.ps1` devem
+ser executados pelo PowerShell; tentar abri-los diretamente no CMD mostra a janela
+"Selecione um aplicativo para abrir este arquivo".
+
 Primeiro analise o asset instalado sem modificar o jogo:
 
 ```powershell
