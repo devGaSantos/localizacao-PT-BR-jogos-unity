@@ -10,6 +10,23 @@ TOKEN_RE = re.compile(
     r"(\r\n|\r|\n|\[[^\]]+\]|<[^>]+>|\{[^{}]+\}|\([a-z_][a-z0-9_]*\)|_)",
 )
 
+PUNCTUATION_NORMALIZATION = str.maketrans(
+    {
+        "\u2018": "'",
+        "\u2019": "'",
+        "\u201a": "'",
+        "\u201b": "'",
+        "\u201c": '"',
+        "\u201d": '"',
+        "\u201e": '"',
+        "\u201f": '"',
+        "\u2013": "-",
+        "\u2014": "-",
+        "\u2026": "...",
+        "\u00a0": " ",
+    }
+)
+
 
 def load_object(path: Path) -> dict:
     with path.open("r", encoding="utf-8") as file:
@@ -38,6 +55,24 @@ def protect_tokens(text: str):
     return TOKEN_RE.sub(replace, text), tokens
 
 
+def repair_mojibake(text: str) -> str:
+    try:
+        repaired = text.encode("latin1").decode("utf-8")
+    except UnicodeError:
+        return text
+    return repaired if repaired.count("\ufffd") <= text.count("\ufffd") else text
+
+
+def translation_variants(source: str) -> list[str]:
+    variants = []
+    for candidate in (source, repair_mojibake(source)):
+        normalized = candidate.translate(PUNCTUATION_NORMALIZATION)
+        for value in (candidate, normalized):
+            if value not in variants:
+                variants.append(value)
+    return variants
+
+
 def translate(translator, source: str) -> str:
     protected, tokens = protect_tokens(source)
     translated = translator.translate(protected)
@@ -48,6 +83,16 @@ def translate(translator, source: str) -> str:
             raise RuntimeError(f"Tradutor alterou o token protegido {token}: {source!r}")
         translated = translated.replace(token, original)
     return translated
+
+
+def translate_with_fallbacks(translator, source: str) -> str:
+    last_error = None
+    for variant in translation_variants(source):
+        try:
+            return translate(translator, variant)
+        except Exception as error:  # noqa: BLE001
+            last_error = error
+    raise RuntimeError(last_error)
 
 
 def main() -> None:
@@ -104,7 +149,7 @@ def main() -> None:
             last_error = None
             for attempt in range(3):
                 try:
-                    result = translate(translator, source)
+                    result = translate_with_fallbacks(translator, source)
                     break
                 except Exception as error:  # noqa: BLE001
                     last_error = error
