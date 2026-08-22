@@ -1,4 +1,5 @@
 using System.Text;
+using System.Text.Encodings.Web;
 using System.Text.Json;
 using AssetsTools.NET;
 using AssetsTools.NET.Extra;
@@ -158,6 +159,7 @@ internal sealed class ChefRpgPipeline
             var output = Path.Combine(paths.Output, ResourcesName);
             using (var writer = new AssetsFileWriter(output))
                 assets.file.Write(writer);
+            SaveMemory();
             outputs.Add(output);
         }
 
@@ -208,6 +210,7 @@ internal sealed class ChefRpgPipeline
             {
                 row[document.EnglishIndex] = translation;
                 row[document.BrIndex] = translation;
+                memory[source] = translation;
             }
             else if (mode == ProcessingMode.Verify && !string.Equals(source, translation, StringComparison.Ordinal))
                 throw new InvalidDataException($"Verificacao falhou em {table}, linha {rowIndex + 1}.");
@@ -220,6 +223,19 @@ internal sealed class ChefRpgPipeline
         var manager = new AssetsManager();
         manager.LoadClassPackage(paths.ClassData);
         return manager;
+    }
+
+    private void SaveMemory()
+    {
+        var path = Path.Combine(paths.Project, "memoria.json");
+        var temporary = path + ".tmp";
+        var options = new JsonSerializerOptions
+        {
+            Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
+            WriteIndented = true
+        };
+        File.WriteAllText(temporary, JsonSerializer.Serialize(memory, options) + Environment.NewLine);
+        File.Move(temporary, path, overwrite: true);
     }
 
     private void ValidateInputs()

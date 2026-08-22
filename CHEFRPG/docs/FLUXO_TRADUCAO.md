@@ -20,6 +20,8 @@ linguas e usa esta prioridade para o texto em portugues:
 
 No arquivo reconstruido, o portugues escolhido e aplicado em `br` e tambem em `en`
 para manter compatibilidade com o mod antigo, que executava o jogo no idioma ingles.
+Durante o build, as traducoes `br` atuais dos desenvolvedores tambem sao gravadas em
+`memoria.json`, mantendo o mesmo comportamento do script convencional antigo.
 
 ## Preparacao unica
 
