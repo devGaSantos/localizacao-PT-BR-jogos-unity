@@ -16,6 +16,8 @@ $BundlesJogo = Join-Path $Jogo "LWIW_Data\StreamingAssets\aa\StandaloneWindows64
 $ResourcesJogo = Join-Path $Jogo "LWIW_Data\resources.assets"
 $EstadoPath = Join-Path $Relatorios "estado_atualizacao_bundles.json"
 $ResumoPath = Join-Path $Relatorios "resumo_pipeline_atualizacao.json"
+$AssetPipelineReport = Join-Path $Relatorios "asset_pipeline_automatico.json"
+$MissingTranslator = Join-Path $Raiz "traduzir_faltantes_pipeline.py"
 $AssetPipeline = Join-Path $Raiz "tools\asset-pipeline\LittleWitch.AssetPipeline.csproj"
 $AssetPipelineDll = Join-Path $Raiz "tools\asset-pipeline\bin\Release\net8.0\LittleWitch.AssetPipeline.dll"
 $AssetPipelineAssets = Join-Path $Raiz "tools\asset-pipeline\obj\project.assets.json"
@@ -302,6 +304,60 @@ function Invoke-AssetPipeline([string]$DotNet, [string]$Mode) {
     Invoke-Tool $DotNet @($AssetPipelineDll, $Mode, $Jogo, $Raiz, $ClassData, $Staging) $Raiz
 }
 
+function Invoke-AssetPipelineScan([string]$DotNet) {
+    $oldPythonIoEncoding = $env:PYTHONIOENCODING
+    $oldPythonUtf8 = $env:PYTHONUTF8
+    Push-Location $Raiz
+    try {
+        $env:PYTHONIOENCODING = "utf-8"
+        $env:PYTHONUTF8 = "1"
+        & $DotNet @($AssetPipelineDll, "scan", $Jogo, $Raiz, $ClassData, $Staging)
+        $exitCode = $LASTEXITCODE
+        if ($exitCode -ne 0 -and $exitCode -ne 3) {
+            throw "Scan do AssetPipeline falhou ($exitCode)."
+        }
+    } finally {
+        $env:PYTHONIOENCODING = $oldPythonIoEncoding
+        $env:PYTHONUTF8 = $oldPythonUtf8
+        Pop-Location
+    }
+}
+
+function Get-AssetPipelineReport {
+    if (-not (Test-Path -LiteralPath $AssetPipelineReport)) {
+        throw "Relatorio do AssetPipeline nao encontrado: $AssetPipelineReport"
+    }
+    return Get-Content -LiteralPath $AssetPipelineReport -Raw -Encoding UTF8 | ConvertFrom-Json
+}
+
+function Update-MissingAutomaticTranslations {
+    $report = Get-AssetPipelineReport
+    if ($report.Ready) { return }
+
+    $missingTotal = 0
+    foreach ($flow in $report.Flows) {
+        $missingTotal += [int]$flow.MissingUnique
+    }
+    if ($missingTotal -le 0) {
+        throw "O scan retornou Ready=false, mas nao informou textos faltantes."
+    }
+
+    if (-not (Test-Path -LiteralPath $MissingTranslator)) {
+        throw "Tradutor de faltantes nao encontrado: $MissingTranslator"
+    }
+
+    $pythonFallback = Join-Path $env:USERPROFILE ".cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe"
+    $python = Resolve-Executable "python" @($pythonFallback)
+
+    Write-Host "`nForam encontrados $missingTotal textos novos. Traduzindo e atualizando as memorias..."
+    Invoke-Tool $python @(
+        $MissingTranslator,
+        "--report", $AssetPipelineReport,
+        "--project", $Raiz,
+        "--missions-root", $Missoes
+    ) $Raiz
+}
+
 function Export-MerlinPackage {
     $dataDirectory = Join-Path $PacoteMerlin "LWIW_Data"
     $bundleDirectory = Join-Path $dataDirectory "StreamingAssets\aa\StandaloneWindows64"
@@ -329,8 +385,27 @@ function Export-MerlinPackage {
 function Build-AutomaticStaging {
     Initialize-AssetPipeline
     $dotnet = Resolve-DotNetSdk
+
     Write-Host "`n[1/3] Analisando assets atuais e cobertura das memorias"
-    Invoke-AssetPipeline $dotnet "scan"
+    Invoke-AssetPipelineScan $dotnet
+    $scanReport = Get-AssetPipelineReport
+
+    if (-not $scanReport.Ready) {
+        Update-MissingAutomaticTranslations
+
+        Write-Host "`n[1/3] Reanalisando cobertura depois da traducao automatica"
+        Invoke-AssetPipelineScan $dotnet
+        $scanReport = Get-AssetPipelineReport
+
+        if (-not $scanReport.Ready) {
+            $remaining = 0
+            foreach ($flow in $scanReport.Flows) {
+                $remaining += [int]$flow.MissingUnique
+            }
+            throw "Ainda existem $remaining textos sem traducao depois do Translator. Build cancelado."
+        }
+    }
+
     Write-Host "`n[2/3] Reconstruindo os quatro assets no staging"
     Invoke-AssetPipeline $dotnet "build"
     Write-Host "`n[3/3] Reabrindo e validando os assets reconstruidos"
