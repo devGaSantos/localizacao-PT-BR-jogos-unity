@@ -9,6 +9,7 @@ from pathlib import Path
 TOKEN_RE = re.compile(
     r"(\r\n|\r|\n|\[[^\]]+\]|<[^>]+>|\{[^{}]+\}|\([a-z_][a-z0-9_]*\)|_)",
 )
+SENTENCE_SPLIT_RE = re.compile(r"(?<=[.!?])\s+")
 
 PUNCTUATION_NORMALIZATION = str.maketrans(
     {
@@ -73,6 +74,15 @@ def translation_variants(source: str) -> list[str]:
     return variants
 
 
+def create_translators():
+    from deep_translator import GoogleTranslator, MyMemoryTranslator
+
+    return (
+        GoogleTranslator(source="en", target="pt"),
+        MyMemoryTranslator(source="en-US", target="pt-BR"),
+    )
+
+
 def translate(translator, source: str) -> str:
     protected, tokens = protect_tokens(source)
     translated = translator.translate(protected)
@@ -85,11 +95,18 @@ def translate(translator, source: str) -> str:
     return translated
 
 
-def translate_with_fallbacks(translator, source: str) -> str:
+def translate_with_fallbacks(translators, source: str) -> str:
     last_error = None
     for variant in translation_variants(source):
+        for translator in translators:
+            try:
+                return translate(translator, variant)
+            except Exception as error:  # noqa: BLE001
+                last_error = error
+    parts = SENTENCE_SPLIT_RE.split(source)
+    if len(parts) > 1:
         try:
-            return translate(translator, variant)
+            return " ".join(translate_with_fallbacks(create_translators(), part) for part in parts)
         except Exception as error:  # noqa: BLE001
             last_error = error
     raise RuntimeError(last_error)
@@ -126,16 +143,15 @@ def main() -> None:
         not all(key.startswith("character_name_") for key in missing_by_source[source])
         for source in pending
     )
-    translator = None
+    translators = ()
     if needs_translator:
         try:
-            from deep_translator import GoogleTranslator
+            translators = create_translators()
         except ImportError as exc:
             raise SystemExit(
                 "Dependencia ausente: deep-translator. Instale com: "
                 "python -m pip install deep-translator"
             ) from exc
-        translator = GoogleTranslator(source="en", target="pt")
     translated_count = 0
     preserved_names = 0
 
@@ -149,10 +165,11 @@ def main() -> None:
             last_error = None
             for attempt in range(3):
                 try:
-                    result = translate_with_fallbacks(translator, source)
+                    result = translate_with_fallbacks(translators, source)
                     break
                 except Exception as error:  # noqa: BLE001
                     last_error = error
+                    translators = create_translators()
                     time.sleep(1 + attempt)
             else:
                 save_atomic(memory_path, memory)
