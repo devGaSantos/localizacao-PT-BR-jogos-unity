@@ -21,6 +21,7 @@ $Project = Join-Path $Raiz "tools\asset-pipeline\ChefRpg.AssetPipeline.csproj"
 $ProjectAssets = Join-Path $Raiz "tools\asset-pipeline\obj\project.assets.json"
 $PipelineDll = Join-Path $Raiz "tools\asset-pipeline\bin\Release\net8.0\ChefRpg.AssetPipeline.dll"
 $MissingTranslator = Join-Path $Raiz "traduzir_faltantes.py"
+$SceneUiPatcher = Join-Path $Raiz "patch_scene_ui.py"
 
 function Resolve-DotNetSdk {
     $local = Join-Path $Raiz ".tools\dotnet\dotnet.exe"
@@ -102,15 +103,48 @@ function Update-MissingTranslations {
     )
 }
 
+function Resolve-Python {
+    $python = Get-Command python -ErrorAction SilentlyContinue
+    if (-not $python) {
+        $fallback = Join-Path $env:USERPROFILE ".cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe"
+        if (Test-Path -LiteralPath $fallback) { $python = Get-Item $fallback }
+    }
+    if (-not $python) { throw "Python nao encontrado." }
+    if ($python -is [System.IO.FileInfo]) { return $python.FullName }
+    return $python.Source
+}
+
+function Patch-SceneUi {
+    if (-not (Test-Path -LiteralPath $SceneUiPatcher)) {
+        throw "Patcher de cenas nao encontrado: $SceneUiPatcher"
+    }
+    $pythonPath = Resolve-Python
+    Invoke-Checked $pythonPath @(
+        $SceneUiPatcher,
+        "--game-data", $GameData,
+        "--output", $Staging,
+        "--report", (Join-Path $Raiz "relatorios\chef_rpg_scene_ui.json")
+    )
+}
+
 function Export-MerlinPackage {
-    $source = Join-Path $Staging "resources.assets"
-    if (-not (Test-Path -LiteralPath $source)) { throw "Staging validado nao encontrado: $source" }
     $destinationDirectory = Join-Path $PacoteMerlin "Chef RPG_Data"
+    $required = @("resources.assets", "level2", "level24")
+    foreach ($file in $required) {
+        $source = Join-Path $Staging $file
+        if (-not (Test-Path -LiteralPath $source)) { throw "Staging validado nao encontrado: $source" }
+    }
+    if (Test-Path -LiteralPath $destinationDirectory) {
+        Remove-Item -LiteralPath $destinationDirectory -Recurse -Force
+    }
     New-Item -ItemType Directory -Path $destinationDirectory -Force | Out-Null
-    $destination = Join-Path $destinationDirectory "resources.assets"
-    Copy-Item -LiteralPath $source -Destination $destination -Force
-    if ((Get-FileHash $source -Algorithm SHA256).Hash -ne (Get-FileHash $destination -Algorithm SHA256).Hash) {
-        throw "O resources.assets do pacote nao corresponde ao staging."
+    foreach ($file in $required) {
+        $source = Join-Path $Staging $file
+        $destination = Join-Path $destinationDirectory $file
+        Copy-Item -LiteralPath $source -Destination $destination -Force
+        if ((Get-FileHash $source -Algorithm SHA256).Hash -ne (Get-FileHash $destination -Algorithm SHA256).Hash) {
+            throw "O arquivo $file do pacote nao corresponde ao staging."
+        }
     }
     Write-Host "PACOTE MERLIN PRONTO: $PacoteMerlin"
     Write-Host "Arraste Chef RPG_Data para a raiz do jogo e confirme a substituicao."
@@ -131,6 +165,8 @@ function Build-AutomaticPackage {
     Invoke-Pipeline "build" | Out-Null
     Write-Host "`n[3/3] Reabrindo e validando o asset reconstruido"
     Invoke-Pipeline "verify" | Out-Null
+    Write-Host "`n[extra] Traduzindo textos fixos da tela de criacao de personagem"
+    Patch-SceneUi
     Export-MerlinPackage
     Write-Host "O jogo ainda nao foi modificado."
 }
@@ -138,6 +174,7 @@ function Build-AutomaticPackage {
 function Build-PackageFromStaging {
     Initialize-Pipeline
     Invoke-Pipeline "verify" | Out-Null
+    Patch-SceneUi
     Export-MerlinPackage
 }
 
@@ -150,15 +187,22 @@ function Install-Package {
     }
     Initialize-Pipeline
     Invoke-Pipeline "verify" | Out-Null
-    $source = Join-Path $Staging "resources.assets"
+    Patch-SceneUi
+    $required = @("resources.assets", "level2", "level24")
     $timestamp = Get-Date -Format "yyyyMMdd-HHmmss"
     $backup = Join-Path $Raiz "atualizacao\backups\$timestamp"
     New-Item -ItemType Directory -Path $backup -Force | Out-Null
-    Copy-Item -LiteralPath $ResourcesJogo -Destination (Join-Path $backup "resources.assets") -Force
+    foreach ($file in $required) {
+        Copy-Item -LiteralPath (Join-Path $GameData $file) -Destination (Join-Path $backup $file) -Force
+    }
     try {
-        Copy-Item -LiteralPath $source -Destination $ResourcesJogo -Force
+        foreach ($file in $required) {
+            Copy-Item -LiteralPath (Join-Path $Staging $file) -Destination (Join-Path $GameData $file) -Force
+        }
     } catch {
-        Copy-Item -LiteralPath (Join-Path $backup "resources.assets") -Destination $ResourcesJogo -Force
+        foreach ($file in $required) {
+            Copy-Item -LiteralPath (Join-Path $backup $file) -Destination (Join-Path $GameData $file) -Force
+        }
         throw "Instalacao falhou e o backup foi restaurado: $($_.Exception.Message)"
     }
     Write-Host "Traducao instalada. Backup original: $backup"

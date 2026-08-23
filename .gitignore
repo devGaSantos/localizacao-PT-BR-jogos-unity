@@ -14,5 +14,6 @@ CHEFRPG/atualizacao/staging/
 CHEFRPG/atualizacao/backups/
 CHEFRPG/atualizacao/pacote_merlin/
 CHEFRPG/relatorios/
+CHEFRPG/memoria.before_*.json
 LW/docs.zip
 LW/tools/asset-pipeline.zip
