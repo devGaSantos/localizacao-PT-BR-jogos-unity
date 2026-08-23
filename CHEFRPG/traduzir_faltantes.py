@@ -49,7 +49,7 @@ def protect_tokens(text: str):
     tokens = []
 
     def replace(match):
-        token = f"__CHEF_TOKEN_{len(tokens)}__"
+        token = f"CHEFTOKEN{len(tokens)}END"
         tokens.append((token, match.group(0)))
         return token
 
