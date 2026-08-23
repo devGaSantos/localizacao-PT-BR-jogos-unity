@@ -24,9 +24,11 @@ PATCHES = {
     "Gathering": "Coleta   ",
     "Return to Menu": "Voltar ao menu",
     "Start Journey": "Comecar jogo!",
+    "Meat Specialist": "ESP. DE CARNES ",
+    "Begin with 3 meat recipes.": "Comece c/ 3 rec. de carne.",
 }
 
-SCENE_FILES = ("level2", "level24")
+SCENE_FILE_PATTERN = "level*"
 
 
 def validate_patches() -> None:
@@ -51,6 +53,16 @@ def patch_bytes(data: bytes) -> tuple[bytes, dict[str, int]]:
     return patched, counts
 
 
+def find_scene_files(game_data: Path) -> list[Path]:
+    scene_files = sorted(
+        (path for path in game_data.glob(SCENE_FILE_PATTERN) if path.is_file()),
+        key=lambda path: (len(path.name), path.name),
+    )
+    if not scene_files:
+        raise FileNotFoundError(f"Nenhuma cena encontrada com o padrao {SCENE_FILE_PATTERN!r}")
+    return scene_files
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Traduz textos fixos de UI em cenas do Chef RPG.")
     parser.add_argument("--game-data", required=True)
@@ -66,11 +78,10 @@ def main() -> None:
     report_path.parent.mkdir(parents=True, exist_ok=True)
 
     report = {"sceneFiles": [], "patches": PATCHES}
-    for name in SCENE_FILES:
-        source = game_data / name
+    scene_files = find_scene_files(game_data)
+    for source in scene_files:
+        name = source.name
         destination = output / name
-        if not source.is_file():
-            raise FileNotFoundError(source)
         shutil.copy2(source, destination)
         original = destination.read_bytes()
         patched, counts = patch_bytes(original)
@@ -87,7 +98,7 @@ def main() -> None:
         )
 
     report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Cenas de UI traduzidas: {', '.join(SCENE_FILES)}")
+    print(f"Cenas de UI traduzidas: {len(scene_files)} arquivos level*")
     print(f"Relatorio: {report_path}")
 
 

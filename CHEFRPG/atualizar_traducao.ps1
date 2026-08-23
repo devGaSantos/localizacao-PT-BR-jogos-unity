@@ -127,9 +127,20 @@ function Patch-SceneUi {
     )
 }
 
+function Get-RequiredPackageFiles {
+    $files = @("resources.assets")
+    $levelFiles = Get-ChildItem -LiteralPath $Staging -File -Filter "level*" |
+        Sort-Object { $_.Name.Length }, Name |
+        Select-Object -ExpandProperty Name
+    if (-not $levelFiles -or $levelFiles.Count -eq 0) {
+        throw "Nenhum arquivo level* encontrado no staging. Execute a etapa que aplica o patch de cenas."
+    }
+    return @($files + $levelFiles)
+}
+
 function Export-MerlinPackage {
     $destinationDirectory = Join-Path $PacoteMerlin "Chef RPG_Data"
-    $required = @("resources.assets", "level2", "level24")
+    $required = Get-RequiredPackageFiles
     foreach ($file in $required) {
         $source = Join-Path $Staging $file
         if (-not (Test-Path -LiteralPath $source)) { throw "Staging validado nao encontrado: $source" }
@@ -188,7 +199,7 @@ function Install-Package {
     Initialize-Pipeline
     Invoke-Pipeline "verify" | Out-Null
     Patch-SceneUi
-    $required = @("resources.assets", "level2", "level24")
+    $required = Get-RequiredPackageFiles
     $timestamp = Get-Date -Format "yyyyMMdd-HHmmss"
     $backup = Join-Path $Raiz "atualizacao\backups\$timestamp"
     New-Item -ItemType Directory -Path $backup -Force | Out-Null
