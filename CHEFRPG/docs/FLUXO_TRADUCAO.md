@@ -82,6 +82,28 @@ Se houver textos novos, `automatico` usa `deep-translator`, cria um backup datad
 placeholders e reexecuta a analise. As traducoes automaticas devem ser revisadas
 linguisticamente antes de publicar o pacote.
 
+## Escopo seguro da publicacao
+
+O pacote publico contem **somente** `Chef RPG_Data/resources.assets`. Esse unico
+arquivo contem as cinco tabelas acima (25.768 registros na versao validada).
+
+Os 69 arquivos `level*` guardam cenas de UI. O antigo `patch_scene_ui.py` faz
+substituicao binaria de tamanho fixo nesses arquivos e encontra textos repetidos em
+todas as cenas; ele e experimental e **nao faz parte do pacote nem da instalacao
+automatica**. Nao publique nem instale esses arquivos sem uma nova validacao em uma
+copia completa do jogo.
+
+## UABEA: quem precisa dele?
+
+Quem instala o mod pelo Nexus **nao precisa de UABEA**, Python, .NET ou qualquer
+outro programa. Basta copiar o arquivo entregue para a pasta do jogo.
+
+Para manter ou atualizar a traducao, o pipeline usa o `classdata.tpk` e a biblioteca
+`AssetsTools.NET.dll` obtidos com UABEA. A interface grafica do UABEA nao precisa
+ficar instalada nem e usada para aplicar o pacote; ela so e util como ferramenta de
+inspecao. O script `preparar_pipeline_assets.ps1` prepara os arquivos locais em
+`.tools/` quando necessario.
+
 Arraste `Chef RPG_Data` para a raiz `Chef RPG` e confirme a substituicao. Para
 recriar apenas o pacote usando um staging ja validado:
 

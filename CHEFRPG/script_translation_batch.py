@@ -3,6 +3,7 @@ import time
 import os
 import re
 import json
+import sys
 from deep_translator import GoogleTranslator
 
 translator = GoogleTranslator(source="en", target="pt")
@@ -46,6 +47,11 @@ def salvar_memoria(memory):
 
 
 memory = carregar_memoria()
+
+# Alguns diálogos do Chef RPG têm textos muito longos e/ou quebras de linha
+# dentro da célula. O leitor precisa tratar o CSV inteiro, nunca uma linha por
+# vez, senão a tabela fica desalinhada.
+csv.field_size_limit(32 * 1024 * 1024)
 
 # =========================
 # PROTEGER TOKENS
@@ -124,36 +130,22 @@ print(f"🧠 Memória carregada do JSON: {len(memory)} traduções")
 
 for file in files:
     path = os.path.join(input_folder, file)
-
-    with open(path, "r", encoding="utf-8") as f:
-        lines = f.readlines()
+    with open(path, "r", encoding="utf-8", newline="") as f:
+        rows = list(csv.reader(f))
 
     en_index = None
     br_index = None
-
-    for line in lines:
-        try:
-            row = next(csv.reader([line]))
-
-            if "en" in row and "br" in row:
-                en_index = row.index("en")
-                br_index = row.index("br")
-                continue
-
-            if en_index is None or br_index is None:
-                continue
-
-            if len(row) <= max(en_index, br_index):
-                continue
-
-            en = row[en_index]
-            br = row[br_index]
-
-            if en and br:
-                memory[en] = br
-
-        except:
+    for row in rows:
+        if "en" in row and "br" in row:
+            en_index = row.index("en")
+            br_index = row.index("br")
             continue
+        if en_index is None or br_index is None or len(row) <= max(en_index, br_index):
+            continue
+        en = row[en_index]
+        br = row[br_index]
+        if en and br:
+            memory[en] = br
 
 print(f"🧠 Memória após ler BR existente: {len(memory)} traduções")
 
@@ -166,8 +158,8 @@ for file in files:
 
     path = os.path.join(input_folder, file)
 
-    with open(path, "r", encoding="utf-8") as f:
-        lines = f.readlines()
+    with open(path, "r", encoding="utf-8", newline="") as f:
+        rows = list(csv.reader(f))
 
     output_lines = []
 
@@ -178,31 +170,19 @@ for file in files:
     usadas_memoria_arquivo = 0
     traduzidas_google_arquivo = 0
 
-    for line in lines:
-        stripped = line.strip()
+    for row in rows:
+        if "en" in row and "br" in row:
+            en_index = row.index("en")
+            br_index = row.index("br")
+            output_lines.append(row)
+            continue
 
-        if not stripped:
-            output_lines.append(line)
+        if en_index is None or br_index is None or len(row) <= max(en_index, br_index):
+            output_lines.append(row)
+            linhas_ignoradas += 1
             continue
 
         try:
-            row = next(csv.reader([line]))
-
-            if "en" in row and "br" in row:
-                en_index = row.index("en")
-                br_index = row.index("br")
-                output_lines.append(line)
-                continue
-
-            if en_index is None or br_index is None:
-                output_lines.append(line)
-                linhas_ignoradas += 1
-                continue
-
-            if len(row) <= max(en_index, br_index):
-                output_lines.append(line)
-                linhas_ignoradas += 1
-                continue
 
             en = row[en_index]
             br = row[br_index]
@@ -232,19 +212,18 @@ for file in files:
                 traduzidas_google += 1
                 traduzidas_google_arquivo += 1
 
-            new_line = ",".join(f'"{col}"' if col else "" for col in row)
-            output_lines.append(new_line + "\n")
+            output_lines.append(row)
 
         except:
-            output_lines.append(line)
+            output_lines.append(row)
             linhas_ignoradas += 1
 
     base_name = file.split("-")[0].strip()
     output_name = f"TRADUZIDO - {base_name}.txt"
     output_path = os.path.join(output_folder, output_name)
 
-    with open(output_path, "w", encoding="utf-8") as f:
-        f.writelines(output_lines)
+    with open(output_path, "w", encoding="utf-8", newline="") as f:
+        csv.writer(f, quoting=csv.QUOTE_ALL, lineterminator="\n").writerows(output_lines)
 
     print(f"✅ Gerado: {output_name}")
     print(f"   BR: {usadas_br_arquivo}")

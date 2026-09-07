@@ -1,0 +1,72 @@
+{
+  "GeneratedAt": "2026-09-07T05:19:41.3601649+00:00",
+  "Mode": "verify",
+  "UnityVersion": "2019.4.41f2",
+  "Tables": [
+    {
+      "Table": "Romance Localization",
+      "PathId": 60,
+      "Rows": 1891,
+      "English": 1199,
+      "ExistingBr": 1199,
+      "FromMemory": 0,
+      "Conflicts": 2,
+      "Missing": [],
+      "MissingOccurrences": 0,
+      "MissingUnique": 0
+    },
+    {
+      "Table": "Localization",
+      "PathId": 61,
+      "Rows": 10334,
+      "English": 8115,
+      "ExistingBr": 8115,
+      "FromMemory": 0,
+      "Conflicts": 5,
+      "Missing": [],
+      "MissingOccurrences": 0,
+      "MissingUnique": 0
+    },
+    {
+      "Table": "UI Localization",
+      "PathId": 62,
+      "Rows": 3226,
+      "English": 2748,
+      "ExistingBr": 2748,
+      "FromMemory": 0,
+      "Conflicts": 7,
+      "Missing": [],
+      "MissingOccurrences": 0,
+      "MissingUnique": 0
+    },
+    {
+      "Table": "Festivals Localization",
+      "PathId": 63,
+      "Rows": 2863,
+      "English": 1566,
+      "ExistingBr": 1566,
+      "FromMemory": 0,
+      "Conflicts": 1,
+      "Missing": [],
+      "MissingOccurrences": 0,
+      "MissingUnique": 0
+    },
+    {
+      "Table": "Item Localization",
+      "PathId": 64,
+      "Rows": 2617,
+      "English": 2140,
+      "ExistingBr": 2140,
+      "FromMemory": 0,
+      "Conflicts": 0,
+      "Missing": [],
+      "MissingOccurrences": 0,
+      "MissingUnique": 0
+    }
+  ],
+  "Outputs": [],
+  "TargetAssets": 5,
+  "MissingOccurrences": 0,
+  "MissingUnique": 0,
+  "Ready": true
+}

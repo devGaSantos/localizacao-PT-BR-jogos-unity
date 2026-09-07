@@ -26,6 +26,8 @@ $SceneUiPatcher = Join-Path $Raiz "patch_scene_ui.py"
 function Resolve-DotNetSdk {
     $local = Join-Path $Raiz ".tools\dotnet\dotnet.exe"
     if (Test-Path -LiteralPath $local) { return $local }
+    $recovered = Join-Path $SharedTools "dotnet-recovered\dotnet.exe"
+    if (Test-Path -LiteralPath $recovered) { return $recovered }
     $shared = Join-Path $SharedTools "dotnet\dotnet.exe"
     if (Test-Path -LiteralPath $shared) { return $shared }
     $command = Get-Command dotnet -ErrorAction SilentlyContinue
@@ -50,6 +52,11 @@ function Initialize-Pipeline {
         Invoke-Checked $dotnet @("restore", $Project, "--configfile", $nuget)
     }
     Invoke-Checked $dotnet @("build", $Project, "--configuration", "Release", "--no-restore")
+    $bundledAssetsTools = Join-Path $Raiz "tools\asset-pipeline\lib\AssetsTools.NET.dll"
+    $runtimeAssetsTools = Join-Path $Raiz "tools\asset-pipeline\bin\Release\net8.0\AssetsTools.NET.dll"
+    if (Test-Path -LiteralPath $bundledAssetsTools) {
+        Copy-Item -LiteralPath $bundledAssetsTools -Destination $runtimeAssetsTools -Force
+    }
 }
 
 function Invoke-Pipeline([string]$Mode, [switch]$AllowMissing) {
@@ -87,7 +94,7 @@ function Analyze-CurrentGame {
 
 function Update-MissingTranslations {
     $python = Get-Command python -ErrorAction SilentlyContinue
-    if (-not $python) {
+    if (-not $python -or $python.Source -match '\\WindowsApps\\') {
         $fallback = Join-Path $env:USERPROFILE ".cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe"
         if (Test-Path -LiteralPath $fallback) { $python = Get-Item $fallback }
     }
@@ -105,7 +112,7 @@ function Update-MissingTranslations {
 
 function Resolve-Python {
     $python = Get-Command python -ErrorAction SilentlyContinue
-    if (-not $python) {
+    if (-not $python -or $python.Source -match '\\WindowsApps\\') {
         $fallback = Join-Path $env:USERPROFILE ".cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe"
         if (Test-Path -LiteralPath $fallback) { $python = Get-Item $fallback }
     }
@@ -128,14 +135,10 @@ function Patch-SceneUi {
 }
 
 function Get-RequiredPackageFiles {
-    $files = @("resources.assets")
-    $levelFiles = Get-ChildItem -LiteralPath $Staging -File -Filter "level*" |
-        Sort-Object { $_.Name.Length }, Name |
-        Select-Object -ExpandProperty Name
-    if (-not $levelFiles -or $levelFiles.Count -eq 0) {
-        throw "Nenhum arquivo level* encontrado no staging. Execute a etapa que aplica o patch de cenas."
-    }
-    return @($files + $levelFiles)
+    # A traducao publicada usa somente as cinco tabelas dentro de resources.assets.
+    # Os level* sao uma experiencia separada de UI e nao podem entrar no pacote
+    # automaticamente: a substituicao binaria ampla ja causou telas em branco.
+    return @("resources.assets")
 }
 
 function Export-MerlinPackage {
@@ -176,8 +179,6 @@ function Build-AutomaticPackage {
     Invoke-Pipeline "build" | Out-Null
     Write-Host "`n[3/3] Reabrindo e validando o asset reconstruido"
     Invoke-Pipeline "verify" | Out-Null
-    Write-Host "`n[extra] Traduzindo textos fixos da tela de criacao de personagem"
-    Patch-SceneUi
     Export-MerlinPackage
     Write-Host "O jogo ainda nao foi modificado."
 }
@@ -185,7 +186,6 @@ function Build-AutomaticPackage {
 function Build-PackageFromStaging {
     Initialize-Pipeline
     Invoke-Pipeline "verify" | Out-Null
-    Patch-SceneUi
     Export-MerlinPackage
 }
 
@@ -198,7 +198,6 @@ function Install-Package {
     }
     Initialize-Pipeline
     Invoke-Pipeline "verify" | Out-Null
-    Patch-SceneUi
     $required = Get-RequiredPackageFiles
     $timestamp = Get-Date -Format "yyyyMMdd-HHmmss"
     $backup = Join-Path $Raiz "atualizacao\backups\$timestamp"

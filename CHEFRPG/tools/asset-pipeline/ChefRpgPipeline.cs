@@ -3,11 +3,11 @@ using System.Text.Encodings.Web;
 using System.Text.Json;
 using AssetsTools.NET;
 using AssetsTools.NET.Extra;
-using Microsoft.VisualBasic.FileIO;
 
 internal enum ProcessingMode
 {
     Scan,
+    Export,
     Build,
     Verify
 }
@@ -113,6 +113,8 @@ internal sealed class ChefRpgPipeline
         var assets = manager.LoadAssetsFile(source, false);
         manager.LoadClassDatabaseFromPackage(assets.file.Metadata.UnityVersion);
         var tables = new List<TableReport>();
+        var replacers = new List<AssetsReplacer>();
+        var exports = new Dictionary<string, string>(StringComparer.Ordinal);
 
         foreach (var info in assets.file.GetAssetsOfType(AssetClassID.TextAsset))
         {
@@ -124,10 +126,12 @@ internal sealed class ChefRpgPipeline
             var document = CsvDocument.Parse(root["m_Script"].AsString, name);
             var report = ProcessTable(document, name, info.PathId, mode);
             tables.Add(report);
+            if (mode == ProcessingMode.Export)
+                exports[name] = root["m_Script"].AsString;
             if (mode == ProcessingMode.Build)
             {
                 root["m_Script"].AsString = document.Serialize();
-                info.SetNewData(root);
+                replacers.Add(new AssetsReplacerFromMemory(assets.file, info, root));
             }
         }
 
@@ -158,9 +162,23 @@ internal sealed class ChefRpgPipeline
         {
             var output = Path.Combine(paths.Output, ResourcesName);
             using (var writer = new AssetsFileWriter(output))
-                assets.file.Write(writer);
+                assets.file.Write(writer, 0, replacers, null);
             SaveMemory();
             outputs.Add(output);
+        }
+        else if (mode == ProcessingMode.Export)
+        {
+            // Fresh dumps are deliberately isolated from prior exports and translations.
+            // Export mode is read-only with respect to the installed game.
+            var exportDirectory = Path.Combine(paths.Project, "extracao_nova", "exportados");
+            Directory.CreateDirectory(exportDirectory);
+            foreach (var table in tables)
+            {
+                var filename = $"{table.Table}-resources.assets-{table.PathId}.txt";
+                var output = Path.Combine(exportDirectory, filename);
+                File.WriteAllText(output, exports[table.Table], new UTF8Encoding(false));
+                outputs.Add(output);
+            }
         }
 
         manager.UnloadAll();
@@ -260,16 +278,7 @@ internal sealed class CsvDocument
 
     public static CsvDocument Parse(string text, string table)
     {
-        var rows = new List<string[]>();
-        using var reader = new StringReader(text);
-        using var parser = new TextFieldParser(reader)
-        {
-            HasFieldsEnclosedInQuotes = true,
-            TrimWhiteSpace = false
-        };
-        parser.SetDelimiters(",");
-        while (!parser.EndOfData)
-            rows.Add(parser.ReadFields() ?? []);
+        var rows = ParseRows(text);
         if (rows.Count == 0)
             throw new InvalidDataException($"CSV vazio: {table}.");
         var header = rows[0];
@@ -281,13 +290,86 @@ internal sealed class CsvDocument
         return new CsvDocument { Rows = rows, KeyIndex = key, EnglishIndex = english, BrIndex = br };
     }
 
+    private static List<string[]> ParseRows(string text)
+    {
+        var rows = new List<string[]>();
+        var row = new List<string>();
+        var field = new StringBuilder();
+        var quoted = false;
+
+        void CompleteField()
+        {
+            row.Add(field.ToString());
+            field.Clear();
+        }
+
+        void CompleteRow()
+        {
+            CompleteField();
+            rows.Add(row.ToArray());
+            row.Clear();
+        }
+
+        for (var index = 0; index < text.Length; index++)
+        {
+            var character = text[index];
+            if (quoted)
+            {
+                if (character == '"')
+                {
+                    if (index + 1 < text.Length && text[index + 1] == '"')
+                    {
+                        field.Append('"');
+                        index++;
+                    }
+                    else
+                    {
+                        quoted = false;
+                    }
+                }
+                else
+                {
+                    field.Append(character);
+                }
+                continue;
+            }
+
+            if (character == '"' && field.Length == 0)
+            {
+                quoted = true;
+            }
+            else if (character == ',')
+            {
+                CompleteField();
+            }
+            else if (character == '\r' || character == '\n')
+            {
+                if (character == '\r' && index + 1 < text.Length && text[index + 1] == '\n')
+                    index++;
+                CompleteRow();
+            }
+            else
+            {
+                field.Append(character);
+            }
+        }
+
+        if (quoted)
+            throw new InvalidDataException("CSV com aspas nao fechadas.");
+        if (field.Length > 0 || row.Count > 0)
+            CompleteRow();
+        return rows;
+    }
+
     public string Serialize()
     {
         var output = new StringBuilder();
         foreach (var row in Rows)
         {
             output.AppendJoin(',', row.Select(Escape));
-            output.Append('\n');
+            // O parser do Chef RPG separa registros por CRLF. Usar apenas LF
+            // faz a tabela inteira parecer uma única linha e deixa a UI vazia.
+            output.Append("\r\n");
         }
         return output.ToString();
     }

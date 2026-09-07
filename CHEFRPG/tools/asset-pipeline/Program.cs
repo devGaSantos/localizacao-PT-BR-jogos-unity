@@ -1,9 +1,9 @@
 using System.Text.Encodings.Web;
 using System.Text.Json;
 
-if (args.Length != 5 || args[0] is not ("scan" or "build" or "verify"))
+if (args.Length != 5 || args[0] is not ("scan" or "export" or "build" or "verify"))
 {
-    Console.Error.WriteLine("Uso: <scan|build|verify> <jogo> <projeto-CHEFRPG> <classdata.tpk> <saida>");
+    Console.Error.WriteLine("Uso: <scan|export|build|verify> <jogo> <projeto-CHEFRPG> <classdata.tpk> <saida>");
     return 2;
 }
 

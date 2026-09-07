@@ -41,8 +41,13 @@ function Write-JsonUtf8([string]$Path, $Data) {
 function Resolve-Executable([string]$Name, [string[]]$Fallbacks) {
     $candidates = @()
     $command = Get-Command $Name -ErrorAction SilentlyContinue
-    if ($command) { $candidates += $command.Source }
     $candidates += $Fallbacks
+    # O alias python.exe da Microsoft Store existe mesmo sem um interpretador
+    # instalado e falha com o codigo 9009. Prefira o runtime conhecido do
+    # projeto antes desse atalho.
+    if ($command -and $command.Source -notmatch '\\WindowsApps\\') {
+        $candidates += $command.Source
+    }
     foreach ($candidate in $candidates | Select-Object -Unique) {
         if ($candidate -and (Test-Path -LiteralPath $candidate)) { return $candidate }
     }
@@ -284,7 +289,10 @@ function Validate-Translations {
 
 function Resolve-DotNetSdk {
     $local = Join-Path $Raiz ".tools\dotnet\dotnet.exe"
-    if (Test-Path -LiteralPath $local) { return $local }
+    $localBuildTasks = Join-Path $Raiz ".tools\dotnet\sdk\8.0.424\Sdks\Microsoft.NET.Sdk\tools\net8.0\Microsoft.NET.Build.Tasks.dll"
+    if ((Test-Path -LiteralPath $local) -and (Test-Path -LiteralPath $localBuildTasks)) { return $local }
+    $recovered = Join-Path $Raiz ".tools\dotnet-recovered\dotnet.exe"
+    if (Test-Path -LiteralPath $recovered) { return $recovered }
     return Resolve-Executable "dotnet" @()
 }
 
