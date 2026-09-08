@@ -25,13 +25,18 @@ Durante o build, as traducoes `br` atuais dos desenvolvedores tambem sao gravada
 
 ## Preparacao unica
 
-Coloque `uabea-windows.zip` em `Downloads` e execute:
+O pipeline ja inclui `tools/asset-pipeline/lib/AssetsTools.NET.dll` e
+`tools/asset-pipeline/lib/classdata.tpk`. Portanto, **nao e preciso instalar nem
+abrir UABEA** para manter a traducao. A unica dependencia de manutencao e o .NET 8
+SDK; o comando abaixo instala uma copia local dele caso necessario:
 
 ```powershell
 .\preparar_pipeline_assets.ps1
 ```
 
-As ferramentas locais ficam em `.tools/` e nao entram no Git.
+As ferramentas locais ficam em `.tools/` e nao entram no Git. O parametro
+`-UabeaZip` continua apenas como alternativa de recuperacao caso o arquivo incluso
+seja removido.
 
 Para permitir que `automatico` traduza textos novos, instale uma vez:
 
@@ -99,10 +104,9 @@ Quem instala o mod pelo Nexus **nao precisa de UABEA**, Python, .NET ou qualquer
 outro programa. Basta copiar o arquivo entregue para a pasta do jogo.
 
 Para manter ou atualizar a traducao, o pipeline usa o `classdata.tpk` e a biblioteca
-`AssetsTools.NET.dll` obtidos com UABEA. A interface grafica do UABEA nao precisa
-ficar instalada nem e usada para aplicar o pacote; ela so e util como ferramenta de
-inspecao. O script `preparar_pipeline_assets.ps1` prepara os arquivos locais em
-`.tools/` quando necessario.
+`AssetsTools.NET.dll` incluidos em `tools/asset-pipeline/lib/`. A interface grafica
+do UABEA nao precisa ficar instalada nem e usada para gerar ou aplicar o pacote; ela
+e apenas uma ferramenta opcional de inspecao.
 
 Arraste `Chef RPG_Data` para a raiz `Chef RPG` e confirme a substituicao. Para
 recriar apenas o pacote usando um staging ja validado:

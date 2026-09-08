@@ -1,5 +1,5 @@
 {
-  "GeneratedAt": "2026-09-07T05:19:41.3601649+00:00",
+  "GeneratedAt": "2026-09-08T01:44:02.5249359+00:00",
   "Mode": "verify",
   "UnityVersion": "2019.4.41f2",
   "Tables": [
@@ -30,9 +30,9 @@
     {
       "Table": "UI Localization",
       "PathId": 62,
-      "Rows": 3226,
-      "English": 2748,
-      "ExistingBr": 2748,
+      "Rows": 3235,
+      "English": 2757,
+      "ExistingBr": 2757,
       "FromMemory": 0,
       "Conflicts": 7,
       "Missing": [],

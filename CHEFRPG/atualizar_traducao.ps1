@@ -15,8 +15,15 @@ $Staging = Join-Path $Raiz "atualizacao\staging"
 $PacoteMerlin = Join-Path $Raiz "atualizacao\pacote_merlin"
 $SharedTools = Join-Path (Split-Path -Parent $Raiz) "LW\.tools"
 $LocalClassData = Join-Path $Raiz ".tools\uabea\classdata.tpk"
+$BundledClassData = Join-Path $Raiz "tools\asset-pipeline\lib\classdata.tpk"
 $SharedClassData = Join-Path $SharedTools "uabea\classdata.tpk"
-$ClassData = if (Test-Path -LiteralPath $LocalClassData) { $LocalClassData } else { $SharedClassData }
+$ClassData = if (Test-Path -LiteralPath $BundledClassData) {
+    $BundledClassData
+} elseif (Test-Path -LiteralPath $LocalClassData) {
+    $LocalClassData
+} else {
+    $SharedClassData
+}
 $Project = Join-Path $Raiz "tools\asset-pipeline\ChefRpg.AssetPipeline.csproj"
 $ProjectAssets = Join-Path $Raiz "tools\asset-pipeline\obj\project.assets.json"
 $PipelineDll = Join-Path $Raiz "tools\asset-pipeline\bin\Release\net8.0\ChefRpg.AssetPipeline.dll"

@@ -16727,7 +16727,7 @@
   "Are you all right?": " Você tá bem?",
   "The mayor made a deal with LELSH to reopen the mines.": "O prefeito fez um acordo com a LELSH pra reabrir as minas.",
   "Oh . . . me? I'm fine. Well, actually, I'm worried for the town._LELSH made a deal with the mayor to reopen the mines.": "Ah, eu? Eu… tô bem. Bom, na verdade tô preocupada com a cidade._A LELSH fez um acordo com o prefeito pra reabrir as minas.",
-  "Now that the mines are open, we might as well make use of them. You may be able to find some valuable resources in there._If you have the time, could you gather some minerals for me? I'm working on . . . a little project.": "Agora que as minas abriram, a gente pode fazer algum uso delas. Você vai conseguir encontrar uns recursos valiosos lá dentro._Se você tiver tempo, pode pegar uns minérios pra mim? Tô trabalhando num… projetinho.",
+  "Now that the mines are open, we might as well make use of them. You may be able to find some valuable resources in there._If you have the time, could you gather some minerals for me? I'm working on . . . a little project.": "Agora que as minas abriram, a gente pode fazer algum uso delas. Você vai conseguir encontrar uns recursos valiosos lá dentro.",
   "If you are able to bring me 5 pieces of Iron Ore and 2 pieces of Copper Ore, I'll be able to complete my project._They should be fairly easy to find inside the mines. Take this old drill. It might come in handy.": "Se você puder me trazer cinco peças de minério de ferro e duas peças de minério de cobre, vou poder terminar meu projeto._Deve ser fácil de encontrar eles dentro das minas. Pega essa broca velha, ela pode te ajudar.",
   "Ah, thank you, (playername). This will do. Come check this out.": "Ah, obrigada, (playername). Era disso que eu precisava. Vem cá ver.",
   "Not bad, huh? I'm not even a carpenter!": "Nada mal, hein? E eu nem sou uma carpinteira!",
@@ -29206,5 +29206,15 @@
   "Ivy": "Ivy",
   "Orfeu": "Orfeu",
   "Zumzum": "Zumzum",
-  "Zuleica": "Zuleica"
+  "Zuleica": "Zuleica",
+  "Have you heard the story of Tidehaven? . . . No? Well, I'll tell you about it some other time.": "Ficou sabendo o que aconteceu em Baía da Maré? Não? Bom, outra hora eu te conto._Mas, o resumo é… Baía da Maré é uma cidade fantasma agora.",
+  "All Available Recipes Already Unlocked": "All Available Recipes Already Unlocked",
+  "Midas discovered he was originally the captain of the shipwrecked LELSH whaling vessel. Filled with guilt, he seeks to make amends by offering his help to the citizens of Tidehaven.": "Midas discovered he was originally the captain of the shipwrecked LELSH whaling vessel. Filled with guilt, he seeks to make amends by offering his help to the citizens of Tidehaven.",
+  "You are Cute": "You are Cute",
+  "(playername), I'm bored today and I've been missing your cute face. I hope I can see you soon. It will really brighten my day!": "(playername), I'm bored today and I've been missing your cute face. I hope I can see you soon. It will really brighten my day!",
+  "I've been thinking about this all day. Chefs are really attractive! I mean, you command many people in a kitchen bring delicious food into existence. Hot!": "I've been thinking about this all day. Chefs are really attractive! I mean, you command many people in a kitchen bring delicious food into existence. Hot!",
+  "Love in the Air": "Love in the Air",
+  "Valentine's is a strange day for me. I've never really got to spend it with someone I care about, not for a long time. See you soon.": "Valentine's is a strange day for me. I've never really got to spend it with someone I care about, not for a long time. See you soon.",
+  "Valentine's Gift": "Valentine's Gift",
+  "Hi honey, hope you enjoy this gift on this special day. Looking forward to spending many more Valentine's with you.": "Olá querido, espero que você goste deste presente neste dia especial. Ansiosa para passar muitos mais Dias dos Namorados com você."
 }

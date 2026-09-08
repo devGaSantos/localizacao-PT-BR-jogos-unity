@@ -9,6 +9,7 @@ $dotnetDirectory = Join-Path $tools "dotnet"
 $dotnet = Join-Path $dotnetDirectory "dotnet.exe"
 $classDataDirectory = Join-Path $tools "uabea"
 $classData = Join-Path $classDataDirectory "classdata.tpk"
+$bundledClassData = Join-Path $PSScriptRoot "tools\asset-pipeline\lib\classdata.tpk"
 New-Item -ItemType Directory -Path $tools -Force | Out-Null
 
 if (-not (Test-Path -LiteralPath $dotnet)) {
@@ -21,19 +22,23 @@ if (-not (Test-Path -LiteralPath $dotnet)) {
 }
 
 if (-not (Test-Path -LiteralPath $classData)) {
-    if (-not (Test-Path -LiteralPath $UabeaZip)) {
+    if (Test-Path -LiteralPath $bundledClassData) {
+        New-Item -ItemType Directory -Path $classDataDirectory -Force | Out-Null
+        Copy-Item -LiteralPath $bundledClassData -Destination $classData -Force
+    } elseif (-not (Test-Path -LiteralPath $UabeaZip)) {
         throw "UABEA nao encontrado em $UabeaZip. Informe outro zip com -UabeaZip."
-    }
-    Add-Type -AssemblyName System.IO.Compression.FileSystem
-    New-Item -ItemType Directory -Path $classDataDirectory -Force | Out-Null
-    $archive = [IO.Compression.ZipFile]::OpenRead($UabeaZip)
-    try {
-        $entry = $archive.Entries | Where-Object { $_.Name -eq "classdata.tpk" } | Select-Object -First 1
-        if (-not $entry) { throw "classdata.tpk nao encontrado dentro de $UabeaZip." }
-        [IO.Compression.ZipFileExtensions]::ExtractToFile($entry, $classData, $true)
-    } finally {
-        $archive.Dispose()
+    } else {
+        Add-Type -AssemblyName System.IO.Compression.FileSystem
+        New-Item -ItemType Directory -Path $classDataDirectory -Force | Out-Null
+        $archive = [IO.Compression.ZipFile]::OpenRead($UabeaZip)
+        try {
+            $entry = $archive.Entries | Where-Object { $_.Name -eq "classdata.tpk" } | Select-Object -First 1
+            if (-not $entry) { throw "classdata.tpk nao encontrado dentro de $UabeaZip." }
+            [IO.Compression.ZipFileExtensions]::ExtractToFile($entry, $classData, $true)
+        } finally {
+            $archive.Dispose()
+        }
     }
 }
 
-Write-Host "Ferramentas prontas em $tools"
+Write-Host "Ferramentas prontas em $tools. UABEA nao precisa ser instalado: o classdata.tpk incluso foi usado."
