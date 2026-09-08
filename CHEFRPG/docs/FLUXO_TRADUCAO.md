@@ -92,11 +92,9 @@ linguisticamente antes de publicar o pacote.
 O pacote publico contem **somente** `Chef RPG_Data/resources.assets`. Esse unico
 arquivo contem as cinco tabelas acima (25.768 registros na versao validada).
 
-Os 69 arquivos `level*` guardam cenas de UI. O antigo `patch_scene_ui.py` faz
-substituicao binaria de tamanho fixo nesses arquivos e encontra textos repetidos em
-todas as cenas; ele e experimental e **nao faz parte do pacote nem da instalacao
-automatica**. Nao publique nem instale esses arquivos sem uma nova validacao em uma
-copia completa do jogo.
+Os arquivos `level*` de cena/UI nao fazem parte da traducao e nao entram no projeto
+nem no pacote. Os textos publicados ficam somente nas cinco tabelas de
+`resources.assets`.
 
 ## UABEA: quem precisa dele?
 
@@ -120,6 +118,22 @@ Para instalar diretamente com backup:
 ```powershell
 .\atualizar_traducao.ps1 -Etapa instalar -ConfirmarInstalacao
 ```
+
+## Fluxo manual com UABEA
+
+Use este modo quando quiser conferir cada importacao manualmente. Nesse caso a
+interface do UABEA e necessaria, mas ela nao e usada pelo fluxo automatico.
+
+1. No UABEA, abra o `resources.assets` da instalacao atual e exporte os cinco
+   `TextAsset` CSV para `CHEFRPG/exportados/`: `Localization`, `UI Localization`,
+   `Romance Localization`, `Festivals Localization` e `Item Localization`.
+2. Na pasta `CHEFRPG`, execute `python script_translation_batch.py`. Ele le
+   `exportados/`, usa `memoria.json` e escreve os cinco arquivos em `traduzidos/`.
+3. No UABEA, importe cada arquivo correspondente de `traduzidos/` no mesmo
+   `TextAsset`, salve em uma copia de teste e abra essa copia antes de substituir o
+   arquivo da Steam.
+
+`memoria.json` e a memoria principal: nunca a apague durante atualizacoes.
 
 ## Seguranca
 

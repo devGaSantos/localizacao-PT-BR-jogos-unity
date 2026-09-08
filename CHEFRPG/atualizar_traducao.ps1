@@ -28,7 +28,6 @@ $Project = Join-Path $Raiz "tools\asset-pipeline\ChefRpg.AssetPipeline.csproj"
 $ProjectAssets = Join-Path $Raiz "tools\asset-pipeline\obj\project.assets.json"
 $PipelineDll = Join-Path $Raiz "tools\asset-pipeline\bin\Release\net8.0\ChefRpg.AssetPipeline.dll"
 $MissingTranslator = Join-Path $Raiz "traduzir_faltantes.py"
-$SceneUiPatcher = Join-Path $Raiz "patch_scene_ui.py"
 
 function Resolve-DotNetSdk {
     $local = Join-Path $Raiz ".tools\dotnet\dotnet.exe"
@@ -114,30 +113,6 @@ function Update-MissingTranslations {
         $MissingTranslator,
         "--report", (Join-Path $Raiz "relatorios\chef_rpg_pipeline.json"),
         "--memory", (Join-Path $Raiz "memoria.json")
-    )
-}
-
-function Resolve-Python {
-    $python = Get-Command python -ErrorAction SilentlyContinue
-    if (-not $python -or $python.Source -match '\\WindowsApps\\') {
-        $fallback = Join-Path $env:USERPROFILE ".cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe"
-        if (Test-Path -LiteralPath $fallback) { $python = Get-Item $fallback }
-    }
-    if (-not $python) { throw "Python nao encontrado." }
-    if ($python -is [System.IO.FileInfo]) { return $python.FullName }
-    return $python.Source
-}
-
-function Patch-SceneUi {
-    if (-not (Test-Path -LiteralPath $SceneUiPatcher)) {
-        throw "Patcher de cenas nao encontrado: $SceneUiPatcher"
-    }
-    $pythonPath = Resolve-Python
-    Invoke-Checked $pythonPath @(
-        $SceneUiPatcher,
-        "--game-data", $GameData,
-        "--output", $Staging,
-        "--report", (Join-Path $Raiz "relatorios\chef_rpg_scene_ui.json")
     )
 }
 

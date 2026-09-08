@@ -168,9 +168,10 @@ internal sealed class ChefRpgPipeline
         }
         else if (mode == ProcessingMode.Export)
         {
-            // Fresh dumps are deliberately isolated from prior exports and translations.
-            // Export mode is read-only with respect to the installed game.
-            var exportDirectory = Path.Combine(paths.Project, "extracao_nova", "exportados");
+            // Export mode is read-only with respect to the installed game. The same
+            // directory is used by the manual translator, keeping both workflows in
+            // sync.
+            var exportDirectory = Path.Combine(paths.Project, "exportados");
             Directory.CreateDirectory(exportDirectory);
             foreach (var table in tables)
             {
