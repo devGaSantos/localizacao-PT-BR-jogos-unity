@@ -9,6 +9,7 @@ internal enum ProcessingMode
     Scan,
     Export,
     Build,
+    BuildFallback,
     Verify
 }
 
@@ -91,14 +92,17 @@ internal sealed class ChefRpgPipeline
     {
         this.paths = paths;
         ValidateInputs();
-        memory = JsonSerializer.Deserialize<Dictionary<string, string>>(
+        var loadedMemory = JsonSerializer.Deserialize<Dictionary<string, string>>(
             File.ReadAllText(Path.Combine(paths.Project, "memoria.json")))
             ?? throw new InvalidDataException("memoria.json invalido.");
+        memory = loadedMemory
+            .Where(entry => IsUsableTranslation(entry.Value))
+            .ToDictionary(entry => entry.Key, entry => entry.Value, StringComparer.Ordinal);
     }
 
     public PipelineReport Run(ProcessingMode mode)
     {
-        if (mode == ProcessingMode.Build)
+        if (mode is ProcessingMode.Build or ProcessingMode.BuildFallback)
         {
             if (Directory.Exists(paths.Output))
                 Directory.Delete(paths.Output, recursive: true);
@@ -128,7 +132,7 @@ internal sealed class ChefRpgPipeline
             tables.Add(report);
             if (mode == ProcessingMode.Export)
                 exports[name] = root["m_Script"].AsString;
-            if (mode == ProcessingMode.Build)
+            if (mode is ProcessingMode.Build or ProcessingMode.BuildFallback)
             {
                 root["m_Script"].AsString = document.Serialize();
                 replacers.Add(new AssetsReplacerFromMemory(assets.file, info, root));
@@ -158,7 +162,7 @@ internal sealed class ChefRpgPipeline
             return reportResult;
         }
 
-        if (mode == ProcessingMode.Build)
+        if (mode is ProcessingMode.Build or ProcessingMode.BuildFallback)
         {
             var output = Path.Combine(paths.Output, ResourcesName);
             using (var writer = new AssetsFileWriter(output))
@@ -200,9 +204,12 @@ internal sealed class ChefRpgPipeline
 
             report.English++;
             var br = row[document.BrIndex];
-            var hasMemory = memory.TryGetValue(source, out var remembered) && !string.IsNullOrWhiteSpace(remembered);
+            // Some upstream CSV cells use a fixed run of '#' characters as a
+            // sentinel for unavailable text. It is not a Portuguese translation.
+            var hasBrTranslation = IsUsableTranslation(br);
+            var hasMemory = memory.TryGetValue(source, out var remembered) && IsUsableTranslation(remembered);
             string? translation = null;
-            if (!string.IsNullOrWhiteSpace(br))
+            if (hasBrTranslation)
             {
                 report.ExistingBr++;
                 translation = br;
@@ -222,10 +229,15 @@ internal sealed class ChefRpgPipeline
                     row[document.KeyIndex],
                     source,
                     rowIndex + 1));
-                continue;
+                if (mode != ProcessingMode.BuildFallback)
+                    continue;
+                // Preserve genuinely new text in English until a reviewed PT-BR
+                // translation is shipped, rather than copying an old asset or
+                // failing the player-facing updater.
+                translation = source;
             }
 
-            if (mode == ProcessingMode.Build)
+            if (mode is ProcessingMode.Build or ProcessingMode.BuildFallback)
             {
                 row[document.EnglishIndex] = translation;
                 row[document.BrIndex] = translation;
@@ -235,6 +247,13 @@ internal sealed class ChefRpgPipeline
                 throw new InvalidDataException($"Verificacao falhou em {table}, linha {rowIndex + 1}.");
         }
         return report;
+    }
+
+    private static bool IsUsableTranslation(string? value)
+    {
+        if (string.IsNullOrWhiteSpace(value))
+            return false;
+        return value.Any(character => character != '#');
     }
 
     private AssetsManager CreateManager()

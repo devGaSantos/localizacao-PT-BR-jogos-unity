@@ -11,6 +11,12 @@ TOKEN_RE = re.compile(
 )
 SENTENCE_SPLIT_RE = re.compile(r"(?<=[.!?])\s+")
 
+
+def is_usable_translation(value: object) -> bool:
+    """Reject upstream '#' sentinels before they can poison the memory."""
+    text = str(value or "").strip()
+    return bool(text) and any(character != "#" for character in text)
+
 PUNCTUATION_NORMALIZATION = str.maketrans(
     {
         "\u2018": "'",
@@ -122,6 +128,9 @@ def main() -> None:
     memory_path = Path(args.memory).resolve()
     report = load_object(report_path)
     memory = load_object(memory_path)
+    invalid_sources = [source for source, value in memory.items() if not is_usable_translation(value)]
+    for source in invalid_sources:
+        del memory[source]
 
     missing_by_source = {}
     for table in report.get("Tables", []):
@@ -131,8 +140,11 @@ def main() -> None:
             if isinstance(source, str) and source.strip():
                 missing_by_source.setdefault(source, []).append(key)
 
-    pending = [source for source in missing_by_source if not str(memory.get(source, "")).strip()]
+    pending = [source for source in missing_by_source if not is_usable_translation(memory.get(source, ""))]
     if not pending:
+        if invalid_sources:
+            save_atomic(memory_path, memory)
+            print(f"Removidos {len(invalid_sources)} placeholders invalidos da memoria.")
         print("Nenhum texto faltante para traduzir.")
         return
 
@@ -156,6 +168,8 @@ def main() -> None:
     preserved_names = 0
 
     print(f"Traduzindo {len(pending)} textos unicos. Backup: {backup}")
+    if invalid_sources:
+        print(f"Removidos {len(invalid_sources)} placeholders invalidos da memoria.")
     for index, source in enumerate(pending, start=1):
         keys = missing_by_source[source]
         if keys and all(key.startswith("character_name_") for key in keys):

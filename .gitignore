@@ -2,6 +2,8 @@ missoes/nao_importar/
 LW/.tools/
 LW/tools/asset-pipeline/bin/
 LW/tools/asset-pipeline/obj/
+LW/tools/launcher/bin/
+LW/tools/launcher/obj/
 LW/atualizacao/staging/
 LW/atualizacao/backups/
 LW/atualizacao/bundles_originais/
@@ -10,9 +12,15 @@ LW/atualizacao/pacote_merlin/
 CHEFRPG/.tools/
 CHEFRPG/tools/asset-pipeline/bin/
 CHEFRPG/tools/asset-pipeline/obj/
+CHEFRPG/tools/launcher/bin/
+CHEFRPG/tools/launcher/obj/
 CHEFRPG/atualizacao/staging/
 CHEFRPG/atualizacao/backups/
 CHEFRPG/atualizacao/pacote_merlin/
+CHEFRPG/dist/*AutoUpdater*/
+CHEFRPG/dist/*AutoUpdater*.zip
+LW/dist/*AutoUpdater*/
+LW/dist/*AutoUpdater*.zip
 CHEFRPG/relatorios/
 CHEFRPG/memoria.before_*.json
 LW/docs.zip

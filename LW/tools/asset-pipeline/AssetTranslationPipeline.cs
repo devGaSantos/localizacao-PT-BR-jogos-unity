@@ -16,6 +16,7 @@ internal enum ProcessingMode
 {
     Scan,
     Build,
+    BuildFallback,
     Verify
 }
 
@@ -181,7 +182,7 @@ internal sealed class AssetTranslationPipeline
     public PipelineReport Run(ProcessingMode mode)
     {
         ValidateInputs();
-        if (mode == ProcessingMode.Build)
+        if (mode is ProcessingMode.Build or ProcessingMode.BuildFallback)
         {
             if (Directory.Exists(paths.Output))
                 Directory.Delete(paths.Output, recursive: true);
@@ -289,13 +290,13 @@ internal sealed class AssetTranslationPipeline
 
             report.TargetAssets++;
             report.Assets.Add(name);
-            if (mode == ProcessingMode.Build)
+            if (mode is ProcessingMode.Build or ProcessingMode.BuildFallback)
                 info.SetNewData(root);
         }
 
         AssertCount(report, expectedTargets);
-        var output = mode == ProcessingMode.Build ? Path.Combine(paths.Output, bundleName) : null;
-        if (mode == ProcessingMode.Build)
+        var output = mode is ProcessingMode.Build or ProcessingMode.BuildFallback ? Path.Combine(paths.Output, bundleName) : null;
+        if (mode is ProcessingMode.Build or ProcessingMode.BuildFallback)
             WriteBundle(bundle.file, assets.file, output!);
         return (report, output);
     }
@@ -328,13 +329,13 @@ internal sealed class AssetTranslationPipeline
 
             report.TargetAssets++;
             report.Assets.Add(name);
-            if (mode == ProcessingMode.Build)
+            if (mode is ProcessingMode.Build or ProcessingMode.BuildFallback)
                 info.SetNewData(root);
         }
 
         AssertCount(report, 18);
-        var output = mode == ProcessingMode.Build ? Path.Combine(paths.Output, ResourcesName) : null;
-        if (mode == ProcessingMode.Build)
+        var output = mode is ProcessingMode.Build or ProcessingMode.BuildFallback ? Path.Combine(paths.Output, ResourcesName) : null;
+        if (mode is ProcessingMode.Build or ProcessingMode.BuildFallback)
         {
             using (var writer = new AssetsFileWriter(output!))
                 assets.file.Write(writer);
@@ -455,7 +456,7 @@ internal sealed class AssetTranslationPipeline
         else if (memory.TryTranslate(source, out var translation))
         {
             report.Translated++;
-            if (mode == ProcessingMode.Build)
+            if (mode is ProcessingMode.Build or ProcessingMode.BuildFallback)
                 field.AsString = translation;
             return;
         }
@@ -470,6 +471,8 @@ internal sealed class AssetTranslationPipeline
         {
             report.Missing.Add(new MissingText(assetName, source, 1));
         }
+        if (mode == ProcessingMode.BuildFallback)
+            field.AsString = source;
     }
 
     private static IEnumerable<AssetTypeValueField> Descendants(AssetTypeValueField root)

@@ -48,6 +48,18 @@ Essa dependencia nao e necessaria para `status` ou `analisar`.
 
 ## Atualizacao do jogo
 
+### Launcher automatico para usuarios do Nexus
+
+O pacote publicado por `publicar_atualizador.ps1` inclui `ChefRpg.Launcher.exe`.
+O usuario abre esse arquivo em vez do executavel do jogo. Na primeira vez, ele gera
+e instala a traducao. Depois, ele apenas inicia o jogo enquanto o `resources.assets`
+permanecer o mesmo. Quando uma atualizacao da Steam substituir esse arquivo, o
+launcher detecta a alteracao, faz o backup normal, reconstroi, valida e reinstala a
+traducao antes de abrir o jogo. Nao usa UABEA, .NET ou Python instalados.
+
+Se a atualizacao introduzir textos sem traducao, o launcher para antes de alterar o
+jogo e informa o erro; ele nunca publica placeholders ou uma tabela incompleta.
+
 No Prompt de Comando (CMD), use o lancador `.cmd`:
 
 ```batch

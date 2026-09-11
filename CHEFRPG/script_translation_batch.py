@@ -16,6 +16,11 @@ os.makedirs(output_folder, exist_ok=True)
 
 cache = {}
 
+
+def is_usable_translation(value):
+    text = str(value or "").strip()
+    return bool(text) and any(character != "#" for character in text)
+
 # =========================
 # CONTADORES DO RELATÓRIO
 # =========================
@@ -47,6 +52,8 @@ def salvar_memoria(memory):
 
 
 memory = carregar_memoria()
+# Never carry forward the upstream '#' sentinel from a previous manual run.
+memory = {source: value for source, value in memory.items() if is_usable_translation(value)}
 
 # Alguns diálogos do Chef RPG têm textos muito longos e/ou quebras de linha
 # dentro da célula. O leitor precisa tratar o CSV inteiro, nunca uma linha por
@@ -144,7 +151,7 @@ for file in files:
             continue
         en = row[en_index]
         br = row[br_index]
-        if en and br:
+        if en and is_usable_translation(br):
             memory[en] = br
 
 print(f"🧠 Memória após ler BR existente: {len(memory)} traduções")
@@ -188,7 +195,7 @@ for file in files:
             br = row[br_index]
 
             # PRIORIDADE 1 — coluna BR
-            if br:
+            if is_usable_translation(br):
                 row[en_index] = br
                 if en:
                     memory[en] = br

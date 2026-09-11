@@ -226,6 +226,25 @@ exports atuais de `resources.assets`.
 
 ## Pipeline automatizado de atualizacao
 
+### Launcher publico para Nexus
+
+`publicar_atualizador.ps1` gera
+`dist/Little_Witch_in_the_Woods_PT-BR_AutoUpdater.zip`. Esse ZIP contem o
+`LittleWitch.Launcher.exe`, o pipeline e todas as tres memorias necessarias; quem
+joga nao precisa instalar UABEA, .NET, Python ou ferramentas de modding.
+
+O usuario extrai o ZIP em uma pasta permanente e abre o executavel. O launcher
+detecta a primeira execucao ou uma troca dos assets pela Steam, reconstrói os quatro
+arquivos a partir da versao instalada, valida o staging, cria backup em
+`backups/<data-hora>/` e so entao abre o jogo. Nas execucoes seguintes, se o hash do
+`resources.assets` instalado ainda for o mesmo que o hash da traducao aplicada, ele
+somente inicia o jogo.
+
+Se uma atualizacao incluir texto novo sem uma entrada na memoria, o launcher preserva
+esse trecho em ingles e atualiza o restante. Isso evita copiar assets antigos ou
+interromper o jogo por causa de uma unica frase nova; a traducao revisada volta numa
+versao posterior do mod.
+
 O orquestrador `atualizar_traducao.ps1` possui dois fluxos independentes:
 
 - o fluxo convencional por dumps (`preparar`, `gerar`, `validar` e `atualizar`),
