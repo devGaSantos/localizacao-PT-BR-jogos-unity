@@ -10,7 +10,8 @@ Application.Run(new LauncherForm());
 
 internal sealed class LauncherForm : Form
 {
-    private readonly string root = AppContext.BaseDirectory;
+    private readonly string root = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "MerlinTraducoes", "LittleWitch");
+    private readonly string payloadRoot = AppContext.BaseDirectory;
     private readonly Label status = new() { AutoSize = false, Height = 46, TextAlign = ContentAlignment.MiddleLeft };
     private readonly ProgressBar progress = new() { Minimum = 0, Maximum = 100, Value = 0, Size = new Size(475, 15) };
     private readonly Button play = new() { Text = "Atualizar e jogar", Size = new Size(210, 42), FlatStyle = FlatStyle.Flat };
@@ -22,9 +23,7 @@ internal sealed class LauncherForm : Form
         MinimumSize = MaximumSize = Size;
         StartPosition = FormStartPosition.CenterScreen;
         BackColor = Color.FromArgb(30, 22, 37);
-        var heroPath = Path.Combine(root, "assets", "hero.png");
-        if (File.Exists(heroPath))
-            Controls.Add(new PictureBox { Image = Image.FromFile(heroPath), SizeMode = PictureBoxSizeMode.Zoom, Dock = DockStyle.Top, Height = 300 });
+        Controls.Add(new PictureBox { Image = LoadHero(), SizeMode = PictureBoxSizeMode.Zoom, Dock = DockStyle.Top, Height = 300 });
         Controls.Add(new Label { Text = "LITTLE WITCH IN THE WOODS  •  TRADUÇÃO PT-BR", ForeColor = Color.FromArgb(229, 204, 255), Font = new Font("Segoe UI Semibold", 14), Location = new Point(25, 318), AutoSize = true });
         status.Text = "Pronto para verificar a tradução.";
         status.ForeColor = Color.White;
@@ -37,15 +36,31 @@ internal sealed class LauncherForm : Form
         play.ForeColor = Color.White;
         play.FlatAppearance.BorderSize = 0;
         play.Location = new Point(522, 366);
-        play.Click += async (_, _) => await UpdateAndPlayAsync();
+        play.Click += async (_, _) => await StartUpdateAsync();
         Controls.Add(play);
+    }
+
+    private async Task StartUpdateAsync()
+    {
+        play.Enabled = false;
+        SetProgress("Preparando a verificacao...", 1);
+        await Task.Yield();
+        try { await Task.Run(EnsurePayload); }
+        catch (Exception error)
+        {
+            play.Enabled = true;
+            MessageBox.Show(this, error.Message, Text, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            return;
+        }
+        await UpdateAndPlayAsync();
     }
 
     private async Task UpdateAndPlayAsync()
     {
         try
         {
-            play.Enabled = false;
+            SetProgress("Localizando o jogo...", 2);
+            await Task.Yield();
             var state = ReadState();
             var game = FindGame(state?.GamePath);
             if (game is null)
@@ -59,7 +74,7 @@ internal sealed class LauncherForm : Form
             var resources = Path.Combine(data, "resources.assets");
             if (!File.Exists(exe) || !File.Exists(resources)) throw new InvalidOperationException("A pasta selecionada não contém o jogo.");
             if (Process.GetProcesses().Any(process => process.ProcessName.Contains("Little Witch", StringComparison.OrdinalIgnoreCase) || process.ProcessName == "LWIW")) throw new InvalidOperationException("Feche o jogo antes de atualizar a tradução.");
-            var before = Hash(resources);
+            var before = await Task.Run(() => Hash(resources));
             if (state?.TranslatedSha256 != before)
             {
                 var pipeline = Path.Combine(root, "bin", "LittleWitch.AssetPipeline.exe");
@@ -91,15 +106,18 @@ internal sealed class LauncherForm : Form
                 };
                 var backup = Path.Combine(root, "backups", DateTime.Now.ToString("yyyyMMdd-HHmmss"));
                 Directory.CreateDirectory(backup);
-                foreach (var name in targets)
+                await Task.Run(() =>
                 {
-                    var destination = name == "resources.assets" ? resources : Path.Combine(data, "StreamingAssets", "aa", "StandaloneWindows64", name);
-                    var source = Path.Combine(staging, name);
-                    if (!File.Exists(source)) throw new InvalidOperationException($"Asset não gerado: {name}");
-                    File.Copy(destination, Path.Combine(backup, name), true);
-                    File.Copy(source, destination, true);
-                }
-                WriteState(new State(game, before, Hash(resources), DateTimeOffset.UtcNow));
+                    foreach (var name in targets)
+                    {
+                        var destination = name == "resources.assets" ? resources : Path.Combine(data, "StreamingAssets", "aa", "StandaloneWindows64", name);
+                        var source = Path.Combine(staging, name);
+                        if (!File.Exists(source)) throw new InvalidOperationException($"Asset não gerado: {name}");
+                        File.Copy(destination, Path.Combine(backup, name), true);
+                        File.Copy(source, destination, true);
+                    }
+                });
+                WriteState(new State(game, before, await Task.Run(() => Hash(resources)), DateTimeOffset.UtcNow));
                 SetProgress("Tradução atualizada. Abrindo o jogo...", 100);
             }
             else SetProgress("Tradução já está atualizada. Abrindo o jogo...", 100);
@@ -111,14 +129,18 @@ internal sealed class LauncherForm : Form
             status.Text = "Não foi possível atualizar a tradução.";
             MessageBox.Show(this, error.Message, Text, MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
-        finally { play.Enabled = true; }
+        finally { if (!IsDisposed) play.Enabled = true; }
     }
 
     private void SetProgress(string text, int value)
     {
+        if (InvokeRequired)
+        {
+            BeginInvoke(() => SetProgress(text, value));
+            return;
+        }
         status.Text = text;
         progress.Value = Math.Clamp(value, progress.Minimum, progress.Maximum);
-        Application.DoEvents();
     }
 
     private static async Task Run(string executable, params string[] arguments)
@@ -127,9 +149,11 @@ internal sealed class LauncherForm : Form
         var info = new ProcessStartInfo(executable) { UseShellExecute = false, RedirectStandardError = true, RedirectStandardOutput = true, CreateNoWindow = true };
         foreach (var argument in arguments) info.ArgumentList.Add(argument);
         using var process = Process.Start(info) ?? throw new InvalidOperationException("Não foi possível iniciar o atualizador.");
-        var stdout = await process.StandardOutput.ReadToEndAsync();
-        var stderr = await process.StandardError.ReadToEndAsync();
+        var stdoutTask = process.StandardOutput.ReadToEndAsync();
+        var stderrTask = process.StandardError.ReadToEndAsync();
         await process.WaitForExitAsync();
+        var stdout = await stdoutTask;
+        var stderr = await stderrTask;
         if (process.ExitCode is not (0 or 3)) throw new InvalidOperationException(string.IsNullOrWhiteSpace(stderr) ? stdout : stderr);
     }
 
@@ -227,6 +251,34 @@ internal sealed class LauncherForm : Form
         return paths.FirstOrDefault(path => !string.IsNullOrWhiteSpace(path) && File.Exists(Path.Combine(path, "Little Witch in the Woods.exe")));
     }
     private static string Hash(string path) => Convert.ToHexString(SHA256.HashData(File.ReadAllBytes(path)));
+
+    private void EnsurePayload()
+    {
+        var sourceRoot = Path.Combine(payloadRoot, "payload");
+        var sourceVersion = Path.Combine(sourceRoot, "version.txt");
+        if (!File.Exists(sourceVersion)) throw new InvalidOperationException("O pacote interno do launcher não foi encontrado. Baixe o Launcher.exe novamente.");
+        var targetVersion = Path.Combine(root, "version.txt");
+        if (File.Exists(targetVersion) && File.ReadAllText(targetVersion) == File.ReadAllText(sourceVersion)) return;
+        foreach (var source in Directory.EnumerateFiles(sourceRoot, "*", SearchOption.AllDirectories))
+        {
+            var relative = Path.GetRelativePath(sourceRoot, source);
+            var target = Path.Combine(root, relative);
+            Directory.CreateDirectory(Path.GetDirectoryName(target)!);
+            File.Copy(source, target, true);
+        }
+    }
+
+    private static Image? LoadHero()
+    {
+        var embedded = typeof(LauncherForm).Assembly.GetManifestResourceNames().FirstOrDefault(name => name.EndsWith(".assets.hero.png", StringComparison.OrdinalIgnoreCase));
+        if (embedded is not null)
+        {
+            using var stream = typeof(LauncherForm).Assembly.GetManifestResourceStream(embedded);
+            if (stream is not null) return new Bitmap(stream);
+        }
+        var heroPath = Path.Combine(AppContext.BaseDirectory, "assets", "hero.png");
+        return File.Exists(heroPath) ? Image.FromFile(heroPath) : null;
+    }
 }
 internal sealed record State(string GamePath, string SourceSha256, string TranslatedSha256, DateTimeOffset UpdatedAt);
 internal sealed record MissingItem(string Source);

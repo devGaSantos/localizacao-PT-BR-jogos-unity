@@ -12,7 +12,8 @@ internal sealed class LauncherForm : Form
     private readonly Button playButton = new() { Text = "Atualizar e jogar", AutoSize = false, Size = new Size(210, 42) };
     private readonly Label status = new() { AutoSize = false, Height = 48, TextAlign = ContentAlignment.MiddleLeft };
     private readonly ProgressBar progress = new() { Minimum = 0, Maximum = 100, Size = new Size(470, 15) };
-    private readonly string root = AppContext.BaseDirectory;
+    private readonly string root = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "MerlinTraducoes", "ChefRpg");
+    private readonly string payloadRoot = AppContext.BaseDirectory;
 
     public LauncherForm()
     {
@@ -24,18 +25,7 @@ internal sealed class LauncherForm : Form
         BackColor = Color.FromArgb(38, 28, 38);
         Font = new Font("Segoe UI", 10);
 
-        var heroPath = Path.Combine(root, "assets", "hero.png");
-        if (File.Exists(heroPath))
-        {
-            var hero = new PictureBox
-            {
-                Image = Image.FromFile(heroPath),
-                SizeMode = PictureBoxSizeMode.Zoom,
-                Dock = DockStyle.Top,
-                Height = 300
-            };
-            Controls.Add(hero);
-        }
+        Controls.Add(new PictureBox { Image = LoadHero(), SizeMode = PictureBoxSizeMode.Zoom, Dock = DockStyle.Top, Height = 300 });
 
         var title = new Label
         {
@@ -60,16 +50,31 @@ internal sealed class LauncherForm : Form
         playButton.FlatStyle = FlatStyle.Flat;
         playButton.FlatAppearance.BorderSize = 0;
         playButton.Location = new Point(522, 366);
-        playButton.Click += async (_, _) => await UpdateAndPlayAsync();
+        playButton.Click += async (_, _) => await StartUpdateAsync();
         Controls.Add(playButton);
+    }
+
+    private async Task StartUpdateAsync()
+    {
+        playButton.Enabled = false;
+        SetProgress("Preparando a verificacao...", 1);
+        await Task.Yield();
+        try { await Task.Run(EnsurePayload); }
+        catch (Exception error)
+        {
+            playButton.Enabled = true;
+            MessageBox.Show(this, error.Message, Text, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            return;
+        }
+        await UpdateAndPlayAsync();
     }
 
     private async Task UpdateAndPlayAsync()
     {
         try
         {
-            playButton.Enabled = false;
-            status.Text = "Localizando o jogo...";
+            SetProgress("Localizando o jogo...", 2);
+            await Task.Yield();
             var state = ReadState();
             var gamePath = FindGamePath(state?.GamePath);
             if (gamePath is null)
@@ -87,7 +92,7 @@ internal sealed class LauncherForm : Form
             if (Process.GetProcessesByName("Chef RPG").Length > 0)
                 throw new InvalidOperationException("Feche Chef RPG antes de atualizar a tradução.");
 
-            var currentHash = Sha256(gameAsset);
+            var currentHash = await Task.Run(() => Sha256(gameAsset));
             if (state?.TranslatedSha256 != currentHash)
             {
                 var pipeline = Path.Combine(root, "bin", "ChefRpg.AssetPipeline.exe");
@@ -118,17 +123,17 @@ internal sealed class LauncherForm : Form
                     throw new InvalidOperationException("O arquivo traduzido não foi gerado.");
                 var backup = Path.Combine(root, "backups", DateTime.Now.ToString("yyyyMMdd-HHmmss"));
                 Directory.CreateDirectory(backup);
-                File.Copy(gameAsset, Path.Combine(backup, "resources.assets"), true);
-                try
+                await Task.Run(() =>
                 {
-                    File.Copy(rebuiltAsset, gameAsset, true);
-                }
-                catch
-                {
-                    File.Copy(Path.Combine(backup, "resources.assets"), gameAsset, true);
-                    throw;
-                }
-                WriteState(new LauncherState(gamePath, currentHash, Sha256(gameAsset), DateTimeOffset.UtcNow));
+                    File.Copy(gameAsset, Path.Combine(backup, "resources.assets"), true);
+                    try { File.Copy(rebuiltAsset, gameAsset, true); }
+                    catch
+                    {
+                        File.Copy(Path.Combine(backup, "resources.assets"), gameAsset, true);
+                        throw;
+                    }
+                });
+                WriteState(new LauncherState(gamePath, currentHash, await Task.Run(() => Sha256(gameAsset)), DateTimeOffset.UtcNow));
                 SetProgress("Tradução atualizada. Abrindo o jogo...", 100);
             }
             else
@@ -146,15 +151,19 @@ internal sealed class LauncherForm : Form
         }
         finally
         {
-            playButton.Enabled = true;
+            if (!IsDisposed) playButton.Enabled = true;
         }
     }
 
     private void SetProgress(string text, int value)
     {
+        if (InvokeRequired)
+        {
+            BeginInvoke(() => SetProgress(text, value));
+            return;
+        }
         status.Text = text;
         progress.Value = Math.Clamp(value, progress.Minimum, progress.Maximum);
-        Application.DoEvents();
     }
 
     private static async Task RunPipeline(string pipeline, params string[] arguments)
@@ -169,9 +178,11 @@ internal sealed class LauncherForm : Form
         foreach (var argument in arguments)
             startInfo.ArgumentList.Add(argument);
         using var process = Process.Start(startInfo) ?? throw new InvalidOperationException("Não foi possível iniciar o atualizador.");
-        var output = await process.StandardOutput.ReadToEndAsync();
-        var error = await process.StandardError.ReadToEndAsync();
+        var outputTask = process.StandardOutput.ReadToEndAsync();
+        var errorTask = process.StandardError.ReadToEndAsync();
         await process.WaitForExitAsync();
+        var output = await outputTask;
+        var error = await errorTask;
         if (process.ExitCode is not (0 or 3))
             throw new InvalidOperationException(string.IsNullOrWhiteSpace(error) ? output : error);
     }
@@ -243,6 +254,34 @@ internal sealed class LauncherForm : Form
     }
 
     private static string Sha256(string path) => Convert.ToHexString(SHA256.HashData(File.ReadAllBytes(path)));
+
+    private void EnsurePayload()
+    {
+        var sourceRoot = Path.Combine(payloadRoot, "payload");
+        var sourceVersion = Path.Combine(sourceRoot, "version.txt");
+        if (!File.Exists(sourceVersion)) throw new InvalidOperationException("O pacote interno do launcher não foi encontrado. Baixe o Launcher.exe novamente.");
+        var targetVersion = Path.Combine(root, "version.txt");
+        if (File.Exists(targetVersion) && File.ReadAllText(targetVersion) == File.ReadAllText(sourceVersion)) return;
+        foreach (var source in Directory.EnumerateFiles(sourceRoot, "*", SearchOption.AllDirectories))
+        {
+            var relative = Path.GetRelativePath(sourceRoot, source);
+            var target = Path.Combine(root, relative);
+            Directory.CreateDirectory(Path.GetDirectoryName(target)!);
+            File.Copy(source, target, true);
+        }
+    }
+
+    private static Image? LoadHero()
+    {
+        var embedded = typeof(LauncherForm).Assembly.GetManifestResourceNames().FirstOrDefault(name => name.EndsWith(".assets.hero.png", StringComparison.OrdinalIgnoreCase));
+        if (embedded is not null)
+        {
+            using var stream = typeof(LauncherForm).Assembly.GetManifestResourceStream(embedded);
+            if (stream is not null) return new Bitmap(stream);
+        }
+        var heroPath = Path.Combine(AppContext.BaseDirectory, "assets", "hero.png");
+        return File.Exists(heroPath) ? Image.FromFile(heroPath) : null;
+    }
 }
 
 internal sealed record LauncherState(string GamePath, string SourceSha256, string TranslatedSha256, DateTimeOffset UpdatedAt);
