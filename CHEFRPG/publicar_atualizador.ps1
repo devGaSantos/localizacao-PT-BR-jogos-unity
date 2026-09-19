@@ -16,27 +16,25 @@ if (-not (Test-Path -LiteralPath $dotnetPath)) { throw "O .NET SDK e necessario 
 $destino = Join-Path $Raiz "dist\Chef_RPG_PT-BR_AutoUpdater"
 if (Test-Path -LiteralPath $destino) { Remove-Item -LiteralPath $destino -Recurse -Force }
 New-Item -ItemType Directory -Path $destino -Force | Out-Null
-$payload = Join-Path $Raiz "tools\launcher\payload"
-if (Test-Path -LiteralPath $payload) { Remove-Item -LiteralPath $payload -Recurse -Force }
-New-Item -ItemType Directory -Path (Join-Path $payload "bin") -Force | Out-Null
+$launcher = Join-Path $destino "ATUALIZADOR"
+New-Item -ItemType Directory -Path (Join-Path $launcher "bin"), (Join-Path $launcher "assets") -Force | Out-Null
 
 & $dotnetPath publish (Join-Path $Raiz "tools\asset-pipeline\ChefRpg.AssetPipeline.csproj") `
     --configuration Release --runtime win-x64 --self-contained true `
     -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true `
-    --output (Join-Path $payload "bin")
+    --output (Join-Path $launcher "bin")
 if ($LASTEXITCODE -ne 0) { throw "Falha ao publicar o atualizador." }
 
-Copy-Item -LiteralPath (Join-Path $Raiz "tools\asset-pipeline\lib\classdata.tpk") -Destination (Join-Path $payload "bin\classdata.tpk") -Force
-Copy-Item -LiteralPath (Join-Path $Raiz "memoria.json") -Destination (Join-Path $payload "memoria.json") -Force
-Set-Content -LiteralPath (Join-Path $payload "version.txt") -Value ("chef-" + (Get-Date -Format "yyyyMMddHHmmss")) -Encoding utf8
+Copy-Item -LiteralPath (Join-Path $Raiz "tools\asset-pipeline\lib\classdata.tpk") -Destination (Join-Path $launcher "bin\classdata.tpk") -Force
+Copy-Item -LiteralPath (Join-Path $Raiz "tools\launcher\assets\hero.png") -Destination (Join-Path $launcher "assets\hero.png") -Force
+Copy-Item -LiteralPath (Join-Path $Raiz "memoria.json") -Destination (Join-Path $launcher "memoria.json") -Force
 
 & $dotnetPath publish (Join-Path $Raiz "tools\launcher\ChefRpg.Launcher.csproj") `
     --configuration Release --runtime win-x64 --self-contained true `
     -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true `
-    --output $destino
+    --output $launcher
 if ($LASTEXITCODE -ne 0) { throw "Falha ao publicar a interface do atualizador." }
-
-Get-ChildItem -LiteralPath $destino -Force | Where-Object { $_.Name -ne "ChefRpg.Launcher.exe" } | Remove-Item -Force -Recurse
+Remove-Item -LiteralPath (Join-Path $launcher "ChefRpg.Launcher.pdb") -Force -ErrorAction SilentlyContinue
 
 $manual = Join-Path $destino "INSTALACAO_MANUAL"
 $manualData = Join-Path $manual "Chef RPG_Data"
@@ -57,8 +55,9 @@ CHEF RPG — TRADUCAO PT-BR
 
 Este ZIP oferece duas formas de instalar:
 
-1. RECOMENDADO: abra ChefRpg.Launcher.exe. Ele tem tudo embutido, mostra
-   imagem/loading, cria backup e se adapta a atualizacoes do jogo.
+1. RECOMENDADO: abra ATUALIZADOR\ChefRpg.Launcher.exe. Mantenha todos os
+   arquivos dessa pasta juntos; ele mostra imagem/loading, cria backup e se adapta
+   a atualizacoes do jogo.
 2. SEM EXE: leia INSTALACAO_MANUAL\LEIA-ME - INSTALACAO MANUAL.txt e copie os
    arquivos dessa pasta para o jogo. Ela vale somente para a versao atual.
 
@@ -66,6 +65,7 @@ Quando surgirem textos novos, o launcher oferece manter em ingles (mais fiel ate
 a revisao) ou traducao automatica provisoria, com progresso e estimativa. A opcao
 automatica usa internet somente depois da sua confirmacao.
 '@ | Set-Content -LiteralPath (Join-Path $destino "LEIA-ME.txt") -Encoding utf8
+Get-ChildItem -LiteralPath $destino -Filter "*.pdb" -File -Recurse | Remove-Item -Force
 $zip = Join-Path $Raiz "dist\Chef_RPG_PT-BR_AutoUpdater.zip"
 if (Test-Path -LiteralPath $zip) { Remove-Item -LiteralPath $zip -Force }
 Compress-Archive -Path $destino -DestinationPath $zip -Force

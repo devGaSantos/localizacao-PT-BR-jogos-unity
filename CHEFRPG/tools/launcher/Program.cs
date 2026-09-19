@@ -11,18 +11,11 @@ Application.Run(new LauncherForm());
 
 internal sealed class LauncherForm : Form
 {
-    public static bool HasBundledPayload()
-    {
-        var payload = Path.Combine(AppContext.BaseDirectory, "payload");
-        return File.Exists(Path.Combine(payload, "version.txt")) &&
-               File.Exists(Path.Combine(payload, "bin", "ChefRpg.AssetPipeline.exe")) &&
-               File.Exists(Path.Combine(payload, "bin", "classdata.tpk"));
-    }
+    public static bool HasBundledPayload() => File.Exists(Path.Combine(AppContext.BaseDirectory, "bin", "ChefRpg.AssetPipeline.exe")) && File.Exists(Path.Combine(AppContext.BaseDirectory, "bin", "classdata.tpk"));
     private readonly Button playButton = new() { Text = "Atualizar e jogar", AutoSize = false, Size = new Size(210, 42) };
     private readonly Label status = new() { AutoSize = false, Height = 48, TextAlign = ContentAlignment.MiddleLeft };
     private readonly ProgressBar progress = new() { Minimum = 0, Maximum = 100, Size = new Size(470, 15) };
-    private readonly string root = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "MerlinTraducoes", "ChefRpg");
-    private readonly string payloadRoot = AppContext.BaseDirectory;
+    private readonly string root = AppContext.BaseDirectory;
 
     public LauncherForm()
     {
@@ -68,14 +61,6 @@ internal sealed class LauncherForm : Form
         playButton.Enabled = false;
         SetProgress("Preparando a verificacao...", 1);
         await Task.Yield();
-        var installerProgress = new Progress<(string Text, int Value)>(update => SetProgress(update.Text, update.Value));
-        try { await Task.Run(() => EnsurePayload(installerProgress)); }
-        catch (Exception error)
-        {
-            playButton.Enabled = true;
-            MessageBox.Show(this, error.Message, Text, MessageBoxButtons.OK, MessageBoxIcon.Error);
-            return;
-        }
         await UpdateAndPlayAsync();
     }
 
@@ -105,8 +90,8 @@ internal sealed class LauncherForm : Form
             var currentHash = await Task.Run(() => Sha256(gameAsset));
             if (state?.TranslatedSha256 != currentHash)
             {
-                var pipeline = Path.Combine(payloadRoot, "payload", "bin", "ChefRpg.AssetPipeline.exe");
-                var classData = Path.Combine(payloadRoot, "payload", "bin", "classdata.tpk");
+                var pipeline = Path.Combine(root, "bin", "ChefRpg.AssetPipeline.exe");
+                var classData = Path.Combine(root, "bin", "classdata.tpk");
                 var memory = Path.Combine(root, "memoria.json");
                 var staging = Path.Combine(root, "staging");
                 if (!File.Exists(pipeline) || !File.Exists(classData) || !File.Exists(memory))
@@ -264,68 +249,6 @@ internal sealed class LauncherForm : Form
     }
 
     private static string Sha256(string path) => Convert.ToHexString(SHA256.HashData(File.ReadAllBytes(path)));
-
-    private void EnsurePayload(IProgress<(string Text, int Value)> progressReporter)
-    {
-        var sourceRoot = Path.Combine(payloadRoot, "payload");
-        var sourceVersion = Path.Combine(sourceRoot, "version.txt");
-        if (!File.Exists(sourceVersion)) throw new InvalidOperationException("O pacote interno do launcher não foi encontrado. Baixe o Launcher.exe novamente.");
-        var targetVersion = Path.Combine(root, "version.txt");
-        if (File.Exists(targetVersion) && File.ReadAllText(targetVersion) == File.ReadAllText(sourceVersion)) return;
-        // O pipeline e o classdata ja estao disponiveis na extracao interna do
-        // single-file. Copiar esse executavel grande novamente para LocalAppData
-        // deixa o primeiro clique lento sem beneficio. So a memoria mutavel vai
-        // para o diretorio local.
-        var files = Directory.EnumerateFiles(sourceRoot, "*", SearchOption.AllDirectories)
-            .Where(path =>
-            {
-                var relative = Path.GetRelativePath(sourceRoot, path);
-                return !relative.StartsWith($"bin{Path.DirectorySeparatorChar}", StringComparison.OrdinalIgnoreCase) && !string.Equals(relative, "version.txt", StringComparison.OrdinalIgnoreCase);
-            })
-            .ToList();
-        var totalBytes = files.Sum(path => new FileInfo(path).Length);
-        long copiedBytes = 0;
-        var lastReportedProgress = -1;
-        void ReportProgress(long done, int fileIndex)
-        {
-            var value = Math.Clamp(2 + (int)(18d * done / Math.Max(1, totalBytes)), 2, 20);
-            if (value == lastReportedProgress && done != totalBytes) return;
-            lastReportedProgress = value;
-            progressReporter.Report(($"Preparando componentes internos {fileIndex + 1}/{files.Count} ({FormatSize(done)}/{FormatSize(totalBytes)})...", value));
-        }
-        for (var index = 0; index < files.Count; index++)
-        {
-            var source = files[index];
-            var relative = Path.GetRelativePath(sourceRoot, source);
-            var target = Path.Combine(root, relative);
-            Directory.CreateDirectory(Path.GetDirectoryName(target)!);
-            var sourceLength = new FileInfo(source).Length;
-            ReportProgress(copiedBytes, index);
-            CopyFileWithProgress(source, target, bytesThisFile => ReportProgress(copiedBytes + bytesThisFile, index));
-            copiedBytes += sourceLength;
-        }
-        ReportProgress(totalBytes, files.Count - 1);
-        Directory.CreateDirectory(root);
-        File.Copy(sourceVersion, targetVersion, true);
-    }
-
-    private static void CopyFileWithProgress(string source, string destination, Action<long> report)
-    {
-        const int bufferSize = 1024 * 1024;
-        using var input = new FileStream(source, FileMode.Open, FileAccess.Read, FileShare.Read, bufferSize, FileOptions.SequentialScan);
-        using var output = new FileStream(destination, FileMode.Create, FileAccess.Write, FileShare.None, bufferSize, FileOptions.SequentialScan);
-        var buffer = new byte[bufferSize];
-        long copied = 0;
-        int read;
-        while ((read = input.Read(buffer, 0, buffer.Length)) > 0)
-        {
-            output.Write(buffer, 0, read);
-            copied += read;
-            report(copied);
-        }
-    }
-
-    private static string FormatSize(long bytes) => $"{bytes / 1024d / 1024d:F0} MB";
 
     private static Image? LoadHero()
     {
