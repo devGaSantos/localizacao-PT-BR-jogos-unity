@@ -28,7 +28,7 @@ blocos `Field data` contendo `title = "en"`, `value` e
 O script usa caminhos relativos. Execute-o dentro de `dialogos/`:
 
 ```powershell
-cd C:\Users\AZTEKA\Videos\Little-witch-in-the-woods-PT-BR-localization\LW\dialogos
+cd .\LW\dialogos
 py .\script_translation_batch.py
 ```
 
@@ -194,7 +194,7 @@ O `script_missoes.py` usa caminhos relativos, por isso deve ser executado dentro
 pasta `missoes`:
 
 ```powershell
-cd C:\Users\AZTEKA\Videos\Little-witch-in-the-woods-PT-BR-localization\missoes
+cd .\missoes
 py .\script_missoes.py
 ```
 
