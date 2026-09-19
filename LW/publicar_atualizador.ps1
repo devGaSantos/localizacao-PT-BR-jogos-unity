@@ -37,8 +37,10 @@ LITTLE WITCH IN THE WOODS — TRADUCAO PT-BR
 Depois de uma atualizacao da Steam, o launcher reconstrói e reinstala a traducao
 automaticamente. Nao requer UABEA, .NET ou Python instalados.
 
-Textos novos que ainda nao existam na memoria da traducao permanecem em ingles ate a
-proxima versao revisada do mod. O restante continua traduzido.
+Se a Steam adicionar textos ainda sem traducao revisada, o launcher mostra a
+quantidade e permite manter esses textos em ingles ate a proxima versao oficial ou
+tentar traduzi-los automaticamente. A segunda opcao usa internet, mostra
+progresso/estimativa e pode levar alguns minutos.
 '@ | Set-Content -LiteralPath (Join-Path $destination "LEIA-ME.txt") -Encoding utf8
 
 $zip = Join-Path $Raiz "dist\Little_Witch_in_the_Woods_PT-BR_AutoUpdater.zip"

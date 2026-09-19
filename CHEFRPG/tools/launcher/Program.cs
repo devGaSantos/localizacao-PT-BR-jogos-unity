@@ -1,6 +1,8 @@
 using System.Diagnostics;
+using System.Net.Http;
 using System.Security.Cryptography;
 using System.Text.Json;
+using System.Text.RegularExpressions;
 
 ApplicationConfiguration.Initialize();
 Application.Run(new LauncherForm());
@@ -9,6 +11,7 @@ internal sealed class LauncherForm : Form
 {
     private readonly Button playButton = new() { Text = "Atualizar e jogar", AutoSize = false, Size = new Size(210, 42) };
     private readonly Label status = new() { AutoSize = false, Height = 48, TextAlign = ContentAlignment.MiddleLeft };
+    private readonly ProgressBar progress = new() { Minimum = 0, Maximum = 100, Size = new Size(470, 15) };
     private readonly string root = AppContext.BaseDirectory;
 
     public LauncherForm()
@@ -49,6 +52,8 @@ internal sealed class LauncherForm : Form
         status.Location = new Point(28, 352);
         status.Width = 470;
         Controls.Add(status);
+        progress.Location = new Point(28, 399);
+        Controls.Add(progress);
 
         playButton.BackColor = Color.FromArgb(196, 106, 82);
         playButton.ForeColor = Color.White;
@@ -85,7 +90,6 @@ internal sealed class LauncherForm : Form
             var currentHash = Sha256(gameAsset);
             if (state?.TranslatedSha256 != currentHash)
             {
-                status.Text = "Atualização detectada. Reconstruindo a tradução...";
                 var pipeline = Path.Combine(root, "bin", "ChefRpg.AssetPipeline.exe");
                 var classData = Path.Combine(root, "bin", "classdata.tpk");
                 var memory = Path.Combine(root, "memoria.json");
@@ -93,8 +97,20 @@ internal sealed class LauncherForm : Form
                 if (!File.Exists(pipeline) || !File.Exists(classData) || !File.Exists(memory))
                     throw new InvalidOperationException("O pacote está incompleto. Extraia o ZIP inteiro antes de usar.");
 
-                await RunPipeline(pipeline, "build-fallback", gamePath, root, classData, staging);
-                status.Text = "Validando os arquivos...";
+                SetProgress("Verificando textos novos...", 5);
+                await RunPipeline(pipeline, "scan", gamePath, root, classData, staging);
+                var missing = CountMissing(Path.Combine(root, "relatorios", "faltantes_memoria.json"));
+                var fallback = false;
+                if (missing > 0)
+                {
+                    var choice = AskTranslationMode(missing);
+                    if (choice == TranslationMode.Cancel) return;
+                    fallback = choice == TranslationMode.KeepEnglish;
+                    if (!fallback) await TranslateMissingAsync(memory, missing);
+                }
+                SetProgress(fallback ? "Mantendo textos novos em inglês e reconstruindo (estimativa: 1 min)..." : "Reconstruindo a tradução (estimativa: 1 min)...", 50);
+                await RunPipeline(pipeline, fallback ? "build-fallback" : "build", gamePath, root, classData, staging);
+                SetProgress("Validando os arquivos (estimativa: menos de 1 min)...", 85);
                 await RunPipeline(pipeline, "verify", gamePath, root, classData, staging);
 
                 var rebuiltAsset = Path.Combine(staging, "resources.assets");
@@ -113,11 +129,11 @@ internal sealed class LauncherForm : Form
                     throw;
                 }
                 WriteState(new LauncherState(gamePath, currentHash, Sha256(gameAsset), DateTimeOffset.UtcNow));
-                status.Text = "Tradução atualizada. Abrindo o jogo...";
+                SetProgress("Tradução atualizada. Abrindo o jogo...", 100);
             }
             else
             {
-                status.Text = "Tradução já está atualizada. Abrindo o jogo...";
+                SetProgress("Tradução já está atualizada. Abrindo o jogo...", 100);
             }
 
             Process.Start(new ProcessStartInfo(gameExe) { WorkingDirectory = gamePath, UseShellExecute = true });
@@ -132,6 +148,13 @@ internal sealed class LauncherForm : Form
         {
             playButton.Enabled = true;
         }
+    }
+
+    private void SetProgress(string text, int value)
+    {
+        status.Text = text;
+        progress.Value = Math.Clamp(value, progress.Minimum, progress.Maximum);
+        Application.DoEvents();
     }
 
     private static async Task RunPipeline(string pipeline, params string[] arguments)
@@ -151,6 +174,51 @@ internal sealed class LauncherForm : Form
         await process.WaitForExitAsync();
         if (process.ExitCode is not (0 or 3))
             throw new InvalidOperationException(string.IsNullOrWhiteSpace(error) ? output : error);
+    }
+
+    private TranslationMode AskTranslationMode(int missing)
+    {
+        using var dialog = new Form { Text = "Textos novos encontrados", StartPosition = FormStartPosition.CenterParent, ClientSize = new Size(570, 205), FormBorderStyle = FormBorderStyle.FixedDialog, MaximizeBox = false, MinimizeBox = false, BackColor = BackColor };
+        dialog.Controls.Add(new Label { Text = $"Existem {missing:N0} entradas ainda não traduzidas nesta atualização.\n\nVocê prefere manter esses textos em inglês até uma tradução oficial, ou tentar traduzi-los automaticamente? A tradução automática pode levar alguns minutos.", ForeColor = Color.White, Location = new Point(18, 16), Size = new Size(535, 90) });
+        dialog.Controls.Add(new Button { Text = "Manter em inglês\ne aguardar versão oficial", DialogResult = DialogResult.No, Size = new Size(230, 54), Location = new Point(18, 125) });
+        dialog.Controls.Add(new Button { Text = "Tentar traduzir\nautomaticamente", DialogResult = DialogResult.Yes, Size = new Size(230, 54), Location = new Point(322, 125) });
+        return dialog.ShowDialog(this) switch { DialogResult.Yes => TranslationMode.Automatic, DialogResult.No => TranslationMode.KeepEnglish, _ => TranslationMode.Cancel };
+    }
+
+    private async Task TranslateMissingAsync(string memoryPath, int total)
+    {
+        var missingPath = Path.Combine(root, "relatorios", "faltantes_memoria.json");
+        var missing = JsonSerializer.Deserialize<Dictionary<string, string>>(File.ReadAllText(missingPath), JsonOptions) ?? [];
+        var memory = JsonSerializer.Deserialize<Dictionary<string, string>>(File.ReadAllText(memoryPath), JsonOptions) ?? [];
+        using var client = new HttpClient { Timeout = TimeSpan.FromSeconds(25) };
+        var sources = missing.Keys.Where(source => !memory.TryGetValue(source, out var translation) || string.IsNullOrWhiteSpace(translation)).ToList();
+        for (var index = 0; index < sources.Count; index++)
+        {
+            memory[sources[index]] = await TranslateAsync(client, sources[index]);
+            SetProgress($"Traduzindo automaticamente {index + 1:N0}/{total:N0} (estimativa: {Math.Max(1, (total - index) / 8)} min)...", 8 + (int)Math.Round(35d * (index + 1) / Math.Max(1, total)));
+            await Task.Delay(120);
+        }
+        File.WriteAllText(memoryPath, JsonSerializer.Serialize(memory, new JsonSerializerOptions(JsonOptions) { WriteIndented = true }) + Environment.NewLine);
+    }
+
+    private static int CountMissing(string path) => JsonSerializer.Deserialize<Dictionary<string, string>>(File.ReadAllText(path), JsonOptions)?.Count ?? 0;
+    private static readonly JsonSerializerOptions JsonOptions = new() { PropertyNameCaseInsensitive = true };
+    private static readonly Regex ProtectedToken = new(@"(\r\n|\r|\n|\[[^\]]+\]|<[^>]+>|\{[^{}]+\}|\([a-z_][a-z0-9_]*\)|_)", RegexOptions.Singleline);
+    private static async Task<string> TranslateAsync(HttpClient client, string source)
+    {
+        var tokens = new List<string>();
+        var protectedText = ProtectedToken.Replace(source, match => { tokens.Add(match.Value); return $"CHEF_TOKEN_{tokens.Count - 1}_END"; });
+        var json = await client.GetStringAsync("https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=pt&dt=t&q=" + Uri.EscapeDataString(protectedText));
+        using var document = JsonDocument.Parse(json);
+        var translated = string.Concat(document.RootElement[0].EnumerateArray().Select(part => part[0].GetString()));
+        if (string.IsNullOrWhiteSpace(translated)) throw new InvalidOperationException("O serviço de tradução não retornou texto.");
+        for (var index = 0; index < tokens.Count; index++)
+        {
+            var marker = $"CHEF_TOKEN_{index}_END";
+            if (!translated.Contains(marker, StringComparison.Ordinal)) throw new InvalidOperationException("O serviço de tradução alterou uma marcação do jogo.");
+            translated = translated.Replace(marker, tokens[index], StringComparison.Ordinal);
+        }
+        return translated;
     }
 
     private LauncherState? ReadState()
@@ -178,3 +246,4 @@ internal sealed class LauncherForm : Form
 }
 
 internal sealed record LauncherState(string GamePath, string SourceSha256, string TranslatedSha256, DateTimeOffset UpdatedAt);
+internal enum TranslationMode { KeepEnglish, Automatic, Cancel }

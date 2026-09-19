@@ -10,6 +10,11 @@ O launcher acompanha a versão instalada. Quando a Steam atualizar os assets do 
 ele reconstrói e reinstala a tradução automaticamente. UABEA, .NET e Python não são
 necessários para quem usa o pacote.
 
+Se uma atualização trouxer textos inéditos, o launcher informa a quantidade e oferece
+manter esses textos em inglês até uma versão oficial ou tentar traduzi-los
+automaticamente. A tentativa automática usa internet, preserva tags do jogo e mostra
+o progresso com estimativa de tempo.
+
 ## Manutenção da tradução
 
 As memórias são separadas por tipo de conteúdo:
