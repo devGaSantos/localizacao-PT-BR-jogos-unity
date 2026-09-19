@@ -20,7 +20,13 @@ try
         paths.ReportPath,
         JsonSerializer.Serialize(report, JsonOptions.Pretty) + Environment.NewLine
     );
-    Console.WriteLine(JsonSerializer.Serialize(report, JsonOptions.Pretty));
+    foreach (var flow in report.Flows)
+    {
+        Console.WriteLine(
+            $"{flow.Flow}: {flow.Translated} traduzidos, " +
+            $"{flow.MissingUnique} novos/em ingles");
+    }
+    Console.WriteLine($"Ready={report.Ready}; relatorio: {paths.ReportPath}");
     return report.Ready ? 0 : 3;
 }
 catch (Exception ex)

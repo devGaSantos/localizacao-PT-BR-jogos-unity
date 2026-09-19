@@ -56,7 +56,7 @@ internal sealed class LauncherForm : Form
             var before = Hash(resources);
             if (state?.TranslatedSha256 != before)
             {
-                status.Text = "Atualização detectada. Reconstruindo a tradução...";
+                status.Text = "Atualização detectada. Reconstruindo a tradução (pode levar 1–2 min)...";
                 var pipeline = Path.Combine(root, "bin", "LittleWitch.AssetPipeline.exe");
                 var project = Path.Combine(root, "LW");
                 var classData = Path.Combine(root, "bin", "classdata.tpk");
