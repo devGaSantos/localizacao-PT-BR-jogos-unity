@@ -11,7 +11,13 @@ Application.Run(new LauncherForm());
 
 internal sealed class LauncherForm : Form
 {
-    public static bool HasBundledPayload() => File.Exists(Path.Combine(AppContext.BaseDirectory, "payload", "version.txt"));
+    public static bool HasBundledPayload()
+    {
+        var payload = Path.Combine(AppContext.BaseDirectory, "payload");
+        return File.Exists(Path.Combine(payload, "version.txt")) &&
+               File.Exists(Path.Combine(payload, "bin", "ChefRpg.AssetPipeline.exe")) &&
+               File.Exists(Path.Combine(payload, "bin", "classdata.tpk"));
+    }
     private readonly Button playButton = new() { Text = "Atualizar e jogar", AutoSize = false, Size = new Size(210, 42) };
     private readonly Label status = new() { AutoSize = false, Height = 48, TextAlign = ContentAlignment.MiddleLeft };
     private readonly ProgressBar progress = new() { Minimum = 0, Maximum = 100, Size = new Size(470, 15) };
@@ -99,8 +105,8 @@ internal sealed class LauncherForm : Form
             var currentHash = await Task.Run(() => Sha256(gameAsset));
             if (state?.TranslatedSha256 != currentHash)
             {
-                var pipeline = Path.Combine(root, "bin", "ChefRpg.AssetPipeline.exe");
-                var classData = Path.Combine(root, "bin", "classdata.tpk");
+                var pipeline = Path.Combine(payloadRoot, "payload", "bin", "ChefRpg.AssetPipeline.exe");
+                var classData = Path.Combine(payloadRoot, "payload", "bin", "classdata.tpk");
                 var memory = Path.Combine(root, "memoria.json");
                 var staging = Path.Combine(root, "staging");
                 if (!File.Exists(pipeline) || !File.Exists(classData) || !File.Exists(memory))
@@ -266,7 +272,17 @@ internal sealed class LauncherForm : Form
         if (!File.Exists(sourceVersion)) throw new InvalidOperationException("O pacote interno do launcher não foi encontrado. Baixe o Launcher.exe novamente.");
         var targetVersion = Path.Combine(root, "version.txt");
         if (File.Exists(targetVersion) && File.ReadAllText(targetVersion) == File.ReadAllText(sourceVersion)) return;
-        var files = Directory.EnumerateFiles(sourceRoot, "*", SearchOption.AllDirectories).ToList();
+        // O pipeline e o classdata ja estao disponiveis na extracao interna do
+        // single-file. Copiar esse executavel grande novamente para LocalAppData
+        // deixa o primeiro clique lento sem beneficio. So a memoria mutavel vai
+        // para o diretorio local.
+        var files = Directory.EnumerateFiles(sourceRoot, "*", SearchOption.AllDirectories)
+            .Where(path =>
+            {
+                var relative = Path.GetRelativePath(sourceRoot, path);
+                return !relative.StartsWith($"bin{Path.DirectorySeparatorChar}", StringComparison.OrdinalIgnoreCase) && !string.Equals(relative, "version.txt", StringComparison.OrdinalIgnoreCase);
+            })
+            .ToList();
         var totalBytes = files.Sum(path => new FileInfo(path).Length);
         long copiedBytes = 0;
         var lastReportedProgress = -1;
@@ -289,6 +305,8 @@ internal sealed class LauncherForm : Form
             copiedBytes += sourceLength;
         }
         ReportProgress(totalBytes, files.Count - 1);
+        Directory.CreateDirectory(root);
+        File.Copy(sourceVersion, targetVersion, true);
     }
 
     private static void CopyFileWithProgress(string source, string destination, Action<long> report)
