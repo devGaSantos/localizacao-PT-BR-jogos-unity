@@ -14,9 +14,12 @@ Chef RPG usa Unity `2019.4.41f2` com backend Mono. Os textos ficam em cinco
 Cada CSV possui as colunas `key`, `en` e `br`. O pipeline preserva todas as outras
 linguas e usa esta prioridade para o texto em portugues:
 
-1. coluna `br` do asset atual do jogo;
-2. `memoria.json`, quando `br` estiver vazio;
+1. coluna `br` do asset atual do jogo, quando for válida;
+2. `memoria.json`, quando `br` estiver vazio ou inválido;
 3. bloquear e relatar, quando nenhuma traducao existir.
+
+Valores em branco ou compostos apenas por `#` são inválidos. Eles nunca contam como
+tradução existente e não são propagados para o pacote.
 
 No arquivo reconstruido, o portugues escolhido e aplicado em `br` e tambem em `en`
 para manter compatibilidade com o mod antigo, que executava o jogo no idioma ingles.
@@ -38,27 +41,9 @@ As ferramentas locais ficam em `.tools/` e nao entram no Git. O parametro
 `-UabeaZip` continua apenas como alternativa de recuperacao caso o arquivo incluso
 seja removido.
 
-Para permitir que `automatico` traduza textos novos, instale uma vez:
-
-```powershell
-python -m pip install deep-translator
-```
-
-Essa dependencia nao e necessaria para `status` ou `analisar`.
-
 ## Atualizacao do jogo
 
-### Launcher automatico para usuarios do Nexus
-
-O pacote publicado por `publicar_atualizador.ps1` inclui `ChefRpg.Launcher.exe`.
-O usuario abre esse arquivo em vez do executavel do jogo. Na primeira vez, ele gera
-e instala a traducao. Depois, ele apenas inicia o jogo enquanto o `resources.assets`
-permanecer o mesmo. Quando uma atualizacao da Steam substituir esse arquivo, o
-launcher detecta a alteracao, faz o backup normal, reconstroi, valida e reinstala a
-traducao antes de abrir o jogo. Nao usa UABEA, .NET ou Python instalados.
-
-Se a atualizacao introduzir textos sem traducao, o launcher para antes de alterar o
-jogo e informa o erro; ele nunca publica placeholders ou uma tabela incompleta.
+### Manutenção
 
 No Prompt de Comando (CMD), use o lancador `.cmd`:
 
@@ -82,8 +67,8 @@ Os resultados ficam em:
 - `relatorios/chef_rpg_pipeline.json`: cobertura completa por tabela;
 - `relatorios/faltantes_memoria.json`: textos ingleses unicos ainda sem traducao.
 
-O modo `analisar` nao chama traducao automatica. Para revisar manualmente, insira os
-faltantes em `memoria.json`. Para executar o fluxo completo, use:
+O modo `analisar` não altera o jogo. Revise os faltantes manualmente e insira-os em
+`memoria.json`. Depois, execute o fluxo completo:
 
 ```powershell
 .\atualizar_traducao.ps1 -Etapa automatico
@@ -94,10 +79,8 @@ O comando le sempre o `resources.assets` vivo da Steam, reconstroi uma copia em
 
 `atualizacao/pacote_merlin/Chef RPG_Data/resources.assets`
 
-Se houver textos novos, `automatico` usa `deep-translator`, cria um backup datado de
-`memoria.json`, preserva nomes associados a `character_name_*`, protege tags e
-placeholders e reexecuta a analise. As traducoes automaticas devem ser revisadas
-linguisticamente antes de publicar o pacote.
+O pacote só deve ser publicado depois da validação sem pendências. O pipeline
+preserva nomes associados a `character_name_*`, tags e placeholders.
 
 ## Escopo seguro da publicacao
 
@@ -131,22 +114,6 @@ Para instalar diretamente com backup:
 .\atualizar_traducao.ps1 -Etapa instalar -ConfirmarInstalacao
 ```
 
-## Fluxo manual com UABEA
-
-Use este modo quando quiser conferir cada importacao manualmente. Nesse caso a
-interface do UABEA e necessaria, mas ela nao e usada pelo fluxo automatico.
-
-1. No UABEA, abra o `resources.assets` da instalacao atual e exporte os cinco
-   `TextAsset` CSV para `CHEFRPG/exportados/`: `Localization`, `UI Localization`,
-   `Romance Localization`, `Festivals Localization` e `Item Localization`.
-2. Na pasta `CHEFRPG`, execute `python script_translation_batch.py`. Ele le
-   `exportados/`, usa `memoria.json` e escreve os cinco arquivos em `traduzidos/`.
-3. No UABEA, importe cada arquivo correspondente de `traduzidos/` no mesmo
-   `TextAsset`, salve em uma copia de teste e abra essa copia antes de substituir o
-   arquivo da Steam.
-
-`memoria.json` e a memoria principal: nunca a apague durante atualizacoes.
-
 ## Seguranca
 
 - `analisar` nunca escreve no jogo;
@@ -154,5 +121,5 @@ interface do UABEA e necessaria, mas ela nao e usada pelo fluxo automatico.
 - faltantes impedem a geracao;
 - o asset e reaberto e validado antes do pacote;
 - `instalar` exige confirmacao, jogo fechado e cria backup datado;
-- `script_translation_batch.py`, `exportados/` e `traduzidos/` continuam disponiveis
-  como fluxo convencional.
+- `memoria.json` é a memória principal e nunca deve ser apagada durante uma
+  atualização.
