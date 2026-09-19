@@ -6,10 +6,13 @@ using System.Text.Json;
 using System.Text.RegularExpressions;
 
 ApplicationConfiguration.Initialize();
+if (args.Contains("--verify-payload", StringComparer.Ordinal))
+    Environment.Exit(LauncherForm.HasBundledPayload() ? 0 : 1);
 Application.Run(new LauncherForm());
 
 internal sealed class LauncherForm : Form
 {
+    public static bool HasBundledPayload() => File.Exists(Path.Combine(AppContext.BaseDirectory, "payload", "version.txt"));
     private readonly string root = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "MerlinTraducoes", "LittleWitch");
     private readonly string payloadRoot = AppContext.BaseDirectory;
     private readonly Label status = new() { AutoSize = false, Height = 46, TextAlign = ContentAlignment.MiddleLeft };
@@ -45,7 +48,8 @@ internal sealed class LauncherForm : Form
         play.Enabled = false;
         SetProgress("Preparando a verificacao...", 1);
         await Task.Yield();
-        try { await Task.Run(EnsurePayload); }
+        var installerProgress = new Progress<(string Text, int Value)>(update => SetProgress(update.Text, update.Value));
+        try { await Task.Run(() => EnsurePayload(installerProgress)); }
         catch (Exception error)
         {
             play.Enabled = true;
@@ -252,21 +256,50 @@ internal sealed class LauncherForm : Form
     }
     private static string Hash(string path) => Convert.ToHexString(SHA256.HashData(File.ReadAllBytes(path)));
 
-    private void EnsurePayload()
+    private void EnsurePayload(IProgress<(string Text, int Value)> progressReporter)
     {
         var sourceRoot = Path.Combine(payloadRoot, "payload");
         var sourceVersion = Path.Combine(sourceRoot, "version.txt");
         if (!File.Exists(sourceVersion)) throw new InvalidOperationException("O pacote interno do launcher não foi encontrado. Baixe o Launcher.exe novamente.");
         var targetVersion = Path.Combine(root, "version.txt");
         if (File.Exists(targetVersion) && File.ReadAllText(targetVersion) == File.ReadAllText(sourceVersion)) return;
-        foreach (var source in Directory.EnumerateFiles(sourceRoot, "*", SearchOption.AllDirectories))
+        var files = Directory.EnumerateFiles(sourceRoot, "*", SearchOption.AllDirectories).ToList();
+        var totalBytes = files.Sum(path => new FileInfo(path).Length);
+        long copiedBytes = 0;
+        for (var index = 0; index < files.Count; index++)
         {
+            var source = files[index];
             var relative = Path.GetRelativePath(sourceRoot, source);
             var target = Path.Combine(root, relative);
             Directory.CreateDirectory(Path.GetDirectoryName(target)!);
-            File.Copy(source, target, true);
+            var sourceLength = new FileInfo(source).Length;
+            progressReporter.Report(($"Preparando componentes internos {index + 1}/{files.Count} ({FormatSize(copiedBytes)}/{FormatSize(totalBytes)})...", Math.Clamp(2 + (int)(18d * copiedBytes / Math.Max(1, totalBytes)), 2, 20)));
+            CopyFileWithProgress(source, target, bytesThisFile =>
+            {
+                var done = copiedBytes + bytesThisFile;
+                progressReporter.Report(($"Preparando componentes internos {index + 1}/{files.Count} ({FormatSize(done)}/{FormatSize(totalBytes)})...", Math.Clamp(2 + (int)(18d * done / Math.Max(1, totalBytes)), 2, 20)));
+            });
+            copiedBytes += sourceLength;
         }
     }
+
+    private static void CopyFileWithProgress(string source, string destination, Action<long> report)
+    {
+        const int bufferSize = 1024 * 1024;
+        using var input = new FileStream(source, FileMode.Open, FileAccess.Read, FileShare.Read, bufferSize, FileOptions.SequentialScan);
+        using var output = new FileStream(destination, FileMode.Create, FileAccess.Write, FileShare.None, bufferSize, FileOptions.SequentialScan);
+        var buffer = new byte[bufferSize];
+        long copied = 0;
+        int read;
+        while ((read = input.Read(buffer, 0, buffer.Length)) > 0)
+        {
+            output.Write(buffer, 0, read);
+            copied += read;
+            report(copied);
+        }
+    }
+
+    private static string FormatSize(long bytes) => $"{bytes / 1024d / 1024d:F0} MB";
 
     private static Image? LoadHero()
     {
