@@ -30,13 +30,7 @@ Publish-Standalone (Join-Path $Raiz "tools\launcher\LittleWitch.Launcher.csproj"
 
 Get-ChildItem -LiteralPath $destination -Force | Where-Object { $_.Name -ne "LittleWitch.Launcher.exe" } | Remove-Item -Force -Recurse
 
-$zip = Join-Path $Raiz "dist\Little_Witch_in_the_Woods_PT-BR_AutoUpdater.zip"
-if (Test-Path -LiteralPath $zip) { Remove-Item -LiteralPath $zip -Force }
-Compress-Archive -Path $destination -DestinationPath $zip -Force
-Write-Host "Pacote Nexus pronto: $zip"
-
-$manual = Join-Path $Raiz "dist\Little_Witch_in_the_Woods_PT-BR_Instalacao_Manual"
-if (Test-Path -LiteralPath $manual) { Remove-Item -LiteralPath $manual -Recurse -Force }
+$manual = Join-Path $destination "INSTALACAO_MANUAL"
 $manualBundles = Join-Path $manual "LWIW_Data\StreamingAssets\aa\StandaloneWindows64"
 New-Item -ItemType Directory -Path $manualBundles -Force | Out-Null
 Copy-Item -LiteralPath (Join-Path $Raiz "atualizacao\staging\resources.assets") -Destination (Join-Path $manual "LWIW_Data\resources.assets") -Force
@@ -53,7 +47,21 @@ nao reutilize este ZIP: baixe uma nova versao ou use o Launcher.exe.
 
 Para desfazer, use "Verificar integridade dos arquivos" na Steam.
 '@ | Set-Content -LiteralPath (Join-Path $manual "LEIA-ME - INSTALACAO MANUAL.txt") -Encoding utf8
-$manualZip = Join-Path $Raiz "dist\Little_Witch_in_the_Woods_PT-BR_Instalacao_Manual.zip"
-if (Test-Path -LiteralPath $manualZip) { Remove-Item -LiteralPath $manualZip -Force }
-Compress-Archive -Path $manual -DestinationPath $manualZip -Force
-Write-Host "Pacote manual pronto: $manualZip"
+@'
+LITTLE WITCH IN THE WOODS — TRADUCAO PT-BR
+
+Este ZIP oferece duas formas de instalar:
+
+1. RECOMENDADO: abra LittleWitch.Launcher.exe. Ele tem tudo embutido, mostra
+   imagem/loading, cria backup e se adapta a atualizacoes do jogo.
+2. SEM EXE: leia INSTALACAO_MANUAL\LEIA-ME - INSTALACAO MANUAL.txt e copie os
+   arquivos dessa pasta para o jogo. Ela vale somente para a versao atual.
+
+Quando surgirem textos novos, o launcher oferece manter em ingles (mais fiel ate
+a revisao) ou traducao automatica provisoria, com progresso e estimativa. A opcao
+automatica usa internet somente depois da sua confirmacao.
+'@ | Set-Content -LiteralPath (Join-Path $destination "LEIA-ME.txt") -Encoding utf8
+$zip = Join-Path $Raiz "dist\Little_Witch_in_the_Woods_PT-BR_AutoUpdater.zip"
+if (Test-Path -LiteralPath $zip) { Remove-Item -LiteralPath $zip -Force }
+Compress-Archive -Path $destination -DestinationPath $zip -Force
+Write-Host "Pacote Nexus pronto: $zip"
