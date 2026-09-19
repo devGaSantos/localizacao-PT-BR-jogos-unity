@@ -266,6 +266,14 @@ internal sealed class LauncherForm : Form
         var files = Directory.EnumerateFiles(sourceRoot, "*", SearchOption.AllDirectories).ToList();
         var totalBytes = files.Sum(path => new FileInfo(path).Length);
         long copiedBytes = 0;
+        var lastReportedProgress = -1;
+        void ReportProgress(long done, int fileIndex)
+        {
+            var value = Math.Clamp(2 + (int)(18d * done / Math.Max(1, totalBytes)), 2, 20);
+            if (value == lastReportedProgress && done != totalBytes) return;
+            lastReportedProgress = value;
+            progressReporter.Report(($"Preparando componentes internos {fileIndex + 1}/{files.Count} ({FormatSize(done)}/{FormatSize(totalBytes)})...", value));
+        }
         for (var index = 0; index < files.Count; index++)
         {
             var source = files[index];
@@ -273,14 +281,11 @@ internal sealed class LauncherForm : Form
             var target = Path.Combine(root, relative);
             Directory.CreateDirectory(Path.GetDirectoryName(target)!);
             var sourceLength = new FileInfo(source).Length;
-            progressReporter.Report(($"Preparando componentes internos {index + 1}/{files.Count} ({FormatSize(copiedBytes)}/{FormatSize(totalBytes)})...", Math.Clamp(2 + (int)(18d * copiedBytes / Math.Max(1, totalBytes)), 2, 20)));
-            CopyFileWithProgress(source, target, bytesThisFile =>
-            {
-                var done = copiedBytes + bytesThisFile;
-                progressReporter.Report(($"Preparando componentes internos {index + 1}/{files.Count} ({FormatSize(done)}/{FormatSize(totalBytes)})...", Math.Clamp(2 + (int)(18d * done / Math.Max(1, totalBytes)), 2, 20)));
-            });
+            ReportProgress(copiedBytes, index);
+            CopyFileWithProgress(source, target, bytesThisFile => ReportProgress(copiedBytes + bytesThisFile, index));
             copiedBytes += sourceLength;
         }
+        ReportProgress(totalBytes, files.Count - 1);
     }
 
     private static void CopyFileWithProgress(string source, string destination, Action<long> report)
