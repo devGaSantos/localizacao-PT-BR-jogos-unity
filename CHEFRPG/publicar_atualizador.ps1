@@ -35,6 +35,26 @@ Copy-Item -LiteralPath (Join-Path $Raiz "tools\launcher\assets\hero.png") -Desti
 Copy-Item -LiteralPath (Join-Path $Raiz "memoria.json") -Destination (Join-Path $destino "memoria.json") -Force
 Copy-Item -Path (Join-Path $Raiz "publico\*") -Destination $destino -Recurse -Force
 
+# Alternativa para instalacao sem executar o launcher. O asset e o ultimo gerado
+# para a versao de Chef RPG usada nesta publicacao.
+$manualData = Join-Path $destino "INSTALACAO_MANUAL\Chef RPG_Data"
+New-Item -ItemType Directory -Path $manualData -Force | Out-Null
+Copy-Item -LiteralPath (Join-Path $Raiz "atualizacao\staging\resources.assets") -Destination (Join-Path $manualData "resources.assets") -Force
+@'
+INSTALACAO MANUAL — CHEF RPG PT-BR
+
+1. Feche Chef RPG e a Steam.
+2. Na Steam, abra Gerenciar > Procurar arquivos locais.
+3. Copie o CONTEUDO desta pasta para a pasta raiz de Chef RPG.
+4. Confirme a substituicao de Chef RPG_Data\resources.assets.
+
+Este arquivo foi gerado para a versao do jogo usada nesta publicacao. Depois de
+uma atualizacao da Steam, NAO o copie novamente: use ChefRpg.Launcher.exe ou
+aguarde o proximo pacote oficial da traducao.
+
+Para desfazer, use "Verificar integridade dos arquivos" na Steam.
+'@ | Set-Content -LiteralPath (Join-Path $destino "INSTALACAO_MANUAL\LEIA-ME - INSTALACAO MANUAL.txt") -Encoding utf8
+
 $zip = Join-Path $Raiz "dist\Chef_RPG_PT-BR_AutoUpdater.zip"
 if (Test-Path -LiteralPath $zip) { Remove-Item -LiteralPath $zip -Force }
 Compress-Archive -Path $destino -DestinationPath $zip -Force
